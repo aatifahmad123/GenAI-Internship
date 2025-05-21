@@ -1,21 +1,21 @@
 Chirp3 HD Voices
 
 Achernar: Female (energetic)
-Achird: Male (natural) *C
-Algenib: Male (calm)
+Achird: Male (natural) 
+Algenib: Male (calm) 
 Algieba: Male (natural)
-Alnilam: Male (natural)
-Aoede: Female (natural) *A
+Alnilam: Male (natural) 
+Aoede: Female (natural) 
 Autonoe: Female (natural)
-Callirhoe: Female (natural)
+Callirhoe: Female (natural) 
 Charon: Male (deep)
-Despina: Female (childish)
+Despina: Female (childish) 
 Enceladus: Male (deep)
 Erinome: Female (natural)
 Fenrir: Male (childish)
 Gacrux: Female (aged)
-Lapetus: Male (natural)
-Kore: Female (natural)
+Lapetus: Male (natural) *C
+Kore: Female (natural) *A
 Laomedeia: Female (natural)
 Leda: Female (natural)
 Orus: Male (natural)

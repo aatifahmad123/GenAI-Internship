@@ -150,7 +150,7 @@
         },
         {
           "speaker": "Customer",
-          "text": "It’s 9876543210. This is so annoying, I need to transfer money today!"
+          "text": "It’s 970456796. This is so annoying, I need to transfer money today!"
         },
         {
           "speaker": "RM",
@@ -201,7 +201,7 @@
         },
         {
           "speaker": "Customer",
-          "text": "It’s 123456789. I’ve been paying on time, why’s this happening?"
+          "text": "It’s 3716388694. I’ve been paying on time, why’s this happening?"
         },
         {
           "speaker": "RM",
@@ -252,7 +252,7 @@
       "conversation": [
         {
           "speaker": "Customer",
-          "text": "Yo, my debit card got declined at a store today. What’s the deal?"
+          "text": "Hello, my debit card got declined at a store today. What’s the deal?"
         },
         {
           "speaker": "RM",
