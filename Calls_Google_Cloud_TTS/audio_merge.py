@@ -1,8 +1,8 @@
 from pydub import AudioSegment
 
-audio_files_folder = "call25/audios"
+audio_files_folder = "call27/audios"
 files = [audio_files_folder + "/synthesis(0).wav", audio_files_folder + "/synthesis(1).wav", audio_files_folder + "/synthesis(2).wav", audio_files_folder + "/synthesis(3).wav", audio_files_folder + "/synthesis(4).wav", audio_files_folder + "/synthesis(5).wav"]
-combined_audio_file = "call25/call25.wav"
+combined_audio_file = "call27/call27.wav"
 
 def merge_audio(files):
     # Initialize an empty AudioSegment

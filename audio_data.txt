@@ -1,17 +1,17 @@
 Chirp3 HD Voices
 
 Achernar: Female (energetic)
-Achird: Male (natural) 
+Achird: Male (natural)
 Algenib: Male (calm)
 Algieba: Male (natural)
-Alnilam: Male (natural) 
-Aoede: Female (natural) 
+Alnilam: Male (natural) *C
+Aoede: Female (natural) *A
 Autonoe: Female (natural)
 Callirhoe: Female (natural)
 Charon: Male (deep)
 Despina: Female (childish) 
 Enceladus: Male (deep) 
-Erinome: Female (natural)
+Erinome: Female (natural) 
 Fenrir: Male (childish)
 Gacrux: Female (aged)
 Lapetus: Male (natural)
@@ -23,8 +23,8 @@ Puck: Male (natural)
 Pulcherrima: Male (natural, northeastern) 
 Rasalgethi: Male (natural) 
 Sadachbia: Male (natural) 
-Sadaltager: Male (natural) *C
-Schedar: Male (natural, sharp) *A
+Sadaltager: Male (natural) 
+Schedar: Male (natural, sharp) 
 Sulafat: Female (natural)
 Umbriel: Male (natural)
 Vindemiatrix: Female (deep)
