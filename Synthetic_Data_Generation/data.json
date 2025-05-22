@@ -837,7 +837,7 @@
         },
         {
             "speaker": "Customer",
-            "text": "It’s 456789123. I paid on time, so why’s my money locked?"
+            "text": "It’s five four six seven one nine eight three two. I paid on time, so why’s my money locked?. I paid on time, so why’s my money locked?"
         },
         {
             "speaker": "RM",
@@ -892,7 +892,7 @@
         },
         {
             "speaker": "Customer",
-            "text": "It’s ending in 1234. I need this sorted soon."
+            "text": "It’s ending in seven eight six four. I need this sorted soon."
         },
         {
             "speaker": "RM",
@@ -1057,7 +1057,7 @@
         },
         {
             "speaker": "Customer",
-            "text": "It’s 789123456. I just want this done quickly."
+            "text": "It’s nine five five two nine four seven eight eight two. I just want this done quickly."
         },
         {
             "speaker": "RM",
@@ -1112,7 +1112,7 @@
         },
         {
             "speaker": "Customer",
-            "text": "It’s 321654987. What do I need to do next?"
+            "text": "It’s three two one, six five four, nine eight, seven one. What do I need to do next?"
         },
         {
             "speaker": "RM",
@@ -1222,7 +1222,7 @@
         },
         {
             "speaker": "Customer",
-            "text": "It’s 456123789. I don’t understand why this is so complicated."
+            "text": "It’s eight eight, seven three, six zero, one eight, zero three. I don’t understand why this is so complicated."
         },
         {
             "speaker": "RM",
@@ -1332,7 +1332,7 @@
         },
         {
             "speaker": "Customer",
-            "text": "Yes, it ends in 5678. Can you activate it now?"
+            "text": "Yes, it ends in three two eight four. Can you activate it now?"
         },
         {
             "speaker": "RM",
@@ -1387,7 +1387,7 @@
         },
         {
             "speaker": "Customer",
-            "text": "It’s 123789456. I never signed up for any extra fees!"
+            "text": "It’s six nine zero, six one nine, zero eight, five two. I never signed up for any extra fees!"
         },
         {
             "speaker": "RM",
