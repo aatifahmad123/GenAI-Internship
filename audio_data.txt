@@ -4,8 +4,8 @@ Achernar: Female (energetic)
 Achird: Male (natural)
 Algenib: Male (calm)
 Algieba: Male (natural)
-Alnilam: Male (natural) *C
-Aoede: Female (natural) *A
+Alnilam: Male (natural) 
+Aoede: Female (natural)
 Autonoe: Female (natural)
 Callirhoe: Female (natural)
 Charon: Male (deep)
@@ -20,8 +20,8 @@ Laomedeia: Female (natural)
 Leda: Female (natural) 
 Orus: Male (natural) 
 Puck: Male (natural) 
-Pulcherrima: Male (natural, northeastern) 
-Rasalgethi: Male (natural) 
+Pulcherrima: Male (natural, northeastern) *C
+Rasalgethi: Male (natural) *A
 Sadachbia: Male (natural) 
 Sadaltager: Male (natural) 
 Schedar: Male (natural, sharp) 
