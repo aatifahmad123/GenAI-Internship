@@ -1772,7 +1772,7 @@
         },
         {
             "speaker": "Customer",
-            "text": "It’s 654321987. I don’t know why it’s not working."
+            "text": "It’s six five, four three, two one, nine eight seven. I don’t know why it’s not working."
         },
         {
             "speaker": "RM",
@@ -1823,11 +1823,11 @@
         },
         {
             "speaker": "RM",
-            "text": "I apologize for the delay, sir      sir. Can you provide your application ID to check the status?"
+            "text": "I apologize for the delay, sir. Can you provide your application ID to check the status?"
         },
         {
             "speaker": "Customer",
-            "text": "It’s BL789456. I need this loan ASAP!"
+            "text": "It’s BL seven eight, nine four, five six. I need this loan ASAP!"
         },
         {
             "speaker": "RM",
@@ -1937,7 +1937,7 @@
         },
         {
             "speaker": "Customer",
-            "text": "It’s 321987654. This is my savings, not some loan!"
+            "text": "It’s three two one, nine eight seven, six five, four eight. This is my savings, not some loan!"
         },
         {
             "speaker": "RM",
