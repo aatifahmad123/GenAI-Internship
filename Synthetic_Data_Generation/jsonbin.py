@@ -2,6 +2,7 @@ import requests
 from dotenv import load_dotenv
 import os
 
+# loading api keys from env
 load_dotenv()
 
 url = 'https://api.jsonbin.io/v3/b/68284a178561e97a5015a4e9/latest'

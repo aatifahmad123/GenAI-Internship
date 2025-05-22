@@ -2,6 +2,7 @@ from openai import OpenAI
 from dotenv import load_dotenv
 import os
 
+# loading api keys from env
 load_dotenv()
 
 YOUR_API_KEY = os.getenv("PERPLEXITY_API_KEY")
@@ -24,7 +25,7 @@ messages = [
 
 client = OpenAI(api_key=YOUR_API_KEY, base_url="https://api.perplexity.ai")
 
-# chat completion without streaming
+# chat completion endpoint
 response = client.chat.completions.create(
     model="sonar-pro",
     messages=messages,
