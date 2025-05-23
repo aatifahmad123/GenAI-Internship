@@ -18,7 +18,7 @@ messages = [
     {   
         "role": "user",
         "content": (
-            "How many stars are in the universe?"
+            "What is CIBIL score? "
         ),
     },
 ]
