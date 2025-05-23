@@ -2542,7 +2542,7 @@
         },
         {
             "speaker": "Customer",
-            "text": "It’s 901234567. This could mess up my credit score!"
+            "text": "It’s nine zero, one two, four eight, six five, seven seven. This could mess up my credit score!"
         },
         {
             "speaker": "RM",
@@ -2597,7 +2597,7 @@
         },
         {
             "speaker": "Customer",
-            "text": "Ends in 4567, from last week. I didn’t buy anything!"
+            "text": "Ends in four four six five, from last week. I didn’t buy anything!"
         },
         {
             "speaker": "RM",
@@ -2660,7 +2660,7 @@
         },
         {
             "speaker": "Customer",
-            "text": "It’s 9876543210. This is so frustrating!"
+            "text": "It’s nine nine, six three, seven four, one five, two zero. This is so frustrating!"
         },
         {
             "speaker": "RM",
@@ -2762,7 +2762,7 @@
         },
         {
             "speaker": "Customer",
-            "text": "It’s 678901234. Can we do it quickly?"
+            "text": "It’s six seven, eight nine, zero one, two three, four four. Can we do it quickly?"
         },
         {
             "speaker": "RM",

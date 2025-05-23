@@ -5,6 +5,7 @@ import base64
 from pydub import AudioSegment
 
 def count_directories(path):
+
     '''
     Count the number of directories in the given path. This will give me current call id.
     '''
@@ -24,12 +25,18 @@ GCLOUD_ACCESS_TOKEN = os.getenv("GCLOUD_ACCESS_TOKEN")
 if not GCLOUD_ACCESS_TOKEN:
     raise ValueError("GCLOUD_ACCESS_TOKEN not found")
 
+conversation = [
+    "I set up a recurring deposit, and it’s so convenient! How do I increase the amount?",
+    "Glad it’s working well, sir! Can you share your account number?",
+    "It’s six seven, eight nine, zero one, two three four four. Can we do it quickly?",
+    "You’ll need to submit a request to modify the RD. I’ll send the form to your email.",
+    "Awesome, thanks! You guys make banking easy.",
+    "Thank you, sir! The form’s sent, and I’ll follow up once it’s processed."
+]
 
-conversation = ["I need to update the nominee for my savings account. How do I do that?", "I can assist, sir. Can you provide your account number?", "It’s three four, six six, nine one, eight six, five five. I want to add my son as the nominee.", "You’ll need to submit a nominee update form. I’ll send it to your registered email.", "Forms again? Can’t you just do it over the phone?", "I’m sorry, sir, but the form is required for verification. I’ll ensure it’s processed quickly."]
-
-# Define customer and agent voices
-customer_voice = "en-IN-Chirp3-HD-Achird"
-agent_voice = "en-IN-Chirp3-HD-Achernar"
+# set customer and agent voices
+customer_voice = "en-IN-Chirp3-HD-Algenib"
+agent_voice = "en-IN-Chirp3-HD-Aoede"
 
 def generate_and_save_audio(text, audio_voice, filename):
 
@@ -93,6 +100,7 @@ for i in range(len(conversation)):
 
 print("All audios generated and saved successfully.")
 
+# Now, merge all the audio files into a single audio file
 audio_files_folder = f'call{current_call_id}/audios'
 files = [f"{audio_files_folder}/synthesis({i}).wav" for i in range(6)]
 combined_audio_file = f'call{current_call_id}/call{current_call_id}.wav'
