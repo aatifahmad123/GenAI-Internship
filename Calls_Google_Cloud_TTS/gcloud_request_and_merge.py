@@ -81,19 +81,15 @@ def generate_and_save_audio(text, audio_voice, filename):
 # loop through the conversation and generate audio for each line
 for i in range(len(conversation)):
 
-    filename = ""
+    filename = f"call{current_call_id}/audios/synthesis({i}).wav"
     audio_voice = ""
-    text = ""
+    text = conversation[i]
 
     if i % 2 == 0:
-        filename = f"call{current_call_id}/audios/synthesis({i}).wav"
         audio_voice = customer_voice
-        text = conversation[i]
 
     else:
-        filename = f"call{current_call_id}/audios/synthesis({i}).wav"
         audio_voice = agent_voice
-        text = conversation[i]
     
     generate_and_save_audio(text, audio_voice, filename)
 
@@ -102,7 +98,7 @@ print("All audios generated and saved successfully.")
 
 # Now, merge all the audio files into a single audio file
 audio_files_folder = f'call{current_call_id}/audios'
-files = [f"{audio_files_folder}/synthesis({i}).wav" for i in range(6)]
+files = [f"{audio_files_folder}/synthesis({i}).wav" for i in range(len(conversation))]
 combined_audio_file = f'call{current_call_id}/call{current_call_id}.wav'
 
 def merge_audio(files):
