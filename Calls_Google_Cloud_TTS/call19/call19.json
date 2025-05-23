@@ -1,0 +1,28 @@
+{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I want to close my savings account. The branch keeps delaying it!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry for the delay, ma’am. Can you share your account number so I can assist?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s nine five five two nine four seven eight eight two. I just want this done quickly."
+    },
+    {
+      "speaker": "RM",
+      "text": "I understand. There’s a pending balance of ₹500. Would you like to transfer it or receive a cheque?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Transfer it to my other bank. This is taking too long!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’ve initiated the closure and transfer. It’ll be completed in 3 days. I’ll send a confirmation."
+    }
+  ]
+}

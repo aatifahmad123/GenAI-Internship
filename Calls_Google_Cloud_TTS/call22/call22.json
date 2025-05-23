@@ -1,0 +1,28 @@
+{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I went to the branch to update my address, but they said it’s not done yet. Why?"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry for the delay, ma’am. Can you share your account number to check the status?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s eight eight, seven three, six zero, one eight, zero three. I don’t understand why this is so complicated."
+    },
+    {
+      "speaker": "RM",
+      "text": "I see the issue. The request wasn’t processed due to a missing signature. Can you submit a signed form?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Nobody told me about a form! Can you send it to me?"
+    },
+    {
+      "speaker": "RM",
+      "text": "Absolutely, I’ll email the form to your registered email. Please submit it, and I’ll expedite the update."
+    }
+  ]
+}

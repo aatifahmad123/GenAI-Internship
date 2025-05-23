@@ -1,0 +1,28 @@
+{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I requested a credit limit increase last week, and I haven’t heard back. What’s the hold-up?"
+    },
+    {
+      "speaker": "RM",
+      "text": "I apologize for the delay, ma’am. Can you provide your card number so I can check the request status?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s ending in seven eight six four. I need this sorted soon."
+    },
+    {
+      "speaker": "RM",
+      "text": "Thank you. Your request is under review. I’ll expedite it and confirm the new limit by tomorrow."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Tomorrow? Can’t you do it now? I’m planning a big purchase!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I understand. I’ve prioritized it, and you’ll get an update by end of day. Is that okay?"
+    }
+  ]
+}

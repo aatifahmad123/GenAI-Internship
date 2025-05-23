@@ -1,0 +1,28 @@
+{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "Hi! I just got my new credit card, and I’m so happy! How do I activate it?"
+    },
+    {
+      "speaker": "RM",
+      "text": "That’s great to hear, ma’am! You can activate it via the app or I can do it for you. Do you have the card number?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Yes, it ends in three two eight four. Can you activate it now?"
+    },
+    {
+      "speaker": "RM",
+      "text": "Absolutely. Your card is activated. You can start using it immediately."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Wow, that was fast! Thank you so much!"
+    },
+    {
+      "speaker": "RM",
+      "text": "You’re welcome! Let me know if you need help with anything else."
+    }
+  ]
+}

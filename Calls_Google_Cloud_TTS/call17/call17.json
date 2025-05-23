@@ -1,0 +1,28 @@
+{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I’m worried! My savings account shows a withdrawal I didn’t make. Is someone stealing my money?"
+    },
+    {
+      "speaker": "RM",
+      "text": "That’s alarming, sir. Can you confirm the transaction amount and date to investigate?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s ₹25,000, from yesterday. I never authorized this!"
+    },
+    {
+      "speaker": "RM",
+      "text": "Thank you. I’ve frozen your account to prevent further issues and will file a fraud report."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Please make sure my money’s safe. I’m really scared about this."
+    },
+    {
+      "speaker": "RM",
+      "text": "Your account is secure now, sir. We’ll reverse the transaction within 5-7 days and keep you updated."
+    }
+  ]
+}

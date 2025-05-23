@@ -1,0 +1,28 @@
+{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "You guys are ripping me off! My loan statement shows a late fee, but I paid on time!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry you’re upset, sir. Can you share your loan account number to verify the payment?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s 789456123. I paid ₹20,000 on the 5th! This is a scam!"
+    },
+    {
+      "speaker": "RM",
+      "text": "Thank you. I see the payment, but it was credited a day late due to an ECS mandate issue. I’ll waive the fee."
+    },
+    {
+      "speaker": "Customer",
+      "text": "You better! I’m not paying for your mistakes!"
+    },
+    {
+      "speaker": "RM",
+      "text": "The fee is waived, sir. You’ll see the updated statement in 24 hours. I apologize for the trouble."
+    }
+  ]
+}
