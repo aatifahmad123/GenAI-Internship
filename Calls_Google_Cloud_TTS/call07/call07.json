@@ -1,0 +1,32 @@
+{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I got a fraud alert on my card! Some ₹20,000 transaction I didn’t make!"
+    },
+    {
+      "speaker": "RM",
+      "text": "That’s concerning, sir. I’ll block your card immediately to prevent further misuse. Can you confirm the last four digits of your card?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s seven eight six six. I’m really worried… how did this happen?"
+    },
+    {
+      "speaker": "RM",
+      "text": "Your card is now blocked, and you’re safe. The transaction seems unauthorized. I’ll file a fraud report and issue a replacement card."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Thank you, but what about my money? Will I get it back?"
+    },
+    {
+      "speaker": "RM",
+      "text": "We’ll initiate a chargeback request. You should see the refund in 7-10 days, and I’ll follow up personally."
+    },
+    {
+      "speaker": "Customer",
+      "text": "I appreciate that. Please keep me updated."
+    }
+  ]
+}

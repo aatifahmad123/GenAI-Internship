@@ -1,0 +1,32 @@
+{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "Hello, I want to know how to link my Aadhaar to my savings account. Nobody at the branch helped me!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry for the inconvenience, ma’am. I can guide you through the process. Do you have your Aadhaar number handy?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Yes, it’s one two three four, five six seven eight, nine zero one two. But I don’t understand this online stuff."
+    },
+    {
+      "speaker": "RM",
+      "text": "No problem at all. You can visit the branch with your Aadhaar card, or I can send you a simple form to fill out and submit online. Which works better?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "The form sounds good. Can you send it to my email?"
+    },
+    {
+      "speaker": "RM",
+      "text": "Absolutely. I’ve sent the form to your registered email. Please check and let me know if you need help filling it out."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Thank you so much, that’s really helpful."
+    }
+  ]
+}

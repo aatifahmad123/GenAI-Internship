@@ -1,0 +1,28 @@
+{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "Hey, I just opened a savings account, and I’m loving the app! Just one quick question."
+    },
+    {
+      "speaker": "RM",
+      "text": "Glad you’re enjoying it, sir! What’s your question?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "How do I set up UPI? I want to start paying with my phone."
+    },
+    {
+      "speaker": "RM",
+      "text": "It’s simple. Go to the app’s UPI section, link your account, and set a UPI PIN. Want me to walk you through it?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Nah, I got it. That’s super easy. Thanks a lot!"
+    },
+    {
+      "speaker": "RM",
+      "text": "You’re welcome! Reach out if you need more help."
+    }
+  ]
+}

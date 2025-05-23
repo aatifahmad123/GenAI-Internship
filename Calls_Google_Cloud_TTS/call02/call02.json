@@ -1,0 +1,32 @@
+{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "Hello? I applied for a personal loan last month, but nobody’s told me what’s happening with it."
+    },
+    {
+      "speaker": "RM",
+      "text": "Good afternoon, ma’am. I’d be happy to check the status. Could you provide your application ID or full name?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s Priya Sharma. I don’t have any ID number… nobody gave me one!"
+    },
+    {
+      "speaker": "RM",
+      "text": "No worries, I can search by name. One moment… It looks like your application is under review due to a pending CIBIL score update."
+    },
+    {
+      "speaker": "Customer",
+      "text": "CIBIL? What’s that? Nobody told me about this!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I apologize for the confusion. CIBIL is your credit score, and we’re waiting for the latest report. I’ll escalate this to expedite the process."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Okay… please do it fast. I need the money soon."
+    }
+  ]
+}

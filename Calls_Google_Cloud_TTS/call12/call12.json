@@ -1,0 +1,32 @@
+{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "Hello, I want to know if my loan application got approved. It’s been weeks!"
+    },
+    {
+      "speaker": "RM",
+      "text": "Good morning, ma’am. Could you share your application ID or full name to check the status?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s Lakshmi Devi. I don’t have any ID number. The branch didn’t give me one."
+    },
+    {
+      "speaker": "RM",
+      "text": "No problem. I’ve found your application. It’s approved, but we need your KYC documents to proceed."
+    },
+    {
+      "speaker": "Customer",
+      "text": "KYC? What’s that? Why didn’t anyone tell me?"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry for the oversight. KYC means identity verification. I’ll send you a list of required documents via SMS."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Okay, please send it soon. I need the loan urgently."
+    }
+  ]
+}

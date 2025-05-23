@@ -1,0 +1,28 @@
+{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "Hi! I just opened my savings account, and I’m so excited! How do I set up NEFT transfers?"
+    },
+    {
+      "speaker": "RM",
+      "text": "That’s great to hear, ma’am! To set up NEFT, go to the app’s transfer section and add a beneficiary."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Oh, that sounds easy. Do I need anything special for it?"
+    },
+    {
+      "speaker": "RM",
+      "text": "Just the beneficiary’s account number and IFSC code. It takes 24 hours to activate."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Awesome, thanks! You made that super clear."
+    },
+    {
+      "speaker": "RM",
+      "text": "You’re welcome! Let me know if you need help with anything else."
+    }
+  ]
+}

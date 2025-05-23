@@ -1,0 +1,32 @@
+{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "Hi, I’m trying to get an EMI moratorium for my home loan, but your website’s so confusing!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry for the trouble, ma’am. I can assist you with the moratorium process. Can you share your loan account number?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s eight eight, seven three, six zero, one eight, two four. I just need a break for a couple of months."
+    },
+    {
+      "speaker": "RM",
+      "text": "Got it. I’ll check your eligibility. It looks like you qualify for a 3-month moratorium. Would you like me to proceed?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Yes, please! But will it affect my CIBIL score?"
+    },
+    {
+      "speaker": "RM",
+      "text": "Good question. A moratorium won’t directly impact your CIBIL score, but interest will accrue. I’ll send you a detailed email with the terms."
+    },
+    {
+      "speaker": "Customer",
+      "text": "That’s a relief. Thanks for clearing that up!"
+    }
+  ]
+}

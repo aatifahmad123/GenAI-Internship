@@ -1,0 +1,32 @@
+{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "Your bank’s cheating me! My EMI went up this month, and nobody told me!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry you feel that way, sir. Let’s review your loan account. Can you share your loan account number?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s three seven, one six, three eight, eight six, nine four. I’ve been paying on time, why’s this happening?"
+    },
+    {
+      "speaker": "RM",
+      "text": "Thank you. I see your loan has a floating interest rate, which increased due to RBI’s recent repo rate hike. I can explain the EMI recalculation if you’d like."
+    },
+    {
+      "speaker": "Customer",
+      "text": "This is nonsense! You should’ve warned me! I want to speak to your manager!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I understand your concern, sir. I’ll escalate this to my supervisor, and we’ll explore an EMI moratorium option for you."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Better do it quick! I’m not paying extra!"
+    }
+  ]
+}
