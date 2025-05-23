@@ -25,10 +25,11 @@ if not GCLOUD_ACCESS_TOKEN:
     raise ValueError("GCLOUD_ACCESS_TOKEN not found")
 
 
-conversation = ["I got an overdraft facility on my account, and it’s a lifesaver! How do I increase the limit?", "Glad it’s helping, sir! Can you confirm your account number for the request?", "It’s seven eight, nine one, three two, four five, six eight. Can you make it quick?", "I’ll need your latest income proof to process the increase. Can you email it to us?", "Sure thing. This bank’s been great, by the way!", "Thank you, sir! Once we receive the documents, I’ll expedite the limit increase."]
+conversation = ["I need to update the nominee for my savings account. How do I do that?", "I can assist, sir. Can you provide your account number?", "It’s three four, six six, nine one, eight six, five five. I want to add my son as the nominee.", "You’ll need to submit a nominee update form. I’ll send it to your registered email.", "Forms again? Can’t you just do it over the phone?", "I’m sorry, sir, but the form is required for verification. I’ll ensure it’s processed quickly."]
 
-customer_voice = "en-IN-Chirp3-HD-Alnilam"
-agent_voice = "en-IN-Chirp3-HD-Puck"
+# Define customer and agent voices
+customer_voice = "en-IN-Chirp3-HD-Achird"
+agent_voice = "en-IN-Chirp3-HD-Achernar"
 
 def generate_and_save_audio(text, audio_voice, filename):
 
