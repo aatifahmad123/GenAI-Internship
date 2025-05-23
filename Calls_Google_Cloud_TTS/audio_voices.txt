@@ -2,8 +2,8 @@ Chirp3 HD Voices (Google Cloud Text to Speech)
 
 Achernar: Female (energetic) 
 Achird: Male (natural) 
-Algenib: Male (calm) *C
-Algieba: Male (natural) *A
+Algenib: Male (calm)
+Algieba: Male (natural)
 Alnilam: Male (natural) 
 Aoede: Female (natural)
 Autonoe: Female (natural) 

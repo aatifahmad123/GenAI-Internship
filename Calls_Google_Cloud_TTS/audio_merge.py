@@ -1,8 +1,11 @@
 from pydub import AudioSegment
 import os
 
-# get the id of the current call to extract the paths of audio files inside
 def count_directories(path):
+    '''
+    Count the number of directories in the given path. This will give me current call id.
+    '''
+
     return sum(
         os.path.isdir(os.path.join(path, entry))
         for entry in os.listdir(path)
@@ -16,6 +19,10 @@ files = [f"{audio_files_folder}/synthesis({i}).wav" for i in range(6)]
 combined_audio_file = f'call{current_call_id}/call{current_call_id}.wav'
 
 def merge_audio(files):
+    '''
+    Merge multiple audio files into a single audio file.
+    '''
+
     # Initialize an  AudioSegment
     combined = AudioSegment.empty()
 
