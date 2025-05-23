@@ -1,0 +1,28 @@
+{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I set up a recurring deposit, and it’s so convenient! How do I increase the amount?"
+    },
+    {
+      "speaker": "RM",
+      "text": "Glad it’s working well, sir! Can you share your account number?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s six seven, eight nine, zero one, two three, four four. Can we do it quickly?"
+    },
+    {
+      "speaker": "RM",
+      "text": "You’ll need to submit a request to modify the RD. I’ll send the form to your email."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Awesome, thanks! You guys make banking easy."
+    },
+    {
+      "speaker": "RM",
+      "text": "Thank you, sir! The form’s sent, and I’ll follow up once it’s processed."
+    }
+  ]
+}

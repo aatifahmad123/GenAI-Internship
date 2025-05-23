@@ -1,0 +1,28 @@
+{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I’m freaking out! My loan payment is due, but I can’t access my account to pay it!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m here to help, ma’am. Can you confirm your loan account number?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s seven three, six six zero, one eight zero, nine one. What if I miss the payment? Will it hurt my credit?"
+    },
+    {
+      "speaker": "RM",
+      "text": "No need to worry. I can process a manual payment or extend the due date. Which works better?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Manual payment, please. I don’t want any trouble with my CIBIL score."
+    },
+    {
+      "speaker": "RM",
+      "text": "Done. The payment is processed, and your account is updated. You’re all set."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I need to open a demat account. Can you help me set it up?"
+    },
+    {
+      "speaker": "RM",
+      "text": "Of course, sir. Do you have your PAN card and KYC documents ready?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Yeah, I do. How long’s this gonna take?"
+    },
+    {
+      "speaker": "RM",
+      "text": "It takes 2-3 days to process. I’ll send you a form to fill out and submit online."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Alright, send it now. I wanna start trading soon!"
+    },
+    {
+      "speaker": "RM",
+      "text": "The form’s sent to your email, sir. I’ll follow up once it’s processed."
+    }
+  ]
+}

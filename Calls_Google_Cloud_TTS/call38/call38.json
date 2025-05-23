@@ -1,0 +1,28 @@
+{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "My card payment’s stuck on ‘processing’ for two days! What’s the deal?"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry for the delay, sir. Can you share the transaction ID or card number?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Card ends in six seven eight nine. I don’t get why it’s taking so long!"
+    },
+    {
+      "speaker": "RM",
+      "text": "It seems the payment gateway had a glitch. I’ll manually process it now."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Man, this is annoying. Just get it done!"
+    },
+    {
+      "speaker": "RM",
+      "text": "It’s processed, sir. The payment’s complete, and you’ll see it in your statement."
+    }
+  ]
+}

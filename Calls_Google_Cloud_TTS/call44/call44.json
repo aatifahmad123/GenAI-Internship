@@ -1,0 +1,28 @@
+{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I just got my debit card, and it’s awesome! How do I set up a UPI mandate?"
+    },
+    {
+      "speaker": "RM",
+      "text": "Great to hear, ma’am! You can set up a UPI mandate via the app’s payment section."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Nice! Is it for auto-payments, like bills?"
+    },
+    {
+      "speaker": "RM",
+      "text": "Exactly. You link your card and approve recurring payments. Want me to walk you through?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "I’ll try it myself. Thanks, you’re a star!"
+    },
+    {
+      "speaker": "RM",
+      "text": "You’re welcome! Call back if you need help."
+    }
+  ]
+}

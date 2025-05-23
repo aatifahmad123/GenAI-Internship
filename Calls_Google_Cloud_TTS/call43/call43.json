@@ -1,0 +1,28 @@
+{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "You’re charging me ₹1,000 for nothing! My account statement’s a mess!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry for the trouble, sir. Can you share your account number to check the charge?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s eight nine zero, one two three, four five, six three. Fix this, or I’m closing my account!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I see an erroneous ATM withdrawal fee. I’ll reverse it and update your statement."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Erroneous? That’s your fault! You better refund it now!"
+    },
+    {
+      "speaker": "RM",
+      "text": "The refund is processed, sir. You’ll see it in 24 hours. I apologize for the error."
+    }
+  ]
+}

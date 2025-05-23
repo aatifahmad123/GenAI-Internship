@@ -1,0 +1,28 @@
+{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I tried checking my loan balance online, but it says ‘account not found.’ Help!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry for the trouble, ma’am. Can you confirm your loan account number?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s two three nine, eight seven four, one one five eight. I don’t know why it’s not showing up."
+    },
+    {
+      "speaker": "RM",
+      "text": "It seems your account isn’t linked to the portal. I’ll link it now and send you login instructions."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Okay, but I’m not good with these online things. Will it be easy?"
+    },
+    {
+      "speaker": "RM",
+      "text": "It’s very simple, ma’am. I’ll also send a guide, and you can call me if you need help."
+    }
+  ]
+}

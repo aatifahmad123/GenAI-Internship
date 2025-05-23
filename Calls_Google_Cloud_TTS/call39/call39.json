@@ -1,0 +1,28 @@
+{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "My loan EMI’s higher this month! Nobody told me about this!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry for the surprise, ma’am. Can you share your loan account number?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s four six eight, seven nine three, one one, two eight. Why’s it more now?"
+    },
+    {
+      "speaker": "RM",
+      "text": "Your loan has a floating rate, and the RBI raised rates. I can check for a fixed-rate option."
+    },
+    {
+      "speaker": "Customer",
+      "text": "I don’t understand this rate stuff. Can you explain it simply?"
+    },
+    {
+      "speaker": "RM",
+      "text": "Of course. A floating rate changes with market rates. I’ll send you a comparison of fixed vs. floating."
+    }
+  ]
+}

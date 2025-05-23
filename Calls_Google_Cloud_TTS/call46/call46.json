@@ -1,0 +1,28 @@
+{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I’m panicking! My loan account shows a missed payment, but I paid it!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m here to help, ma’am. Can you confirm your loan account number?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s nine zero, one two, four eight, six five, seven seven. This could mess up my credit score!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I see the payment was delayed due to a processing error. I’ll update the status now."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Thank God! Please make sure it’s fixed."
+    },
+    {
+      "speaker": "RM",
+      "text": "It’s corrected, ma’am. Your account is up to date, and I’ll confirm with CIBIL."
+    }
+  ]
+}

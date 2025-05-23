@@ -1,0 +1,28 @@
+{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "Hello, I tried using the ATM, but it says my card’s invalid. What’s wrong?"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry for the trouble, ma’am. Can you share your account number to check the card status?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s six five, four three, two one, nine eight seven. I don’t know why it’s not working."
+    },
+    {
+      "speaker": "RM",
+      "text": "It seems your card was deactivated due to inactivity. I can issue a new one or reactivate it."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Reactivate it, please. I don’t understand why this happened."
+    },
+    {
+      "speaker": "RM",
+      "text": "It’s reactivated now, ma’am. You can use it immediately, and I’ll send a confirmation."
+    }
+  ]
+}

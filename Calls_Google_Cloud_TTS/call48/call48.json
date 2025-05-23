@@ -1,0 +1,28 @@
+{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I can’t log into my net banking. It says ‘wrong password,’ but I’m sure it’s right!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry for the issue, sir. Have you tried resetting your password?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Yeah, but I don’t get the OTP. What’s going on?"
+    },
+    {
+      "speaker": "RM",
+      "text": "Let’s verify your registered mobile number. Can you confirm it?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s nine nine, six three, seven four, one five, two zero. This is so frustrating!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’ve resent the OTP, sir. It’s fixed, and you should receive it now."
+    }
+  ]
+}

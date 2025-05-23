@@ -1,0 +1,28 @@
+{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I got a letter saying my loan’s overdue, but I paid it! What’s happening?"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry for the confusion, ma’am. Can you share your loan account number?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s two three, four six, five eight, seven nine, zero two. I don’t understand why I got this letter."
+    },
+    {
+      "speaker": "RM",
+      "text": "It seems the payment wasn’t reflected due to a system error. I’ll update it now."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Please do. I don’t want any trouble."
+    },
+    {
+      "speaker": "RM",
+      "text": "It’s updated, ma’am. You’re all clear, and I’ll send a confirmation."
+    }
+  ]
+}
