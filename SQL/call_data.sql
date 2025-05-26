@@ -1,0 +1,1798 @@
+create database icici_internship;
+
+use icici_internship;
+
+create table call_logs (
+    call_id int primary key,
+    conversation json
+);
+
+show tables;
+
+show databases;
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        1,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "Hey, I’ve been charged twice on my credit card for the same transaction! This is ridiculous!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m so sorry to hear that, Sir. Can you share the transaction details so I can check the chargeback status?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s from last week, uh, some restaurant bill… ₹5,200. I saw it twice on my statement!"
+    },
+    {
+      "speaker": "RM",
+      "text": "Got it. Let me pull up your account. It sounds like a duplicate charge; we can initiate a chargeback request right away."
+    },
+    {
+      "speaker": "Customer",
+      "text": "You better! I can’t keep paying for your mistakes!"
+    },
+    {
+      "speaker": "RM",
+      "text": "Absolutely, I understand your frustration. I’ve flagged this for a refund, and it should reflect in 5-7 business days."
+    }
+  ]
+}'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        2,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "Hello? I applied for a personal loan last month, but nobody’s told me what’s happening with it."
+    },
+    {
+      "speaker": "RM",
+      "text": "Good afternoon, ma’am. I’d be happy to check the status. Could you provide your application ID or full name?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s Priya Sharma. I don’t have any ID number… nobody gave me one!"
+    },
+    {
+      "speaker": "RM",
+      "text": "No worries, I can search by name. One moment… It looks like your application is under review due to a pending CIBIL score update."
+    },
+    {
+      "speaker": "Customer",
+      "text": "CIBIL? What’s that? Nobody told me about this!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I apologize for the confusion. CIBIL is your credit score, and we’re waiting for the latest report. I’ll escalate this to expedite the process."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Okay… please do it fast. I need the money soon."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        3,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "Hi, I can’t log into my savings account online. It keeps saying ‘invalid credentials’!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry for the trouble, ma’am. Have you tried resetting your password using the ‘Forgot Password’ link?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Yeah, I did that, but I’m not getting the OTP on my phone!"
+    },
+    {
+      "speaker": "RM",
+      "text": "Let’s verify your registered mobile number. Can you confirm the number linked to your account?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s nine seven, zero four, five six, seven nine, nine six. This is so annoying, I need to transfer money today!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I understand. It seems the OTP system is delayed. I’ll manually reset your access and send a temporary password. You’ll get it in 10 minutes."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Alright, thanks. Please make sure it works."
+    }
+  ]
+}'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        4,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "Your bank’s cheating me! My EMI went up this month, and nobody told me!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry you feel that way, sir. Let’s review your loan account. Can you share your loan account number?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s three seven, one six, three eight, eight six, nine four. I’ve been paying on time, why’s this happening?"
+    },
+    {
+      "speaker": "RM",
+      "text": "Thank you. I see your loan has a floating interest rate, which increased due to RBI’s recent repo rate hike. I can explain the EMI recalculation if you’d like."
+    },
+    {
+      "speaker": "Customer",
+      "text": "This is nonsense! You should’ve warned me! I want to speak to your manager!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I understand your concern, sir. I’ll escalate this to my supervisor, and we’ll explore an EMI moratorium option for you."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Better do it quick! I’m not paying extra!"
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        5,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "Hello, my debit card got declined at a store today. What’s the deal?"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry for the inconvenience, sir. Can you confirm if the card is active and the transaction amount?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s active! I used it yesterday. The amount was, like, ₹10,000."
+    },
+    {
+      "speaker": "RM",
+      "text": "Thank you. Let me check… It appears your account balance is below the transaction amount. Would you like to transfer funds now?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Oh, damn, really? Alright, let’s transfer from my savings."
+    },
+    {
+      "speaker": "RM",
+      "text": "Sure thing. I’ve initiated the transfer, and your card should work now. Anything else I can help with?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Nah, that’s it. Thanks, man!"
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        6,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "Hello, I want to know how to link my Aadhaar to my savings account. Nobody at the branch helped me!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry for the inconvenience, ma’am. I can guide you through the process. Do you have your Aadhaar number handy?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Yes, it’s one two three four, five six seven eight, nine zero one two. But I don’t understand this online stuff."
+    },
+    {
+      "speaker": "RM",
+      "text": "No problem at all. You can visit the branch with your Aadhaar card, or I can send you a simple form to fill out and submit online. Which works better?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "The form sounds good. Can you send it to my email?"
+    },
+    {
+      "speaker": "RM",
+      "text": "Absolutely. I’ve sent the form to your registered email. Please check and let me know if you need help filling it out."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Thank you so much, that’s really helpful."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        7,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I got a fraud alert on my card! Some ₹20,000 transaction I didn’t make!"
+    },
+    {
+      "speaker": "RM",
+      "text": "That’s concerning, sir. I’ll block your card immediately to prevent further misuse. Can you confirm the last four digits of your card?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s seven eight six six. I’m really worried… how did this happen?"
+    },
+    {
+      "speaker": "RM",
+      "text": "Your card is now blocked, and you’re safe. The transaction seems unauthorized. I’ll file a fraud report and issue a replacement card."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Thank you, but what about my money? Will I get it back?"
+    },
+    {
+      "speaker": "RM",
+      "text": "We’ll initiate a chargeback request. You should see the refund in 7-10 days, and I’ll follow up personally."
+    },
+    {
+      "speaker": "Customer",
+      "text": "I appreciate that. Please keep me updated."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        8,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "Hey, I just opened a savings account, and I’m loving the app! Just one quick question."
+    },
+    {
+      "speaker": "RM",
+      "text": "Glad you’re enjoying it, sir! What’s your question?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "How do I set up UPI? I want to start paying with my phone."
+    },
+    {
+      "speaker": "RM",
+      "text": "It’s simple. Go to the app’s UPI section, link your account, and set a UPI PIN. Want me to walk you through it?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Nah, I got it. That’s super easy. Thanks a lot!"
+    },
+    {
+      "speaker": "RM",
+      "text": "You’re welcome! Reach out if you need more help."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        9,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "Hi, I’m trying to get an EMI moratorium for my home loan, but your website’s so confusing!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry for the trouble, ma’am. I can assist you with the moratorium process. Can you share your loan account number?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s eight eight, seven three, six zero, one eight, two four. I just need a break for a couple of months."
+    },
+    {
+      "speaker": "RM",
+      "text": "Got it. I’ll check your eligibility. It looks like you qualify for a 3-month moratorium. Would you like me to proceed?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Yes, please! But will it affect my CIBIL score?"
+    },
+    {
+      "speaker": "RM",
+      "text": "Good question. A moratorium won’t directly impact your CIBIL score, but interest will accrue. I’ll send you a detailed email with the terms."
+    },
+    {
+      "speaker": "Customer",
+      "text": "That’s a relief. Thanks for clearing that up!"
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        10,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I’ve been trying to activate my new credit card for hours! It’s not working, do it now!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry for the delay, sir. Can you confirm the last four digits of your card so I can check the activation status?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s seven eight, nine zero. I followed all the steps, but it’s still not active!"
+    },
+    {
+      "speaker": "RM",
+      "text": "Thank you. It seems the activation request didn’t process. I’ll activate it manually now. Please wait a moment."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Hurry up! I need to use it today!"
+    },
+    {
+      "speaker": "RM",
+      "text": "It’s done, sir. Your card is active now. You can use it immediately. Would you like me to send a confirmation?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Finally! Yeah, send it."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        11,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I can’t set up my mobile banking! The app keeps crashing every time I try."
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry for the inconvenience, sir. Can you tell me which version of the app you’re using?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Uh, I don’t know… the latest one, I guess? I just downloaded it!"
+    },
+    {
+      "speaker": "RM",
+      "text": "Let’s try a quick fix. Please uninstall and reinstall the app, then use your registered mobile number to log in."
+    },
+    {
+      "speaker": "Customer",
+      "text": "This better work. I don’t have time for this!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I understand, sir. Once reinstalled, it should work. If not, I’ll escalate this to our tech team."
+    }
+  ]
+}'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        12,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "Hello, I want to know if my loan application got approved. It’s been weeks!"
+    },
+    {
+      "speaker": "RM",
+      "text": "Good morning, ma’am. Could you share your application ID or full name to check the status?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s Lakshmi Devi. I don’t have any ID number. The branch didn’t give me one."
+    },
+    {
+      "speaker": "RM",
+      "text": "No problem. I’ve found your application. It’s approved, but we need your KYC documents to proceed."
+    },
+    {
+      "speaker": "Customer",
+      "text": "KYC? What’s that? Why didn’t anyone tell me?"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry for the oversight. KYC means identity verification. I’ll send you a list of required documents via SMS."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Okay, please send it soon. I need the loan urgently."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        13,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "Your bank’s a mess! My credit card statement shows a ₹15,000 charge I never made!"
+    },
+    {
+      "speaker": "RM",
+      "text": "That’s concerning, sir. Can you confirm the date and merchant of the transaction?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s from two days ago, some online store. I didn’t buy anything!"
+    },
+    {
+      "speaker": "RM",
+      "text": "Thank you. This looks like a potential fraud. I’ll block your card and initiate a chargeback request."
+    },
+    {
+      "speaker": "Customer",
+      "text": "You better refund me fast! This is unacceptable!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I understand your frustration. The chargeback is filed, and you’ll see the refund in 7-10 days."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        14,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "Hi! I just opened my savings account, and I’m so excited! How do I set up NEFT transfers?"
+    },
+    {
+      "speaker": "RM",
+      "text": "That’s great to hear, ma’am! To set up NEFT, go to the app’s transfer section and add a beneficiary."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Oh, that sounds easy. Do I need anything special for it?"
+    },
+    {
+      "speaker": "RM",
+      "text": "Just the beneficiary’s account number and IFSC code. It takes 24 hours to activate."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Awesome, thanks! You made that super clear."
+    },
+    {
+      "speaker": "RM",
+      "text": "You’re welcome! Let me know if you need help with anything else."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        15,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I paid my loan EMI, but there’s a lien on my account! What’s going on?"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry for the confusion, sir. Can you share your loan account number to check the lien details?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s five four, six seven, one nine, eight three two. I paid on time, so why’s my money locked?. I paid on time, so why’s my money locked?"
+    },
+    {
+      "speaker": "RM",
+      "text": "I see the issue. The payment was processed, but a system error placed a lien. I’ll remove it now."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Please fix it today! I need to withdraw cash."
+    },
+    {
+      "speaker": "RM",
+      "text": "It’s resolved, sir. The lien is lifted, and your funds are available. I’ll send a confirmation."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        16,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I requested a credit limit increase last week, and I haven’t heard back. What’s the hold-up?"
+    },
+    {
+      "speaker": "RM",
+      "text": "I apologize for the delay, ma’am. Can you provide your card number so I can check the request status?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s ending in seven eight six four. I need this sorted soon."
+    },
+    {
+      "speaker": "RM",
+      "text": "Thank you. Your request is under review. I’ll expedite it and confirm the new limit by tomorrow."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Tomorrow? Can’t you do it now? I’m planning a big purchase!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I understand. I’ve prioritized it, and you’ll get an update by end of day. Is that okay?"
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        17,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I’m worried! My savings account shows a withdrawal I didn’t make. Is someone stealing my money?"
+    },
+    {
+      "speaker": "RM",
+      "text": "That’s alarming, sir. Can you confirm the transaction amount and date to investigate?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s ₹25,000, from yesterday. I never authorized this!"
+    },
+    {
+      "speaker": "RM",
+      "text": "Thank you. I’ve frozen your account to prevent further issues and will file a fraud report."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Please make sure my money’s safe. I’m really scared about this."
+    },
+    {
+      "speaker": "RM",
+      "text": "Your account is secure now, sir. We’ll reverse the transaction within 5-7 days and keep you updated."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        18,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I tried applying for a car loan online, but the portal keeps saying ‘error.’ What’s wrong?"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry for the trouble, sir. Can you specify which step the error occurs at?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s when I submit my income details. I don’t understand what I’m doing wrong."
+    },
+    {
+      "speaker": "RM",
+      "text": "It might be a system glitch. Try uploading your documents in PDF format, or I can process it manually."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Manual sounds better. Can you do it now?"
+    },
+    {
+      "speaker": "RM",
+      "text": "Absolutely. Please email your documents to our loan desk, and I’ll start the application today."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        19,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I want to close my savings account. The branch keeps delaying it!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry for the delay, ma’am. Can you share your account number so I can assist?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s nine five five two nine four seven eight eight two. I just want this done quickly."
+    },
+    {
+      "speaker": "RM",
+      "text": "I understand. There’s a pending balance of ₹500. Would you like to transfer it or receive a cheque?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Transfer it to my other bank. This is taking too long!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’ve initiated the closure and transfer. It’ll be completed in 3 days. I’ll send a confirmation."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        20,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I’m thrilled! My loan pre-closure was approved. Just need to know the final steps."
+    },
+    {
+      "speaker": "RM",
+      "text": "That’s wonderful news, sir! Can you confirm your loan account number to finalize the process?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s three two one, six five four, nine eight, seven one. What do I need to do next?"
+    },
+    {
+      "speaker": "RM",
+      "text": "You’ll need to pay the outstanding balance of ₹50,000. I can generate a payment link for you."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Perfect, send the link. You guys made this so smooth!"
+    },
+    {
+      "speaker": "RM",
+      "text": "Thank you, sir. The link is sent, and once paid, your loan will be closed. I’ll follow up."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        21,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "My debit card’s not working online! I keep getting ‘transaction failed.’ Fix it!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry for the issue, sir. Can you confirm if you’ve enabled online transactions for your card?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Enabled? I thought it’s automatic. Nobody told me about this!"
+    },
+    {
+      "speaker": "RM",
+      "text": "No worries. You can enable it via the app or I can do it for you. Shall I proceed?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Yeah, do it now. I’m in a hurry!"
+    },
+    {
+      "speaker": "RM",
+      "text": "It’s done, sir. Your card is now enabled for online use. Try again in a few minutes."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        22,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I went to the branch to update my address, but they said it’s not done yet. Why?"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry for the delay, ma’am. Can you share your account number to check the status?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s eight eight, seven three, six zero, one eight, zero three. I don’t understand why this is so complicated."
+    },
+    {
+      "speaker": "RM",
+      "text": "I see the issue. The request wasn’t processed due to a missing signature. Can you submit a signed form?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Nobody told me about a form! Can you send it to me?"
+    },
+    {
+      "speaker": "RM",
+      "text": "Absolutely, I’ll email the form to your registered email. Please submit it, and I’ll expedite the update."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        23,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I went to the branch to update my address, but they said it’s not done yet. Why?"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry for the delay, ma’am. Can you share your account number to check the status?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s eight eight, seven three, six zero, one eight, zero three. I don’t understand why this is so complicated."
+    },
+    {
+      "speaker": "RM",
+      "text": "I see the issue. The request wasn’t processed due to a missing signature. Can you submit a signed form?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Nobody told me about a form! Can you send it to me?"
+    },
+    {
+      "speaker": "RM",
+      "text": "Absolutely, I’ll email the form to your registered email. Please submit it, and I’ll expedite the update."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        24,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "Hi! I just got my new credit card, and I’m so happy! How do I activate it?"
+    },
+    {
+      "speaker": "RM",
+      "text": "That’s great to hear, ma’am! You can activate it via the app or I can do it for you. Do you have the card number?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Yes, it ends in three two eight four. Can you activate it now?"
+    },
+    {
+      "speaker": "RM",
+      "text": "Absolutely. Your card is activated. You can start using it immediately."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Wow, that was fast! Thank you so much!"
+    },
+    {
+      "speaker": "RM",
+      "text": "You’re welcome! Let me know if you need help with anything else."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        25,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "There’s a ₹200 charge on my savings account for no reason! What’s this about?"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry for the confusion, sir. Can you share your account number to check the charge?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s six nine zero, six one nine, zero eight, five two. I never signed up for any extra fees!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I see it’s a maintenance fee due to a low balance. I can waive it as a one-time courtesy."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Waive it? Why’s it there in the first place? Explain!"
+    },
+    {
+      "speaker": "RM",
+      "text": "The account requires a minimum balance of ₹10,000. I’ve waived the fee and can set up balance alerts for you."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        26,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I’m freaking out! My loan payment is due, but I can’t access my account to pay it!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m here to help, ma’am. Can you confirm your loan account number?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s seven three, six six zero, one eight zero, nine one. What if I miss the payment? Will it hurt my credit?"
+    },
+    {
+      "speaker": "RM",
+      "text": "No need to worry. I can process a manual payment or extend the due date. Which works better?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Manual payment, please. I don’t want any trouble with my CIBIL score."
+    },
+    {
+      "speaker": "RM",
+      "text": "Done. The payment is processed, and your account is updated. You’re all set."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        27,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I want to withdraw my fixed deposit early. How does that work?"
+    },
+    {
+      "speaker": "RM",
+      "text": "I can assist with that, sir. Can you provide your FD account number?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s eight four, two four, six one, one three, five nine. Will I lose all the interest?"
+    },
+    {
+      "speaker": "RM",
+      "text": "For premature withdrawal, you’ll get a reduced interest rate. I can calculate the exact amount if you’d like."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Please do. I need the money soon, so make it quick."
+    },
+    {
+      "speaker": "RM",
+      "text": "The FD is worth ₹5,00,000 with ₹15,000 interest after penalty. I’ve initiated the withdrawal."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        28,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I got a bill for ₹8,000 on my card, but I didn’t use it! What’s going on?"
+    },
+    {
+      "speaker": "RM",
+      "text": "That’s concerning, sir. Can you share the last four digits of your card to investigate?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s nine zero one two. I’m worried someone’s using my card!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’ve placed a credit freeze on your card. The charge seems unauthorized. I’ll file a dispute."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Thanks, but how long till I get my money back?"
+    },
+    {
+      "speaker": "RM",
+      "text": "The dispute is filed, and you’ll see a refund in 5-7 days. I’ll keep you updated."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        29,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I tried checking my loan balance online, but it says ‘account not found.’ Help!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry for the trouble, ma’am. Can you confirm your loan account number?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s two three nine, eight seven four, one one five eight. I don’t know why it’s not showing up."
+    },
+    {
+      "speaker": "RM",
+      "text": "It seems your account isn’t linked to the portal. I’ll link it now and send you login instructions."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Okay, but I’m not good with these online things. Will it be easy?"
+    },
+    {
+      "speaker": "RM",
+      "text": "It’s very simple, ma’am. I’ll also send a guide, and you can call me if you need help."
+    }
+  ]
+}'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        30,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I set up RTGS transfers, and it’s so easy! Just need to know how to track them."
+    },
+    {
+      "speaker": "RM",
+      "text": "Glad it’s working well, sir! Can you share the transaction reference number?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s RTGS five four, three two, eight five, nine one. I want to make sure it went through."
+    },
+    {
+      "speaker": "RM",
+      "text": "The transfer is completed. You can track it in the app’s transaction history or I can send a statement."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Statement’s fine. Thanks, you guys are awesome!"
+    },
+    {
+      "speaker": "RM",
+      "text": "You’re welcome, sir! I’ve sent the statement to your email."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        31,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I’m furious! My card was charged ₹12,000 for a subscription I canceled months ago!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry to hear that, sir. Can you provide the card number and merchant details?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s ending in three five six four, some streaming service. I want my money back now!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’ve located the transaction. It’s a recurring charge. I’ll initiate a chargeback and block further charges."
+    },
+    {
+      "speaker": "Customer",
+      "text": "This is unacceptable! You should’ve stopped it earlier!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I understand your frustration. The chargeback is filed, and you’ll see a refund in 5-7 days."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        32,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "Hello, I tried using the ATM, but it says my card’s invalid. What’s wrong?"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry for the trouble, ma’am. Can you share your account number to check the card status?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s six five, four three, two one, nine eight seven. I don’t know why it’s not working."
+    },
+    {
+      "speaker": "RM",
+      "text": "It seems your card was deactivated due to inactivity. I can issue a new one or reactivate it."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Reactivate it, please. I don’t understand why this happened."
+    },
+    {
+      "speaker": "RM",
+      "text": "It’s reactivated now, ma’am. You can use it immediately, and I’ll send a confirmation."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        33,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I applied for a business loan, and it’s taking forever! When will I get an update?"
+    },
+    {
+      "speaker": "RM",
+      "text": "I apologize for the delay, sir. Can you provide your application ID to check the status?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s BL seven eight, nine four, five six. I need this loan ASAP!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’ve checked, and your application is in the final review. It should be approved within 48 hours."
+    },
+    {
+      "speaker": "Customer",
+      "text": "48 hours? Can’t you speed it up? I’m losing business here!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I understand the urgency. I’ll escalate it to our loan team for priority processing."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        34,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I just upgraded my credit card, and I’m loving the rewards! How do I redeem them?"
+    },
+    {
+      "speaker": "RM",
+      "text": "That’s awesome to hear, ma’am! You can redeem rewards via the app’s rewards section."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Oh, cool! Is it like cashback or points for shopping?"
+    },
+    {
+      "speaker": "RM",
+      "text": "It’s points you can convert to cashback, vouchers, or miles. Want me to guide you through it?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "I’ll try it myself, but thanks! You’re super helpful!"
+    },
+    {
+      "speaker": "RM",
+      "text": "My pleasure, ma’am. Call back if you need assistance."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        35,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "Why’s there a ₹500 penalty on my account? I didn’t do anything wrong!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry for the confusion, sir. Can you share your account number to investigate?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s three two one, nine eight seven, six five, four eight. This is my savings, not some loan!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I see a cheque bounce fee due to insufficient funds. I can waive it as a one-time gesture."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Insufficient? I had money! Your system’s messed up!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I apologize, sir. The fee is waived, and I’ll set up alerts to avoid this in the future."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        36,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I’m so stressed! My loan account’s marked NPA, but I’ve been paying!"
+    },
+    {
+      "speaker": "RM",
+      "text": "That’s concerning, ma’am. Can you confirm your loan account number?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s two four five, three one six, seven seven eight. This could ruin my credit score!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I see the issue. A payment was missed due to a bank error. I’ll correct the NPA status."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Please fix it fast! I’m really worried about this."
+    },
+    {
+      "speaker": "RM",
+      "text": "It’s corrected, ma’am. Your account is clear, and I’ll ensure it’s reported to CIBIL."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        37,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I need to open a demat account. Can you help me set it up?"
+    },
+    {
+      "speaker": "RM",
+      "text": "Of course, sir. Do you have your PAN card and KYC documents ready?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Yeah, I do. How long’s this gonna take?"
+    },
+    {
+      "speaker": "RM",
+      "text": "It takes 2-3 days to process. I’ll send you a form to fill out and submit online."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Alright, send it now. I wanna start trading soon!"
+    },
+    {
+      "speaker": "RM",
+      "text": "The form’s sent to your email, sir. I’ll follow up once it’s processed."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        38,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "My card payment’s stuck on ‘processing’ for two days! What’s the deal?"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry for the delay, sir. Can you share the transaction ID or card number?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Card ends in six seven eight nine. I don’t get why it’s taking so long!"
+    },
+    {
+      "speaker": "RM",
+      "text": "It seems the payment gateway had a glitch. I’ll manually process it now."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Man, this is annoying. Just get it done!"
+    },
+    {
+      "speaker": "RM",
+      "text": "It’s processed, sir. The payment’s complete, and you’ll see it in your statement."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        39,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "My loan EMI’s higher this month! Nobody told me about this!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry for the surprise, ma’am. Can you share your loan account number?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s four six eight, seven nine three, one one, two eight. Why’s it more now?"
+    },
+    {
+      "speaker": "RM",
+      "text": "Your loan has a floating rate, and the RBI raised rates. I can check for a fixed-rate option."
+    },
+    {
+      "speaker": "Customer",
+      "text": "I don’t understand this rate stuff. Can you explain it simply?"
+    },
+    {
+      "speaker": "RM",
+      "text": "Of course. A floating rate changes with market rates. I’ll send you a comparison of fixed vs. floating."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        40,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I got an overdraft facility on my account, and it’s a lifesaver! How do I increase the limit?"
+    },
+    {
+      "speaker": "RM",
+      "text": "Glad it’s helping, sir! Can you confirm your account number for the request?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s seven eight, nine one, two three, four five, six eight. Can you make it quick?"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’ll need your latest income proof to process the increase. Can you email it to us?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Sure thing. This bank’s been great, by the way!"
+    },
+    {
+      "speaker": "RM",
+      "text": "Thank you, sir! Once we receive the documents, I’ll expedite the limit increase."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        41,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "My PPI wallet isn’t linking to my new debit card! What’s the problem?"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry for the issue, sir. Can you confirm the last four digits of your card?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s two three four five. I’ve tried like ten times already!"
+    },
+    {
+      "speaker": "RM",
+      "text": "It seems the card isn’t registered for PPI. I’ll enable it now. Please try again in 10 minutes."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Ten minutes? Can’t you do it faster? I need to pay a bill!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’ve expedited it, sir. It’s active now, and you should be able to link it immediately."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        42,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I want to foreclose my loan, but the branch said I need some form. What’s that about?"
+    },
+    {
+      "speaker": "RM",
+      "text": "I can help with that, ma’am. Can you share your loan account number?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s five six, seven eight, nine zero, one two, three eight. I don’t know what forms they’re talking about."
+    },
+    {
+      "speaker": "RM",
+      "text": "You need a foreclosure request form. I’ll email it to you with instructions."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Okay, but what’s foreclosure mean exactly? Nobody explained it."
+    },
+    {
+      "speaker": "RM",
+      "text": "It means paying off your loan early. The form confirms your request, and I’ll guide you through it."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        43,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I want to foreclose my loan, but the branch said I need some form. What’s that about?"
+    },
+    {
+      "speaker": "RM",
+      "text": "I can help with that, ma’am. Can you share your loan account number?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s five six, seven eight, nine zero, one two, three eight. I don’t know what forms they’re talking about."
+    },
+    {
+      "speaker": "RM",
+      "text": "You need a foreclosure request form. I’ll email it to you with instructions."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Okay, but what’s foreclosure mean exactly? Nobody explained it."
+    },
+    {
+      "speaker": "RM",
+      "text": "It means paying off your loan early. The form confirms your request, and I’ll guide you through it."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        44,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I just got my debit card, and it’s awesome! How do I set up a UPI mandate?"
+    },
+    {
+      "speaker": "RM",
+      "text": "Great to hear, ma’am! You can set up a UPI mandate via the app’s payment section."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Nice! Is it for auto-payments, like bills?"
+    },
+    {
+      "speaker": "RM",
+      "text": "Exactly. You link your card and approve recurring payments. Want me to walk you through?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "I’ll try it myself. Thanks, you’re a star!"
+    },
+    {
+      "speaker": "RM",
+      "text": "You’re welcome! Call back if you need help."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        45,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I need to update the nominee for my savings account. How do I do that?"
+    },
+    {
+      "speaker": "RM",
+      "text": "I can assist, sir. Can you provide your account number?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s three four, five six, seven eight, nine zero, one two. I want to add my son as the nominee."
+    },
+    {
+      "speaker": "RM",
+      "text": "You’ll need to submit a nominee update form. I’ll send it to your registered email."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Forms again? Can’t you just do it over the phone?"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry, sir, but the form is required for verification. I’ll ensure it’s processed quickly."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        46,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I’m panicking! My loan account shows a missed payment, but I paid it!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m here to help, ma’am. Can you confirm your loan account number?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s nine zero, one two, four eight, six five, seven seven. This could mess up my credit score!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I see the payment was delayed due to a processing error. I’ll update the status now."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Thank God! Please make sure it’s fixed."
+    },
+    {
+      "speaker": "RM",
+      "text": "It’s corrected, ma’am. Your account is up to date, and I’ll confirm with CIBIL."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        47,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "My credit card bill’s got a ₹5,000 charge I don’t recognize! What’s this?"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry, sir. Can you share the card number and transaction date?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Ends in four four six five, from last week. I didn’t buy anything!"
+    },
+    {
+      "speaker": "RM",
+      "text": "It looks like a merchant error. I’ll dispute the charge and block further transactions."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Good. I’m not paying for this nonsense!"
+    },
+    {
+      "speaker": "RM",
+      "text": "The dispute’s filed, sir. You’ll get a refund in 7-10 days."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        48,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I can’t log into my net banking. It says ‘wrong password,’ but I’m sure it’s right!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry for the issue, sir. Have you tried resetting your password?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Yeah, but I don’t get the OTP. What’s going on?"
+    },
+    {
+      "speaker": "RM",
+      "text": "Let’s verify your registered mobile number. Can you confirm it?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s nine nine, six three, seven four, one five, two zero. This is so frustrating!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’ve resent the OTP, sir. It’s fixed, and you should receive it now."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        49,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I got a letter saying my loan’s overdue, but I paid it! What’s happening?"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry for the confusion, ma’am. Can you share your loan account number?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s two three, four six, five eight, seven nine, zero two. I don’t understand why I got this letter."
+    },
+    {
+      "speaker": "RM",
+      "text": "It seems the payment wasn’t reflected due to a system error. I’ll update it now."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Please do. I don’t want any trouble."
+    },
+    {
+      "speaker": "RM",
+      "text": "It’s updated, ma’am. You’re all clear, and I’ll send a confirmation."
+    }
+  ]
+}
+'
+    );
+
+insert into
+    call_logs (call_id, conversation)
+values (
+        50,
+        '{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I set up a recurring deposit, and it’s so convenient! How do I increase the amount?"
+    },
+    {
+      "speaker": "RM",
+      "text": "Glad it’s working well, sir! Can you share your account number?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s six seven, eight nine, zero one, two three, four four. Can we do it quickly?"
+    },
+    {
+      "speaker": "RM",
+      "text": "You’ll need to submit a request to modify the RD. I’ll send the form to your email."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Awesome, thanks! You guys make banking easy."
+    },
+    {
+      "speaker": "RM",
+      "text": "Thank you, sir! The form’s sent, and I’ll follow up once it’s processed."
+    }
+  ]
+}
+'
+    );
+
+use icici_internship;
+
+select * from call_logs;

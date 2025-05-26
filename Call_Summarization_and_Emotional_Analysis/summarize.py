@@ -10,6 +10,8 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 if not GEMINI_API_KEY:
     raise ValueError("GEMINI_API_KEY not found")
 
+print(GEMINI_API_KEY)
+
 call_id = int(input("Enter the call ID: "))
 
 if call_id < 10:
