@@ -1,0 +1,10 @@
+b22ai002@icici-internship-vm:~$ sudo lsof -i :11500
+
+COMMAND   PID     USER   FD   TYPE DEVICE SIZE/OFF NODE NAME
+ollama  74952 b22ai002    3u  IPv6 427187      0t0  TCP *:11500 (LISTEN)
+
+b22ai002@icici-internship-vm:~$ sudo kill 74952
+
+b22ai002@icici-internship-vm:~$ export OLLAMA_MODELS=/usr/share/ollama/.ollama/models
+
+b22ai002@icici-internship-vm:~$ OLLAMA_HOST=0.0.0.0:11500 ollama serve

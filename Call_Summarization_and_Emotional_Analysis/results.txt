@@ -5,18 +5,45 @@ Model: gemini-2.0-flash (API Call)
 Output:
 
 {
-  "summary": "Customer reports duplicate charge, RM initiates chargeback.",
-  "key_topics": {
-    "products": ["Credit Card"],
-    "issues": ["Duplicate charge", "Incorrect billing"],
-    "actions": ["RM checked transaction details", "RM initiated chargeback request", "Refund flagged"]
+"summary": "Customer reports duplicate charge, RM initiates chargeback request.",
+  "intents": [
+    "Dispute charge",
+    "Request refund"
+  ],
+  "Dispute charge": {
+    "products": [
+      "Credit card"
+    ],
+    "issues": [
+      "Duplicate charge",
+      "Incorrect billing"
+    ],
+    "actions": [
+      "Investigate transaction",
+      "Initiate chargeback"
+    ],
+    "resolution_status": "pending"
   },
-  "query_type": "Billing Dispute",
-  "resolution_status": "Partially resolved",
-  "callback_promise": "No",
-  "dominant_emotions (customer)": ["Frustration", "Anger"],
-  "conversation sentiment": "Negative",
-  "agent_professionalism": "The RM was professional and empathetic."
+  "Request refund": {
+    "products": [
+      "Credit card"
+    ],
+    "issues": [
+      "Duplicate charge"
+    ],
+    "actions": [
+      "Flag for refund"
+    ],
+    "resolution_status": "pending"
+  },
+  "emotional_analysis": {
+    "dominant_emotions (customer)": [
+      "Frustration",
+      "Anger"
+    ],
+    "conversation sentiment": "Negative",
+    "agent_professionalism": "The RM remained professional and empathetic
+  }
 }
 
 Model: deepseek-r1:8b (Ollama on Google Cloud VM)
@@ -24,16 +51,22 @@ Model: deepseek-r1:8b (Ollama on Google Cloud VM)
 Output:
 
 {
-  "summary": "A customer reported duplicate charges on a credit card and expressed frustration.",
-  "key_topics": {
-    "products": ["credit card", "restaurant bill"],
-    "issues": ["duplicate charges", "frustration with financial institution"],
-    "actions": ["initiated chargeback request", "processed refund"]
-  },
-  "query_type": "Financial issue",
-  "resolution_status": "Partially resolved",
-  "callback_promise": "Yes",
-  "dominant_emotions (customer)": ["frustration"],
-  "conversation sentiment": "Negative",
-  "agent_professionalism": "Good at addressing the issue promptly and offering solutions."
+    "summary": "Customer reports duplicate charges on credit card and expresses frustration.",
+    "intents": ["dispute", "resolve"],
+    "intent 1": {
+        "products": ["credit card"],
+        "issues": ["duplicate charge", "billing error"],
+        "actions": ["report issue", "expect resolution"],
+        "resolution_status": "pending"
+    },
+    "emotional_analysis": {
+        "dominant_emotions (customer)": ["frustration", "anger"],
+        "conversation sentiment": "Negative",
+        "agent_professionalism": "Handled calmly and professionally.",
+        "customer_satisfaction": "Low due to issue, may improve post-resolution."
+    },
+    "additional_info": {
+        "callback_promise": "Yes",
+        "callback_time": "5-7 business days"
+    }
 }
