@@ -10,18 +10,20 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 if not GEMINI_API_KEY:
     raise ValueError("GEMINI_API_KEY not found")
 
-call_id = int(input("Enter the call ID: "))
+# call_id = int(input("Enter the call ID: "))
 
-if call_id < 10:
-    call_id = f"0{call_id}"
+# if call_id < 10:
+#     call_id = f"0{call_id}"
 
-call_file = f"../Calls_Google_Cloud_TTS/call{call_id}/call{call_id}.json"
+# call_file = f"../Calls_Google_Cloud_TTS/call{call_id}/call{call_id}.json"
 
-transcript = ""
-with open(call_file, "r") as f:
-    transcript = json.load(f)
+# transcript = ""
+# with open(call_file, "r") as f:
+#     transcript = json.load(f)
 
-print(f"Transcript: {transcript}")
+# print(f"Transcript: {transcript}")
+
+transcript = '''Hey, I've been charged twice on my credit card for the same transaction. This is ridiculous. I am so sorry to hear that sir. Can you share the transaction details so I can check the charge back status. It's from last week some restaurant bill 5200. I saw it twice on my statement your account. It sounds like a duplicate charge. We can initiate the charge back request right away. I can't keep paying for your mistakes. Absolutely. I understand your frustration. I like this for a refund and it should reflect in 5 to 7 business days.'''
 
 client = genai.Client(api_key=GEMINI_API_KEY)
 

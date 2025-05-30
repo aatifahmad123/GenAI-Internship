@@ -1,4 +1,4 @@
-Chirp3 HD Voices (Google Cloud Text to Speech)
+Chirp3 HD Voices [Normal Audios]
 
 Customer: Achird
 
@@ -7,6 +7,17 @@ Agent 02: Callirhoe
 Agent 03: Erinome
 Agent 04: Sadaltager
 Agent 05: Schedar
+
+Wavenet Voices [SSML Audios]
+
+Customer: en-IN-Wavenet-B
+
+Agent 01: en-IN-Wavenet-A
+Agent 02: en-IN-Wavenet-C
+Agent 03: en-IN-Wavenet-D
+Agent 04: en-IN-Wavenet-A
+Agent 05: en-IN-Wavenet-C
+
 
 Achernar: Female (energetic) 
 :  (natural) 
