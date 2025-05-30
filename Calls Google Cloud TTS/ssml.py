@@ -56,7 +56,7 @@ conversation = [
 ]
 
 # Prepare output directory
-directory_path = '../Calls_Google_Cloud_TTS'
+directory_path = '../Calls Google Cloud TTS'
 
 def count_directories(path):
     '''

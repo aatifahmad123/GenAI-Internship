@@ -1,0 +1,33 @@
+{
+  "call id": "<Unique identifier for the call>",
+  "summary": "<One professional sentence, no more than 10 words>",
+  "intents": [
+    {
+      "intent": "<Intent recognized from the conversation>",
+      "confidence": "<Confidence level of intent recognition, as a percentage (0-100)>",
+      "keywords": "<List of keywords related to the intent in the transcription>",
+      "products": "<List of products related to intent>",
+      "issues": "<List of issues related to intent>",
+      "actions of agent": "<List of actions taken by agent for the intent>",
+      "resolution_status": "<Status of resolution, e.g., 'resolved', 'pending'>"
+    },
+    {}
+  ],
+  "intent 1": {},
+  "intent 2": {
+    "products": "<List of products related to intent 2>",
+    "issues": "<List of issues related to intent 2>",
+    "actions": "<List of actions related to intent 2>",
+    "resolution_status": "<Status of resolution, e.g., 'resolved', 'pending'>"
+  },
+  "emotional_analysis": {
+    "dominant_emotions (customer)": "[<list main emotions expressed by the customer>]",
+    "conversation sentiment": "<Overall sentiment of the conversation: Positive/Negative/Neutral>",
+    "agent_professionalism": "<Brief comment>",
+    "customer_satisfaction": "<Brief comment>"
+  },
+  "additional_info": {
+    "callback_promise": "<Yes/No>",
+    "callback_time": "<Date (relative for eg. same day or next day and Time if applicable, otherwise 'N/A'>"
+  }
+}

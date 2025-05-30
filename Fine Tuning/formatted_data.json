@@ -1,0 +1,202 @@
+[
+  {
+    "dialogue": "Customer: Hey, I’ve been charged twice on my credit card for the same transaction! This is ridiculous! RM: I’m so sorry to hear that, Sir. Can you share the transaction details so I can check the chargeback status? Customer: It’s from last week, uh, some restaurant bill… ₹5,200. I saw it twice on my statement! RM: Got it. Let me pull up your account. It sounds like a duplicate charge; we can initiate a chargeback request right away. Customer: You better! I can’t keep paying for your mistakes! RM: Absolutely, I understand your frustration. I’ve flagged this for a refund, and it should reflect in 5-7 business days.",
+    "summary": "Customer reports a duplicate credit card transaction. RM initiates a chargeback and informs the customer about the refund process."
+  },
+  {
+    "dialogue": "Customer: Hello? I applied for a personal loan last month, but nobody’s told me what’s happening with it. RM: Good afternoon, ma’am. I’d be happy to check the status. Could you provide your application ID or full name? Customer: It’s Priya Sharma. I don’t have any ID number… nobody gave me one! RM: No worries, I can search by name. One moment… It looks like your application is under review due to a pending CIBIL score update. Customer: CIBIL? What’s that? Nobody told me about this! RM: I apologize for the confusion. CIBIL is your credit score, and we’re waiting for the latest report. I’ll escalate this to expedite the process. Customer: Okay… please do it fast. I need the money soon.",
+    "summary": "Customer inquires about her personal loan application status. RM explains the application is under review due to a pending CIBIL (credit score) update and promises to expedite the process."
+  },
+  {
+    "dialogue": "Customer: Hi, I can’t log into my savings account online. It keeps saying ‘invalid credentials’! RM: I’m sorry for the trouble, ma’am. Have you tried resetting your password using the ‘Forgot Password’ link? Customer: Yeah, I did that, but I’m not getting the OTP on my phone! RM: Let’s verify your registered mobile number. Can you confirm the number linked to your account? Customer: It’s 970456796. This is so annoying, I need to transfer money today! RM: I understand. It seems the OTP system is delayed. I’ll manually reset your access and send a temporary password. You’ll get it in 10 minutes. Customer: Alright, thanks. Please make sure it works.",
+    "summary": "Customer reports being unable to log into savings account online due to invalid credentials and not receiving OTP. RM verifies mobile number, explains OTP delay, and promises to reset access with a temporary password."
+  },
+  {
+    "dialogue": "Customer: Your bank’s cheating me! My EMI went up this month, and nobody told me! RM: I’m sorry you feel that way, sir. Let’s review your loan account. Can you share your loan account number? Customer: It’s 3716388694. I’ve been paying on time, why’s this happening? RM: Thank you. I see your loan has a floating interest rate, which increased due to RBI’s recent repo rate hike. I can explain the EMI recalculation if you’d like. Customer: This is nonsense! You should’ve warned me! I want to speak to your manager! RM: I understand your concern, sir. I’ll escalate this to my supervisor, and we’ll explore an EMI moratorium option for you. Customer: Better do it quick! I’m not paying extra!",
+    "summary": "Customer complains about increased EMI on his loan. RM explains the rise is due to floating interest rate and RBI repo rate hike, and promises to escalate the issue and discuss EMI moratorium options."
+  },
+  {
+    "dialogue": "Customer: Hello, my debit card got declined at a store today. What’s the deal? RM: I’m sorry for the inconvenience, sir. Can you confirm if the card is active and the transaction amount? Customer: It’s active! I used it yesterday. The amount was, like, ₹10,000. RM: Thank you. Let me check… It appears your account balance is below the transaction amount. Would you like to transfer funds now? Customer: Oh, damn, really? Alright, let’s transfer from my savings. RM: Sure thing. I’ve initiated the transfer, and your card should work now. Anything else I can help with? Customer: Nah, that’s it. Thanks, man!",
+    "summary": "Customer's debit card was declined due to insufficient account balance. RM confirms the card is active, initiates a fund transfer from savings, and resolves the issue."
+  },
+  {
+    "dialogue": "Customer: Hello, I want to know how to link my Aadhaar to my savings account. Nobody at the branch helped me! RM: I’m sorry for the inconvenience, ma’am. I can guide you through the process. Do you have your Aadhaar number handy? Customer: Yes, it’s 1234 5678 9012. But I don’t understand this online stuff. RM: No problem at all. You can visit the branch with your Aadhaar card, or I can send you a simple form to fill out and submit online. Which works better? Customer: The form sounds good. Can you send it to my email? RM: Absolutely. I’ve sent the form to your registered email. Please check and let me know if you need help filling it out. Customer: Thank you so much, that’s really helpful.",
+    "summary": "Customer asks how to link Aadhaar to her savings account. RM offers guidance, sends an online form to her email, and assists with the process."
+  },
+  {
+    "dialogue": "Customer: I got a fraud alert on my card! Some ₹20,000 transaction I didn’t make! RM: That’s concerning, sir. I’ll block your card immediately to prevent further misuse. Can you confirm the last four digits of your card? Customer: It’s 7866. I’m really worried… how did this happen? RM: Your card is now blocked, and you’re safe. The transaction seems unauthorized. I’ll file a fraud report and issue a replacement card. Customer: Thank you, but what about my money? Will I get it back? RM: We’ll initiate a chargeback request. You should see the refund in 7-10 days, and I’ll follow up personally. Customer: I appreciate that. Please keep me updated.",
+    "summary": "Customer receives a fraud alert for an unauthorized ₹20,000 card transaction. RM blocks the card, files a fraud report, initiates a chargeback, and arranges a replacement card."
+  },
+  {
+    "dialogue": "Customer: Hey, I just opened a savings account, and I’m loving the app! Just one quick question. RM: Glad you’re enjoying it, sir! What’s your question? Customer: How do I set up UPI? I want to start paying with my phone. RM: It’s simple. Go to the app’s UPI section, link your account, and set a UPI PIN. Want me to walk you through it? Customer: Nah, I got it. That’s super easy. Thanks a lot! RM: You’re welcome! Reach out if you need more help.",
+    "summary": "Customer asks how to set up UPI on the banking app. RM explains the process of linking the account and setting a UPI PIN."
+  },
+  {
+    "dialogue": "Customer: Hi, I’m trying to get an EMI moratorium for my home loan, but your website’s so confusing! RM: I’m sorry for the trouble, ma’am. I can assist you with the moratorium process. Can you share your loan account number? Customer: It’s eight eight seven three six zero one eight two four. I just need a break for a couple of months. RM: Got it. I’ll check your eligibility. It looks like you qualify for a 3-month moratorium. Would you like me to proceed? Customer: Yes, please! But will it affect my CIBIL score? RM: Good question. A moratorium won’t directly impact your CIBIL score, but interest will accrue. I’ll send you a detailed email with the terms. Customer: That’s a relief. Thanks for clearing that up!",
+    "summary": "Customer requests an EMI moratorium for her home loan. RM confirms eligibility, explains the moratorium's effect on CIBIL score and interest, and offers further assistance."
+  },
+  {
+    "dialogue": "Customer: I’ve been trying to activate my new credit card for hours! It’s not working, do it now! RM: I’m sorry for the delay, sir. Can you confirm the last four digits of your card so I can check the activation status? Customer: It’s 7890. I followed all the steps, but it’s still not active! RM: Thank you. It seems the activation request didn’t process. I’ll activate it manually now. Please wait a moment. Customer: Hurry up! I need to use it today! RM: It’s done, sir. Your card is active now. You can use it immediately. Would you like me to send a confirmation? Customer: Finally! Yeah, send it.",
+    "summary": "Customer faces issues activating a new credit card. RM manually activates the card and offers to send a confirmation."
+  },
+  {
+    "dialogue": "Customer: I can’t set up my mobile banking! The app keeps crashing every time I try. RM: I’m sorry for the inconvenience, sir. Can you tell me which version of the app you’re using? Customer: Uh, I don’t know… the latest one, I guess? I just downloaded it! RM: Let’s try a quick fix. Please uninstall and reinstall the app, then use your registered mobile number to log in. Customer: This better work. I don’t have time for this! RM: I understand, sir. Once reinstalled, it should work. If not, I’ll escalate this to our tech team.",
+    "summary": "Customer is unable to set up mobile banking due to app crashes. RM suggests reinstalling the app and offers to escalate the issue to the tech team if needed."
+  },
+  {
+    "dialogue": "Customer: Hello, I want to know if my loan application got approved. It’s been weeks! RM: Good morning, ma’am. Could you share your application ID or full name to check the status? Customer: It’s Lakshmi Devi. I don’t have any ID number. The branch didn’t give me one. RM: No problem. I’ve found your application. It’s approved, but we need your KYC documents to proceed. Customer: KYC? What’s that? Why didn’t anyone tell me? RM: I’m sorry for the oversight. KYC means identity verification. I’ll send you a list of required documents via SMS. Customer: Okay, please send it soon. I need the loan urgently.",
+    "summary": "Customer asks about her loan application status. RM confirms approval but requests KYC documents to proceed and explains the KYC process."
+  },
+  {
+    "dialogue": "Customer: Your bank’s a mess! My credit card statement shows a ₹15,000 charge I never made! RM: That’s concerning, sir. Can you confirm the date and merchant of the transaction? Customer: It’s from two days ago, some online store. I didn’t buy anything! RM: Thank you. This looks like a potential fraud. I’ll block your card and initiate a chargeback request. Customer: You better refund me fast! This is unacceptable! RM: I understand your frustration. The chargeback is filed, and you’ll see the refund in 7-10 days.",
+    "summary": "Customer reports an unauthorized ₹15,000 credit card transaction. RM blocks the card, files a chargeback request, and assures a refund in 7-10 days."
+  },
+  {
+    "dialogue": "Customer: Hi! I just opened my savings account, and I’m so excited! How do I set up NEFT transfers? RM: That’s great to hear, ma’am! To set up NEFT, go to the app’s transfer section and add a beneficiary. Customer: Oh, that sounds easy. Do I need anything special for it? RM: Just the beneficiary’s account number and IFSC code. It takes 24 hours to activate. Customer: Awesome, thanks! You made that super clear. RM: You’re welcome! Let me know if you need help with anything else.",
+    "summary": "Customer asks how to set up NEFT transfers from her new savings account. RM explains the process, including adding a beneficiary and providing account number and IFSC code."
+  },
+  {
+    "dialogue": "Customer: I paid my loan EMI, but there’s a lien on my account! What’s going on? RM: I’m sorry for the confusion, sir. Can you share your loan account number to check the lien details? Customer: It’s five four six seven one nine eight three two. I paid on time, so why’s my money locked?. I paid on time, so why’s my money locked? RM: I see the issue. The payment was processed, but a system error placed a lien. I’ll remove it now. Customer: Please fix it today! I need to withdraw cash. RM: It’s resolved, sir. The lien is lifted, and your funds are available. I’ll send a confirmation.",
+    "summary": "Customer finds a lien on his account after paying loan EMI. RM identifies a system error, removes the lien, and restores access to funds."
+  },
+  {
+    "dialogue": "Customer: I requested a credit limit increase last week, and I haven’t heard back. What’s the hold-up? RM: I apologize for the delay, ma’am. Can you provide your card number so I can check the request status? Customer: It’s ending in seven eight six four. I need this sorted soon. RM: Thank you. Your request is under review. I’ll expedite it and confirm the new limit by tomorrow. Customer: Tomorrow? Can’t you do it now? I’m planning a big purchase! RM: I understand. I’ve prioritized it, and you’ll get an update by end of day. Is that okay?",
+    "summary": "Customer follows up on her credit limit increase request. RM checks the status, promises to expedite the review, and confirms an update will be provided by end of day."
+  },
+  {
+    "dialogue": "Customer: I’m worried! My savings account shows a withdrawal I didn’t make. Is someone stealing my money? RM: That’s alarming, sir. Can you confirm the transaction amount and date to investigate? Customer: It’s ₹25,000, from yesterday. I never authorized this! RM: Thank you. I’ve frozen your account to prevent further issues and will file a fraud report. Customer: Please make sure my money’s safe. I’m really scared about this. RM: Your account is secure now, sir. We’ll reverse the transaction within 5-7 days and keep you updated.",
+    "summary": "Customer reports an unauthorized ₹25,000 withdrawal from his savings account. RM freezes the account, files a fraud report, and promises to reverse the transaction within 5-7 days."
+  },
+  {
+    "dialogue": "Customer: I tried applying for a car loan online, but the portal keeps saying ‘error.’ What’s wrong? RM: I’m sorry for the trouble, sir. Can you specify which step the error occurs at? Customer: It’s when I submit my income details. I don’t understand what I’m doing wrong. RM: It might be a system glitch. Try uploading your documents in PDF format, or I can process it manually. Customer: Manual sounds better. Can you do it now? RM: Absolutely. Please email your documents to our loan desk, and I’ll start the application today.",
+    "summary": "Customer faces errors while applying for a car loan online at the income details step. RM suggests uploading documents in PDF format or processing the loan application manually."
+  },
+  {
+    "dialogue": "Customer: I want to close my savings account. The branch keeps delaying it! RM: I’m sorry for the delay, ma’am. Can you share your account number so I can assist? Customer: It’s nine five five two nine four seven eight eight two. I just want this done quickly. RM: I understand. There’s a pending balance of ₹500. Would you like to transfer it or receive a cheque? Customer: Transfer it to my other bank. This is taking too long! RM: I’ve initiated the closure and transfer. It’ll be completed in 3 days. I’ll send a confirmation.",
+    "summary": "Customer requests closure of her savings account due to delays. RM confirms the pending balance, initiates the account closure, and arranges a transfer to another bank."
+  },
+  {
+    "dialogue": "Customer: I’m thrilled! My loan pre-closure was approved. Just need to know the final steps. RM: That’s wonderful news, sir! Can you confirm your loan account number to finalize the process? Customer: It’s three two one, six five four, nine eight, seven one. What do I need to do next? RM: You’ll need to pay the outstanding balance of ₹50,000. I can generate a payment link for you. Customer: Perfect, send the link. You guys made this so smooth! RM: Thank you, sir. The link is sent, and once paid, your loan will be closed. I’ll follow up.",
+    "summary": "Customer's loan pre-closure is approved. RM explains the remaining steps, including paying the outstanding balance and provides a payment link to complete the process."
+  },
+  {
+    "dialogue": "Customer: My debit card’s not working online! I keep getting ‘transaction failed.’ Fix it! RM: I’m sorry for the issue, sir. Can you confirm if you’ve enabled online transactions for your card? Customer: Enabled? I thought it’s automatic. Nobody told me about this! RM: No worries. You can enable it via the app or I can do it for you. Shall I proceed? Customer: Yeah, do it now. I’m in a hurry! RM: It’s done, sir. Your card is now enabled for online use. Try again in a few minutes.",
+    "summary": "Customer's debit card transactions are failing online. RM enables online transactions for the card and informs the customer to try again."
+  },
+  {
+    "dialogue": "Customer: I went to the branch to update my address, but they said it’s not done yet. Why? RM: I’m sorry for the delay, ma’am. Can you share your account number to check the status? Customer: It’s eight eight, seven three, six zero, one eight, zero three. I don’t understand why this is so complicated. RM: I see the issue. The request wasn’t processed due to a missing signature. Can you submit a signed form? Customer: Nobody told me about a form! Can you send it to me? RM: Absolutely, I’ll email the form to your registered email. Please submit it, and I’ll expedite the update.",
+    "summary": "Customer's address update request was delayed due to a missing signature. RM offers to email the required form and expedite the update once submitted."
+  },
+  {
+    "dialogue": "Customer: You guys are ripping me off! My loan statement shows a late fee, but I paid on time! RM: I’m sorry you’re upset, sir. Can you share your loan account number to verify the payment? Customer: It’s 789456123. I paid ₹20,000 on the 5th! This is a scam! RM: Thank you. I see the payment, but it was credited a day late due to an ECS mandate issue. I’ll waive the fee. Customer: You better! I’m not paying for your mistakes! RM: The fee is waived, sir. You’ll see the updated statement in 24 hours. I apologize for the trouble.",
+    "summary": "Customer disputes a late fee on his loan statement, claiming timely payment. RM finds an ECS mandate issue caused the delay, waives the late fee, and updates the statement."
+  },
+  {
+    "dialogue": "Customer: Hi! I just got my new credit card, and I’m so happy! How do I activate it? RM: That’s great to hear, ma’am! You can activate it via the app or I can do it for you. Do you have the card number? Customer: Yes, it ends in three two eight four. Can you activate it now? RM: Absolutely. Your card is activated. You can start using it immediately. Customer: Wow, that was fast! Thank you so much! RM: You’re welcome! Let me know if you need help with anything else.",
+    "summary": "Customer asks how to activate her new credit card. RM activates the card and confirms it is ready for use."
+  },
+  {
+    "dialogue": "Customer: There’s a ₹200 charge on my savings account for no reason! What’s this about? RM: I’m sorry for the confusion, sir. Can you share your account number to check the charge? Customer: It’s six nine zero, six one nine, zero eight, five two. I never signed up for any extra fees! RM: I see it’s a maintenance fee due to a low balance. I can waive it as a one-time courtesy. Customer: Waive it? Why’s it there in the first place? Explain! RM: The account requires a minimum balance of ₹10,000. I’ve waived the fee and can set up balance alerts for you.",
+    "summary": "Customer questions a ₹200 charge on his savings account. RM explains it's a maintenance fee for low balance, waives the fee, and offers to set up balance alerts."
+  },
+  {
+    "dialogue": "Customer: I’m freaking out! My loan payment is due, but I can’t access my account to pay it! RM: I’m here to help, ma’am. Can you confirm your loan account number? Customer: It’s seven three, six six zero, one eight zero, nine one. What if I miss the payment? Will it hurt my credit? RM: No need to worry. I can process a manual payment or extend the due date. Which works better? Customer: Manual payment, please. I don’t want any trouble with my CIBIL score. RM: Done. The payment is processed, and your account is updated. You’re all set.",
+    "summary": "Customer can't access her account to pay a due loan installment and is worried about her CIBIL score. RM processes a manual payment and updates the account."
+  },
+  {
+    "dialogue": "Customer: I want to withdraw my fixed deposit early. How does that work? RM: I can assist with that, sir. Can you provide your FD account number? Customer: It’s eight four, two four, six one, one three, five nine. Will I lose all the interest? RM: For premature withdrawal, you’ll get a reduced interest rate. I can calculate the exact amount if you’d like. Customer: Please do. I need the money soon, so make it quick. RM: The FD is worth ₹5,00,000 with ₹15,000 interest after penalty. I’ve initiated the withdrawal.",
+    "summary": "Customer requests premature withdrawal of his fixed deposit. RM explains reduced interest, calculates the payout, and initiates the withdrawal."
+  },
+  {
+    "dialogue": "Customer: I got a bill for ₹8,000 on my card, but I didn’t use it! What’s going on? RM: That’s concerning, sir. Can you share the last four digits of your card to investigate? Customer: It’s nine zero one two. I’m worried someone’s using my card! RM: I’ve placed a credit freeze on your card. The charge seems unauthorized. I’ll file a dispute. Customer: Thanks, but how long till I get my money back? RM: The dispute is filed, and you’ll see a refund in 5-7 days. I’ll keep you updated.",
+    "summary": "Customer reports an unauthorized ₹8,000 charge on his card. RM freezes the card, files a dispute, and assures a refund within 5-7 days."
+  },
+  {
+    "dialogue": "Customer: I tried checking my loan balance online, but it says ‘account not found.’ Help! RM: I’m sorry for the trouble, ma’am. Can you confirm your loan account number? Customer: It’s two three nine, eight seven four, one one five eight. I don’t know why it’s not showing up. RM: It seems your account isn’t linked to the portal. I’ll link it now and send you login instructions. Customer: Okay, but I’m not good with these online things. Will it be easy? RM: It’s very simple, ma’am. I’ll also send a guide, and you can call me if you need help.",
+    "summary": "Customer can't check her loan balance online due to an unlinked account. RM links the account, sends login instructions, and offers further assistance."
+  },
+  {
+    "dialogue": "Customer: I set up RTGS transfers, and it’s so easy! Just need to know how to track them. RM: Glad it’s working well, sir! Can you share the transaction reference number? Customer: It’s RTGS five four, three two, eight five, nine one. I want to make sure it went through. RM: The transfer is completed. You can track it in the app’s transaction history or I can send a statement. Customer: Statement’s fine. Thanks, you guys are awesome! RM: You’re welcome, sir! I’ve sent the statement to your email.",
+    "summary": "Customer asks how to track RTGS transfers. RM confirms the transfer is complete and sends a statement to the customer's email."
+  },
+  {
+    "dialogue": "Customer: I’m furious! My card was charged ₹12,000 for a subscription I canceled months ago! RM: I’m sorry to hear that, sir. Can you provide the card number and merchant details? Customer: It’s ending in three five six four, some streaming service. I want my money back now! RM: I’ve located the transaction. It’s a recurring charge. I’ll initiate a chargeback and block further charges. Customer: This is unacceptable! You should’ve stopped it earlier! RM: I understand your frustration. The chargeback is filed, and you’ll see a refund in 5-7 days.",
+    "summary": "Customer is charged ₹12,000 for a canceled subscription. RM initiates a chargeback, blocks further charges, and assures a refund within 5-7 days."
+  },
+  {
+    "dialogue": "Customer: Hello, I tried using the ATM, but it says my card’s invalid. What’s wrong? RM: I’m sorry for the trouble, ma’am. Can you share your account number to check the card status? Customer: It’s six five, four three, two one, nine eight seven. I don’t know why it’s not working. RM: It seems your card was deactivated due to inactivity. I can issue a new one or reactivate it. Customer: Reactivate it, please. I don’t understand why this happened. RM: It’s reactivated now, ma’am. You can use it immediately, and I’ll send a confirmation.",
+    "summary": "Customer's ATM card was invalid due to inactivity. RM reactivates the card and confirms it is ready for use."
+  },
+  {
+    "dialogue": "Customer: I applied for a business loan, and it’s taking forever! When will I get an update? RM: I apologize for the delay, sir. Can you provide your application ID to check the status? Customer: It’s BL seven eight, nine four, five six. I need this loan ASAP! RM: I’ve checked, and your application is in the final review. It should be approved within 48 hours. Customer: 48 hours? Can’t you speed it up? I’m losing business here! RM: I understand the urgency. I’ll escalate it to our loan team for priority processing.",
+    "summary": "Customer follows up on his business loan application. RM confirms it's in final review, expects approval within 48 hours, and escalates for priority processing."
+  },
+  {
+    "dialogue": "Customer: I just upgraded my credit card, and I’m loving the rewards! How do I redeem them? RM: That’s awesome to hear, ma’am! You can redeem rewards via the app’s rewards section. Customer: Oh, cool! Is it like cashback or points for shopping? RM: It’s points you can convert to cashback, vouchers, or miles. Want me to guide you through it? Customer: I’ll try it myself, but thanks! You’re super helpful! RM: My pleasure, ma’am. Call back if you need assistance.",
+    "summary": "Customer asks how to redeem credit card rewards. RM explains rewards can be redeemed as cashback, vouchers, or miles through the app."
+  },
+  {
+    "dialogue": "Customer: Why’s there a ₹500 penalty on my account? I didn’t do anything wrong! RM: I’m sorry for the confusion, sir. Can you share your account number to investigate? Customer: It’s three two one, nine eight seven, six five, four eight. This is my savings, not some loan! RM: I see a cheque bounce fee due to insufficient funds. I can waive it as a one-time gesture. Customer: Insufficient? I had money! Your system’s messed up! RM: I apologize, sir. The fee is waived, and I’ll set up alerts to avoid this in the future.",
+    "summary": "Customer questions a ₹500 penalty on his savings account. RM explains it's a cheque bounce fee due to insufficient funds, waives the fee, and offers to set up alerts."
+  },
+  {
+    "dialogue": "Customer: I’m so stressed! My loan account’s marked NPA, but I’ve been paying! RM: That’s concerning, ma’am. Can you confirm your loan account number? Customer: It’s two four five, three one six, seven seven eight. This could ruin my credit score! RM: I see the issue. A payment was missed due to a bank error. I’ll correct the NPA status. Customer: Please fix it fast! I’m really worried about this. RM: It’s corrected, ma’am. Your account is clear, and I’ll ensure it’s reported to CIBIL.",
+    "summary": "Customer's loan account was incorrectly marked NPA despite payments. RM finds a bank error, corrects the NPA status, and confirms it will be reported to CIBIL."
+  },
+  {
+    "dialogue": "Customer: I need to open a demat account. Can you help me set it up? RM: Of course, sir. Do you have your PAN card and KYC documents ready? Customer: Yeah, I do. How long’s this gonna take? RM: It takes 2-3 days to process. I’ll send you a form to fill out and submit online. Customer: Alright, send it now. I wanna start trading soon! RM: The form’s sent to your email, sir. I’ll follow up once it’s processed.",
+    "summary": "Customer requests to open a demat account. RM asks for PAN and KYC documents, informs about processing time, sends form, and will follow up."
+  },
+  {
+    "dialogue": "Customer: My card payment’s stuck on ‘processing’ for two days! What’s the deal? RM: I’m sorry for the delay, sir. Can you share the transaction ID or card number? Customer: Card ends in six seven eight nine. I don’t get why it’s taking so long! RM: It seems the payment gateway had a glitch. I’ll manually process it now. Customer: Man, this is annoying. Just get it done! RM: It’s processed, sir. The payment’s complete, and you’ll see it in your statement.",
+    "summary": "Customer's card payment was stuck in processing for two days. RM identifies a payment gateway glitch, manually processes the payment, and confirms completion."
+  },
+  {
+    "dialogue": "Customer: My loan EMI’s higher this month! Nobody told me about this! RM: I’m sorry for the surprise, ma’am. Can you share your loan account number? Customer: It’s four six eight, seven nine three, one one, two eight. Why’s it more now? RM: Your loan has a floating rate, and the RBI raised rates. I can check for a fixed-rate option. Customer: I don’t understand this rate stuff. Can you explain it simply? RM: Of course. A floating rate changes with market rates. I’ll send you a comparison of fixed vs. floating.",
+    "summary": "Customer's loan EMI increased due to floating interest rate and RBI rate hike. RM explains the rate change and offers to send a comparison of fixed and floating rates."
+  },
+  {
+    "dialogue": "Customer: I got an overdraft facility on my account, and it’s a lifesaver! How do I increase the limit? RM: Glad it’s helping, sir! Can you confirm your account number for the request? Customer: It’s 789123456. Can you make it quick? RM: I’ll need your latest income proof to process the increase. Can you email it to us? Customer: Sure thing. This bank’s been great, by the way! RM: Thank you, sir! Once we receive the documents, I’ll expedite the limit increase.",
+    "summary": "Customer requests an overdraft limit increase. RM asks for income proof and promises to expedite the process upon receiving the documents."
+  },
+  {
+    "dialogue": "Customer: My PPI wallet isn’t linking to my new debit card! What’s the problem? RM: I’m sorry for the issue, sir. Can you confirm the last four digits of your card? Customer: It’s 2345. I’ve tried like ten times already! RM: It seems the card isn’t registered for PPI. I’ll enable it now. Please try again in 10 minutes. Customer: Ten minutes? Can’t you do it faster? I need to pay a bill! RM: I’ve expedited it, sir. It’s active now, and you should be able to link it immediately.",
+    "summary": "Customer's PPI wallet could not link to his new debit card. RM registers the card for PPI and enables immediate linking."
+  },
+  {
+    "dialogue": "Customer: I want to foreclose my loan, but the branch said I need some form. What’s that about? RM: I can help with that, ma’am. Can you share your loan account number? Customer: It’s 567890123. I don’t know what forms they’re talking about. RM: You need a foreclosure request form. I’ll email it to you with instructions. Customer: Okay, but what’s foreclosure mean exactly? Nobody explained it. RM: It means paying off your loan early. The form confirms your request, and I’ll guide you through it.",
+    "summary": "Customer wants to foreclose her loan but is unsure about the required form. RM explains foreclosure, sends the request form, and offers guidance."
+  },
+  {
+    "dialogue": "Customer: You’re charging me ₹1,000 for nothing! My account statement’s a mess! RM: I’m sorry for the trouble, sir. Can you share your account number to check the charge? Customer: It’s 890123456. Fix this, or I’m closing my account! RM: I see an erroneous ATM withdrawal fee. I’ll reverse it and update your statement. Customer: Erroneous? That’s your fault! You better refund it now! RM: The refund is processed, sir. You’ll see it in 24 hours. I apologize for the error.",
+    "summary": "Customer disputes a ₹1,000 ATM withdrawal fee on his account. RM identifies it as an error, processes a refund, and updates the statement."
+  },
+  {
+    "dialogue": "Customer: I just got my debit card, and it’s awesome! How do I set up a UPI mandate? RM: Great to hear, ma’am! You can set up a UPI mandate via the app’s payment section. Customer: Nice! Is it for auto-payments, like bills? RM: Exactly. You link your card and approve recurring payments. Want me to walk you through? Customer: I’ll try it myself. Thanks, you’re a star! RM: You’re welcome! Call back if you need help.",
+    "summary": "Customer asks how to set up a UPI mandate with her new debit card. RM explains it can be done via the app for recurring payments."
+  },
+  {
+    "dialogue": "Customer: I need to update the nominee for my savings account. How do I do that? RM: I can assist, sir. Can you provide your account number? Customer: It’s 345678901. I want to add my son as the nominee. RM: You’ll need to submit a nominee update form. I’ll send it to your registered email. Customer: Forms again? Can’t you just do it over the phone? RM: I’m sorry, sir, but the form is required for verification. I’ll ensure it’s processed quickly.",
+    "summary": "Customer wants to update the nominee for his savings account. RM explains a nominee update form is required and will send it by email for processing."
+  },
+  {
+    "dialogue": "Customer: I’m panicking! My loan account shows a missed payment, but I paid it! RM: I’m here to help, ma’am. Can you confirm your loan account number? Customer: It’s nine zero, one two, four eight, six five, seven seven. This could mess up my credit score! RM: I see the payment was delayed due to a processing error. I’ll update the status now. Customer: Thank God! Please make sure it’s fixed. RM: It’s corrected, ma’am. Your account is up to date, and I’ll confirm with CIBIL.",
+    "summary": "Customer's loan account incorrectly showed a missed payment due to a processing error. RM updates the status, confirms the account is current, and will notify CIBIL."
+  },
+  {
+    "dialogue": "Customer: My credit card bill’s got a ₹5,000 charge I don’t recognize! What’s this? RM: I’m sorry, sir. Can you share the card number and transaction date? Customer: Ends in four four six five, from last week. I didn’t buy anything! RM: It looks like a merchant error. I’ll dispute the charge and block further transactions. Customer: Good. I’m not paying for this nonsense! RM: The dispute’s filed, sir. You’ll get a refund in 7-10 days.",
+    "summary": "Customer reports an unrecognized ₹5,000 charge on his credit card bill. RM identifies it as a merchant error, files a dispute, blocks further transactions, and assures a refund."
+  },
+  {
+    "dialogue": "Customer: I can’t log into my net banking. It says ‘wrong password,’ but I’m sure it’s right! RM: I’m sorry for the issue, sir. Have you tried resetting your password? Customer: Yeah, but I don’t get the OTP. What’s going on? RM: Let’s verify your registered mobile number. Can you confirm it? Customer: It’s nine nine, six three, seven four, one five, two zero. This is so frustrating! RM: I’ve resent the OTP, sir. It’s fixed, and you should receive it now.",
+    "summary": "Customer can't log into net banking due to OTP issues. RM verifies the registered mobile number, resends the OTP, and resolves the login problem."
+  },
+  {
+    "dialogue": "Customer: I got a letter saying my loan’s overdue, but I paid it! What’s happening? RM: I’m sorry for the confusion, ma’am. Can you share your loan account number? Customer: It’s 234567890. I don’t understand why I got this letter. RM: It seems the payment wasn’t reflected due to a system error. I’ll update it now. Customer: Please do. I don’t want any trouble. RM: It’s updated, ma’am. You’re all clear, and I’ll send a confirmation.",
+    "summary": "Customer received an overdue loan notice despite making the payment. RM finds a system error, updates the payment status, and confirms the account is clear."
+  },
+  {
+    "dialogue": "Customer: I set up a recurring deposit, and it’s so convenient! How do I increase the amount? RM: Glad it’s working well, sir! Can you share your account number? Customer: It’s six seven, eight nine, zero one, two three, four four. Can we do it quickly? RM: You’ll need to submit a request to modify the RD. I’ll send the form to your email. Customer: Awesome, thanks! You guys make banking easy. RM: Thank you, sir! The form’s sent, and I’ll follow up once it’s processed.",
+    "summary": "Customer wants to increase the amount of his recurring deposit. RM explains a modification request is needed, sends the form by email, and will follow up."
+  }
+]
