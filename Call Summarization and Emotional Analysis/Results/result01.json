@@ -1,0 +1,28 @@
+{
+  "call id": "Call 01",
+  "agent id": "Agent 01",
+  "summary": "Customer reports duplicate charge, agent initiates chargeback.",
+  "intents": [
+    {
+      "intent": "Dispute Charge",
+      "confidence": "95",
+      "keywords": "Hey, I've been (0) ... your account (17)",
+      "products": ["Credit Card"],
+      "issues": ["Duplicate Charge"],
+      "actions of agent": [
+        "Acknowledged customer's issue",
+        "Requested transaction details",
+        "Initiated chargeback request",
+        "Provided refund timeframe"
+      ],
+      "resolution_status": "resolved",
+      "dominant emotions (customer)": ["Frustration", "Anger"],
+      "conversation sentiment": "Negative",
+      "agent professionalism": "Agent remained calm and professional despite customer's frustration.",
+      "agent performance": "9",
+      "customer satisfaction": "6",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ]
+}
