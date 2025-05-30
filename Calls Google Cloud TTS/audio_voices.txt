@@ -1,17 +1,25 @@
 Chirp3 HD Voices (Google Cloud Text to Speech)
 
+Customer: Achird
+
+Agent 01: Autonoe
+Agent 02: Callirhoe
+Agent 03: Erinome
+Agent 04: Sadaltager
+Agent 05: Schedar
+
 Achernar: Female (energetic) 
-Achird: Male (natural) 
+:  (natural) 
 Algenib: Male (calm)
 Algieba: Male (natural)
 Alnilam: Male (natural) 
 Aoede: Female (natural)
-Autonoe: Female (natural) 
+: Female (natural) 
 Callirhoe: Female (natural) 
 Charon: Male (deep) 
 Despina: Female (childish) 
 Enceladus: Male (deep) 
-Erinome: Female (natural)
+: Female (natural)
 Fenrir: Male (childish)
 Gacrux: Female (aged) 
 Lapetus: Male (natural)
@@ -23,8 +31,8 @@ Puck: Male (natural)
 Pulcherrima: Male (natural, northeastern)
 Rasalgethi: Male (natural) 
 Sadachbia: Male (natural) 
-Sadaltager: Male (natural)
-Schedar: Male (natural, sharp)
+: Male (natural)
+: Male (natural, sharp)
 Sulafat: Female (natural)
 Umbriel: Male (natural)
 Vindemiatrix: Female (deep)
