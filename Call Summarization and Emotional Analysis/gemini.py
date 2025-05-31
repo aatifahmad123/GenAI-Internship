@@ -50,8 +50,8 @@ prompt = (
     }}
 
     Transcription: {transcription}
-    Call ID: "Call 01"
-    Agent ID: "Agent 01"
+    Call ID: 1
+    Agent ID: 1
     '''
 )
 

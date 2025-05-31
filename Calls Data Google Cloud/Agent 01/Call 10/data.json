@@ -1,0 +1,32 @@
+{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I’ve been trying to activate my new credit card for hours! It’s not working, do it now!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry for the delay, sir. Can you confirm the last four digits of your card so I can check the activation status?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s seven eight nine zero. I followed all the steps, but it’s still not active!"
+    },
+    {
+      "speaker": "RM",
+      "text": "Thank you. It seems the activation request didn’t process. I’ll activate it manually now. Please wait a moment."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Hurry up! I need to use it today!"
+    },
+    {
+      "speaker": "RM",
+      "text": "It’s done, sir. Your card is active now. You can use it immediately. Would you like me to send a confirmation?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Finally! Yeah, send it."
+    }
+  ]
+}

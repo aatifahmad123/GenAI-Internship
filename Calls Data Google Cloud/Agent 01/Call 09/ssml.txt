@@ -1,0 +1,69 @@
+<speak>
+  <voice name="{customer_voice}">
+    <prosody rate="medium" volume="medium">
+      Hi,
+      <break time="150ms"/>
+      I’m trying to get an EMI moratorium for my home loan,
+      <break time="200ms"/>
+      but your website’s so <emphasis>confusing!</emphasis>
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="-1st" rate="medium">
+      I’m sorry for the trouble Sir.
+      <break time="200ms"/>
+      I can assist you with the moratorium process.
+      <break time="150ms"/>
+      Can you share your loan account number?
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium">
+      It’s eight eight seven three six zero one eight two four.
+      <break time="200ms"/>
+      I just need a break for a couple of months.
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="-1st" rate="medium">
+      Got it.
+      <break time="200ms"/>
+      I’ll check your eligibility.
+      <break time="150ms"/>
+      It looks like you qualify for a <emphasis>3-month</emphasis> moratorium.
+      <break time="150ms"/>
+      Would you like me to proceed?
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium" volume="medium">
+      Yes, please!
+      <break time="200ms"/>
+      But will it affect my <emphasis>CIBIL score?</emphasis>
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="-1st" rate="medium">
+      Good question.
+      <break time="200ms"/>
+      A moratorium won’t directly impact your CIBIL score,
+      <break time="150ms"/>
+      but interest will accrue.
+      <break time="200ms"/>
+      I’ll send you a detailed email with the terms.
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium" volume="medium">
+      That’s a <emphasis>relief.</emphasis>
+      <break time="150ms"/>
+      Thanks for clearing that up!
+    </prosody>
+  </voice>
+</speak>

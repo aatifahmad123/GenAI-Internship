@@ -1,6 +1,6 @@
 {
-  "call id": "Call 01",
-  "agent id": "Agent 01",
+  "call id": 1,
+  "agent id": 1,
   "summary": "Customer reports duplicate charge, agent initiates chargeback.",
   "intents": [
     {

@@ -7,12 +7,13 @@ agent_voice = 'en-IN-Chirp3-HD-Autonoe'
 
 # Define the conversation
 conversation = [
-    "Hey, I’ve been charged twice on my credit card for the same transaction! This is ridiculous!",
-    "I’m so sorry to hear that, Sir. Can you share the transaction details so I can check the chargeback status?",
-    "It’s from last week, uh, some restaurant bill… ₹5,200. I saw it twice on my statement!",
-    "Got it. Let me pull up your account. It sounds like a duplicate charge; we can initiate a chargeback request right away.",
-    "You better! I can’t keep paying for your mistakes!",
-    "Absolutely, I understand your frustration. I’ve flagged this for a refund, and it should reflect in 5-7 business days."
+    "I’ve been trying to activate my new credit card for hours! It’s not working, do it now!",
+    "I’m sorry for the delay, sir. Can you confirm the last four digits of your card so I can check the activation status?",
+    "It’s seven eight nine zero. I followed all the steps, but it’s still not active!",
+    "Thank you. It seems the activation request didn’t process. I’ll activate it manually now. Please wait a moment.",
+    "Hurry up! I need to use it today!",
+    "It’s done, sir. Your card is active now. You can use it immediately. Would you like me to send a confirmation?",
+    "Finally! Yeah, send it."
 ]
 
 # Initialize Text-to-Speech client
@@ -44,16 +45,16 @@ def generate_and_save_audio(text, audio_voice, filename):
 
 # Generate audio for each line
 for i, text in enumerate(conversation):
-    filename = f"Agent 01/Call 01/normal audios/synthesis({i}).wav"
+    filename = f"Agent 01/Call 10/normal audios/synthesis({i}).wav"
     voice = customer_vice if i % 2 == 0 else agent_voice
     generate_and_save_audio(text, voice, filename)
 
 print("All audios generated and saved successfully.")
 
 # Merge all audio files
-audio_files_folder = "Agent 01/Call 01/normal audios"
+audio_files_folder = "Agent 01/Call 10/normal audios"
 files = [f"{audio_files_folder}/synthesis({i}).wav" for i in range(len(conversation))]
-combined_audio_file = "Agent 01/Call 01/normalAudio.wav"
+combined_audio_file = "Agent 01/Call 10/normalAudio.wav"
 
 def merge_audio(files):
     combined = AudioSegment.empty()

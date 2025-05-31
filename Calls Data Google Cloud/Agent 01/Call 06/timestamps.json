@@ -1,0 +1,704 @@
+[
+  {
+    "word": "Hello,",
+    "start_time": "0 sec",
+    "end_time": "0 sec",
+    "confidence": 0.955
+  },
+  {
+    "word": "I",
+    "start_time": "0 sec",
+    "end_time": "0 sec",
+    "confidence": 0.964
+  },
+  {
+    "word": "want",
+    "start_time": "0 sec",
+    "end_time": "0 sec",
+    "confidence": 0.967
+  },
+  {
+    "word": "to",
+    "start_time": "0 sec",
+    "end_time": "1 sec",
+    "confidence": 0.912
+  },
+  {
+    "word": "know",
+    "start_time": "1 sec",
+    "end_time": "1 sec",
+    "confidence": 0.92
+  },
+  {
+    "word": "how",
+    "start_time": "1 sec",
+    "end_time": "1 sec",
+    "confidence": 0.918
+  },
+  {
+    "word": "to",
+    "start_time": "1 sec",
+    "end_time": "1 sec",
+    "confidence": 0.871
+  },
+  {
+    "word": "link",
+    "start_time": "1 sec",
+    "end_time": "1 sec",
+    "confidence": 0.952
+  },
+  {
+    "word": "my",
+    "start_time": "1 sec",
+    "end_time": "1 sec",
+    "confidence": 0.91
+  },
+  {
+    "word": "Aadhaar",
+    "start_time": "1 sec",
+    "end_time": "2 sec",
+    "confidence": 0.447
+  },
+  {
+    "word": "to",
+    "start_time": "2 sec",
+    "end_time": "2 sec",
+    "confidence": 0.86
+  },
+  {
+    "word": "my",
+    "start_time": "2 sec",
+    "end_time": "2 sec",
+    "confidence": 0.935
+  },
+  {
+    "word": "savings",
+    "start_time": "2 sec",
+    "end_time": "3 sec",
+    "confidence": 0.822
+  },
+  {
+    "word": "account.",
+    "start_time": "3 sec",
+    "end_time": "3 sec",
+    "confidence": 0.937
+  },
+  {
+    "word": "Nobody",
+    "start_time": "3 sec",
+    "end_time": "4 sec",
+    "confidence": 0.907
+  },
+  {
+    "word": "at",
+    "start_time": "4 sec",
+    "end_time": "4 sec",
+    "confidence": 0.814
+  },
+  {
+    "word": "the",
+    "start_time": "4 sec",
+    "end_time": "4 sec",
+    "confidence": 0.882
+  },
+  {
+    "word": "branch",
+    "start_time": "4 sec",
+    "end_time": "4 sec",
+    "confidence": 0.976
+  },
+  {
+    "word": "help",
+    "start_time": "4 sec",
+    "end_time": "5 sec",
+    "confidence": 0.811
+  },
+  {
+    "word": "me.",
+    "start_time": "5 sec",
+    "end_time": "5 sec",
+    "confidence": 0.907
+  },
+  {
+    "word": "I",
+    "start_time": "5 sec",
+    "end_time": "5 sec",
+    "confidence": 0.703
+  },
+  {
+    "word": "am",
+    "start_time": "5 sec",
+    "end_time": "5 sec",
+    "confidence": 0.79
+  },
+  {
+    "word": "sorry",
+    "start_time": "5 sec",
+    "end_time": "5 sec",
+    "confidence": 0.849
+  },
+  {
+    "word": "for",
+    "start_time": "5 sec",
+    "end_time": "6 sec",
+    "confidence": 0.833
+  },
+  {
+    "word": "the",
+    "start_time": "6 sec",
+    "end_time": "6 sec",
+    "confidence": 0.74
+  },
+  {
+    "word": "inconvenience",
+    "start_time": "6 sec",
+    "end_time": "7 sec",
+    "confidence": 0.505
+  },
+  {
+    "word": "sir.",
+    "start_time": "7 sec",
+    "end_time": "7 sec",
+    "confidence": 0.581
+  },
+  {
+    "word": "I",
+    "start_time": "7 sec",
+    "end_time": "7 sec",
+    "confidence": 0.879
+  },
+  {
+    "word": "can",
+    "start_time": "7 sec",
+    "end_time": "7 sec",
+    "confidence": 0.894
+  },
+  {
+    "word": "guide",
+    "start_time": "7 sec",
+    "end_time": "8 sec",
+    "confidence": 0.856
+  },
+  {
+    "word": "you",
+    "start_time": "8 sec",
+    "end_time": "8 sec",
+    "confidence": 0.884
+  },
+  {
+    "word": "through",
+    "start_time": "8 sec",
+    "end_time": "8 sec",
+    "confidence": 0.838
+  },
+  {
+    "word": "the",
+    "start_time": "8 sec",
+    "end_time": "8 sec",
+    "confidence": 0.824
+  },
+  {
+    "word": "process.",
+    "start_time": "8 sec",
+    "end_time": "8 sec",
+    "confidence": 0.966
+  },
+  {
+    "word": "Do",
+    "start_time": "8 sec",
+    "end_time": "9 sec",
+    "confidence": 0.937
+  },
+  {
+    "word": "you",
+    "start_time": "9 sec",
+    "end_time": "9 sec",
+    "confidence": 0.889
+  },
+  {
+    "word": "have",
+    "start_time": "9 sec",
+    "end_time": "10 sec",
+    "confidence": 0.959
+  },
+  {
+    "word": "your",
+    "start_time": "10 sec",
+    "end_time": "10 sec",
+    "confidence": 0.35
+  },
+  {
+    "word": "Aadhaar",
+    "start_time": "10 sec",
+    "end_time": "10 sec",
+    "confidence": 0.484
+  },
+  {
+    "word": "number",
+    "start_time": "10 sec",
+    "end_time": "10 sec",
+    "confidence": 0.857
+  },
+  {
+    "word": "handy?",
+    "start_time": "10 sec",
+    "end_time": "11 sec",
+    "confidence": 0.129
+  },
+  {
+    "word": "Yes.",
+    "start_time": "11 sec",
+    "end_time": "11 sec",
+    "confidence": 0.733
+  },
+  {
+    "word": "It's",
+    "start_time": "11 sec",
+    "end_time": "12 sec",
+    "confidence": 0.658
+  },
+  {
+    "word": "1234",
+    "start_time": "12 sec",
+    "end_time": "13 sec",
+    "confidence": 0.391
+  },
+  {
+    "word": "5678",
+    "start_time": "13 sec",
+    "end_time": "14 sec",
+    "confidence": 0.386
+  },
+  {
+    "word": "9012",
+    "start_time": "14 sec",
+    "end_time": "15 sec",
+    "confidence": 0.316
+  },
+  {
+    "word": "but",
+    "start_time": "15 sec",
+    "end_time": "16 sec",
+    "confidence": 0.957
+  },
+  {
+    "word": "I",
+    "start_time": "16 sec",
+    "end_time": "16 sec",
+    "confidence": 0.96
+  },
+  {
+    "word": "don't",
+    "start_time": "16 sec",
+    "end_time": "16 sec",
+    "confidence": 0.856
+  },
+  {
+    "word": "understand",
+    "start_time": "16 sec",
+    "end_time": "16 sec",
+    "confidence": 0.956
+  },
+  {
+    "word": "this",
+    "start_time": "16 sec",
+    "end_time": "17 sec",
+    "confidence": 0.786
+  },
+  {
+    "word": "online",
+    "start_time": "17 sec",
+    "end_time": "17 sec",
+    "confidence": 0.957
+  },
+  {
+    "word": "stuff.",
+    "start_time": "17 sec",
+    "end_time": "18 sec",
+    "confidence": 0.512
+  },
+  {
+    "word": "No",
+    "start_time": "18 sec",
+    "end_time": "18 sec",
+    "confidence": 0.625
+  },
+  {
+    "word": "problem",
+    "start_time": "18 sec",
+    "end_time": "18 sec",
+    "confidence": 0.844
+  },
+  {
+    "word": "it",
+    "start_time": "18 sec",
+    "end_time": "19 sec",
+    "confidence": 0.739
+  },
+  {
+    "word": "all",
+    "start_time": "19 sec",
+    "end_time": "19 sec",
+    "confidence": 0.581
+  },
+  {
+    "word": "you",
+    "start_time": "19 sec",
+    "end_time": "19 sec",
+    "confidence": 0.777
+  },
+  {
+    "word": "can",
+    "start_time": "19 sec",
+    "end_time": "19 sec",
+    "confidence": 0.758
+  },
+  {
+    "word": "visit",
+    "start_time": "19 sec",
+    "end_time": "19 sec",
+    "confidence": 0.898
+  },
+  {
+    "word": "the",
+    "start_time": "19 sec",
+    "end_time": "20 sec",
+    "confidence": 0.815
+  },
+  {
+    "word": "branch",
+    "start_time": "20 sec",
+    "end_time": "20 sec",
+    "confidence": 0.958
+  },
+  {
+    "word": "with",
+    "start_time": "20 sec",
+    "end_time": "20 sec",
+    "confidence": 0.617
+  },
+  {
+    "word": "your",
+    "start_time": "20 sec",
+    "end_time": "20 sec",
+    "confidence": 0.467
+  },
+  {
+    "word": "aadhar",
+    "start_time": "20 sec",
+    "end_time": "21 sec",
+    "confidence": 0.196
+  },
+  {
+    "word": "card",
+    "start_time": "21 sec",
+    "end_time": "21 sec",
+    "confidence": 0.749
+  },
+  {
+    "word": "or",
+    "start_time": "21 sec",
+    "end_time": "22 sec",
+    "confidence": 0.382
+  },
+  {
+    "word": "I",
+    "start_time": "22 sec",
+    "end_time": "22 sec",
+    "confidence": 0.865
+  },
+  {
+    "word": "can",
+    "start_time": "22 sec",
+    "end_time": "22 sec",
+    "confidence": 0.846
+  },
+  {
+    "word": "send",
+    "start_time": "22 sec",
+    "end_time": "22 sec",
+    "confidence": 0.513
+  },
+  {
+    "word": "you",
+    "start_time": "22 sec",
+    "end_time": "23 sec",
+    "confidence": 0.717
+  },
+  {
+    "word": "a",
+    "start_time": "23 sec",
+    "end_time": "23 sec",
+    "confidence": 0.19
+  },
+  {
+    "word": "simple",
+    "start_time": "23 sec",
+    "end_time": "23 sec",
+    "confidence": 0.7
+  },
+  {
+    "word": "form",
+    "start_time": "23 sec",
+    "end_time": "23 sec",
+    "confidence": 0.455
+  },
+  {
+    "word": "to",
+    "start_time": "23 sec",
+    "end_time": "23 sec",
+    "confidence": 0.65
+  },
+  {
+    "word": "fill",
+    "start_time": "23 sec",
+    "end_time": "24 sec",
+    "confidence": 0.302
+  },
+  {
+    "word": "out",
+    "start_time": "24 sec",
+    "end_time": "24 sec",
+    "confidence": 0.309
+  },
+  {
+    "word": "and",
+    "start_time": "24 sec",
+    "end_time": "24 sec",
+    "confidence": 0.395
+  },
+  {
+    "word": "submit",
+    "start_time": "24 sec",
+    "end_time": "24 sec",
+    "confidence": 0.43
+  },
+  {
+    "word": "online",
+    "start_time": "24 sec",
+    "end_time": "25 sec",
+    "confidence": 0.519
+  },
+  {
+    "word": "which",
+    "start_time": "25 sec",
+    "end_time": "25 sec",
+    "confidence": 0.28
+  },
+  {
+    "word": "works",
+    "start_time": "25 sec",
+    "end_time": "26 sec",
+    "confidence": 0.39
+  },
+  {
+    "word": "better",
+    "start_time": "26 sec",
+    "end_time": "26 sec",
+    "confidence": 0.335
+  },
+  {
+    "word": "the",
+    "start_time": "26 sec",
+    "end_time": "27 sec",
+    "confidence": 0.477
+  },
+  {
+    "word": "firm",
+    "start_time": "27 sec",
+    "end_time": "27 sec",
+    "confidence": 0.508
+  },
+  {
+    "word": "sounds",
+    "start_time": "27 sec",
+    "end_time": "27 sec",
+    "confidence": 0.325
+  },
+  {
+    "word": "good.",
+    "start_time": "27 sec",
+    "end_time": "27 sec",
+    "confidence": 0.378
+  },
+  {
+    "word": "Can",
+    "start_time": "27 sec",
+    "end_time": "28 sec",
+    "confidence": 0.842
+  },
+  {
+    "word": "you",
+    "start_time": "28 sec",
+    "end_time": "28 sec",
+    "confidence": 0.614
+  },
+  {
+    "word": "send",
+    "start_time": "28 sec",
+    "end_time": "28 sec",
+    "confidence": 0.348
+  },
+  {
+    "word": "it",
+    "start_time": "28 sec",
+    "end_time": "28 sec",
+    "confidence": 0.563
+  },
+  {
+    "word": "to",
+    "start_time": "28 sec",
+    "end_time": "28 sec",
+    "confidence": 0.388
+  },
+  {
+    "word": "my",
+    "start_time": "28 sec",
+    "end_time": "28 sec",
+    "confidence": 0.518
+  },
+  {
+    "word": "email?",
+    "start_time": "28 sec",
+    "end_time": "29 sec",
+    "confidence": 0.624
+  },
+  {
+    "word": "Absolutely",
+    "start_time": "29 sec",
+    "end_time": "30 sec",
+    "confidence": 0.55
+  },
+  {
+    "word": "send",
+    "start_time": "30 sec",
+    "end_time": "30 sec",
+    "confidence": 0.451
+  },
+  {
+    "word": "the",
+    "start_time": "30 sec",
+    "end_time": "31 sec",
+    "confidence": 0.429
+  },
+  {
+    "word": "phone",
+    "start_time": "31 sec",
+    "end_time": "31 sec",
+    "confidence": 0.283
+  },
+  {
+    "word": "to",
+    "start_time": "31 sec",
+    "end_time": "31 sec",
+    "confidence": 0.485
+  },
+  {
+    "word": "your",
+    "start_time": "31 sec",
+    "end_time": "31 sec",
+    "confidence": 0.343
+  },
+  {
+    "word": "registered",
+    "start_time": "31 sec",
+    "end_time": "31 sec",
+    "confidence": 0.18
+  },
+  {
+    "word": "email,",
+    "start_time": "31 sec",
+    "end_time": "32 sec",
+    "confidence": 0.629
+  },
+  {
+    "word": "please",
+    "start_time": "32 sec",
+    "end_time": "32 sec",
+    "confidence": 0.855
+  },
+  {
+    "word": "check",
+    "start_time": "32 sec",
+    "end_time": "33 sec",
+    "confidence": 0.739
+  },
+  {
+    "word": "and",
+    "start_time": "33 sec",
+    "end_time": "33 sec",
+    "confidence": 0.328
+  },
+  {
+    "word": "let",
+    "start_time": "33 sec",
+    "end_time": "33 sec",
+    "confidence": 0.252
+  },
+  {
+    "word": "me",
+    "start_time": "33 sec",
+    "end_time": "33 sec",
+    "confidence": 0.373
+  },
+  {
+    "word": "know",
+    "start_time": "33 sec",
+    "end_time": "34 sec",
+    "confidence": 0.315
+  },
+  {
+    "word": "if",
+    "start_time": "34 sec",
+    "end_time": "34 sec",
+    "confidence": 0.518
+  },
+  {
+    "word": "you",
+    "start_time": "34 sec",
+    "end_time": "34 sec",
+    "confidence": 0.534
+  },
+  {
+    "word": "need",
+    "start_time": "34 sec",
+    "end_time": "34 sec",
+    "confidence": 0.398
+  },
+  {
+    "word": "help",
+    "start_time": "34 sec",
+    "end_time": "34 sec",
+    "confidence": 0.574
+  },
+  {
+    "word": "filling",
+    "start_time": "34 sec",
+    "end_time": "35 sec",
+    "confidence": 0.207
+  },
+  {
+    "word": "it",
+    "start_time": "35 sec",
+    "end_time": "35 sec",
+    "confidence": 0.564
+  },
+  {
+    "word": "out",
+    "start_time": "35 sec",
+    "end_time": "35 sec",
+    "confidence": 0.496
+  },
+  {
+    "word": "really",
+    "start_time": "35 sec",
+    "end_time": "37 sec",
+    "confidence": 0.385
+  },
+  {
+    "word": "helpful.",
+    "start_time": "37 sec",
+    "end_time": "37 sec",
+    "confidence": 0.762
+  }
+]

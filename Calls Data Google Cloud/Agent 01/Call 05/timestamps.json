@@ -1,0 +1,530 @@
+[
+  {
+    "word": "Hello,",
+    "start_time": "0 sec",
+    "end_time": "0 sec",
+    "confidence": 0.904
+  },
+  {
+    "word": "my",
+    "start_time": "0 sec",
+    "end_time": "0 sec",
+    "confidence": 0.885
+  },
+  {
+    "word": "debit",
+    "start_time": "0 sec",
+    "end_time": "1 sec",
+    "confidence": 0.823
+  },
+  {
+    "word": "card",
+    "start_time": "1 sec",
+    "end_time": "1 sec",
+    "confidence": 0.979
+  },
+  {
+    "word": "got",
+    "start_time": "1 sec",
+    "end_time": "1 sec",
+    "confidence": 0.75
+  },
+  {
+    "word": "declined",
+    "start_time": "1 sec",
+    "end_time": "2 sec",
+    "confidence": 0.293
+  },
+  {
+    "word": "at",
+    "start_time": "2 sec",
+    "end_time": "2 sec",
+    "confidence": 0.792
+  },
+  {
+    "word": "store",
+    "start_time": "2 sec",
+    "end_time": "2 sec",
+    "confidence": 0.766
+  },
+  {
+    "word": "today.",
+    "start_time": "2 sec",
+    "end_time": "2 sec",
+    "confidence": 0.922
+  },
+  {
+    "word": "What's",
+    "start_time": "2 sec",
+    "end_time": "3 sec",
+    "confidence": 0.867
+  },
+  {
+    "word": "the",
+    "start_time": "3 sec",
+    "end_time": "3 sec",
+    "confidence": 0.849
+  },
+  {
+    "word": "deal?",
+    "start_time": "3 sec",
+    "end_time": "3 sec",
+    "confidence": 0.593
+  },
+  {
+    "word": "I",
+    "start_time": "3 sec",
+    "end_time": "4 sec",
+    "confidence": 0.637
+  },
+  {
+    "word": "am",
+    "start_time": "4 sec",
+    "end_time": "4 sec",
+    "confidence": 0.578
+  },
+  {
+    "word": "sorry",
+    "start_time": "4 sec",
+    "end_time": "4 sec",
+    "confidence": 0.91
+  },
+  {
+    "word": "for",
+    "start_time": "4 sec",
+    "end_time": "4 sec",
+    "confidence": 0.79
+  },
+  {
+    "word": "the",
+    "start_time": "4 sec",
+    "end_time": "4 sec",
+    "confidence": 0.822
+  },
+  {
+    "word": "inconvenience",
+    "start_time": "4 sec",
+    "end_time": "5 sec",
+    "confidence": 0.429
+  },
+  {
+    "word": "sir.",
+    "start_time": "5 sec",
+    "end_time": "5 sec",
+    "confidence": 0.543
+  },
+  {
+    "word": "Can",
+    "start_time": "5 sec",
+    "end_time": "6 sec",
+    "confidence": 0.958
+  },
+  {
+    "word": "you",
+    "start_time": "6 sec",
+    "end_time": "6 sec",
+    "confidence": 0.845
+  },
+  {
+    "word": "confirm",
+    "start_time": "6 sec",
+    "end_time": "6 sec",
+    "confidence": 0.664
+  },
+  {
+    "word": "if",
+    "start_time": "6 sec",
+    "end_time": "7 sec",
+    "confidence": 0.866
+  },
+  {
+    "word": "the",
+    "start_time": "7 sec",
+    "end_time": "7 sec",
+    "confidence": 0.799
+  },
+  {
+    "word": "card",
+    "start_time": "7 sec",
+    "end_time": "7 sec",
+    "confidence": 0.714
+  },
+  {
+    "word": "is",
+    "start_time": "7 sec",
+    "end_time": "7 sec",
+    "confidence": 0.642
+  },
+  {
+    "word": "active",
+    "start_time": "7 sec",
+    "end_time": "7 sec",
+    "confidence": 0.895
+  },
+  {
+    "word": "and",
+    "start_time": "7 sec",
+    "end_time": "8 sec",
+    "confidence": 0.518
+  },
+  {
+    "word": "the",
+    "start_time": "8 sec",
+    "end_time": "8 sec",
+    "confidence": 0.776
+  },
+  {
+    "word": "transaction",
+    "start_time": "8 sec",
+    "end_time": "8 sec",
+    "confidence": 0.851
+  },
+  {
+    "word": "amount?",
+    "start_time": "8 sec",
+    "end_time": "9 sec",
+    "confidence": 0.963
+  },
+  {
+    "word": "It's",
+    "start_time": "9 sec",
+    "end_time": "9 sec",
+    "confidence": 0.558
+  },
+  {
+    "word": "active.",
+    "start_time": "9 sec",
+    "end_time": "9 sec",
+    "confidence": 0.898
+  },
+  {
+    "word": "I",
+    "start_time": "9 sec",
+    "end_time": "10 sec",
+    "confidence": 0.768
+  },
+  {
+    "word": "use",
+    "start_time": "10 sec",
+    "end_time": "10 sec",
+    "confidence": 0.576
+  },
+  {
+    "word": "it",
+    "start_time": "10 sec",
+    "end_time": "10 sec",
+    "confidence": 0.708
+  },
+  {
+    "word": "yesterday.",
+    "start_time": "10 sec",
+    "end_time": "11 sec",
+    "confidence": 0.661
+  },
+  {
+    "word": "The",
+    "start_time": "11 sec",
+    "end_time": "11 sec",
+    "confidence": 0.715
+  },
+  {
+    "word": "amount",
+    "start_time": "11 sec",
+    "end_time": "11 sec",
+    "confidence": 0.965
+  },
+  {
+    "word": "was",
+    "start_time": "11 sec",
+    "end_time": "12 sec",
+    "confidence": 0.892
+  },
+  {
+    "word": "like",
+    "start_time": "12 sec",
+    "end_time": "12 sec",
+    "confidence": 0.971
+  },
+  {
+    "word": "10000",
+    "start_time": "12 sec",
+    "end_time": "13 sec",
+    "confidence": 0.546
+  },
+  {
+    "word": "rupees.",
+    "start_time": "13 sec",
+    "end_time": "13 sec",
+    "confidence": 0.455
+  },
+  {
+    "word": "Thank",
+    "start_time": "13 sec",
+    "end_time": "14 sec",
+    "confidence": 0.811
+  },
+  {
+    "word": "you.",
+    "start_time": "14 sec",
+    "end_time": "14 sec",
+    "confidence": 0.854
+  },
+  {
+    "word": "Let",
+    "start_time": "14 sec",
+    "end_time": "15 sec",
+    "confidence": 0.723
+  },
+  {
+    "word": "me",
+    "start_time": "15 sec",
+    "end_time": "15 sec",
+    "confidence": 0.767
+  },
+  {
+    "word": "check.",
+    "start_time": "15 sec",
+    "end_time": "15 sec",
+    "confidence": 0.917
+  },
+  {
+    "word": "It",
+    "start_time": "15 sec",
+    "end_time": "16 sec",
+    "confidence": 0.729
+  },
+  {
+    "word": "appears",
+    "start_time": "16 sec",
+    "end_time": "16 sec",
+    "confidence": 0.585
+  },
+  {
+    "word": "your",
+    "start_time": "16 sec",
+    "end_time": "16 sec",
+    "confidence": 0.253
+  },
+  {
+    "word": "account",
+    "start_time": "16 sec",
+    "end_time": "16 sec",
+    "confidence": 0.811
+  },
+  {
+    "word": "balance",
+    "start_time": "16 sec",
+    "end_time": "17 sec",
+    "confidence": 0.877
+  },
+  {
+    "word": "is",
+    "start_time": "17 sec",
+    "end_time": "17 sec",
+    "confidence": 0.287
+  },
+  {
+    "word": "below",
+    "start_time": "17 sec",
+    "end_time": "17 sec",
+    "confidence": 0.875
+  },
+  {
+    "word": "the",
+    "start_time": "17 sec",
+    "end_time": "18 sec",
+    "confidence": 0.676
+  },
+  {
+    "word": "transaction",
+    "start_time": "18 sec",
+    "end_time": "18 sec",
+    "confidence": 0.504
+  },
+  {
+    "word": "amount.",
+    "start_time": "18 sec",
+    "end_time": "18 sec",
+    "confidence": 0.924
+  },
+  {
+    "word": "Would",
+    "start_time": "18 sec",
+    "end_time": "19 sec",
+    "confidence": 0.794
+  },
+  {
+    "word": "you",
+    "start_time": "19 sec",
+    "end_time": "19 sec",
+    "confidence": 0.791
+  },
+  {
+    "word": "like",
+    "start_time": "19 sec",
+    "end_time": "19 sec",
+    "confidence": 0.954
+  },
+  {
+    "word": "to",
+    "start_time": "19 sec",
+    "end_time": "19 sec",
+    "confidence": 0.897
+  },
+  {
+    "word": "transfer",
+    "start_time": "19 sec",
+    "end_time": "20 sec",
+    "confidence": 0.913
+  },
+  {
+    "word": "funds",
+    "start_time": "20 sec",
+    "end_time": "20 sec",
+    "confidence": 0.263
+  },
+  {
+    "word": "now",
+    "start_time": "20 sec",
+    "end_time": "20 sec",
+    "confidence": 0.605
+  },
+  {
+    "word": "Dam",
+    "start_time": "20 sec",
+    "end_time": "21 sec",
+    "confidence": 0.318
+  },
+  {
+    "word": "really?",
+    "start_time": "21 sec",
+    "end_time": "22 sec",
+    "confidence": 0.253
+  },
+  {
+    "word": "Alright,",
+    "start_time": "22 sec",
+    "end_time": "23 sec",
+    "confidence": 0.161
+  },
+  {
+    "word": "let's",
+    "start_time": "23 sec",
+    "end_time": "23 sec",
+    "confidence": 0.637
+  },
+  {
+    "word": "transfer",
+    "start_time": "23 sec",
+    "end_time": "23 sec",
+    "confidence": 0.577
+  },
+  {
+    "word": "from",
+    "start_time": "23 sec",
+    "end_time": "24 sec",
+    "confidence": 0.374
+  },
+  {
+    "word": "my",
+    "start_time": "24 sec",
+    "end_time": "24 sec",
+    "confidence": 0.487
+  },
+  {
+    "word": "saving",
+    "start_time": "24 sec",
+    "end_time": "24 sec",
+    "confidence": 0.168
+  },
+  {
+    "word": "the",
+    "start_time": "24 sec",
+    "end_time": "26 sec",
+    "confidence": 0.632
+  },
+  {
+    "word": "transfer",
+    "start_time": "26 sec",
+    "end_time": "27 sec",
+    "confidence": 0.643
+  },
+  {
+    "word": "and",
+    "start_time": "27 sec",
+    "end_time": "27 sec",
+    "confidence": 0.438
+  },
+  {
+    "word": "your",
+    "start_time": "27 sec",
+    "end_time": "28 sec",
+    "confidence": 0.391
+  },
+  {
+    "word": "card",
+    "start_time": "28 sec",
+    "end_time": "28 sec",
+    "confidence": 0.119
+  },
+  {
+    "word": "should",
+    "start_time": "28 sec",
+    "end_time": "28 sec",
+    "confidence": 0.465
+  },
+  {
+    "word": "work",
+    "start_time": "28 sec",
+    "end_time": "28 sec",
+    "confidence": 0.244
+  },
+  {
+    "word": "now",
+    "start_time": "28 sec",
+    "end_time": "28 sec",
+    "confidence": 0.393
+  },
+  {
+    "word": "anything",
+    "start_time": "28 sec",
+    "end_time": "29 sec",
+    "confidence": 0.156
+  },
+  {
+    "word": "else",
+    "start_time": "29 sec",
+    "end_time": "30 sec",
+    "confidence": 0.138
+  },
+  {
+    "word": "I",
+    "start_time": "30 sec",
+    "end_time": "30 sec",
+    "confidence": 0.111
+  },
+  {
+    "word": "can",
+    "start_time": "30 sec",
+    "end_time": "30 sec",
+    "confidence": 0.219
+  },
+  {
+    "word": "help",
+    "start_time": "30 sec",
+    "end_time": "30 sec",
+    "confidence": 0.148
+  },
+  {
+    "word": "with",
+    "start_time": "30 sec",
+    "end_time": "30 sec",
+    "confidence": 0.335
+  },
+  {
+    "word": "no.",
+    "start_time": "30 sec",
+    "end_time": "31 sec",
+    "confidence": 0.266
+  }
+]

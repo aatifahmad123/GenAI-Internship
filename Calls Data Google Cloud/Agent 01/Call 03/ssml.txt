@@ -1,0 +1,65 @@
+<speak>
+  <voice name="{customer_voice}">
+    <prosody volume="loud" rate="medium">
+      Hi,
+      <break time="200ms"/>
+      I can’t log into my <emphasis>savings account</emphasis> online.
+      <break time="200ms"/>
+      It keeps saying <emphasis level="strong">‘invalid credentials’!</emphasis>
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="-1st" rate="medium">
+      I’m sorry for the trouble Sir.
+      <break time="300ms"/>
+      Have you tried resetting your password using the <emphasis>‘Forgot Password’</emphasis> link?
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody volume="loud" rate="medium">
+      Yeah, I did that,
+      <break time="200ms"/>
+      but I’m <emphasis>not</emphasis> getting the OTP on my phone!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="-1st" rate="medium">
+      Let’s verify your registered mobile number.
+      <break time="300ms"/>
+      Can you confirm the number linked to your account?
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium" volume="loud">
+      It’s nine seven zero four five six nine nine six.
+      <break time="300ms"/>
+      This is <emphasis level="strong">so annoying</emphasis>,
+      <break time="200ms"/>
+      I need to transfer money <emphasis>today!</emphasis>
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="-1st" rate="medium">
+      I understand.
+      <break time="300ms"/>
+      It seems the OTP system is delayed.
+      <break time="200ms"/>
+      I’ll manually reset your access and send a temporary password.
+      <break time="300ms"/>
+      You’ll get it in <emphasis>10 minutes.</emphasis>
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium">
+      Alright, thanks.
+      <break time="200ms"/>
+      Please make sure it <emphasis>works.</emphasis>
+    </prosody>
+  </voice>
+</speak>

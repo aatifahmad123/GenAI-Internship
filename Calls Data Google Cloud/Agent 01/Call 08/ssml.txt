@@ -1,0 +1,59 @@
+<speak>
+  <voice name="{customer_voice}">
+    <prosody rate="medium" volume="medium">
+      Hey, I just opened a savings account,
+      <break time="200ms"/>
+      and I’m <emphasis>loving</emphasis> the app!
+      <break time="250ms"/>
+      Just one quick question.
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="+1st" rate="medium">
+      Glad you’re enjoying it, sir!
+      <break time="200ms"/>
+      What’s your question?
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium">
+      How do I set up UPI?
+      <break time="150ms"/>
+      I want to start paying with my phone.
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="-1st" rate="medium">
+      It’s simple.
+      <break time="150ms"/>
+      Go to the app’s UPI section,
+      <break time="100ms"/>
+      link your account,
+      <break time="100ms"/>
+      and set a UPI PIN.
+      <break time="200ms"/>
+      Want me to walk you through it?
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium" volume="medium">
+      Nah, I got it.
+      <break time="150ms"/>
+      That’s <emphasis>super easy.</emphasis>
+      <break time="150ms"/>
+      Thanks a lot!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="+1st" rate="medium">
+      You’re welcome!
+      <break time="150ms"/>
+      Reach out if you need more help.
+    </prosody>
+  </voice>
+</speak>

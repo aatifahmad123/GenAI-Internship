@@ -1,0 +1,71 @@
+<speak>
+  <voice name="{customer_voice}">
+    <prosody rate="medium" volume="loud">
+      Hello,
+      <break time="200ms"/>
+      I want to know how to link my <emphasis>Aadhaar</emphasis> to my savings account.
+      <break time="300ms"/>
+      Nobody at the branch helped me!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody rate="medium" pitch="-1st">
+      I’m sorry for the inconvenience Sir.
+      <break time="300ms"/>
+      I can guide you through the process.
+      <break time="200ms"/>
+      Do you have your Aadhaar number handy?
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium">
+      Yes, it’s one two three four,
+      <break time="150ms"/>
+      five six seven eight,
+      <break time="150ms"/>
+      nine zero one two.
+      <break time="300ms"/>
+      But I don’t understand this <emphasis>online stuff.</emphasis>
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody rate="medium" pitch="-1st">
+      No problem at all.
+      <break time="200ms"/>
+      You can visit the branch with your Aadhaar card,
+      <break time="200ms"/>
+      or I can send you a simple form to fill out and submit online.
+      <break time="300ms"/>
+      Which works better?
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium">
+      The form sounds good.
+      <break time="200ms"/>
+      Can you send it to my email?
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody rate="medium" pitch="-1st">
+      Absolutely.
+      <break time="200ms"/>
+      I’ve sent the form to your registered email.
+      <break time="200ms"/>
+      Please check and let me know if you need help filling it out.
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium" volume="medium">
+      Thank you so much,
+      <break time="200ms"/>
+      that’s really helpful.
+    </prosody>
+  </voice>
+</speak>

@@ -1,0 +1,71 @@
+<speak>
+  <voice name="{customer_voice}">
+    <prosody volume="loud" rate="medium">
+      <emphasis level="strong">Your bank’s cheating me!</emphasis>
+      <break time="300ms"/>
+      My EMI went up this month,
+      <break time="200ms"/>
+      and <emphasis>nobody</emphasis> told me!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="-1st" rate="medium">
+      I’m sorry you feel that way Sir.
+      <break time="300ms"/>
+      Let’s review your loan account.
+      <break time="200ms"/>
+      Can you share your loan account number?
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium" volume="loud">
+      It’s three seven one six three six eight six nine four.
+      <break time="300ms"/>
+      I’ve been paying on time,
+      <break time="200ms"/>
+      <emphasis>why’s this happening?</emphasis>
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="-1st" rate="medium">
+      Thank you.
+      <break time="200ms"/>
+      I see your loan has a <emphasis>floating interest rate,</emphasis>
+      <break time="200ms"/>
+      which increased due to RBI’s recent <emphasis>repo rate hike.</emphasis>
+      <break time="300ms"/>
+      I can explain the EMI recalculation if you’d like.
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody volume="loud" rate="medium">
+      <emphasis level="strong">This is nonsense!</emphasis>
+      <break time="200ms"/>
+      You should’ve warned me!
+      <break time="200ms"/>
+      <emphasis>I want to speak to your manager!</emphasis>
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="-1st" rate="medium">
+      I understand your concern Sir.
+      <break time="300ms"/>
+      I’ll escalate this to my supervisor,
+      <break time="200ms"/>
+      and we’ll explore an <emphasis>EMI moratorium</emphasis> option for you.
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody volume="loud" rate="medium">
+      <emphasis>Better do it quick!</emphasis>
+      <break time="200ms"/>
+      I’m <emphasis>not</emphasis> paying extra!
+    </prosody>
+  </voice>
+</speak>

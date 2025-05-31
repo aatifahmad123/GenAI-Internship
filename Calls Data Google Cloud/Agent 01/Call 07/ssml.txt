@@ -1,0 +1,64 @@
+<speak>
+  <voice name="{customer_voice}">
+    <prosody volume="loud" rate="medium">
+      I got a <emphasis>fraud alert</emphasis> on my card!
+      <break time="300ms"/>
+      Some ₹20,000 transaction I didn’t make!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="-1st" rate="medium">
+      That’s concerning, sir.
+      <break time="200ms"/>
+      I’ll block your card immediately to prevent further misuse.
+      <break time="300ms"/>
+      Can you confirm the last four digits of your card?
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium" volume="medium">
+      It’s seven eight six six.
+      <break time="200ms"/>
+      I’m really worried…
+      <break time="150ms"/>
+      how did this happen?
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="-1st" rate="medium">
+      Your card is now blocked, and you’re safe.
+      <break time="300ms"/>
+      The transaction seems <emphasis>unauthorized.</emphasis>
+      <break time="200ms"/>
+      I’ll file a fraud report and issue a replacement card.
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium" volume="medium">
+      Thank you, but what about my money?
+      <break time="200ms"/>
+      Will I get it back?
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="-1st" rate="medium">
+      We’ll initiate a <emphasis>chargeback request</emphasis>.
+      <break time="200ms"/>
+      You should see the refund in <emphasis>7 to 10 days,</emphasis>
+      and I’ll follow up personally.
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium">
+      I appreciate that.
+      <break time="200ms"/>
+      Please keep me updated.
+    </prosody>
+  </voice>
+</speak>

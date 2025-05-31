@@ -1,0 +1,72 @@
+<speak>
+  <voice name="{customer_voice}">
+    <prosody volume="loud" rate="medium">
+      <emphasis>Hello?</emphasis>
+      I applied for a personal loan last month,
+      <break time="300ms"/>
+      but nobody’s told me what’s happening with it.
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="-1st" rate="medium">
+      Good afternoon, Sir.
+      <break time="300ms"/>
+      I’d be happy to check the status.
+      <break time="200ms"/>
+      Could you provide your application ID or full name?
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium">
+      It’s Priyansh Sharma.
+      <break time="200ms"/>
+      I don’t have any ID number…
+      <emphasis>nobody gave me one!</emphasis>
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="-1st" rate="medium">
+      No worries, I can search by name.
+      <break time="300ms"/>
+      One moment…
+      <break time="400ms"/>
+      It looks like your application is under review
+      <break time="200ms"/>
+      due to a pending <emphasis>CIBIL score update.</emphasis>
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody volume="loud" rate="medium">
+      <emphasis>CIBIL?</emphasis>
+      What’s that?
+      <break time="200ms"/>
+      <emphasis>Nobody told me about this!</emphasis>
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody rate="medium" pitch="-1st">
+      I apologize for the confusion.
+      <break time="300ms"/>
+      CIBIL is your credit score,
+      <break time="200ms"/>
+      and we’re waiting for the latest report.
+      <break time="300ms"/>
+      I’ll escalate this to <emphasis>expedite</emphasis> the process.
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium" volume="medium">
+      Okay…
+      <break time="200ms"/>
+      please do it <emphasis>fast.</emphasis>
+      <break time="200ms"/>
+      I need the money soon.
+    </prosody>
+  </voice>
+</speak>
