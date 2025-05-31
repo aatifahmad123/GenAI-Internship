@@ -1,0 +1,57 @@
+<speak>
+  <voice name="{customer_voice}">
+    <prosody rate="medium" pitch="+0.5st" volume="medium">
+      I went to the branch to update my address,
+      <break time="150ms"/>
+      but they said it’s not done yet.
+      <break time="100ms"/>
+      Why?
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody rate="medium" pitch="0st" volume="medium">
+      I’m sorry for the delay, Sir.
+      <break time="150ms"/>
+      Can you share your account number to check the status?
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="fast" pitch="+1st">
+      It’s eight eight, seven three, six zero, one eight, zero three.
+      <break time="150ms"/>
+      I don’t understand why this is so complicated.
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody rate="medium" pitch="0st">
+      I see the issue.
+      <break time="100ms"/>
+      The request wasn’t processed due to a missing signature.
+      <break time="100ms"/>
+      Can you submit a signed form?
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium" pitch="+0.5st">
+      Nobody told me about a form!
+      <break time="150ms"/>
+      Can you send it to me?
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody rate="medium" pitch="0st">
+      Absolutely,
+      <break time="100ms"/>
+      I’ll email the form to your registered email.
+      <break time="100ms"/>
+      Please submit it,
+      <break time="50ms"/>
+      and I’ll expedite the update.
+    </prosody>
+  </voice>
+</speak>

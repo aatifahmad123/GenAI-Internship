@@ -1,0 +1,59 @@
+<speak>
+  <voice name="{customer_voice}">
+    <prosody rate="fast" pitch="+1st" volume="loud">
+      You guys are ripping me off!
+      <break time="150ms"/>
+      My loan statement shows a late fee,
+      <break time="100ms"/>
+      but I paid on time!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody rate="medium" pitch="0st" volume="medium">
+      I’m sorry you’re upset, Sir.
+      <break time="150ms"/>
+      Can you share your loan account number to verify the payment?
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="fast" pitch="+1st" volume="medium">
+      It’s seven eight nine four five six one two three.
+      <break time="100ms"/>
+      I paid ₹20,000 on the 5th!
+      <break time="150ms"/>
+      This is a scam!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody rate="medium" pitch="0st" volume="medium">
+      Thank you.
+      <break time="100ms"/>
+      I see the payment,
+      <break time="100ms"/>
+      but it was credited a day late due to an ECS mandate issue.
+      <break time="150ms"/>
+      I’ll waive the fee.
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium" pitch="+1st" volume="medium">
+      You better!
+      <break time="100ms"/>
+      I’m not paying for your mistakes!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody rate="medium" pitch="0st" volume="medium">
+      The fee is waived, Sir.
+      <break time="100ms"/>
+      You’ll see the updated statement in 24 hours.
+      <break time="100ms"/>
+      I apologize for the trouble.
+    </prosody>
+  </voice>
+</speak>

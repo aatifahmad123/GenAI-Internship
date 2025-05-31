@@ -1,0 +1,488 @@
+[
+  {
+    "word": "Hi,",
+    "start_time": "0 sec",
+    "end_time": "0 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "I",
+    "start_time": "0 sec",
+    "end_time": "0 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "just",
+    "start_time": "0 sec",
+    "end_time": "1 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "got",
+    "start_time": "1 sec",
+    "end_time": "1 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "my",
+    "start_time": "1 sec",
+    "end_time": "1 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "new",
+    "start_time": "1 sec",
+    "end_time": "1 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "credit",
+    "start_time": "1 sec",
+    "end_time": "1 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "card",
+    "start_time": "1 sec",
+    "end_time": "2 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "and",
+    "start_time": "2 sec",
+    "end_time": "2 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "I",
+    "start_time": "2 sec",
+    "end_time": "2 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "am",
+    "start_time": "2 sec",
+    "end_time": "2 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "so",
+    "start_time": "2 sec",
+    "end_time": "2 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "happy.",
+    "start_time": "2 sec",
+    "end_time": "3 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "How",
+    "start_time": "3 sec",
+    "end_time": "3 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "do",
+    "start_time": "3 sec",
+    "end_time": "3 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "I",
+    "start_time": "3 sec",
+    "end_time": "3 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "activate",
+    "start_time": "3 sec",
+    "end_time": "4 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "it?",
+    "start_time": "4 sec",
+    "end_time": "4 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "That's",
+    "start_time": "4 sec",
+    "end_time": "4 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "great",
+    "start_time": "4 sec",
+    "end_time": "5 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "to",
+    "start_time": "5 sec",
+    "end_time": "5 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "hear",
+    "start_time": "5 sec",
+    "end_time": "5 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "so",
+    "start_time": "5 sec",
+    "end_time": "6 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "you",
+    "start_time": "6 sec",
+    "end_time": "6 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "can",
+    "start_time": "6 sec",
+    "end_time": "6 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "activated",
+    "start_time": "6 sec",
+    "end_time": "7 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "via",
+    "start_time": "7 sec",
+    "end_time": "7 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "the",
+    "start_time": "7 sec",
+    "end_time": "8 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "app",
+    "start_time": "8 sec",
+    "end_time": "8 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "or",
+    "start_time": "8 sec",
+    "end_time": "8 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "I",
+    "start_time": "8 sec",
+    "end_time": "8 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "can",
+    "start_time": "8 sec",
+    "end_time": "8 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "do",
+    "start_time": "8 sec",
+    "end_time": "9 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "it",
+    "start_time": "9 sec",
+    "end_time": "9 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "for",
+    "start_time": "9 sec",
+    "end_time": "9 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "you.",
+    "start_time": "9 sec",
+    "end_time": "9 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "Do",
+    "start_time": "9 sec",
+    "end_time": "10 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "you",
+    "start_time": "10 sec",
+    "end_time": "10 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "have",
+    "start_time": "10 sec",
+    "end_time": "10 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "the",
+    "start_time": "10 sec",
+    "end_time": "10 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "card",
+    "start_time": "10 sec",
+    "end_time": "10 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "number?",
+    "start_time": "10 sec",
+    "end_time": "11 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "Yes",
+    "start_time": "11 sec",
+    "end_time": "11 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "and",
+    "start_time": "11 sec",
+    "end_time": "12 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "3",
+    "start_time": "12 sec",
+    "end_time": "12 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "to",
+    "start_time": "12 sec",
+    "end_time": "12 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "84.",
+    "start_time": "12 sec",
+    "end_time": "13 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "Can",
+    "start_time": "13 sec",
+    "end_time": "13 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "you",
+    "start_time": "13 sec",
+    "end_time": "13 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "activate",
+    "start_time": "13 sec",
+    "end_time": "14 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "it",
+    "start_time": "14 sec",
+    "end_time": "14 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "now?",
+    "start_time": "14 sec",
+    "end_time": "14 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "Absolutely.",
+    "start_time": "14 sec",
+    "end_time": "15 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "Your",
+    "start_time": "15 sec",
+    "end_time": "16 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "card",
+    "start_time": "16 sec",
+    "end_time": "16 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "is",
+    "start_time": "16 sec",
+    "end_time": "16 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "activated.",
+    "start_time": "16 sec",
+    "end_time": "16 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "You",
+    "start_time": "16 sec",
+    "end_time": "17 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "can",
+    "start_time": "17 sec",
+    "end_time": "17 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "start",
+    "start_time": "17 sec",
+    "end_time": "18 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "using",
+    "start_time": "18 sec",
+    "end_time": "18 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "it",
+    "start_time": "18 sec",
+    "end_time": "18 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "immediately.",
+    "start_time": "18 sec",
+    "end_time": "19 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "Wow,",
+    "start_time": "19 sec",
+    "end_time": "19 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "that",
+    "start_time": "19 sec",
+    "end_time": "20 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "was",
+    "start_time": "20 sec",
+    "end_time": "20 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "fast.",
+    "start_time": "20 sec",
+    "end_time": "20 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "Thank",
+    "start_time": "20 sec",
+    "end_time": "21 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "you",
+    "start_time": "21 sec",
+    "end_time": "21 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "so",
+    "start_time": "21 sec",
+    "end_time": "21 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "much.",
+    "start_time": "21 sec",
+    "end_time": "21 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "Let",
+    "start_time": "21 sec",
+    "end_time": "23 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "me",
+    "start_time": "23 sec",
+    "end_time": "23 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "know",
+    "start_time": "23 sec",
+    "end_time": "23 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "if",
+    "start_time": "23 sec",
+    "end_time": "23 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "you",
+    "start_time": "23 sec",
+    "end_time": "23 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "need",
+    "start_time": "23 sec",
+    "end_time": "24 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "help",
+    "start_time": "24 sec",
+    "end_time": "24 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "with",
+    "start_time": "24 sec",
+    "end_time": "24 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "anything",
+    "start_time": "24 sec",
+    "end_time": "24 sec",
+    "confidence": 0.0
+  },
+  {
+    "word": "else.",
+    "start_time": "24 sec",
+    "end_time": "25 sec",
+    "confidence": 0.0
+  }
+]

@@ -8,12 +8,12 @@ agent_voice = 'en-IN-Chirp3-HD-Erinome'
 
 # Define the conversation
 conversation = [
-    "My debit card’s not working online! I keep getting ‘transaction failed.’ Fix it!",
-    "I’m sorry for the issue Sir. Can you confirm if you’ve enabled online transactions for your card?",
-    "Enabled? I thought it’s automatic. Nobody told me about this!",
-    "No worries. You can enable it via the app or I can do it for you. Shall I proceed?",
-    "Yeah, do it now. I’m in a hurry!",
-    "It’s done Sir. Your card is now enabled for online use. Try again in a few minutes."
+    "There’s a ₹200 charge on my savings account for no reason! What’s this about?",
+    "I’m sorry for the confusion Sir. Can you share your account number to check the charge?",
+    "It’s six nine zero, six one nine, zero eight, five two. I never signed up for any extra fees!",
+    "I see it’s a maintenance fee due to a low balance. I can waive it as a one-time courtesy.",
+    "Waive it? Why’s it there in the first place? Explain!",
+    "The account requires a minimum balance of ₹10,000. I’ve waived the fee and can set up balance alerts for you."
 ]
 
 # Initialize Text-to-Speech client
@@ -45,16 +45,16 @@ def generate_and_save_audio(text, audio_voice, filename):
 
 # Generate audio for each line
 for i, text in enumerate(conversation):
-    filename = f"Agent 03/Call 01/normal audios/synthesis({i}).wav"
+    filename = f"Agent 03/Call 05/normal audios/synthesis({i}).wav"
     voice = customer_vice if i % 2 == 0 else agent_voice
     generate_and_save_audio(text, voice, filename)
 
 print("All audios generated and saved successfully.")
 
 # Merge all audio files
-audio_files_folder = "Agent 03/Call 01/normal audios"
+audio_files_folder = "Agent 03/Call 05/normal audios"
 files = [f"{audio_files_folder}/synthesis({i}).wav" for i in range(len(conversation))]
-combined_audio_file = "Agent 03/Call 01/normalAudio.wav"
+combined_audio_file = "Agent 03/Call 05/normalAudio.wav"
 
 def merge_audio(files):
     combined = AudioSegment.empty()
