@@ -1,12 +1,4 @@
-from google.cloud import texttospeech
-import os
-
-client = texttospeech.TextToSpeechClient()
-
-customer_voice = 'en-IN-Wavenet-B'
-agent_voice = 'en-IN-Wavenet-C'
-
-ssml = f"""<speak>
+<speak>
   <voice name="{customer_voice}">
     <prosody rate="medium" pitch="+1st" volume="loud">
       I paid my loan EMI, but there’s a lien on my account!
@@ -59,26 +51,3 @@ ssml = f"""<speak>
     </prosody>
   </voice>
 </speak>
-"""
-
-synthesis_input = texttospeech.SynthesisInput(ssml=ssml)
-
-voice = texttospeech.VoiceSelectionParams(
-    language_code="en-IN"
-)
-
-audio_config = texttospeech.AudioConfig(
-    audio_encoding=texttospeech.AudioEncoding.LINEAR16
-)
-
-response = client.synthesize_speech(
-    input=synthesis_input,
-    voice=voice,
-    audio_config=audio_config
-)
-
-output_path = "Agent 02/Call 05/ssmlAudio.wav"
-os.makedirs(os.path.dirname(output_path), exist_ok=True)
-with open(output_path, "wb") as out:
-    out.write(response.audio_content)
-    print(f"Saved audio to {output_path}")

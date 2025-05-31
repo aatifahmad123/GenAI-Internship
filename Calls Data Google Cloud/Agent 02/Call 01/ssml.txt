@@ -1,0 +1,53 @@
+<speak>
+  <voice name="{customer_voice}">
+    <prosody rate="medium" volume="medium">
+      I can’t set up my mobile banking!
+      <break time="200ms"/>
+      The app keeps crashing every time I try.
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="-1st" rate="medium">
+      I’m sorry for the inconvenience Sir.
+      <break time="150ms"/>
+      Can you tell me which version of the app you’re using?
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium" pitch="+1st">
+      Uh, I don’t know… the latest one, I guess?
+      <break time="150ms"/>
+      I just downloaded it!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="-1st" rate="medium">
+      Let’s try a quick fix.
+      <break time="150ms"/>
+      Please uninstall and reinstall the app,
+      <break time="100ms"/>
+      then use your registered mobile number to log in.
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium" volume="loud">
+      This better work.
+      <break time="150ms"/>
+      I don’t have time for this!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="-1st" rate="medium">
+      I understand, sir.
+      <break time="150ms"/>
+      Once reinstalled, it should work.
+      <break time="150ms"/>
+      If not, I’ll escalate this to our tech team.
+    </prosody>
+  </voice>
+</speak>

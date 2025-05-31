@@ -3,7 +3,7 @@ Chirp3 HD Voices [Normal Audios]
 Customer: Achird
 
 Agent 01: Autonoe
-Agent 02: Callirhoe
+Agent 02: Sulafat
 Agent 03: Erinome
 Agent 04: Sadaltager
 Agent 05: Schedar
@@ -44,7 +44,7 @@ Rasalgethi: Male (natural)
 Sadachbia: Male (natural) 
 : Male (natural)
 : Male (natural, sharp)
-Sulafat: Female (natural)
+: Female (natural)
 Umbriel: Male (natural)
 Vindemiatrix: Female (deep)
 Zephyr: Female (natural)

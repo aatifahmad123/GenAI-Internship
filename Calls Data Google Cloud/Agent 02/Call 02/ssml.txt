@@ -1,0 +1,71 @@
+<speak>
+  <voice name="{customer_voice}">
+    <prosody rate="medium" volume="medium">
+      Hello,
+      <break time="150ms"/>
+      I want to know if my loan application got approved.
+      <break time="200ms"/>
+      It’s been weeks!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody rate="medium" pitch="-1st">
+      Good morning Sir.
+      <break time="150ms"/>
+      Could you share your application ID or full name to check the status?
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium" pitch="+1st">
+      It’s Manav Gupta.
+      <break time="150ms"/>
+      I don’t have any ID number.
+      <break time="100ms"/>
+      The branch didn’t give me one.
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody rate="medium">
+      No problem.
+      <break time="100ms"/>
+      I’ve found your application.
+      <break time="150ms"/>
+      It’s approved,
+      <break time="100ms"/>
+      but we need your KYC documents to proceed.
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium" volume="medium">
+      KYC?
+      <break time="150ms"/>
+      What’s that?
+      <break time="150ms"/>
+      Why didn’t anyone tell me?
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="-1st" rate="medium">
+      I’m sorry for the oversight.
+      <break time="150ms"/>
+      KYC means identity verification.
+      <break time="150ms"/>
+      I’ll send you a list of required documents via SMS.
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium">
+      Okay,
+      <break time="150ms"/>
+      please send it soon.
+      <break time="150ms"/>
+      I need the loan urgently.
+    </prosody>
+  </voice>
+</speak>

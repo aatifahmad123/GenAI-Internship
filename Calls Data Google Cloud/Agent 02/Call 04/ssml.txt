@@ -1,0 +1,49 @@
+<speak>
+  <voice name="{customer_voice}">
+    <prosody rate="medium" pitch="+2st" volume="loud">
+      Hi! I just opened my savings account, and I’m so excited!
+      <break time="300ms"/>
+      How do I set up NEFT transfers?
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody rate="medium" pitch="+1st">
+      That’s great to hear Sir!
+      <break time="200ms"/>
+      To set up NEFT, go to the app’s transfer section and add a beneficiary.
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium" pitch="+1st">
+      Oh, that sounds easy.
+      <break time="150ms"/>
+      Do I need anything special for it?
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody rate="medium" pitch="0st">
+      Just the beneficiary’s account number and IFSC code.
+      <break time="150ms"/>
+      It takes 24 hours to activate.
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium" pitch="+2st">
+      Awesome, thanks!
+      <break time="100ms"/>
+      You made that super clear.
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody rate="medium" pitch="0st">
+      You’re welcome!
+      <break time="150ms"/>
+      Let me know if you need help with anything else.
+    </prosody>
+  </voice>
+</speak>

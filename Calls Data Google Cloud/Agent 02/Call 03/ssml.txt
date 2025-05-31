@@ -1,0 +1,55 @@
+<speak>
+  <voice name="{customer_voice}">
+    <prosody rate="medium" pitch="+1st" volume="loud">
+      Your bank’s a mess!
+      <break time="200ms"/>
+      My credit card statement shows a ₹15,000 charge I never made!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody rate="medium" pitch="-1st">
+      That’s concerning Sir.
+      <break time="150ms"/>
+      Can you confirm the date and merchant of the transaction?
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium" pitch="+1st">
+      It’s from two days ago,
+      <break time="100ms"/>
+      some online store.
+      <break time="150ms"/>
+      I didn’t buy anything!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody rate="medium">
+      Thank you.
+      <break time="100ms"/>
+      This looks like a potential fraud.
+      <break time="150ms"/>
+      I’ll block your card and initiate a chargeback request.
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium" pitch="+2st" volume="loud">
+      You better refund me fast!
+      <break time="150ms"/>
+      This is unacceptable!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody rate="medium" pitch="-1st">
+      I understand your frustration.
+      <break time="150ms"/>
+      The chargeback is filed,
+      <break time="100ms"/>
+      and you’ll see the refund in 7–10 days.
+    </prosody>
+  </voice>
+</speak>
