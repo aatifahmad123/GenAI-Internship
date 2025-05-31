@@ -1,0 +1,28 @@
+{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I’m thrilled! My loan pre-closure was approved. Just need to know the final steps."
+    },
+    {
+      "speaker": "RM",
+      "text": "That’s wonderful news Sir! Can you confirm your loan account number to finalize the process?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s three two one, six five four, nine eight, seven one. What do I need to do next?"
+    },
+    {
+      "speaker": "RM",
+      "text": "You’ll need to pay the outstanding balance of ₹50,000. I can generate a payment link for you."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Perfect, send the link. You guys made this so smooth!"
+    },
+    {
+      "speaker": "RM",
+      "text": "Thank you Sir. The link is sent, and once paid, your loan will be closed. I’ll follow up."
+    }
+  ]
+}

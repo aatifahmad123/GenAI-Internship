@@ -1,0 +1,53 @@
+<speak>
+  <voice name="{customer_voice}">
+    <prosody rate="medium" pitch="+2st" volume="medium">
+      I’m thrilled!
+      <break time="150ms"/>
+      My loan pre-closure was approved.
+      <break time="200ms"/>
+      Just need to know the final steps.
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody rate="medium" pitch="+1st" volume="medium">
+      That’s wonderful news, Sir!
+      <break time="150ms"/>
+      Can you confirm your loan account number to finalize the process?
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium" pitch="+2st">
+      It’s three two one, six five four, nine eight, seven one.
+      <break time="200ms"/>
+      What do I need to do next?
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody rate="medium" pitch="0st">
+      You’ll need to pay the outstanding balance of ₹50,000.
+      <break time="150ms"/>
+      I can generate a payment link for you.
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium" pitch="+2st">
+      Perfect, send the link.
+      <break time="150ms"/>
+      You guys made this so smooth!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody rate="medium" pitch="0st">
+      Thank you, Sir.
+      <break time="150ms"/>
+      The link is sent, and once paid, your loan will be closed.
+      <break time="200ms"/>
+      I’ll follow up.
+    </prosody>
+  </voice>
+</speak>

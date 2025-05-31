@@ -1,0 +1,28 @@
+{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "My debit card’s not working online! I keep getting ‘transaction failed.’ Fix it!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry for the issue Sir. Can you confirm if you’ve enabled online transactions for your card?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Enabled? I thought it’s automatic. Nobody told me about this!"
+    },
+    {
+      "speaker": "RM",
+      "text": "No worries. You can enable it via the app or I can do it for you. Shall I proceed?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Yeah, do it now. I’m in a hurry!"
+    },
+    {
+      "speaker": "RM",
+      "text": "It’s done Sir. Your card is now enabled for online use. Try again in a few minutes."
+    }
+  ]
+}

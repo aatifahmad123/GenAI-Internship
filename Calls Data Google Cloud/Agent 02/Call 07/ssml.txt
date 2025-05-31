@@ -1,0 +1,53 @@
+<speak>
+  <voice name="{customer_voice}">
+    <prosody rate="medium" pitch="+1st" volume="loud">
+      I’m worried!
+      <break time="300ms"/>
+      My savings account shows a withdrawal I didn’t make.
+      <break time="200ms"/>
+      Is someone stealing my money?
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody rate="medium" pitch="0st">
+      That’s alarming, Sir.
+      <break time="200ms"/>
+      Can you confirm the transaction amount and date so I can investigate?
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium" pitch="+1st" volume="loud">
+      It’s ₹25,000, from yesterday.
+      <break time="200ms"/>
+      I never authorized this!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody rate="medium" pitch="0st" volume="medium">
+      Thank you.
+      <break time="150ms"/>
+      I’ve frozen your account to prevent further issues,
+      <break time="150ms"/>
+      and will file a fraud report.
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium" pitch="+1st">
+      Please make sure my money’s safe.
+      <break time="200ms"/>
+      I’m really scared about this.
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody rate="medium" pitch="0st">
+      Your account is secure now, Sir.
+      <break time="200ms"/>
+      We’ll reverse the transaction within 5–7 days and keep you updated.
+    </prosody>
+  </voice>
+</speak>

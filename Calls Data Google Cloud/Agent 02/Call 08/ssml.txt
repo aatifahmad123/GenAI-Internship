@@ -1,0 +1,55 @@
+<speak>
+  <voice name="{customer_voice}">
+    <prosody rate="medium" pitch="+1st" volume="medium">
+      I tried applying for a car loan online,
+      <break time="200ms"/>
+      but the portal keeps saying “error.”
+      <break time="300ms"/>
+      What’s wrong?
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody rate="medium" pitch="0st">
+      I’m sorry for the trouble, Sir.
+      <break time="200ms"/>
+      Can you specify which step the error occurs at?
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium" pitch="+1st">
+      It’s when I submit my income details.
+      <break time="150ms"/>
+      I don’t understand what I’m doing wrong.
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody rate="medium" pitch="0st">
+      It might be a system glitch.
+      <break time="150ms"/>
+      Try uploading your documents in PDF format,
+      <break time="150ms"/>
+      or I can process it manually.
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium" pitch="+1st">
+      Manual sounds better.
+      <break time="150ms"/>
+      Can you do it now?
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody rate="medium" pitch="0st">
+      Absolutely.
+      <break time="150ms"/>
+      Please email your documents to our loan desk,
+      <break time="150ms"/>
+      and I’ll start the application today.
+    </prosody>
+  </voice>
+</speak>

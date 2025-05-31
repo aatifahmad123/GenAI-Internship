@@ -1,0 +1,53 @@
+<speak>
+  <voice name="{customer_voice}">
+    <prosody rate="medium" pitch="+1st" volume="medium">
+      I want to close my savings account.
+      <break time="150ms"/>
+      The branch keeps delaying it!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody rate="medium" pitch="0st" volume="medium">
+      I’m sorry for the delay, Sir.
+      <break time="200ms"/>
+      Can you share your account number so I can assist?
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium" pitch="+1st" volume="medium">
+      It’s nine five five two nine four seven eight eight two.
+      <break time="200ms"/>
+      I just want this done quickly.
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody rate="medium" pitch="0st">
+      I understand.
+      <break time="150ms"/>
+      There’s a pending balance of ₹500.
+      <break time="150ms"/>
+      Would you like to transfer it or receive a cheque?
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium" pitch="+1st">
+      Transfer it to my other bank.
+      <break time="150ms"/>
+      This is taking too long!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody rate="medium" pitch="0st">
+      I’ve initiated the closure and transfer.
+      <break time="200ms"/>
+      It’ll be completed in 3 days.
+      <break time="150ms"/>
+      I’ll send a confirmation.
+    </prosody>
+  </voice>
+</speak>

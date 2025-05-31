@@ -1,0 +1,57 @@
+<speak>
+  <voice name="{customer_voice}">
+    <prosody rate="medium" pitch="+1st">
+      I requested a credit limit increase last week,
+      <break time="300ms"/>
+      and I haven’t heard back.
+      <break time="200ms"/>
+      What’s the hold-up?
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody rate="medium" pitch="0st">
+      I apologize for the delay, Sir.
+      <break time="200ms"/>
+      Can you provide your card number so I can check the request status?
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium" pitch="+1st">
+      It’s ending in seven eight six four.
+      <break time="200ms"/>
+      I need this sorted soon.
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody rate="medium" pitch="0st">
+      Thank you.
+      <break time="150ms"/>
+      Your request is under review.
+      <break time="150ms"/>
+      I’ll expedite it and confirm the new limit by tomorrow.
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium" pitch="+2st" volume="loud">
+      Tomorrow?
+      <break time="200ms"/>
+      Can’t you do it now?
+      <break time="200ms"/>
+      I’m planning a big purchase!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody rate="medium" pitch="0st">
+      I understand.
+      <break time="150ms"/>
+      I’ve prioritized it, and you’ll get an update by end of day.
+      <break time="150ms"/>
+      Is that okay?
+    </prosody>
+  </voice>
+</speak>
