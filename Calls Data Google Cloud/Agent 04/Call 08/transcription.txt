@@ -1,1 +1,6 @@
-My god payment stuck on processing for 2 days. What's the deal? I am sorry for the delay, sir. Can you share the Transaction ID or card number? 6789. I don't get why it's taking so long. It seems the payment gateway had a Glitch and manually process it now this is annoying just get it done. It's process the payments complete and you see it in your statement.
+Customer: My card payment stuck on processing for 2 days. What's the deal?
+Agent: I am sorry for the delay sir. Can you share the Transaction ID or card number?
+Customer: Gardens in 6789 I don't get white taking so long.
+Agent: It seems the payment gateway had a Glitch I'll manually process it now.
+Customer: Man, this is annoying just get it d.
+Agent: Processor the payments complete and you see it in your statement.

@@ -1,1 +1,7 @@
-Hello, I apply for a personal loan last month but nobody is told me what happening with it. Good afternoon, sir. I be happy to check the status. Could you provide your application ID or full name Sharma I don't have any ID number. Nobody gave me one. No worries. I can search by name. One moment. It looks like your application is under review due to a pending CIBIL score update. Nobody told me about this for the confusion CIBIL is your credit score and will waiting for the latest report. I listen to expedite the process please do it fast. I need the money soon.
+Customer: Hello, I applied for a personal loan last month but nobody store me what's happening with?
+Agent: Good afternoon, sir. I be happy to check this status. Could you provide your application ID or full name?
+Customer: It's Priyansh Sharma I don't have any ID number nobody gave me one.
+Agent: No worries. I can search by name one moment. It looks like your application is under review due to a pending CIBIL score update.
+Customer: CIBIL what's that? Nobody told me about this.
+Agent: Apologize for the confusion civil is your credit score and their waiting for the latest report. I'll escalate this to expedite the process.
+Customer: Ok, please do it fast. I need the money soon.

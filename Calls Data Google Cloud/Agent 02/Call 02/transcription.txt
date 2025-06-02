@@ -1,1 +1,7 @@
-Hello. I want to know if my loan application Govt approved. It's been weeks. Good morning sir. Could you share your application ID or full name to check the status its man of Gupta I don't have any ID number the branch didn't give me one. No problem. I found your application. It's approved but we need your KYC documents to proceed KYC what's that? Why didn't anyone tell me I am sorry for D over side. KYC means identity verification. I will send you a list of required documents via SMS ok, please send it soon. I need the loan urgently.
+Customer: Hello, I want to know if my loan application got a proved it's been weeks.
+Agent: Good morning sir. Could you share your application ID or full name to check the status?
+Customer: It's Manav Gupta I don't have any ID number the branch didn't give me one.
+Agent: No problem. I found your application it's approved but we need your KYC documents to proceed.
+Customer: KYC what's that? Why didn't anyone tell me
+Agent: I am sorry for the oversight KYC means identity verification. I will send you a list of require documents via SMS
+Customer: Ok, please send it soon. I need the loan urgently.

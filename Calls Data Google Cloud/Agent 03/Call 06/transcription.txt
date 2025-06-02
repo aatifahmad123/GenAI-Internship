@@ -1,1 +1,6 @@
-I am freaking out my loan payment is due but I can't access my account to pay it. I am here to help sir. Can you confirm your loan account number? 73660 18091 what if I miss the payment? Will it hurt my credit no need to worry I can process a manual payment or extend the due date which works better manual payment, please. I don't want any trouble with my CIBIL score. The payment is process and your account is updated you are all set.
+Customer: I am freaking out my loan payment is due, but I can't access my account to pay it.
+Agent: I am here to help sir. Can you confirm your loan account number?
+Customer: It's 73660 1801 what if I miss the payment will it hurt my credit?
+Agent: No need to worry I can process a manual payment or extend the due date which works better?
+Customer: Manual payment, please. I don't want any trouble with my CIBIL score.
+Agent: Done the payment is processed and your account is updated you are all set.

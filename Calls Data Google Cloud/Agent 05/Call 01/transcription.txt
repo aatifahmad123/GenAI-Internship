@@ -1,1 +1,6 @@
-My PPI wallet isn't linking to my new debit card. What's the problem? I am sorry for the issues, sir. Can you confirm the last 4 digits of your card? Its two three four five. I have tried like 10 times already. It's seems the card isn't registered for PPI and unable it now, please try again in 10 minutes 10 minutes can't you do it faster? I need to pay a bill. I backward itself its active now and you should be able to link it immediately.
+Customer: My PPI wallet isn't linking to my new debit card. What's the problem?
+Agent: I am sorry for the issues. Can you confirm the last 4 digits of your card?
+Customer: It's 2345. I have tried like 10 times already.
+Agent: It seems the card isn't registered for PPI I enable it now, please try again in 10 minutes.
+Customer: 10 minutes can't you do it faster? I need to pay a bill.
+Agent: Have expedited it. So it's active now and you should be able to link it immediate.

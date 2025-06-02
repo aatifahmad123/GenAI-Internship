@@ -1,1 +1,6 @@
-I got a letter saying my loans overdue, but I paid it what's happening? I am sorry for the confusion mome. Can you share your loan account number? It's 234 567890. I don't understand why I got this letter. It's seems the payment wasn't reflected due to a system error. I will update it now, please do I don't want any trouble. It's update. It's your all clear and I'll send the confirmation.
+Customer: I got a letter saying my loans overdue that I paid it what's happening?
+Agent: I am sorry for the confusion main can you share your loan account number?
+Customer: It's 234 567890. I don't understand why I got this letter.
+Agent: It seems the payment wasn't reflected due to a system error and updated.
+Customer: Please do I don't want any trouble.
+Agent: It's updated sir. You are all clear and I'll send a confirmation.

@@ -1,1 +1,6 @@
-I tried checking my loan balance online but it says account not found help. I am sorry for the trouble sir. Can you confirm your loan account number its 239874 1158. I don't know why it's not showing up its seems your account isn't links to the portal and link it now in send your login instructions. Ok, but I am not good with these online things. Will it be easy? It's very simple. So I'll also send a guide and you can call me if you need help.
+Customer: I tried checking my loan balance online but it says account not found help.
+Agent: I am sorry for the trouble sir. Can you confirm your loan account number?
+Customer: It's 239 874 1158. I don't know why it's not showing up.
+Agent: It seems your account isn't linked to the portal. I link it now and send you login instructions.
+Customer: Ok but I am not good with these online things will it be easy?
+Agent: It's very simple sir. I also send a guide and you can call me if you need help.

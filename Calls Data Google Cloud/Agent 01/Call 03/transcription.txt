@@ -1,1 +1,7 @@
-Hi I can't log into my savings account online. It keeps saying invalid credentials. I am sorry for the trouble, sir. Have you tried resetting your password using the forgot password link I do that but I am not getting the OTP on my phone. Let's very fine or register mobile number. Can you confirm the number linked to your account? Its 97045 6996. This is so annoying. I need to transfer money today. I understand. It seems the OTP system is delayed and manually reset your access and send a temporary password you get it in 10 minutes. Alright, thanks, please make sure it works.
+Customer: Hi I can't login to my savings account online. It keep saying invalid credentials.
+Agent: I am sorry for the trouble sir. Have you tried resetting your password using the forgot password?
+Customer: Yeah, I did that but I am not getting the OTP on my phone.
+Agent: Let's verify your registered mobile number. Can you confirm the number linked to your account?
+Customer: It's 97045 6996. This is so annoying. I need to transfer money today.
+Agent: I understand. It seems the OTP system is delayed Al manually reset your access and send a temporary password you will get it in 10 minutes.
+Customer: Alright, thanks, please. Make sure it works.

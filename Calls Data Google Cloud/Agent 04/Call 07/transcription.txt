@@ -1,1 +1,6 @@
-I need to open a demat account. Can you help me set it up. Of course, sir. Do you have your pan card and KYC documents ready? I do. How long is this gonna take it takes 2 to 3 days to process I'll send you a form to fill out and submit online. Alright, send it now. I want to start trading soon the phone sent to your email sir. I follow up on its process.
+Customer: I need to open a demat account. Can you help me set it up?
+Agent: Of course, do you have your pan card and KYC documents ready?
+Customer: Yeah, I do. How long is this gonna?
+Agent: It takes 2 to 3 days to process I'll send you a form to fill out and submit online.
+Customer: Alright, send it now. I want to start trading so
+Agent: The form sent to your email sir. I'll follow up once it's process.

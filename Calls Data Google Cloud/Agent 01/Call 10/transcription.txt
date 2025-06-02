@@ -1,1 +1,7 @@
-I will trying to activate my new credit card for house. It's not working do it now. I am sorry for the delay, sir. Can you confirm the last four digits of your card? So I can check the activation status with 7890. I followed all the steps but it's still not active. Thank you. It seems the activation request didn't process. I like to meet it manually now, please wait a moment. I need to use it today. It's done sir. Your card is active now you can use it immediately. Would you like me to send a confirmation finally send it?
+Customer: I've been trying to activate my new credit card for hours. It's not working do it now.
+Agent: I am sorry for the delay, sir. Can you confirm the last 4 digits of your card so I can check the activation status?
+Customer: It's 7890 I followed all the steps but it's still not active.
+Agent: Thank you. It seems the activation request then process I'll activated manually now, please wait a moment.
+Customer: Hurry up. I need to use it today.
+Agent: It's done sir. Your card is active now you can use it immediately. Would you like me to send a confirmation?
+Customer: Finally yeah, send it.

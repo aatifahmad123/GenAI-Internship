@@ -1,1 +1,6 @@
-I want to close my savings account the branch keeps delaying it. I am sorry for the delay, sir. Can you share your account number so I can assist its 955294? 7882. I just want this done quickly. I understand. There is a pending balance of 500 rupees. Would you like to transfer it? I received a cheque transfer it to my other bank. This is taking too long. I will associated the closure and transfer it will be completed in 3 days. I'll send the confirmation.
+Customer: I want to close my savings account the branch keeps delaying it.
+Agent: I am sorry for the delay, sir. Can you share your account number so I can assist
+Customer: It's 9552 947 882 I just want this done quickly.
+Agent: I understand there is a pending balance of 500 rupees. Would you like to transfer it or receive a cheque?
+Customer: Transfer it to my other bank. This is taking too long.
+Agent: I initiated the closure and transfer it will be completed in 3 days. I'll send a confirmation.

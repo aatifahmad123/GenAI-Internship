@@ -1,1 +1,6 @@
-My debit card is not working online. I keep getting transaction failed fix it. I am sorry for the issue sir. Can you confirm if you win abled online transactions for your card? I thought it automatically nobody told me about this. No worries. You can enable it. Why the app or I can do it for you. Shall I received do it now? I am in Harry it's done. Your card is now enable for online use try again in a few minutes.
+Customer: My debit card is not working online. I keep getting transaction failed fix it.
+Agent: I am sorry for the issue sir. Can you confirm if you enabled online transactions for your card?
+Customer: Enabled I thought it's automatic. Nobody told me about this.
+Agent: No worries. You can enable it via the app or I can do it for you. Shall I proceed?
+Customer: Yeah, do it now, I am in a hurry.
+Agent: It's dancer. Your card is now enable for online news try again in a few minutes.
