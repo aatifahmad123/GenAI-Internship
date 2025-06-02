@@ -5,9 +5,9 @@ import json
 # Instantiate the client
 client = speech.SpeechClient()
 
-local_file_path = "Agent 04/Call 10/ssmlAudio.wav"
-transcription_file_path = "Agent 04/Call 10/transcription.txt"
-timestamps_file_path = "Agent 04/Call 10/timestamps.json"
+local_file_path = "Agent 05/Call 10/ssmlAudio.wav"
+transcription_file_path = "Agent 05/Call 10/transcription.txt"
+timestamps_file_path = "Agent 05/Call 10/timestamps.json"
 
 def transcribe_local_audio():
     with io.open(local_file_path, "rb") as audio_file:

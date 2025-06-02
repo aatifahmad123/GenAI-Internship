@@ -1,0 +1,53 @@
+<speak>
+  <voice name="{customer_voice}">
+    <prosody pitch="+2st" rate="medium">
+      I’m panicking!
+      <break time="75ms"/>
+      My loan account shows a missed payment,
+      <break time="75ms"/>
+      but I paid it!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      I’m here to help Sir.
+      <break time="75ms"/>
+      Can you confirm your loan account number?
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody pitch="+1st" rate="medium">
+      It’s nine zero, one two, four eight, six five, seven seven.
+      <break time="100ms"/>
+      This could mess up my credit score!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      I see the payment was delayed due to a processing error.
+      <break time="75ms"/>
+      I’ll update the status now.
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody pitch="+1st" rate="medium">
+      Thank God!
+      <break time="75ms"/>
+      Please make sure it’s fixed.
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      It’s corrected Sir.
+      <break time="75ms"/>
+      Your account is up to date,
+      <break time="50ms"/>
+      and I’ll confirm with CIBIL.
+    </prosody>
+  </voice>
+</speak>

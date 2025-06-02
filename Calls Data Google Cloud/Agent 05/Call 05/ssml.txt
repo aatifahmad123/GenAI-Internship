@@ -1,0 +1,51 @@
+<speak>
+  <voice name="{customer_voice}">
+    <prosody pitch="+1st" rate="medium">
+      I need to update the nominee for my savings account.
+      <break time="100ms"/>
+      How do I do that?
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      I can assist Sir.
+      <break time="75ms"/>
+      Can you provide your account number?
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody pitch="+1st" rate="medium">
+      It’s three four five, six seven eight, nine zero one.
+      <break time="100ms"/>
+      I want to add my son as the nominee.
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      You’ll need to submit a nominee update form.
+      <break time="75ms"/>
+      I’ll send it to your registered email.
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody pitch="+2st" rate="medium">
+      Forms again?
+      <break time="75ms"/>
+      Can’t you just do it over the phone?
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      I’m sorry, Sir,
+      <break time="75ms"/>
+      but the form is required for verification.
+      <break time="50ms"/>
+      I’ll ensure it’s processed quickly.
+    </prosody>
+  </voice>
+</speak>

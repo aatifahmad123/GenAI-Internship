@@ -3,16 +3,17 @@ from pydub import AudioSegment
 import os
 
 customer_vice = 'en-IN-Chirp3-HD-Achird'
-agent_voice = 'en-IN-Chirp3-HD-Sadaltager'
+agent_voice = 'en-IN-Chirp3-HD-Schedar'
+
 
 # Define the conversation
 conversation = [
-    "I got an overdraft facility on my account, and it’s a lifesaver! How do I increase the limit?",
-    "Glad it’s helping Sir! Can you confirm your account number for the request?",
-    "It’s seven eight nine, one two three, four five six. Can you make it quick?",
-    "I’ll need your latest income proof to process the increase. Can you email it to us?",
-    "Sure thing. This bank’s been great, by the way!",
-    "Thank you Sir! Once we receive the documents, I’ll expedite the limit increase."
+    "I set up a recurring deposit, and it’s so convenient! How do I increase the amount?",
+    "Glad it’s working well Sir! Can you share your account number?",
+    "It’s six seven, eight nine, zero one, two three, four four. Can we do it quickly?",
+    "You’ll need to submit a request to modify the RD. I’ll send the form to your email.",
+    "Awesome, thanks! You guys make banking easy.",
+    "Thank you Sir! The form’s sent, and I’ll follow up once it’s processed."
 ]
 
 # Initialize Text-to-Speech client
@@ -44,16 +45,16 @@ def generate_and_save_audio(text, audio_voice, filename):
 
 # Generate audio for each line
 for i, text in enumerate(conversation):
-    filename = f"Agent 04/Call 10/normal audios/synthesis({i}).wav"
+    filename = f"Agent 05/Call 10/normal audios/synthesis({i}).wav"
     voice = customer_vice if i % 2 == 0 else agent_voice
     generate_and_save_audio(text, voice, filename)
 
 print("All audios generated and saved successfully.")
 
 # Merge all audio files
-audio_files_folder = "Agent 04/Call 10/normal audios"
+audio_files_folder = "Agent 05/Call 10/normal audios"
 files = [f"{audio_files_folder}/synthesis({i}).wav" for i in range(len(conversation))]
-combined_audio_file = "Agent 04/Call 10/normalAudio.wav"
+combined_audio_file = "Agent 05/Call 10/normalAudio.wav"
 
 def merge_audio(files):
     combined = AudioSegment.empty()

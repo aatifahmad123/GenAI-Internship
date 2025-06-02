@@ -1,0 +1,28 @@
+{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "My credit card bill’s got a ₹5,000 charge I don’t recognize! What’s this?"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry Sir. Can you share the card number and transaction date?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Ends in four four six five, from last week. I didn’t buy anything!"
+    },
+    {
+      "speaker": "RM",
+      "text": "It looks like a merchant error. I’ll dispute the charge and block further transactions."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Good. I’m not paying for this nonsense!"
+    },
+    {
+      "speaker": "RM",
+      "text": "The dispute’s filed Sir. You’ll get a refund in 7-10 days."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+<speak>
+  <voice name="{customer_voice}">
+    <prosody pitch="+1st" rate="medium">
+      My PPI wallet isn’t linking to my new debit card!
+      <break time="100ms"/>
+      What’s the problem?
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      I’m sorry for the issue Sir.
+      <break time="75ms"/>
+      Can you confirm the last four digits of your card?
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody pitch="+1st" rate="medium">
+      It’s two three four five.
+      <break time="100ms"/>
+      I’ve tried like ten times already!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      It seems the card isn’t registered for PPI.
+      <break time="75ms"/>
+      I’ll enable it now.
+      <break time="75ms"/>
+      Please try again in 10 minutes.
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody pitch="+2st" rate="medium">
+      Ten minutes?
+      <break time="75ms"/>
+      Can’t you do it faster?
+      <break time="75ms"/>
+      I need to pay a bill!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      I’ve expedited it Sir.
+      <break time="75ms"/>
+      It’s active now,
+      <break time="50ms"/>
+      and you should be able to link it immediately.
+    </prosody>
+  </voice>
+</speak>

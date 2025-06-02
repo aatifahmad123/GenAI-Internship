@@ -1,0 +1,51 @@
+<speak>
+  <voice name="{customer_voice}">
+    <prosody pitch="+2st" rate="medium">
+      My credit card bill’s got a ₹5,000 charge I don’t recognize!
+      <break time="75ms"/>
+      What’s this?
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      I’m sorry Sir.
+      <break time="75ms"/>
+      Can you share the card number and transaction date?
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody pitch="+1st" rate="medium">
+      Ends in four four six five,
+      <break time="75ms"/>
+      from last week.
+      <break time="50ms"/>
+      I didn’t buy anything!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      It looks like a merchant error.
+      <break time="75ms"/>
+      I’ll dispute the charge and block further transactions.
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody pitch="+1st" rate="medium">
+      Good.
+      <break time="50ms"/>
+      I’m not paying for this nonsense!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      The dispute’s filed Sir.
+      <break time="75ms"/>
+      You’ll get a refund in 7–10 days.
+    </prosody>
+  </voice>
+</speak>

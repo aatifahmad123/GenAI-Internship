@@ -1,0 +1,49 @@
+<speak>
+  <voice name="{customer_voice}">
+    <prosody pitch="+2st" rate="medium">
+      I can’t log into my net banking.
+      <break time="75ms"/>
+      It says ‘wrong password,’ but I’m sure it’s right!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      I’m sorry for the issue Sir.
+      <break time="75ms"/>
+      Have you tried resetting your password?
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody pitch="+1st" rate="medium">
+      Yeah, but I don’t get the OTP.
+      <break time="75ms"/>
+      What’s going on?
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      Let’s verify your registered mobile number.
+      <break time="75ms"/>
+      Can you confirm it?
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody pitch="+1st" rate="medium">
+      It’s nine nine, six three, seven four, one five, two zero.
+      <break time="75ms"/>
+      This is so frustrating!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      I’ve resent the OTP Sir.
+      <break time="75ms"/>
+      It’s fixed, and you should receive it now.
+    </prosody>
+  </voice>
+</speak>
