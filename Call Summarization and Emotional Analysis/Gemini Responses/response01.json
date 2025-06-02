@@ -22,8 +22,6 @@
             ],
             "resolution_status": "resolved",
             "resolution": "Chargeback request initiated; refund expected in 5-7 business days.",
-            "interruptions by customer": "0",
-            "interruptions by agent": "0",
             "dominant emotions (customer)": [
                 "Frustration",
                 "Anger"

@@ -26,6 +26,7 @@ def get_gemini_response(transcription, agent_id, call_id):
         {{
             "call id": "<Unique identifier for the call>",
             "agent id": "<Unique identifier for the agent>",
+            "call duration": "<Duration of the call in seconds>",
             "summary": "<One professional sentence, no more than 10 words>",
             "intents": [
                 {{
@@ -38,8 +39,6 @@ def get_gemini_response(transcription, agent_id, call_id):
                     "actions of agent": "<List of actions taken by agent for the intent>",
                     "resolution_status": "<Status of resolution, e.g., 'resolved', 'pending'>",
                     "resolution": "<Brief description of the resolution if resolved or 'N/A' if not resolved>",
-                    "interruptions by customer": "<Number of times the customer interrupted the agent>",
-                    "interruptions by agent": "<Number of times the agent interrupted the customer>",
                     "dominant emotions (customer)": "[<list main emotions expressed by the customer>]",
                     "conversation sentiment": "<sentiment of the conversation: Positive/Negative/Neutral for that intent>",
                     "agent professionalism": "<Brief comment on agent's professionalism>",
@@ -48,7 +47,9 @@ def get_gemini_response(transcription, agent_id, call_id):
                     "callback promise": "<Yes/No>",
                     "callback time": "<Date (relative for eg. same day or next day and Time if applicable, otherwise 'N/A'>"
                 }}
-            ]
+            ],
+            "interruptions by customer": "<Number of times the customer interrupted the agent>",
+            "interruptions by agent": "<Number of times the agent interrupted the customer>",
         }}
         
         Transcription: {transcription}
