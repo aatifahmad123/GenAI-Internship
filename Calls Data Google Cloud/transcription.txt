@@ -1,6 +1,0 @@
-Customer: Hey, I've been charged twice on my credit card for the same transaction. This is ridiculous.
-Agent: I am so sorry to hear that sir. Can you share the transaction details so I can check the charge back status?
-Customer: It's from last week some restaurant bill 5000 I saw it twice on my statement.
-Agent: Got it. Let me pull up your account its sounds like a duplicate charge. We can initiate a chargeback request right away.
-Customer: You better I can't keep paying for your mistakes.
-Agent: Absolutely, I understand your frustration. I like this for a refund and it should reflect in 5 to 7 business days.
