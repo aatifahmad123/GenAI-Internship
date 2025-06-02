@@ -6,57 +6,69 @@
         {
             "intent": "Login Issue",
             "confidence": "95",
-            "keywords": "Hi I can't login to...invalid credentials",
+            "keywords": "Hi I can't login to my ending invalid credentials.",
             "products": [
-                "Savings Account"
+                "Savings Account",
+                "Online Banking"
             ],
             "issues": [
-                "Login failure",
-                "Invalid credentials"
+                "Unable to log in",
+                "Invalid credentials error"
+            ],
+            "reasons (identified by agent)": [
+                "OTP system delay"
             ],
             "actions of agent": [
-                "Suggested password reset",
-                "Verified registered mobile number",
-                "Manually reset access",
-                "Sent temporary password"
+                "Verified customer's registered mobile number",
+                "Manually reset account access",
+                "Sent a temporary password"
             ],
             "resolution_status": "resolved",
+            "resolution": "Agent manually reset access and sent a temporary password.",
+            "interruptions by customer": "0",
+            "interruptions by agent": "0",
             "dominant emotions (customer)": [
                 "Frustration",
                 "Annoyance"
             ],
             "conversation sentiment": "Negative",
             "agent professionalism": "Professional and helpful.",
-            "agent performance": "9",
-            "customer satisfaction": "7",
+            "agent performance (out of 10)": "9",
+            "customer satisfaction (out of 10)": "7",
             "callback promise": "No",
             "callback time": "N/A"
         },
         {
             "intent": "OTP Issue",
-            "confidence": "90",
-            "keywords": "I did that but...OTP on my phone",
+            "confidence": "98",
+            "keywords": "Yeah, I did that but ending on my phone.",
             "products": [
-                "Savings Account"
+                "Savings Account",
+                "Online Banking"
             ],
             "issues": [
-                "OTP not received",
-                "Delayed OTP"
+                "Not receiving OTP (One-Time Password)"
+            ],
+            "reasons (identified by agent)": [
+                "OTP system delay"
             ],
             "actions of agent": [
-                "Verified registered mobile number",
-                "Manually reset access",
-                "Sent temporary password"
+                "Verified customer's registered mobile number",
+                "Manually reset account access",
+                "Sent a temporary password"
             ],
             "resolution_status": "resolved",
+            "resolution": "Agent manually reset access and sent a temporary password.",
+            "interruptions by customer": "0",
+            "interruptions by agent": "0",
             "dominant emotions (customer)": [
                 "Frustration",
                 "Annoyance"
             ],
             "conversation sentiment": "Negative",
             "agent professionalism": "Professional and helpful.",
-            "agent performance": "9",
-            "customer satisfaction": "7",
+            "agent performance (out of 10)": "9",
+            "customer satisfaction (out of 10)": "7",
             "callback promise": "No",
             "callback time": "N/A"
         }

@@ -1,35 +1,39 @@
 {
-  "call id": "31",
-  "agent id": "4",
-  "summary": "Customer disputes unauthorized subscription charge and requests a refund.",
-  "intents": [
-    {
-      "intent": "Dispute Unauthorized Charge",
-      "confidence": "95",
-      "keywords": "I am Furious my card...I want my money back now.",
-      "products": [
-        "Subscription service"
-      ],
-      "issues": [
-        "Unauthorized charge",
-        "Recurring billing after cancellation"
-      ],
-      "actions of agent": [
-        "Identified the transaction",
-        "Initiated a chargeback",
-        "Blocked further charges"
-      ],
-      "resolution_status": "resolved",
-      "dominant emotions (customer)": [
-        "Furious",
-        "Frustration"
-      ],
-      "conversation sentiment": "Negative",
-      "agent professionalism": "The agent remained calm and took appropriate actions.",
-      "agent performance": "8",
-      "customer satisfaction": "6",
-      "callback promise": "No",
-      "callback time": "N/A"
-    }
-  ]
+    "call id": "31",
+    "agent id": "4",
+    "summary": "Customer requests refund for unauthorized subscription charge.",
+    "intents": [
+        {
+            "intent": "Refund Request",
+            "confidence": "95",
+            "keywords": "I am Furious my...money back now.",
+            "products": "Streaming service subscription",
+            "issues": [
+                "Unauthorized charge of $12000",
+                "Recurring charge after cancellation"
+            ],
+            "reasons (identified by agent)": [
+                "Recurring charge not stopped after cancellation"
+            ],
+            "actions of agent": [
+                "Located the transaction",
+                "Initiated a chargeback",
+                "Blocked further charges"
+            ],
+            "resolution_status": "resolved",
+            "resolution": "Chargeback initiated; refund expected in 5-7 days.",
+            "interruptions by customer": "0",
+            "interruptions by agent": "0",
+            "dominant emotions (customer)": [
+                "Furious",
+                "Frustrated"
+            ],
+            "conversation sentiment": "Negative",
+            "agent professionalism": "Agent was polite and helpful in resolving the issue.",
+            "agent performance (out of 10)": "8",
+            "customer satisfaction (out of 10)": "6",
+            "callback promise": "No",
+            "callback time": "N/A"
+        }
+    ]
 }

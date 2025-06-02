@@ -1,39 +1,44 @@
 {
     "call id": "17",
     "agent id": "2",
-    "summary": "Customer reports unauthorized withdrawal; agent freezes account and initiates fraud report.",
+    "summary": "Customer reports unauthorized withdrawal; agent freezes account.",
     "intents": [
         {
-            "intent": "Report Unauthorized Transaction",
+            "intent": "Report Unauthorized Transaction/Fraud",
             "confidence": "95",
-            "keywords": "I am worried my savings ... authorise this.",
+            "keywords": "I am worried my...authorize this.",
             "products": [
                 "Savings Account"
             ],
             "issues": [
-                "Unauthorized withdrawal",
+                "Unauthorized withdrawal of $25000",
                 "Potential fraud",
-                "Account security"
+                "Customer's money at risk"
+            ],
+            "reasons (identified by agent)": [
+                "Unknown, requires investigation"
             ],
             "actions of agent": [
-                "Confirmed transaction details",
-                "Froze the account",
+                "Account frozen",
                 "Filed a fraud report",
-                "Assured customer of account security",
-                "Promised to reverse the transaction",
-                "Committed to providing updates"
+                "Assured customer account is secure",
+                "Promised to reverse the transaction"
             ],
             "resolution_status": "pending",
+            "resolution": "Transaction reversal promised within 5-7 days.",
+            "interruptions by customer": "0",
+            "interruptions by agent": "0",
             "dominant emotions (customer)": [
                 "Worried",
-                "Scared"
+                "Scared",
+                "Anxious"
             ],
             "conversation sentiment": "Negative",
-            "agent professionalism": "Professional and reassuring.",
-            "agent performance": "9",
-            "customer satisfaction": "7",
-            "callback promise": "No",
-            "callback time": "N/A"
+            "agent professionalism": "The agent responded quickly and reassuringly.",
+            "agent performance (out of 10)": "9",
+            "customer satisfaction (out of 10)": "7",
+            "callback promise": "Yes",
+            "callback time": "Within 5 to 7 days"
         }
     ]
 }

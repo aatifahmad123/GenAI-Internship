@@ -1,18 +1,20 @@
 {
   "call id": "5",
   "agent id": "1",
-  "summary": "Customer's card declined due to insufficient funds; issue resolved.",
+  "summary": "Customer's debit card declined due to insufficient funds.",
   "intents": [
     {
       "intent": "Debit Card Issue",
       "confidence": "95",
-      "keywords": "Hello, my debit card got declined...What's the deal?",
+      "keywords": "Hello, my debit card got...What's the deal?",
       "products": [
         "Debit Card"
       ],
       "issues": [
-        "Card Declined",
-        "Insufficient Funds"
+        "Debit card declined at a store"
+      ],
+      "reasons (identified by agent)": [
+        "Insufficient funds in the account"
       ],
       "actions of agent": [
         "Verified card activity",
@@ -20,38 +22,17 @@
         "Offered fund transfer"
       ],
       "resolution_status": "resolved",
+      "resolution": "Funds transferred from savings to cover the transaction.",
+      "interruptions by customer": "0",
+      "interruptions by agent": "0",
       "dominant emotions (customer)": [
         "Frustration",
         "Surprise"
       ],
       "conversation sentiment": "Neutral",
       "agent professionalism": "Professional and helpful.",
-      "agent performance": "9",
-      "customer satisfaction": "8",
-      "callback promise": "No",
-      "callback time": "N/A"
-    },
-    {
-      "intent": "Fund Transfer",
-      "confidence": "98",
-      "keywords": "Alright, let's transfer from my savings...card should work now",
-      "products": [
-        "Savings Account"
-      ],
-      "issues": [
-        "Insufficient Funds"
-      ],
-      "actions of agent": [
-        "Initiated fund transfer"
-      ],
-      "resolution_status": "resolved",
-      "dominant emotions (customer)": [
-        "Relief"
-      ],
-      "conversation sentiment": "Positive",
-      "agent professionalism": "Efficient and helpful.",
-      "agent performance": "10",
-      "customer satisfaction": "9",
+      "agent performance (out of 10)": "9",
+      "customer satisfaction (out of 10)": "8",
       "callback promise": "No",
       "callback time": "N/A"
     }

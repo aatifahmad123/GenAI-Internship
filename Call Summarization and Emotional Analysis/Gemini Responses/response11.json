@@ -6,28 +6,33 @@
     {
       "intent": "Mobile Banking Setup Issue",
       "confidence": "95",
-      "keywords": "I can't set up my mobile banking...everytime I try.",
+      "keywords": "I can't set up...everytime I try.",
       "products": [
         "Mobile Banking App"
       ],
       "issues": [
-        "App crashing",
-        "Setup failure"
+        "App crashing during setup",
+        "Inability to access mobile banking"
+      ],
+      "reasons (identified by agent)": [
+        "Potentially outdated or corrupted app installation"
       ],
       "actions of agent": [
-        "Troubleshooting",
-        "Suggested reinstallation",
-        "Offered escalation to tech support"
+        "Troubleshooting by suggesting uninstall and reinstall",
+        "Promised escalation to technical support if the issue persists"
       ],
       "resolution_status": "pending",
+      "resolution": "N/A",
+      "interruptions by customer": "0",
+      "interruptions by agent": "0",
       "dominant emotions (customer)": [
         "Frustration",
         "Impatience"
       ],
       "conversation sentiment": "Negative",
-      "agent professionalism": "Professional and helpful.",
-      "agent performance": "8",
-      "customer satisfaction": "5",
+      "agent professionalism": "The agent was polite and offered a solution and escalation.",
+      "agent performance (out of 10)": "7",
+      "customer satisfaction (out of 10)": "4",
       "callback promise": "No",
       "callback time": "N/A"
     }

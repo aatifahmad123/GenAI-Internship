@@ -11,35 +11,44 @@
         "Loan"
       ],
       "issues": [
-        "Application status inquiry",
-        "Delay in application processing"
+        "Uncertainty about loan application status",
+        "Lack of communication regarding application status"
+      ],
+      "reasons (identified by agent)": [
+        "N/A"
       ],
       "actions of agent": [
         "Asked for application ID or full name",
         "Checked application status"
       ],
       "resolution_status": "pending",
+      "resolution": "Application approved, but KYC documents are required.",
+      "interruptions by customer": "0",
+      "interruptions by agent": "0",
       "dominant emotions (customer)": [
         "Anxious",
         "Impatient"
       ],
       "conversation sentiment": "Neutral",
-      "agent professionalism": "Professional and helpful.",
-      "agent performance": "8",
-      "customer satisfaction": "6",
+      "agent professionalism": "Polite and helpful.",
+      "agent performance (out of 10)": "8",
+      "customer satisfaction (out of 10)": "6",
       "callback promise": "No",
       "callback time": "N/A"
     },
     {
-      "intent": "KYC Document Explanation and Submission",
+      "intent": "KYC Document Inquiry",
       "confidence": "90",
       "keywords": "KYC what's that?...loan urgently.",
       "products": [
         "Loan"
       ],
       "issues": [
-        "Lack of information about KYC requirements",
-        "Urgency for loan disbursement"
+        "Lack of understanding of KYC requirements",
+        "Lack of prior communication about KYC"
+      ],
+      "reasons (identified by agent)": [
+        "Oversight in communication"
       ],
       "actions of agent": [
         "Explained KYC meaning",
@@ -47,15 +56,17 @@
         "Offered to send a list of required documents via SMS"
       ],
       "resolution_status": "pending",
+      "resolution": "Agent will send the list of KYC documents via SMS.",
+      "interruptions by customer": "0",
+      "interruptions by agent": "0",
       "dominant emotions (customer)": [
         "Confused",
-        "Frustrated",
-        "Urgent"
+        "Frustrated"
       ],
-      "conversation sentiment": "Neutral",
+      "conversation sentiment": "Negative",
       "agent professionalism": "Professional and apologetic.",
-      "agent performance": "8",
-      "customer satisfaction": "7",
+      "agent performance (out of 10)": "9",
+      "customer satisfaction (out of 10)": "7",
       "callback promise": "No",
       "callback time": "N/A"
     }

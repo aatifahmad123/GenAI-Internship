@@ -1,61 +1,74 @@
 {
-    "call id": "19",
-    "agent id": "2",
-    "summary": "Customer closes savings account and transfers balance to another bank.",
-    "intents": [
-        {
-            "intent": "Account Closure",
-            "confidence": "95",
-            "keywords": "I want to close my...delaying it.",
-            "products": [
-                "Savings Account"
-            ],
-            "issues": [
-                "Account closure delay"
-            ],
-            "actions of agent": [
-                "Account verification",
-                "Initiated account closure",
-                "Initiated balance transfer",
-                "Promised confirmation"
-            ],
-            "resolution_status": "resolved",
-            "dominant emotions (customer)": [
-                "Frustration",
-                "Impatience"
-            ],
-            "conversation sentiment": "Negative",
-            "agent professionalism": "Professional and helpful, addressing the customer's concerns.",
-            "agent performance": "9",
-            "customer satisfaction": "7",
-            "callback promise": "No",
-            "callback time": "N/A"
-        },
-        {
-            "intent": "Balance Transfer",
-            "confidence": "90",
-            "keywords": "Transfer it to my...taking too long.",
-            "products": [
-                "Savings Account"
-            ],
-            "issues": [
-                "Transferring balance to another bank"
-            ],
-            "actions of agent": [
-                "Inquired about transfer preference",
-                "Initiated balance transfer"
-            ],
-            "resolution_status": "resolved",
-            "dominant emotions (customer)": [
-                "Frustration",
-                "Impatience"
-            ],
-            "conversation sentiment": "Neutral",
-            "agent professionalism": "Professional and helpful, addressing the customer's concerns.",
-            "agent performance": "9",
-            "customer satisfaction": "7",
-            "callback promise": "No",
-            "callback time": "N/A"
-        }
-    ]
+  "call id": "19",
+  "agent id": "2",
+  "summary": "Customer wants to close savings account and transfer balance.",
+  "intents": [
+    {
+      "intent": "Account Closure",
+      "confidence": "95",
+      "keywords": "I want to close my savings ... done quickly.",
+      "products": [
+        "Savings Account"
+      ],
+      "issues": [
+        "Delay in account closure process",
+        "Branch delaying account closure"
+      ],
+      "reasons (identified by agent)": [
+        "Pending balance of 500 rupees"
+      ],
+      "actions of agent": [
+        "Identified pending balance",
+        "Offered transfer or cheque option",
+        "Initiated account closure and transfer",
+        "Promised confirmation"
+      ],
+      "resolution_status": "resolved",
+      "resolution": "Account closure and balance transfer initiated; confirmation to be sent.",
+      "interruptions by customer": "0",
+      "interruptions by agent": "0",
+      "dominant emotions (customer)": [
+        "Frustration",
+        "Impatience"
+      ],
+      "conversation sentiment": "Negative",
+      "agent professionalism": "Professional and helpful in resolving the issue.",
+      "agent performance (out of 10)": "9",
+      "customer satisfaction (out of 10)": "7",
+      "callback promise": "No",
+      "callback time": "N/A"
+    },
+    {
+      "intent": "Balance Transfer",
+      "confidence": "90",
+      "keywords": "Transfer it to my other ... taking too long.",
+      "products": [
+        "Savings Account"
+      ],
+      "issues": [
+        "Pending balance in the account",
+        "Customer wants to transfer the balance to another bank"
+      ],
+      "reasons (identified by agent)": [
+        "Customer preference to move funds to another bank"
+      ],
+      "actions of agent": [
+        "Offered transfer option",
+        "Initiated balance transfer"
+      ],
+      "resolution_status": "resolved",
+      "resolution": "Balance transfer initiated to customer's other bank account.",
+      "interruptions by customer": "0",
+      "interruptions by agent": "0",
+      "dominant emotions (customer)": [
+        "Impatience"
+      ],
+      "conversation sentiment": "Neutral",
+      "agent professionalism": "Efficient in handling the transfer request.",
+      "agent performance (out of 10)": "9",
+      "customer satisfaction (out of 10)": "8",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ]
 }

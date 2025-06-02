@@ -6,28 +6,34 @@
         {
             "intent": "UPI Setup Assistance",
             "confidence": "95",
-            "keywords": "Hey, I just open...paying with my phone.",
+            "keywords": "How do I set... paying with my phone.",
             "products": [
                 "Savings Account",
                 "Mobile App",
                 "UPI"
             ],
             "issues": [
-                "UPI setup"
+                "Customer needs guidance on setting up UPI within the app."
+            ],
+            "reasons (identified by agent)": [
+                "First-time user of the UPI feature within the app."
             ],
             "actions of agent": [
-                "Provided instructions for setting up UPI",
-                "Offered to walk the customer through the process"
+                "Provided a brief explanation of the UPI setup process.",
+                "Offered to walk the customer through the process."
             ],
             "resolution_status": "resolved",
+            "resolution": "Customer understood the instructions and confirmed they could complete the setup independently.",
+            "interruptions by customer": "0",
+            "interruptions by agent": "0",
             "dominant emotions (customer)": [
-                "Happy",
+                "Positive",
                 "Curious"
             ],
             "conversation sentiment": "Positive",
-            "agent professionalism": "Helpful and polite.",
-            "agent performance": "9",
-            "customer satisfaction": "9",
+            "agent professionalism": "Helpful and concise.",
+            "agent performance (out of 10)": "9",
+            "customer satisfaction (out of 10)": "9",
             "callback promise": "No",
             "callback time": "N/A"
         }

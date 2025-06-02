@@ -1,36 +1,43 @@
 {
-  "call id": "27",
-  "agent id": "3",
-  "summary": "Customer inquires about withdrawing fixed deposit yearly.",
-  "intents": [
-    {
-      "intent": "Fixed Deposit Withdrawal Inquiry",
-      "confidence": "95",
-      "keywords": "I want to withdraw...how does that work?",
-      "products": [
-        "Fixed Deposit"
-      ],
-      "issues": [
-        "Premature withdrawal penalties",
-        "Interest rate reduction"
-      ],
-      "actions of agent": [
-        "Asked for account number",
-        "Explained premature withdrawal policy",
-        "Offered to calculate the exact amount"
-      ],
-      "resolution_status": "pending",
-      "dominant emotions (customer)": [
-        "Inquiry",
-        "Concern",
-        "Urgency"
-      ],
-      "conversation sentiment": "Neutral",
-      "agent professionalism": "Professional and helpful.",
-      "agent performance": "8",
-      "customer satisfaction": "7",
-      "callback promise": "No",
-      "callback time": "N/A"
-    }
-  ]
+    "call id": "27",
+    "agent id": "3",
+    "summary": "Customer inquires about withdrawing fixed deposit early.",
+    "intents": [
+        {
+            "intent": "Fixed Deposit Withdrawal Inquiry",
+            "confidence": "95",
+            "keywords": "I want to withdraw...how does that work?",
+            "products": [
+                "Fixed Deposit"
+            ],
+            "issues": [
+                "Premature withdrawal of fixed deposit",
+                "Uncertainty about interest rate after premature withdrawal"
+            ],
+            "reasons (identified by agent)": [
+                "Customer needs the money soon"
+            ],
+            "actions of agent": [
+                "Offered assistance with the withdrawal process",
+                "Asked for FD account number",
+                "Explained the reduced interest rate for premature withdrawal",
+                "Offered to calculate the exact amount"
+            ],
+            "resolution_status": "pending",
+            "resolution": "N/A",
+            "interruptions by customer": "0",
+            "interruptions by agent": "0",
+            "dominant emotions (customer)": [
+                "Inquiry",
+                "Concern",
+                "Urgency"
+            ],
+            "conversation sentiment": "Neutral",
+            "agent professionalism": "Professional and helpful.",
+            "agent performance (out of 10)": "9",
+            "customer satisfaction (out of 10)": "7",
+            "callback promise": "No",
+            "callback time": "N/A"
+        }
+    ]
 }

@@ -1,10 +1,10 @@
 {
   "call id": "41",
   "agent id": "5",
-  "summary": "Customer's PPI wallet not linking; agent resolves the issue.",
+  "summary": "Customer needs help linking debit card to PPI wallet.",
   "intents": [
     {
-      "intent": "Debit Card Issue",
+      "intent": "Debit card linking issue",
       "confidence": "95",
       "keywords": "My PPI wallet isn't linking...What's the problem?",
       "products": [
@@ -12,23 +12,28 @@
         "Debit Card"
       ],
       "issues": [
-        "Debit card not linking to PPI wallet",
+        "Debit card not linking to PPI wallet"
+      ],
+      "reasons (identified by agent)": [
         "Card not registered for PPI"
       ],
       "actions of agent": [
-        "Identified the issue",
-        "Enabled PPI for the card",
-        "Expedited the activation process"
+        "Asked for last 4 digits of card",
+        "Enabled card for PPI",
+        "Expedited activation"
       ],
       "resolution_status": "resolved",
+      "resolution": "Agent enabled card for PPI and expedited activation.",
+      "interruptions by customer": "0",
+      "interruptions by agent": "0",
       "dominant emotions (customer)": [
-        "frustration",
-        "impatience"
+        "Frustration",
+        "Urgency"
       ],
       "conversation sentiment": "Negative",
-      "agent professionalism": "Professional and helpful, expedited the process.",
-      "agent performance": "9",
-      "customer satisfaction": "7",
+      "agent professionalism": "Professional and helpful.",
+      "agent performance (out of 10)": "9",
+      "customer satisfaction (out of 10)": "7",
       "callback promise": "No",
       "callback time": "N/A"
     }

@@ -1,34 +1,69 @@
 {
   "call id": "2",
   "agent id": "1",
-  "summary": "Customer inquires about personal loan application status and CIBIL score.",
+  "summary": "Agent assists customer with personal loan application status.",
   "intents": [
     {
-      "intent": "Check Loan Application Status",
+      "intent": "Check loan application status",
       "confidence": "95",
-      "keywords": "Hello, I applied for...money soon.",
+      "keywords": "Hello, I applied for...what's happening with?",
       "products": [
         "Personal Loan"
       ],
       "issues": [
-        "Application status inquiry",
-        "Pending CIBIL score update",
-        "Lack of communication"
+        "Lack of status update on loan application",
+        "Customer unaware of application status"
+      ],
+      "reasons (identified by agent)": [
+        "Pending CIBIL score update"
       ],
       "actions of agent": [
-        "Checked application status by name",
+        "Checked application status using customer's name",
         "Explained reason for delay (pending CIBIL score)",
-        "Escalated the process"
+        "Offered to escalate the process"
       ],
       "resolution_status": "pending",
+      "resolution": "N/A",
+      "interruptions by customer": "0",
+      "interruptions by agent": "0",
       "dominant emotions (customer)": [
         "Concern",
+        "Impatience"
+      ],
+      "conversation sentiment": "Neutral",
+      "agent professionalism": "Professional and helpful.",
+      "agent performance (out of 10)": "8",
+      "customer satisfaction (out of 10)": "6",
+      "callback promise": "No",
+      "callback time": "N/A"
+    },
+    {
+      "intent": "Inquiry about CIBIL score",
+      "confidence": "90",
+      "keywords": "CIBIL what's that?...told me about this.",
+      "products": [],
+      "issues": [
+        "Customer unaware of CIBIL score and its impact on loan application"
+      ],
+      "reasons (identified by agent)": [
+        "Lack of prior communication regarding CIBIL score requirement"
+      ],
+      "actions of agent": [
+        "Explained what CIBIL score is",
+        "Apologized for the confusion"
+      ],
+      "resolution_status": "resolved",
+      "resolution": "Agent explained CIBIL score to customer.",
+      "interruptions by customer": "0",
+      "interruptions by agent": "0",
+      "dominant emotions (customer)": [
+        "Confusion",
         "Frustration"
       ],
-      "conversation sentiment": "Negative",
-      "agent professionalism": "Professional and helpful, provided explanation and offered escalation.",
-      "agent performance": "8",
-      "customer satisfaction": "6",
+      "conversation sentiment": "Neutral",
+      "agent professionalism": "Professional and patient.",
+      "agent performance (out of 10)": "9",
+      "customer satisfaction (out of 10)": "7",
       "callback promise": "No",
       "callback time": "N/A"
     }

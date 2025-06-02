@@ -1,33 +1,37 @@
 {
     "call id": "1",
     "agent id": "1",
-    "summary": "Customer reports duplicate charge; agent initiates chargeback request.",
+    "summary": "Customer reports duplicate charge; agent initiates chargeback.",
     "intents": [
         {
             "intent": "Dispute Duplicate Charge",
             "confidence": "95",
-            "keywords": "Hey, I've been charged...saw it twice on my statement.",
-            "products": [
-                "Credit Card"
-            ],
+            "keywords": "Hey, I've been charged...twice on my statement.",
+            "products": "Credit Card",
             "issues": [
-                "Duplicate Charge",
-                "Incorrect Billing"
+                "Duplicate charge on credit card",
+                "Incorrect billing"
+            ],
+            "reasons (identified by agent)": [
+                "Duplicate transaction processing"
             ],
             "actions of agent": [
-                "Verified transaction details",
-                "Initiated chargeback request",
-                "Provided timeframe for refund"
+                "Identified the issue as a duplicate charge.",
+                "Offered to initiate a chargeback request.",
+                "Provided timeframe for refund (5-7 business days)."
             ],
             "resolution_status": "resolved",
+            "resolution": "Chargeback request initiated; refund expected in 5-7 business days.",
+            "interruptions by customer": "0",
+            "interruptions by agent": "0",
             "dominant emotions (customer)": [
                 "Frustration",
                 "Anger"
             ],
             "conversation sentiment": "Negative",
-            "agent professionalism": "Agent remained calm and empathetic despite customer's frustration.",
-            "agent performance": "8",
-            "customer satisfaction": "6",
+            "agent professionalism": "Agent remained calm and professional despite customer's frustration.",
+            "agent performance (out of 10)": "9",
+            "customer satisfaction (out of 10)": "6",
             "callback promise": "No",
             "callback time": "N/A"
         }

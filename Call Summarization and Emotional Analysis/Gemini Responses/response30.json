@@ -1,57 +1,40 @@
 {
     "call id": "30",
     "agent id": "3",
-    "summary": "Customer inquires about tracking an RTGS transfer and receives confirmation.",
+    "summary": "Customer inquires about tracking an RTGS transfer.",
     "intents": [
         {
-            "intent": "Track RTGS Transfer",
+            "intent": "RTGS Transfer Tracking",
             "confidence": "95",
-            "keywords": "I setup RTGS transfers and it's ... make sure it went through.",
+            "keywords": "I setup RTGS transfers...how to track them.",
             "products": [
-                "RTGS Transfer"
-            ],
-            "issues": [
-                "Tracking transfer status"
-            ],
-            "actions of agent": [
-                "Asked for transaction reference number",
-                "Checked the transfer status",
-                "Offered to send a statement"
-            ],
-            "resolution_status": "resolved",
-            "dominant emotions (customer)": [
-                "Inquisitive",
-                "Relief"
-            ],
-            "conversation sentiment": "Positive",
-            "agent professionalism": "Professional and helpful.",
-            "agent performance": "9",
-            "customer satisfaction": "9",
-            "callback promise": "No",
-            "callback time": "N/A"
-        },
-        {
-            "intent": "Request Statement",
-            "confidence": "90",
-            "keywords": "Statements find thanks you ... send this statement to",
-            "products": [
+                "RTGS Transfer",
+                "Mobile App",
                 "Bank Statement"
             ],
             "issues": [
-                "Need for transaction record"
+                "Customer wants to track an RTGS transfer."
+            ],
+            "reasons (identified by agent)": [
+                "Customer wants confirmation that the transfer went through."
             ],
             "actions of agent": [
-                "Offered to send a statement",
-                "Sent statement to customer's email"
+                "Asked for the transaction reference number.",
+                "Checked the status of the transfer.",
+                "Offered to send a statement."
             ],
             "resolution_status": "resolved",
+            "resolution": "Agent confirmed the transfer was completed and offered a statement.",
+            "interruptions by customer": "0",
+            "interruptions by agent": "0",
             "dominant emotions (customer)": [
-                "Grateful"
+                "Inquisitive",
+                "Satisfied"
             ],
             "conversation sentiment": "Positive",
-            "agent professionalism": "Professional and efficient.",
-            "agent performance": "10",
-            "customer satisfaction": "10",
+            "agent professionalism": "Professional and helpful.",
+            "agent performance (out of 10)": "9",
+            "customer satisfaction (out of 10)": "9",
             "callback promise": "No",
             "callback time": "N/A"
         }

@@ -65,7 +65,7 @@ def transcribe_multiple_audios():
         if response.results and response.results[-1].alternatives[0].words:
             last_word = response.results[-1].alternatives[0].words[-1]
             cumulative_time += last_word.end_time.seconds
-
+        
         # Switch speaker
         speaker = "Agent" if speaker == "Customer" else "Customer"
 

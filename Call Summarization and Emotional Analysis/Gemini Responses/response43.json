@@ -1,35 +1,40 @@
 {
   "call id": "43",
   "agent id": "5",
-  "summary": "Customer complains about unauthorized charge and threatens account closure.",
+  "summary": "Customer complains about incorrect charge, agent resolves it.",
   "intents": [
     {
-      "intent": "Dispute Charge",
+      "intent": "Dispute Charge/Fee",
       "confidence": "95",
-      "keywords": "you are charging me...closing my account",
+      "keywords": "you are charging me...apologize for the",
       "products": [
         "Bank Account",
         "ATM"
       ],
       "issues": [
-        "Unauthorized charge",
-        "Incorrect fee",
-        "ATM withdrawal fee"
+        "Incorrect charge of 1000 Rupees",
+        "Erroneous ATM withdrawal fee"
+      ],
+      "reasons (identified by agent)": [
+        "System error leading to incorrect ATM withdrawal fee"
       ],
       "actions of agent": [
-        "Identified the erroneous charge",
-        "Initiated refund process",
-        "Apologized for the error"
+        "Identified the erroneous ATM withdrawal fee",
+        "Initiated a refund for the incorrect charge",
+        "Informed the customer about the refund processing time"
       ],
       "resolution_status": "resolved",
+      "resolution": "Refund of 1000 Rupees processed; customer will see it in 24 hours.",
+      "interruptions by customer": "0",
+      "interruptions by agent": "0",
       "dominant emotions (customer)": [
         "Anger",
         "Frustration"
       ],
       "conversation sentiment": "Negative",
-      "agent professionalism": "Professional and apologetic.",
-      "agent performance": "8",
-      "customer satisfaction": "5",
+      "agent professionalism": "Remained calm and professional despite customer's anger.",
+      "agent performance (out of 10)": "9",
+      "customer satisfaction (out of 10)": "6",
       "callback promise": "No",
       "callback time": "N/A"
     }

@@ -1,35 +1,39 @@
 {
     "call id": "49",
     "agent id": "5",
-    "summary": "Customer received overdue notice despite payment; agent resolved issue.",
+    "summary": "Agent resolved customer's concern about overdue loan notice.",
     "intents": [
         {
-            "intent": "Payment Issue Inquiry",
+            "intent": "Inquiry about Overdue Loan Notice",
             "confidence": "95",
-            "keywords": "I got a letter saying ... I paid it what's happening?",
+            "keywords": "I got a letter...what's happening?",
             "products": [
                 "Loan"
             ],
             "issues": [
-                "Overdue notice",
-                "Payment not reflected",
-                "System error"
+                "Received overdue notice despite making payment"
+            ],
+            "reasons (identified by agent)": [
+                "System error causing payment not to be reflected"
             ],
             "actions of agent": [
                 "Asked for loan account number",
-                "Identified the system error",
-                "Confirmed the payment was updated",
+                "Investigated the issue",
+                "Confirmed payment was updated",
                 "Offered to send confirmation"
             ],
             "resolution_status": "resolved",
+            "resolution": "Agent confirmed the payment was updated and the account is clear. Confirmation to be sent.",
+            "interruptions by customer": "0",
+            "interruptions by agent": "0",
             "dominant emotions (customer)": [
-                "Confused",
-                "Anxious"
+                "Concern",
+                "Confusion"
             ],
-            "conversation sentiment": "Negative",
-            "agent professionalism": "Professional and reassuring.",
-            "agent performance": "9",
-            "customer satisfaction": "8",
+            "conversation sentiment": "Neutral",
+            "agent professionalism": "Polite and helpful in resolving the issue.",
+            "agent performance (out of 10)": "9",
+            "customer satisfaction (out of 10)": "8",
             "callback promise": "No",
             "callback time": "N/A"
         }

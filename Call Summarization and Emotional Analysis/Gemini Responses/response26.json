@@ -1,37 +1,45 @@
 {
-  "call id": "26",
-  "agent id": "3",
-  "summary": "Agent assists customer with loan payment and account access.",
-  "intents": [
-    {
-      "intent": "Account Access Issue & Loan Payment",
-      "confidence": "95",
-      "keywords": "I am freaking out my...access my account to pay it.",
-      "products": [
-        "Loan"
-      ],
-      "issues": [
-        "Account Access",
-        "Payment Issue",
-        "Credit Score Impact"
-      ],
-      "actions of agent": [
-        "Identified customer's concern.",
-        "Offered solutions (manual payment, due date extension).",
-        "Processed manual payment.",
-        "Confirmed payment processing."
-      ],
-      "resolution_status": "resolved",
-      "dominant emotions (customer)": [
-        "Anxiety",
-        "Fear"
-      ],
-      "conversation sentiment": "Negative",
-      "agent professionalism": "Professional and helpful.",
-      "agent performance": "10",
-      "customer satisfaction": "9",
-      "callback promise": "No",
-      "callback time": "N/A"
-    }
-  ]
+    "call id": "26",
+    "agent id": "3",
+    "summary": "Agent assisted customer with manual loan payment.",
+    "intents": [
+        {
+            "intent": "Account Access Issue and Loan Payment",
+            "confidence": "95",
+            "keywords": "I am freaking out my loan payment is due, but I can't access my account to pay it.",
+            "products": [
+                "Loan"
+            ],
+            "issues": [
+                "Inability to access account",
+                "Concern about loan payment due date",
+                "Potential impact on credit score (CIBIL)"
+            ],
+            "reasons (identified by agent)": [
+                "N/A - Reason for access issue not identified"
+            ],
+            "actions of agent": [
+                "Offered assistance",
+                "Requested loan account number",
+                "Offered manual payment processing",
+                "Offered due date extension",
+                "Processed manual payment",
+                "Updated account information"
+            ],
+            "resolution_status": "resolved",
+            "resolution": "Manual payment processed and account updated.",
+            "interruptions by customer": "0",
+            "interruptions by agent": "0",
+            "dominant emotions (customer)": [
+                "Anxiety",
+                "Fear"
+            ],
+            "conversation sentiment": "Negative",
+            "agent professionalism": "Professional and helpful in addressing customer's concerns.",
+            "agent performance (out of 10)": "9",
+            "customer satisfaction (out of 10)": "9",
+            "callback promise": "No",
+            "callback time": "N/A"
+        }
+    ]
 }

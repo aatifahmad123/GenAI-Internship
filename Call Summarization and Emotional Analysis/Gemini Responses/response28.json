@@ -1,61 +1,68 @@
 {
-  "call id": "28",
-  "agent id": "3",
-  "summary": "Customer reports unauthorized charge, agent initiates credit freeze.",
-  "intents": [
-    {
-      "intent": "Report Unauthorized Charge",
-      "confidence": "95",
-      "keywords": "I got a bill...what's going on?",
-      "products": [
-        "Credit Card"
-      ],
-      "issues": [
-        "Unauthorized transaction",
-        "Fraud"
-      ],
-      "actions of agent": [
-        "Requested last 4 digits of card",
-        "Initiated credit freeze",
-        "Filed a dispute"
-      ],
-      "resolution_status": "pending",
-      "dominant emotions (customer)": [
-        "Worried",
-        "Anxious"
-      ],
-      "conversation sentiment": "Negative",
-      "agent professionalism": "Professional and reassuring.",
-      "agent performance": "9",
-      "customer satisfaction": "7",
-      "callback promise": "No",
-      "callback time": "N/A"
-    },
-    {
-      "intent": "Inquire About Refund Timeline",
-      "confidence": "90",
-      "keywords": "how long till...money back",
-      "products": [
-        "Credit Card"
-      ],
-      "issues": [
-        "Refund processing time"
-      ],
-      "actions of agent": [
-        "Provided refund timeline (5-7 days)",
-        "Promised to keep customer updated"
-      ],
-      "resolution_status": "pending",
-      "dominant emotions (customer)": [
-        "Anxious",
-        "Concerned"
-      ],
-      "conversation sentiment": "Neutral",
-      "agent professionalism": "Professional and informative.",
-      "agent performance": "9",
-      "customer satisfaction": "8",
-      "callback promise": "No",
-      "callback time": "N/A"
-    }
-  ]
+    "call id": "28",
+    "agent id": "3",
+    "summary": "Customer reports unauthorized charge; agent initiates credit freeze.",
+    "intents": [
+        {
+            "intent": "Report Unauthorized Charge",
+            "confidence": "95",
+            "keywords": "I got a bill...what's going on?",
+            "products": "Credit Card",
+            "issues": [
+                "Unauthorized charge of $8000",
+                "Potential fraudulent use of credit card"
+            ],
+            "reasons (identified by agent)": [
+                "Unauthorized transaction"
+            ],
+            "actions of agent": [
+                "Requested last 4 digits of card",
+                "Initiated credit freeze",
+                "Filed a dispute"
+            ],
+            "resolution_status": "pending",
+            "resolution": "Refund expected in 5-7 days after dispute is filed.",
+            "interruptions by customer": "0",
+            "interruptions by agent": "0",
+            "dominant emotions (customer)": [
+                "Worried",
+                "Anxious"
+            ],
+            "conversation sentiment": "Negative",
+            "agent professionalism": "The agent responded promptly and took appropriate actions.",
+            "agent performance (out of 10)": "8",
+            "customer satisfaction (out of 10)": "7",
+            "callback promise": "No",
+            "callback time": "N/A"
+        },
+        {
+            "intent": "Inquire About Refund Timeline",
+            "confidence": "90",
+            "keywords": "how long till...money back",
+            "products": "Credit Card",
+            "issues": [
+                "Uncertainty about refund processing time"
+            ],
+            "reasons (identified by agent)": [
+                "Dispute processing time"
+            ],
+            "actions of agent": [
+                "Provided estimated refund timeline (5-7 days)",
+                "Promised to keep customer updated"
+            ],
+            "resolution_status": "pending",
+            "resolution": "Refund expected in 5-7 days after dispute is filed. Agent will provide updates.",
+            "interruptions by customer": "0",
+            "interruptions by agent": "0",
+            "dominant emotions (customer)": [
+                "Anxious"
+            ],
+            "conversation sentiment": "Neutral",
+            "agent professionalism": "The agent provided a clear timeline and offered to keep the customer informed.",
+            "agent performance (out of 10)": "9",
+            "customer satisfaction (out of 10)": "8",
+            "callback promise": "No",
+            "callback time": "N/A"
+        }
+    ]
 }

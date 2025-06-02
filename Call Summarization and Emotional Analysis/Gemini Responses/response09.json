@@ -1,7 +1,7 @@
 {
     "call id": "9",
     "agent id": "1",
-    "summary": "Customer requests EMI moratorium; agent assists and provides information.",
+    "summary": "Customer requests EMI moratorium and inquires about CIBIL impact.",
     "intents": [
         {
             "intent": "Request EMI Moratorium",
@@ -11,26 +11,62 @@
                 "Home Loan"
             ],
             "issues": [
-                "Website usability",
-                "Need for EMI break"
+                "Difficulty navigating website",
+                "Need for EMI moratorium"
+            ],
+            "reasons (identified by agent)": [
+                "Customer needs a break for a couple of months"
             ],
             "actions of agent": [
-                "Offered assistance",
-                "Requested loan account number",
-                "Checked eligibility",
-                "Offered 3-month moratorium",
-                "Addressed CIBIL score concern",
-                "Promised to send detailed email"
+                "Offered assistance with the moratorium process",
+                "Checked customer's eligibility",
+                "Offered to proceed with the moratorium"
             ],
-            "resolution_status": "resolved",
+            "resolution_status": "pending",
+            "resolution": "Agent to send detailed email with terms.",
+            "interruptions by customer": "0",
+            "interruptions by agent": "0",
             "dominant emotions (customer)": [
                 "Frustration",
                 "Relief"
             ],
+            "conversation sentiment": "Neutral",
+            "agent professionalism": "Polite and helpful.",
+            "agent performance (out of 10)": "9",
+            "customer satisfaction (out of 10)": "8",
+            "callback promise": "No",
+            "callback time": "N/A"
+        },
+        {
+            "intent": "Inquire about CIBIL Score Impact",
+            "confidence": "90",
+            "keywords": "will it affect...clearing data.",
+            "products": [
+                "Home Loan",
+                "CIBIL Score"
+            ],
+            "issues": [
+                "Concern about negative impact on CIBIL score due to moratorium"
+            ],
+            "reasons (identified by agent)": [
+                "Customer is concerned about their credit score."
+            ],
+            "actions of agent": [
+                "Addressed customer's concern about CIBIL score",
+                "Explained that moratorium won't directly impact CIBIL score but interest will accrue"
+            ],
+            "resolution_status": "resolved",
+            "resolution": "Agent clarified that moratorium won't directly impact CIBIL score.",
+            "interruptions by customer": "0",
+            "interruptions by agent": "0",
+            "dominant emotions (customer)": [
+                "Anxiety",
+                "Relief"
+            ],
             "conversation sentiment": "Positive",
-            "agent professionalism": "Professional and helpful, addressed concerns effectively.",
-            "agent performance": "9",
-            "customer satisfaction": "8",
+            "agent professionalism": "Knowledgeable and reassuring.",
+            "agent performance (out of 10)": "10",
+            "customer satisfaction (out of 10)": "9",
             "callback promise": "No",
             "callback time": "N/A"
         }

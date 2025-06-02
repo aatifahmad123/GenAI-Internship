@@ -1,32 +1,36 @@
 {
     "call id": "34",
     "agent id": "4",
-    "summary": "Customer inquires about credit card rewards redemption process.",
+    "summary": "Customer inquired about redeeming credit card rewards.",
     "intents": [
         {
-            "intent": "Rewards Redemption Information",
+            "intent": "Redeem Rewards Inquiry",
             "confidence": "95",
-            "keywords": "I just upgraded my credit...how do I redeem the",
+            "keywords": "I just upgraded my ... how do I redeem",
             "products": [
                 "Credit Card"
             ],
             "issues": [
-                "Understanding rewards redemption options"
+                "Customer needs assistance with redeeming credit card rewards."
+            ],
+            "reasons (identified by agent)": [
+                "N/A"
             ],
             "actions of agent": [
-                "Provided information on redeeming rewards via the app",
-                "Explained the types of rewards available (cashback, vouchers, miles)",
-                "Offered guidance through the redemption process"
+                "Informed the customer about redeeming rewards via the app.",
+                "Offered to guide the customer through the redemption process."
             ],
             "resolution_status": "resolved",
+            "resolution": "Agent provided information on how to redeem rewards.",
+            "interruptions by customer": "0",
+            "interruptions by agent": "0",
             "dominant emotions (customer)": [
-                "Happy",
-                "Curious"
+                "Positive"
             ],
             "conversation sentiment": "Positive",
-            "agent professionalism": "Professional and helpful.",
-            "agent performance": "9",
-            "customer satisfaction": "9",
+            "agent professionalism": "Polite and helpful.",
+            "agent performance (out of 10)": "9",
+            "customer satisfaction (out of 10)": "9",
             "callback promise": "Yes",
             "callback time": "N/A"
         }

@@ -4,29 +4,37 @@
     "summary": "Customer's address update delayed due to missing signature.",
     "intents": [
         {
-            "intent": "Address Update Inquiry",
+            "intent": "Address Update",
             "confidence": "95",
-            "keywords": "I went to the branch...not done yet.",
-            "products": [],
+            "keywords": "I went to the branch to update my address but they said it's not done yet.",
+            "products": [
+                "Address Update"
+            ],
             "issues": [
-                "Delayed address update",
-                "Missing signature"
+                "Address update not completed",
+                "Missing signature on the address update request"
+            ],
+            "reasons (identified by agent)": [
+                "Missing signature on the address update request"
             ],
             "actions of agent": [
-                "Checked account status",
-                "Identified the reason for delay",
-                "Offered to email the form",
-                "Promised to expedite the update"
+                "Checked the status of the address update request",
+                "Identified the reason for the delay",
+                "Offered to email the required form to the customer",
+                "Offered to expedite the update once the form is submitted"
             ],
             "resolution_status": "pending",
+            "resolution": "N/A",
+            "interruptions by customer": "0",
+            "interruptions by agent": "0",
             "dominant emotions (customer)": [
                 "Frustration",
                 "Confusion"
             ],
             "conversation sentiment": "Negative",
             "agent professionalism": "Professional and helpful.",
-            "agent performance": "9",
-            "customer satisfaction": "6",
+            "agent performance (out of 10)": "8",
+            "customer satisfaction (out of 10)": "6",
             "callback promise": "No",
             "callback time": "N/A"
         }

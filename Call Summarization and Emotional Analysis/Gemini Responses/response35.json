@@ -1,36 +1,41 @@
 {
-  "call id": "35",
-  "agent id": "4",
-  "summary": "Customer inquired about a penalty and agent waived it.",
-  "intents": [
-    {
-      "intent": "Inquiry about penalty",
-      "confidence": "95",
-      "keywords": "Why is there a ... on my account?",
-      "products": [
-        "Savings Account"
-      ],
-      "issues": [
-        "Penalty Fee",
-        "Insufficient Funds",
-        "Cheque Bounce"
-      ],
-      "actions of agent": [
-        "Identified the reason for the penalty",
-        "Offered to waive the penalty",
-        "Proposed setting up alerts"
-      ],
-      "resolution_status": "resolved",
-      "dominant emotions (customer)": [
-        "Frustration",
-        "Confusion"
-      ],
-      "conversation sentiment": "Negative",
-      "agent professionalism": "Professional and helpful.",
-      "agent performance": "9",
-      "customer satisfaction": "8",
-      "callback promise": "No",
-      "callback time": "N/A"
-    }
-  ]
+    "call id": "35",
+    "agent id": "4",
+    "summary": "Agent waived a penalty fee due to insufficient funds.",
+    "intents": [
+        {
+            "intent": "Inquiry about penalty fee",
+            "confidence": "95",
+            "keywords": "Why is there a ... on my account?",
+            "products": [
+                "Savings Account"
+            ],
+            "issues": [
+                "Penalty fee of 500 rupees"
+            ],
+            "reasons (identified by agent)": [
+                "Cheque bounce due to insufficient funds"
+            ],
+            "actions of agent": [
+                "Asked for account number",
+                "Investigated the account",
+                "Waived the penalty fee",
+                "Offered to set up alerts"
+            ],
+            "resolution_status": "resolved",
+            "resolution": "Penalty fee waived as a one-time gesture.",
+            "interruptions by customer": "1",
+            "interruptions by agent": "0",
+            "dominant emotions (customer)": [
+                "Frustration",
+                "Confusion"
+            ],
+            "conversation sentiment": "Negative",
+            "agent professionalism": "Agent was polite and helpful.",
+            "agent performance (out of 10)": "9",
+            "customer satisfaction (out of 10)": "8",
+            "callback promise": "No",
+            "callback time": "N/A"
+        }
+    ]
 }

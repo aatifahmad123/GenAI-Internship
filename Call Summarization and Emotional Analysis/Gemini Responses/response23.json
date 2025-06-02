@@ -1,36 +1,43 @@
 {
-  "call id": "23",
-  "agent id": "3",
-  "summary": "Customer complains about late fee; agent waives the fee.",
-  "intents": [
-    {
-      "intent": "Dispute Late Fee",
-      "confidence": "95",
-      "keywords": "You guys are reaping me off...for your mistak.",
-      "products": [
-        "Loan"
-      ],
-      "issues": [
-        "Incorrect late fee",
-        "ECS mandate issue"
-      ],
-      "actions of agent": [
-        "Verified account details",
-        "Identified payment",
-        "Waived late fee",
-        "Apologized for the inconvenience"
-      ],
-      "resolution_status": "resolved",
-      "dominant emotions (customer)": [
-        "Anger",
-        "Frustration"
-      ],
-      "conversation sentiment": "Negative",
-      "agent professionalism": "Professional and empathetic.",
-      "agent performance": "9",
-      "customer satisfaction": "7",
-      "callback promise": "No",
-      "callback time": "N/A"
-    }
-  ]
+    "call id": "23",
+    "agent id": "3",
+    "summary": "Customer complains about late fee, agent waives it.",
+    "intents": [
+        {
+            "intent": "Dispute late fee",
+            "confidence": "95",
+            "keywords": "You guys are reaping ... for the troub",
+            "products": [
+                "Loan"
+            ],
+            "issues": [
+                "Incorrect late fee charged",
+                "Payment showing as late despite on-time payment"
+            ],
+            "reasons (identified by agent)": [
+                "ECS mandate issue causing payment delay"
+            ],
+            "actions of agent": [
+                "Verified payment",
+                "Identified the reason for the late fee",
+                "Waived the late fee",
+                "Apologized for the inconvenience",
+                "Informed customer about updated statement availability"
+            ],
+            "resolution_status": "resolved",
+            "resolution": "Late fee waived and customer informed about updated statement.",
+            "interruptions by customer": "1",
+            "interruptions by agent": "1",
+            "dominant emotions (customer)": [
+                "Anger",
+                "Frustration"
+            ],
+            "conversation sentiment": "Negative",
+            "agent professionalism": "Agent remained calm and professional despite customer's anger.",
+            "agent performance (out of 10)": "9",
+            "customer satisfaction (out of 10)": "7",
+            "callback promise": "No",
+            "callback time": "N/A"
+        }
+    ]
 }

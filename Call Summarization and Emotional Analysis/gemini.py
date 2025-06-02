@@ -33,14 +33,18 @@ def get_gemini_response(transcription, agent_id, call_id):
                     "confidence": "<Confidence level of intent recognition, as a percentage (0-100)>",
                     "keywords": "<The segment of transcription that indicates the intent: give a couple of the starting words and a couple of ending words>",
                     "products": "<List of products related to intent>",
-                    "issues": "<List of issues related to intent>",
+                    "issues": "<List of issues related to intent (Be very specific)>",
+                    "reasons (identified by agent)": "<List of reasons for the issues that the agent has identified (Be specific)>",
                     "actions of agent": "<List of actions taken by agent for the intent>",
                     "resolution_status": "<Status of resolution, e.g., 'resolved', 'pending'>",
+                    "resolution": "<Brief description of the resolution if resolved or 'N/A' if not resolved>",
+                    "interruptions by customer": "<Number of times the customer interrupted the agent>",
+                    "interruptions by agent": "<Number of times the agent interrupted the customer>",
                     "dominant emotions (customer)": "[<list main emotions expressed by the customer>]",
                     "conversation sentiment": "<sentiment of the conversation: Positive/Negative/Neutral for that intent>",
                     "agent professionalism": "<Brief comment on agent's professionalism>",
-                    "agent performance": "<Score from 1 to 10>",
-                    "customer satisfaction": "<Score from 1 to 10>",
+                    "agent performance (out of 10)": "<Score from 1 to 10>",
+                    "customer satisfaction (out of 10)": "<Score from 1 to 10>",
                     "callback promise": "<Yes/No>",
                     "callback time": "<Date (relative for eg. same day or next day and Time if applicable, otherwise 'N/A'>"
                 }}
@@ -56,7 +60,7 @@ def get_gemini_response(transcription, agent_id, call_id):
         model="gemini-2.0-flash",
         contents=prompt,
         config=types.GenerateContentConfig(
-            max_output_tokens=1000,
+            max_output_tokens=1500,
             temperature=0.2
         )
     )

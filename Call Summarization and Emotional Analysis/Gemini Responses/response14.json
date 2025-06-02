@@ -1,33 +1,41 @@
 {
-  "call id": "14",
-  "agent id": "2",
-  "summary": "Customer inquires about setting up NEFT transfer; agent assists.",
-  "intents": [
-    {
-      "intent": "NEFT Transfer Setup",
-      "confidence": "95",
-      "keywords": "Hey, I just open...made that super clear.",
-      "products": [
-        "Savings Account",
-        "NEFT Transfer"
-      ],
-      "issues": [],
-      "actions of agent": [
-        "Provided instructions on setting up NEFT transfer.",
-        "Explained required information (account number, IFSC code).",
-        "Informed about activation time (24 hours)."
-      ],
-      "resolution_status": "resolved",
-      "dominant emotions (customer)": [
-        "Excitement",
-        "Gratitude"
-      ],
-      "conversation sentiment": "Positive",
-      "agent professionalism": "Helpful and clear communication.",
-      "agent performance": "9",
-      "customer satisfaction": "9",
-      "callback promise": "No",
-      "callback time": "N/A"
-    }
-  ]
+    "call id": "14",
+    "agent id": "2",
+    "summary": "Customer inquires about setting up NEFT transfer.",
+    "intents": [
+        {
+            "intent": "NEFT Transfer Setup",
+            "confidence": "95",
+            "keywords": "Hey, I just open ... made that super clear.",
+            "products": [
+                "Savings Account",
+                "NEFT Transfer"
+            ],
+            "issues": [
+                "Customer needs guidance on setting up NEFT transfer."
+            ],
+            "reasons (identified by agent)": [
+                "New account holder unfamiliar with NEFT setup process."
+            ],
+            "actions of agent": [
+                "Explained the process of setting up NEFT transfer via the app.",
+                "Informed the customer about required beneficiary details (account number and IFSC code).",
+                "Informed the customer about the 24-hour activation period."
+            ],
+            "resolution_status": "resolved",
+            "resolution": "Agent provided clear instructions on setting up NEFT transfer.",
+            "interruptions by customer": "0",
+            "interruptions by agent": "0",
+            "dominant emotions (customer)": [
+                "Excitement",
+                "Gratitude"
+            ],
+            "conversation sentiment": "Positive",
+            "agent professionalism": "Professional and helpful.",
+            "agent performance (out of 10)": "10",
+            "customer satisfaction (out of 10)": "10",
+            "callback promise": "No",
+            "callback time": "N/A"
+        }
+    ]
 }

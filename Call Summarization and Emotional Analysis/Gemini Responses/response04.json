@@ -1,62 +1,73 @@
 {
     "call id": "4",
     "agent id": "1",
-    "summary": "Customer complains about EMI increase and demands manager.",
+    "summary": "Customer complains about EMI increase and requests manager.",
     "intents": [
         {
-            "intent": "Complaint about EMI Increase",
+            "intent": "EMI Increase Inquiry/Complaint",
             "confidence": "95",
-            "keywords": "Your banks cheating me...not paying extra.",
+            "keywords": "Your banks cheating me my EMI went up",
             "products": [
-                "Loan",
-                "EMI"
+                "Loan"
             ],
             "issues": [
                 "Unexpected EMI increase",
-                "Lack of prior notification",
-                "Floating interest rate"
+                "Lack of prior notification about EMI increase"
+            ],
+            "reasons (identified by agent)": [
+                "Floating interest rate",
+                "RBI's recent repo rate hike"
             ],
             "actions of agent": [
-                "Apologized for customer's feelings",
-                "Asked for loan account number",
-                "Explained reason for EMI increase",
+                "Acknowledged customer's frustration",
+                "Requested loan account number",
+                "Explained the reason for the EMI increase (floating interest rate and RBI repo rate hike)",
                 "Offered to explain EMI calculation",
                 "Offered to escalate to supervisor",
-                "Offered to explore EMI moratorium"
+                "Offered to explore EMI moratorium option"
             ],
             "resolution_status": "pending",
-            "dominant emotions (customer)": [
-                "Anger",
-                "Frustration",
-                "Disappointment"
-            ],
-            "conversation sentiment": "Negative",
-            "agent professionalism": "Agent remained calm and attempted to resolve the issue.",
-            "agent performance": "7",
-            "customer satisfaction": "2",
-            "callback promise": "No",
-            "callback time": "N/A"
-        },
-        {
-            "intent": "Request to speak to manager",
-            "confidence": "90",
-            "keywords": "You should do want...speak to your manager.",
-            "products": [],
-            "issues": [
-                "Dissatisfaction with agent's response"
-            ],
-            "actions of agent": [
-                "Agreed to escalate to supervisor"
-            ],
-            "resolution_status": "pending",
+            "resolution": "N/A",
+            "interruptions by customer": "0",
+            "interruptions by agent": "0",
             "dominant emotions (customer)": [
                 "Anger",
                 "Frustration"
             ],
             "conversation sentiment": "Negative",
-            "agent professionalism": "Agent handled the request appropriately by offering escalation.",
-            "agent performance": "8",
-            "customer satisfaction": "3",
+            "agent professionalism": "Agent remained calm and professional despite customer's anger.",
+            "agent performance (out of 10)": "7",
+            "customer satisfaction (out of 10)": "3",
+            "callback promise": "No",
+            "callback time": "N/A"
+        },
+        {
+            "intent": "Request to Speak to Manager",
+            "confidence": "90",
+            "keywords": "You should do want me. I want to speak",
+            "products": [],
+            "issues": [
+                "Dissatisfaction with the current agent's explanation/solution"
+            ],
+            "reasons (identified by agent)": [
+                "Customer's frustration with the EMI increase and perceived lack of control"
+            ],
+            "actions of agent": [
+                "Acknowledged customer's concern",
+                "Agreed to escalate the issue to a supervisor"
+            ],
+            "resolution_status": "pending",
+            "resolution": "N/A",
+            "interruptions by customer": "0",
+            "interruptions by agent": "0",
+            "dominant emotions (customer)": [
+                "Anger",
+                "Impatience"
+            ],
+            "conversation sentiment": "Negative",
+            "agent professionalism": "Agent handled the request appropriately by agreeing to escalate.",
+            "agent performance (out of 10)": "8",
+            "customer satisfaction (out of 10)": "4",
             "callback promise": "No",
             "callback time": "N/A"
         }

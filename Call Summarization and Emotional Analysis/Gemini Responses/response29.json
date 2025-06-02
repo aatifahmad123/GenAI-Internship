@@ -1,39 +1,46 @@
 {
-  "call id": "29",
-  "agent id": "3",
-  "summary": "Customer needs help accessing loan balance online.",
-  "intents": [
-    {
-      "intent": "Account Access Issue",
-      "confidence": "95",
-      "keywords": "I tried checking my loan...account not found help.",
-      "products": [
-        "Loan Account",
-        "Online Portal"
-      ],
-      "issues": [
-        "Account not found",
-        "Login issue",
-        "Account not linked"
-      ],
-      "actions of agent": [
-        "Identified the issue",
-        "Offered to link the account",
-        "Provided login instructions",
-        "Offered a guide",
-        "Offered further assistance via call"
-      ],
-      "resolution_status": "resolved",
-      "dominant emotions (customer)": [
-        "Frustration",
-        "Confusion"
-      ],
-      "conversation sentiment": "Neutral",
-      "agent professionalism": "Professional and helpful.",
-      "agent performance": "9",
-      "customer satisfaction": "8",
-      "callback promise": "Yes",
-      "callback time": "N/A"
-    }
-  ]
+    "call id": "29",
+    "agent id": "3",
+    "summary": "Customer needs help accessing loan balance online.",
+    "intents": [
+        {
+            "intent": "Account Access Issue",
+            "confidence": "95",
+            "keywords": "I tried checking my loan ... account not found help.",
+            "products": [
+                "Loan Account",
+                "Online Portal"
+            ],
+            "issues": [
+                "Unable to access loan balance online",
+                "Account not found error"
+            ],
+            "reasons (identified by agent)": [
+                "Account not linked to the online portal"
+            ],
+            "actions of agent": [
+                "Apologized for the inconvenience",
+                "Asked for loan account number",
+                "Identified the issue as account not being linked",
+                "Offered to link the account to the portal",
+                "Offered to send login instructions",
+                "Offered a guide",
+                "Offered further assistance via phone"
+            ],
+            "resolution_status": "resolved",
+            "resolution": "Agent linked the account and provided login instructions and a guide.",
+            "interruptions by customer": "0",
+            "interruptions by agent": "0",
+            "dominant emotions (customer)": [
+                "Frustration",
+                "Confusion"
+            ],
+            "conversation sentiment": "Neutral",
+            "agent professionalism": "The agent was polite and helpful.",
+            "agent performance (out of 10)": "9",
+            "customer satisfaction (out of 10)": "8",
+            "callback promise": "Yes",
+            "callback time": "Same day, if needed"
+        }
+    ]
 }

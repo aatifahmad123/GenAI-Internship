@@ -1,7 +1,7 @@
 {
     "call id": "13",
     "agent id": "2",
-    "summary": "Customer reports fraudulent charge; agent blocks card and initiates chargeback.",
+    "summary": "Agent addresses fraudulent charge and initiates chargeback.",
     "intents": [
         {
             "intent": "Report Fraudulent Charge",
@@ -11,26 +11,28 @@
                 "Credit Card"
             ],
             "issues": [
-                "Unauthorized transaction",
-                "Fraud"
+                "Unauthorized charge of $15000",
+                "Fraudulent transaction"
+            ],
+            "reasons (identified by agent)": [
+                "Potential fraud"
             ],
             "actions of agent": [
-                "Asked for transaction details",
-                "Identified potential fraud",
-                "Blocked the card",
-                "Initiated chargeback request",
-                "Provided refund timeframe"
+                "Blocked the customer's credit card",
+                "Initiated a chargeback request"
             ],
             "resolution_status": "pending",
+            "resolution": "Chargeback request filed; refund expected in 7-10 days.",
+            "interruptions by customer": "0",
+            "interruptions by agent": "0",
             "dominant emotions (customer)": [
-                "Concern",
                 "Frustration",
                 "Anger"
             ],
             "conversation sentiment": "Negative",
-            "agent professionalism": "Professional and helpful.",
-            "agent performance": "9",
-            "customer satisfaction": "6",
+            "agent professionalism": "Agent remained calm and addressed the issue promptly.",
+            "agent performance (out of 10)": "9",
+            "customer satisfaction (out of 10)": "5",
             "callback promise": "No",
             "callback time": "N/A"
         }
