@@ -2,7 +2,7 @@ import pandas as pd
 
 print("\nDataset 1\n")
 
-df1 = pd.read_excel("01 Call-Center-Dataset.xlsx")
+df1 = pd.read_excel("callCenterDataset.xlsx")
 print("Preview:")
 print(df1.head())
 print("\n")
@@ -29,7 +29,7 @@ print("\n")
 
 print("\nDataset 2\n")
 
-df2 = pd.read_csv("customer_call_transcriptions.csv")
+df2 = pd.read_csv("customerCallTranscriptions.csv")
 
 print("Preview:")
 print(df2.head())

@@ -21,7 +21,7 @@ The transcription is an alternating conversation between a customer and an agent
             "agent performance": "<Score from 1 to 10>",
             "customer satisfaction": "<Score from 1 to 10>",
             "callback promise": "<Yes/No>",
-            "callback time": "<Date (relative for eg. same day or next day and Time if applicable, otherwise 'N/A'>"
+            "callback time": "<Date (relative for eg. same day or next day and Time if applicable, otherwise 'N/A')>"
         }}
     ]
 }}
