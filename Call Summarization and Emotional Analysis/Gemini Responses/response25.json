@@ -1,0 +1,62 @@
+{
+  "call id": "25",
+  "agent id": "3",
+  "summary": "Agent waived a maintenance fee and offered balance alerts.",
+  "intents": [
+    {
+      "intent": "Inquiry about unexpected charge",
+      "confidence": "95",
+      "keywords": "Does a 200 rupees charge...What's this about?",
+      "products": [
+        "Savings Account"
+      ],
+      "issues": [
+        "Unexpected charge",
+        "Low balance fee"
+      ],
+      "actions of agent": [
+        "Asked for account number",
+        "Identified the charge as a maintenance fee",
+        "Offered to waive the fee"
+      ],
+      "resolution_status": "resolved",
+      "dominant emotions (customer)": [
+        "Frustration",
+        "Confusion"
+      ],
+      "conversation sentiment": "Negative",
+      "agent professionalism": "Professional and helpful in resolving the issue.",
+      "agent performance": "9",
+      "customer satisfaction": "7",
+      "callback promise": "No",
+      "callback time": "N/A"
+    },
+    {
+      "intent": "Explanation of fee and offer of balance alerts",
+      "confidence": "90",
+      "keywords": "I see it's a maintenance...balance alerts for you.",
+      "products": [
+        "Savings Account",
+        "Balance Alerts"
+      ],
+      "issues": [
+        "Low balance fee",
+        "Lack of awareness about minimum balance requirement"
+      ],
+      "actions of agent": [
+        "Explained the reason for the fee",
+        "Offered to set up balance alerts"
+      ],
+      "resolution_status": "resolved",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "agent professionalism": "Proactive in offering solutions.",
+      "agent performance": "9",
+      "customer satisfaction": "8",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ]
+}

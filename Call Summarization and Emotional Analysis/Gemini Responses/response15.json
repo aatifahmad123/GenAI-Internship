@@ -1,0 +1,38 @@
+{
+  "call id": "15",
+  "agent id": "2",
+  "summary": "Customer's loan EMI payment caused an incorrect account lean.",
+  "intents": [
+    {
+      "intent": "Inquire about Lean on Account",
+      "confidence": "95",
+      "keywords": "I paid my loan EMI ... money locked?",
+      "products": [
+        "Loan"
+      ],
+      "issues": [
+        "Incorrect lean on account",
+        "Funds unavailable"
+      ],
+      "actions of agent": [
+        "Asked for loan account number",
+        "Investigated the issue",
+        "Identified system error",
+        "Removed the lean",
+        "Confirmed resolution",
+        "Promised to send confirmation"
+      ],
+      "resolution_status": "resolved",
+      "dominant emotions (customer)": [
+        "Concern",
+        "Frustration"
+      ],
+      "conversation sentiment": "Negative",
+      "agent professionalism": "Professional and helpful in resolving the issue quickly.",
+      "agent performance": "9",
+      "customer satisfaction": "8",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ]
+}

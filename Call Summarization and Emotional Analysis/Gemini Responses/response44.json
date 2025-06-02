@@ -1,0 +1,34 @@
+{
+  "call id": "44",
+  "agent id": "5",
+  "summary": "Customer inquired about setting up a UPI mandate.",
+  "intents": [
+    {
+      "intent": "UPI Mandate Setup",
+      "confidence": "95",
+      "keywords": "I just got my...set up a upi mandate?",
+      "products": [
+        "Debit Card",
+        "UPI"
+      ],
+      "issues": [
+        "Setting up UPI mandate"
+      ],
+      "actions of agent": [
+        "Provided instructions on setting up UPI mandate via app's payment section.",
+        "Offered to walk the customer through the process."
+      ],
+      "resolution_status": "resolved",
+      "dominant emotions (customer)": [
+        "Positive",
+        "Curious"
+      ],
+      "conversation sentiment": "Positive",
+      "agent professionalism": "Professional and helpful.",
+      "agent performance": "9",
+      "customer satisfaction": "9",
+      "callback promise": "Yes",
+      "callback time": "N/A"
+    }
+  ]
+}

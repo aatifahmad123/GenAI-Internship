@@ -1,0 +1,39 @@
+{
+  "call id": "29",
+  "agent id": "3",
+  "summary": "Customer needs help accessing loan balance online.",
+  "intents": [
+    {
+      "intent": "Account Access Issue",
+      "confidence": "95",
+      "keywords": "I tried checking my loan...account not found help.",
+      "products": [
+        "Loan Account",
+        "Online Portal"
+      ],
+      "issues": [
+        "Account not found",
+        "Login issue",
+        "Account not linked"
+      ],
+      "actions of agent": [
+        "Identified the issue",
+        "Offered to link the account",
+        "Provided login instructions",
+        "Offered a guide",
+        "Offered further assistance via call"
+      ],
+      "resolution_status": "resolved",
+      "dominant emotions (customer)": [
+        "Frustration",
+        "Confusion"
+      ],
+      "conversation sentiment": "Neutral",
+      "agent professionalism": "Professional and helpful.",
+      "agent performance": "9",
+      "customer satisfaction": "8",
+      "callback promise": "Yes",
+      "callback time": "N/A"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "call id": "12",
+  "agent id": "2",
+  "summary": "Customer inquires about loan application status and KYC documents.",
+  "intents": [
+    {
+      "intent": "Check Loan Application Status",
+      "confidence": "95",
+      "keywords": "Hello, I want to know...it's been weeks.",
+      "products": [
+        "Loan"
+      ],
+      "issues": [
+        "Application status inquiry",
+        "Delay in application processing"
+      ],
+      "actions of agent": [
+        "Asked for application ID or full name",
+        "Checked application status"
+      ],
+      "resolution_status": "pending",
+      "dominant emotions (customer)": [
+        "Anxious",
+        "Impatient"
+      ],
+      "conversation sentiment": "Neutral",
+      "agent professionalism": "Professional and helpful.",
+      "agent performance": "8",
+      "customer satisfaction": "6",
+      "callback promise": "No",
+      "callback time": "N/A"
+    },
+    {
+      "intent": "KYC Document Explanation and Submission",
+      "confidence": "90",
+      "keywords": "KYC what's that?...loan urgently.",
+      "products": [
+        "Loan"
+      ],
+      "issues": [
+        "Lack of information about KYC requirements",
+        "Urgency for loan disbursement"
+      ],
+      "actions of agent": [
+        "Explained KYC meaning",
+        "Apologized for the oversight",
+        "Offered to send a list of required documents via SMS"
+      ],
+      "resolution_status": "pending",
+      "dominant emotions (customer)": [
+        "Confused",
+        "Frustrated",
+        "Urgent"
+      ],
+      "conversation sentiment": "Neutral",
+      "agent professionalism": "Professional and apologetic.",
+      "agent performance": "8",
+      "customer satisfaction": "7",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ]
+}

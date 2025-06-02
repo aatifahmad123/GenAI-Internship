@@ -1,0 +1,61 @@
+{
+  "call id": "33",
+  "agent id": "4",
+  "summary": "Customer inquires about business loan application status and speed.",
+  "intents": [
+    {
+      "intent": "Check Loan Application Status",
+      "confidence": "95",
+      "keywords": "I applied for a business ... when will I get",
+      "products": [
+        "Business Loan"
+      ],
+      "issues": [
+        "Delayed loan processing",
+        "Lack of updates"
+      ],
+      "actions of agent": [
+        "Asked for application ID",
+        "Checked application status",
+        "Provided estimated approval time"
+      ],
+      "resolution_status": "pending",
+      "dominant emotions (customer)": [
+        "impatient",
+        "anxious"
+      ],
+      "conversation sentiment": "Negative",
+      "agent professionalism": "Professional but could be more empathetic.",
+      "agent performance": "7",
+      "customer satisfaction": "4",
+      "callback promise": "No",
+      "callback time": "N/A"
+    },
+    {
+      "intent": "Expedite Loan Processing",
+      "confidence": "85",
+      "keywords": "48 hours can't you speed ... for priority processing",
+      "products": [
+        "Business Loan"
+      ],
+      "issues": [
+        "Urgency of loan",
+        "Potential business loss"
+      ],
+      "actions of agent": [
+        "Escalated application to loan team"
+      ],
+      "resolution_status": "pending",
+      "dominant emotions (customer)": [
+        "frustrated",
+        "stressed"
+      ],
+      "conversation sentiment": "Negative",
+      "agent professionalism": "Professional and willing to help.",
+      "agent performance": "8",
+      "customer satisfaction": "6",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ]
+}

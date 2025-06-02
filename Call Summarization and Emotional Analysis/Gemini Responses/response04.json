@@ -1,0 +1,64 @@
+{
+    "call id": "4",
+    "agent id": "1",
+    "summary": "Customer complains about EMI increase and demands manager.",
+    "intents": [
+        {
+            "intent": "Complaint about EMI Increase",
+            "confidence": "95",
+            "keywords": "Your banks cheating me...not paying extra.",
+            "products": [
+                "Loan",
+                "EMI"
+            ],
+            "issues": [
+                "Unexpected EMI increase",
+                "Lack of prior notification",
+                "Floating interest rate"
+            ],
+            "actions of agent": [
+                "Apologized for customer's feelings",
+                "Asked for loan account number",
+                "Explained reason for EMI increase",
+                "Offered to explain EMI calculation",
+                "Offered to escalate to supervisor",
+                "Offered to explore EMI moratorium"
+            ],
+            "resolution_status": "pending",
+            "dominant emotions (customer)": [
+                "Anger",
+                "Frustration",
+                "Disappointment"
+            ],
+            "conversation sentiment": "Negative",
+            "agent professionalism": "Agent remained calm and attempted to resolve the issue.",
+            "agent performance": "7",
+            "customer satisfaction": "2",
+            "callback promise": "No",
+            "callback time": "N/A"
+        },
+        {
+            "intent": "Request to speak to manager",
+            "confidence": "90",
+            "keywords": "You should do want...speak to your manager.",
+            "products": [],
+            "issues": [
+                "Dissatisfaction with agent's response"
+            ],
+            "actions of agent": [
+                "Agreed to escalate to supervisor"
+            ],
+            "resolution_status": "pending",
+            "dominant emotions (customer)": [
+                "Anger",
+                "Frustration"
+            ],
+            "conversation sentiment": "Negative",
+            "agent professionalism": "Agent handled the request appropriately by offering escalation.",
+            "agent performance": "8",
+            "customer satisfaction": "3",
+            "callback promise": "No",
+            "callback time": "N/A"
+        }
+    ]
+}

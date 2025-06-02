@@ -1,0 +1,35 @@
+{
+  "call id": "50",
+  "agent id": "5",
+  "summary": "Customer wants to increase recurring deposit amount.",
+  "intents": [
+    {
+      "intent": "Increase Recurring Deposit Amount",
+      "confidence": "95",
+      "keywords": "I set up a...How do I increase",
+      "products": [
+        "Recurring Deposit"
+      ],
+      "issues": [
+        "Modifying recurring deposit amount"
+      ],
+      "actions of agent": [
+        "Requested account number",
+        "Informed customer about modification request process",
+        "Sent form to customer's email",
+        "Promised follow-up"
+      ],
+      "resolution_status": "pending",
+      "dominant emotions (customer)": [
+        "Positive",
+        "Appreciative"
+      ],
+      "conversation sentiment": "Positive",
+      "agent professionalism": "Professional and helpful.",
+      "agent performance": "9",
+      "customer satisfaction": "9",
+      "callback promise": "Yes",
+      "callback time": "Once it's processed"
+    }
+  ]
+}

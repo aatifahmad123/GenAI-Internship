@@ -1,0 +1,34 @@
+{
+    "call id": "45",
+    "agent id": "5",
+    "summary": "Customer wants to update nominee for savings account.",
+    "intents": [
+        {
+            "intent": "Update Nominee",
+            "confidence": "95",
+            "keywords": "I need to update...add my son",
+            "products": [
+                "Savings Account"
+            ],
+            "issues": [
+                "Nominee update request",
+                "Customer wants to avoid paperwork"
+            ],
+            "actions of agent": [
+                "Provided information on how to update nominee",
+                "Offered to send the form via email"
+            ],
+            "resolution_status": "pending",
+            "dominant emotions (customer)": [
+                "Neutral",
+                "Annoyance"
+            ],
+            "conversation sentiment": "Neutral",
+            "agent professionalism": "Professional and helpful, but firm on policy.",
+            "agent performance": "8",
+            "customer satisfaction": "6",
+            "callback promise": "No",
+            "callback time": "N/A"
+        }
+    ]
+}

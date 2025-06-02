@@ -1,0 +1,35 @@
+{
+    "call id": "16",
+    "agent id": "2",
+    "summary": "Customer inquires about credit limit increase request status.",
+    "intents": [
+        {
+            "intent": "Check credit limit increase status",
+            "confidence": "95",
+            "keywords": "I requested a credit...What's the hold up?",
+            "products": [
+                "Credit card"
+            ],
+            "issues": [
+                "Delayed response",
+                "Pending request"
+            ],
+            "actions of agent": [
+                "Checked request status",
+                "Expedited the request",
+                "Provided a timeline for resolution"
+            ],
+            "resolution_status": "pending",
+            "dominant emotions (customer)": [
+                "impatient",
+                "anxious"
+            ],
+            "conversation sentiment": "Neutral",
+            "agent professionalism": "Professional and helpful.",
+            "agent performance": "8",
+            "customer satisfaction": "6",
+            "callback promise": "No",
+            "callback time": "N/A"
+        }
+    ]
+}

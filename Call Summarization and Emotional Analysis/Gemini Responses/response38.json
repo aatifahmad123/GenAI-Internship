@@ -1,0 +1,37 @@
+{
+    "call id": "38",
+    "agent id": "4",
+    "summary": "Customer inquires about delayed card payment, agent resolves issue.",
+    "intents": [
+        {
+            "intent": "Payment Issue Inquiry",
+            "confidence": "95",
+            "keywords": "My card payment stuck...taking so long.",
+            "products": [
+                "Card Payment"
+            ],
+            "issues": [
+                "Payment stuck on processing",
+                "Payment gateway glitch"
+            ],
+            "actions of agent": [
+                "Apologized for the delay",
+                "Requested Transaction ID or card number",
+                "Identified payment gateway glitch",
+                "Manually processed the payment",
+                "Confirmed payment completion"
+            ],
+            "resolution_status": "resolved",
+            "dominant emotions (customer)": [
+                "Frustration",
+                "Annoyance"
+            ],
+            "conversation sentiment": "Negative",
+            "agent professionalism": "The agent remained calm and helpful despite the customer's frustration.",
+            "agent performance": "8",
+            "customer satisfaction": "6",
+            "callback promise": "No",
+            "callback time": "N/A"
+        }
+    ]
+}

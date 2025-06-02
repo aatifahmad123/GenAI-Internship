@@ -1,0 +1,35 @@
+{
+  "call id": "11",
+  "agent id": "2",
+  "summary": "Customer is having trouble setting up mobile banking.",
+  "intents": [
+    {
+      "intent": "Mobile Banking Setup Issue",
+      "confidence": "95",
+      "keywords": "I can't set up my mobile banking...everytime I try.",
+      "products": [
+        "Mobile Banking App"
+      ],
+      "issues": [
+        "App crashing",
+        "Setup failure"
+      ],
+      "actions of agent": [
+        "Troubleshooting",
+        "Suggested reinstallation",
+        "Offered escalation to tech support"
+      ],
+      "resolution_status": "pending",
+      "dominant emotions (customer)": [
+        "Frustration",
+        "Impatience"
+      ],
+      "conversation sentiment": "Negative",
+      "agent professionalism": "Professional and helpful.",
+      "agent performance": "8",
+      "customer satisfaction": "5",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ]
+}

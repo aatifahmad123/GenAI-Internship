@@ -1,0 +1,38 @@
+{
+  "call id": "36",
+  "agent id": "4",
+  "summary": "Agent resolves customer's loan NPA status due to bank error.",
+  "intents": [
+    {
+      "intent": "NPA Status Inquiry and Resolution",
+      "confidence": "95",
+      "keywords": "I am so stressed my loan accounts...reported to CIBIL",
+      "products": [
+        "Loan Account"
+      ],
+      "issues": [
+        "Incorrect NPA status",
+        "Credit score impact",
+        "Bank error"
+      ],
+      "actions of agent": [
+        "Confirmed loan account number",
+        "Identified the cause of the issue (bank error)",
+        "Corrected the NPA status",
+        "Confirmed the account is clear",
+        "Confirmed reporting to CIBIL"
+      ],
+      "resolution_status": "resolved",
+      "dominant emotions (customer)": [
+        "Stressed",
+        "Worried"
+      ],
+      "conversation sentiment": "Negative",
+      "agent professionalism": "Professional and helpful in resolving the issue.",
+      "agent performance": "9",
+      "customer satisfaction": "8",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "call id": "18",
+  "agent id": "2",
+  "summary": "Customer is having trouble applying for a car loan online.",
+  "intents": [
+    {
+      "intent": "Car Loan Application Issue",
+      "confidence": "95",
+      "keywords": "I tried applying for a car loan...what I am doing wrong",
+      "products": [
+        "Car Loan"
+      ],
+      "issues": [
+        "Online portal error",
+        "Income details submission failure"
+      ],
+      "actions of agent": [
+        "Troubleshooting the error",
+        "Offering alternative application method (manual processing)",
+        "Requesting documents via email"
+      ],
+      "resolution_status": "pending",
+      "dominant emotions (customer)": [
+        "Frustration",
+        "Confusion"
+      ],
+      "conversation sentiment": "Neutral",
+      "agent professionalism": "Professional and helpful in offering solutions.",
+      "agent performance": "9",
+      "customer satisfaction": "7",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ]
+}

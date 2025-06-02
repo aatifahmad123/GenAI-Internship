@@ -1,0 +1,37 @@
+{
+  "call id": "42",
+  "agent id": "5",
+  "summary": "Customer needs help closing loan and understanding the process.",
+  "intents": [
+    {
+      "intent": "Loan Closure Assistance",
+      "confidence": "95",
+      "keywords": "I want to fuck close...nobody explain it.",
+      "products": [
+        "Loan"
+      ],
+      "issues": [
+        "Loan closure process",
+        "Lack of understanding of foreclosure"
+      ],
+      "actions of agent": [
+        "Offered assistance",
+        "Requested loan account number",
+        "Identified required form",
+        "Offered to email the form with instructions",
+        "Explained the meaning of foreclosure"
+      ],
+      "resolution_status": "pending",
+      "dominant emotions (customer)": [
+        "Frustration",
+        "Confusion"
+      ],
+      "conversation sentiment": "Negative",
+      "agent professionalism": "Professional and helpful, but could have avoided using the word 'foreclosure' initially.",
+      "agent performance": "8",
+      "customer satisfaction": "6",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "call id": "37",
+  "agent id": "4",
+  "summary": "Customer requests help to open a Demat account.",
+  "intents": [
+    {
+      "intent": "Open Demat Account",
+      "confidence": "95",
+      "keywords": "I need to open ... start trading so",
+      "products": [
+        "Demat Account"
+      ],
+      "issues": [
+        "Account setup",
+        "Processing time"
+      ],
+      "actions of agent": [
+        "Inquired about KYC documents",
+        "Provided processing time",
+        "Sent form to customer's email",
+        "Promised follow-up"
+      ],
+      "resolution_status": "pending",
+      "dominant emotions (customer)": [
+        "Neutral",
+        "Eagerness"
+      ],
+      "conversation sentiment": "Neutral",
+      "agent professionalism": "Professional and helpful.",
+      "agent performance": "9",
+      "customer satisfaction": "7",
+      "callback promise": "Yes",
+      "callback time": "Once it's process"
+    }
+  ]
+}

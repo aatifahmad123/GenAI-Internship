@@ -1,0 +1,37 @@
+{
+    "call id": "6",
+    "agent id": "1",
+    "summary": "Customer needs help linking Aadhaar to savings account.",
+    "intents": [
+        {
+            "intent": "Aadhaar Linking Assistance",
+            "confidence": "95",
+            "keywords": "Hello, I want to...at the branch help me.",
+            "products": [
+                "Savings Account"
+            ],
+            "issues": [
+                "Difficulty linking Aadhaar",
+                "Lack of branch support",
+                "Technical difficulties"
+            ],
+            "actions of agent": [
+                "Offered guidance on the process",
+                "Provided alternative solutions (branch visit or online form)",
+                "Agreed to send the form to the customer's email"
+            ],
+            "resolution_status": "pending",
+            "dominant emotions (customer)": [
+                "Frustration",
+                "Confusion",
+                "Relief"
+            ],
+            "conversation sentiment": "Neutral",
+            "agent professionalism": "Professional and helpful.",
+            "agent performance": "9",
+            "customer satisfaction": "8",
+            "callback promise": "No",
+            "callback time": "N/A"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "call id": "13",
+    "agent id": "2",
+    "summary": "Customer reports fraudulent charge; agent blocks card and initiates chargeback.",
+    "intents": [
+        {
+            "intent": "Report Fraudulent Charge",
+            "confidence": "95",
+            "keywords": "Your bank so mass...I never made.",
+            "products": [
+                "Credit Card"
+            ],
+            "issues": [
+                "Unauthorized transaction",
+                "Fraud"
+            ],
+            "actions of agent": [
+                "Asked for transaction details",
+                "Identified potential fraud",
+                "Blocked the card",
+                "Initiated chargeback request",
+                "Provided refund timeframe"
+            ],
+            "resolution_status": "pending",
+            "dominant emotions (customer)": [
+                "Concern",
+                "Frustration",
+                "Anger"
+            ],
+            "conversation sentiment": "Negative",
+            "agent professionalism": "Professional and helpful.",
+            "agent performance": "9",
+            "customer satisfaction": "6",
+            "callback promise": "No",
+            "callback time": "N/A"
+        }
+    ]
+}

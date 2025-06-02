@@ -1,0 +1,59 @@
+{
+  "call id": "40",
+  "agent id": "4",
+  "summary": "Customer wants to increase overdraft limit; agent requests documents.",
+  "intents": [
+    {
+      "intent": "Increase Overdraft Limit",
+      "confidence": "95",
+      "keywords": "I got an overdraft...increase the limit?",
+      "products": [
+        "Overdraft Facility"
+      ],
+      "issues": [
+        "Limit Increase Request"
+      ],
+      "actions of agent": [
+        "Asked for account number",
+        "Informed customer about document requirement",
+        "Promised to expedite the process"
+      ],
+      "resolution_status": "pending",
+      "dominant emotions (customer)": [
+        "Positive",
+        "Impatient"
+      ],
+      "conversation sentiment": "Neutral",
+      "agent professionalism": "Polite and helpful.",
+      "agent performance": "7",
+      "customer satisfaction": "6",
+      "callback promise": "No",
+      "callback time": "N/A"
+    },
+    {
+      "intent": "Positive Feedback",
+      "confidence": "80",
+      "keywords": "shooting this Bank...great by the way",
+      "products": [
+        "Banking Services"
+      ],
+      "issues": [
+        "Customer Satisfaction"
+      ],
+      "actions of agent": [
+        "Acknowledged the feedback",
+        "Thanked the customer"
+      ],
+      "resolution_status": "resolved",
+      "dominant emotions (customer)": [
+        "Positive"
+      ],
+      "conversation sentiment": "Positive",
+      "agent professionalism": "Appropriately responded to positive feedback.",
+      "agent performance": "9",
+      "customer satisfaction": "9",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ]
+}

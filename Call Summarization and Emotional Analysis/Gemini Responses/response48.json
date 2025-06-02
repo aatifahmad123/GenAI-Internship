@@ -1,0 +1,37 @@
+{
+    "call id": "48",
+    "agent id": "5",
+    "summary": "Customer unable to log in due to OTP issue.",
+    "intents": [
+        {
+            "intent": "Login Issue/OTP Problem",
+            "confidence": "95",
+            "keywords": "I can't login to...what's going on.",
+            "products": [
+                "Net Banking"
+            ],
+            "issues": [
+                "Login failure",
+                "Incorrect password",
+                "OTP not received"
+            ],
+            "actions of agent": [
+                "Acknowledged the issue",
+                "Suggested password reset",
+                "Verified registered mobile number",
+                "Fixed OTP issue"
+            ],
+            "resolution_status": "resolved",
+            "dominant emotions (customer)": [
+                "Frustration",
+                "Annoyance"
+            ],
+            "conversation sentiment": "Negative",
+            "agent professionalism": "Professional and helpful.",
+            "agent performance": "9",
+            "customer satisfaction": "7",
+            "callback promise": "No",
+            "callback time": "N/A"
+        }
+    ]
+}

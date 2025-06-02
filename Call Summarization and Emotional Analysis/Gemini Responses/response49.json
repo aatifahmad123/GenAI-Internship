@@ -1,0 +1,37 @@
+{
+    "call id": "49",
+    "agent id": "5",
+    "summary": "Customer received overdue notice despite payment; agent resolved issue.",
+    "intents": [
+        {
+            "intent": "Payment Issue Inquiry",
+            "confidence": "95",
+            "keywords": "I got a letter saying ... I paid it what's happening?",
+            "products": [
+                "Loan"
+            ],
+            "issues": [
+                "Overdue notice",
+                "Payment not reflected",
+                "System error"
+            ],
+            "actions of agent": [
+                "Asked for loan account number",
+                "Identified the system error",
+                "Confirmed the payment was updated",
+                "Offered to send confirmation"
+            ],
+            "resolution_status": "resolved",
+            "dominant emotions (customer)": [
+                "Confused",
+                "Anxious"
+            ],
+            "conversation sentiment": "Negative",
+            "agent professionalism": "Professional and reassuring.",
+            "agent performance": "9",
+            "customer satisfaction": "8",
+            "callback promise": "No",
+            "callback time": "N/A"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+  "call id": "14",
+  "agent id": "2",
+  "summary": "Customer inquires about setting up NEFT transfer; agent assists.",
+  "intents": [
+    {
+      "intent": "NEFT Transfer Setup",
+      "confidence": "95",
+      "keywords": "Hey, I just open...made that super clear.",
+      "products": [
+        "Savings Account",
+        "NEFT Transfer"
+      ],
+      "issues": [],
+      "actions of agent": [
+        "Provided instructions on setting up NEFT transfer.",
+        "Explained required information (account number, IFSC code).",
+        "Informed about activation time (24 hours)."
+      ],
+      "resolution_status": "resolved",
+      "dominant emotions (customer)": [
+        "Excitement",
+        "Gratitude"
+      ],
+      "conversation sentiment": "Positive",
+      "agent professionalism": "Helpful and clear communication.",
+      "agent performance": "9",
+      "customer satisfaction": "9",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ]
+}

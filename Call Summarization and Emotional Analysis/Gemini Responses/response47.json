@@ -1,0 +1,37 @@
+{
+  "call id": "47",
+  "agent id": "5",
+  "summary": "Customer reports fraudulent charge, agent initiates dispute.",
+  "intents": [
+    {
+      "intent": "Report Fraudulent Charge",
+      "confidence": "95",
+      "keywords": "My credit card bills got...what's dis",
+      "products": [
+        "Credit Card"
+      ],
+      "issues": [
+        "Fraudulent Charge",
+        "Unauthorized Transaction"
+      ],
+      "actions of agent": [
+        "Asked for card number and transaction date",
+        "Identified the charge",
+        "Initiated a dispute",
+        "Blocked the card for future transactions",
+        "Informed customer about refund timeline"
+      ],
+      "resolution_status": "resolved",
+      "dominant emotions (customer)": [
+        "Frustration",
+        "Anger"
+      ],
+      "conversation sentiment": "Negative",
+      "agent professionalism": "Professional and helpful.",
+      "agent performance": "9",
+      "customer satisfaction": "7",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ]
+}

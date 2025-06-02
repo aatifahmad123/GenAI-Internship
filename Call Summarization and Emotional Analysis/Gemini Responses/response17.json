@@ -1,0 +1,39 @@
+{
+    "call id": "17",
+    "agent id": "2",
+    "summary": "Customer reports unauthorized withdrawal; agent freezes account and initiates fraud report.",
+    "intents": [
+        {
+            "intent": "Report Unauthorized Transaction",
+            "confidence": "95",
+            "keywords": "I am worried my savings ... authorise this.",
+            "products": [
+                "Savings Account"
+            ],
+            "issues": [
+                "Unauthorized withdrawal",
+                "Potential fraud",
+                "Account security"
+            ],
+            "actions of agent": [
+                "Confirmed transaction details",
+                "Froze the account",
+                "Filed a fraud report",
+                "Assured customer of account security",
+                "Promised to reverse the transaction",
+                "Committed to providing updates"
+            ],
+            "resolution_status": "pending",
+            "dominant emotions (customer)": [
+                "Worried",
+                "Scared"
+            ],
+            "conversation sentiment": "Negative",
+            "agent professionalism": "Professional and reassuring.",
+            "agent performance": "9",
+            "customer satisfaction": "7",
+            "callback promise": "No",
+            "callback time": "N/A"
+        }
+    ]
+}

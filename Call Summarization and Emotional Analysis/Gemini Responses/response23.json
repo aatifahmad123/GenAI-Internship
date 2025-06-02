@@ -1,0 +1,36 @@
+{
+  "call id": "23",
+  "agent id": "3",
+  "summary": "Customer complains about late fee; agent waives the fee.",
+  "intents": [
+    {
+      "intent": "Dispute Late Fee",
+      "confidence": "95",
+      "keywords": "You guys are reaping me off...for your mistak.",
+      "products": [
+        "Loan"
+      ],
+      "issues": [
+        "Incorrect late fee",
+        "ECS mandate issue"
+      ],
+      "actions of agent": [
+        "Verified account details",
+        "Identified payment",
+        "Waived late fee",
+        "Apologized for the inconvenience"
+      ],
+      "resolution_status": "resolved",
+      "dominant emotions (customer)": [
+        "Anger",
+        "Frustration"
+      ],
+      "conversation sentiment": "Negative",
+      "agent professionalism": "Professional and empathetic.",
+      "agent performance": "9",
+      "customer satisfaction": "7",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ]
+}

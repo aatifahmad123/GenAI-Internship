@@ -1,0 +1,36 @@
+{
+  "call id": "2",
+  "agent id": "1",
+  "summary": "Customer inquires about personal loan application status and CIBIL score.",
+  "intents": [
+    {
+      "intent": "Check Loan Application Status",
+      "confidence": "95",
+      "keywords": "Hello, I applied for...money soon.",
+      "products": [
+        "Personal Loan"
+      ],
+      "issues": [
+        "Application status inquiry",
+        "Pending CIBIL score update",
+        "Lack of communication"
+      ],
+      "actions of agent": [
+        "Checked application status by name",
+        "Explained reason for delay (pending CIBIL score)",
+        "Escalated the process"
+      ],
+      "resolution_status": "pending",
+      "dominant emotions (customer)": [
+        "Concern",
+        "Frustration"
+      ],
+      "conversation sentiment": "Negative",
+      "agent professionalism": "Professional and helpful, provided explanation and offered escalation.",
+      "agent performance": "8",
+      "customer satisfaction": "6",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ]
+}

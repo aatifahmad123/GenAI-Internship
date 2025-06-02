@@ -1,0 +1,38 @@
+{
+    "call id": "9",
+    "agent id": "1",
+    "summary": "Customer requests EMI moratorium; agent assists and provides information.",
+    "intents": [
+        {
+            "intent": "Request EMI Moratorium",
+            "confidence": "95",
+            "keywords": "I am trying to get...couple of months.",
+            "products": [
+                "Home Loan"
+            ],
+            "issues": [
+                "Website usability",
+                "Need for EMI break"
+            ],
+            "actions of agent": [
+                "Offered assistance",
+                "Requested loan account number",
+                "Checked eligibility",
+                "Offered 3-month moratorium",
+                "Addressed CIBIL score concern",
+                "Promised to send detailed email"
+            ],
+            "resolution_status": "resolved",
+            "dominant emotions (customer)": [
+                "Frustration",
+                "Relief"
+            ],
+            "conversation sentiment": "Positive",
+            "agent professionalism": "Professional and helpful, addressed concerns effectively.",
+            "agent performance": "9",
+            "customer satisfaction": "8",
+            "callback promise": "No",
+            "callback time": "N/A"
+        }
+    ]
+}

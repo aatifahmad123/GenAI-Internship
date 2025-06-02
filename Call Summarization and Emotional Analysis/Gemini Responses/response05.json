@@ -1,0 +1,59 @@
+{
+  "call id": "5",
+  "agent id": "1",
+  "summary": "Customer's card declined due to insufficient funds; issue resolved.",
+  "intents": [
+    {
+      "intent": "Debit Card Issue",
+      "confidence": "95",
+      "keywords": "Hello, my debit card got declined...What's the deal?",
+      "products": [
+        "Debit Card"
+      ],
+      "issues": [
+        "Card Declined",
+        "Insufficient Funds"
+      ],
+      "actions of agent": [
+        "Verified card activity",
+        "Checked account balance",
+        "Offered fund transfer"
+      ],
+      "resolution_status": "resolved",
+      "dominant emotions (customer)": [
+        "Frustration",
+        "Surprise"
+      ],
+      "conversation sentiment": "Neutral",
+      "agent professionalism": "Professional and helpful.",
+      "agent performance": "9",
+      "customer satisfaction": "8",
+      "callback promise": "No",
+      "callback time": "N/A"
+    },
+    {
+      "intent": "Fund Transfer",
+      "confidence": "98",
+      "keywords": "Alright, let's transfer from my savings...card should work now",
+      "products": [
+        "Savings Account"
+      ],
+      "issues": [
+        "Insufficient Funds"
+      ],
+      "actions of agent": [
+        "Initiated fund transfer"
+      ],
+      "resolution_status": "resolved",
+      "dominant emotions (customer)": [
+        "Relief"
+      ],
+      "conversation sentiment": "Positive",
+      "agent professionalism": "Efficient and helpful.",
+      "agent performance": "10",
+      "customer satisfaction": "9",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ]
+}

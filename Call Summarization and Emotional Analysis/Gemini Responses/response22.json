@@ -1,0 +1,34 @@
+{
+    "call id": "22",
+    "agent id": "3",
+    "summary": "Customer's address update delayed due to missing signature.",
+    "intents": [
+        {
+            "intent": "Address Update Inquiry",
+            "confidence": "95",
+            "keywords": "I went to the branch...not done yet.",
+            "products": [],
+            "issues": [
+                "Delayed address update",
+                "Missing signature"
+            ],
+            "actions of agent": [
+                "Checked account status",
+                "Identified the reason for delay",
+                "Offered to email the form",
+                "Promised to expedite the update"
+            ],
+            "resolution_status": "pending",
+            "dominant emotions (customer)": [
+                "Frustration",
+                "Confusion"
+            ],
+            "conversation sentiment": "Negative",
+            "agent professionalism": "Professional and helpful.",
+            "agent performance": "9",
+            "customer satisfaction": "6",
+            "callback promise": "No",
+            "callback time": "N/A"
+        }
+    ]
+}

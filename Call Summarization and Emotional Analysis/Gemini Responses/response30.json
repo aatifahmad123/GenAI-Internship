@@ -1,0 +1,59 @@
+{
+    "call id": "30",
+    "agent id": "3",
+    "summary": "Customer inquires about tracking an RTGS transfer and receives confirmation.",
+    "intents": [
+        {
+            "intent": "Track RTGS Transfer",
+            "confidence": "95",
+            "keywords": "I setup RTGS transfers and it's ... make sure it went through.",
+            "products": [
+                "RTGS Transfer"
+            ],
+            "issues": [
+                "Tracking transfer status"
+            ],
+            "actions of agent": [
+                "Asked for transaction reference number",
+                "Checked the transfer status",
+                "Offered to send a statement"
+            ],
+            "resolution_status": "resolved",
+            "dominant emotions (customer)": [
+                "Inquisitive",
+                "Relief"
+            ],
+            "conversation sentiment": "Positive",
+            "agent professionalism": "Professional and helpful.",
+            "agent performance": "9",
+            "customer satisfaction": "9",
+            "callback promise": "No",
+            "callback time": "N/A"
+        },
+        {
+            "intent": "Request Statement",
+            "confidence": "90",
+            "keywords": "Statements find thanks you ... send this statement to",
+            "products": [
+                "Bank Statement"
+            ],
+            "issues": [
+                "Need for transaction record"
+            ],
+            "actions of agent": [
+                "Offered to send a statement",
+                "Sent statement to customer's email"
+            ],
+            "resolution_status": "resolved",
+            "dominant emotions (customer)": [
+                "Grateful"
+            ],
+            "conversation sentiment": "Positive",
+            "agent professionalism": "Professional and efficient.",
+            "agent performance": "10",
+            "customer satisfaction": "10",
+            "callback promise": "No",
+            "callback time": "N/A"
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "call id": "10",
+    "agent id": "1",
+    "summary": "Customer's credit card activation issue resolved by the agent.",
+    "intents": [
+        {
+            "intent": "Credit Card Activation",
+            "confidence": "95",
+            "keywords": "I've been trying to activate ... need to use it today.",
+            "products": [
+                "Credit Card"
+            ],
+            "issues": [
+                "Card activation failure",
+                "Delayed activation"
+            ],
+            "actions of agent": [
+                "Verified card details",
+                "Checked activation status",
+                "Manually activated the card",
+                "Offered to send confirmation"
+            ],
+            "resolution_status": "resolved",
+            "dominant emotions (customer)": [
+                "Frustration",
+                "Impatience"
+            ],
+            "conversation sentiment": "Negative",
+            "agent professionalism": "Professional and helpful, but could be more empathetic.",
+            "agent performance": "8",
+            "customer satisfaction": "7",
+            "callback promise": "No",
+            "callback time": "N/A"
+        },
+        {
+            "intent": "Confirmation Request",
+            "confidence": "90",
+            "keywords": "Would you like me ... yeah, send it.",
+            "products": [
+                "Credit Card"
+            ],
+            "issues": [
+                "Confirmation of activation"
+            ],
+            "actions of agent": [
+                "Offered to send confirmation",
+                "Implied sending confirmation"
+            ],
+            "resolution_status": "resolved",
+            "dominant emotions (customer)": [
+                "Relief"
+            ],
+            "conversation sentiment": "Positive",
+            "agent professionalism": "Professional and helpful.",
+            "agent performance": "9",
+            "customer satisfaction": "8",
+            "callback promise": "No",
+            "callback time": "N/A"
+        }
+    ]
+}

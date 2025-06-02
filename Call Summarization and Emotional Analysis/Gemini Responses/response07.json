@@ -1,0 +1,64 @@
+{
+    "call id": "7",
+    "agent id": "1",
+    "summary": "Customer reports fraudulent transaction; agent blocks card and initiates refund.",
+    "intents": [
+        {
+            "intent": "Report Fraudulent Transaction",
+            "confidence": "95",
+            "keywords": "I got a fraud alert...identite make",
+            "products": [
+                "Credit Card"
+            ],
+            "issues": [
+                "Unauthorized transaction",
+                "Fraud"
+            ],
+            "actions of agent": [
+                "Blocked the card",
+                "Filed a fraud report",
+                "Issued a replacement card",
+                "Initiated a chargeback request",
+                "Promised follow-up"
+            ],
+            "resolution_status": "pending",
+            "dominant emotions (customer)": [
+                "Worried",
+                "Anxious"
+            ],
+            "conversation sentiment": "Negative",
+            "agent professionalism": "Professional and reassuring.",
+            "agent performance": "9",
+            "customer satisfaction": "8",
+            "callback promise": "Yes",
+            "callback time": "N/A"
+        },
+        {
+            "intent": "Inquire About Refund",
+            "confidence": "90",
+            "keywords": "But what about my...get it back?",
+            "products": [
+                "Credit Card"
+            ],
+            "issues": [
+                "Refund of fraudulent transaction amount"
+            ],
+            "actions of agent": [
+                "Initiated a chargeback request",
+                "Provided timeframe for refund (7-10 days)",
+                "Promised personal follow-up"
+            ],
+            "resolution_status": "pending",
+            "dominant emotions (customer)": [
+                "Concerned",
+                "Hopeful"
+            ],
+            "conversation sentiment": "Neutral",
+            "agent professionalism": "Helpful and informative.",
+            "agent performance": "9",
+            "customer satisfaction": "8",
+            "callback promise": "Yes",
+            "callback time": "N/A"
+        }
+    ]
+}

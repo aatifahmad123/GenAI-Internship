@@ -1,0 +1,35 @@
+{
+    "call id": "8",
+    "agent id": "1",
+    "summary": "Customer inquires about setting up UPI on the app.",
+    "intents": [
+        {
+            "intent": "UPI Setup Assistance",
+            "confidence": "95",
+            "keywords": "Hey, I just open...paying with my phone.",
+            "products": [
+                "Savings Account",
+                "Mobile App",
+                "UPI"
+            ],
+            "issues": [
+                "UPI setup"
+            ],
+            "actions of agent": [
+                "Provided instructions for setting up UPI",
+                "Offered to walk the customer through the process"
+            ],
+            "resolution_status": "resolved",
+            "dominant emotions (customer)": [
+                "Happy",
+                "Curious"
+            ],
+            "conversation sentiment": "Positive",
+            "agent professionalism": "Helpful and polite.",
+            "agent performance": "9",
+            "customer satisfaction": "9",
+            "callback promise": "No",
+            "callback time": "N/A"
+        }
+    ]
+}

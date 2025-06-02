@@ -1,0 +1,38 @@
+{
+  "call id": "46",
+  "agent id": "5",
+  "summary": "Customer panicked about missed payment; agent resolved the issue.",
+  "intents": [
+    {
+      "intent": "Inquire about missed payment",
+      "confidence": "95",
+      "keywords": "I am panicking my loan ... mess up my credit score.",
+      "products": [
+        "Loan Account"
+      ],
+      "issues": [
+        "Missed payment",
+        "Credit score impact",
+        "Processing error"
+      ],
+      "actions of agent": [
+        "Identified the issue",
+        "Confirmed account number",
+        "Updated payment status",
+        "Confirmed update with CIBIL"
+      ],
+      "resolution_status": "resolved",
+      "dominant emotions (customer)": [
+        "Panic",
+        "Anxiety",
+        "Relief"
+      ],
+      "conversation sentiment": "Positive",
+      "agent professionalism": "Professional and helpful.",
+      "agent performance": "9",
+      "customer satisfaction": "9",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ]
+}

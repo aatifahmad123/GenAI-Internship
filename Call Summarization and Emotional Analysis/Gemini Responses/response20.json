@@ -1,0 +1,60 @@
+{
+  "call id": "20",
+  "agent id": "2",
+  "summary": "Customer inquires about loan preclosure final steps and payment.",
+  "intents": [
+    {
+      "intent": "Loan Preclosure Inquiry",
+      "confidence": "95",
+      "keywords": "I am thrilled my loan...do I need to do next?",
+      "products": [
+        "Loan"
+      ],
+      "issues": [
+        "Preclosure process",
+        "Final steps"
+      ],
+      "actions of agent": [
+        "Confirmed loan account number",
+        "Explained the outstanding balance",
+        "Offered to generate a payment link"
+      ],
+      "resolution_status": "pending",
+      "dominant emotions (customer)": [
+        "Thrilled",
+        "Positive"
+      ],
+      "conversation sentiment": "Positive",
+      "agent professionalism": "Professional and helpful.",
+      "agent performance": "9",
+      "customer satisfaction": "9",
+      "callback promise": "Yes",
+      "callback time": "Same day, N/A"
+    },
+    {
+      "intent": "Payment Link Request",
+      "confidence": "98",
+      "keywords": "Perfect send the link...loan will be closed. I follow up.",
+      "products": [
+        "Loan"
+      ],
+      "issues": [
+        "Payment"
+      ],
+      "actions of agent": [
+        "Generated and sent payment link",
+        "Promised follow-up"
+      ],
+      "resolution_status": "pending",
+      "dominant emotions (customer)": [
+        "Satisfied"
+      ],
+      "conversation sentiment": "Positive",
+      "agent professionalism": "Professional and efficient.",
+      "agent performance": "10",
+      "customer satisfaction": "10",
+      "callback promise": "Yes",
+      "callback time": "Same day, N/A"
+    }
+  ]
+}

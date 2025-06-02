@@ -1,0 +1,37 @@
+{
+  "call id": "43",
+  "agent id": "5",
+  "summary": "Customer complains about unauthorized charge and threatens account closure.",
+  "intents": [
+    {
+      "intent": "Dispute Charge",
+      "confidence": "95",
+      "keywords": "you are charging me...closing my account",
+      "products": [
+        "Bank Account",
+        "ATM"
+      ],
+      "issues": [
+        "Unauthorized charge",
+        "Incorrect fee",
+        "ATM withdrawal fee"
+      ],
+      "actions of agent": [
+        "Identified the erroneous charge",
+        "Initiated refund process",
+        "Apologized for the error"
+      ],
+      "resolution_status": "resolved",
+      "dominant emotions (customer)": [
+        "Anger",
+        "Frustration"
+      ],
+      "conversation sentiment": "Negative",
+      "agent professionalism": "Professional and apologetic.",
+      "agent performance": "8",
+      "customer satisfaction": "5",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ]
+}

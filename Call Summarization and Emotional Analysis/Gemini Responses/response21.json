@@ -1,0 +1,36 @@
+{
+  "call id": "21",
+  "agent id": "3",
+  "summary": "Customer's debit card online transactions were not enabled.",
+  "intents": [
+    {
+      "intent": "Debit Card Issue",
+      "confidence": "95",
+      "keywords": "My debit card is not working...transaction failed fix it.",
+      "products": [
+        "Debit Card"
+      ],
+      "issues": [
+        "Online transaction failure",
+        "Debit card not working online",
+        "Online transactions disabled"
+      ],
+      "actions of agent": [
+        "Identified the issue",
+        "Offered solutions to enable online transactions",
+        "Enabled online transactions for the customer"
+      ],
+      "resolution_status": "resolved",
+      "dominant emotions (customer)": [
+        "Frustration",
+        "Annoyance"
+      ],
+      "conversation sentiment": "Negative",
+      "agent professionalism": "Professional and helpful.",
+      "agent performance": "9",
+      "customer satisfaction": "7",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ]
+}
