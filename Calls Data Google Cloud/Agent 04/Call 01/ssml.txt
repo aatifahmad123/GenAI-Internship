@@ -1,0 +1,55 @@
+<speak>
+  <voice name="{customer_voice}">
+    <prosody pitch="+1st" rate="medium">
+      I’m furious!
+      <break time="100ms"/>
+      My card was charged ₹12,000 for a subscription I canceled months ago!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      I’m sorry to hear that Sir.
+      <break time="100ms"/>
+      Can you provide the card number and merchant details?
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody pitch="+1st" rate="medium">
+      It’s ending in three five six four,
+      <break time="50ms"/>
+      some streaming service.
+      <break time="50ms"/>
+      I want my money back now!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      I’ve located the transaction.
+      <break time="75ms"/>
+      It’s a recurring charge.
+      <break time="75ms"/>
+      I’ll initiate a chargeback and block further charges.
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody pitch="+1st" rate="fast">
+      This is unacceptable!
+      <break time="75ms"/>
+      You should’ve stopped it earlier!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      I understand your frustration.
+      <break time="75ms"/>
+      The chargeback is filed,
+      <break time="50ms"/>
+      and you’ll see a refund in 5 to 7 days.
+    </prosody>
+  </voice>
+</speak>

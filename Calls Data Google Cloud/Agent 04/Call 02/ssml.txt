@@ -1,0 +1,51 @@
+<speak>
+  <voice name="{customer_voice}">
+    <prosody pitch="+1st" rate="medium">
+      Hello, I tried using the ATM, but it says my card’s invalid.
+      <break time="100ms"/>
+      What’s wrong?
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      I’m sorry for the trouble Sir.
+      <break time="75ms"/>
+      Can you share your account number to check the card status?
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody pitch="+1st" rate="medium">
+      It’s six five, four three, two one, nine eight seven.
+      <break time="75ms"/>
+      I don’t know why it’s not working.
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      It seems your card was deactivated due to inactivity.
+      <break time="100ms"/>
+      I can issue a new one or reactivate it.
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody pitch="+1st" rate="medium">
+      Reactivate it, please.
+      <break time="50ms"/>
+      I don’t understand why this happened.
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      It’s reactivated now Sir.
+      <break time="50ms"/>
+      You can use it immediately,
+      <break time="50ms"/>
+      and I’ll send a confirmation.
+    </prosody>
+  </voice>
+</speak>

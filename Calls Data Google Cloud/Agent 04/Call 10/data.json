@@ -1,0 +1,28 @@
+{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I got an overdraft facility on my account, and it’s a lifesaver! How do I increase the limit?"
+    },
+    {
+      "speaker": "RM",
+      "text": "Glad it’s helping Sir! Can you confirm your account number for the request?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s seven eight nine, one two three, four five six. Can you make it quick?"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’ll need your latest income proof to process the increase. Can you email it to us?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Sure thing. This bank’s been great, by the way!"
+    },
+    {
+      "speaker": "RM",
+      "text": "Thank you Sir! Once we receive the documents, I’ll expedite the limit increase."
+    }
+  ]
+}

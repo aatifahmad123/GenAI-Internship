@@ -1,0 +1,28 @@
+{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I want to withdraw my fixed deposit early. How does that work?"
+    },
+    {
+      "speaker": "RM",
+      "text": "I can assist with that Sir. Can you provide your FD account number?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s eight four, two four, six one, one three, five nine. Will I lose all the interest?"
+    },
+    {
+      "speaker": "RM",
+      "text": "For premature withdrawal, you’ll get a reduced interest rate. I can calculate the exact amount if you’d like."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Please do. I need the money soon, so make it quick."
+    },
+    {
+      "speaker": "RM",
+      "text": "The FD is worth ₹5,00,000 with ₹15,000 interest after penalty. I’ve initiated the withdrawal."
+    }
+  ]
+}

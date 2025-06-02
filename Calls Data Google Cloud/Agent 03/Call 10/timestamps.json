@@ -1,0 +1,440 @@
+[
+  {
+    "word": "I",
+    "start_time": "0 sec",
+    "end_time": "0 sec",
+    "confidence": 0.673
+  },
+  {
+    "word": "set",
+    "start_time": "0 sec",
+    "end_time": "0 sec",
+    "confidence": 0.463
+  },
+  {
+    "word": "up",
+    "start_time": "0 sec",
+    "end_time": "0 sec",
+    "confidence": 0.271
+  },
+  {
+    "word": "RTGS",
+    "start_time": "0 sec",
+    "end_time": "1 sec",
+    "confidence": 0.597
+  },
+  {
+    "word": "transfer",
+    "start_time": "1 sec",
+    "end_time": "1 sec",
+    "confidence": 0.575
+  },
+  {
+    "word": "and",
+    "start_time": "1 sec",
+    "end_time": "1 sec",
+    "confidence": 0.968
+  },
+  {
+    "word": "it's",
+    "start_time": "1 sec",
+    "end_time": "2 sec",
+    "confidence": 0.598
+  },
+  {
+    "word": "so",
+    "start_time": "2 sec",
+    "end_time": "2 sec",
+    "confidence": 0.81
+  },
+  {
+    "word": "easy",
+    "start_time": "2 sec",
+    "end_time": "2 sec",
+    "confidence": 0.9
+  },
+  {
+    "word": "just",
+    "start_time": "2 sec",
+    "end_time": "3 sec",
+    "confidence": 0.963
+  },
+  {
+    "word": "need",
+    "start_time": "3 sec",
+    "end_time": "3 sec",
+    "confidence": 0.849
+  },
+  {
+    "word": "to",
+    "start_time": "3 sec",
+    "end_time": "3 sec",
+    "confidence": 0.974
+  },
+  {
+    "word": "know",
+    "start_time": "3 sec",
+    "end_time": "3 sec",
+    "confidence": 0.951
+  },
+  {
+    "word": "how",
+    "start_time": "3 sec",
+    "end_time": "3 sec",
+    "confidence": 0.974
+  },
+  {
+    "word": "to",
+    "start_time": "3 sec",
+    "end_time": "4 sec",
+    "confidence": 0.943
+  },
+  {
+    "word": "track",
+    "start_time": "4 sec",
+    "end_time": "4 sec",
+    "confidence": 0.959
+  },
+  {
+    "word": "them",
+    "start_time": "4 sec",
+    "end_time": "4 sec",
+    "confidence": 0.938
+  },
+  {
+    "word": "blood",
+    "start_time": "4 sec",
+    "end_time": "5 sec",
+    "confidence": 0.356
+  },
+  {
+    "word": "its",
+    "start_time": "5 sec",
+    "end_time": "5 sec",
+    "confidence": 0.559
+  },
+  {
+    "word": "working.",
+    "start_time": "5 sec",
+    "end_time": "5 sec",
+    "confidence": 0.975
+  },
+  {
+    "word": "Well,",
+    "start_time": "5 sec",
+    "end_time": "6 sec",
+    "confidence": 0.884
+  },
+  {
+    "word": "so",
+    "start_time": "6 sec",
+    "end_time": "6 sec",
+    "confidence": 0.823
+  },
+  {
+    "word": "can",
+    "start_time": "6 sec",
+    "end_time": "6 sec",
+    "confidence": 0.964
+  },
+  {
+    "word": "you",
+    "start_time": "6 sec",
+    "end_time": "7 sec",
+    "confidence": 0.889
+  },
+  {
+    "word": "share",
+    "start_time": "7 sec",
+    "end_time": "7 sec",
+    "confidence": 0.967
+  },
+  {
+    "word": "the",
+    "start_time": "7 sec",
+    "end_time": "7 sec",
+    "confidence": 0.869
+  },
+  {
+    "word": "transaction",
+    "start_time": "7 sec",
+    "end_time": "8 sec",
+    "confidence": 0.921
+  },
+  {
+    "word": "reference",
+    "start_time": "8 sec",
+    "end_time": "8 sec",
+    "confidence": 0.834
+  },
+  {
+    "word": "number",
+    "start_time": "8 sec",
+    "end_time": "8 sec",
+    "confidence": 0.752
+  },
+  {
+    "word": "RTGS",
+    "start_time": "8 sec",
+    "end_time": "10 sec",
+    "confidence": 0.392
+  },
+  {
+    "word": "543285",
+    "start_time": "10 sec",
+    "end_time": "12 sec",
+    "confidence": 0.195
+  },
+  {
+    "word": "91.",
+    "start_time": "12 sec",
+    "end_time": "12 sec",
+    "confidence": 0.128
+  },
+  {
+    "word": "I",
+    "start_time": "12 sec",
+    "end_time": "13 sec",
+    "confidence": 0.796
+  },
+  {
+    "word": "want",
+    "start_time": "13 sec",
+    "end_time": "13 sec",
+    "confidence": 0.918
+  },
+  {
+    "word": "to",
+    "start_time": "13 sec",
+    "end_time": "13 sec",
+    "confidence": 0.937
+  },
+  {
+    "word": "make",
+    "start_time": "13 sec",
+    "end_time": "13 sec",
+    "confidence": 0.975
+  },
+  {
+    "word": "sure",
+    "start_time": "13 sec",
+    "end_time": "14 sec",
+    "confidence": 0.935
+  },
+  {
+    "word": "it",
+    "start_time": "14 sec",
+    "end_time": "14 sec",
+    "confidence": 0.606
+  },
+  {
+    "word": "went",
+    "start_time": "14 sec",
+    "end_time": "14 sec",
+    "confidence": 0.324
+  },
+  {
+    "word": "through",
+    "start_time": "14 sec",
+    "end_time": "14 sec",
+    "confidence": 0.546
+  },
+  {
+    "word": "the",
+    "start_time": "14 sec",
+    "end_time": "14 sec",
+    "confidence": 0.578
+  },
+  {
+    "word": "transfer",
+    "start_time": "14 sec",
+    "end_time": "15 sec",
+    "confidence": 0.881
+  },
+  {
+    "word": "is",
+    "start_time": "15 sec",
+    "end_time": "15 sec",
+    "confidence": 0.809
+  },
+  {
+    "word": "completed.",
+    "start_time": "15 sec",
+    "end_time": "16 sec",
+    "confidence": 0.889
+  },
+  {
+    "word": "You",
+    "start_time": "16 sec",
+    "end_time": "16 sec",
+    "confidence": 0.516
+  },
+  {
+    "word": "can",
+    "start_time": "16 sec",
+    "end_time": "16 sec",
+    "confidence": 0.909
+  },
+  {
+    "word": "track",
+    "start_time": "16 sec",
+    "end_time": "17 sec",
+    "confidence": 0.957
+  },
+  {
+    "word": "it",
+    "start_time": "17 sec",
+    "end_time": "17 sec",
+    "confidence": 0.321
+  },
+  {
+    "word": "in",
+    "start_time": "17 sec",
+    "end_time": "17 sec",
+    "confidence": 0.685
+  },
+  {
+    "word": "the",
+    "start_time": "17 sec",
+    "end_time": "17 sec",
+    "confidence": 0.669
+  },
+  {
+    "word": "abstraction",
+    "start_time": "17 sec",
+    "end_time": "18 sec",
+    "confidence": 0.771
+  },
+  {
+    "word": "history",
+    "start_time": "18 sec",
+    "end_time": "19 sec",
+    "confidence": 0.877
+  },
+  {
+    "word": "or",
+    "start_time": "19 sec",
+    "end_time": "19 sec",
+    "confidence": 0.333
+  },
+  {
+    "word": "I",
+    "start_time": "19 sec",
+    "end_time": "19 sec",
+    "confidence": 0.828
+  },
+  {
+    "word": "can",
+    "start_time": "19 sec",
+    "end_time": "19 sec",
+    "confidence": 0.913
+  },
+  {
+    "word": "send",
+    "start_time": "19 sec",
+    "end_time": "20 sec",
+    "confidence": 0.95
+  },
+  {
+    "word": "the",
+    "start_time": "20 sec",
+    "end_time": "20 sec",
+    "confidence": 0.74
+  },
+  {
+    "word": "statement",
+    "start_time": "20 sec",
+    "end_time": "20 sec",
+    "confidence": 0.667
+  },
+  {
+    "word": "statements",
+    "start_time": "20 sec",
+    "end_time": "21 sec",
+    "confidence": 0.505
+  },
+  {
+    "word": "fine",
+    "start_time": "21 sec",
+    "end_time": "21 sec",
+    "confidence": 0.505
+  },
+  {
+    "word": "times.",
+    "start_time": "21 sec",
+    "end_time": "22 sec",
+    "confidence": 0.75
+  },
+  {
+    "word": "You",
+    "start_time": "22 sec",
+    "end_time": "22 sec",
+    "confidence": 0.403
+  },
+  {
+    "word": "guys",
+    "start_time": "22 sec",
+    "end_time": "23 sec",
+    "confidence": 0.12
+  },
+  {
+    "word": "are",
+    "start_time": "23 sec",
+    "end_time": "23 sec",
+    "confidence": 0.219
+  },
+  {
+    "word": "awesome.",
+    "start_time": "23 sec",
+    "end_time": "23 sec",
+    "confidence": 0.152
+  },
+  {
+    "word": "You",
+    "start_time": "23 sec",
+    "end_time": "24 sec",
+    "confidence": 0.371
+  },
+  {
+    "word": "are",
+    "start_time": "24 sec",
+    "end_time": "24 sec",
+    "confidence": 0.227
+  },
+  {
+    "word": "welcome",
+    "start_time": "24 sec",
+    "end_time": "24 sec",
+    "confidence": 0.474
+  },
+  {
+    "word": "sir",
+    "start_time": "24 sec",
+    "end_time": "25 sec",
+    "confidence": 0.357
+  },
+  {
+    "word": "statement",
+    "start_time": "25 sec",
+    "end_time": "26 sec",
+    "confidence": 0.682
+  },
+  {
+    "word": "to",
+    "start_time": "26 sec",
+    "end_time": "26 sec",
+    "confidence": 0.751
+  },
+  {
+    "word": "your",
+    "start_time": "26 sec",
+    "end_time": "26 sec",
+    "confidence": 0.589
+  },
+  {
+    "word": "email.",
+    "start_time": "26 sec",
+    "end_time": "27 sec",
+    "confidence": 0.27
+  }
+]

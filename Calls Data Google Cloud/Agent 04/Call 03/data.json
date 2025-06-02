@@ -1,0 +1,28 @@
+{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I applied for a business loan, and it’s taking forever! When will I get an update?"
+    },
+    {
+      "speaker": "RM",
+      "text": "I apologize for the delay Sir. Can you provide your application ID to check the status?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s BL seven eight, nine four, five six. I need this loan ASAP!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’ve checked, and your application is in the final review. It should be approved within 48 hours."
+    },
+    {
+      "speaker": "Customer",
+      "text": "48 hours? Can’t you speed it up? I’m losing business here!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I understand the urgency. I’ll escalate it to our loan team for priority processing."
+    }
+  ]
+}

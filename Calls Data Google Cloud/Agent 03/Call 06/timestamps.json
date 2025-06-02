@@ -1,0 +1,524 @@
+[
+  {
+    "word": "I",
+    "start_time": "0 sec",
+    "end_time": "0 sec",
+    "confidence": 0.569
+  },
+  {
+    "word": "am",
+    "start_time": "0 sec",
+    "end_time": "0 sec",
+    "confidence": 0.569
+  },
+  {
+    "word": "freaking",
+    "start_time": "0 sec",
+    "end_time": "0 sec",
+    "confidence": 0.763
+  },
+  {
+    "word": "out",
+    "start_time": "0 sec",
+    "end_time": "0 sec",
+    "confidence": 0.664
+  },
+  {
+    "word": "my",
+    "start_time": "0 sec",
+    "end_time": "1 sec",
+    "confidence": 0.809
+  },
+  {
+    "word": "loan",
+    "start_time": "1 sec",
+    "end_time": "1 sec",
+    "confidence": 0.876
+  },
+  {
+    "word": "payment",
+    "start_time": "1 sec",
+    "end_time": "1 sec",
+    "confidence": 0.808
+  },
+  {
+    "word": "is",
+    "start_time": "1 sec",
+    "end_time": "1 sec",
+    "confidence": 0.569
+  },
+  {
+    "word": "due",
+    "start_time": "1 sec",
+    "end_time": "1 sec",
+    "confidence": 0.868
+  },
+  {
+    "word": "but",
+    "start_time": "1 sec",
+    "end_time": "2 sec",
+    "confidence": 0.966
+  },
+  {
+    "word": "I",
+    "start_time": "2 sec",
+    "end_time": "2 sec",
+    "confidence": 0.814
+  },
+  {
+    "word": "can't",
+    "start_time": "2 sec",
+    "end_time": "2 sec",
+    "confidence": 0.818
+  },
+  {
+    "word": "access",
+    "start_time": "2 sec",
+    "end_time": "2 sec",
+    "confidence": 0.882
+  },
+  {
+    "word": "my",
+    "start_time": "2 sec",
+    "end_time": "2 sec",
+    "confidence": 0.918
+  },
+  {
+    "word": "account",
+    "start_time": "2 sec",
+    "end_time": "3 sec",
+    "confidence": 0.942
+  },
+  {
+    "word": "to",
+    "start_time": "3 sec",
+    "end_time": "3 sec",
+    "confidence": 0.792
+  },
+  {
+    "word": "pay",
+    "start_time": "3 sec",
+    "end_time": "3 sec",
+    "confidence": 0.615
+  },
+  {
+    "word": "it.",
+    "start_time": "3 sec",
+    "end_time": "3 sec",
+    "confidence": 0.685
+  },
+  {
+    "word": "I",
+    "start_time": "3 sec",
+    "end_time": "3 sec",
+    "confidence": 0.614
+  },
+  {
+    "word": "am",
+    "start_time": "3 sec",
+    "end_time": "3 sec",
+    "confidence": 0.637
+  },
+  {
+    "word": "here",
+    "start_time": "3 sec",
+    "end_time": "3 sec",
+    "confidence": 0.717
+  },
+  {
+    "word": "to",
+    "start_time": "3 sec",
+    "end_time": "4 sec",
+    "confidence": 0.721
+  },
+  {
+    "word": "help",
+    "start_time": "4 sec",
+    "end_time": "4 sec",
+    "confidence": 0.78
+  },
+  {
+    "word": "sir.",
+    "start_time": "4 sec",
+    "end_time": "4 sec",
+    "confidence": 0.574
+  },
+  {
+    "word": "Can",
+    "start_time": "4 sec",
+    "end_time": "5 sec",
+    "confidence": 0.945
+  },
+  {
+    "word": "you",
+    "start_time": "5 sec",
+    "end_time": "5 sec",
+    "confidence": 0.816
+  },
+  {
+    "word": "confirm",
+    "start_time": "5 sec",
+    "end_time": "5 sec",
+    "confidence": 0.762
+  },
+  {
+    "word": "your",
+    "start_time": "5 sec",
+    "end_time": "6 sec",
+    "confidence": 0.754
+  },
+  {
+    "word": "loan",
+    "start_time": "6 sec",
+    "end_time": "6 sec",
+    "confidence": 0.858
+  },
+  {
+    "word": "account",
+    "start_time": "6 sec",
+    "end_time": "6 sec",
+    "confidence": 0.79
+  },
+  {
+    "word": "number?",
+    "start_time": "6 sec",
+    "end_time": "6 sec",
+    "confidence": 0.745
+  },
+  {
+    "word": "73660",
+    "start_time": "6 sec",
+    "end_time": "8 sec",
+    "confidence": 0.257
+  },
+  {
+    "word": "18091",
+    "start_time": "8 sec",
+    "end_time": "10 sec",
+    "confidence": 0.185
+  },
+  {
+    "word": "what",
+    "start_time": "10 sec",
+    "end_time": "11 sec",
+    "confidence": 0.689
+  },
+  {
+    "word": "if",
+    "start_time": "11 sec",
+    "end_time": "11 sec",
+    "confidence": 0.671
+  },
+  {
+    "word": "I",
+    "start_time": "11 sec",
+    "end_time": "11 sec",
+    "confidence": 0.646
+  },
+  {
+    "word": "miss",
+    "start_time": "11 sec",
+    "end_time": "11 sec",
+    "confidence": 0.704
+  },
+  {
+    "word": "the",
+    "start_time": "11 sec",
+    "end_time": "11 sec",
+    "confidence": 0.771
+  },
+  {
+    "word": "payment?",
+    "start_time": "11 sec",
+    "end_time": "12 sec",
+    "confidence": 0.942
+  },
+  {
+    "word": "Will",
+    "start_time": "12 sec",
+    "end_time": "12 sec",
+    "confidence": 0.94
+  },
+  {
+    "word": "it",
+    "start_time": "12 sec",
+    "end_time": "12 sec",
+    "confidence": 0.912
+  },
+  {
+    "word": "hurt",
+    "start_time": "12 sec",
+    "end_time": "12 sec",
+    "confidence": 0.49
+  },
+  {
+    "word": "my",
+    "start_time": "12 sec",
+    "end_time": "13 sec",
+    "confidence": 0.856
+  },
+  {
+    "word": "credit",
+    "start_time": "13 sec",
+    "end_time": "13 sec",
+    "confidence": 0.862
+  },
+  {
+    "word": "no",
+    "start_time": "13 sec",
+    "end_time": "13 sec",
+    "confidence": 0.495
+  },
+  {
+    "word": "need",
+    "start_time": "13 sec",
+    "end_time": "13 sec",
+    "confidence": 0.938
+  },
+  {
+    "word": "to",
+    "start_time": "13 sec",
+    "end_time": "14 sec",
+    "confidence": 0.845
+  },
+  {
+    "word": "worry",
+    "start_time": "14 sec",
+    "end_time": "14 sec",
+    "confidence": 0.732
+  },
+  {
+    "word": "I",
+    "start_time": "14 sec",
+    "end_time": "14 sec",
+    "confidence": 0.775
+  },
+  {
+    "word": "can",
+    "start_time": "14 sec",
+    "end_time": "14 sec",
+    "confidence": 0.73
+  },
+  {
+    "word": "process",
+    "start_time": "14 sec",
+    "end_time": "15 sec",
+    "confidence": 0.901
+  },
+  {
+    "word": "a",
+    "start_time": "15 sec",
+    "end_time": "15 sec",
+    "confidence": 0.68
+  },
+  {
+    "word": "manual",
+    "start_time": "15 sec",
+    "end_time": "15 sec",
+    "confidence": 0.819
+  },
+  {
+    "word": "payment",
+    "start_time": "15 sec",
+    "end_time": "16 sec",
+    "confidence": 0.93
+  },
+  {
+    "word": "or",
+    "start_time": "16 sec",
+    "end_time": "16 sec",
+    "confidence": 0.339
+  },
+  {
+    "word": "extend",
+    "start_time": "16 sec",
+    "end_time": "17 sec",
+    "confidence": 0.647
+  },
+  {
+    "word": "the",
+    "start_time": "17 sec",
+    "end_time": "17 sec",
+    "confidence": 0.438
+  },
+  {
+    "word": "due",
+    "start_time": "17 sec",
+    "end_time": "17 sec",
+    "confidence": 0.653
+  },
+  {
+    "word": "date",
+    "start_time": "17 sec",
+    "end_time": "17 sec",
+    "confidence": 0.833
+  },
+  {
+    "word": "which",
+    "start_time": "17 sec",
+    "end_time": "18 sec",
+    "confidence": 0.85
+  },
+  {
+    "word": "works",
+    "start_time": "18 sec",
+    "end_time": "18 sec",
+    "confidence": 0.676
+  },
+  {
+    "word": "better",
+    "start_time": "18 sec",
+    "end_time": "19 sec",
+    "confidence": 0.787
+  },
+  {
+    "word": "manual",
+    "start_time": "19 sec",
+    "end_time": "19 sec",
+    "confidence": 0.547
+  },
+  {
+    "word": "payment,",
+    "start_time": "19 sec",
+    "end_time": "19 sec",
+    "confidence": 0.715
+  },
+  {
+    "word": "please.",
+    "start_time": "19 sec",
+    "end_time": "20 sec",
+    "confidence": 0.823
+  },
+  {
+    "word": "I",
+    "start_time": "20 sec",
+    "end_time": "20 sec",
+    "confidence": 0.328
+  },
+  {
+    "word": "don't",
+    "start_time": "20 sec",
+    "end_time": "20 sec",
+    "confidence": 0.592
+  },
+  {
+    "word": "want",
+    "start_time": "20 sec",
+    "end_time": "21 sec",
+    "confidence": 0.69
+  },
+  {
+    "word": "any",
+    "start_time": "21 sec",
+    "end_time": "21 sec",
+    "confidence": 0.357
+  },
+  {
+    "word": "trouble",
+    "start_time": "21 sec",
+    "end_time": "21 sec",
+    "confidence": 0.368
+  },
+  {
+    "word": "with",
+    "start_time": "21 sec",
+    "end_time": "21 sec",
+    "confidence": 0.577
+  },
+  {
+    "word": "my",
+    "start_time": "21 sec",
+    "end_time": "22 sec",
+    "confidence": 0.702
+  },
+  {
+    "word": "CIBIL",
+    "start_time": "22 sec",
+    "end_time": "22 sec",
+    "confidence": 0.032
+  },
+  {
+    "word": "score.",
+    "start_time": "22 sec",
+    "end_time": "22 sec",
+    "confidence": 0.192
+  },
+  {
+    "word": "The",
+    "start_time": "22 sec",
+    "end_time": "23 sec",
+    "confidence": 0.482
+  },
+  {
+    "word": "payment",
+    "start_time": "23 sec",
+    "end_time": "24 sec",
+    "confidence": 0.433
+  },
+  {
+    "word": "is",
+    "start_time": "24 sec",
+    "end_time": "24 sec",
+    "confidence": 0.536
+  },
+  {
+    "word": "process",
+    "start_time": "24 sec",
+    "end_time": "24 sec",
+    "confidence": 0.328
+  },
+  {
+    "word": "and",
+    "start_time": "24 sec",
+    "end_time": "25 sec",
+    "confidence": 0.147
+  },
+  {
+    "word": "your",
+    "start_time": "25 sec",
+    "end_time": "25 sec",
+    "confidence": 0.361
+  },
+  {
+    "word": "account",
+    "start_time": "25 sec",
+    "end_time": "26 sec",
+    "confidence": 0.203
+  },
+  {
+    "word": "is",
+    "start_time": "26 sec",
+    "end_time": "26 sec",
+    "confidence": 0.453
+  },
+  {
+    "word": "updated",
+    "start_time": "26 sec",
+    "end_time": "26 sec",
+    "confidence": 0.099
+  },
+  {
+    "word": "you",
+    "start_time": "26 sec",
+    "end_time": "27 sec",
+    "confidence": 0.699
+  },
+  {
+    "word": "are",
+    "start_time": "27 sec",
+    "end_time": "27 sec",
+    "confidence": 0.359
+  },
+  {
+    "word": "all",
+    "start_time": "27 sec",
+    "end_time": "27 sec",
+    "confidence": 0.564
+  },
+  {
+    "word": "set.",
+    "start_time": "27 sec",
+    "end_time": "27 sec",
+    "confidence": 0.506
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "Why’s there a ₹500 penalty on my account? I didn’t do anything wrong!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry for the confusion Sir. Can you share your account number to investigate?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s three two one, nine eight seven, six five, four eight. This is my savings, not some loan!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I see a cheque bounce fee due to insufficient funds. I can waive it as a one-time gesture."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Insufficient? I had money! Your system’s messed up!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I apologize Sir. The fee is waived, and I’ll set up alerts to avoid this in the future."
+    }
+  ]
+}

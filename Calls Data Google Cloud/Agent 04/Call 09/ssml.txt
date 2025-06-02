@@ -1,0 +1,49 @@
+<speak>
+  <voice name="{customer_voice}">
+    <prosody pitch="+1st" rate="medium">
+      My loan EMI’s higher this month! Nobody told me about this!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      I’m sorry for the surprise Sir.
+      <break time="75ms"/>
+      Can you share your loan account number?
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody pitch="+1st" rate="medium">
+      It’s four six eight, seven nine three, one one, two eight.
+      <break time="100ms"/>
+      Why’s it more now?
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      Your loan has a floating rate, and the RBI raised rates.
+      <break time="75ms"/>
+      I can check for a fixed-rate option.
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody pitch="+2st" rate="medium">
+      I don’t understand this rate stuff.
+      <break time="75ms"/>
+      Can you explain it simply?
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      Of course.
+      <break time="75ms"/>
+      A floating rate changes with market rates.
+      <break time="75ms"/>
+      I’ll send you a comparison of fixed vs. floating.
+    </prosody>
+  </voice>
+</speak>

@@ -1,0 +1,47 @@
+<speak>
+  <voice name="{customer_voice}">
+    <prosody pitch="+1st" rate="medium">
+      I need to open a demat account. Can you help me set it up?
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      Of course Sir.
+      <break time="75ms"/>
+      Do you have your PAN card and KYC documents ready?
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody pitch="+1st" rate="medium">
+      Yeah, I do.
+      <break time="75ms"/>
+      How long’s this gonna take?
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      It takes 2-3 days to process.
+      <break time="75ms"/>
+      I’ll send you a form to fill out and submit online.
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody pitch="+2st" rate="medium">
+      Alright, send it now.
+      <break time="75ms"/>
+      I wanna start trading soon!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      The form’s sent to your email Sir.
+      <break time="75ms"/>
+      I’ll follow up once it’s processed.
+    </prosody>
+  </voice>
+</speak>

@@ -1,0 +1,49 @@
+<speak>
+  <voice name="{customer_voice}">
+    <prosody pitch="+1st" rate="medium">
+      I got a bill for ₹8,000 on my card, but I didn’t use it!
+      <break time="150ms"/>
+      What’s going on?
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      That’s concerning Sir.
+      <break time="100ms"/>
+      Can you share the last four digits of your card so I can investigate?
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody pitch="+1st" rate="medium">
+      It’s nine zero one two.
+      <break time="100ms"/>
+      I’m worried someone’s using my card!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      I’ve placed a credit freeze on your card.
+      <break time="100ms"/>
+      The charge seems unauthorized.
+      <break time="75ms"/>
+      I’ll file a dispute right away.
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody pitch="+1st" rate="medium">
+      Thanks, but how long till I get my money back?
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      The dispute is filed, and you’ll see a refund in 5 to 7 days.
+      <break time="75ms"/>
+      I’ll keep you updated.
+    </prosody>
+  </voice>
+</speak>

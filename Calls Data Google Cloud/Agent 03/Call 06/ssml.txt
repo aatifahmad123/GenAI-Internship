@@ -1,0 +1,55 @@
+<speak>
+  <voice name="{customer_voice}">
+    <prosody pitch="+2st" rate="fast">
+      I’m freaking out!
+      <break time="100ms"/>
+      My loan payment is due, but I can’t access my account to pay it!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      I’m here to help, Sir.
+      <break time="100ms"/>
+      Can you confirm your loan account number?
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody pitch="+1st" rate="medium">
+      It’s seven three, six six zero, one eight zero, nine one.
+      <break time="150ms"/>
+      What if I miss the payment?
+      <break time="75ms"/>
+      Will it hurt my credit?
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      No need to worry.
+      <break time="100ms"/>
+      I can process a manual payment or extend the due date.
+      <break time="75ms"/>
+      Which works better?
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody pitch="+1st" rate="medium">
+      Manual payment, please.
+      <break time="75ms"/>
+      I don’t want any trouble with my CIBIL score.
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      Done.
+      <break time="50ms"/>
+      The payment is processed, and your account is updated.
+      <break time="100ms"/>
+      You’re all set.
+    </prosody>
+  </voice>
+</speak>

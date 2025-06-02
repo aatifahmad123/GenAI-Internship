@@ -1,0 +1,53 @@
+<speak>
+  <voice name="{customer_voice}">
+    <prosody pitch="+1st" rate="medium">
+      I tried checking my loan balance online,
+      <break time="150ms"/>
+      but it says ‘account not found.’
+      <break time="200ms"/>
+      Help!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      I’m sorry for the trouble, Sir.
+      <break time="100ms"/>
+      Can you confirm your loan account number?
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody pitch="+1st" rate="medium">
+      It’s two three nine, eight seven four, one one five eight.
+      <break time="100ms"/>
+      I don’t know why it’s not showing up.
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      It seems your account isn’t linked to the portal.
+      <break time="100ms"/>
+      I’ll link it now and send you login instructions.
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody pitch="+1st" rate="medium">
+      Okay, but I’m not good with these online things.
+      <break time="75ms"/>
+      Will it be easy?
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      It’s very simple, Sir.
+      <break time="100ms"/>
+      I’ll also send a guide,
+      <break time="75ms"/>
+      and you can call me if you need help.
+    </prosody>
+  </voice>
+</speak>

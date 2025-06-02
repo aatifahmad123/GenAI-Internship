@@ -1,0 +1,28 @@
+{
+  "conversation": [
+    {
+      "speaker": "Customer",
+      "text": "I’m furious! My card was charged ₹12,000 for a subscription I canceled months ago!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’m sorry to hear that Sir. Can you provide the card number and merchant details?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "It’s ending in three five six four, some streaming service. I want my money back now!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I’ve located the transaction. It’s a recurring charge. I’ll initiate a chargeback and block further charges."
+    },
+    {
+      "speaker": "Customer",
+      "text": "This is unacceptable! You should’ve stopped it earlier!"
+    },
+    {
+      "speaker": "RM",
+      "text": "I understand your frustration. The chargeback is filed, and you’ll see a refund in 5-7 days."
+    }
+  ]
+}

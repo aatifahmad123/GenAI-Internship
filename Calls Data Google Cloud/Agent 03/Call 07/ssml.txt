@@ -1,0 +1,51 @@
+<speak>
+  <voice name="{customer_voice}">
+    <prosody pitch="+1st" rate="medium">
+      I want to withdraw my fixed deposit early.
+      <break time="100ms"/>
+      How does that work?
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      I can assist with that, Sir.
+      <break time="100ms"/>
+      Can you provide your FD account number?
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody pitch="+1st" rate="medium">
+      It’s eight four, two four, six one, one three, five nine.
+      <break time="150ms"/>
+      Will I lose all the interest?
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      For premature withdrawal, you’ll get a reduced interest rate.
+      <break time="100ms"/>
+      I can calculate the exact amount if you’d like.
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody pitch="+1st" rate="fast">
+      Please do.
+      <break time="75ms"/>
+      I need the money soon, so make it quick.
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      The FD is worth ₹5,00,000
+      <break time="75ms"/>
+      with ₹15,000 interest after penalty.
+      <break time="100ms"/>
+      I’ve initiated the withdrawal.
+    </prosody>
+  </voice>
+</speak>

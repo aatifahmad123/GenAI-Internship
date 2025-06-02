@@ -4,58 +4,56 @@ import os
 client = texttospeech.TextToSpeechClient()
 
 customer_voice = 'en-IN-Wavenet-B'
-agent_voice = 'en-IN-Wavenet-D'
+agent_voice = 'en-IN-Wavenet-A'
 
 ssml = f"""<speak>
   <voice name="{customer_voice}">
     <prosody pitch="+1st" rate="medium">
-      There’s a ₹200 charge on my savings account
+      I got an overdraft facility on my account, and it’s a lifesaver!
       <break time="100ms"/>
-      for no reason!
-      <break time="150ms"/>
-      What’s this about?
+      How do I increase the limit?
     </prosody>
   </voice>
 
   <voice name="{agent_voice}">
     <prosody pitch="0st" rate="medium">
-      I’m sorry for the confusion, Sir.
-      <break time="100ms"/>
-      Can you share your account number so I can check the charge?
+      Glad it’s helping Sir!
+      <break time="75ms"/>
+      Can you confirm your account number for the request?
     </prosody>
   </voice>
 
   <voice name="{customer_voice}">
     <prosody pitch="+1st" rate="medium">
-      It’s six nine zero, six one nine, zero eight, five two.
-      <break time="150ms"/>
-      I never signed up for any extra fees!
+      It’s seven eight nine, one two three, four five six.
+      <break time="100ms"/>
+      Can you make it quick?
     </prosody>
   </voice>
 
   <voice name="{agent_voice}">
     <prosody pitch="0st" rate="medium">
-      I see it’s a maintenance fee due to a low balance.
-      <break time="100ms"/>
-      I can waive it as a one-time courtesy.
+      I’ll need your latest income proof to process the increase.
+      <break time="75ms"/>
+      Can you email it to us?
     </prosody>
   </voice>
 
   <voice name="{customer_voice}">
-    <prosody pitch="+2st" rate="medium" volume="loud">
-      Waive it?
-      <break time="100ms"/>
-      Why’s it there in the first place?
+    <prosody pitch="+2st" rate="medium">
+      Sure thing.
       <break time="75ms"/>
-      Explain!
+      This bank’s been great, by the way!
     </prosody>
   </voice>
 
   <voice name="{agent_voice}">
     <prosody pitch="0st" rate="medium">
-      The account requires a minimum balance of ₹10,000.
-      <break time="100ms"/>
-      I’ve waived the fee and can set up balance alerts for you.
+      Thank you Sir!
+      <break time="75ms"/>
+      Once we receive the documents,
+      <break time="50ms"/>
+      I’ll expedite the limit increase.
     </prosody>
   </voice>
 </speak>
@@ -77,7 +75,7 @@ response = client.synthesize_speech(
     audio_config=audio_config
 )
 
-output_path = "Agent 03/Call 05/ssmlAudio.wav"
+output_path = "Agent 04/Call 10/ssmlAudio.wav"
 os.makedirs(os.path.dirname(output_path), exist_ok=True)
 with open(output_path, "wb") as out:
     out.write(response.audio_content)

@@ -3,17 +3,16 @@ from pydub import AudioSegment
 import os
 
 customer_vice = 'en-IN-Chirp3-HD-Achird'
-agent_voice = 'en-IN-Chirp3-HD-Erinome'
-
+agent_voice = 'en-IN-Chirp3-HD-Sadaltager'
 
 # Define the conversation
 conversation = [
-    "There’s a ₹200 charge on my savings account for no reason! What’s this about?",
-    "I’m sorry for the confusion Sir. Can you share your account number to check the charge?",
-    "It’s six nine zero, six one nine, zero eight, five two. I never signed up for any extra fees!",
-    "I see it’s a maintenance fee due to a low balance. I can waive it as a one-time courtesy.",
-    "Waive it? Why’s it there in the first place? Explain!",
-    "The account requires a minimum balance of ₹10,000. I’ve waived the fee and can set up balance alerts for you."
+    "I got an overdraft facility on my account, and it’s a lifesaver! How do I increase the limit?",
+    "Glad it’s helping Sir! Can you confirm your account number for the request?",
+    "It’s seven eight nine, one two three, four five six. Can you make it quick?",
+    "I’ll need your latest income proof to process the increase. Can you email it to us?",
+    "Sure thing. This bank’s been great, by the way!",
+    "Thank you Sir! Once we receive the documents, I’ll expedite the limit increase."
 ]
 
 # Initialize Text-to-Speech client
@@ -45,16 +44,16 @@ def generate_and_save_audio(text, audio_voice, filename):
 
 # Generate audio for each line
 for i, text in enumerate(conversation):
-    filename = f"Agent 03/Call 05/normal audios/synthesis({i}).wav"
+    filename = f"Agent 04/Call 10/normal audios/synthesis({i}).wav"
     voice = customer_vice if i % 2 == 0 else agent_voice
     generate_and_save_audio(text, voice, filename)
 
 print("All audios generated and saved successfully.")
 
 # Merge all audio files
-audio_files_folder = "Agent 03/Call 05/normal audios"
+audio_files_folder = "Agent 04/Call 10/normal audios"
 files = [f"{audio_files_folder}/synthesis({i}).wav" for i in range(len(conversation))]
-combined_audio_file = "Agent 03/Call 05/normalAudio.wav"
+combined_audio_file = "Agent 04/Call 10/normalAudio.wav"
 
 def merge_audio(files):
     combined = AudioSegment.empty()

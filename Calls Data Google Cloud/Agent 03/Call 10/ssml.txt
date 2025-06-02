@@ -1,0 +1,51 @@
+<speak>
+  <voice name="{customer_voice}">
+    <prosody pitch="+1st" rate="medium">
+      I set up RTGS transfers, and it’s so easy!
+      <break time="100ms"/>
+      Just need to know how to track them.
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      Glad it’s working well, Sir!
+      <break time="75ms"/>
+      Can you share the transaction reference number?
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody pitch="+1st" rate="medium">
+      It’s RTGS five four, three two, eight five, nine one.
+      <break time="100ms"/>
+      I want to make sure it went through.
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      The transfer is completed.
+      <break time="100ms"/>
+      You can track it in the app’s transaction history,
+      <break time="75ms"/>
+      or I can send a statement.
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody pitch="+1st" rate="medium">
+      Statement’s fine.
+      <break time="75ms"/>
+      Thanks, you guys are awesome!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      You’re welcome, Sir!
+      <break time="75ms"/>
+      I’ve sent the statement to your email.
+    </prosody>
+  </voice>
+</speak>

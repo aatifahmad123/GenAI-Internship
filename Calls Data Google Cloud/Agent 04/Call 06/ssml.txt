@@ -1,0 +1,51 @@
+<speak>
+  <voice name="{customer_voice}">
+    <prosody pitch="+1st" rate="medium">
+      I’m so stressed! My loan account’s marked NPA, but I’ve been paying!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      That’s concerning, ma’am.
+      <break time="75ms"/>
+      Can you confirm your loan account number?
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody pitch="+1st" rate="medium">
+      It’s two four five, three one six, seven seven eight.
+      <break time="100ms"/>
+      This could ruin my credit score!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      I see the issue.
+      <break time="75ms"/>
+      A payment was missed due to a bank error.
+      <break time="75ms"/>
+      I’ll correct the NPA status.
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody pitch="+2st" rate="medium">
+      Please fix it fast!
+      <break time="75ms"/>
+      I’m really worried about this.
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="0st" rate="medium">
+      It’s corrected, ma’am.
+      <break time="75ms"/>
+      Your account is clear,
+      <break time="50ms"/>
+      and I’ll ensure it’s reported to CIBIL.
+    </prosody>
+  </voice>
+</speak>
