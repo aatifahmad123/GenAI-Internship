@@ -1,43 +1,38 @@
 {
-    "call id": "1",
-    "agent id": "1",
-    "call duration": "59",
-    "summary": "Customer reports duplicate charge and requests a refund.",
-    "intents": [
+  "call id": "1",
+  "agent id": "1",
+  "call duration": "59",
+  "summary": "Customer reported duplicate charge and requested a refund.",
+  "intents": [
+    {
+      "intent": "Dispute Charge",
+      "confidence": "95",
+      "keywords": "Arvind charged voice on my ... happens this time.",
+      "products": [
+        "Credit Card"
+      ],
+      "issues": [
         {
-            "intent": "Report Duplicate Charge",
-            "confidence": "95",
-            "keywords": "Arvind charged voice ... happens this time.",
-            "products": [
-                "Credit Card"
-            ],
-            "issues": [
-                "Duplicate charge of $5200 from a restaurant",
-                "Previous similar incidents"
-            ],
-            "reasons (identified by agent)": [
-                "System error leading to duplicate billing"
-            ],
-            "actions of agent": [
-                "Initiated a chargeback request",
-                "Flagged the transaction for a refund",
-                "Promised to keep the customer updated"
-            ],
-            "resolution_status": "pending",
-            "resolution": "N/A",
-            "dominant emotions (customer)": [
-                "Frustration",
-                "Anger",
-                "Impatience"
-            ],
-            "conversation sentiment": "Negative",
-            "agent professionalism": "Agent remained calm and professional despite customer's frustration.",
-            "agent performance (out of 10)": "8",
-            "customer satisfaction (out of 10)": "4",
-            "callback promise": "No",
-            "callback time": "N/A"
+          "issue": "Duplicate charge",
+          "reason(s)": "System error",
+          "issue type": "billing"
         }
-    ],
-    "interruptions by customer": "5",
-    "interruptions by agent": "0"
+      ],
+      "actions of agent": "Initiated a chargeback request and flagged for refund.",
+      "resolution status": "pending",
+      "resolution": "N/A",
+      "dominant emotions (customer)": [
+        "frustration",
+        "anger"
+      ],
+      "conversation sentiment": "Negative",
+      "agent professionalism": "Agent remained calm and professional despite customer's frustration.",
+      "agent performance (out of 10)": "8",
+      "customer satisfaction (out of 10)": "4",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ],
+  "interruptions by customer": "4",
+  "interruptions by agent": "0"
 }

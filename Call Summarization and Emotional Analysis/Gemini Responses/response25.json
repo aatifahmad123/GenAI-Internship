@@ -2,37 +2,52 @@
   "call id": "25",
   "agent id": "3",
   "call duration": "31",
-  "summary": "Customer inquired about a charge, agent waived it.",
+  "summary": "Customer inquires about unexpected charge, agent waives fee.",
   "intents": [
     {
-      "intent": "Inquiry about unexpected charge",
+      "intent": "Inquiry about charge",
       "confidence": "95",
-      "keywords": "Does a 200 rupees... What's this about?",
+      "keywords": "Does a 200 rupees about?",
       "products": [
-        "Savings account"
+        "Savings Account"
       ],
       "issues": [
-        "Unexpected 200 rupees charge on savings account"
+        {
+          "issue": "Unexpected charge of 200 rupees",
+          "reason(s)": "Maintenance fee due to low balance",
+          "issue type": "billing"
+        }
       ],
-      "reasons (identified by agent)": [
-        "Maintenance fee due to low balance (below 10000 rupees)"
-      ],
-      "actions of agent": [
-        "Checked account details",
-        "Identified the charge as a maintenance fee",
-        "Waived the fee as a one-time courtesy",
-        "Offered to set up balance alerts"
-      ],
-      "resolution_status": "resolved",
-      "resolution": "The agent waived the 200 rupees charge as a one-time courtesy.",
+      "actions of agent": "Identified the charge, explained the reason, and waived the fee.",
+      "resolution status": "resolved",
+      "resolution": "Fee waived as a one-time courtesy.",
       "dominant emotions (customer)": [
-        "Confusion",
-        "Annoyance"
+        "frustration",
+        "inquiry"
       ],
       "conversation sentiment": "Negative",
       "agent professionalism": "Professional and helpful.",
       "agent performance (out of 10)": "9",
       "customer satisfaction (out of 10)": "7",
+      "callback promise": "No",
+      "callback time": "N/A"
+    },
+    {
+      "intent": "Balance Alert Setup",
+      "confidence": "80",
+      "keywords": "I waive the fee for you.",
+      "products": [
+        "Savings Account"
+      ],
+      "issues": [],
+      "actions of agent": "Offered to set up balance alerts.",
+      "resolution status": "pending",
+      "resolution": "N/A",
+      "dominant emotions (customer)": [],
+      "conversation sentiment": "Neutral",
+      "agent professionalism": "Proactive and helpful.",
+      "agent performance (out of 10)": "8",
+      "customer satisfaction (out of 10)": "6",
       "callback promise": "No",
       "callback time": "N/A"
     }

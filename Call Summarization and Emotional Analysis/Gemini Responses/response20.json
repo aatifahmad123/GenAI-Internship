@@ -5,33 +5,24 @@
   "summary": "Customer inquires about loan preclosure final steps.",
   "intents": [
     {
-      "intent": "Loan Preclosure Inquiry",
+      "intent": "Loan Preclosure",
       "confidence": "95",
-      "keywords": "I am thrilled my... to do next?",
+      "keywords": "I am thrilled my...do next?",
       "products": [
         "Loan"
       ],
-      "issues": [
-        "Need to know the final steps for loan preclosure"
-      ],
-      "reasons (identified by agent)": [
-        "N/A"
-      ],
-      "actions of agent": [
-        "Confirmed loan account number",
-        "Informed customer about outstanding balance",
-        "Generated and sent payment link"
-      ],
-      "resolution_status": "resolved",
-      "resolution": "Payment link sent to customer to pay outstanding balance.",
+      "issues": [],
+      "actions of agent": "Confirmed loan account number and provided payment instructions.",
+      "resolution status": "resolved",
+      "resolution": "Payment link sent to customer for outstanding balance.",
       "dominant emotions (customer)": [
-        "Thrilled",
-        "Happy"
+        "Happy",
+        "Excited"
       ],
       "conversation sentiment": "Positive",
       "agent professionalism": "Professional and helpful.",
-      "agent performance (out of 10)": "10",
-      "customer satisfaction (out of 10)": "10",
+      "agent performance (out of 10)": "9",
+      "customer satisfaction (out of 10)": "9",
       "callback promise": "Yes",
       "callback time": "N/A"
     }

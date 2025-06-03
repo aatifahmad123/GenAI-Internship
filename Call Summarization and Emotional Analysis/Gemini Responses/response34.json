@@ -1,8 +1,8 @@
 {
   "call id": "34",
   "agent id": "4",
-  "call duration": "23",
-  "summary": "Customer inquired about redeeming credit card rewards.",
+  "call duration": "23.84",
+  "summary": "Customer inquired about redeeming credit card rewards, resolved quickly.",
   "intents": [
     {
       "intent": "Rewards Redemption",
@@ -11,55 +11,19 @@
       "products": [
         "Credit Card"
       ],
-      "issues": [
-        "Customer wants to know how to redeem credit card rewards."
-      ],
-      "reasons (identified by agent)": [
-        "N/A"
-      ],
-      "actions of agent": [
-        "Informed customer rewards can be redeemed via the app.",
-        "Offered to guide the customer through the redemption process."
-      ],
-      "resolution_status": "resolved",
-      "resolution": "Customer was informed about the rewards redemption process via the app.",
+      "issues": [],
+      "actions of agent": "The agent informed the customer about redeeming rewards via the app.",
+      "resolution status": "resolved",
+      "resolution": "The agent directed the customer to the app's rewards section.",
       "dominant emotions (customer)": [
         "Happy",
         "Curious"
       ],
       "conversation sentiment": "Positive",
-      "agent professionalism": "Professional and helpful.",
+      "agent professionalism": "The agent was polite and helpful.",
       "agent performance (out of 10)": "9",
       "customer satisfaction (out of 10)": "9",
-      "callback promise": "No",
-      "callback time": "N/A"
-    },
-    {
-      "intent": "Clarification of Rewards Type",
-      "confidence": "90",
-      "keywords": "Gokul is it like for shopping?",
-      "products": [
-        "Credit Card Rewards"
-      ],
-      "issues": [
-        "Customer is unsure if rewards are cashback or points."
-      ],
-      "reasons (identified by agent)": [
-        "N/A"
-      ],
-      "actions of agent": [
-        "Clarified that rewards are points that can be converted to cashback, vouchers, or miles."
-      ],
-      "resolution_status": "resolved",
-      "resolution": "Agent clarified the nature of the rewards program.",
-      "dominant emotions (customer)": [
-        "Inquisitive"
-      ],
-      "conversation sentiment": "Neutral",
-      "agent professionalism": "Professional and clear.",
-      "agent performance (out of 10)": "9",
-      "customer satisfaction (out of 10)": "9",
-      "callback promise": "No",
+      "callback promise": "Yes",
       "callback time": "N/A"
     }
   ],

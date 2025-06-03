@@ -1,78 +1,60 @@
 {
-    "call id": "4",
-    "agent id": "1",
-    "call duration": "38",
-    "summary": "Customer complains about EMI increase and seeks resolution.",
-    "intents": [
+  "call id": "4",
+  "agent id": "1",
+  "call duration": "38",
+  "summary": "Customer is upset about increased EMI and seeks resolution.",
+  "intents": [
+    {
+      "intent": "EMI Increase Dispute",
+      "confidence": "95",
+      "keywords": "Your banks cheating me ... I am not paying extra.",
+      "products": [
+        "Loan"
+      ],
+      "issues": [
         {
-            "intent": "EMI Increase Dispute",
-            "confidence": "95",
-            "keywords": "Your banks cheating me my ... I am not paying extra.",
-            "products": [
-                "Loan",
-                "EMI"
-            ],
-            "issues": [
-                "Unexpected EMI increase",
-                "Lack of prior notification about EMI increase"
-            ],
-            "reasons (identified by agent)": [
-                "Floating interest rate on loan",
-                "RBI's recent repo rate hike"
-            ],
-            "actions of agent": [
-                "Acknowledged customer's concern",
-                "Asked for loan account number",
-                "Explained the reason for EMI increase",
-                "Offered to explain EMI calculation",
-                "Offered to escalate to supervisor",
-                "Offered to explore EMI moratorium option"
-            ],
-            "resolution_status": "pending",
-            "resolution": "N/A",
-            "dominant emotions (customer)": [
-                "Anger",
-                "Frustration",
-                "Disappointment"
-            ],
-            "conversation sentiment": "Negative",
-            "agent professionalism": "The agent remained calm and professional despite the customer's anger.",
-            "agent performance (out of 10)": "7",
-            "customer satisfaction (out of 10)": "2",
-            "callback promise": "No",
-            "callback time": "N/A"
-        },
-        {
-            "intent": "Request to speak to manager",
-            "confidence": "98",
-            "keywords": "You should do want me. ... speak to your manager.",
-            "products": [],
-            "issues": [
-                "Dissatisfaction with the current agent's handling of the issue",
-                "Lack of trust in the agent's ability to resolve the problem"
-            ],
-            "reasons (identified by agent)": [
-                "Customer's frustration with the EMI increase",
-                "Customer's perception of being cheated by the bank"
-            ],
-            "actions of agent": [
-                "Acknowledged customer's concern",
-                "Agreed to escalate the issue to a supervisor"
-            ],
-            "resolution_status": "pending",
-            "resolution": "N/A",
-            "dominant emotions (customer)": [
-                "Anger",
-                "Frustration"
-            ],
-            "conversation sentiment": "Negative",
-            "agent professionalism": "The agent handled the request professionally by agreeing to escalate the issue.",
-            "agent performance (out of 10)": "8",
-            "customer satisfaction (out of 10)": "3",
-            "callback promise": "No",
-            "callback time": "N/A"
+          "issue": "Unexpected EMI increase",
+          "reason(s)": "Floating interest rate increase due to RBI's repo rate hike.",
+          "issue type": "billing"
         }
-    ],
-    "interruptions by customer": "1",
-    "interruptions by agent": "0"
+      ],
+      "actions of agent": "Agent apologized, reviewed the account, explained the reason for the increase, offered to explain EMI calculation, escalated to supervisor, and offered EMI moratorium option.",
+      "resolution status": "pending",
+      "resolution": "N/A",
+      "dominant emotions (customer)": [
+        "anger",
+        "frustration"
+      ],
+      "conversation sentiment": "Negative",
+      "agent professionalism": "Agent remained calm and professional despite customer's anger.",
+      "agent performance (out of 10)": "7",
+      "customer satisfaction (out of 10)": "2",
+      "callback promise": "No",
+      "callback time": "N/A"
+    },
+    {
+      "intent": "Request to speak to manager",
+      "confidence": "90",
+      "keywords": "You should do want ... speak to your manager.",
+      "products": [
+        "Loan"
+      ],
+      "issues": [],
+      "actions of agent": "Agent agreed to escalate the issue to the supervisor.",
+      "resolution status": "pending",
+      "resolution": "N/A",
+      "dominant emotions (customer)": [
+        "anger",
+        "frustration"
+      ],
+      "conversation sentiment": "Negative",
+      "agent professionalism": "Agent remained calm and professional despite customer's anger.",
+      "agent performance (out of 10)": "7",
+      "customer satisfaction (out of 10)": "2",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ],
+  "interruptions by customer": "2",
+  "interruptions by agent": "0"
 }

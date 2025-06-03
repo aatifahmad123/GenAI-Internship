@@ -2,33 +2,22 @@
   "call id": "30",
   "agent id": "3",
   "call duration": "30",
-  "summary": "Customer inquired about tracking an RTGS transfer and received assistance.",
+  "summary": "Customer inquired about tracking an RTGS transfer.",
   "intents": [
     {
-      "intent": "RTGS Transfer Tracking",
+      "intent": "Track RTGS Transfer",
       "confidence": "95",
-      "keywords": "I setup RTGS transfers and it's... make sure it went through.",
+      "keywords": "I setup RTGS transfers and them.",
       "products": [
-        "RTGS Transfers",
-        "Mobile App"
+        "RTGS Transfer"
       ],
-      "issues": [
-        "Customer needs assistance with tracking an RTGS transfer."
-      ],
-      "reasons (identified by agent)": [
-        "N/A"
-      ],
-      "actions of agent": [
-        "Asked for the transaction reference number.",
-        "Confirmed the transfer was completed.",
-        "Informed the customer that they can track it in the app's transaction history.",
-        "Offered to send a statement."
-      ],
-      "resolution_status": "resolved",
-      "resolution": "Agent confirmed the transfer was completed and offered to send a statement, which the customer accepted.",
+      "issues": [],
+      "actions of agent": "Agent confirmed the transfer was completed and provided options to track it.",
+      "resolution status": "resolved",
+      "resolution": "Agent confirmed transfer completion and offered tracking options.",
       "dominant emotions (customer)": [
-        "Inquisitive",
-        "Satisfied"
+        "positive",
+        "inquisitive"
       ],
       "conversation sentiment": "Positive",
       "agent professionalism": "Professional and helpful.",
@@ -38,30 +27,23 @@
       "callback time": "N/A"
     },
     {
-      "intent": "Statement Request",
+      "intent": "Request Statement",
       "confidence": "90",
-      "keywords": "The transfer is completed you... I can send a statement.",
+      "keywords": "I want to make sure statement.",
       "products": [
-        "Bank Statements"
+        "Bank Statement"
       ],
-      "issues": [
-        "Customer requested a statement."
-      ],
-      "reasons (identified by agent)": [
-        "N/A"
-      ],
-      "actions of agent": [
-        "Offered to send a statement.",
-        "Sent the statement to the customer's email."
-      ],
-      "resolution_status": "resolved",
+      "issues": [],
+      "actions of agent": "Agent offered to send a statement to the customer's email.",
+      "resolution status": "resolved",
       "resolution": "Agent sent the statement to the customer's email.",
       "dominant emotions (customer)": [
-        "Grateful"
+        "positive",
+        "grateful"
       ],
       "conversation sentiment": "Positive",
-      "agent professionalism": "Professional and efficient.",
-      "agent performance (out of 10)": "10",
+      "agent professionalism": "Professional and helpful.",
+      "agent performance (out of 10)": "9",
       "customer satisfaction (out of 10)": "10",
       "callback promise": "No",
       "callback time": "N/A"

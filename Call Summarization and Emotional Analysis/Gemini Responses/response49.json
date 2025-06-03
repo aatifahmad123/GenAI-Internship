@@ -2,37 +2,31 @@
     "call id": "49",
     "agent id": "5",
     "call duration": "24.92",
-    "summary": "Customer received overdue notice despite payment; issue resolved.",
+    "summary": "Agent resolved customer's loan overdue notice issue.",
     "intents": [
         {
-            "intent": "Payment Issue Inquiry",
+            "intent": "Account Inquiry",
             "confidence": "95",
-            "keywords": "I got a letter... what's happening?",
+            "keywords": "I got a letter saying my overdue what's happening?",
             "products": [
                 "Loan"
             ],
             "issues": [
-                "Received overdue notice despite making payment."
+                {
+                    "issue": "Received overdue notice despite payment.",
+                    "reason(s)": "System error caused payment not to reflect.",
+                    "issue type": "billing"
+                }
             ],
-            "reasons (identified by agent)": [
-                "System error caused payment not to be reflected initially."
-            ],
-            "actions of agent": [
-                "Asked for loan account number.",
-                "Checked account status.",
-                "Confirmed payment was updated.",
-                "Assured customer that the account is clear.",
-                "Offered to send a confirmation."
-            ],
-            "resolution_status": "resolved",
-            "resolution": "Agent confirmed payment was updated and account is clear.",
+            "actions of agent": "Verified account, identified system error, confirmed payment updated, and offered confirmation.",
+            "resolution status": "resolved",
+            "resolution": "Payment status updated; confirmation to be sent.",
             "dominant emotions (customer)": [
-                "Concern",
-                "Confusion",
-                "Anxiety"
+                "confused",
+                "concerned"
             ],
-            "conversation sentiment": "Negative",
-            "agent professionalism": "The agent was polite and reassuring.",
+            "conversation sentiment": "Neutral",
+            "agent professionalism": "Professional and reassuring.",
             "agent performance (out of 10)": "9",
             "customer satisfaction (out of 10)": "8",
             "callback promise": "No",

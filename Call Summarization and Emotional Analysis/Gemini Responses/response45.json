@@ -5,62 +5,30 @@
   "summary": "Customer wants to update nominee for savings account.",
   "intents": [
     {
-      "intent": "Nominee Update Request",
+      "intent": "Nominee Update",
       "confidence": "95",
-      "keywords": "I need to update ... do that?",
+      "keywords": "I need to update the nominee...the nominee.",
       "products": [
         "Savings Account"
       ],
       "issues": [
-        "Need to update nominee for savings account"
+        {
+          "issue": "Customer needs to update nominee.",
+          "reason(s)": "Customer wants to add his son as nominee.",
+          "issue type": "service"
+        }
       ],
-      "reasons (identified by agent)": [
-        "Form is required for verification",
-        "To ensure proper processing"
-      ],
-      "actions of agent": [
-        "Asked for account number",
-        "Offered to send nominee update form to registered email"
-      ],
-      "resolution_status": "pending",
+      "actions of agent": "Agent informed customer about the nominee update form and offered to send it to the registered email.",
+      "resolution status": "pending",
       "resolution": "N/A",
       "dominant emotions (customer)": [
         "Neutral",
         "Inquiry"
       ],
       "conversation sentiment": "Neutral",
-      "agent professionalism": "Professional and helpful.",
+      "agent professionalism": "Agent was polite and provided information clearly.",
       "agent performance (out of 10)": "8",
       "customer satisfaction (out of 10)": "6",
-      "callback promise": "No",
-      "callback time": "N/A"
-    },
-    {
-      "intent": "Channel Preference",
-      "confidence": "85",
-      "keywords": "Forms again can't ... over the phone?",
-      "products": [
-        "Savings Account"
-      ],
-      "issues": [
-        "Customer prefers updating nominee over the phone instead of using a form."
-      ],
-      "reasons (identified by agent)": [
-        "Form is required for verification",
-        "To ensure proper processing"
-      ],
-      "actions of agent": [
-        "Explained the necessity of the form for verification and proper processing."
-      ],
-      "resolution_status": "pending",
-      "resolution": "N/A",
-      "dominant emotions (customer)": [
-        "Frustration"
-      ],
-      "conversation sentiment": "Negative",
-      "agent professionalism": "Polite and explained the reason for the form.",
-      "agent performance (out of 10)": "7",
-      "customer satisfaction (out of 10)": "5",
       "callback promise": "No",
       "callback time": "N/A"
     }

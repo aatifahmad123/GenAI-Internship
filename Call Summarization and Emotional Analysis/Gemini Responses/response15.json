@@ -5,7 +5,7 @@
     "summary": "Customer reports lean on account after EMI payment.",
     "intents": [
         {
-            "intent": "Lean on Account Inquiry",
+            "intent": "Account Issue - Lean on Account",
             "confidence": "95",
             "keywords": "I paid my loan ... what's going on?",
             "products": [
@@ -13,27 +13,21 @@
                 "EMI"
             ],
             "issues": [
-                "Lean on account despite EMI payment",
-                "Funds locked"
+                {
+                    "issue": "Lean on account after EMI payment",
+                    "reason(s)": "System error",
+                    "issue type": "technical"
+                }
             ],
-            "reasons (identified by agent)": [
-                "System error placed telling"
-            ],
-            "actions of agent": [
-                "Checked loan account details",
-                "Identified system error",
-                "Removed the lean",
-                "Confirmed funds are available",
-                "Promised to send confirmation"
-            ],
-            "resolution_status": "resolved",
-            "resolution": "Lean was removed, and funds are available.",
+            "actions of agent": "Identified the issue, confirmed payment processing, and removed the lean.",
+            "resolution status": "resolved",
+            "resolution": "Lean was lifted and funds are available.",
             "dominant emotions (customer)": [
-                "Concern",
-                "Frustration"
+                "frustration",
+                "concern"
             ],
             "conversation sentiment": "Negative",
-            "agent professionalism": "Professional and helpful.",
+            "agent professionalism": "Professional and empathetic.",
             "agent performance (out of 10)": "9",
             "customer satisfaction (out of 10)": "8",
             "callback promise": "No",

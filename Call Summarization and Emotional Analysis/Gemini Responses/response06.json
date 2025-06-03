@@ -7,34 +7,28 @@
         {
             "intent": "Aadhaar Linking Assistance",
             "confidence": "95",
-            "keywords": "Hello, I want to know...that really help.",
+            "keywords": "Hello, I want to know and submit online which",
             "products": [
                 "Savings Account",
                 "Aadhaar"
             ],
             "issues": [
-                "Difficulty linking Aadhaar to savings account",
-                "Lack of assistance at the branch",
-                "Customer's unfamiliarity with online processes"
+                {
+                    "issue": "Difficulty linking Aadhaar to savings account.",
+                    "reason(s)": "Customer unable to get help at the branch and unfamiliar with online processes.",
+                    "issue type": "service"
+                }
             ],
-            "reasons (identified by agent)": [
-                "Customer may not be tech-savvy",
-                "Branch staff may be busy or unable to provide immediate assistance"
-            ],
-            "actions of agent": [
-                "Offered alternative solutions: branch visit or online form",
-                "Agreed to send the form to the customer's registered email address",
-                "Offered assistance with filling out the form"
-            ],
-            "resolution_status": "resolved",
-            "resolution": "Agent provided a form to link Aadhaar to the customer's savings account.",
+            "actions of agent": "Offered to guide through the process, provided options to visit the branch or send a form via email.",
+            "resolution status": "resolved",
+            "resolution": "Agent offered to send a form to the customer's email for online submission.",
             "dominant emotions (customer)": [
-                "Frustration",
-                "Relief",
-                "Gratitude"
+                "frustration",
+                "apprehension",
+                "gratitude"
             ],
             "conversation sentiment": "Positive",
-            "agent professionalism": "The agent was polite, helpful, and offered alternative solutions.",
+            "agent professionalism": "Professional and helpful.",
             "agent performance (out of 10)": "9",
             "customer satisfaction (out of 10)": "9",
             "callback promise": "No",

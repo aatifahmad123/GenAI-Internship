@@ -1,0 +1,2250 @@
+[
+    {
+        "call id": "1",
+        "agent id": "1",
+        "call duration": "59",
+        "summary": "Customer reported duplicate charge and requested a refund.",
+        "intents": [
+            {
+                "intent": "Dispute Charge",
+                "confidence": "95",
+                "keywords": "Arvind charged voice on my ... happens this time.",
+                "products": [
+                    "Credit Card"
+                ],
+                "issues": [
+                    {
+                        "issue": "Duplicate charge",
+                        "reason(s)": "System error",
+                        "issue type": "billing"
+                    }
+                ],
+                "actions of agent": "Initiated a chargeback request and flagged for refund.",
+                "resolution status": "pending",
+                "resolution": "N/A",
+                "dominant emotions (customer)": [
+                    "frustration",
+                    "anger"
+                ],
+                "conversation sentiment": "Negative",
+                "agent professionalism": "Agent remained calm and professional despite customer's frustration.",
+                "agent performance (out of 10)": "8",
+                "customer satisfaction (out of 10)": "4",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "4",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "2",
+        "agent id": "1",
+        "call duration": "58",
+        "summary": "Agent initiated chargeback for duplicate transaction and promised updates.",
+        "intents": [
+            {
+                "intent": "Billing Dispute",
+                "confidence": "95",
+                "keywords": "Hey, I've been charged ... happens this time.",
+                "products": [
+                    "Credit Card"
+                ],
+                "issues": [
+                    {
+                        "issue": "Duplicate charge",
+                        "reason(s)": "System error",
+                        "issue type": "billing"
+                    }
+                ],
+                "actions of agent": "Initiated a chargeback request and promised updates.",
+                "resolution status": "resolved",
+                "resolution": "Chargeback request initiated; refund expected in 5-7 business days.",
+                "dominant emotions (customer)": [
+                    "frustration",
+                    "anger",
+                    "urgency"
+                ],
+                "conversation sentiment": "Negative",
+                "agent professionalism": "Agent remained calm and empathetic despite customer's frustration.",
+                "agent performance (out of 10)": "8",
+                "customer satisfaction (out of 10)": "6",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "5",
+        "interruptions by agent": "2"
+    },
+    {
+        "call id": "3",
+        "agent id": "1",
+        "call duration": "37",
+        "summary": "Customer unable to login; agent reset access manually.",
+        "intents": [
+            {
+                "intent": "Login Issue",
+                "confidence": "95",
+                "keywords": "Hi I can't login to invalid credentials",
+                "products": [
+                    "Savings Account"
+                ],
+                "issues": [
+                    {
+                        "issue": "Unable to login",
+                        "reason(s)": "Invalid credentials",
+                        "issue type": "technical"
+                    },
+                    {
+                        "issue": "OTP not received",
+                        "reason(s)": "OTP system delayed",
+                        "issue type": "technical"
+                    }
+                ],
+                "actions of agent": "Verified registered mobile number and manually reset access, sending a temporary password.",
+                "resolution status": "resolved",
+                "resolution": "Agent manually reset the customer's access and sent a temporary password.",
+                "dominant emotions (customer)": [
+                    "frustration",
+                    "annoyance"
+                ],
+                "conversation sentiment": "Negative",
+                "agent professionalism": "Professional and empathetic.",
+                "agent performance (out of 10)": "9",
+                "customer satisfaction (out of 10)": "7",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "4",
+        "agent id": "1",
+        "call duration": "38",
+        "summary": "Customer is upset about increased EMI and seeks resolution.",
+        "intents": [
+            {
+                "intent": "EMI Increase Dispute",
+                "confidence": "95",
+                "keywords": "Your banks cheating me ... I am not paying extra.",
+                "products": [
+                    "Loan"
+                ],
+                "issues": [
+                    {
+                        "issue": "Unexpected EMI increase",
+                        "reason(s)": "Floating interest rate increase due to RBI's repo rate hike.",
+                        "issue type": "billing"
+                    }
+                ],
+                "actions of agent": "Agent apologized, reviewed the account, explained the reason for the increase, offered to explain EMI calculation, escalated to supervisor, and offered EMI moratorium option.",
+                "resolution status": "pending",
+                "resolution": "N/A",
+                "dominant emotions (customer)": [
+                    "anger",
+                    "frustration"
+                ],
+                "conversation sentiment": "Negative",
+                "agent professionalism": "Agent remained calm and professional despite customer's anger.",
+                "agent performance (out of 10)": "7",
+                "customer satisfaction (out of 10)": "2",
+                "callback promise": "No",
+                "callback time": "N/A"
+            },
+            {
+                "intent": "Request to speak to manager",
+                "confidence": "90",
+                "keywords": "You should do want ... speak to your manager.",
+                "products": [
+                    "Loan"
+                ],
+                "issues": [],
+                "actions of agent": "Agent agreed to escalate the issue to the supervisor.",
+                "resolution status": "pending",
+                "resolution": "N/A",
+                "dominant emotions (customer)": [
+                    "anger",
+                    "frustration"
+                ],
+                "conversation sentiment": "Negative",
+                "agent professionalism": "Agent remained calm and professional despite customer's anger.",
+                "agent performance (out of 10)": "7",
+                "customer satisfaction (out of 10)": "2",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "2",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "5",
+        "agent id": "1",
+        "call duration": "34.88",
+        "summary": "Agent assisted customer with debit card decline issue.",
+        "intents": [
+            {
+                "intent": "Debit Card Issue",
+                "confidence": "95",
+                "keywords": "Hello, my debit card ... what's the deal?",
+                "products": [
+                    "Debit Card"
+                ],
+                "issues": [
+                    {
+                        "issue": "Debit card declined at store.",
+                        "reason(s)": "Insufficient funds in the account.",
+                        "issue type": "technical"
+                    }
+                ],
+                "actions of agent": "Verified card activity, identified insufficient funds, and initiated fund transfer from savings.",
+                "resolution status": "resolved",
+                "resolution": "Funds transferred from savings to cover transaction amount.",
+                "dominant emotions (customer)": [
+                    "frustration",
+                    "surprise"
+                ],
+                "conversation sentiment": "Neutral",
+                "agent professionalism": "Professional and helpful.",
+                "agent performance (out of 10)": "9",
+                "customer satisfaction (out of 10)": "8",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "6",
+        "agent id": "1",
+        "call duration": "38",
+        "summary": "Agent assisted customer with Aadhaar linking to savings account.",
+        "intents": [
+            {
+                "intent": "Aadhaar Linking Assistance",
+                "confidence": "95",
+                "keywords": "Hello, I want to know and submit online which",
+                "products": [
+                    "Savings Account",
+                    "Aadhaar"
+                ],
+                "issues": [
+                    {
+                        "issue": "Difficulty linking Aadhaar to savings account.",
+                        "reason(s)": "Customer unable to get help at the branch and unfamiliar with online processes.",
+                        "issue type": "service"
+                    }
+                ],
+                "actions of agent": "Offered to guide through the process, provided options to visit the branch or send a form via email.",
+                "resolution status": "resolved",
+                "resolution": "Agent offered to send a form to the customer's email for online submission.",
+                "dominant emotions (customer)": [
+                    "frustration",
+                    "apprehension",
+                    "gratitude"
+                ],
+                "conversation sentiment": "Positive",
+                "agent professionalism": "Professional and helpful.",
+                "agent performance (out of 10)": "9",
+                "customer satisfaction (out of 10)": "9",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "7",
+        "agent id": "1",
+        "call duration": "35",
+        "summary": "Agent assisted customer with fraudulent card transaction.",
+        "intents": [
+            {
+                "intent": "Report Fraudulent Transaction",
+                "confidence": "95",
+                "keywords": "I got a fraud ... identite make",
+                "products": [
+                    "Credit Card"
+                ],
+                "issues": [
+                    {
+                        "issue": "Unauthorized transaction",
+                        "reason(s)": "Card compromised",
+                        "issue type": "fraud"
+                    }
+                ],
+                "actions of agent": "Blocked the card, filed a fraud report, and issued a replacement card.",
+                "resolution status": "resolved",
+                "resolution": "Card blocked, fraud report filed, replacement card issued.",
+                "dominant emotions (customer)": [
+                    "worried",
+                    "anxious"
+                ],
+                "conversation sentiment": "Negative",
+                "agent professionalism": "Professional and empathetic.",
+                "agent performance (out of 10)": "9",
+                "customer satisfaction (out of 10)": "8",
+                "callback promise": "Yes",
+                "callback time": "In 7 to 10 days"
+            },
+            {
+                "intent": "Inquire About Refund",
+                "confidence": "90",
+                "keywords": "But what about ... get it back?",
+                "products": [
+                    "Credit Card"
+                ],
+                "issues": [],
+                "actions of agent": "Initiated a chargeback request and promised to follow up.",
+                "resolution status": "pending",
+                "resolution": "N/A",
+                "dominant emotions (customer)": [
+                    "concerned",
+                    "hopeful"
+                ],
+                "conversation sentiment": "Neutral",
+                "agent professionalism": "Helpful and reassuring.",
+                "agent performance (out of 10)": "9",
+                "customer satisfaction (out of 10)": "8",
+                "callback promise": "Yes",
+                "callback time": "In 7 to 10 days"
+            }
+        ],
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "8",
+        "agent id": "1",
+        "call duration": "23.92",
+        "summary": "Customer inquired about setting up UPI and was assisted.",
+        "intents": [
+            {
+                "intent": "UPI Setup Assistance",
+                "confidence": "95",
+                "keywords": "How do I set ... with my phone.",
+                "products": [
+                    "Savings Account",
+                    "Mobile App",
+                    "UPI"
+                ],
+                "issues": [],
+                "actions of agent": "The agent provided instructions on how to set up UPI.",
+                "resolution status": "resolved",
+                "resolution": "The agent provided the steps to set up UPI.",
+                "dominant emotions (customer)": [
+                    "curious",
+                    "positive"
+                ],
+                "conversation sentiment": "Positive",
+                "agent professionalism": "The agent was helpful and polite.",
+                "agent performance (out of 10)": "9",
+                "customer satisfaction (out of 10)": "9",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "9",
+        "agent id": "1",
+        "call duration": "40.84",
+        "summary": "Customer requested EMI moratorium, agent checked eligibility and clarified concerns.",
+        "intents": [
+            {
+                "intent": "Request EMI Moratorium",
+                "confidence": "95",
+                "keywords": "I am trying to get and your website so confusing",
+                "products": [
+                    "Home Loan"
+                ],
+                "issues": [
+                    {
+                        "issue": "Website is confusing",
+                        "reason(s)": "N/A",
+                        "issue type": "service"
+                    }
+                ],
+                "actions of agent": "Agent apologized, asked for loan account number, checked eligibility.",
+                "resolution status": "resolved",
+                "resolution": "Agent confirmed eligibility for 3-month moratorium.",
+                "dominant emotions (customer)": [
+                    "frustration",
+                    "relief"
+                ],
+                "conversation sentiment": "Positive",
+                "agent professionalism": "Professional and helpful.",
+                "agent performance (out of 10)": "9",
+                "customer satisfaction (out of 10)": "9",
+                "callback promise": "No",
+                "callback time": "N/A"
+            },
+            {
+                "intent": "Inquire about CIBIL score impact",
+                "confidence": "98",
+                "keywords": "Yes, please, but will affect my CIBIL score?",
+                "products": [
+                    "Home Loan"
+                ],
+                "issues": [],
+                "actions of agent": "Agent clarified moratorium won't directly impact CIBIL score but interest will accrue.",
+                "resolution status": "resolved",
+                "resolution": "Agent explained CIBIL impact and offered to send detailed email.",
+                "dominant emotions (customer)": [
+                    "anxiety",
+                    "relief"
+                ],
+                "conversation sentiment": "Positive",
+                "agent professionalism": "Professional and informative.",
+                "agent performance (out of 10)": "10",
+                "customer satisfaction (out of 10)": "10",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "10",
+        "agent id": "1",
+        "call duration": "33.84",
+        "summary": "Agent successfully activated customer's credit card manually.",
+        "intents": [
+            {
+                "intent": "Card Activation",
+                "confidence": "95",
+                "keywords": "I've been trying to send it.",
+                "products": [
+                    "Credit Card"
+                ],
+                "issues": [
+                    {
+                        "issue": "Card activation failed through automated process.",
+                        "reason(s)": "Unknown processing error.",
+                        "issue type": "technical"
+                    }
+                ],
+                "actions of agent": "Verified customer details and manually activated the card.",
+                "resolution status": "resolved",
+                "resolution": "Agent manually activated the customer's credit card.",
+                "dominant emotions (customer)": [
+                    "frustration",
+                    "impatience"
+                ],
+                "conversation sentiment": "Negative",
+                "agent professionalism": "Agent remained professional despite customer's impatience.",
+                "agent performance (out of 10)": "9",
+                "customer satisfaction (out of 10)": "7",
+                "callback promise": "No",
+                "callback time": "N/A"
+            },
+            {
+                "intent": "Confirmation Request",
+                "confidence": "90",
+                "keywords": "Would you like to send it.",
+                "products": [
+                    "Credit Card"
+                ],
+                "issues": [],
+                "actions of agent": "Offered to send a confirmation of activation.",
+                "resolution status": "resolved",
+                "resolution": "Agent will send a confirmation to the customer.",
+                "dominant emotions (customer)": [
+                    "relief"
+                ],
+                "conversation sentiment": "Positive",
+                "agent professionalism": "Professional and helpful.",
+                "agent performance (out of 10)": "10",
+                "customer satisfaction (out of 10)": "9",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "1",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "11",
+        "agent id": "2",
+        "call duration": "28",
+        "summary": "Customer facing mobile banking app crashing issue.",
+        "intents": [
+            {
+                "intent": "Technical Support",
+                "confidence": "95",
+                "keywords": "I can't set up and everytime I try.",
+                "products": [
+                    "Mobile Banking App"
+                ],
+                "issues": [
+                    {
+                        "issue": "Mobile banking app crashing",
+                        "reason(s)": "Unknown, possibly outdated app version or compatibility issue.",
+                        "issue type": "technical"
+                    }
+                ],
+                "actions of agent": "Suggested uninstalling and reinstalling the app.",
+                "resolution status": "pending",
+                "resolution": "N/A",
+                "dominant emotions (customer)": [
+                    "frustration",
+                    "impatience"
+                ],
+                "conversation sentiment": "Negative",
+                "agent professionalism": "Agent was polite and offered a solution.",
+                "agent performance (out of 10)": "7",
+                "customer satisfaction (out of 10)": "4",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "12",
+        "agent id": "2",
+        "call duration": "35",
+        "summary": "Customer inquires about loan application status and KYC process.",
+        "intents": [
+            {
+                "intent": "Check Loan Application Status",
+                "confidence": "95",
+                "keywords": "Hello, I want to know weeks.",
+                "products": [
+                    "Loan"
+                ],
+                "issues": [],
+                "actions of agent": "Checked the application status using customer's name.",
+                "resolution status": "pending",
+                "resolution": "N/A",
+                "dominant emotions (customer)": [
+                    "anxious",
+                    "impatient"
+                ],
+                "conversation sentiment": "Neutral",
+                "agent professionalism": "Professional and helpful.",
+                "agent performance (out of 10)": "8",
+                "customer satisfaction (out of 10)": "6",
+                "callback promise": "No",
+                "callback time": "N/A"
+            },
+            {
+                "intent": "KYC Information Request",
+                "confidence": "90",
+                "keywords": "approved but we need urgently.",
+                "products": [
+                    "Loan"
+                ],
+                "issues": [
+                    {
+                        "issue": "Customer unaware of KYC requirement.",
+                        "reason(s)": "Lack of communication from the branch.",
+                        "issue type": "service"
+                    }
+                ],
+                "actions of agent": "Explained KYC and promised to send required documents via SMS.",
+                "resolution status": "pending",
+                "resolution": "N/A",
+                "dominant emotions (customer)": [
+                    "confused",
+                    "frustrated"
+                ],
+                "conversation sentiment": "Negative",
+                "agent professionalism": "Professional and apologetic.",
+                "agent performance (out of 10)": "9",
+                "customer satisfaction (out of 10)": "7",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "13",
+        "agent id": "2",
+        "call duration": "29",
+        "summary": "Agent assisted customer with fraudulent credit card charge.",
+        "intents": [
+            {
+                "intent": "Fraudulent Charge Reporting",
+                "confidence": "95",
+                "keywords": "Your bank so mass my credit, see the refund in 7 to 10 days.",
+                "products": [
+                    "Credit Card"
+                ],
+                "issues": [
+                    {
+                        "issue": "Unauthorized charge of $15000",
+                        "reason(s)": "Customer claims they did not make the transaction.",
+                        "issue type": "fraud"
+                    }
+                ],
+                "actions of agent": "Verified transaction details, blocked the card, and initiated a chargeback request.",
+                "resolution status": "resolved",
+                "resolution": "Chargeback request initiated; refund expected in 7-10 days.",
+                "dominant emotions (customer)": [
+                    "frustration",
+                    "anger"
+                ],
+                "conversation sentiment": "Negative",
+                "agent professionalism": "The agent remained calm and professional despite the customer's frustration.",
+                "agent performance (out of 10)": "9",
+                "customer satisfaction (out of 10)": "6",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "14",
+        "agent id": "2",
+        "call duration": "27",
+        "summary": "Customer inquired about setting up NEFT transfer, resolved.",
+        "intents": [
+            {
+                "intent": "NEFT Transfer Setup",
+                "confidence": "95",
+                "keywords": "Hey, I just open my anything else.",
+                "products": [
+                    "Savings Account",
+                    "NEFT Transfer"
+                ],
+                "issues": [],
+                "actions of agent": "Provided instructions on how to set up NEFT transfer, including beneficiary details and activation time.",
+                "resolution status": "resolved",
+                "resolution": "The agent explained the steps to set up NEFT transfer via the app and informed the customer about the 24-hour activation period.",
+                "dominant emotions (customer)": [
+                    "Excitement",
+                    "Gratitude"
+                ],
+                "conversation sentiment": "Positive",
+                "agent professionalism": "The agent was polite, helpful, and clear in their instructions.",
+                "agent performance (out of 10)": "9",
+                "customer satisfaction (out of 10)": "10",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "15",
+        "agent id": "2",
+        "call duration": "33",
+        "summary": "Customer reports lean on account after EMI payment.",
+        "intents": [
+            {
+                "intent": "Account Issue - Lean on Account",
+                "confidence": "95",
+                "keywords": "I paid my loan ... what's going on?",
+                "products": [
+                    "Loan",
+                    "EMI"
+                ],
+                "issues": [
+                    {
+                        "issue": "Lean on account after EMI payment",
+                        "reason(s)": "System error",
+                        "issue type": "technical"
+                    }
+                ],
+                "actions of agent": "Identified the issue, confirmed payment processing, and removed the lean.",
+                "resolution status": "resolved",
+                "resolution": "Lean was lifted and funds are available.",
+                "dominant emotions (customer)": [
+                    "frustration",
+                    "concern"
+                ],
+                "conversation sentiment": "Negative",
+                "agent professionalism": "Professional and empathetic.",
+                "agent performance (out of 10)": "9",
+                "customer satisfaction (out of 10)": "8",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "16",
+        "agent id": "2",
+        "call duration": "30",
+        "summary": "Customer inquires about delayed credit limit increase request.",
+        "intents": [
+            {
+                "intent": "Check credit limit increase status",
+                "confidence": "95",
+                "keywords": "I requested a credit ... what's the hold up?",
+                "products": [
+                    "Credit Card"
+                ],
+                "issues": [
+                    {
+                        "issue": "Delay in processing credit limit increase request",
+                        "reason(s)": "Request is under review.",
+                        "issue type": "service"
+                    }
+                ],
+                "actions of agent": "Checked the status of the request and expedited it.",
+                "resolution status": "pending",
+                "resolution": "N/A",
+                "dominant emotions (customer)": [
+                    "frustration",
+                    "impatience"
+                ],
+                "conversation sentiment": "Negative",
+                "agent professionalism": "Agent was polite and helpful.",
+                "agent performance (out of 10)": "8",
+                "customer satisfaction (out of 10)": "6",
+                "callback promise": "No",
+                "callback time": "N/A"
+            },
+            {
+                "intent": "Expedite credit limit increase",
+                "confidence": "90",
+                "keywords": "Tomorrow can't you ... a big purchase.",
+                "products": [
+                    "Credit Card"
+                ],
+                "issues": [],
+                "actions of agent": "Prioritized the request and promised an update by end of day.",
+                "resolution status": "pending",
+                "resolution": "N/A",
+                "dominant emotions (customer)": [
+                    "urgency",
+                    "anxiety"
+                ],
+                "conversation sentiment": "Neutral",
+                "agent professionalism": "Agent was accommodating and tried to meet customer's needs.",
+                "agent performance (out of 10)": "9",
+                "customer satisfaction (out of 10)": "7",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "17",
+        "agent id": "2",
+        "call duration": "28",
+        "summary": "Agent assisted customer with unauthorized transaction and secured account.",
+        "intents": [
+            {
+                "intent": "Fraudulent Transaction Report",
+                "confidence": "95",
+                "keywords": "I am worried my and stealing my money.",
+                "products": [
+                    "Savings Account"
+                ],
+                "issues": [
+                    {
+                        "issue": "Unauthorized withdrawal of $25000",
+                        "reason(s": "Customer did not authorize the transaction.",
+                        "issue type": "fraud"
+                    }
+                ],
+                "actions of agent": "Froze the customer's account, filed a fraud report, and assured transaction reversal.",
+                "resolution status": "pending",
+                "resolution": "Transaction will be reversed within 5 to 7 days.",
+                "dominant emotions (customer)": [
+                    "worried",
+                    "scared"
+                ],
+                "conversation sentiment": "Negative",
+                "agent professionalism": "Agent was reassuring and took appropriate actions.",
+                "agent performance (out of 10)": "9",
+                "customer satisfaction (out of 10)": "7",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "18",
+        "agent id": "2",
+        "call duration": "28",
+        "summary": "Customer had issues applying for a car loan online.",
+        "intents": [
+            {
+                "intent": "Car Loan Application Issue",
+                "confidence": "95",
+                "keywords": "I tried applying for and the application today.",
+                "products": [
+                    "Car Loan"
+                ],
+                "issues": [
+                    {
+                        "issue": "Online application portal error",
+                        "reason(s)": "System glitch or incorrect document format",
+                        "issue type": "technical"
+                    }
+                ],
+                "actions of agent": "Suggested uploading documents in PDF format or offered manual processing.",
+                "resolution status": "resolved",
+                "resolution": "Agent offered to process the application manually after receiving documents via email.",
+                "dominant emotions (customer)": [
+                    "frustration",
+                    "confusion"
+                ],
+                "conversation sentiment": "Neutral",
+                "agent professionalism": "Professional and helpful.",
+                "agent performance (out of 10)": "9",
+                "customer satisfaction (out of 10)": "8",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "19",
+        "agent id": "2",
+        "call duration": "31",
+        "summary": "Agent assisted customer with savings account closure request.",
+        "intents": [
+            {
+                "intent": "Account Closure",
+                "confidence": "95",
+                "keywords": "I want to close delaying it",
+                "products": [
+                    "Savings Account"
+                ],
+                "issues": [
+                    {
+                        "issue": "Delay in account closure",
+                        "reason(s)": "Branch is delaying the process",
+                        "issue type": "service"
+                    },
+                    {
+                        "issue": "Pending balance",
+                        "reason(s)": "500 rupees pending balance",
+                        "issue type": "billing"
+                    }
+                ],
+                "actions of agent": "Verified account, offered options for pending balance, initiated closure and transfer.",
+                "resolution status": "resolved",
+                "resolution": "Account closure and balance transfer initiated; confirmation to be sent.",
+                "dominant emotions (customer)": [
+                    "frustration",
+                    "impatience"
+                ],
+                "conversation sentiment": "Negative",
+                "agent professionalism": "Professional and empathetic.",
+                "agent performance (out of 10)": "9",
+                "customer satisfaction (out of 10)": "7",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "20",
+        "agent id": "2",
+        "call duration": "32",
+        "summary": "Customer inquires about loan preclosure final steps.",
+        "intents": [
+            {
+                "intent": "Loan Preclosure",
+                "confidence": "95",
+                "keywords": "I am thrilled my...do next?",
+                "products": [
+                    "Loan"
+                ],
+                "issues": [],
+                "actions of agent": "Confirmed loan account number and provided payment instructions.",
+                "resolution status": "resolved",
+                "resolution": "Payment link sent to customer for outstanding balance.",
+                "dominant emotions (customer)": [
+                    "Happy",
+                    "Excited"
+                ],
+                "conversation sentiment": "Positive",
+                "agent professionalism": "Professional and helpful.",
+                "agent performance (out of 10)": "9",
+                "customer satisfaction (out of 10)": "9",
+                "callback promise": "Yes",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "21",
+        "agent id": "3",
+        "call duration": "28",
+        "summary": "Agent enabled online transactions for customer's debit card.",
+        "intents": [
+            {
+                "intent": "Debit Card Issue",
+                "confidence": "95",
+                "keywords": "My debit card is not working...failed fix it.",
+                "products": [
+                    "Debit Card"
+                ],
+                "issues": [
+                    {
+                        "issue": "Debit card not working for online transactions.",
+                        "reason(s)": "Online transactions were not enabled for the card.",
+                        "issue type": "technical"
+                    }
+                ],
+                "actions of agent": "Agent identified the issue, offered to enable online transactions, and enabled it for the customer.",
+                "resolution status": "resolved",
+                "resolution": "Agent enabled online transactions for the customer's debit card.",
+                "dominant emotions (customer)": [
+                    "frustration",
+                    "urgency"
+                ],
+                "conversation sentiment": "Negative",
+                "agent professionalism": "Professional and helpful.",
+                "agent performance (out of 10)": "9",
+                "customer satisfaction (out of 10)": "7",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "22",
+        "agent id": "3",
+        "call duration": "34",
+        "summary": "Customer address update delayed due to missing signature.",
+        "intents": [
+            {
+                "intent": "Address Update",
+                "confidence": "95",
+                "keywords": "I went to the branch ... it's not done yet.",
+                "products": [
+                    "Bank Account"
+                ],
+                "issues": [
+                    {
+                        "issue": "Address update not processed",
+                        "reason(s": "Missing signature on the form.",
+                        "issue type": "service"
+                    }
+                ],
+                "actions of agent": "Agent apologized, checked the status, identified the issue, and offered to email the form and expedite the update.",
+                "resolution status": "pending",
+                "resolution": "N/A",
+                "dominant emotions (customer)": [
+                    "frustration",
+                    "annoyance"
+                ],
+                "conversation sentiment": "Negative",
+                "agent professionalism": "Professional and helpful.",
+                "agent performance (out of 10)": "8",
+                "customer satisfaction (out of 10)": "6",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "23",
+        "agent id": "3",
+        "call duration": "32",
+        "summary": "Customer is upset about a late fee on loan.",
+        "intents": [
+            {
+                "intent": "Dispute late fee",
+                "confidence": "95",
+                "keywords": "You guys are reaping me off...for your mistak.",
+                "products": [
+                    "Loan"
+                ],
+                "issues": [
+                    {
+                        "issue": "Late fee charged despite on-time payment",
+                        "reason(s)": "ECS mandate issue caused payment to be credited late.",
+                        "issue type": "billing"
+                    }
+                ],
+                "actions of agent": "Verified payment, identified ECS issue, waived the late fee, and apologized.",
+                "resolution status": "resolved",
+                "resolution": "Late fee waived; updated statement available in 24 hours.",
+                "dominant emotions (customer)": [
+                    "anger",
+                    "frustration"
+                ],
+                "conversation sentiment": "Negative",
+                "agent professionalism": "Agent remained calm and professional despite customer's anger.",
+                "agent performance (out of 10)": "9",
+                "customer satisfaction (out of 10)": "6",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "1",
+        "interruptions by agent": "1"
+    },
+    {
+        "call id": "24",
+        "agent id": "3",
+        "call duration": "26",
+        "summary": "Customer successfully activated their new credit card with agent assistance.",
+        "intents": [
+            {
+                "intent": "Card Activation",
+                "confidence": "95",
+                "keywords": "Hi, I just got my ... activate it now?",
+                "products": [
+                    "Credit Card"
+                ],
+                "issues": [],
+                "actions of agent": "Agent offered to activate the card and activated it immediately upon receiving the card number.",
+                "resolution status": "resolved",
+                "resolution": "Card was successfully activated by the agent.",
+                "dominant emotions (customer)": [
+                    "Happy",
+                    "Excited",
+                    "Grateful"
+                ],
+                "conversation sentiment": "Positive",
+                "agent professionalism": "Professional and helpful.",
+                "agent performance (out of 10)": "10",
+                "customer satisfaction (out of 10)": "10",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "25",
+        "agent id": "3",
+        "call duration": "31",
+        "summary": "Customer inquires about unexpected charge, agent waives fee.",
+        "intents": [
+            {
+                "intent": "Inquiry about charge",
+                "confidence": "95",
+                "keywords": "Does a 200 rupees about?",
+                "products": [
+                    "Savings Account"
+                ],
+                "issues": [
+                    {
+                        "issue": "Unexpected charge of 200 rupees",
+                        "reason(s)": "Maintenance fee due to low balance",
+                        "issue type": "billing"
+                    }
+                ],
+                "actions of agent": "Identified the charge, explained the reason, and waived the fee.",
+                "resolution status": "resolved",
+                "resolution": "Fee waived as a one-time courtesy.",
+                "dominant emotions (customer)": [
+                    "frustration",
+                    "inquiry"
+                ],
+                "conversation sentiment": "Negative",
+                "agent professionalism": "Professional and helpful.",
+                "agent performance (out of 10)": "9",
+                "customer satisfaction (out of 10)": "7",
+                "callback promise": "No",
+                "callback time": "N/A"
+            },
+            {
+                "intent": "Balance Alert Setup",
+                "confidence": "80",
+                "keywords": "I waive the fee for you.",
+                "products": [
+                    "Savings Account"
+                ],
+                "issues": [],
+                "actions of agent": "Offered to set up balance alerts.",
+                "resolution status": "pending",
+                "resolution": "N/A",
+                "dominant emotions (customer)": [],
+                "conversation sentiment": "Neutral",
+                "agent professionalism": "Proactive and helpful.",
+                "agent performance (out of 10)": "8",
+                "customer satisfaction (out of 10)": "6",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "26",
+        "agent id": "3",
+        "call duration": "30",
+        "summary": "Agent assisted customer with loan payment processing.",
+        "intents": [
+            {
+                "intent": "Loan Payment Assistance",
+                "confidence": "95",
+                "keywords": "I am freaking out my...updated you are all",
+                "products": [
+                    "Loan"
+                ],
+                "issues": [
+                    {
+                        "issue": "Unable to access account to make loan payment.",
+                        "reason(s)": "Unknown reason for account access issue.",
+                        "issue type": "technical"
+                    },
+                    {
+                        "issue": "Concern about impact on credit score due to potential late payment.",
+                        "reason(s)": "Customer worried about CIBIL score.",
+                        "issue type": "billing"
+                    }
+                ],
+                "actions of agent": "Offered manual payment processing or extending the due date and processed manual payment.",
+                "resolution status": "resolved",
+                "resolution": "Manual payment processed and account updated.",
+                "dominant emotions (customer)": [
+                    "anxious",
+                    "stressed",
+                    "worried"
+                ],
+                "conversation sentiment": "Positive",
+                "agent professionalism": "The agent was helpful and reassuring.",
+                "agent performance (out of 10)": "9",
+                "customer satisfaction (out of 10)": "9",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "27",
+        "agent id": "3",
+        "call duration": "32",
+        "summary": "Customer requests premature withdrawal of fixed deposit.",
+        "intents": [
+            {
+                "intent": "Fixed Deposit Withdrawal",
+                "confidence": "95",
+                "keywords": "I want to withdraw ... how does that work?",
+                "products": [
+                    "Fixed Deposit"
+                ],
+                "issues": [
+                    {
+                        "issue": "Premature withdrawal penalty",
+                        "reason(s)": "Customer wants to withdraw before maturity.",
+                        "issue type": "billing"
+                    }
+                ],
+                "actions of agent": "Agent offered to calculate the reduced interest amount.",
+                "resolution status": "pending",
+                "resolution": "N/A",
+                "dominant emotions (customer)": [
+                    "anxious",
+                    "urgent"
+                ],
+                "conversation sentiment": "Neutral",
+                "agent professionalism": "Professional and helpful.",
+                "agent performance (out of 10)": "8",
+                "customer satisfaction (out of 10)": "7",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "28",
+        "agent id": "3",
+        "call duration": "26.60",
+        "summary": "The agent assisted with unauthorized card usage and dispute filing.",
+        "intents": [
+            {
+                "intent": "Report unauthorized transaction",
+                "confidence": "95",
+                "keywords": "I got a bill and what's going on?",
+                "products": [
+                    "Credit Card"
+                ],
+                "issues": [
+                    {
+                        "issue": "Unauthorized transaction of $8000",
+                        "reason(s)": "Customer did not make the transaction.",
+                        "issue type": "fraud"
+                    }
+                ],
+                "actions of agent": "Verified last four digits of the card, pledged to freeze the card, and initiated a dispute.",
+                "resolution status": "pending",
+                "resolution": "N/A",
+                "dominant emotions (customer)": [
+                    "worried",
+                    "concerned"
+                ],
+                "conversation sentiment": "Negative",
+                "agent professionalism": "The agent responded empathetically and took appropriate actions.",
+                "agent performance (out of 10)": "8",
+                "customer satisfaction (out of 10)": "7",
+                "callback promise": "No",
+                "callback time": "N/A"
+            },
+            {
+                "intent": "Inquire about refund timeframe",
+                "confidence": "90",
+                "keywords": "how long till and money back.",
+                "products": [
+                    "Credit Card"
+                ],
+                "issues": [],
+                "actions of agent": "Provided an estimated refund timeframe of 5 to 7 days and promised to keep the customer updated.",
+                "resolution status": "pending",
+                "resolution": "N/A",
+                "dominant emotions (customer)": [
+                    "anxious"
+                ],
+                "conversation sentiment": "Neutral",
+                "agent professionalism": "The agent provided a clear timeframe and offered to keep the customer updated.",
+                "agent performance (out of 10)": "9",
+                "customer satisfaction (out of 10)": "8",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "29",
+        "agent id": "3",
+        "call duration": "30",
+        "summary": "Customer is unable to access loan balance online.",
+        "intents": [
+            {
+                "intent": "Account Access Issue",
+                "confidence": "95",
+                "keywords": "I tried checking my ... account not found help.",
+                "products": [
+                    "Loan Account",
+                    "Online Portal"
+                ],
+                "issues": [
+                    {
+                        "issue": "Customer cannot access loan balance online.",
+                        "reason(s)": "Account not linked to the online portal.",
+                        "issue type": "technical"
+                    }
+                ],
+                "actions of agent": "Agent confirmed the account number and linked the account to the portal. Agent also offered to send login instructions and a guide, and provided further assistance if needed.",
+                "resolution status": "resolved",
+                "resolution": "Account linked to the portal and login instructions sent.",
+                "dominant emotions (customer)": [
+                    "frustration",
+                    "confusion"
+                ],
+                "conversation sentiment": "Negative",
+                "agent professionalism": "Professional and helpful.",
+                "agent performance (out of 10)": "9",
+                "customer satisfaction (out of 10)": "8",
+                "callback promise": "No",
+                "callback time": "N/A"
+            },
+            {
+                "intent": "Assistance Request",
+                "confidence": "85",
+                "keywords": "Ok but I am ... will it be easy?",
+                "products": [
+                    "Online Portal",
+                    "Loan Account"
+                ],
+                "issues": [
+                    {
+                        "issue": "Customer is not comfortable with online processes.",
+                        "reason(s)": "Lack of familiarity with online systems.",
+                        "issue type": "service"
+                    }
+                ],
+                "actions of agent": "Agent assured the customer that the process is simple and offered a guide and further assistance.",
+                "resolution status": "resolved",
+                "resolution": "Agent provided reassurance and offered a guide and further support.",
+                "dominant emotions (customer)": [
+                    "anxiety",
+                    "uncertainty"
+                ],
+                "conversation sentiment": "Neutral",
+                "agent professionalism": "Patient and reassuring.",
+                "agent performance (out of 10)": "10",
+                "customer satisfaction (out of 10)": "9",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "30",
+        "agent id": "3",
+        "call duration": "30",
+        "summary": "Customer inquired about tracking an RTGS transfer.",
+        "intents": [
+            {
+                "intent": "Track RTGS Transfer",
+                "confidence": "95",
+                "keywords": "I setup RTGS transfers and them.",
+                "products": [
+                    "RTGS Transfer"
+                ],
+                "issues": [],
+                "actions of agent": "Agent confirmed the transfer was completed and provided options to track it.",
+                "resolution status": "resolved",
+                "resolution": "Agent confirmed transfer completion and offered tracking options.",
+                "dominant emotions (customer)": [
+                    "positive",
+                    "inquisitive"
+                ],
+                "conversation sentiment": "Positive",
+                "agent professionalism": "Professional and helpful.",
+                "agent performance (out of 10)": "9",
+                "customer satisfaction (out of 10)": "10",
+                "callback promise": "No",
+                "callback time": "N/A"
+            },
+            {
+                "intent": "Request Statement",
+                "confidence": "90",
+                "keywords": "I want to make sure statement.",
+                "products": [
+                    "Bank Statement"
+                ],
+                "issues": [],
+                "actions of agent": "Agent offered to send a statement to the customer's email.",
+                "resolution status": "resolved",
+                "resolution": "Agent sent the statement to the customer's email.",
+                "dominant emotions (customer)": [
+                    "positive",
+                    "grateful"
+                ],
+                "conversation sentiment": "Positive",
+                "agent professionalism": "Professional and helpful.",
+                "agent performance (out of 10)": "9",
+                "customer satisfaction (out of 10)": "10",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "31",
+        "agent id": "4",
+        "call duration": "32",
+        "summary": "Customer is furious about unauthorized subscription charge.",
+        "intents": [
+            {
+                "intent": "Billing Dispute",
+                "confidence": "95",
+                "keywords": "I am Furious my card ... my money back now.",
+                "products": [
+                    "Subscription"
+                ],
+                "issues": [
+                    {
+                        "issue": "Unauthorized charge",
+                        "reason(s)": "Recurring charge after cancellation",
+                        "issue type": "billing"
+                    }
+                ],
+                "actions of agent": "Initiated a chargeback and blocked further charges.",
+                "resolution status": "resolved",
+                "resolution": "Chargeback filed; refund in 5-7 days.",
+                "dominant emotions (customer)": [
+                    "furious",
+                    "unhappy"
+                ],
+                "conversation sentiment": "Negative",
+                "agent professionalism": "The agent was polite and helpful.",
+                "agent performance (out of 10)": "8",
+                "customer satisfaction (out of 10)": "6",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "32",
+        "agent id": "4",
+        "call duration": "32",
+        "summary": "Agent reactivated customer's card due to inactivity.",
+        "intents": [
+            {
+                "intent": "Card Issue",
+                "confidence": "95",
+                "keywords": "Hello, I tried using the What's wrong?",
+                "products": [
+                    "ATM Card"
+                ],
+                "issues": [
+                    {
+                        "issue": "Card invalid at ATM",
+                        "reason(s)": "Card deactivated due to inactivity",
+                        "issue type": "technical"
+                    }
+                ],
+                "actions of agent": "Verified account, identified card status, reactivated card, and promised confirmation.",
+                "resolution status": "resolved",
+                "resolution": "Card reactivated.",
+                "dominant emotions (customer)": [
+                    "frustration",
+                    "confusion"
+                ],
+                "conversation sentiment": "Negative",
+                "agent professionalism": "Professional and helpful.",
+                "agent performance (out of 10)": "9",
+                "customer satisfaction (out of 10)": "8",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "33",
+        "agent id": "4",
+        "call duration": "31",
+        "summary": "Customer inquires about business loan application status, agent escalates.",
+        "intents": [
+            {
+                "intent": "Check Loan Application Status",
+                "confidence": "95",
+                "keywords": "I applied for a business ... get an update?",
+                "products": [
+                    "Business Loan"
+                ],
+                "issues": [
+                    {
+                        "issue": "Delayed loan approval",
+                        "reason(s)": "Application is in final review.",
+                        "issue type": "service"
+                    }
+                ],
+                "actions of agent": "Checked application status and provided an estimated approval timeframe.",
+                "resolution status": "pending",
+                "resolution": "N/A",
+                "dominant emotions (customer)": [
+                    "frustration",
+                    "anxiety"
+                ],
+                "conversation sentiment": "Negative",
+                "agent professionalism": "Agent was polite but had some unclear speech.",
+                "agent performance (out of 10)": "7",
+                "customer satisfaction (out of 10)": "4",
+                "callback promise": "No",
+                "callback time": "N/A"
+            },
+            {
+                "intent": "Escalation Request",
+                "confidence": "85",
+                "keywords": "48 hours can't you ... business here.",
+                "products": [
+                    "Business Loan"
+                ],
+                "issues": [
+                    {
+                        "issue": "Need for faster processing",
+                        "reason(s)": "Customer is losing business due to the delay.",
+                        "issue type": "service"
+                    }
+                ],
+                "actions of agent": "Agent escalated the application for priority processing.",
+                "resolution status": "pending",
+                "resolution": "N/A",
+                "dominant emotions (customer)": [
+                    "frustration",
+                    "urgency"
+                ],
+                "conversation sentiment": "Negative",
+                "agent professionalism": "Agent attempted to address the customer's urgency.",
+                "agent performance (out of 10)": "8",
+                "customer satisfaction (out of 10)": "6",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "34",
+        "agent id": "4",
+        "call duration": "23.84",
+        "summary": "Customer inquired about redeeming credit card rewards, resolved quickly.",
+        "intents": [
+            {
+                "intent": "Rewards Redemption",
+                "confidence": "95",
+                "keywords": "I just upgraded my and I am loving",
+                "products": [
+                    "Credit Card"
+                ],
+                "issues": [],
+                "actions of agent": "The agent informed the customer about redeeming rewards via the app.",
+                "resolution status": "resolved",
+                "resolution": "The agent directed the customer to the app's rewards section.",
+                "dominant emotions (customer)": [
+                    "Happy",
+                    "Curious"
+                ],
+                "conversation sentiment": "Positive",
+                "agent professionalism": "The agent was polite and helpful.",
+                "agent performance (out of 10)": "9",
+                "customer satisfaction (out of 10)": "9",
+                "callback promise": "Yes",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "35",
+        "agent id": "4",
+        "call duration": "30",
+        "summary": "Agent waived the cheque bounce fee and set up alerts.",
+        "intents": [
+            {
+                "intent": "Fee Inquiry and Adjustment",
+                "confidence": "95",
+                "keywords": "Why is there a ... avoid this in the future.",
+                "products": [
+                    "Savings Account"
+                ],
+                "issues": [
+                    {
+                        "issue": "Customer was charged a 500 rupees penalty.",
+                        "reason(s)": "Cheque bounce due to insufficient funds.",
+                        "issue type": "billing"
+                    }
+                ],
+                "actions of agent": "Investigated the account, identified the cheque bounce fee, and waived it as a one-time gesture. Agent also offered to set up alerts.",
+                "resolution status": "resolved",
+                "resolution": "The agent waived the 500 rupees penalty.",
+                "dominant emotions (customer)": [
+                    "frustration",
+                    "disbelief"
+                ],
+                "conversation sentiment": "Negative",
+                "agent professionalism": "The agent was polite and helpful in resolving the issue.",
+                "agent performance (out of 10)": "9",
+                "customer satisfaction (out of 10)": "8",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "1",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "36",
+        "agent id": "4",
+        "call duration": "27",
+        "summary": "Agent resolved customer's loan account NPA status concern.",
+        "intents": [
+            {
+                "intent": "NPA Status Inquiry and Resolution",
+                "confidence": "95",
+                "keywords": "I am so stressed my loan...reported to CIBIL",
+                "products": [
+                    "Loan Account"
+                ],
+                "issues": [
+                    {
+                        "issue": "Loan account marked as NPA incorrectly",
+                        "reason(s)": "Payment was missed due to a bank error.",
+                        "issue type": "billing"
+                    }
+                ],
+                "actions of agent": "Confirmed account details, identified the cause of the NPA status, corrected the NPA status, and confirmed the account is clear and reported to CIBIL.",
+                "resolution status": "resolved",
+                "resolution": "Agent corrected the NPA status due to a bank error.",
+                "dominant emotions (customer)": [
+                    "stressed",
+                    "worried"
+                ],
+                "conversation sentiment": "Negative",
+                "agent professionalism": "The agent was professional and helpful in resolving the issue.",
+                "agent performance (out of 10)": "9",
+                "customer satisfaction (out of 10)": "8",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "37",
+        "agent id": "4",
+        "call duration": "24",
+        "summary": "Agent assists customer in opening a demat account.",
+        "intents": [
+            {
+                "intent": "Open Demat Account",
+                "confidence": "95",
+                "keywords": "I need to open, ... start trading so",
+                "products": [
+                    "Demat Account"
+                ],
+                "issues": [],
+                "actions of agent": "Agent inquired about KYC documents, informed about processing time, and sent the form.",
+                "resolution status": "pending",
+                "resolution": "N/A",
+                "dominant emotions (customer)": [
+                    "Interested",
+                    "Eager"
+                ],
+                "conversation sentiment": "Neutral",
+                "agent professionalism": "Professional and helpful.",
+                "agent performance (out of 10)": "9",
+                "customer satisfaction (out of 10)": "8",
+                "callback promise": "Yes",
+                "callback time": "2-3 days"
+            }
+        ],
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "38",
+        "agent id": "4",
+        "call duration": "24",
+        "summary": "Customer reports payment processing issue, agent resolves manually.",
+        "intents": [
+            {
+                "intent": "Payment Issue",
+                "confidence": "95",
+                "keywords": "My card payment stuck... What's the deal?",
+                "products": [
+                    "Card Payment"
+                ],
+                "issues": [
+                    {
+                        "issue": "Payment stuck on processing",
+                        "reason(s)": "Payment gateway glitch",
+                        "issue type": "technical"
+                    }
+                ],
+                "actions of agent": "Identified the issue, offered to manually process the payment.",
+                "resolution status": "resolved",
+                "resolution": "Agent manually processed the payment.",
+                "dominant emotions (customer)": [
+                    "frustration",
+                    "annoyance"
+                ],
+                "conversation sentiment": "Negative",
+                "agent professionalism": "Professional and helpful.",
+                "agent performance (out of 10)": "9",
+                "customer satisfaction (out of 10)": "7",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "1",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "39",
+        "agent id": "4",
+        "call duration": "30",
+        "summary": "Customer is concerned about a higher loan EMI payment.",
+        "intents": [
+            {
+                "intent": "EMI Inquiry",
+                "confidence": "95",
+                "keywords": "My loan EMI is higher this month...why is it more now?",
+                "products": [
+                    "Loan"
+                ],
+                "issues": [
+                    {
+                        "issue": "Unexpected increase in EMI amount.",
+                        "reason(s)": "Floating interest rate and RBI rate hikes.",
+                        "issue type": "billing"
+                    }
+                ],
+                "actions of agent": "Agent apologized, asked for account number, explained floating rate and offered fixed rate option.",
+                "resolution status": "pending",
+                "resolution": "N/A",
+                "dominant emotions (customer)": [
+                    "Concern",
+                    "Frustration"
+                ],
+                "conversation sentiment": "Negative",
+                "agent professionalism": "Professional and empathetic.",
+                "agent performance (out of 10)": "8",
+                "customer satisfaction (out of 10)": "5",
+                "callback promise": "No",
+                "callback time": "N/A"
+            },
+            {
+                "intent": "Information Request",
+                "confidence": "90",
+                "keywords": "I don't understand this red stuff...explain it simply?",
+                "products": [
+                    "Loan"
+                ],
+                "issues": [
+                    {
+                        "issue": "Customer doesn't understand floating rates.",
+                        "reason(s)": "Lack of understanding of financial terms.",
+                        "issue type": "service"
+                    }
+                ],
+                "actions of agent": "Agent started to explain floating rates and offered to send a comparison.",
+                "resolution status": "pending",
+                "resolution": "N/A",
+                "dominant emotions (customer)": [
+                    "Confusion"
+                ],
+                "conversation sentiment": "Neutral",
+                "agent professionalism": "Professional and helpful.",
+                "agent performance (out of 10)": "9",
+                "customer satisfaction (out of 10)": "7",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "1",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "40",
+        "agent id": "4",
+        "call duration": "26.80",
+        "summary": "Customer wants to increase overdraft limit and praises bank.",
+        "intents": [
+            {
+                "intent": "Increase Overdraft Limit",
+                "confidence": "95",
+                "keywords": "I got an overdraft and it's a limit?",
+                "products": [
+                    "Overdraft Facility"
+                ],
+                "issues": [],
+                "actions of agent": "Agent asked for account number and requested customer to email documents.",
+                "resolution status": "pending",
+                "resolution": "N/A",
+                "dominant emotions (customer)": [
+                    "Happy",
+                    "Eager"
+                ],
+                "conversation sentiment": "Positive",
+                "agent professionalism": "Professional and polite.",
+                "agent performance (out of 10)": "7",
+                "customer satisfaction (out of 10)": "7",
+                "callback promise": "No",
+                "callback time": "N/A"
+            },
+            {
+                "intent": "Positive Feedback",
+                "confidence": "90",
+                "keywords": "shooting this Bank great the way",
+                "products": [
+                    "Banking Services"
+                ],
+                "issues": [],
+                "actions of agent": "Agent thanked the customer.",
+                "resolution status": "resolved",
+                "resolution": "Agent acknowledged and appreciated the feedback.",
+                "dominant emotions (customer)": [
+                    "Positive",
+                    "Appreciative"
+                ],
+                "conversation sentiment": "Positive",
+                "agent professionalism": "Professional and polite.",
+                "agent performance (out of 10)": "10",
+                "customer satisfaction (out of 10)": "10",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "1",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "41",
+        "agent id": "5",
+        "call duration": "26",
+        "summary": "Customer's PPI wallet wasn't linking; agent resolved the issue.",
+        "intents": [
+            {
+                "intent": "Debit Card Linking Issue",
+                "confidence": "95",
+                "keywords": "My PPI wallet isn't linking...What's the problem?",
+                "products": [
+                    "PPI Wallet",
+                    "Debit Card"
+                ],
+                "issues": [
+                    {
+                        "issue": "Debit card not linking to PPI wallet.",
+                        "reason(s)": "Card was not registered for PPI.",
+                        "issue type": "technical"
+                    }
+                ],
+                "actions of agent": "Verified card details, enabled PPI for the card, and expedited the activation.",
+                "resolution status": "resolved",
+                "resolution": "Agent enabled PPI for the card, resolving the linking issue immediately.",
+                "dominant emotions (customer)": [
+                    "frustration",
+                    "urgency"
+                ],
+                "conversation sentiment": "Negative",
+                "agent professionalism": "Professional and helpful.",
+                "agent performance (out of 10)": "9",
+                "customer satisfaction (out of 10)": "8",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "1",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "42",
+        "agent id": "5",
+        "call duration": "27",
+        "summary": "Customer wants to close loan and needs clarification.",
+        "intents": [
+            {
+                "intent": "Loan Closure Request",
+                "confidence": "95",
+                "keywords": "I want to close my loan...What's that about?",
+                "products": [
+                    "Loan"
+                ],
+                "issues": [
+                    {
+                        "issue": "Need to fill out a closure request form.",
+                        "reason(s)": "Branch informed the customer about the form requirement.",
+                        "issue type": "service"
+                    }
+                ],
+                "actions of agent": "Agent offered to help, asked for the loan account number, and offered to email the form with instructions.",
+                "resolution status": "pending",
+                "resolution": "N/A",
+                "dominant emotions (customer)": [
+                    "frustration",
+                    "confusion"
+                ],
+                "conversation sentiment": "Neutral",
+                "agent professionalism": "Professional and helpful.",
+                "agent performance (out of 10)": "8",
+                "customer satisfaction (out of 10)": "6",
+                "callback promise": "No",
+                "callback time": "N/A"
+            },
+            {
+                "intent": "Information Request",
+                "confidence": "90",
+                "keywords": "what's for closure mean?...nobody explain it.",
+                "products": [
+                    "Loan"
+                ],
+                "issues": [
+                    {
+                        "issue": "Lack of understanding of 'for closure'.",
+                        "reason(s)": "Customer states nobody explained it.",
+                        "issue type": "service"
+                    }
+                ],
+                "actions of agent": "Agent explained the meaning of foreclosure.",
+                "resolution status": "resolved",
+                "resolution": "Agent explained that it means paying off the loan early.",
+                "dominant emotions (customer)": [
+                    "confusion"
+                ],
+                "conversation sentiment": "Neutral",
+                "agent professionalism": "Professional and helpful.",
+                "agent performance (out of 10)": "9",
+                "customer satisfaction (out of 10)": "8",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "43",
+        "agent id": "5",
+        "call duration": "27",
+        "summary": "Agent refunded erroneous fee; customer threatened account closure.",
+        "intents": [
+            {
+                "intent": "Billing Dispute",
+                "confidence": "95",
+                "keywords": "you are charging me...account statement SMS",
+                "products": [
+                    "Bank Account"
+                ],
+                "issues": [
+                    {
+                        "issue": "Unauthorized charge",
+                        "reason(s": "Erroneous ATM withdrawal fee",
+                        "issue type": "billing"
+                    }
+                ],
+                "actions of agent": "Identified the erroneous fee and initiated a refund.",
+                "resolution status": "resolved",
+                "resolution": "Refund processed; customer will see it in 24 hours.",
+                "dominant emotions (customer)": [
+                    "anger",
+                    "frustration"
+                ],
+                "conversation sentiment": "Negative",
+                "agent professionalism": "Agent remained calm and professional despite customer's anger.",
+                "agent performance (out of 10)": "8",
+                "customer satisfaction (out of 10)": "4",
+                "callback promise": "No",
+                "callback time": "N/A"
+            },
+            {
+                "intent": "Account Closure Threat",
+                "confidence": "85",
+                "keywords": "fix this or...closing my account",
+                "products": [
+                    "Bank Account"
+                ],
+                "issues": [
+                    {
+                        "issue": "Potential account closure",
+                        "reason(s": "Customer dissatisfied with erroneous charge",
+                        "issue type": "service"
+                    }
+                ],
+                "actions of agent": "Addressed the billing issue to prevent account closure.",
+                "resolution status": "pending",
+                "resolution": "N/A",
+                "dominant emotions (customer)": [
+                    "anger",
+                    "frustration"
+                ],
+                "conversation sentiment": "Negative",
+                "agent professionalism": "Agent attempted to resolve the issue to retain the customer.",
+                "agent performance (out of 10)": "7",
+                "customer satisfaction (out of 10)": "3",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "44",
+        "agent id": "5",
+        "call duration": "20.92",
+        "summary": "Customer inquired about setting up a UPI mandate.",
+        "intents": [
+            {
+                "intent": "UPI Mandate Setup",
+                "confidence": "95",
+                "keywords": "I just got my ... upi mandate?",
+                "products": [
+                    "Debit Card",
+                    "UPI"
+                ],
+                "issues": [],
+                "actions of agent": "The agent explained how to set up a UPI mandate via the app's payment section and offered to walk the customer through the process.",
+                "resolution status": "resolved",
+                "resolution": "The agent provided instructions, and the customer said they would try it themselves.",
+                "dominant emotions (customer)": [
+                    "Positive",
+                    "Curious"
+                ],
+                "conversation sentiment": "Positive",
+                "agent professionalism": "The agent was polite and helpful.",
+                "agent performance (out of 10)": "9",
+                "customer satisfaction (out of 10)": "9",
+                "callback promise": "Yes",
+                "callback time": "N/A"
+            },
+            {
+                "intent": "Auto Payments Confirmation",
+                "confidence": "85",
+                "keywords": "Nice is it ... like bill?",
+                "products": [
+                    "Debit Card",
+                    "UPI",
+                    "Auto Payments"
+                ],
+                "issues": [],
+                "actions of agent": "The agent confirmed that it is for auto payments.",
+                "resolution status": "resolved",
+                "resolution": "The agent confirmed the functionality.",
+                "dominant emotions (customer)": [
+                    "Neutral"
+                ],
+                "conversation sentiment": "Positive",
+                "agent professionalism": "The agent was polite and helpful.",
+                "agent performance (out of 10)": "9",
+                "customer satisfaction (out of 10)": "9",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "45",
+        "agent id": "5",
+        "call duration": "24",
+        "summary": "Customer wants to update nominee for savings account.",
+        "intents": [
+            {
+                "intent": "Nominee Update",
+                "confidence": "95",
+                "keywords": "I need to update the nominee...the nominee.",
+                "products": [
+                    "Savings Account"
+                ],
+                "issues": [
+                    {
+                        "issue": "Customer needs to update nominee.",
+                        "reason(s)": "Customer wants to add his son as nominee.",
+                        "issue type": "service"
+                    }
+                ],
+                "actions of agent": "Agent informed customer about the nominee update form and offered to send it to the registered email.",
+                "resolution status": "pending",
+                "resolution": "N/A",
+                "dominant emotions (customer)": [
+                    "Neutral",
+                    "Inquiry"
+                ],
+                "conversation sentiment": "Neutral",
+                "agent professionalism": "Agent was polite and provided information clearly.",
+                "agent performance (out of 10)": "8",
+                "customer satisfaction (out of 10)": "6",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "1",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "46",
+        "agent id": "5",
+        "call duration": "26.64",
+        "summary": "Agent resolved customer's loan payment issue and updated CIBIL.",
+        "intents": [
+            {
+                "intent": "Payment Issue",
+                "confidence": "95",
+                "keywords": "I am panicking my...confirm with CIBIL",
+                "products": [
+                    "Loan Account"
+                ],
+                "issues": [
+                    {
+                        "issue": "Missed payment showing on loan account despite payment made.",
+                        "reason(s)": "Payment was delayed due to a processing error.",
+                        "issue type": "technical"
+                    }
+                ],
+                "actions of agent": "Identified the processing error, updated the account status, and confirmed with CIBIL.",
+                "resolution status": "resolved",
+                "resolution": "Account status updated to reflect correct payment status.",
+                "dominant emotions (customer)": [
+                    "anxious",
+                    "relieved"
+                ],
+                "conversation sentiment": "Positive",
+                "agent professionalism": "The agent was helpful and efficient in resolving the issue.",
+                "agent performance (out of 10)": "9",
+                "customer satisfaction (out of 10)": "9",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "47",
+        "agent id": "5",
+        "call duration": "23.60",
+        "summary": "Customer reports and agent resolves unauthorized credit card charge.",
+        "intents": [
+            {
+                "intent": "Dispute Unauthorized Charge",
+                "confidence": "95",
+                "keywords": "My credit card bills got ... paying for this nonsense.",
+                "products": [
+                    "Credit Card"
+                ],
+                "issues": [
+                    {
+                        "issue": "Unauthorized $5000 charge",
+                        "reason(s)": "Merchant error",
+                        "issue type": "billing"
+                    }
+                ],
+                "actions of agent": "Agent verified card details, initiated dispute, blocked transactions.",
+                "resolution status": "resolved",
+                "resolution": "Dispute filed, refund expected in 7-10 days.",
+                "dominant emotions (customer)": [
+                    "frustration",
+                    "anger"
+                ],
+                "conversation sentiment": "Negative",
+                "agent professionalism": "Professional and helpful.",
+                "agent performance (out of 10)": "9",
+                "customer satisfaction (out of 10)": "8",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "48",
+        "agent id": "5",
+        "call duration": "24",
+        "summary": "Customer unable to login to net banking, OTP not received.",
+        "intents": [
+            {
+                "intent": "Technical Support",
+                "confidence": "95",
+                "keywords": "I can't login to banking it says now.",
+                "products": [
+                    "Net Banking"
+                ],
+                "issues": [
+                    {
+                        "issue": "Login failure",
+                        "reason(s)": "Incorrect password or system error.",
+                        "issue type": "technical"
+                    },
+                    {
+                        "issue": "OTP not received",
+                        "reason(s)": "Possible issue with SMS gateway or registered mobile number.",
+                        "issue type": "technical"
+                    }
+                ],
+                "actions of agent": "Verified registered mobile number and fixed the OTP issue.",
+                "resolution status": "resolved",
+                "resolution": "OTP issue resolved, customer should receive OTP now.",
+                "dominant emotions (customer)": [
+                    "frustration"
+                ],
+                "conversation sentiment": "Negative",
+                "agent professionalism": "The agent was polite and helpful.",
+                "agent performance (out of 10)": "8",
+                "customer satisfaction (out of 10)": "7",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "49",
+        "agent id": "5",
+        "call duration": "24.92",
+        "summary": "Agent resolved customer's loan overdue notice issue.",
+        "intents": [
+            {
+                "intent": "Account Inquiry",
+                "confidence": "95",
+                "keywords": "I got a letter saying my overdue what's happening?",
+                "products": [
+                    "Loan"
+                ],
+                "issues": [
+                    {
+                        "issue": "Received overdue notice despite payment.",
+                        "reason(s)": "System error caused payment not to reflect.",
+                        "issue type": "billing"
+                    }
+                ],
+                "actions of agent": "Verified account, identified system error, confirmed payment updated, and offered confirmation.",
+                "resolution status": "resolved",
+                "resolution": "Payment status updated; confirmation to be sent.",
+                "dominant emotions (customer)": [
+                    "confused",
+                    "concerned"
+                ],
+                "conversation sentiment": "Neutral",
+                "agent professionalism": "Professional and reassuring.",
+                "agent performance (out of 10)": "9",
+                "customer satisfaction (out of 10)": "8",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "50",
+        "agent id": "5",
+        "call duration": "25",
+        "summary": "Customer wants to increase recurring deposit amount.",
+        "intents": [
+            {
+                "intent": "Increase Recurring Deposit Amount",
+                "confidence": "95",
+                "keywords": "I set up a ... increase the amount?",
+                "products": [
+                    "Recurring Deposit"
+                ],
+                "issues": [],
+                "actions of agent": "Agent asked for account number and provided information on how to modify the RD amount by submitting a form via email.",
+                "resolution status": "resolved",
+                "resolution": "Agent sent the form to customer's email.",
+                "dominant emotions (customer)": [
+                    "happy",
+                    "satisfied"
+                ],
+                "conversation sentiment": "Positive",
+                "agent professionalism": "Professional and helpful.",
+                "agent performance (out of 10)": "9",
+                "customer satisfaction (out of 10)": "9",
+                "callback promise": "Yes",
+                "callback time": "N/A"
+            }
+        ],
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    }
+]

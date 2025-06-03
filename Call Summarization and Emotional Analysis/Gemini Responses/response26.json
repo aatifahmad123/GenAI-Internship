@@ -2,35 +2,34 @@
   "call id": "26",
   "agent id": "3",
   "call duration": "30",
-  "summary": "Agent assisted customer with loan payment and account access.",
+  "summary": "Agent assisted customer with loan payment processing.",
   "intents": [
     {
       "intent": "Loan Payment Assistance",
       "confidence": "95",
-      "keywords": "I am freaking... with my CIBIL score.",
+      "keywords": "I am freaking out my...updated you are all",
       "products": [
         "Loan"
       ],
       "issues": [
-        "Inability to access account",
-        "Concern about missing loan payment",
-        "Potential impact on CIBIL score"
+        {
+          "issue": "Unable to access account to make loan payment.",
+          "reason(s)": "Unknown reason for account access issue.",
+          "issue type": "technical"
+        },
+        {
+          "issue": "Concern about impact on credit score due to potential late payment.",
+          "reason(s)": "Customer worried about CIBIL score.",
+          "issue type": "billing"
+        }
       ],
-      "reasons (identified by agent)": [
-        "Unspecified account access issue"
-      ],
-      "actions of agent": [
-        "Offered manual payment processing",
-        "Offered to extend the due date",
-        "Processed manual payment",
-        "Updated customer account"
-      ],
-      "resolution_status": "resolved",
-      "resolution": "Manual payment was processed, and the customer's account was updated.",
+      "actions of agent": "Offered manual payment processing or extending the due date and processed manual payment.",
+      "resolution status": "resolved",
+      "resolution": "Manual payment processed and account updated.",
       "dominant emotions (customer)": [
-        "Anxiety",
-        "Worry",
-        "Fear"
+        "anxious",
+        "stressed",
+        "worried"
       ],
       "conversation sentiment": "Positive",
       "agent professionalism": "The agent was helpful and reassuring.",

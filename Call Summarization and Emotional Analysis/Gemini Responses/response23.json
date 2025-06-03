@@ -7,28 +7,23 @@
     {
       "intent": "Dispute late fee",
       "confidence": "95",
-      "keywords": "You guys are reaping ... I paid on time.",
+      "keywords": "You guys are reaping me off...for your mistak.",
       "products": [
         "Loan"
       ],
       "issues": [
-        "Incorrect late fee charged on loan statement",
-        "Payment made on time but showing as late"
+        {
+          "issue": "Late fee charged despite on-time payment",
+          "reason(s)": "ECS mandate issue caused payment to be credited late.",
+          "issue type": "billing"
+        }
       ],
-      "reasons (identified by agent)": [
-        "ECS mandate issue caused payment to be credited a day late"
-      ],
-      "actions of agent": [
-        "Verified payment details",
-        "Identified the reason for the late fee",
-        "Waived the late fee",
-        "Apologized for the inconvenience"
-      ],
-      "resolution_status": "resolved",
+      "actions of agent": "Verified payment, identified ECS issue, waived the late fee, and apologized.",
+      "resolution status": "resolved",
       "resolution": "Late fee waived; updated statement available in 24 hours.",
       "dominant emotions (customer)": [
-        "Anger",
-        "Frustration"
+        "anger",
+        "frustration"
       ],
       "conversation sentiment": "Negative",
       "agent professionalism": "Agent remained calm and professional despite customer's anger.",

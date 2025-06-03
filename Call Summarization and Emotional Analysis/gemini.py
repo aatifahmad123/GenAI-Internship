@@ -23,6 +23,7 @@ def get_gemini_response(transcription,timestamps,metadata, agent_id, call_id):
         There can be multiple intents in a single call, and each intent should be captured separately in the JSON array.
         The transcription is an alternating conversation between a customer and an agent starting with the customer.
         You may use timestamps or the nature of conversation in transcript to identify the interruptions.
+        There can be multiple issues for same intent so keep the issues as a list of dictionaries.
         The JSON format is as follows:
         
         {{
@@ -36,10 +37,15 @@ def get_gemini_response(transcription,timestamps,metadata, agent_id, call_id):
                     "confidence": "<Confidence level of intent recognition, as a percentage (0-100)>",
                     "keywords": "<The segment of transcription that indicates the intent: give a couple of the starting words and a couple of ending words>",
                     "products": "<List of products related to intent>",
-                    "issues": "<List of issues related to intent (Be very specific)>",
-                    "reasons (identified by agent)": "<List of reasons for the issues that the agent has identified (Be specific)>",
-                    "actions of agent": "<List of actions taken by agent for the intent>",
-                    "resolution_status": "<Status of resolution, e.g., 'resolved', 'pending'>",
+                    "issues": [
+                        {{
+                            "issue": "<Brief description of the issue identified by the agent if any>",
+                            "reason(s)": "<Brief description of the reason for the issue identified by the agent if any>",
+                            "issue type": "<Type of issue, e.g., 'technical', 'billing', 'service', etc.>"
+                        }}
+                    ],
+                    "actions of agent": "<Brief description of the actions taken by the agent to handle the intent>",
+                    "resolution status": "<Status of resolution, e.g., 'resolved', 'pending'>",
                     "resolution": "<Brief description of the resolution if resolved or 'N/A' if not resolved>",
                     "dominant emotions (customer)": "[<list main emotions expressed by the customer>]",
                     "conversation sentiment": "<sentiment of the conversation: Positive/Negative/Neutral for that intent>",

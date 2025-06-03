@@ -7,29 +7,28 @@
         {
             "intent": "Login Issue",
             "confidence": "95",
-            "keywords": "Hi I can't login... invalid credentials.",
+            "keywords": "Hi I can't login to invalid credentials",
             "products": [
-                "Savings Account",
-                "Online Banking"
+                "Savings Account"
             ],
             "issues": [
-                "Unable to login to savings account online",
-                "Invalid credentials error",
-                "OTP not received"
+                {
+                    "issue": "Unable to login",
+                    "reason(s)": "Invalid credentials",
+                    "issue type": "technical"
+                },
+                {
+                    "issue": "OTP not received",
+                    "reason(s)": "OTP system delayed",
+                    "issue type": "technical"
+                }
             ],
-            "reasons (identified by agent)": [
-                "OTP system is delayed"
-            ],
-            "actions of agent": [
-                "Verified customer's registered mobile number",
-                "Manually reset customer's access",
-                "Sent a temporary password"
-            ],
-            "resolution_status": "resolved",
-            "resolution": "Agent manually reset access and sent temporary password.",
+            "actions of agent": "Verified registered mobile number and manually reset access, sending a temporary password.",
+            "resolution status": "resolved",
+            "resolution": "Agent manually reset the customer's access and sent a temporary password.",
             "dominant emotions (customer)": [
-                "Frustration",
-                "Annoyance"
+                "frustration",
+                "annoyance"
             ],
             "conversation sentiment": "Negative",
             "agent professionalism": "Professional and empathetic.",

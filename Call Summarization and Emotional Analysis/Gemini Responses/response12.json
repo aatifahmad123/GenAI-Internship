@@ -1,75 +1,60 @@
 {
-    "call id": "12",
-    "agent id": "2",
-    "call duration": "35",
-    "summary": "Customer inquires about loan application status and KYC documents.",
-    "intents": [
+  "call id": "12",
+  "agent id": "2",
+  "call duration": "35",
+  "summary": "Customer inquires about loan application status and KYC process.",
+  "intents": [
+    {
+      "intent": "Check Loan Application Status",
+      "confidence": "95",
+      "keywords": "Hello, I want to know weeks.",
+      "products": [
+        "Loan"
+      ],
+      "issues": [],
+      "actions of agent": "Checked the application status using customer's name.",
+      "resolution status": "pending",
+      "resolution": "N/A",
+      "dominant emotions (customer)": [
+        "anxious",
+        "impatient"
+      ],
+      "conversation sentiment": "Neutral",
+      "agent professionalism": "Professional and helpful.",
+      "agent performance (out of 10)": "8",
+      "customer satisfaction (out of 10)": "6",
+      "callback promise": "No",
+      "callback time": "N/A"
+    },
+    {
+      "intent": "KYC Information Request",
+      "confidence": "90",
+      "keywords": "approved but we need urgently.",
+      "products": [
+        "Loan"
+      ],
+      "issues": [
         {
-            "intent": "Loan Application Status Check",
-            "confidence": "95",
-            "keywords": "Hello, I want to know weeks.",
-            "products": [
-                "Loan"
-            ],
-            "issues": [
-                "Uncertainty about loan application approval status",
-                "Delay in loan application processing"
-            ],
-            "reasons (identified by agent)": [
-                "KYC documents are pending"
-            ],
-            "actions of agent": [
-                "Checked application status using customer's name",
-                "Informed customer about loan approval",
-                "Explained the need for KYC documents",
-                "Promised to send a list of required documents via SMS"
-            ],
-            "resolution_status": "pending",
-            "resolution": "N/A",
-            "dominant emotions (customer)": [
-                "Anxious",
-                "Impatient"
-            ],
-            "conversation sentiment": "Neutral",
-            "agent professionalism": "Polite and helpful.",
-            "agent performance (out of 10)": "8",
-            "customer satisfaction (out of 10)": "7",
-            "callback promise": "No",
-            "callback time": "N/A"
-        },
-        {
-            "intent": "KYC Document Inquiry",
-            "confidence": "90",
-            "keywords": "KYC what's that? tell me",
-            "products": [
-                "Loan"
-            ],
-            "issues": [
-                "Lack of awareness about KYC requirements",
-                "Failure to inform customer about KYC during application"
-            ],
-            "reasons (identified by agent)": [
-                "Oversight in informing the customer about KYC requirements"
-            ],
-            "actions of agent": [
-                "Apologized for the oversight",
-                "Explained the meaning of KYC",
-                "Promised to send a list of required documents via SMS"
-            ],
-            "resolution_status": "pending",
-            "resolution": "N/A",
-            "dominant emotions (customer)": [
-                "Confused",
-                "Frustrated"
-            ],
-            "conversation sentiment": "Negative",
-            "agent professionalism": "Addressed the customer's concern and provided clarification.",
-            "agent performance (out of 10)": "8",
-            "customer satisfaction (out of 10)": "6",
-            "callback promise": "No",
-            "callback time": "N/A"
+          "issue": "Customer unaware of KYC requirement.",
+          "reason(s)": "Lack of communication from the branch.",
+          "issue type": "service"
         }
-    ],
-    "interruptions by customer": "0",
-    "interruptions by agent": "0"
+      ],
+      "actions of agent": "Explained KYC and promised to send required documents via SMS.",
+      "resolution status": "pending",
+      "resolution": "N/A",
+      "dominant emotions (customer)": [
+        "confused",
+        "frustrated"
+      ],
+      "conversation sentiment": "Negative",
+      "agent professionalism": "Professional and apologetic.",
+      "agent performance (out of 10)": "9",
+      "customer satisfaction (out of 10)": "7",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ],
+  "interruptions by customer": "0",
+  "interruptions by agent": "0"
 }

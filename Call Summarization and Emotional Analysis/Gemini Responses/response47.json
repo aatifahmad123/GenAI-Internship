@@ -1,43 +1,38 @@
 {
-    "call id": "47",
-    "agent id": "5",
-    "call duration": "23",
-    "summary": "Customer reports and agent resolves unauthorized credit card charge.",
-    "intents": [
+  "call id": "47",
+  "agent id": "5",
+  "call duration": "23.60",
+  "summary": "Customer reports and agent resolves unauthorized credit card charge.",
+  "intents": [
+    {
+      "intent": "Dispute Unauthorized Charge",
+      "confidence": "95",
+      "keywords": "My credit card bills got ... paying for this nonsense.",
+      "products": [
+        "Credit Card"
+      ],
+      "issues": [
         {
-            "intent": "Report unauthorized transaction",
-            "confidence": "95",
-            "keywords": "My credit card bills...what's dis.",
-            "products": [
-                "Credit Card"
-            ],
-            "issues": [
-                "Unauthorized charge of $5000 on credit card"
-            ],
-            "reasons (identified by agent)": [
-                "Merchant error"
-            ],
-            "actions of agent": [
-                "Asked for card number and transaction date",
-                "Identified the charge as a merchant error",
-                "Initiated a dispute for the charge",
-                "Blocked the card for future transactions",
-                "Informed customer about refund timeline"
-            ],
-            "resolution_status": "resolved",
-            "resolution": "Dispute filed, refund expected in 7-10 days, card blocked.",
-            "dominant emotions (customer)": [
-                "Frustration",
-                "Anger"
-            ],
-            "conversation sentiment": "Negative",
-            "agent professionalism": "Professional and helpful",
-            "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "7",
-            "callback promise": "No",
-            "callback time": "N/A"
+          "issue": "Unauthorized $5000 charge",
+          "reason(s)": "Merchant error",
+          "issue type": "billing"
         }
-    ],
-    "interruptions by customer": "0",
-    "interruptions by agent": "0"
+      ],
+      "actions of agent": "Agent verified card details, initiated dispute, blocked transactions.",
+      "resolution status": "resolved",
+      "resolution": "Dispute filed, refund expected in 7-10 days.",
+      "dominant emotions (customer)": [
+        "frustration",
+        "anger"
+      ],
+      "conversation sentiment": "Negative",
+      "agent professionalism": "Professional and helpful.",
+      "agent performance (out of 10)": "9",
+      "customer satisfaction (out of 10)": "8",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ],
+  "interruptions by customer": "0",
+  "interruptions by agent": "0"
 }

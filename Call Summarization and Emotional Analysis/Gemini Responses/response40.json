@@ -2,55 +2,44 @@
     "call id": "40",
     "agent id": "4",
     "call duration": "26.80",
-    "summary": "Customer requests an increase to their overdraft limit.",
+    "summary": "Customer wants to increase overdraft limit and praises bank.",
     "intents": [
         {
-            "intent": "Overdraft Limit Increase",
+            "intent": "Increase Overdraft Limit",
             "confidence": "95",
-            "keywords": "I got an overdraft... how do I increase",
+            "keywords": "I got an overdraft and it's a limit?",
             "products": [
                 "Overdraft Facility"
             ],
-            "issues": [
-                "Customer wants to increase the limit on their overdraft facility."
-            ],
-            "reasons (identified by agent)": [
-                "Need to verify customer details and process required documents."
-            ],
-            "actions of agent": [
-                "Asked for account number.",
-                "Informed customer about the documentation required via email.",
-                "Promised to expedite the process once documents are received."
-            ],
-            "resolution_status": "pending",
+            "issues": [],
+            "actions of agent": "Agent asked for account number and requested customer to email documents.",
+            "resolution status": "pending",
             "resolution": "N/A",
             "dominant emotions (customer)": [
-                "Positive",
-                "Inquisitive"
+                "Happy",
+                "Eager"
             ],
-            "conversation sentiment": "Neutral",
+            "conversation sentiment": "Positive",
             "agent professionalism": "Professional and polite.",
-            "agent performance (out of 10)": "8",
+            "agent performance (out of 10)": "7",
             "customer satisfaction (out of 10)": "7",
             "callback promise": "No",
             "callback time": "N/A"
         },
         {
             "intent": "Positive Feedback",
-            "confidence": "80",
-            "keywords": "shooting this Bank... great by the way",
+            "confidence": "90",
+            "keywords": "shooting this Bank great the way",
             "products": [
                 "Banking Services"
             ],
             "issues": [],
-            "reasons (identified by agent)": [],
-            "actions of agent": [
-                "Thanked the customer for the positive feedback."
-            ],
-            "resolution_status": "resolved",
-            "resolution": "Customer provided positive feedback, and the agent acknowledged it.",
+            "actions of agent": "Agent thanked the customer.",
+            "resolution status": "resolved",
+            "resolution": "Agent acknowledged and appreciated the feedback.",
             "dominant emotions (customer)": [
-                "Positive"
+                "Positive",
+                "Appreciative"
             ],
             "conversation sentiment": "Positive",
             "agent professionalism": "Professional and polite.",

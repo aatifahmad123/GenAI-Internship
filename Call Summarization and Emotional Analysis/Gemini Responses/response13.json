@@ -1,42 +1,38 @@
 {
-    "call id": "13",
-    "agent id": "2",
-    "call duration": "29",
-    "summary": "Customer reports unauthorized charge, agent initiates chargeback.",
-    "intents": [
+  "call id": "13",
+  "agent id": "2",
+  "call duration": "29",
+  "summary": "Agent assisted customer with fraudulent credit card charge.",
+  "intents": [
+    {
+      "intent": "Fraudulent Charge Reporting",
+      "confidence": "95",
+      "keywords": "Your bank so mass my credit, see the refund in 7 to 10 days.",
+      "products": [
+        "Credit Card"
+      ],
+      "issues": [
         {
-            "intent": "Report Fraudulent Charge",
-            "confidence": "95",
-            "keywords": "Your bank so...I never made.",
-            "products": [
-                "Credit Card"
-            ],
-            "issues": [
-                "Unauthorized charge of $15000",
-                "Fraudulent transaction"
-            ],
-            "reasons (identified by agent)": [
-                "Potential fraud"
-            ],
-            "actions of agent": [
-                "Confirmed transaction details",
-                "Blocked the customer's card",
-                "Initiated a chargeback request"
-            ],
-            "resolution_status": "resolved",
-            "resolution": "Chargeback request filed; refund in 7-10 days.",
-            "dominant emotions (customer)": [
-                "Frustration",
-                "Anger"
-            ],
-            "conversation sentiment": "Negative",
-            "agent professionalism": "Professional and empathetic.",
-            "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "6",
-            "callback promise": "No",
-            "callback time": "N/A"
+          "issue": "Unauthorized charge of $15000",
+          "reason(s)": "Customer claims they did not make the transaction.",
+          "issue type": "fraud"
         }
-    ],
-    "interruptions by customer": "1",
-    "interruptions by agent": "0"
+      ],
+      "actions of agent": "Verified transaction details, blocked the card, and initiated a chargeback request.",
+      "resolution status": "resolved",
+      "resolution": "Chargeback request initiated; refund expected in 7-10 days.",
+      "dominant emotions (customer)": [
+        "frustration",
+        "anger"
+      ],
+      "conversation sentiment": "Negative",
+      "agent professionalism": "The agent remained calm and professional despite the customer's frustration.",
+      "agent performance (out of 10)": "9",
+      "customer satisfaction (out of 10)": "6",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ],
+  "interruptions by customer": "0",
+  "interruptions by agent": "0"
 }

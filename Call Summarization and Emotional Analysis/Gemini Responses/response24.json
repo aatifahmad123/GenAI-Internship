@@ -2,34 +2,26 @@
   "call id": "24",
   "agent id": "3",
   "call duration": "26",
-  "summary": "Customer activated new credit card with agent's assistance.",
+  "summary": "Customer successfully activated their new credit card with agent assistance.",
   "intents": [
     {
       "intent": "Card Activation",
       "confidence": "95",
-      "keywords": "Hi, I just got ... activate it now?",
+      "keywords": "Hi, I just got my ... activate it now?",
       "products": [
         "Credit Card"
       ],
-      "issues": [
-        "Customer needs to activate new credit card."
-      ],
-      "reasons (identified by agent)": [
-        "N/A"
-      ],
-      "actions of agent": [
-        "Offered to activate the card.",
-        "Activated the card using the card number provided by the customer."
-      ],
-      "resolution_status": "resolved",
-      "resolution": "Agent activated the customer's credit card.",
+      "issues": [],
+      "actions of agent": "Agent offered to activate the card and activated it immediately upon receiving the card number.",
+      "resolution status": "resolved",
+      "resolution": "Card was successfully activated by the agent.",
       "dominant emotions (customer)": [
         "Happy",
         "Excited",
         "Grateful"
       ],
       "conversation sentiment": "Positive",
-      "agent professionalism": "Polite and helpful.",
+      "agent professionalism": "Professional and helpful.",
       "agent performance (out of 10)": "10",
       "customer satisfaction (out of 10)": "10",
       "callback promise": "No",

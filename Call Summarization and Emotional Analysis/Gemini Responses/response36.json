@@ -2,37 +2,31 @@
   "call id": "36",
   "agent id": "4",
   "call duration": "27",
-  "summary": "The agent resolved the customer's loan account NPA status.",
+  "summary": "Agent resolved customer's loan account NPA status concern.",
   "intents": [
     {
       "intent": "NPA Status Inquiry and Resolution",
       "confidence": "95",
-      "keywords": "I am so stressed ... reported to CIBIL",
+      "keywords": "I am so stressed my loan...reported to CIBIL",
       "products": [
         "Loan Account"
       ],
       "issues": [
-        "Loan account incorrectly marked as NPA (Non-Performing Asset)",
-        "Potential negative impact on credit score"
+        {
+          "issue": "Loan account marked as NPA incorrectly",
+          "reason(s)": "Payment was missed due to a bank error.",
+          "issue type": "billing"
+        }
       ],
-      "reasons (identified by agent)": [
-        "Payment was missed due to a bank error"
-      ],
-      "actions of agent": [
-        "Confirmed loan account number",
-        "Identified the cause of the incorrect NPA status (bank error)",
-        "Corrected the NPA status",
-        "Confirmed the account is clear",
-        "Verified that the account status is reported correctly to CIBIL"
-      ],
-      "resolution_status": "resolved",
-      "resolution": "The agent corrected the NPA status and confirmed the account is clear and correctly reported to CIBIL.",
+      "actions of agent": "Confirmed account details, identified the cause of the NPA status, corrected the NPA status, and confirmed the account is clear and reported to CIBIL.",
+      "resolution status": "resolved",
+      "resolution": "Agent corrected the NPA status due to a bank error.",
       "dominant emotions (customer)": [
-        "Stressed",
-        "Worried"
+        "stressed",
+        "worried"
       ],
       "conversation sentiment": "Negative",
-      "agent professionalism": "The agent was professional and efficient in resolving the issue.",
+      "agent professionalism": "The agent was professional and helpful in resolving the issue.",
       "agent performance (out of 10)": "9",
       "customer satisfaction (out of 10)": "8",
       "callback promise": "No",

@@ -1,36 +1,32 @@
 {
     "call id": "5",
     "agent id": "1",
-    "call duration": "34",
-    "summary": "Agent resolved debit card decline due to insufficient funds.",
+    "call duration": "34.88",
+    "summary": "Agent assisted customer with debit card decline issue.",
     "intents": [
         {
-            "intent": "Debit Card Decline",
+            "intent": "Debit Card Issue",
             "confidence": "95",
-            "keywords": "Hello, my debit card ... What's the deal?",
+            "keywords": "Hello, my debit card ... what's the deal?",
             "products": [
                 "Debit Card"
             ],
             "issues": [
-                "Debit card declined at a store"
+                {
+                    "issue": "Debit card declined at store.",
+                    "reason(s)": "Insufficient funds in the account.",
+                    "issue type": "technical"
+                }
             ],
-            "reasons (identified by agent)": [
-                "Insufficient funds in the account"
-            ],
-            "actions of agent": [
-                "Verified card activity",
-                "Checked account balance",
-                "Offered fund transfer from savings account",
-                "Initiated fund transfer"
-            ],
-            "resolution_status": "resolved",
-            "resolution": "Funds transferred from savings to cover transaction.",
+            "actions of agent": "Verified card activity, identified insufficient funds, and initiated fund transfer from savings.",
+            "resolution status": "resolved",
+            "resolution": "Funds transferred from savings to cover transaction amount.",
             "dominant emotions (customer)": [
-                "Concern",
-                "Surprise"
+                "frustration",
+                "surprise"
             ],
             "conversation sentiment": "Neutral",
-            "agent professionalism": "Professional and helpful",
+            "agent professionalism": "Professional and helpful.",
             "agent performance (out of 10)": "9",
             "customer satisfaction (out of 10)": "8",
             "callback promise": "No",

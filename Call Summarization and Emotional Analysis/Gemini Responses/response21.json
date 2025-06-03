@@ -2,32 +2,28 @@
   "call id": "21",
   "agent id": "3",
   "call duration": "28",
-  "summary": "Agent enabled online transactions for the customer's debit card.",
+  "summary": "Agent enabled online transactions for customer's debit card.",
   "intents": [
     {
-      "intent": "Debit card issue",
+      "intent": "Debit Card Issue",
       "confidence": "95",
-      "keywords": "My debit card is ... transaction failed fix it.",
+      "keywords": "My debit card is not working...failed fix it.",
       "products": [
-        "Debit card"
+        "Debit Card"
       ],
       "issues": [
-        "Debit card not working for online transactions",
-        "Transaction failures"
+        {
+          "issue": "Debit card not working for online transactions.",
+          "reason(s)": "Online transactions were not enabled for the card.",
+          "issue type": "technical"
+        }
       ],
-      "reasons (identified by agent)": [
-        "Online transactions not enabled for the debit card"
-      ],
-      "actions of agent": [
-        "Identified the issue as disabled online transactions.",
-        "Offered to enable online transactions.",
-        "Enabled online transactions for the customer's debit card."
-      ],
-      "resolution_status": "resolved",
+      "actions of agent": "Agent identified the issue, offered to enable online transactions, and enabled it for the customer.",
+      "resolution status": "resolved",
       "resolution": "Agent enabled online transactions for the customer's debit card.",
       "dominant emotions (customer)": [
-        "Frustration",
-        "Impatience"
+        "frustration",
+        "urgency"
       ],
       "conversation sentiment": "Negative",
       "agent professionalism": "Professional and helpful.",

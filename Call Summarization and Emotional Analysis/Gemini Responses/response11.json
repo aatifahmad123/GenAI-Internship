@@ -2,37 +2,31 @@
     "call id": "11",
     "agent id": "2",
     "call duration": "28",
-    "summary": "Customer facing issue with mobile banking app crashing.",
+    "summary": "Customer facing mobile banking app crashing issue.",
     "intents": [
         {
-            "intent": "Mobile Banking App Issue",
+            "intent": "Technical Support",
             "confidence": "95",
-            "keywords": "I can't set up my ... everytime I try.",
+            "keywords": "I can't set up and everytime I try.",
             "products": [
                 "Mobile Banking App"
             ],
             "issues": [
-                "App crashing during setup",
-                "Inability to access mobile banking"
+                {
+                    "issue": "Mobile banking app crashing",
+                    "reason(s)": "Unknown, possibly outdated app version or compatibility issue.",
+                    "issue type": "technical"
+                }
             ],
-            "reasons (identified by agent)": [
-                "Potentially outdated app version",
-                "Possible corrupted installation"
-            ],
-            "actions of agent": [
-                "Asked for app version",
-                "Suggested uninstalling and reinstalling the app",
-                "Advised using registered mobile number to login",
-                "Offered escalation to tech support if the issue persists"
-            ],
-            "resolution_status": "pending",
+            "actions of agent": "Suggested uninstalling and reinstalling the app.",
+            "resolution status": "pending",
             "resolution": "N/A",
             "dominant emotions (customer)": [
-                "Frustration",
-                "Impatience"
+                "frustration",
+                "impatience"
             ],
             "conversation sentiment": "Negative",
-            "agent professionalism": "Agent was polite and offered a troubleshooting step.",
+            "agent professionalism": "Agent was polite and offered a solution.",
             "agent performance (out of 10)": "7",
             "customer satisfaction (out of 10)": "4",
             "callback promise": "No",

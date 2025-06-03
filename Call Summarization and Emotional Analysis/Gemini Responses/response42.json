@@ -7,57 +7,50 @@
     {
       "intent": "Loan Closure Request",
       "confidence": "95",
-      "keywords": "I want to close my... What's that about?",
+      "keywords": "I want to close my loan...What's that about?",
       "products": [
         "Loan"
       ],
       "issues": [
-        "Lack of clarity on required forms for loan closure",
-        "Unfamiliarity with the term 'foreclosure'"
+        {
+          "issue": "Need to fill out a closure request form.",
+          "reason(s)": "Branch informed the customer about the form requirement.",
+          "issue type": "service"
+        }
       ],
-      "reasons (identified by agent)": [
-        "Customer needs to submit a foreclosure request form."
-      ],
-      "actions of agent": [
-        "Offered to help with the loan closure process.",
-        "Asked for the loan account number.",
-        "Informed the customer about the foreclosure request form.",
-        "Offered to email the form with instructions.",
-        "Explained the meaning of foreclosure."
-      ],
-      "resolution_status": "pending",
+      "actions of agent": "Agent offered to help, asked for the loan account number, and offered to email the form with instructions.",
+      "resolution status": "pending",
       "resolution": "N/A",
       "dominant emotions (customer)": [
-        "Confused",
-        "Frustrated"
+        "frustration",
+        "confusion"
       ],
       "conversation sentiment": "Neutral",
       "agent professionalism": "Professional and helpful.",
       "agent performance (out of 10)": "8",
-      "customer satisfaction (out of 10)": "7",
+      "customer satisfaction (out of 10)": "6",
       "callback promise": "No",
       "callback time": "N/A"
     },
     {
       "intent": "Information Request",
       "confidence": "90",
-      "keywords": "Ok, but what's for... nobody explain it.",
+      "keywords": "what's for closure mean?...nobody explain it.",
       "products": [
         "Loan"
       ],
       "issues": [
-        "Customer doesn't understand the meaning of 'foreclosure'."
+        {
+          "issue": "Lack of understanding of 'for closure'.",
+          "reason(s)": "Customer states nobody explained it.",
+          "issue type": "service"
+        }
       ],
-      "reasons (identified by agent)": [
-        "Lack of prior explanation regarding foreclosure terminology."
-      ],
-      "actions of agent": [
-        "Explained the meaning of foreclosure as paying off the loan early."
-      ],
-      "resolution_status": "resolved",
-      "resolution": "Agent explained the meaning of foreclosure.",
+      "actions of agent": "Agent explained the meaning of foreclosure.",
+      "resolution status": "resolved",
+      "resolution": "Agent explained that it means paying off the loan early.",
       "dominant emotions (customer)": [
-        "Confused"
+        "confusion"
       ],
       "conversation sentiment": "Neutral",
       "agent professionalism": "Professional and helpful.",

@@ -1,73 +1,60 @@
 {
-  "call id": "9",
-  "agent id": "1",
-  "call duration": "40",
-  "summary": "Customer requested EMI moratorium and inquired about CIBIL impact.",
-  "intents": [
-    {
-      "intent": "Request EMI Moratorium",
-      "confidence": "95",
-      "keywords": "I am trying to ... for couple of months.",
-      "products": [
-        "Home Loan"
-      ],
-      "issues": [
-        "Website confusing for moratorium application"
-      ],
-      "reasons (identified by agent)": [
-        "N/A"
-      ],
-      "actions of agent": [
-        "Offered assistance with moratorium process",
-        "Checked customer's eligibility for moratorium",
-        "Informed customer about 3-month moratorium eligibility"
-      ],
-      "resolution_status": "pending",
-      "resolution": "N/A",
-      "dominant emotions (customer)": [
-        "Frustration"
-      ],
-      "conversation sentiment": "Neutral",
-      "agent professionalism": "Professional and helpful.",
-      "agent performance (out of 10)": "9",
-      "customer satisfaction (out of 10)": "8",
-      "callback promise": "No",
-      "callback time": "N/A"
-    },
-    {
-      "intent": "Inquire about CIBIL score impact",
-      "confidence": "98",
-      "keywords": "Yes, please, but ... affect my CIBIL score?",
-      "products": [
-        "Home Loan",
-        "EMI Moratorium"
-      ],
-      "issues": [
-        "Concern about moratorium affecting CIBIL score"
-      ],
-      "reasons (identified by agent)": [
-        "N/A"
-      ],
-      "actions of agent": [
-        "Addressed customer's concern about CIBIL score impact",
-        "Clarified that moratorium won't directly impact CIBIL score",
-        "Informed about interest accrual during moratorium",
-        "Promised to send a detailed email with terms"
-      ],
-      "resolution_status": "resolved",
-      "resolution": "Agent clarified that moratorium won't directly impact CIBIL score and will send email with details.",
-      "dominant emotions (customer)": [
-        "Anxiety",
-        "Relief"
-      ],
-      "conversation sentiment": "Positive",
-      "agent professionalism": "Professional and informative.",
-      "agent performance (out of 10)": "10",
-      "customer satisfaction (out of 10)": "9",
-      "callback promise": "No",
-      "callback time": "N/A"
-    }
-  ],
-  "interruptions by customer": "0",
-  "interruptions by agent": "0"
+    "call id": "9",
+    "agent id": "1",
+    "call duration": "40.84",
+    "summary": "Customer requested EMI moratorium, agent checked eligibility and clarified concerns.",
+    "intents": [
+        {
+            "intent": "Request EMI Moratorium",
+            "confidence": "95",
+            "keywords": "I am trying to get and your website so confusing",
+            "products": [
+                "Home Loan"
+            ],
+            "issues": [
+                {
+                    "issue": "Website is confusing",
+                    "reason(s)": "N/A",
+                    "issue type": "service"
+                }
+            ],
+            "actions of agent": "Agent apologized, asked for loan account number, checked eligibility.",
+            "resolution status": "resolved",
+            "resolution": "Agent confirmed eligibility for 3-month moratorium.",
+            "dominant emotions (customer)": [
+                "frustration",
+                "relief"
+            ],
+            "conversation sentiment": "Positive",
+            "agent professionalism": "Professional and helpful.",
+            "agent performance (out of 10)": "9",
+            "customer satisfaction (out of 10)": "9",
+            "callback promise": "No",
+            "callback time": "N/A"
+        },
+        {
+            "intent": "Inquire about CIBIL score impact",
+            "confidence": "98",
+            "keywords": "Yes, please, but will affect my CIBIL score?",
+            "products": [
+                "Home Loan"
+            ],
+            "issues": [],
+            "actions of agent": "Agent clarified moratorium won't directly impact CIBIL score but interest will accrue.",
+            "resolution status": "resolved",
+            "resolution": "Agent explained CIBIL impact and offered to send detailed email.",
+            "dominant emotions (customer)": [
+                "anxiety",
+                "relief"
+            ],
+            "conversation sentiment": "Positive",
+            "agent professionalism": "Professional and informative.",
+            "agent performance (out of 10)": "10",
+            "customer satisfaction (out of 10)": "10",
+            "callback promise": "No",
+            "callback time": "N/A"
+        }
+    ],
+    "interruptions by customer": "0",
+    "interruptions by agent": "0"
 }

@@ -1,42 +1,32 @@
 {
-  "call id": "50",
-  "agent id": "5",
-  "call duration": "25",
-  "summary": "Customer wants to increase recurring deposit amount.",
-  "intents": [
-    {
-      "intent": "Increase Recurring Deposit Amount",
-      "confidence": "95",
-      "keywords": "I set up a ... increase the amount?",
-      "products": [
-        "Recurring Deposit"
-      ],
-      "issues": [
-        "Customer wants to increase the amount of their recurring deposit."
-      ],
-      "reasons (identified by agent)": [
-        "N/A"
-      ],
-      "actions of agent": [
-        "Asked for account number.",
-        "Informed customer about submitting a request to modify the RD.",
-        "Sent the modification form to the customer's email.",
-        "Promised to follow up once the request is processed."
-      ],
-      "resolution_status": "pending",
-      "resolution": "N/A",
-      "dominant emotions (customer)": [
-        "Happy",
-        "Inquisitive"
-      ],
-      "conversation sentiment": "Positive",
-      "agent professionalism": "The agent was polite and helpful.",
-      "agent performance (out of 10)": "9",
-      "customer satisfaction (out of 10)": "9",
-      "callback promise": "Yes",
-      "callback time": "N/A"
-    }
-  ],
-  "interruptions by customer": "1",
-  "interruptions by agent": "0"
+    "call id": "50",
+    "agent id": "5",
+    "call duration": "25",
+    "summary": "Customer wants to increase recurring deposit amount.",
+    "intents": [
+        {
+            "intent": "Increase Recurring Deposit Amount",
+            "confidence": "95",
+            "keywords": "I set up a ... increase the amount?",
+            "products": [
+                "Recurring Deposit"
+            ],
+            "issues": [],
+            "actions of agent": "Agent asked for account number and provided information on how to modify the RD amount by submitting a form via email.",
+            "resolution status": "resolved",
+            "resolution": "Agent sent the form to customer's email.",
+            "dominant emotions (customer)": [
+                "happy",
+                "satisfied"
+            ],
+            "conversation sentiment": "Positive",
+            "agent professionalism": "Professional and helpful.",
+            "agent performance (out of 10)": "9",
+            "customer satisfaction (out of 10)": "9",
+            "callback promise": "Yes",
+            "callback time": "N/A"
+        }
+    ],
+    "interruptions by customer": "0",
+    "interruptions by agent": "0"
 }

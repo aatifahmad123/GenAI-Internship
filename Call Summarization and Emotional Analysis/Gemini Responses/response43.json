@@ -2,67 +2,61 @@
     "call id": "43",
     "agent id": "5",
     "call duration": "27",
-    "summary": "Customer is irate about erroneous charge, agent resolves issue.",
+    "summary": "Agent refunded erroneous fee; customer threatened account closure.",
     "intents": [
         {
-            "intent": "Dispute Erroneous Charge",
+            "intent": "Billing Dispute",
             "confidence": "95",
             "keywords": "you are charging me...account statement SMS",
             "products": [
-                "Account statement"
+                "Bank Account"
             ],
             "issues": [
-                "Unauthorized charge of 1000 Rupees",
-                "Incorrect account statement"
+                {
+                    "issue": "Unauthorized charge",
+                    "reason(s": "Erroneous ATM withdrawal fee",
+                    "issue type": "billing"
+                }
             ],
-            "reasons (identified by agent)": [
-                "Erroneous ATM withdrawal fee"
-            ],
-            "actions of agent": [
-                "Identified the erroneous charge.",
-                "Initiated a refund process.",
-                "Promised to update the statement."
-            ],
-            "resolution_status": "resolved",
-            "resolution": "Agent processed a refund for the erroneous ATM withdrawal fee, which will reflect in the customer's account within 24 hours.",
+            "actions of agent": "Identified the erroneous fee and initiated a refund.",
+            "resolution status": "resolved",
+            "resolution": "Refund processed; customer will see it in 24 hours.",
             "dominant emotions (customer)": [
-                "Anger",
-                "Frustration"
+                "anger",
+                "frustration"
             ],
             "conversation sentiment": "Negative",
-            "agent professionalism": "Agent remained calm and professional despite the customer's anger.",
+            "agent professionalism": "Agent remained calm and professional despite customer's anger.",
             "agent performance (out of 10)": "8",
-            "customer satisfaction (out of 10)": "5",
+            "customer satisfaction (out of 10)": "4",
             "callback promise": "No",
             "callback time": "N/A"
         },
         {
             "intent": "Account Closure Threat",
-            "confidence": "80",
+            "confidence": "85",
             "keywords": "fix this or...closing my account",
             "products": [
                 "Bank Account"
             ],
             "issues": [
-                "Potential account closure due to unresolved charge dispute."
+                {
+                    "issue": "Potential account closure",
+                    "reason(s": "Customer dissatisfied with erroneous charge",
+                    "issue type": "service"
+                }
             ],
-            "reasons (identified by agent)": [
-                "Customer dissatisfaction with the erroneous charge."
-            ],
-            "actions of agent": [
-                "Addressed the customer's concern about the erroneous charge.",
-                "Initiated a refund to prevent account closure."
-            ],
-            "resolution_status": "resolved",
-            "resolution": "The agent addressed the customer's immediate concern by processing a refund, potentially preventing the account closure.",
+            "actions of agent": "Addressed the billing issue to prevent account closure.",
+            "resolution status": "pending",
+            "resolution": "N/A",
             "dominant emotions (customer)": [
-                "Anger",
-                "Threat"
+                "anger",
+                "frustration"
             ],
             "conversation sentiment": "Negative",
-            "agent professionalism": "Agent remained calm and professional despite the customer's threat.",
-            "agent performance (out of 10)": "8",
-            "customer satisfaction (out of 10)": "5",
+            "agent professionalism": "Agent attempted to resolve the issue to retain the customer.",
+            "agent performance (out of 10)": "7",
+            "customer satisfaction (out of 10)": "3",
             "callback promise": "No",
             "callback time": "N/A"
         }

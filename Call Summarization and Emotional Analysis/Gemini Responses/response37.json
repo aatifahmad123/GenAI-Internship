@@ -1,71 +1,32 @@
 {
-    "call id": "37",
-    "agent id": "4",
-    "call duration": "24",
-    "summary": "Customer requests to open a demat account.",
-    "intents": [
-        {
-            "intent": "Account Opening",
-            "confidence": "95",
-            "keywords": "I need to open ... me set it up?",
-            "products": [
-                "Demat Account"
-            ],
-            "issues": [
-                "Need assistance with opening a Demat account"
-            ],
-            "reasons (identified by agent)": [
-                "Customer wants to start trading"
-            ],
-            "actions of agent": [
-                "Asked about KYC documents",
-                "Informed about processing time",
-                "Sent the form to the customer's email",
-                "Promised to follow up on the process"
-            ],
-            "resolution_status": "pending",
-            "resolution": "N/A",
-            "dominant emotions (customer)": [
-                "Interested",
-                "Eager"
-            ],
-            "conversation sentiment": "Neutral",
-            "agent professionalism": "Professional and helpful.",
-            "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "8",
-            "callback promise": "Yes",
-            "callback time": "Once it's processed"
-        },
-        {
-            "intent": "Inquiry about Processing Time",
-            "confidence": "85",
-            "keywords": "How long is ... this gonna?",
-            "products": [
-                "Demat Account"
-            ],
-            "issues": [
-                "Customer wants to know how long the account opening process will take."
-            ],
-            "reasons (identified by agent)": [
-                "N/A"
-            ],
-            "actions of agent": [
-                "Informed the customer that it takes 2 to 3 days to process."
-            ],
-            "resolution_status": "resolved",
-            "resolution": "Agent provided the estimated processing time.",
-            "dominant emotions (customer)": [
-                "Curious",
-                "Impatient"
-            ],
-            "conversation sentiment": "Neutral",
-            "agent professionalism": "Professional and informative.",
-            "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "8",
-            "callback promise": "No",
-            "callback time": "N/A"
-        }
-    ],
-    "interruptions by customer": "1",
-    "interruptions by agent": "0"
+  "call id": "37",
+  "agent id": "4",
+  "call duration": "24",
+  "summary": "Agent assists customer in opening a demat account.",
+  "intents": [
+    {
+      "intent": "Open Demat Account",
+      "confidence": "95",
+      "keywords": "I need to open, ... start trading so",
+      "products": [
+        "Demat Account"
+      ],
+      "issues": [],
+      "actions of agent": "Agent inquired about KYC documents, informed about processing time, and sent the form.",
+      "resolution status": "pending",
+      "resolution": "N/A",
+      "dominant emotions (customer)": [
+        "Interested",
+        "Eager"
+      ],
+      "conversation sentiment": "Neutral",
+      "agent professionalism": "Professional and helpful.",
+      "agent performance (out of 10)": "9",
+      "customer satisfaction (out of 10)": "8",
+      "callback promise": "Yes",
+      "callback time": "2-3 days"
+    }
+  ],
+  "interruptions by customer": "0",
+  "interruptions by agent": "0"
 }

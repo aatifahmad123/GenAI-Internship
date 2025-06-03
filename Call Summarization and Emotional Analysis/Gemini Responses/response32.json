@@ -7,29 +7,23 @@
         {
             "intent": "Card Issue",
             "confidence": "95",
-            "keywords": "Hello, I tried using the ATM...What's wrong?",
+            "keywords": "Hello, I tried using the What's wrong?",
             "products": [
-                "ATM",
-                "Debit Card"
+                "ATM Card"
             ],
             "issues": [
-                "Card declined at ATM",
-                "Invalid card error"
+                {
+                    "issue": "Card invalid at ATM",
+                    "reason(s)": "Card deactivated due to inactivity",
+                    "issue type": "technical"
+                }
             ],
-            "reasons (identified by agent)": [
-                "Card deactivated due to inactivity"
-            ],
-            "actions of agent": [
-                "Checked card status",
-                "Offered to issue a new card or reactivate the existing one",
-                "Reactivated the card",
-                "Confirmed reactivation and promised confirmation"
-            ],
-            "resolution_status": "resolved",
-            "resolution": "Card reactivated and customer can use it immediately.",
+            "actions of agent": "Verified account, identified card status, reactivated card, and promised confirmation.",
+            "resolution status": "resolved",
+            "resolution": "Card reactivated.",
             "dominant emotions (customer)": [
-                "Frustration",
-                "Confusion"
+                "frustration",
+                "confusion"
             ],
             "conversation sentiment": "Negative",
             "agent professionalism": "Professional and helpful.",

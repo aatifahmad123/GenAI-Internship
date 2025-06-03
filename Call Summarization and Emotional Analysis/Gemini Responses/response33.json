@@ -1,73 +1,66 @@
 {
-    "call id": "33",
-    "agent id": "4",
-    "call duration": "31",
-    "summary": "Customer inquires about business loan application status and speed.",
-    "intents": [
+  "call id": "33",
+  "agent id": "4",
+  "call duration": "31",
+  "summary": "Customer inquires about business loan application status, agent escalates.",
+  "intents": [
+    {
+      "intent": "Check Loan Application Status",
+      "confidence": "95",
+      "keywords": "I applied for a business ... get an update?",
+      "products": [
+        "Business Loan"
+      ],
+      "issues": [
         {
-            "intent": "Check Loan Application Status",
-            "confidence": "95",
-            "keywords": "I applied for a ... get an update?",
-            "products": [
-                "Business Loan"
-            ],
-            "issues": [
-                "Delayed loan application processing",
-                "Lack of updates on application status"
-            ],
-            "reasons (identified by agent)": [
-                "Application is in final review."
-            ],
-            "actions of agent": [
-                "Requested application ID.",
-                "Checked application status.",
-                "Informed customer about the final review stage.",
-                "Promised to escalate the application for priority processing."
-            ],
-            "resolution_status": "pending",
-            "resolution": "N/A",
-            "dominant emotions (customer)": [
-                "Anxious",
-                "Impatient"
-            ],
-            "conversation sentiment": "Negative",
-            "agent professionalism": "Agent was polite and helpful.",
-            "agent performance (out of 10)": "8",
-            "customer satisfaction (out of 10)": "6",
-            "callback promise": "No",
-            "callback time": "N/A"
-        },
-        {
-            "intent": "Expedite Loan Processing",
-            "confidence": "90",
-            "keywords": "48 hours can't ... business here.",
-            "products": [
-                "Business Loan"
-            ],
-            "issues": [
-                "Need for faster loan approval due to business needs"
-            ],
-            "reasons (identified by agent)": [
-                "Customer is losing business due to the delay."
-            ],
-            "actions of agent": [
-                "Acknowledged customer's urgency.",
-                "Promised to escalate the application to the loan team for priority processing."
-            ],
-            "resolution_status": "pending",
-            "resolution": "N/A",
-            "dominant emotions (customer)": [
-                "Frustrated",
-                "Urgent"
-            ],
-            "conversation sentiment": "Negative",
-            "agent professionalism": "Agent was understanding and offered a solution.",
-            "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "7",
-            "callback promise": "No",
-            "callback time": "N/A"
+          "issue": "Delayed loan approval",
+          "reason(s)": "Application is in final review.",
+          "issue type": "service"
         }
-    ],
-    "interruptions by customer": "0",
-    "interruptions by agent": "0"
+      ],
+      "actions of agent": "Checked application status and provided an estimated approval timeframe.",
+      "resolution status": "pending",
+      "resolution": "N/A",
+      "dominant emotions (customer)": [
+        "frustration",
+        "anxiety"
+      ],
+      "conversation sentiment": "Negative",
+      "agent professionalism": "Agent was polite but had some unclear speech.",
+      "agent performance (out of 10)": "7",
+      "customer satisfaction (out of 10)": "4",
+      "callback promise": "No",
+      "callback time": "N/A"
+    },
+    {
+      "intent": "Escalation Request",
+      "confidence": "85",
+      "keywords": "48 hours can't you ... business here.",
+      "products": [
+        "Business Loan"
+      ],
+      "issues": [
+        {
+          "issue": "Need for faster processing",
+          "reason(s)": "Customer is losing business due to the delay.",
+          "issue type": "service"
+        }
+      ],
+      "actions of agent": "Agent escalated the application for priority processing.",
+      "resolution status": "pending",
+      "resolution": "N/A",
+      "dominant emotions (customer)": [
+        "frustration",
+        "urgency"
+      ],
+      "conversation sentiment": "Negative",
+      "agent professionalism": "Agent attempted to address the customer's urgency.",
+      "agent performance (out of 10)": "8",
+      "customer satisfaction (out of 10)": "6",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ],
+  "interruptions by customer": "0",
+  "interruptions by agent": "0"
 }

@@ -1,69 +1,42 @@
 {
-    "call id": "48",
-    "agent id": "5",
-    "call duration": "24",
-    "summary": "Customer unable to login, agent fixed OTP issue.",
-    "intents": [
+  "call id": "48",
+  "agent id": "5",
+  "call duration": "24",
+  "summary": "Customer unable to login to net banking, OTP not received.",
+  "intents": [
+    {
+      "intent": "Technical Support",
+      "confidence": "95",
+      "keywords": "I can't login to banking it says now.",
+      "products": [
+        "Net Banking"
+      ],
+      "issues": [
         {
-            "intent": "Login Issue",
-            "confidence": "95",
-            "keywords": "I can't login to ... I am sure it's right.",
-            "products": [
-                "Net Banking"
-            ],
-            "issues": [
-                "Unable to login",
-                "Incorrect password message displayed"
-            ],
-            "reasons (identified by agent)": [
-                "OTP not being received"
-            ],
-            "actions of agent": [
-                "Verified registered mobile number",
-                "Fixed the OTP issue"
-            ],
-            "resolution_status": "resolved",
-            "resolution": "Agent fixed the OTP issue, enabling the customer to receive it and presumably login.",
-            "dominant emotions (customer)": [
-                "Frustration"
-            ],
-            "conversation sentiment": "Negative",
-            "agent professionalism": "Professional and helpful.",
-            "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "7",
-            "callback promise": "No",
-            "callback time": "N/A"
+          "issue": "Login failure",
+          "reason(s)": "Incorrect password or system error.",
+          "issue type": "technical"
         },
         {
-            "intent": "OTP Issue",
-            "confidence": "90",
-            "keywords": "Yeah, but I don't ... what's going on.",
-            "products": [
-                "Net Banking"
-            ],
-            "issues": [
-                "OTP not received after password reset attempt"
-            ],
-            "reasons (identified by agent)": [
-                "Unspecified technical issue preventing OTP delivery"
-            ],
-            "actions of agent": [
-                "Verified registered mobile number",
-                "Fixed the OTP issue"
-            ],
-            "resolution_status": "resolved",
-            "resolution": "Agent resolved the OTP delivery issue.",
-            "dominant emotions (customer)": [
-                "Frustration"
-            ],
-            "conversation sentiment": "Negative",
-            "agent professionalism": "Professional and helpful.",
-            "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "7",
-            "callback promise": "No",
-            "callback time": "N/A"
+          "issue": "OTP not received",
+          "reason(s)": "Possible issue with SMS gateway or registered mobile number.",
+          "issue type": "technical"
         }
-    ],
-    "interruptions by customer": "0",
-    "interruptions by agent": "0"
+      ],
+      "actions of agent": "Verified registered mobile number and fixed the OTP issue.",
+      "resolution status": "resolved",
+      "resolution": "OTP issue resolved, customer should receive OTP now.",
+      "dominant emotions (customer)": [
+        "frustration"
+      ],
+      "conversation sentiment": "Negative",
+      "agent professionalism": "The agent was polite and helpful.",
+      "agent performance (out of 10)": "8",
+      "customer satisfaction (out of 10)": "7",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ],
+  "interruptions by customer": "0",
+  "interruptions by agent": "0"
 }

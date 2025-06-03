@@ -5,29 +5,25 @@
   "summary": "Customer inquires about delayed credit limit increase request.",
   "intents": [
     {
-      "intent": "Check Credit Limit Increase Status",
+      "intent": "Check credit limit increase status",
       "confidence": "95",
       "keywords": "I requested a credit ... what's the hold up?",
       "products": [
         "Credit Card"
       ],
       "issues": [
-        "Delay in processing credit limit increase request",
-        "Lack of communication regarding the status of the request"
+        {
+          "issue": "Delay in processing credit limit increase request",
+          "reason(s)": "Request is under review.",
+          "issue type": "service"
+        }
       ],
-      "reasons (identified by agent)": [
-        "Request is under review"
-      ],
-      "actions of agent": [
-        "Checked the status of the credit limit increase request",
-        "Expedited the request",
-        "Promised an update by end of day"
-      ],
-      "resolution_status": "pending",
+      "actions of agent": "Checked the status of the request and expedited it.",
+      "resolution status": "pending",
       "resolution": "N/A",
       "dominant emotions (customer)": [
-        "Impatient",
-        "Anxious"
+        "frustration",
+        "impatience"
       ],
       "conversation sentiment": "Negative",
       "agent professionalism": "Agent was polite and helpful.",
@@ -35,8 +31,30 @@
       "customer satisfaction (out of 10)": "6",
       "callback promise": "No",
       "callback time": "N/A"
+    },
+    {
+      "intent": "Expedite credit limit increase",
+      "confidence": "90",
+      "keywords": "Tomorrow can't you ... a big purchase.",
+      "products": [
+        "Credit Card"
+      ],
+      "issues": [],
+      "actions of agent": "Prioritized the request and promised an update by end of day.",
+      "resolution status": "pending",
+      "resolution": "N/A",
+      "dominant emotions (customer)": [
+        "urgency",
+        "anxiety"
+      ],
+      "conversation sentiment": "Neutral",
+      "agent professionalism": "Agent was accommodating and tried to meet customer's needs.",
+      "agent performance (out of 10)": "9",
+      "customer satisfaction (out of 10)": "7",
+      "callback promise": "No",
+      "callback time": "N/A"
     }
   ],
-  "interruptions by customer": "1",
+  "interruptions by customer": "0",
   "interruptions by agent": "0"
 }

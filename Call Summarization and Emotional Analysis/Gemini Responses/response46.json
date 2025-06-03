@@ -1,38 +1,32 @@
 {
   "call id": "46",
   "agent id": "5",
-  "call duration": "26",
+  "call duration": "26.64",
   "summary": "Agent resolved customer's loan payment issue and updated CIBIL.",
   "intents": [
     {
       "intent": "Payment Issue",
       "confidence": "95",
-      "keywords": "I am panicking my ... confirm with CIBIL",
+      "keywords": "I am panicking my...confirm with CIBIL",
       "products": [
         "Loan Account"
       ],
       "issues": [
-        "Loan account showing a missed payment despite customer having paid it.",
-        "Potential negative impact on customer's credit score."
+        {
+          "issue": "Missed payment showing on loan account despite payment made.",
+          "reason(s)": "Payment was delayed due to a processing error.",
+          "issue type": "technical"
+        }
       ],
-      "reasons (identified by agent)": [
-        "Payment was delayed due to a processing error."
-      ],
-      "actions of agent": [
-        "Identified the processing error.",
-        "Updated the loan account status to reflect the payment.",
-        "Confirmed the account is up to date.",
-        "Confirmed with CIBIL."
-      ],
-      "resolution_status": "resolved",
-      "resolution": "The agent updated the loan account status and confirmed with CIBIL.",
+      "actions of agent": "Identified the processing error, updated the account status, and confirmed with CIBIL.",
+      "resolution status": "resolved",
+      "resolution": "Account status updated to reflect correct payment status.",
       "dominant emotions (customer)": [
-        "Panic",
-        "Anxiety",
-        "Relief"
+        "anxious",
+        "relieved"
       ],
       "conversation sentiment": "Positive",
-      "agent professionalism": "The agent was helpful and reassuring.",
+      "agent professionalism": "The agent was helpful and efficient in resolving the issue.",
       "agent performance (out of 10)": "9",
       "customer satisfaction (out of 10)": "9",
       "callback promise": "No",
