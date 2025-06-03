@@ -1,0 +1,42 @@
+Calls Table (Columns)
+
+Call Id
+Agent Id
+Duration
+Transcript
+Summary
+Number of Intents Identified
+Intent 1 Id: GI1
+Intent 2 Id: GI2..GI3..GI3
+Interruptions by Customer
+Interruptions by Agent
+
+
+Intents Table (Columns)
+
+Intent Id
+Intent
+Confidence
+Keywords
+Products
+Issues
+Reasons (identified by agent)
+Actions of agent
+Resolution status
+Resolution
+Dominant Emotions (Customer)
+Conversation Sentiment
+Agent Professionalism
+Agent Performance (out of 10)
+Customer Satisfaction (out of 10)
+Callback Promise
+Callback Time
+
+Agents Table (Columns)
+
+Agent Id
+Chirp3 HD Voice
+Gender
+Number of Customers Handled
+Average Performance Score
+Average Customer Satisfaction

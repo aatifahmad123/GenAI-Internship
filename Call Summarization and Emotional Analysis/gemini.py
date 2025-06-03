@@ -14,7 +14,7 @@ print("GEMINI_API_KEY found:", GEMINI_API_KEY is not None)
 agents = 5
 calls_per_agent = 10
 
-def get_gemini_response(transcription,timestamps, agent_id, call_id):
+def get_gemini_response(transcription,timestamps,metadata, agent_id, call_id):
     client = genai.Client(api_key=GEMINI_API_KEY)
 
     prompt = (
@@ -28,7 +28,7 @@ def get_gemini_response(transcription,timestamps, agent_id, call_id):
         {{
             "call id": "<Unique identifier for the call>",
             "agent id": "<Unique identifier for the agent>",
-            "call duration": "<Duration of the call in seconds>",
+            "call duration": "<Duration of the call in seconds, you can get this from metadata file>",
             "summary": "<One professional sentence, no more than 10 words>",
             "intents": [
                 {{
@@ -61,6 +61,8 @@ def get_gemini_response(transcription,timestamps, agent_id, call_id):
         
         Timestamps: {timestamps}
         
+        Metadata: {metadata}
+        
         Please ensure the JSON is well-formed and valid.
         ''')
     
@@ -82,6 +84,7 @@ for i in range(1, agents + 1):
         callDir = f'Call {j:02d}'
         transcriptionFile = f'{agentDir}/{callDir}/transcription.txt'
         timestampsFile = f'{agentDir}/{callDir}/timestamps.json'
+        metadataFile = f'{agentDir}/{callDir}/metadata.txt'
         responsesFile = f'Gemini Responses/response{responseNumber:02d}.json'
         
         with open(transcriptionFile, 'r') as file:
@@ -89,11 +92,14 @@ for i in range(1, agents + 1):
             
         with open(timestampsFile, 'r') as file:
             timestamps = file.read()
+            
+        with open(metadataFile, 'r') as file:
+            metadata = file.read()
         
         agent_id = i
         call_id = 10 * (i-1) + j
         
-        response = get_gemini_response(transcription,timestamps, agent_id, call_id)
+        response = get_gemini_response(transcription,timestamps,metadata,agent_id,call_id)
         
         if response.startswith("```json"):
             response = response.lstrip("```json").strip()
