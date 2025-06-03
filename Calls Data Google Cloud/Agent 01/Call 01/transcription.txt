@@ -1,6 +1,13 @@
-Customer: Hey, I've been charged twice on my credit card for the same transaction. This is ridiculous.
-Agent: I am so sorry to hear that sir. Can you share the transaction details so I can check the charge back status?
-Customer: It's from last week some restaurant bill 5000 I saw it twice on my statement.
-Agent: Got it. Let me pull up your account its sounds like a duplicate charge. We can initiate a chargeback request right away.
-Customer: You better I can't keep paying for your mistakes.
-Agent: Absolutely, I understand your frustration. I like this for a refund and it should reflect in 5 to 7 business days.
+Customer: Arvind charged voice on my credit card for the same transaction. This is reticulus.
+Agent: I am so sorry to hear that sir. Could you please
+Customer: No, seriously, this is the second time something like this is happened. I just checked my statement and
+Agent: I completely understand your frustration. If you could just share the transaction details I can.
+Customer: It's from last week some restaurant bill 5200. I saw it twice write their two lines.
+Agent: Thank you for that info. Let me pull up your account and
+Customer: And don't tell me to take weeks to fix ok, I need that money back.
+Agent: Of course sir. It sounds like a duplicate charge. I can initiate a chargeback request try to way.
+Customer: You better I can't keep paying for your mistakes. This is just not acceptable.
+Agent: Absolutely, I understand. I have already flag this for a refund.
+Customer: How long is this going to take? I need to know.
+Agent: It should reflect in 5 to 7 business days. I'll keep you updated every step of the way.
+Customer: Find just make sure it happens this time.

@@ -1,7 +1,13 @@
-Customer: Hello, I applied for a personal loan last month but nobody store me what's happening with?
-Agent: Good afternoon, sir. I be happy to check this status. Could you provide your application ID or full name?
-Customer: It's Priyansh Sharma I don't have any ID number nobody gave me one.
-Agent: No worries. I can search by name one moment. It looks like your application is under review due to a pending CIBIL score update.
-Customer: CIBIL what's that? Nobody told me about this.
-Agent: Apologize for the confusion civil is your credit score and their waiting for the latest report. I'll escalate this to expedite the process.
-Customer: Ok, please do it fast. I need the money soon.
+Customer: Hey, I've been charged twice on my credit card for the same transaction. This is ridiculous.
+Agent: I am so sorry to hear that sir. Could you please
+Customer: No, seriously, this is the second time something like this has happened. I just check my statement and
+Agent: I completely understand your frustration. If you could just share the transaction details I can.
+Customer: It's from last week some restaurant bill 5000. I saw it twice write their two lines.
+Agent: Thank you for that info. Let me pull up your account and
+Customer: And don't tell me it will take weeks to fix ok, I need that money back.
+Agent: It sounds like a duplicate charge. I can initiate a chargeback request write.
+Customer: You better I can't keep paying for your mistakes. This is just not acceptable.
+Agent: Absolutely, I understand. I already flag this for a refund and
+Customer: How long is this going to take? I need to know.
+Agent: It should reflect in 5 to 7 business days. I'll keep you updated every step of the way.
+Customer: Find just make sure it happens this time.

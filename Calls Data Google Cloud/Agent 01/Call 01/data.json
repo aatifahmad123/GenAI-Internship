@@ -6,23 +6,51 @@
     },
     {
       "speaker": "RM",
-      "text": "I’m so sorry to hear that, Sir. Can you share the transaction details so I can check the chargeback status?"
+      "text": "I’m so sorry to hear that, Sir. Could you please—"
     },
     {
       "speaker": "Customer",
-      "text": "It’s from last week, uh, some restaurant bill… ₹5,200. I saw it twice on my statement!"
+      "text": "No, seriously, this is the second time something like this has happened! I just checked my statement and—"
     },
     {
       "speaker": "RM",
-      "text": "Got it. Let me pull up your account. It sounds like a duplicate charge; we can initiate a chargeback request right away."
+      "text": "I completely understand your frustration. If you could just share the transaction details, I can—"
     },
     {
       "speaker": "Customer",
-      "text": "You better! I can’t keep paying for your mistakes!"
+      "text": "It’s from last week, some restaurant bill, ₹5,200. I saw it twice, right there, two lines!"
     },
     {
       "speaker": "RM",
-      "text": "Absolutely, I understand your frustration. I’ve flagged this for a refund, and it should reflect in 5-7 business days."
+      "text": "Thank you for that info. Let me pull up your account and—"
+    },
+    {
+      "speaker": "Customer",
+      "text": "And don’t tell me it’ll take weeks to fix, okay? I need that money back!"
+    },
+    {
+      "speaker": "RM",
+      "text": "Of course, Sir. It sounds like a duplicate charge; I can initiate a chargeback request right away—"
+    },
+    {
+      "speaker": "Customer",
+      "text": "You better! I can’t keep paying for your mistakes! This is just not acceptable."
+    },
+    {
+      "speaker": "RM",
+      "text": "Absolutely, I understand. I’ve already flagged this for a refund, and—"
+    },
+    {
+      "speaker": "Customer",
+      "text": "How long is this going to take? I need to know!"
+    },
+    {
+      "speaker": "RM",
+      "text": "It should reflect in 5–7 business days. I’ll keep you updated every step of the way."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Fine. Just make sure it happens this time."
     }
   ]
 }

@@ -11,10 +11,10 @@ if not GEMINI_API_KEY:
 
 print("GEMINI_API_KEY found:", GEMINI_API_KEY is not None)
 
-agents = 5
-calls_per_agent = 10
+agents = 1
+calls_per_agent = 1
 
-def get_gemini_response(transcription, agent_id, call_id):
+def get_gemini_response(transcription,timestamps, agent_id, call_id):
     client = genai.Client(api_key=GEMINI_API_KEY)
 
     prompt = (
@@ -22,6 +22,8 @@ def get_gemini_response(transcription, agent_id, call_id):
         Analyze the following call transcript and respond in the following JSON format.
         There can be multiple intents in a single call, and each intent should be captured separately in the JSON array.
         The transcription is an alternating conversation between a customer and an agent starting with the customer.
+        You may use timestamps or the nature of conversation in transcript to identify the interruptions.
+        The JSON format is as follows:
         
         {{
             "call id": "<Unique identifier for the call>",
@@ -52,9 +54,14 @@ def get_gemini_response(transcription, agent_id, call_id):
             "interruptions by agent": "<Number of times the agent interrupted the customer>",
         }}
         
-        Transcription: {transcription}
         Call ID: {call_id}
         Agent ID: {agent_id}
+        
+        Transcription: {transcription}
+        
+        Timestamps: {timestamps}
+        
+        Please ensure the JSON is well-formed and valid.
         ''')
     
     response = client.models.generate_content(
@@ -74,15 +81,19 @@ for i in range(1, agents + 1):
         agentDir = f'../Calls Data Google Cloud/Agent {i:02d}'
         callDir = f'Call {j:02d}'
         transcriptionFile = f'{agentDir}/{callDir}/transcription.txt'
+        timestampsFile = f'{agentDir}/{callDir}/timestamps.json'
         responsesFile = f'Gemini Responses/response{responseNumber:02d}.json'
         
         with open(transcriptionFile, 'r') as file:
             transcription = file.read()
+            
+        with open(timestampsFile, 'r') as file:
+            timestamps = file.read()
         
         agent_id = i
         call_id = 10 * (i-1) + j
         
-        response = get_gemini_response(transcription, agent_id, call_id)
+        response = get_gemini_response(transcription,timestamps, agent_id, call_id)
         
         if response.startswith("```json"):
             response = response.lstrip("```json").strip()

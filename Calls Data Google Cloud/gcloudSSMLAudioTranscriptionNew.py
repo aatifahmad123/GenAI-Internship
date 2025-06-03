@@ -17,7 +17,7 @@ def transcribe_multiple_audios():
     cumulative_time = 0
     speaker = "Customer"
 
-    audio_files = [f"synthesis({i}).wav" for i in range(7) if os.path.exists(os.path.join(audio_directory, f"synthesis({i}).wav"))]
+    audio_files = [f"synthesis({i}).wav" for i in range(15) if os.path.exists(os.path.join(audio_directory, f"synthesis({i}).wav"))]
 
     for audio_file in audio_files:
         file_path = os.path.join(audio_directory, audio_file)
@@ -80,8 +80,8 @@ def transcribe_multiple_audios():
     print(f"Transcript saved to {transcription_file_path} for {call_directory}")
     print(f"Timestamps saved to {timestamps_file_path} for {call_directory}")
 
-agents = ["Agent 01", "Agent 02", "Agent 03", "Agent 04", "Agent 05"]
-calls = ["Call 01", "Call 02", "Call 03", "Call 04", "Call 05", "Call 06", "Call 07", "Call 08", "Call 09", "Call 10"]
+agents = ["Agent 01"]
+calls = ["Call 02"]
 
 for agent in agents:
     for call in calls:

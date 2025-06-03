@@ -1,0 +1,6 @@
+SHOW DATABASES;
+
+USE metabase_db;
+
+SHOW TABLES;
+

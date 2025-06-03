@@ -1,37 +1,45 @@
 {
     "call id": "1",
     "agent id": "1",
-    "summary": "Customer reports duplicate charge; agent initiates chargeback.",
+    "call duration": "50",
+    "summary": "Customer reported a duplicate charge on their credit card.",
     "intents": [
         {
-            "intent": "Dispute Duplicate Charge",
+            "intent": "Report Duplicate Charge",
             "confidence": "95",
-            "keywords": "Hey, I've been charged...twice on my statement.",
-            "products": "Credit Card",
+            "keywords": "Arvind charged voice on my ... happens this time.",
+            "products": [
+                "Credit Card"
+            ],
             "issues": [
-                "Duplicate charge on credit card",
-                "Incorrect billing"
+                "Duplicate charge of $5200 from a restaurant on the credit card statement."
             ],
             "reasons (identified by agent)": [
-                "Duplicate transaction processing"
+                "System error resulting in the same transaction being processed twice."
             ],
             "actions of agent": [
-                "Identified the issue as a duplicate charge.",
-                "Offered to initiate a chargeback request.",
-                "Provided timeframe for refund (5-7 business days)."
+                "Agent apologized for the inconvenience.",
+                "Agent collected transaction details.",
+                "Agent initiated a chargeback request.",
+                "Agent flagged the issue for a refund.",
+                "Agent provided a timeframe of 5-7 business days for the refund to reflect.",
+                "Agent promised to keep the customer updated."
             ],
-            "resolution_status": "resolved",
-            "resolution": "Chargeback request initiated; refund expected in 5-7 business days.",
+            "resolution_status": "pending",
+            "resolution": "Chargeback request initiated; refund pending in 5-7 business days.",
             "dominant emotions (customer)": [
                 "Frustration",
-                "Anger"
+                "Anger",
+                "Impatience"
             ],
             "conversation sentiment": "Negative",
             "agent professionalism": "Agent remained calm and professional despite customer's frustration.",
-            "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "6",
+            "agent performance (out of 10)": "8",
+            "customer satisfaction (out of 10)": "4",
             "callback promise": "No",
             "callback time": "N/A"
         }
-    ]
+    ],
+    "interruptions by customer": "3",
+    "interruptions by agent": "0"
 }

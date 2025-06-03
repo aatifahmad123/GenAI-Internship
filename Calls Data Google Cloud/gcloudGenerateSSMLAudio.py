@@ -4,54 +4,103 @@ import os
 client = texttospeech.TextToSpeechClient()
 
 customer_voice = 'en-IN-Wavenet-B'
-agent_voice = 'en-IN-Wavenet-C'
+agent_voice = 'en-IN-Wavenet-A'
 
 ssml = f"""<speak>
   <voice name="{customer_voice}">
-    <prosody pitch="+2st" rate="medium">
-      I set up a recurring deposit, and it’s so convenient!
-      <break time="75ms"/>
-      How do I increase the amount?
+    <prosody rate="medium" volume="medium">
+      Hello? I applied for a personal loan last month, 
+      <break time="200ms"/>
+      but nobody’s told me what’s happening with it.
     </prosody>
   </voice>
 
   <voice name="{agent_voice}">
-    <prosody pitch="0st" rate="medium">
-      Glad it’s working well Sir!
-      <break time="75ms"/>
-      Can you share your account number?
+    <prosody rate="medium" pitch="-1st">
+      Good afternoon, Sir. 
+      <break time="200ms"/>
+      I’d be happy to check the status. 
+      <break time="150ms"/>
+      Could you provide your application ID or full name?
     </prosody>
   </voice>
 
   <voice name="{customer_voice}">
-    <prosody pitch="+1st" rate="medium">
-      It’s six seven, eight nine, zero one, two three, four four.
-      <break time="75ms"/>
-      Can we do it quickly?
+    <prosody rate="medium">
+      It’s Priyansh Sharma. 
+      <break time="150ms"/>
+      I don’t have any ID number… nobody gave me one!
     </prosody>
   </voice>
 
   <voice name="{agent_voice}">
-    <prosody pitch="0st" rate="medium">
-      You’ll need to submit a request to modify the RD.
-      <break time="75ms"/>
-      I’ll send the form to your email.
+    <prosody rate="medium" pitch="-1st">
+      No worries, I can search by name. 
+      <break time="150ms"/>
+      One moment—
     </prosody>
   </voice>
 
   <voice name="{customer_voice}">
-    <prosody pitch="+2st" rate="medium">
-      Awesome, thanks!
-      <break time="50ms"/>
-      You guys make banking easy.
+    <prosody rate="medium" volume="medium">
+      And please, don’t put me on hold for ages! 
+      <break time="200ms"/>
+      I’ve been waiting too long already.
     </prosody>
   </voice>
 
   <voice name="{agent_voice}">
-    <prosody pitch="0st" rate="medium">
-      Thank you Sir!
-      <break time="50ms"/>
-      The form’s sent, and I’ll follow up once it’s processed.
+    <prosody rate="medium" pitch="-1st">
+      Of course, Sir. 
+      <break time="150ms"/>
+      I’ll be as quick as possible. 
+      <break time="200ms"/>
+      It looks like your application is under review 
+      due to a pending <emphasis>CIBIL score update</emphasis>—
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium" volume="medium">
+      <emphasis>CIBIL?</emphasis> What’s that? 
+      <break time="200ms"/>
+      Nobody told me about this! 
+      <break time="150ms"/>
+      Why is it taking so long?
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody rate="medium" pitch="-1st">
+      I apologize for the confusion. 
+      <break time="200ms"/>
+      CIBIL is your <emphasis>credit score</emphasis>, 
+      and we’re waiting for the latest report—
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium" volume="medium">
+      But I need the loan <emphasis>urgently!</emphasis> 
+      <break time="150ms"/>
+      Can’t you speed it up?
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody rate="medium" pitch="-1st">
+      Absolutely, I understand the urgency. 
+      <break time="200ms"/>
+      I’ll escalate this to expedite the process 
+      and keep you updated.
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium" volume="medium">
+      Please do. 
+      <break time="150ms"/>
+      I really hope I hear back soon this time.
     </prosody>
   </voice>
 </speak>
@@ -73,7 +122,7 @@ response = client.synthesize_speech(
     audio_config=audio_config
 )
 
-output_path = "Agent 05/Call 10/ssmlAudio.wav"
+output_path = "Agent 01/Call 02/ssmlAudio.wav"
 os.makedirs(os.path.dirname(output_path), exist_ok=True)
 with open(output_path, "wb") as out:
     out.write(response.audio_content)

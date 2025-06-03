@@ -1,47 +1,95 @@
 <speak>
   <voice name="{customer_voice}">
     <prosody volume="loud">
-      <emphasis>Hey,</emphasis> I’ve been charged <emphasis level="strong">twice</emphasis> on my credit card for the same transaction!
-      <break time="400ms"/>
+      <emphasis>Hey,</emphasis> I’ve been charged <emphasis level="strong">twice</emphasis> on my credit card for the same transaction! 
+      <break time="300ms"/>
       This is <emphasis level="strong">ridiculous!</emphasis>
     </prosody>
   </voice>
+
   <voice name="{agent_voice}">
     <prosody pitch="-1st" rate="medium">
-      I’m so sorry to hear that Sir.
-      <break time="300ms"/>
-      Can you share the transaction details so I can check the chargeback status?
+      I’m so sorry to hear that, Sir. Could you please—
     </prosody>
   </voice>
+
   <voice name="{customer_voice}">
     <prosody rate="medium">
-      It’s from last week,
-      <break time="200ms"/>
-      some restaurant bill… ₹5,200.
+      No, seriously, this is the second time something like this has happened! 
       <break time="250ms"/>
-      I saw it <emphasis>twice</emphasis> on my statement!
+      I just checked my statement and—
     </prosody>
   </voice>
+
   <voice name="{agent_voice}">
-    <prosody rate="medium" pitch="-1st">
-      Got it. Let me pull up your account.
+    <prosody pitch="-1st" rate="medium">
+      I completely understand your frustration. 
       <break time="300ms"/>
-      It sounds like a <emphasis>duplicate charge</emphasis>;
-      we can initiate a chargeback request right away.
+      If you could just share the transaction details, I can—
     </prosody>
   </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium">
+      It’s from last week, some restaurant bill, ₹5,200. 
+      <break time="300ms"/>
+      I saw it <emphasis>twice,</emphasis> right there, two lines!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="-1st" rate="medium">
+      Thank you for that info. Let me pull up your account and—
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium" volume="medium">
+      And don’t tell me it’ll take weeks to fix, okay? 
+      <break time="250ms"/>
+      I need that money back!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="-1st" rate="medium">
+      Of course, Sir. It sounds like a <emphasis>duplicate charge;</emphasis> 
+      <break time="300ms"/>
+      I can initiate a chargeback request right away—
+    </prosody>
+  </voice>
+
   <voice name="{customer_voice}">
     <prosody volume="loud" rate="medium">
-      <emphasis>You better!</emphasis>
+      <emphasis>You better!</emphasis> 
       <break time="300ms"/>
-      I can’t keep paying for <emphasis>your</emphasis> mistakes!
+      I can’t keep paying for your mistakes! This is just not acceptable.
     </prosody>
   </voice>
+
   <voice name="{agent_voice}">
-    <prosody rate="medium" pitch="-1st">
-      Absolutely, I understand your frustration.
-      <break time="400ms"/>
-      I’ve flagged this for a refund, and it should reflect in <emphasis>5-7 business days.</emphasis>
+    <prosody pitch="-1st" rate="medium">
+      Absolutely, I understand. I’ve already flagged this for a refund, and—
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium">
+      How long is this going to take? I need to know!
+    </prosody>
+  </voice>
+
+  <voice name="{agent_voice}">
+    <prosody pitch="-1st" rate="medium">
+      It should reflect in <emphasis>5 to 7 business days.</emphasis> 
+      <break time="300ms"/>
+      I’ll keep you updated every step of the way.
+    </prosody>
+  </voice>
+
+  <voice name="{customer_voice}">
+    <prosody rate="medium" volume="medium">
+      Fine. Just make sure it happens this time.
     </prosody>
   </voice>
 </speak>
