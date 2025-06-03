@@ -1,41 +1,44 @@
 {
     "call id": "35",
     "agent id": "4",
-    "summary": "Agent waived a penalty fee due to insufficient funds.",
+    "call duration": "27",
+    "summary": "Agent waives cheque bounce fee and sets up alerts.",
     "intents": [
         {
-            "intent": "Inquiry about penalty fee",
+            "intent": "Fee Dispute/Inquiry",
             "confidence": "95",
-            "keywords": "Why is there a ... on my account?",
+            "keywords": "Why is there a ... anything wrong.",
             "products": [
                 "Savings Account"
             ],
             "issues": [
-                "Penalty fee of 500 rupees"
+                "Customer was charged a 500 rupees penalty.",
+                "Customer believes the fee is incorrect."
             ],
             "reasons (identified by agent)": [
-                "Cheque bounce due to insufficient funds"
+                "Cheque bounce due to insufficient funds."
             ],
             "actions of agent": [
-                "Asked for account number",
-                "Investigated the account",
-                "Waived the penalty fee",
-                "Offered to set up alerts"
+                "Investigated the account.",
+                "Identified the cheque bounce fee.",
+                "Waived the fee as a one-time gesture.",
+                "Offered to set up alerts to prevent future occurrences."
             ],
             "resolution_status": "resolved",
-            "resolution": "Penalty fee waived as a one-time gesture.",
-            "interruptions by customer": "1",
-            "interruptions by agent": "0",
+            "resolution": "The 500 rupees penalty was waived.",
             "dominant emotions (customer)": [
                 "Frustration",
-                "Confusion"
+                "Confusion",
+                "Anger"
             ],
             "conversation sentiment": "Negative",
-            "agent professionalism": "Agent was polite and helpful.",
+            "agent professionalism": "The agent was polite and helpful.",
             "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "8",
+            "customer satisfaction (out of 10)": "7",
             "callback promise": "No",
             "callback time": "N/A"
         }
-    ]
+    ],
+    "interruptions by customer": "1",
+    "interruptions by agent": "0"
 }

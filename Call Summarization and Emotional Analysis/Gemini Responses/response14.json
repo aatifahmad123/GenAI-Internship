@@ -1,12 +1,13 @@
 {
     "call id": "14",
     "agent id": "2",
-    "summary": "Customer inquires about setting up NEFT transfer.",
+    "call duration": "22",
+    "summary": "Customer inquired about setting up NEFT transfer; agent assisted.",
     "intents": [
         {
             "intent": "NEFT Transfer Setup",
             "confidence": "95",
-            "keywords": "Hey, I just open ... made that super clear.",
+            "keywords": "Hey, I just open ... super clear.",
             "products": [
                 "Savings Account",
                 "NEFT Transfer"
@@ -15,27 +16,27 @@
                 "Customer needs guidance on setting up NEFT transfer."
             ],
             "reasons (identified by agent)": [
-                "New account holder unfamiliar with NEFT setup process."
+                "New savings account, customer unfamiliar with NEFT setup process."
             ],
             "actions of agent": [
                 "Explained the process of setting up NEFT transfer via the app.",
-                "Informed the customer about required beneficiary details (account number and IFSC code).",
+                "Informed the customer about the required beneficiary details (account number and IFSC code).",
                 "Informed the customer about the 24-hour activation period."
             ],
             "resolution_status": "resolved",
-            "resolution": "Agent provided clear instructions on setting up NEFT transfer.",
-            "interruptions by customer": "0",
-            "interruptions by agent": "0",
+            "resolution": "Customer was informed on how to setup NEFT transfer.",
             "dominant emotions (customer)": [
                 "Excitement",
                 "Gratitude"
             ],
             "conversation sentiment": "Positive",
-            "agent professionalism": "Professional and helpful.",
+            "agent professionalism": "The agent was polite and helpful.",
             "agent performance (out of 10)": "10",
             "customer satisfaction (out of 10)": "10",
             "callback promise": "No",
             "callback time": "N/A"
         }
-    ]
+    ],
+    "interruptions by customer": "0",
+    "interruptions by agent": "0"
 }

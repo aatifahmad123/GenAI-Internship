@@ -7,39 +7,39 @@
         {
             "intent": "Report Duplicate Charge",
             "confidence": "95",
-            "keywords": "Arvind charged voice on my ... happens this time.",
+            "keywords": "Arvind charged voice on ... happens this time.",
             "products": [
                 "Credit Card"
             ],
             "issues": [
-                "Duplicate charge of $5200 from a restaurant on the credit card statement."
+                "Duplicate charge of $5200 from a restaurant",
+                "Previous similar incidents"
             ],
             "reasons (identified by agent)": [
-                "System error resulting in the same transaction being processed twice."
+                "System error leading to duplicate billing"
             ],
             "actions of agent": [
-                "Agent apologized for the inconvenience.",
-                "Agent collected transaction details.",
-                "Agent initiated a chargeback request.",
-                "Agent flagged the issue for a refund.",
-                "Agent provided a timeframe of 5-7 business days for the refund to reflect.",
-                "Agent promised to keep the customer updated."
+                "Account verification",
+                "Initiated chargeback request",
+                "Flagged for refund",
+                "Provided timeframe for refund (5-7 business days)",
+                "Promised to keep customer updated"
             ],
             "resolution_status": "pending",
-            "resolution": "Chargeback request initiated; refund pending in 5-7 business days.",
+            "resolution": "N/A",
             "dominant emotions (customer)": [
                 "Frustration",
                 "Anger",
                 "Impatience"
             ],
             "conversation sentiment": "Negative",
-            "agent professionalism": "Agent remained calm and professional despite customer's frustration.",
+            "agent professionalism": "The agent remained calm and professional despite the customer's anger.",
             "agent performance (out of 10)": "8",
             "customer satisfaction (out of 10)": "4",
             "callback promise": "No",
             "callback time": "N/A"
         }
     ],
-    "interruptions by customer": "3",
+    "interruptions by customer": "4",
     "interruptions by agent": "0"
 }

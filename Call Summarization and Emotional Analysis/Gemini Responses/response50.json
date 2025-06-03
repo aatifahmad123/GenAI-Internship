@@ -1,41 +1,42 @@
 {
     "call id": "50",
     "agent id": "5",
-    "summary": "Customer inquires about increasing recurring deposit amount.",
+    "call duration": "21",
+    "summary": "Customer wants to increase recurring deposit amount.",
     "intents": [
         {
             "intent": "Increase Recurring Deposit Amount",
             "confidence": "95",
-            "keywords": "I set up a...How do I increase",
+            "keywords": "I set up a and its so amount?",
             "products": [
-                "Recurring Deposit (RD)"
+                "Recurring Deposit"
             ],
             "issues": [
-                "Customer wants to increase the amount of their existing recurring deposit."
+                "Need to increase the amount of an existing recurring deposit."
             ],
             "reasons (identified by agent)": [
-                "N/A"
+                "Customer needs to submit a modification request."
             ],
             "actions of agent": [
                 "Asked for account number.",
-                "Informed customer that they need to submit a request to modify the RD.",
-                "Promised to send the modification form to the customer's email.",
-                "Promised to follow up once the request is processed."
+                "Informed customer about the modification request process.",
+                "Sent the modification form to the customer's email.",
+                "Promised to follow up on the request."
             ],
             "resolution_status": "pending",
             "resolution": "N/A",
-            "interruptions by customer": "0",
-            "interruptions by agent": "0",
             "dominant emotions (customer)": [
-                "Positive",
-                "Inquisitive"
+                "Inquisitive",
+                "Positive"
             ],
             "conversation sentiment": "Positive",
-            "agent professionalism": "Professional and helpful.",
+            "agent professionalism": "The agent was polite and helpful.",
             "agent performance (out of 10)": "9",
             "customer satisfaction (out of 10)": "9",
             "callback promise": "Yes",
-            "callback time": "Once it's processed"
+            "callback time": "N/A"
         }
-    ]
+    ],
+    "interruptions by customer": "0",
+    "interruptions by agent": "1"
 }

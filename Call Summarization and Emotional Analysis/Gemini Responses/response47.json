@@ -1,41 +1,40 @@
 {
     "call id": "47",
     "agent id": "5",
-    "summary": "Agent assisted with fraudulent credit card charge dispute.",
+    "call duration": "21",
+    "summary": "Agent disputed a fraudulent charge and blocked transactions.",
     "intents": [
         {
-            "intent": "Fraudulent Charge Dispute",
+            "intent": "Report fraudulent charge",
             "confidence": "95",
-            "keywords": "My credit card bills...paying for this nonsense.",
+            "keywords": "My credit card bills got a ... paying for this nonsense.",
             "products": [
                 "Credit Card"
             ],
             "issues": [
-                "Unauthorized charge of $5000",
-                "Unrecognized transaction"
+                "Unauthorized $5000 charge on credit card"
             ],
             "reasons (identified by agent)": [
                 "Merchant error"
             ],
             "actions of agent": [
-                "Identified the charge.",
-                "Initiated a dispute for the charge.",
-                "Blocked the card for future transactions."
+                "Initiated dispute for the charge",
+                "Blocked the card for future transactions"
             ],
             "resolution_status": "resolved",
             "resolution": "Dispute filed, refund expected in 7-10 days.",
-            "interruptions by customer": "0",
-            "interruptions by agent": "0",
             "dominant emotions (customer)": [
                 "Frustration",
                 "Anger"
             ],
             "conversation sentiment": "Negative",
-            "agent professionalism": "The agent was professional and helpful in resolving the customer's issue.",
+            "agent professionalism": "The agent was polite and helpful.",
             "agent performance (out of 10)": "9",
             "customer satisfaction (out of 10)": "7",
             "callback promise": "No",
             "callback time": "N/A"
         }
-    ]
+    ],
+    "interruptions by customer": "0",
+    "interruptions by agent": "0"
 }

@@ -1,77 +1,73 @@
 {
     "call id": "7",
     "agent id": "1",
-    "summary": "Agent addressed fraud alert, blocked card, and initiated chargeback.",
+    "call duration": "32",
+    "summary": "Agent assisted customer with a fraud transaction on card.",
     "intents": [
         {
             "intent": "Report Fraudulent Transaction",
             "confidence": "95",
-            "keywords": "I got a fraud alert...20000 transaction identite make",
+            "keywords": "I got a fraud ... identite make",
             "products": [
                 "Credit Card"
             ],
             "issues": [
-                "Unauthorized transaction",
-                "Fraudulent activity",
-                "Compromised card"
+                "Unauthorized transaction of $20000",
+                "Fraudulent activity on credit card"
             ],
             "reasons (identified by agent)": [
-                "Potential card compromise"
+                "Unauthorized use of card details"
             ],
             "actions of agent": [
-                "Blocked the card",
+                "Blocked the customer's card",
                 "Filed a fraud report",
                 "Issued a replacement card",
-                "Initiated a chargeback request",
-                "Promised to follow up"
+                "Initiated a chargeback request"
             ],
             "resolution_status": "resolved",
-            "resolution": "Card blocked, fraud report filed, chargeback initiated, replacement card issued.",
-            "interruptions by customer": "0",
-            "interruptions by agent": "0",
+            "resolution": "Card blocked, fraud report filed, replacement card issued, chargeback initiated.",
             "dominant emotions (customer)": [
                 "Worried",
                 "Anxious"
             ],
             "conversation sentiment": "Negative",
-            "agent professionalism": "Professional and reassuring.",
+            "agent professionalism": "The agent was professional and helpful.",
             "agent performance (out of 10)": "9",
             "customer satisfaction (out of 10)": "8",
             "callback promise": "Yes",
-            "callback time": "N/A"
+            "callback time": "In 7 to 10 days"
         },
         {
             "intent": "Inquire about Refund",
             "confidence": "90",
-            "keywords": "But what about my money?...Will I get it back?",
+            "keywords": "But what about ... get it back?",
             "products": [
                 "Credit Card"
             ],
             "issues": [
-                "Loss of funds due to fraudulent transaction"
+                "Loss of money due to fraudulent transaction"
             ],
             "reasons (identified by agent)": [
                 "Unauthorized transaction"
             ],
             "actions of agent": [
                 "Initiated a chargeback request",
-                "Provided timeframe for refund (7-10 days)",
-                "Promised personal follow-up"
+                "Promised to follow up personally"
             ],
             "resolution_status": "pending",
-            "resolution": "Chargeback initiated; refund expected in 7-10 days.",
-            "interruptions by customer": "0",
-            "interruptions by agent": "0",
+            "resolution": "N/A",
             "dominant emotions (customer)": [
                 "Concerned",
                 "Hopeful"
             ],
             "conversation sentiment": "Neutral",
-            "agent professionalism": "Helpful and informative.",
+            "agent professionalism": "The agent was reassuring and informative.",
             "agent performance (out of 10)": "9",
             "customer satisfaction (out of 10)": "8",
             "callback promise": "Yes",
-            "callback time": "N/A"
+            "callback time": "In 7 to 10 days"
         }
-    ]
+    ],
+    "interruptions by customer": "0",
+    "interruptions by agent": "0"
 }

@@ -1,12 +1,13 @@
 {
     "call id": "25",
     "agent id": "3",
-    "summary": "Customer inquires about and resolves unexpected bank charge.",
+    "call duration": "28",
+    "summary": "Customer inquired about a charge, agent waived the fee.",
     "intents": [
         {
             "intent": "Inquiry about unexpected charge",
             "confidence": "95",
-            "keywords": "Does a 200 rupees charge...What's this about?",
+            "keywords": "Does a 200 rupees about?",
             "products": [
                 "Savings account"
             ],
@@ -17,25 +18,25 @@
                 "Maintenance fee due to low balance (below 10000 rupees)"
             ],
             "actions of agent": [
-                "Asked for account number to investigate.",
                 "Identified the charge as a maintenance fee.",
                 "Offered to waive the fee as a one-time courtesy.",
+                "Explained the minimum balance requirement.",
                 "Offered to set up balance alerts."
             ],
             "resolution_status": "resolved",
-            "resolution": "The agent waived the 200 rupees maintenance fee.",
-            "interruptions by customer": "0",
-            "interruptions by agent": "0",
+            "resolution": "Agent waived the 200 rupees charge as a one-time courtesy.",
             "dominant emotions (customer)": [
-                "Frustration",
-                "Confusion"
+                "Confusion",
+                "Annoyance"
             ],
             "conversation sentiment": "Negative",
-            "agent professionalism": "The agent was polite and helpful in resolving the issue.",
+            "agent professionalism": "Professional and helpful.",
             "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "8",
+            "customer satisfaction (out of 10)": "7",
             "callback promise": "No",
             "callback time": "N/A"
         }
-    ]
+    ],
+    "interruptions by customer": "0",
+    "interruptions by agent": "0"
 }

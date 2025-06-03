@@ -1,42 +1,43 @@
 {
     "call id": "22",
     "agent id": "3",
-    "summary": "Customer's address update delayed due to missing signature.",
+    "call duration": "29",
+    "summary": "Agent assists customer with address update issue.",
     "intents": [
         {
-            "intent": "Address Update",
+            "intent": "Address Update Issue",
             "confidence": "95",
-            "keywords": "I went to the branch to update my address but they said it's not done yet.",
+            "keywords": "I went to the branch...expedite the update.",
             "products": [
                 "Address Update"
             ],
             "issues": [
-                "Address update not completed",
-                "Missing signature on the address update request"
+                "Address update not processed",
+                "Missing signature on the form"
             ],
             "reasons (identified by agent)": [
-                "Missing signature on the address update request"
+                "Missing signature on the form"
             ],
             "actions of agent": [
                 "Checked the status of the address update request",
                 "Identified the reason for the delay",
-                "Offered to email the required form to the customer",
-                "Offered to expedite the update once the form is submitted"
+                "Offered to email the required form",
+                "Promised to expedite the update upon form submission"
             ],
             "resolution_status": "pending",
             "resolution": "N/A",
-            "interruptions by customer": "0",
-            "interruptions by agent": "0",
             "dominant emotions (customer)": [
                 "Frustration",
                 "Confusion"
             ],
             "conversation sentiment": "Negative",
-            "agent professionalism": "Professional and helpful.",
-            "agent performance (out of 10)": "8",
-            "customer satisfaction (out of 10)": "6",
+            "agent professionalism": "The agent was polite and helpful.",
+            "agent performance (out of 10)": "9",
+            "customer satisfaction (out of 10)": "7",
             "callback promise": "No",
             "callback time": "N/A"
         }
-    ]
+    ],
+    "interruptions by customer": "0",
+    "interruptions by agent": "0"
 }

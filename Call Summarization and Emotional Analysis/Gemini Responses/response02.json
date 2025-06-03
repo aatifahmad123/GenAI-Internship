@@ -1,71 +1,46 @@
 {
-  "call id": "2",
-  "agent id": "1",
-  "summary": "Agent assists customer with personal loan application status.",
-  "intents": [
-    {
-      "intent": "Check loan application status",
-      "confidence": "95",
-      "keywords": "Hello, I applied for...what's happening with?",
-      "products": [
-        "Personal Loan"
-      ],
-      "issues": [
-        "Lack of status update on loan application",
-        "Customer unaware of application status"
-      ],
-      "reasons (identified by agent)": [
-        "Pending CIBIL score update"
-      ],
-      "actions of agent": [
-        "Checked application status using customer's name",
-        "Explained reason for delay (pending CIBIL score)",
-        "Offered to escalate the process"
-      ],
-      "resolution_status": "pending",
-      "resolution": "N/A",
-      "interruptions by customer": "0",
-      "interruptions by agent": "0",
-      "dominant emotions (customer)": [
-        "Concern",
-        "Impatience"
-      ],
-      "conversation sentiment": "Neutral",
-      "agent professionalism": "Professional and helpful.",
-      "agent performance (out of 10)": "8",
-      "customer satisfaction (out of 10)": "6",
-      "callback promise": "No",
-      "callback time": "N/A"
-    },
-    {
-      "intent": "Inquiry about CIBIL score",
-      "confidence": "90",
-      "keywords": "CIBIL what's that?...told me about this.",
-      "products": [],
-      "issues": [
-        "Customer unaware of CIBIL score and its impact on loan application"
-      ],
-      "reasons (identified by agent)": [
-        "Lack of prior communication regarding CIBIL score requirement"
-      ],
-      "actions of agent": [
-        "Explained what CIBIL score is",
-        "Apologized for the confusion"
-      ],
-      "resolution_status": "resolved",
-      "resolution": "Agent explained CIBIL score to customer.",
-      "interruptions by customer": "0",
-      "interruptions by agent": "0",
-      "dominant emotions (customer)": [
-        "Confusion",
-        "Frustration"
-      ],
-      "conversation sentiment": "Neutral",
-      "agent professionalism": "Professional and patient.",
-      "agent performance (out of 10)": "9",
-      "customer satisfaction (out of 10)": "7",
-      "callback promise": "No",
-      "callback time": "N/A"
-    }
-  ]
+    "call id": "2",
+    "agent id": "1",
+    "call duration": "47",
+    "summary": "Customer reports and resolves a duplicate charge issue.",
+    "intents": [
+        {
+            "intent": "Report Duplicate Charge",
+            "confidence": "95",
+            "keywords": "Hey, I've been charged and This is ridiculous.",
+            "products": [
+                "Credit Card"
+            ],
+            "issues": [
+                "Duplicate charge on credit card",
+                "Incorrect billing"
+            ],
+            "reasons (identified by agent)": [
+                "System error",
+                "Duplicate transaction processing"
+            ],
+            "actions of agent": [
+                "Verified transaction details",
+                "Initiated chargeback request",
+                "Flagged for refund",
+                "Provided timeframe for refund (5-7 business days)",
+                "Promised to keep customer updated"
+            ],
+            "resolution_status": "resolved",
+            "resolution": "Chargeback request initiated; refund expected in 5-7 business days.",
+            "dominant emotions (customer)": [
+                "Frustration",
+                "Anger",
+                "Impatience"
+            ],
+            "conversation sentiment": "Negative",
+            "agent professionalism": "Agent remained calm and professional despite customer's frustration.",
+            "agent performance (out of 10)": "8",
+            "customer satisfaction (out of 10)": "6",
+            "callback promise": "No",
+            "callback time": "N/A"
+        }
+    ],
+    "interruptions by customer": "5",
+    "interruptions by agent": "2"
 }

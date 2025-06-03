@@ -1,40 +1,42 @@
 {
     "call id": "13",
     "agent id": "2",
-    "summary": "Agent addresses fraudulent charge and initiates chargeback.",
+    "call duration": "24",
+    "summary": "Agent assisted customer with fraudulent credit card charge.",
     "intents": [
         {
-            "intent": "Report Fraudulent Charge",
+            "intent": "Report Fraudulent Transaction",
             "confidence": "95",
-            "keywords": "Your bank so mass...I never made.",
+            "keywords": "Your bank so mass my ... I never made.",
             "products": [
                 "Credit Card"
             ],
             "issues": [
-                "Unauthorized charge of $15000",
-                "Fraudulent transaction"
+                "Unauthorized charge of $15000 on credit card statement"
             ],
             "reasons (identified by agent)": [
                 "Potential fraud"
             ],
             "actions of agent": [
+                "Confirmed transaction details (date and merchant)",
                 "Blocked the customer's credit card",
                 "Initiated a chargeback request"
             ],
-            "resolution_status": "pending",
+            "resolution_status": "resolved",
             "resolution": "Chargeback request filed; refund expected in 7-10 days.",
-            "interruptions by customer": "0",
-            "interruptions by agent": "0",
             "dominant emotions (customer)": [
                 "Frustration",
-                "Anger"
+                "Anger",
+                "Concern"
             ],
             "conversation sentiment": "Negative",
-            "agent professionalism": "Agent remained calm and addressed the issue promptly.",
+            "agent professionalism": "Agent remained calm and professional despite customer's frustration.",
             "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "5",
+            "customer satisfaction (out of 10)": "6",
             "callback promise": "No",
             "callback time": "N/A"
         }
-    ]
+    ],
+    "interruptions by customer": "1",
+    "interruptions by agent": "0"
 }

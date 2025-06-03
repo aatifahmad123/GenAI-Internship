@@ -1,48 +1,47 @@
 {
     "call id": "42",
     "agent id": "5",
+    "call duration": "25",
     "summary": "Customer needs help closing loan and understanding the process.",
     "intents": [
         {
-            "intent": "Loan Closure Assistance",
+            "intent": "Loan Closure Request",
             "confidence": "95",
-            "keywords": "I want to fuck close my loan, but the branch ... I don't what forms the talking about.",
+            "keywords": "I want to close my ... what's that about?",
             "products": [
                 "Loan"
             ],
             "issues": [
-                "Lack of clarity on required forms for loan closure",
-                "Uncertainty about the loan closure process"
+                "Lack of information about required forms for loan closure",
+                "Unclear about the loan closure process"
             ],
             "reasons (identified by agent)": [
-                "Customer needs to submit a '4 closure request form'"
+                "Customer needs to submit a '4 closure request form'."
             ],
             "actions of agent": [
-                "Offered assistance with loan closure",
-                "Requested loan account number",
-                "Identified the required form (4 closure request form)",
-                "Offered to email the form and instructions",
+                "Offered assistance with the loan closure process",
+                "Asked for the loan account number",
+                "Informed the customer about the '4 closure request form'",
+                "Offered to email the form with instructions",
                 "Explained the meaning of 'for closure'"
             ],
             "resolution_status": "pending",
             "resolution": "N/A",
-            "interruptions by customer": "0",
-            "interruptions by agent": "0",
             "dominant emotions (customer)": [
                 "Frustration",
                 "Confusion"
             ],
-            "conversation sentiment": "Negative",
-            "agent professionalism": "Professional and helpful in explaining the process.",
+            "conversation sentiment": "Neutral",
+            "agent professionalism": "The agent was polite and helpful.",
             "agent performance (out of 10)": "8",
             "customer satisfaction (out of 10)": "6",
             "callback promise": "No",
             "callback time": "N/A"
         },
         {
-            "intent": "Clarification on 'For Closure'",
+            "intent": "Clarification of Terminology",
             "confidence": "90",
-            "keywords": "Ok, but what's for closure mean? Exactly, nobody explain it.",
+            "keywords": "Ok, but what's for ... nobody explain it.",
             "products": [
                 "Loan"
             ],
@@ -50,25 +49,24 @@
                 "Lack of understanding of the term 'for closure'"
             ],
             "reasons (identified by agent)": [
-                "Customer was not previously informed about the meaning of 'for closure'"
+                "Customer was not previously informed about the meaning of 'for closure'."
             ],
             "actions of agent": [
-                "Explained the meaning of 'for closure' as paying off the loan early",
-                "Offered to guide the customer through the form"
+                "Explained the meaning of 'for closure' as paying off the loan early."
             ],
             "resolution_status": "resolved",
             "resolution": "Agent explained the meaning of 'for closure'.",
-            "interruptions by customer": "0",
-            "interruptions by agent": "0",
             "dominant emotions (customer)": [
                 "Confusion"
             ],
             "conversation sentiment": "Neutral",
-            "agent professionalism": "Professional and patient in explaining the term.",
+            "agent professionalism": "The agent was helpful and informative.",
             "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "7",
+            "customer satisfaction (out of 10)": "8",
             "callback promise": "No",
             "callback time": "N/A"
         }
-    ]
+    ],
+    "interruptions by customer": "0",
+    "interruptions by agent": "0"
 }

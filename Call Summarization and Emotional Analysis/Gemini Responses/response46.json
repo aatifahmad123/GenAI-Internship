@@ -1,33 +1,33 @@
 {
     "call id": "46",
     "agent id": "5",
-    "summary": "Agent resolves customer's loan payment status issue.",
+    "call duration": "23",
+    "summary": "Agent resolved customer's loan payment issue promptly.",
     "intents": [
         {
-            "intent": "Inquiry about missed payment",
+            "intent": "Payment Issue",
             "confidence": "95",
-            "keywords": "I am panicking my...up my credit score.",
+            "keywords": "I am panicking my ... confirm with CIBIL",
             "products": [
                 "Loan Account"
             ],
             "issues": [
-                "Incorrectly reported missed payment",
-                "Potential negative impact on credit score"
+                "Loan account showing missed payment despite payment being made",
+                "Concern about negative impact on credit score"
             ],
             "reasons (identified by agent)": [
-                "Payment processing error"
+                "Payment was delayed due to a processing error"
             ],
             "actions of agent": [
-                "Identified the delayed payment.",
-                "Updated the payment status.",
-                "Confirmed the account is up to date.",
-                "Promised to confirm with CIBIL."
+                "Identified the processing error",
+                "Updated the account status to reflect the payment",
+                "Confirmed the account is up to date",
+                "Will confirm with CIBIL"
             ],
             "resolution_status": "resolved",
-            "resolution": "Payment status updated, account is up to date, confirmation with CIBIL promised.",
-            "interruptions by customer": "0",
-            "interruptions by agent": "0",
+            "resolution": "Account status updated and confirmed to be up to date. Agent will confirm with CIBIL.",
             "dominant emotions (customer)": [
+                "Panic",
                 "Anxiety",
                 "Relief"
             ],
@@ -38,5 +38,7 @@
             "callback promise": "No",
             "callback time": "N/A"
         }
-    ]
+    ],
+    "interruptions by customer": "0",
+    "interruptions by agent": "0"
 }

@@ -1,27 +1,42 @@
 {
     "call id": "16",
     "agent id": "2",
-    "summary": "Customer inquires about credit limit increase request status.",
+    "call duration": "26",
+    "summary": "Customer inquires about the status of credit limit increase.",
     "intents": [
         {
-            "intent": "Check Credit Limit Increase Status",
+            "intent": "Check credit limit increase status",
             "confidence": "95",
             "keywords": "I requested a credit ... what's the hold up?",
-            "products": "Credit Card",
-            "issues": "Delay in processing credit limit increase request.",
-            "reasons (identified by agent)": "Request is currently under review.",
-            "actions of agent": "Checked request status, expedited the request, promised an update by end of day.",
+            "products": [
+                "Credit card"
+            ],
+            "issues": [
+                "Delay in credit limit increase approval",
+                "Lack of communication regarding application status"
+            ],
+            "reasons (identified by agent)": [
+                "Request is under review"
+            ],
+            "actions of agent": [
+                "Checked the status of the credit limit increase request",
+                "Expedited the credit limit increase request",
+                "Promised an update by end of day"
+            ],
             "resolution_status": "pending",
             "resolution": "N/A",
-            "interruptions by customer": "0",
-            "interruptions by agent": "0",
-            "dominant emotions (customer)": ["Impatient", "Concerned"],
-            "conversation sentiment": "Neutral",
-            "agent professionalism": "Professional and apologetic.",
+            "dominant emotions (customer)": [
+                "Concern",
+                "Impatience"
+            ],
+            "conversation sentiment": "Negative",
+            "agent professionalism": "Professional and empathetic.",
             "agent performance (out of 10)": "8",
             "customer satisfaction (out of 10)": "6",
             "callback promise": "No",
             "callback time": "N/A"
         }
-    ]
+    ],
+    "interruptions by customer": "1",
+    "interruptions by agent": "0"
 }

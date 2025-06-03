@@ -1,74 +1,77 @@
 {
     "call id": "9",
     "agent id": "1",
-    "summary": "Customer requests EMI moratorium and inquires about CIBIL impact.",
+    "call duration": "36",
+    "summary": "Customer requested and received information about EMI moratorium.",
     "intents": [
         {
-            "intent": "Request EMI Moratorium",
+            "intent": "Request for EMI Moratorium",
             "confidence": "95",
-            "keywords": "I am trying to get...couple of months.",
+            "keywords": "I am trying to get ... website so confusing.",
             "products": [
-                "Home Loan"
+                "Home Loan",
+                "EMI Moratorium"
             ],
             "issues": [
-                "Difficulty navigating website",
-                "Need for EMI moratorium"
+                "Website confusing",
+                "Need a break for a couple of months"
             ],
             "reasons (identified by agent)": [
-                "Customer needs a break for a couple of months"
+                "N/A"
             ],
             "actions of agent": [
-                "Offered assistance with the moratorium process",
-                "Checked customer's eligibility",
-                "Offered to proceed with the moratorium"
+                "Apologized for the inconvenience.",
+                "Asked for loan account number.",
+                "Checked eligibility for moratorium.",
+                "Offered a 3-month moratorium."
             ],
-            "resolution_status": "pending",
-            "resolution": "Agent to send detailed email with terms.",
-            "interruptions by customer": "0",
-            "interruptions by agent": "0",
+            "resolution_status": "resolved",
+            "resolution": "Customer was informed about eligibility and offered a 3-month moratorium.",
             "dominant emotions (customer)": [
                 "Frustration",
                 "Relief"
             ],
-            "conversation sentiment": "Neutral",
-            "agent professionalism": "Polite and helpful.",
+            "conversation sentiment": "Positive",
+            "agent professionalism": "Professional and helpful.",
             "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "8",
+            "customer satisfaction (out of 10)": "9",
             "callback promise": "No",
             "callback time": "N/A"
         },
         {
-            "intent": "Inquire about CIBIL Score Impact",
-            "confidence": "90",
-            "keywords": "will it affect...clearing data.",
+            "intent": "Inquiry about CIBIL score impact",
+            "confidence": "98",
+            "keywords": "Yes, please, but will ... my CIBIL score?",
             "products": [
                 "Home Loan",
-                "CIBIL Score"
+                "EMI Moratorium"
             ],
             "issues": [
-                "Concern about negative impact on CIBIL score due to moratorium"
+                "Concern about CIBIL score being affected by moratorium"
             ],
             "reasons (identified by agent)": [
-                "Customer is concerned about their credit score."
+                "N/A"
             ],
             "actions of agent": [
-                "Addressed customer's concern about CIBIL score",
-                "Explained that moratorium won't directly impact CIBIL score but interest will accrue"
+                "Addressed the customer's concern about CIBIL score.",
+                "Clarified that moratorium won't directly impact CIBIL score.",
+                "Informed about interest accrual during moratorium.",
+                "Promised to send a detailed email with terms."
             ],
             "resolution_status": "resolved",
-            "resolution": "Agent clarified that moratorium won't directly impact CIBIL score.",
-            "interruptions by customer": "0",
-            "interruptions by agent": "0",
+            "resolution": "Customer's concern about CIBIL score was addressed and clarified.",
             "dominant emotions (customer)": [
                 "Anxiety",
                 "Relief"
             ],
             "conversation sentiment": "Positive",
-            "agent professionalism": "Knowledgeable and reassuring.",
+            "agent professionalism": "Professional and informative.",
             "agent performance (out of 10)": "10",
-            "customer satisfaction (out of 10)": "9",
+            "customer satisfaction (out of 10)": "10",
             "callback promise": "No",
             "callback time": "N/A"
         }
-    ]
+    ],
+    "interruptions by customer": "0",
+    "interruptions by agent": "0"
 }

@@ -1,41 +1,28 @@
 {
-  "call id": "38",
-  "agent id": "4",
-  "summary": "Customer's card payment stuck; agent manually processes it.",
-  "intents": [
-    {
-      "intent": "Payment Issue",
-      "confidence": "95",
-      "keywords": "My card payment stuck...taking so long.",
-      "products": "Card Payment",
-      "issues": [
-        "Payment stuck on processing for 2 days",
-        "Delay in payment processing"
-      ],
-      "reasons (identified by agent)": [
-        "Payment gateway glitch"
-      ],
-      "actions of agent": [
-        "Apologized for the delay",
-        "Requested Transaction ID or card number",
-        "Identified payment gateway glitch",
-        "Manually processed the payment",
-        "Confirmed payment completion"
-      ],
-      "resolution_status": "resolved",
-      "resolution": "Agent manually processed the payment.",
-      "interruptions by customer": "0",
-      "interruptions by agent": "0",
-      "dominant emotions (customer)": [
-        "Annoyance",
-        "Impatience"
-      ],
-      "conversation sentiment": "Negative",
-      "agent professionalism": "Agent remained professional despite customer's annoyance.",
-      "agent performance (out of 10)": "8",
-      "customer satisfaction (out of 10)": "6",
-      "callback promise": "No",
-      "callback time": "N/A"
-    }
-  ]
+    "call id": "38",
+    "agent id": "4",
+    "call duration": "22",
+    "summary": "Customer's card payment was stuck; agent resolved it manually.",
+    "intents": [
+        {
+            "intent": "Payment Issue",
+            "confidence": "95",
+            "keywords": "My card payment stuck on ... just get it d.",
+            "products": "Card Payment",
+            "issues": "Card payment stuck on processing for 2 days.",
+            "reasons (identified by agent)": "Payment gateway glitch.",
+            "actions of agent": "Manually processed the payment.",
+            "resolution_status": "resolved",
+            "resolution": "Agent manually processed the payment.",
+            "dominant emotions (customer)": "[annoyance, frustration]",
+            "conversation sentiment": "Negative",
+            "agent professionalism": "Agent was polite and helpful.",
+            "agent performance (out of 10)": "9",
+            "customer satisfaction (out of 10)": "7",
+            "callback promise": "No",
+            "callback time": "N/A"
+        }
+    ],
+    "interruptions by customer": "0",
+    "interruptions by agent": "0"
 }

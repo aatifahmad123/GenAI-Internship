@@ -1,18 +1,19 @@
 {
     "call id": "18",
     "agent id": "2",
-    "summary": "Customer needs help with car loan application error.",
+    "call duration": "25",
+    "summary": "Agent will process car loan application manually today.",
     "intents": [
         {
-            "intent": "Car Loan Application Assistance",
+            "intent": "Car Loan Application Issue",
             "confidence": "95",
-            "keywords": "I tried applying for a car loan online, but the portal keep saying error",
+            "keywords": "I tried applying for ... what's wrong?",
             "products": [
                 "Car Loan"
             ],
             "issues": [
-                "Online application error",
-                "Error during income details submission"
+                "Online portal error during car loan application",
+                "Error occurs when submitting income details"
             ],
             "reasons (identified by agent)": [
                 "System glitch",
@@ -20,23 +21,23 @@
             ],
             "actions of agent": [
                 "Offered troubleshooting steps (PDF format)",
-                "Offered manual processing of application",
-                "Requested documents via email"
+                "Offered to process application manually",
+                "Requested documents to be emailed to 'alone desk'"
             ],
             "resolution_status": "pending",
             "resolution": "N/A",
-            "interruptions by customer": "0",
-            "interruptions by agent": "0",
             "dominant emotions (customer)": [
                 "Frustration",
                 "Confusion"
             ],
-            "conversation sentiment": "Neutral",
-            "agent professionalism": "Helpful and offered solutions.",
-            "agent performance (out of 10)": "8",
+            "conversation sentiment": "Negative",
+            "agent professionalism": "The agent was helpful and offered alternative solutions.",
+            "agent performance (out of 10)": "9",
             "customer satisfaction (out of 10)": "7",
             "callback promise": "No",
             "callback time": "N/A"
         }
-    ]
+    ],
+    "interruptions by customer": "0",
+    "interruptions by agent": "0"
 }

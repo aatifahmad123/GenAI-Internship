@@ -1,38 +1,68 @@
 {
     "call id": "34",
     "agent id": "4",
+    "call duration": "20",
     "summary": "Customer inquired about redeeming credit card rewards.",
     "intents": [
         {
-            "intent": "Redeem Rewards Inquiry",
+            "intent": "Rewards Redemption",
             "confidence": "95",
-            "keywords": "I just upgraded my ... how do I redeem",
+            "keywords": "I just upgraded my and I am loving",
             "products": [
                 "Credit Card"
             ],
             "issues": [
-                "Customer needs assistance with redeeming credit card rewards."
+                "Customer wants to know how to redeem credit card rewards."
             ],
             "reasons (identified by agent)": [
                 "N/A"
             ],
             "actions of agent": [
-                "Informed the customer about redeeming rewards via the app.",
+                "Informed the customer that rewards can be redeemed via the app's rewards section.",
                 "Offered to guide the customer through the redemption process."
             ],
             "resolution_status": "resolved",
-            "resolution": "Agent provided information on how to redeem rewards.",
-            "interruptions by customer": "0",
-            "interruptions by agent": "0",
+            "resolution": "Customer was informed about the redemption process and declined further assistance.",
             "dominant emotions (customer)": [
-                "Positive"
+                "Happy",
+                "Curious"
             ],
             "conversation sentiment": "Positive",
-            "agent professionalism": "Polite and helpful.",
+            "agent professionalism": "Professional and helpful.",
             "agent performance (out of 10)": "9",
             "customer satisfaction (out of 10)": "9",
-            "callback promise": "Yes",
+            "callback promise": "No",
+            "callback time": "N/A"
+        },
+        {
+            "intent": "Clarification on Rewards Type",
+            "confidence": "90",
+            "keywords": "Gokul is it like for shopping?",
+            "products": [
+                "Credit Card Rewards"
+            ],
+            "issues": [
+                "Customer is unsure if the rewards are cashback or points."
+            ],
+            "reasons (identified by agent)": [
+                "N/A"
+            ],
+            "actions of agent": [
+                "Clarified that the rewards are points that can be converted to cashback vouchers or miles."
+            ],
+            "resolution_status": "resolved",
+            "resolution": "Agent clarified the type of rewards.",
+            "dominant emotions (customer)": [
+                "Inquisitive"
+            ],
+            "conversation sentiment": "Neutral",
+            "agent professionalism": "Professional and clear.",
+            "agent performance (out of 10)": "10",
+            "customer satisfaction (out of 10)": "10",
+            "callback promise": "No",
             "callback time": "N/A"
         }
-    ]
+    ],
+    "interruptions by customer": "0",
+    "interruptions by agent": "0"
 }

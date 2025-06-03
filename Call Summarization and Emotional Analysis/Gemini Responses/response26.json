@@ -1,45 +1,45 @@
 {
     "call id": "26",
     "agent id": "3",
-    "summary": "Agent assisted customer with manual loan payment.",
+    "call duration": "27",
+    "summary": "Agent processed manual loan payment for the customer.",
     "intents": [
         {
-            "intent": "Account Access Issue and Loan Payment",
+            "intent": "Loan Payment Assistance",
             "confidence": "95",
-            "keywords": "I am freaking out my loan payment is due, but I can't access my account to pay it.",
+            "keywords": "I am freaking out my...account is updated you are",
             "products": [
                 "Loan"
             ],
             "issues": [
                 "Inability to access account",
-                "Concern about loan payment due date",
-                "Potential impact on credit score (CIBIL)"
+                "Concern about missing loan payment",
+                "Concern about credit score impact"
             ],
             "reasons (identified by agent)": [
-                "N/A - Reason for access issue not identified"
+                "Unknown reason for account access issue"
             ],
             "actions of agent": [
-                "Offered assistance",
-                "Requested loan account number",
                 "Offered manual payment processing",
-                "Offered due date extension",
+                "Offered to extend the due date",
                 "Processed manual payment",
                 "Updated account information"
             ],
             "resolution_status": "resolved",
-            "resolution": "Manual payment processed and account updated.",
-            "interruptions by customer": "0",
-            "interruptions by agent": "0",
+            "resolution": "Manual payment was processed and account updated.",
             "dominant emotions (customer)": [
                 "Anxiety",
-                "Fear"
+                "Fear",
+                "Worry"
             ],
-            "conversation sentiment": "Negative",
-            "agent professionalism": "Professional and helpful in addressing customer's concerns.",
+            "conversation sentiment": "Positive",
+            "agent professionalism": "The agent was helpful and reassuring.",
             "agent performance (out of 10)": "9",
             "customer satisfaction (out of 10)": "9",
             "callback promise": "No",
             "callback time": "N/A"
         }
-    ]
+    ],
+    "interruptions by customer": "0",
+    "interruptions by agent": "0"
 }

@@ -1,32 +1,31 @@
 {
     "call id": "27",
     "agent id": "3",
-    "summary": "Customer inquires about withdrawing fixed deposit early.",
+    "call duration": "28",
+    "summary": "Customer requests premature withdrawal of fixed deposit.",
     "intents": [
         {
-            "intent": "Fixed Deposit Withdrawal Inquiry",
+            "intent": "Fixed Deposit Withdrawal",
             "confidence": "95",
-            "keywords": "I want to withdraw...how does that work?",
+            "keywords": "I want to withdraw ... how does that work?",
             "products": [
                 "Fixed Deposit"
             ],
             "issues": [
                 "Premature withdrawal of fixed deposit",
-                "Uncertainty about interest rate after premature withdrawal"
+                "Interest rate reduction on premature withdrawal"
             ],
             "reasons (identified by agent)": [
-                "Customer needs the money soon"
+                "Customer needs the money urgently"
             ],
             "actions of agent": [
-                "Offered assistance with the withdrawal process",
                 "Asked for FD account number",
-                "Explained the reduced interest rate for premature withdrawal",
-                "Offered to calculate the exact amount"
+                "Explained reduced interest rate on premature withdrawal",
+                "Calculated the exact amount after penalty",
+                "Initiated the withdrawal process"
             ],
-            "resolution_status": "pending",
-            "resolution": "N/A",
-            "interruptions by customer": "0",
-            "interruptions by agent": "0",
+            "resolution_status": "resolved",
+            "resolution": "Agent calculated the amount after penalty and initiated withdrawal.",
             "dominant emotions (customer)": [
                 "Inquiry",
                 "Concern",
@@ -35,9 +34,11 @@
             "conversation sentiment": "Neutral",
             "agent professionalism": "Professional and helpful.",
             "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "7",
+            "customer satisfaction (out of 10)": "8",
             "callback promise": "No",
             "callback time": "N/A"
         }
-    ]
+    ],
+    "interruptions by customer": "0",
+    "interruptions by agent": "0"
 }

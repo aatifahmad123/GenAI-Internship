@@ -1,41 +1,42 @@
 {
     "call id": "8",
     "agent id": "1",
-    "summary": "Customer inquires about setting up UPI on the app.",
+    "call duration": "20",
+    "summary": "Customer inquired about setting up UPI on the app.",
     "intents": [
         {
             "intent": "UPI Setup Assistance",
             "confidence": "95",
-            "keywords": "How do I set... paying with my phone.",
+            "keywords": "How do I set up ... with my phone.",
             "products": [
                 "Savings Account",
                 "Mobile App",
                 "UPI"
             ],
             "issues": [
-                "Customer needs guidance on setting up UPI within the app."
+                "Customer needs guidance on setting up UPI within the mobile application."
             ],
             "reasons (identified by agent)": [
-                "First-time user of the UPI feature within the app."
+                "New user unfamiliar with the app's UPI setup process."
             ],
             "actions of agent": [
-                "Provided a brief explanation of the UPI setup process.",
+                "Provided instructions on how to set up UPI within the app.",
                 "Offered to walk the customer through the process."
             ],
             "resolution_status": "resolved",
-            "resolution": "Customer understood the instructions and confirmed they could complete the setup independently.",
-            "interruptions by customer": "0",
-            "interruptions by agent": "0",
+            "resolution": "Customer understood the instructions and confirmed they could set up UPI themselves.",
             "dominant emotions (customer)": [
-                "Positive",
-                "Curious"
+                "Inquisitive",
+                "Positive"
             ],
             "conversation sentiment": "Positive",
-            "agent professionalism": "Helpful and concise.",
+            "agent professionalism": "The agent was helpful and offered assistance.",
             "agent performance (out of 10)": "9",
             "customer satisfaction (out of 10)": "9",
             "callback promise": "No",
             "callback time": "N/A"
         }
-    ]
+    ],
+    "interruptions by customer": "0",
+    "interruptions by agent": "0"
 }

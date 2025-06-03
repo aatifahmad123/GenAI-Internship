@@ -1,44 +1,47 @@
 {
   "call id": "6",
   "agent id": "1",
-  "summary": "Customer needs help linking Aadhaar to savings account.",
+  "call duration": "34",
+  "summary": "Agent assisted customer in linking Aadhaar to savings account.",
   "intents": [
     {
       "intent": "Aadhaar Linking Assistance",
       "confidence": "95",
-      "keywords": "Hello, I want to know...branch help me.",
+      "keywords": "Hello, I want to know ... that really help.",
       "products": [
         "Savings Account",
         "Aadhaar"
       ],
       "issues": [
-        "Difficulty linking Aadhaar to savings account",
+        "Difficulty in linking Aadhaar to savings account",
         "Lack of assistance at the branch",
-        "Customer unfamiliar with online processes"
+        "Customer's unfamiliarity with online processes"
       ],
       "reasons (identified by agent)": [
-        "Customer unfamiliar with online processes",
-        "Branch staff unable to provide adequate assistance"
+        "Customer may not be aware of the online process",
+        "Branch staff may be busy or unable to provide immediate assistance"
       ],
       "actions of agent": [
         "Offered to guide the customer through the process",
-        "Offered alternative solutions (branch visit or online form)",
-        "Agreed to send the form to the customer's email"
+        "Provided the option to visit the branch",
+        "Offered to send a simple form via email",
+        "Offered assistance with filling out the form"
       ],
       "resolution_status": "resolved",
-      "resolution": "Agent will send the Aadhaar linking form to the customer's email.",
-      "interruptions by customer": "0",
-      "interruptions by agent": "0",
+      "resolution": "Agent will send a form to the customer's email.",
       "dominant emotions (customer)": [
         "Frustration",
-        "Relief"
+        "Relief",
+        "Gratitude"
       ],
       "conversation sentiment": "Positive",
-      "agent professionalism": "Agent was patient, helpful, and offered multiple solutions.",
+      "agent professionalism": "The agent was polite, helpful, and offered multiple solutions.",
       "agent performance (out of 10)": "9",
       "customer satisfaction (out of 10)": "9",
       "callback promise": "No",
       "callback time": "N/A"
     }
-  ]
+  ],
+  "interruptions by customer": "0",
+  "interruptions by agent": "0"
 }

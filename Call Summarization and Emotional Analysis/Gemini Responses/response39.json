@@ -1,12 +1,13 @@
 {
     "call id": "39",
     "agent id": "4",
-    "summary": "Customer inquiries about increased loan EMI and floating rates.",
+    "call duration": "26",
+    "summary": "Customer's loan EMI increased; agent explains floating rate.",
     "intents": [
         {
             "intent": "EMI Inquiry",
             "confidence": "95",
-            "keywords": "My loan EMI is ... told me about this.",
+            "keywords": "My loan EMI is higher this month",
             "products": [
                 "Loan"
             ],
@@ -15,33 +16,33 @@
             ],
             "reasons (identified by agent)": [
                 "Floating interest rate",
-                "RBI rate hike"
+                "RBI raised rates"
             ],
             "actions of agent": [
                 "Apologized for the surprise",
                 "Asked for loan account number",
-                "Explained floating rate and RBI rate hike",
-                "Offered to check for fixed rate option"
+                "Explained the reason for the increase",
+                "Offered to check for a fixed rate option",
+                "Offered to send a comparison of fixed vs floating rates"
             ],
             "resolution_status": "pending",
             "resolution": "N/A",
-            "interruptions by customer": "0",
-            "interruptions by agent": "0",
             "dominant emotions (customer)": [
                 "Surprise",
-                "Frustration"
+                "Confusion",
+                "Annoyance"
             ],
             "conversation sentiment": "Negative",
-            "agent professionalism": "Professional and helpful.",
+            "agent professionalism": "Professional and empathetic.",
             "agent performance (out of 10)": "8",
             "customer satisfaction (out of 10)": "5",
             "callback promise": "No",
             "callback time": "N/A"
         },
         {
-            "intent": "Explanation Request",
+            "intent": "Need for Explanation",
             "confidence": "90",
-            "keywords": "I don't understand this ... explain it simply?",
+            "keywords": "I don't understand this red stuff",
             "products": [
                 "Loan"
             ],
@@ -49,25 +50,25 @@
                 "Lack of understanding of floating interest rates"
             ],
             "reasons (identified by agent)": [
-                "Customer unfamiliarity with financial terms"
+                "Customer unfamiliar with financial terms"
             ],
             "actions of agent": [
-                "Offered a simplified explanation of floating rates",
-                "Offered to send a comparison of fixed versus floating rates"
+                "Offered a simplified explanation of floating rates"
             ],
             "resolution_status": "pending",
             "resolution": "N/A",
-            "interruptions by customer": "0",
-            "interruptions by agent": "0",
             "dominant emotions (customer)": [
-                "Confusion"
+                "Confusion",
+                "Frustration"
             ],
             "conversation sentiment": "Neutral",
-            "agent professionalism": "Professional and patient.",
+            "agent professionalism": "Patient and helpful.",
             "agent performance (out of 10)": "9",
             "customer satisfaction (out of 10)": "6",
             "callback promise": "No",
             "callback time": "N/A"
         }
-    ]
+    ],
+    "interruptions by customer": "1",
+    "interruptions by agent": "0"
 }

@@ -11,8 +11,8 @@ if not GEMINI_API_KEY:
 
 print("GEMINI_API_KEY found:", GEMINI_API_KEY is not None)
 
-agents = 1
-calls_per_agent = 1
+agents = 5
+calls_per_agent = 10
 
 def get_gemini_response(transcription,timestamps, agent_id, call_id):
     client = genai.Client(api_key=GEMINI_API_KEY)

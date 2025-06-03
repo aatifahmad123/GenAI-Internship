@@ -1,46 +1,76 @@
 {
-    "call id": "29",
-    "agent id": "3",
-    "summary": "Customer needs help accessing loan balance online.",
-    "intents": [
-        {
-            "intent": "Account Access Issue",
-            "confidence": "95",
-            "keywords": "I tried checking my loan ... account not found help.",
-            "products": [
-                "Loan Account",
-                "Online Portal"
-            ],
-            "issues": [
-                "Unable to access loan balance online",
-                "Account not found error"
-            ],
-            "reasons (identified by agent)": [
-                "Account not linked to the online portal"
-            ],
-            "actions of agent": [
-                "Apologized for the inconvenience",
-                "Asked for loan account number",
-                "Identified the issue as account not being linked",
-                "Offered to link the account to the portal",
-                "Offered to send login instructions",
-                "Offered a guide",
-                "Offered further assistance via phone"
-            ],
-            "resolution_status": "resolved",
-            "resolution": "Agent linked the account and provided login instructions and a guide.",
-            "interruptions by customer": "0",
-            "interruptions by agent": "0",
-            "dominant emotions (customer)": [
-                "Frustration",
-                "Confusion"
-            ],
-            "conversation sentiment": "Neutral",
-            "agent professionalism": "The agent was polite and helpful.",
-            "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "8",
-            "callback promise": "Yes",
-            "callback time": "Same day, if needed"
-        }
-    ]
+  "call id": "29",
+  "agent id": "3",
+  "call duration": "25",
+  "summary": "Customer needs help accessing loan balance online.",
+  "intents": [
+    {
+      "intent": "Account Access Issue",
+      "confidence": "95",
+      "keywords": "I tried checking my ... account not found help.",
+      "products": [
+        "Loan"
+      ],
+      "issues": [
+        "Customer unable to access loan account online",
+        "Account not found error"
+      ],
+      "reasons (identified by agent)": [
+        "Account not linked to the online portal"
+      ],
+      "actions of agent": [
+        "Agent apologized for the inconvenience.",
+        "Agent asked for loan account number.",
+        "Agent confirmed the account was not linked.",
+        "Agent offered to link the account to the portal.",
+        "Agent offered to send login instructions."
+      ],
+      "resolution_status": "resolved",
+      "resolution": "Agent will link the account and send login instructions.",
+      "dominant emotions (customer)": [
+        "Frustration",
+        "Confusion"
+      ],
+      "conversation sentiment": "Neutral",
+      "agent professionalism": "Professional and helpful.",
+      "agent performance (out of 10)": "9",
+      "customer satisfaction (out of 10)": "8",
+      "callback promise": "No",
+      "callback time": "N/A"
+    },
+    {
+      "intent": "Assistance with Online Portal",
+      "confidence": "85",
+      "keywords": "Ok but I am ... will it be easy?",
+      "products": [
+        "Online Portal"
+      ],
+      "issues": [
+        "Customer expresses concern about ease of using online portal",
+        "Customer states they are not good with online things"
+      ],
+      "reasons (identified by agent)": [
+        "Customer's lack of familiarity with online portals"
+      ],
+      "actions of agent": [
+        "Agent reassured the customer that it is very simple.",
+        "Agent offered to send a guide.",
+        "Agent offered further assistance via phone call."
+      ],
+      "resolution_status": "resolved",
+      "resolution": "Agent provided reassurance and offered a guide and further assistance.",
+      "dominant emotions (customer)": [
+        "Anxiety",
+        "Uncertainty"
+      ],
+      "conversation sentiment": "Positive",
+      "agent professionalism": "Patient and reassuring.",
+      "agent performance (out of 10)": "10",
+      "customer satisfaction (out of 10)": "9",
+      "callback promise": "Yes",
+      "callback time": "Same day, if needed"
+    }
+  ],
+  "interruptions by customer": "0",
+  "interruptions by agent": "0"
 }

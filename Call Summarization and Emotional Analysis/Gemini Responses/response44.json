@@ -1,73 +1,72 @@
 {
-  "call id": "44",
-  "agent id": "5",
-  "summary": "Customer inquired about setting up UPI mandate on debit card.",
-  "intents": [
-    {
-      "intent": "UPI Mandate Setup",
-      "confidence": "95",
-      "keywords": "I just got my...How do I set",
-      "products": [
-        "Debit Card",
-        "UPI"
-      ],
-      "issues": [
-        "Customer needs assistance setting up UPI mandate for their new debit card."
-      ],
-      "reasons (identified by agent)": [
-        "New debit card user unfamiliar with UPI mandate setup."
-      ],
-      "actions of agent": [
-        "Informed customer about setting up UPI mandate via the app's payment section.",
-        "Offered to walk the customer through the process."
-      ],
-      "resolution_status": "resolved",
-      "resolution": "Customer declined assistance and will try setting up the UPI mandate themselves.",
-      "interruptions by customer": "0",
-      "interruptions by agent": "0",
-      "dominant emotions (customer)": [
-        "Positive",
-        "Curious"
-      ],
-      "conversation sentiment": "Positive",
-      "agent professionalism": "Polite and helpful.",
-      "agent performance (out of 10)": "9",
-      "customer satisfaction (out of 10)": "9",
-      "callback promise": "Yes",
-      "callback time": "N/A"
-    },
-    {
-      "intent": "Auto Payments Inquiry",
-      "confidence": "90",
-      "keywords": "Nice is it for...like bill?",
-      "products": [
-        "Debit Card",
-        "UPI",
-        "Auto Payments"
-      ],
-      "issues": [
-        "Customer wants to confirm if UPI mandate can be used for auto payments."
-      ],
-      "reasons (identified by agent)": [
-        "Customer seeking clarification on the functionality of UPI mandate for recurring payments."
-      ],
-      "actions of agent": [
-        "Confirmed that UPI mandate can be used for auto payments.",
-        "Explained the process of linking the card and approving recurring payments."
-      ],
-      "resolution_status": "resolved",
-      "resolution": "Customer understood the functionality of UPI mandate for auto payments.",
-      "interruptions by customer": "0",
-      "interruptions by agent": "0",
-      "dominant emotions (customer)": [
-        "Inquisitive"
-      ],
-      "conversation sentiment": "Positive",
-      "agent professionalism": "Clear and concise explanation.",
-      "agent performance (out of 10)": "9",
-      "customer satisfaction (out of 10)": "9",
-      "callback promise": "Yes",
-      "callback time": "N/A"
-    }
-  ]
+    "call id": "44",
+    "agent id": "5",
+    "call duration": "18",
+    "summary": "Customer inquired about setting up a UPI mandate.",
+    "intents": [
+        {
+            "intent": "UPI Mandate Setup",
+            "confidence": "95",
+            "keywords": "I just got my ... upi mandate?",
+            "products": [
+                "Debit Card",
+                "UPI"
+            ],
+            "issues": [
+                "Customer needs assistance with setting up a UPI mandate for their new debit card."
+            ],
+            "reasons (identified by agent)": [
+                "N/A"
+            ],
+            "actions of agent": [
+                "Informed the customer that they can set up a UPI mandate via the app's payment section.",
+                "Offered to walk the customer through the process."
+            ],
+            "resolution_status": "resolved",
+            "resolution": "Customer was informed how to set up UPI mandate and declined further assistance.",
+            "dominant emotions (customer)": [
+                "Happy",
+                "Curious"
+            ],
+            "conversation sentiment": "Positive",
+            "agent professionalism": "Professional and helpful.",
+            "agent performance (out of 10)": "9",
+            "customer satisfaction (out of 10)": "10",
+            "callback promise": "Yes",
+            "callback time": "N/A"
+        },
+        {
+            "intent": "Recurring Payments Inquiry",
+            "confidence": "90",
+            "keywords": "Nice is it for ... like bill?",
+            "products": [
+                "Debit Card",
+                "UPI",
+                "Recurring Payments"
+            ],
+            "issues": [
+                "Customer wants to know if UPI mandate can be used for auto payments like bills."
+            ],
+            "reasons (identified by agent)": [
+                "N/A"
+            ],
+            "actions of agent": [
+                "Confirmed that UPI mandate can be used for recurring payments.",
+                "Explained the process of linking the card and approving recurring payments."
+            ],
+            "resolution_status": "resolved",
+            "resolution": "Customer's query about recurring payments was answered.",
+            "dominant emotions (customer)": [
+                "Curious"
+            ],
+            "conversation sentiment": "Positive",
+            "agent professionalism": "Professional and helpful.",
+            "agent performance (out of 10)": "9",
+            "customer satisfaction (out of 10)": "10",
+            "callback promise": "No",
+            "callback time": "N/A"
+        }
+    ],
+    "interruptions by customer": "0",
+    "interruptions by agent": "0"
 }

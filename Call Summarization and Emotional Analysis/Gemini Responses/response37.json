@@ -1,41 +1,42 @@
 {
     "call id": "37",
     "agent id": "4",
-    "summary": "Customer requests assistance to open a demat account.",
+    "call duration": "21",
+    "summary": "Agent assists customer in opening a demat account.",
     "intents": [
         {
-            "intent": "Open Demat Account",
+            "intent": "Account Opening",
             "confidence": "95",
-            "keywords": "I need to open ... help me set it up?",
+            "keywords": "I need to open up?",
             "products": [
                 "Demat Account"
             ],
             "issues": [
-                "Customer needs assistance with opening a Demat account."
+                "Need assistance with opening a demat account"
             ],
             "reasons (identified by agent)": [
-                "N/A"
+                "Customer wants to start trading"
             ],
             "actions of agent": [
-                "Inquired about PAN card and KYC documents.",
-                "Informed customer about the processing time (2-3 days).",
-                "Promised to send the application form via email.",
-                "Promised to follow up on the application status."
+                "Asked for PAN and KYC documents",
+                "Informed about processing time",
+                "Sent form to customer's email",
+                "Promised to follow up"
             ],
             "resolution_status": "pending",
             "resolution": "N/A",
-            "interruptions by customer": "1",
-            "interruptions by agent": "0",
             "dominant emotions (customer)": [
-                "Inquisitive",
-                "Eagerness"
+                "Interested",
+                "Eager"
             ],
             "conversation sentiment": "Neutral",
             "agent professionalism": "Professional and helpful.",
             "agent performance (out of 10)": "9",
             "customer satisfaction (out of 10)": "8",
             "callback promise": "Yes",
-            "callback time": "N/A"
+            "callback time": "Once it's processed"
         }
-    ]
+    ],
+    "interruptions by customer": "1",
+    "interruptions by agent": "0"
 }

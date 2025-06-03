@@ -1,44 +1,43 @@
 {
     "call id": "17",
     "agent id": "2",
-    "summary": "Customer reports unauthorized withdrawal; agent freezes account.",
+    "call duration": "24",
+    "summary": "Customer reports unauthorized withdrawal; agent freezes account and investigates.",
     "intents": [
         {
-            "intent": "Report Unauthorized Transaction/Fraud",
+            "intent": "Report Unauthorized Transaction",
             "confidence": "95",
-            "keywords": "I am worried my...authorize this.",
+            "keywords": "I am worried my ... scared about this.",
             "products": [
                 "Savings Account"
             ],
             "issues": [
                 "Unauthorized withdrawal of $25000",
-                "Potential fraud",
-                "Customer's money at risk"
+                "Fear of money being stolen"
             ],
             "reasons (identified by agent)": [
-                "Unknown, requires investigation"
+                "Potential fraud"
             ],
             "actions of agent": [
-                "Account frozen",
+                "Account Frozen",
                 "Filed a fraud report",
                 "Assured customer account is secure",
                 "Promised to reverse the transaction"
             ],
             "resolution_status": "pending",
-            "resolution": "Transaction reversal promised within 5-7 days.",
-            "interruptions by customer": "0",
-            "interruptions by agent": "0",
+            "resolution": "N/A",
             "dominant emotions (customer)": [
                 "Worried",
-                "Scared",
-                "Anxious"
+                "Scared"
             ],
             "conversation sentiment": "Negative",
-            "agent professionalism": "The agent responded quickly and reassuringly.",
+            "agent professionalism": "The agent was reassuring and took immediate action.",
             "agent performance (out of 10)": "9",
             "customer satisfaction (out of 10)": "7",
-            "callback promise": "Yes",
-            "callback time": "Within 5 to 7 days"
+            "callback promise": "No",
+            "callback time": "N/A"
         }
-    ]
+    ],
+    "interruptions by customer": "0",
+    "interruptions by agent": "0"
 }

@@ -1,43 +1,44 @@
 {
     "call id": "15",
     "agent id": "2",
-    "summary": "Customer reports loan EMI payment issue and lean.",
+    "call duration": "29",
+    "summary": "Agent resolved loan EMI lean issue due to system error.",
     "intents": [
         {
-            "intent": "EMI Payment Issue and Lean Removal",
+            "intent": "Inquiry about Loan EMI and Lean on Account",
             "confidence": "95",
-            "keywords": "I paid my loan ... money locked?",
+            "keywords": "I paid my loan ending with what's going on?",
             "products": [
                 "Loan",
                 "EMI"
             ],
             "issues": [
-                "Lean on account after EMI payment",
-                "Funds locked"
+                "Lean on account despite EMI payment"
             ],
             "reasons (identified by agent)": [
-                "System error placing lean after payment processing"
+                "System error"
             ],
             "actions of agent": [
-                "Identified the issue as a system error",
+                "Checked loan account details",
+                "Identified system error causing the lean",
                 "Removed the lean",
-                "Informed the customer that funds are available",
+                "Informed customer that funds are available",
                 "Promised to send a confirmation"
             ],
             "resolution_status": "resolved",
-            "resolution": "Lean was lifted and funds were made available to the customer.",
-            "interruptions by customer": "0",
-            "interruptions by agent": "0",
+            "resolution": "Lean was lifted, and funds are available.",
             "dominant emotions (customer)": [
-                "Frustration",
-                "Concern"
+                "Concern",
+                "Frustration"
             ],
             "conversation sentiment": "Negative",
-            "agent professionalism": "Professional and helpful in resolving the issue quickly.",
+            "agent professionalism": "Professional and helpful.",
             "agent performance (out of 10)": "9",
             "customer satisfaction (out of 10)": "8",
             "callback promise": "No",
             "callback time": "N/A"
         }
-    ]
+    ],
+    "interruptions by customer": "0",
+    "interruptions by agent": "0"
 }

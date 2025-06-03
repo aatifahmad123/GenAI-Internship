@@ -1,10 +1,11 @@
 {
   "call id": "36",
   "agent id": "4",
-  "summary": "Agent resolves customer's NPA loan status concern.",
+  "call duration": "24",
+  "summary": "Agent corrected the NPA status due to bank error.",
   "intents": [
     {
-      "intent": "NPA Status Inquiry and Resolution",
+      "intent": "Loan Account NPA Status Inquiry and Rectification",
       "confidence": "95",
       "keywords": "I am so stressed...reported to CIBIL",
       "products": [
@@ -12,32 +13,32 @@
       ],
       "issues": [
         "Loan account incorrectly marked as NPA (Non-Performing Asset)",
-        "Potential negative impact on credit score"
+        "Incorrect reporting to CIBIL (Credit Information Bureau of India Limited)"
       ],
       "reasons (identified by agent)": [
-        "Missed payment due to a bank error"
+        "Payment was missed due to a bank error"
       ],
       "actions of agent": [
-        "Identified the account using the provided loan account number",
-        "Diagnosed the cause of the NPA status (bank error)",
+        "Confirmed the loan account number",
+        "Identified the cause of the NPA status",
         "Corrected the NPA status",
         "Confirmed the account is clear",
-        "Confirmed the correction will be reported to CIBIL"
+        "Confirmed it will be reported to CIBIL"
       ],
       "resolution_status": "resolved",
-      "resolution": "Agent corrected the NPA status caused by a bank error and confirmed it will be reported to CIBIL.",
-      "interruptions by customer": "0",
-      "interruptions by agent": "0",
+      "resolution": "Agent corrected the NPA status and confirmed the updated status would be reported to CIBIL.",
       "dominant emotions (customer)": [
         "Stressed",
         "Worried"
       ],
       "conversation sentiment": "Negative",
-      "agent professionalism": "Professional and helpful in resolving the issue.",
+      "agent professionalism": "The agent was professional and addressed the customer's concern effectively.",
       "agent performance (out of 10)": "9",
       "customer satisfaction (out of 10)": "8",
       "callback promise": "No",
       "callback time": "N/A"
     }
-  ]
+  ],
+  "interruptions by customer": "0",
+  "interruptions by agent": "0"
 }

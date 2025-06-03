@@ -1,42 +1,41 @@
 {
-  "call id": "48",
-  "agent id": "5",
-  "summary": "Customer unable to log in due to OTP issues.",
-  "intents": [
-    {
-      "intent": "Login Issue/OTP Problem",
-      "confidence": "95",
-      "keywords": "I can't login to...receive it now.",
-      "products": [
-        "Net Banking"
-      ],
-      "issues": [
-        "Unable to log in to net banking",
-        "Incorrect password message despite correct password",
-        "OTP not being received for password reset"
-      ],
-      "reasons (identified by agent)": [
-        "OTP delivery failure"
-      ],
-      "actions of agent": [
-        "Acknowledged the issue",
-        "Suggested password reset",
-        "Verified registered mobile number",
-        "Fixed OTP issue"
-      ],
-      "resolution_status": "resolved",
-      "resolution": "OTP issue fixed, customer should receive OTP now.",
-      "interruptions by customer": "0",
-      "interruptions by agent": "0",
-      "dominant emotions (customer)": [
-        "Frustration"
-      ],
-      "conversation sentiment": "Negative",
-      "agent professionalism": "Professional and helpful.",
-      "agent performance (out of 10)": "9",
-      "customer satisfaction (out of 10)": "7",
-      "callback promise": "No",
-      "callback time": "N/A"
-    }
-  ]
+    "call id": "48",
+    "agent id": "5",
+    "call duration": "20",
+    "summary": "Customer unable to login due to OTP issue, resolved.",
+    "intents": [
+        {
+            "intent": "Login Issue",
+            "confidence": "95",
+            "keywords": "I can't login to right.",
+            "products": [
+                "Net Banking"
+            ],
+            "issues": [
+                "Unable to login",
+                "Incorrect password",
+                "OTP not received"
+            ],
+            "reasons (identified by agent)": [
+                "OTP service down"
+            ],
+            "actions of agent": [
+                "Verified registered mobile number",
+                "Fixed OTP service"
+            ],
+            "resolution_status": "resolved",
+            "resolution": "OTP service fixed, customer should receive OTP now.",
+            "dominant emotions (customer)": [
+                "Frustration"
+            ],
+            "conversation sentiment": "Negative",
+            "agent professionalism": "Polite and helpful.",
+            "agent performance (out of 10)": "9",
+            "customer satisfaction (out of 10)": "7",
+            "callback promise": "No",
+            "callback time": "N/A"
+        }
+    ],
+    "interruptions by customer": "0",
+    "interruptions by agent": "0"
 }

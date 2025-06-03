@@ -1,41 +1,42 @@
 {
-  "call id": "41",
-  "agent id": "5",
-  "summary": "Customer needs help linking debit card to PPI wallet.",
-  "intents": [
-    {
-      "intent": "Debit card linking issue",
-      "confidence": "95",
-      "keywords": "My PPI wallet isn't linking...What's the problem?",
-      "products": [
-        "PPI Wallet",
-        "Debit Card"
-      ],
-      "issues": [
-        "Debit card not linking to PPI wallet"
-      ],
-      "reasons (identified by agent)": [
-        "Card not registered for PPI"
-      ],
-      "actions of agent": [
-        "Asked for last 4 digits of card",
-        "Enabled card for PPI",
-        "Expedited activation"
-      ],
-      "resolution_status": "resolved",
-      "resolution": "Agent enabled card for PPI and expedited activation.",
-      "interruptions by customer": "0",
-      "interruptions by agent": "0",
-      "dominant emotions (customer)": [
-        "Frustration",
-        "Urgency"
-      ],
-      "conversation sentiment": "Negative",
-      "agent professionalism": "Professional and helpful.",
-      "agent performance (out of 10)": "9",
-      "customer satisfaction (out of 10)": "7",
-      "callback promise": "No",
-      "callback time": "N/A"
-    }
-  ]
+    "call id": "41",
+    "agent id": "5",
+    "call duration": "22",
+    "summary": "Customer's PPI wallet not linking; agent resolves the issue.",
+    "intents": [
+        {
+            "intent": "Technical issue: PPI wallet linking failure",
+            "confidence": "95",
+            "keywords": "My PPI wallet isn't linking ... What's the problem?",
+            "products": [
+                "PPI Wallet",
+                "Debit Card"
+            ],
+            "issues": [
+                "PPI wallet not linking to new debit card"
+            ],
+            "reasons (identified by agent)": [
+                "Card not registered for PPI"
+            ],
+            "actions of agent": [
+                "Asked for last 4 digits of card",
+                "Enabled card for PPI",
+                "Expedited the activation process"
+            ],
+            "resolution_status": "resolved",
+            "resolution": "Agent enabled the card for PPI, resolving the linking issue immediately.",
+            "dominant emotions (customer)": [
+                "Frustration",
+                "Impatience"
+            ],
+            "conversation sentiment": "Negative",
+            "agent professionalism": "Professional and helpful.",
+            "agent performance (out of 10)": "9",
+            "customer satisfaction (out of 10)": "7",
+            "callback promise": "No",
+            "callback time": "N/A"
+        }
+    ],
+    "interruptions by customer": "0",
+    "interruptions by agent": "0"
 }

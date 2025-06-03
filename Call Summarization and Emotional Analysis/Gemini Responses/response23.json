@@ -1,33 +1,31 @@
 {
     "call id": "23",
     "agent id": "3",
-    "summary": "Customer complains about late fee, agent waives it.",
+    "call duration": "28",
+    "summary": "Customer complains about late fee; agent waives the fee.",
     "intents": [
         {
-            "intent": "Dispute late fee",
+            "intent": "Complaint about late fee",
             "confidence": "95",
-            "keywords": "You guys are reaping ... for the troub",
+            "keywords": "You guys are reaping me off...for your mistak.",
             "products": [
                 "Loan"
             ],
             "issues": [
-                "Incorrect late fee charged",
-                "Payment showing as late despite on-time payment"
+                "Incorrect late fee charged on loan statement",
+                "Payment made on time but showing as late"
             ],
             "reasons (identified by agent)": [
-                "ECS mandate issue causing payment delay"
+                "ECS mandate issue caused payment to be credited a day late"
             ],
             "actions of agent": [
-                "Verified payment",
+                "Verified customer's account and payment",
                 "Identified the reason for the late fee",
                 "Waived the late fee",
-                "Apologized for the inconvenience",
                 "Informed customer about updated statement availability"
             ],
             "resolution_status": "resolved",
-            "resolution": "Late fee waived and customer informed about updated statement.",
-            "interruptions by customer": "1",
-            "interruptions by agent": "1",
+            "resolution": "Late fee waived due to ECS mandate issue.",
             "dominant emotions (customer)": [
                 "Anger",
                 "Frustration"
@@ -39,5 +37,7 @@
             "callback promise": "No",
             "callback time": "N/A"
         }
-    ]
+    ],
+    "interruptions by customer": "1",
+    "interruptions by agent": "0"
 }

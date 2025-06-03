@@ -1,42 +1,43 @@
 {
     "call id": "30",
     "agent id": "3",
-    "summary": "Customer inquires about tracking an RTGS transfer.",
+    "call duration": "25",
+    "summary": "Customer inquired about tracking an RTGS transfer.",
     "intents": [
         {
-            "intent": "RTGS Transfer Tracking",
+            "intent": "Track RTGS Transfer",
             "confidence": "95",
-            "keywords": "I setup RTGS transfers...how to track them.",
+            "keywords": "I setup RTGS transfers and ending track them.",
             "products": [
-                "RTGS Transfer",
-                "Mobile App",
-                "Bank Statement"
+                "RTGS Transfer"
             ],
             "issues": [
-                "Customer wants to track an RTGS transfer."
+                "Need to track RTGS transfer"
             ],
             "reasons (identified by agent)": [
-                "Customer wants confirmation that the transfer went through."
+                "N/A"
             ],
             "actions of agent": [
-                "Asked for the transaction reference number.",
-                "Checked the status of the transfer.",
-                "Offered to send a statement."
+                "Asked for transaction reference number",
+                "Confirmed transfer completion",
+                "Offered options to track transfer (app history or statement)",
+                "Sent statement to customer's email"
             ],
             "resolution_status": "resolved",
-            "resolution": "Agent confirmed the transfer was completed and offered a statement.",
-            "interruptions by customer": "0",
-            "interruptions by agent": "0",
+            "resolution": "Agent confirmed the transfer was completed and sent a statement.",
             "dominant emotions (customer)": [
-                "Inquisitive",
-                "Satisfied"
+                "Inquiry",
+                "Relief",
+                "Gratitude"
             ],
             "conversation sentiment": "Positive",
             "agent professionalism": "Professional and helpful.",
             "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "9",
+            "customer satisfaction (out of 10)": "10",
             "callback promise": "No",
             "callback time": "N/A"
         }
-    ]
+    ],
+    "interruptions by customer": "0",
+    "interruptions by agent": "0"
 }

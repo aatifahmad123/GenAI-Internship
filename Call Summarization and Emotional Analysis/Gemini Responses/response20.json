@@ -1,17 +1,18 @@
 {
     "call id": "20",
     "agent id": "2",
-    "summary": "Customer inquires about loan preclosure final steps.",
+    "call duration": "28",
+    "summary": "Customer inquires about loan preclosure final steps, agent provides assistance.",
     "intents": [
         {
             "intent": "Loan Preclosure Inquiry",
             "confidence": "95",
-            "keywords": "I am thrilled my loan...what do I need to do next?",
+            "keywords": "I am thrilled my loan... what do I need next?",
             "products": [
                 "Loan"
             ],
             "issues": [
-                "Customer needs information on the final steps of loan preclosure."
+                "Customer needs to know the final steps for loan preclosure."
             ],
             "reasons (identified by agent)": [
                 "N/A"
@@ -19,23 +20,22 @@
             "actions of agent": [
                 "Confirmed loan account number.",
                 "Informed customer about the outstanding balance.",
-                "Offered to generate a payment link.",
-                "Sent the payment link."
+                "Generated and sent a payment link."
             ],
             "resolution_status": "resolved",
-            "resolution": "Payment link sent to customer for outstanding balance payment.",
-            "interruptions by customer": "0",
-            "interruptions by agent": "0",
+            "resolution": "Agent provided payment link to customer for outstanding balance.",
             "dominant emotions (customer)": [
-                "Excitement",
-                "Happiness"
+                "Happy",
+                "Excited"
             ],
             "conversation sentiment": "Positive",
             "agent professionalism": "Professional and helpful.",
-            "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "9",
-            "callback promise": "Yes",
-            "callback time": "Same day"
+            "agent performance (out of 10)": "10",
+            "customer satisfaction (out of 10)": "10",
+            "callback promise": "No",
+            "callback time": "N/A"
         }
-    ]
+    ],
+    "interruptions by customer": "0",
+    "interruptions by agent": "0"
 }

@@ -1,41 +1,42 @@
 {
     "call id": "49",
     "agent id": "5",
-    "summary": "Agent resolved customer's concern about overdue loan notice.",
+    "call duration": "22",
+    "summary": "Customer received overdue notice despite payment; issue resolved.",
     "intents": [
         {
-            "intent": "Inquiry about Overdue Loan Notice",
+            "intent": "Payment Inquiry/Overdue Notice Dispute",
             "confidence": "95",
-            "keywords": "I got a letter...what's happening?",
+            "keywords": "I got a letter overdue what's happening?",
             "products": [
                 "Loan"
             ],
             "issues": [
-                "Received overdue notice despite making payment"
+                "Received an overdue notice despite having made a payment."
             ],
             "reasons (identified by agent)": [
-                "System error causing payment not to be reflected"
+                "System error caused the payment not to be reflected initially."
             ],
             "actions of agent": [
-                "Asked for loan account number",
-                "Investigated the issue",
-                "Confirmed payment was updated",
-                "Offered to send confirmation"
+                "Asked for loan account number.",
+                "Checked the account status.",
+                "Confirmed the payment was updated.",
+                "Offered to send a confirmation."
             ],
             "resolution_status": "resolved",
-            "resolution": "Agent confirmed the payment was updated and the account is clear. Confirmation to be sent.",
-            "interruptions by customer": "0",
-            "interruptions by agent": "0",
+            "resolution": "The agent confirmed that the payment was updated and the account is clear.",
             "dominant emotions (customer)": [
-                "Concern",
-                "Confusion"
+                "Confused",
+                "Anxious"
             ],
             "conversation sentiment": "Neutral",
-            "agent professionalism": "Polite and helpful in resolving the issue.",
+            "agent professionalism": "The agent was polite and helpful.",
             "agent performance (out of 10)": "9",
             "customer satisfaction (out of 10)": "8",
             "callback promise": "No",
             "callback time": "N/A"
         }
-    ]
+    ],
+    "interruptions by customer": "0",
+    "interruptions by agent": "0"
 }
