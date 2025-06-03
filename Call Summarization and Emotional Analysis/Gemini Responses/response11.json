@@ -1,26 +1,29 @@
 {
     "call id": "11",
     "agent id": "2",
-    "call duration": "25",
+    "call duration": "28",
     "summary": "Customer facing issue with mobile banking app crashing.",
     "intents": [
         {
             "intent": "Mobile Banking App Issue",
             "confidence": "95",
-            "keywords": "I can't set up and everytime I try.",
+            "keywords": "I can't set up my ... everytime I try.",
             "products": [
                 "Mobile Banking App"
             ],
             "issues": [
-                "App crashing repeatedly",
-                "Unable to set up mobile banking"
+                "App crashing during setup",
+                "Inability to access mobile banking"
             ],
             "reasons (identified by agent)": [
-                "Potentially outdated or corrupted app installation"
+                "Potentially outdated app version",
+                "Possible corrupted installation"
             ],
             "actions of agent": [
-                "Troubleshooting by suggesting uninstalling and reinstalling the app",
-                "Promised escalation to tech support if the issue persists"
+                "Asked for app version",
+                "Suggested uninstalling and reinstalling the app",
+                "Advised using registered mobile number to login",
+                "Offered escalation to tech support if the issue persists"
             ],
             "resolution_status": "pending",
             "resolution": "N/A",
@@ -29,7 +32,7 @@
                 "Impatience"
             ],
             "conversation sentiment": "Negative",
-            "agent professionalism": "The agent was polite and offered a solution.",
+            "agent professionalism": "Agent was polite and offered a troubleshooting step.",
             "agent performance (out of 10)": "7",
             "customer satisfaction (out of 10)": "4",
             "callback promise": "No",

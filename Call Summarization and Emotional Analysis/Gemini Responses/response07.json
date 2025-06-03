@@ -1,8 +1,8 @@
 {
     "call id": "7",
     "agent id": "1",
-    "call duration": "32",
-    "summary": "Agent assisted customer with a fraud transaction on card.",
+    "call duration": "35",
+    "summary": "Agent assisted customer with fraudulent card activity.",
     "intents": [
         {
             "intent": "Report Fraudulent Transaction",
@@ -19,10 +19,11 @@
                 "Unauthorized use of card details"
             ],
             "actions of agent": [
-                "Blocked the customer's card",
+                "Blocked the card",
                 "Filed a fraud report",
                 "Issued a replacement card",
-                "Initiated a chargeback request"
+                "Initiated a chargeback request",
+                "Promised to follow up personally"
             ],
             "resolution_status": "resolved",
             "resolution": "Card blocked, fraud report filed, replacement card issued, chargeback initiated.",
@@ -31,41 +32,11 @@
                 "Anxious"
             ],
             "conversation sentiment": "Negative",
-            "agent professionalism": "The agent was professional and helpful.",
+            "agent professionalism": "Professional and helpful.",
             "agent performance (out of 10)": "9",
             "customer satisfaction (out of 10)": "8",
             "callback promise": "Yes",
-            "callback time": "In 7 to 10 days"
-        },
-        {
-            "intent": "Inquire about Refund",
-            "confidence": "90",
-            "keywords": "But what about ... get it back?",
-            "products": [
-                "Credit Card"
-            ],
-            "issues": [
-                "Loss of money due to fraudulent transaction"
-            ],
-            "reasons (identified by agent)": [
-                "Unauthorized transaction"
-            ],
-            "actions of agent": [
-                "Initiated a chargeback request",
-                "Promised to follow up personally"
-            ],
-            "resolution_status": "pending",
-            "resolution": "N/A",
-            "dominant emotions (customer)": [
-                "Concerned",
-                "Hopeful"
-            ],
-            "conversation sentiment": "Neutral",
-            "agent professionalism": "The agent was reassuring and informative.",
-            "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "8",
-            "callback promise": "Yes",
-            "callback time": "In 7 to 10 days"
+            "callback time": "7 to 10 days"
         }
     ],
     "interruptions by customer": "0",

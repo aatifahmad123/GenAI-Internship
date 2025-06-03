@@ -1,44 +1,43 @@
 {
-    "call id": "35",
-    "agent id": "4",
-    "call duration": "27",
-    "summary": "Agent waives cheque bounce fee and sets up alerts.",
-    "intents": [
-        {
-            "intent": "Fee Dispute/Inquiry",
-            "confidence": "95",
-            "keywords": "Why is there a ... anything wrong.",
-            "products": [
-                "Savings Account"
-            ],
-            "issues": [
-                "Customer was charged a 500 rupees penalty.",
-                "Customer believes the fee is incorrect."
-            ],
-            "reasons (identified by agent)": [
-                "Cheque bounce due to insufficient funds."
-            ],
-            "actions of agent": [
-                "Investigated the account.",
-                "Identified the cheque bounce fee.",
-                "Waived the fee as a one-time gesture.",
-                "Offered to set up alerts to prevent future occurrences."
-            ],
-            "resolution_status": "resolved",
-            "resolution": "The 500 rupees penalty was waived.",
-            "dominant emotions (customer)": [
-                "Frustration",
-                "Confusion",
-                "Anger"
-            ],
-            "conversation sentiment": "Negative",
-            "agent professionalism": "The agent was polite and helpful.",
-            "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "7",
-            "callback promise": "No",
-            "callback time": "N/A"
-        }
-    ],
-    "interruptions by customer": "1",
-    "interruptions by agent": "0"
+  "call id": "35",
+  "agent id": "4",
+  "call duration": "30",
+  "summary": "Agent waived the cheque bounce fee and set up alerts.",
+  "intents": [
+    {
+      "intent": "Inquiry about penalty",
+      "confidence": "95",
+      "keywords": "Why is there a ... anything wrong.",
+      "products": [
+        "Savings account"
+      ],
+      "issues": [
+        "Unexpected penalty of 500 rupees",
+        "Cheque bounce fee"
+      ],
+      "reasons (identified by agent)": [
+        "Insufficient funds leading to cheque bounce"
+      ],
+      "actions of agent": [
+        "Identified the penalty as a cheque bounce fee.",
+        "Waived the fee as a one-time gesture.",
+        "Offered to set up alerts to prevent future occurrences."
+      ],
+      "resolution_status": "resolved",
+      "resolution": "Penalty waived and alerts set up.",
+      "dominant emotions (customer)": [
+        "Frustration",
+        "Confusion",
+        "Anger"
+      ],
+      "conversation sentiment": "Negative",
+      "agent professionalism": "Professional and empathetic.",
+      "agent performance (out of 10)": "9",
+      "customer satisfaction (out of 10)": "7",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ],
+  "interruptions by customer": "1",
+  "interruptions by agent": "1"
 }

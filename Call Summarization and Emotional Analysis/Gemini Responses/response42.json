@@ -1,72 +1,72 @@
 {
-    "call id": "42",
-    "agent id": "5",
-    "call duration": "25",
-    "summary": "Customer needs help closing loan and understanding the process.",
-    "intents": [
-        {
-            "intent": "Loan Closure Request",
-            "confidence": "95",
-            "keywords": "I want to close my ... what's that about?",
-            "products": [
-                "Loan"
-            ],
-            "issues": [
-                "Lack of information about required forms for loan closure",
-                "Unclear about the loan closure process"
-            ],
-            "reasons (identified by agent)": [
-                "Customer needs to submit a '4 closure request form'."
-            ],
-            "actions of agent": [
-                "Offered assistance with the loan closure process",
-                "Asked for the loan account number",
-                "Informed the customer about the '4 closure request form'",
-                "Offered to email the form with instructions",
-                "Explained the meaning of 'for closure'"
-            ],
-            "resolution_status": "pending",
-            "resolution": "N/A",
-            "dominant emotions (customer)": [
-                "Frustration",
-                "Confusion"
-            ],
-            "conversation sentiment": "Neutral",
-            "agent professionalism": "The agent was polite and helpful.",
-            "agent performance (out of 10)": "8",
-            "customer satisfaction (out of 10)": "6",
-            "callback promise": "No",
-            "callback time": "N/A"
-        },
-        {
-            "intent": "Clarification of Terminology",
-            "confidence": "90",
-            "keywords": "Ok, but what's for ... nobody explain it.",
-            "products": [
-                "Loan"
-            ],
-            "issues": [
-                "Lack of understanding of the term 'for closure'"
-            ],
-            "reasons (identified by agent)": [
-                "Customer was not previously informed about the meaning of 'for closure'."
-            ],
-            "actions of agent": [
-                "Explained the meaning of 'for closure' as paying off the loan early."
-            ],
-            "resolution_status": "resolved",
-            "resolution": "Agent explained the meaning of 'for closure'.",
-            "dominant emotions (customer)": [
-                "Confusion"
-            ],
-            "conversation sentiment": "Neutral",
-            "agent professionalism": "The agent was helpful and informative.",
-            "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "8",
-            "callback promise": "No",
-            "callback time": "N/A"
-        }
-    ],
-    "interruptions by customer": "0",
-    "interruptions by agent": "0"
+  "call id": "42",
+  "agent id": "5",
+  "call duration": "27",
+  "summary": "Customer wants to close loan and needs clarification.",
+  "intents": [
+    {
+      "intent": "Loan Closure Request",
+      "confidence": "95",
+      "keywords": "I want to close my... What's that about?",
+      "products": [
+        "Loan"
+      ],
+      "issues": [
+        "Lack of clarity on required forms for loan closure",
+        "Unfamiliarity with the term 'foreclosure'"
+      ],
+      "reasons (identified by agent)": [
+        "Customer needs to submit a foreclosure request form."
+      ],
+      "actions of agent": [
+        "Offered to help with the loan closure process.",
+        "Asked for the loan account number.",
+        "Informed the customer about the foreclosure request form.",
+        "Offered to email the form with instructions.",
+        "Explained the meaning of foreclosure."
+      ],
+      "resolution_status": "pending",
+      "resolution": "N/A",
+      "dominant emotions (customer)": [
+        "Confused",
+        "Frustrated"
+      ],
+      "conversation sentiment": "Neutral",
+      "agent professionalism": "Professional and helpful.",
+      "agent performance (out of 10)": "8",
+      "customer satisfaction (out of 10)": "7",
+      "callback promise": "No",
+      "callback time": "N/A"
+    },
+    {
+      "intent": "Information Request",
+      "confidence": "90",
+      "keywords": "Ok, but what's for... nobody explain it.",
+      "products": [
+        "Loan"
+      ],
+      "issues": [
+        "Customer doesn't understand the meaning of 'foreclosure'."
+      ],
+      "reasons (identified by agent)": [
+        "Lack of prior explanation regarding foreclosure terminology."
+      ],
+      "actions of agent": [
+        "Explained the meaning of foreclosure as paying off the loan early."
+      ],
+      "resolution_status": "resolved",
+      "resolution": "Agent explained the meaning of foreclosure.",
+      "dominant emotions (customer)": [
+        "Confused"
+      ],
+      "conversation sentiment": "Neutral",
+      "agent professionalism": "Professional and helpful.",
+      "agent performance (out of 10)": "9",
+      "customer satisfaction (out of 10)": "8",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ],
+  "interruptions by customer": "0",
+  "interruptions by agent": "0"
 }

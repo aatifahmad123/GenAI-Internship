@@ -1,13 +1,13 @@
 {
     "call id": "33",
     "agent id": "4",
-    "call duration": "26",
-    "summary": "Customer inquires about business loan application status.",
+    "call duration": "31",
+    "summary": "Customer inquires about business loan application status and speed.",
     "intents": [
         {
             "intent": "Check Loan Application Status",
             "confidence": "95",
-            "keywords": "I applied for a business ... get an update?",
+            "keywords": "I applied for a ... get an update?",
             "products": [
                 "Business Loan"
             ],
@@ -19,15 +19,16 @@
                 "Application is in final review."
             ],
             "actions of agent": [
-                "Checked application status using the provided ID.",
+                "Requested application ID.",
+                "Checked application status.",
                 "Informed customer about the final review stage.",
                 "Promised to escalate the application for priority processing."
             ],
             "resolution_status": "pending",
             "resolution": "N/A",
             "dominant emotions (customer)": [
-                "Anxiety",
-                "Impatience"
+                "Anxious",
+                "Impatient"
             ],
             "conversation sentiment": "Negative",
             "agent professionalism": "Agent was polite and helpful.",
@@ -39,25 +40,25 @@
         {
             "intent": "Expedite Loan Processing",
             "confidence": "90",
-            "keywords": "48 hours can't you ... business here.",
+            "keywords": "48 hours can't ... business here.",
             "products": [
                 "Business Loan"
             ],
             "issues": [
-                "Urgent need for loan disbursement",
-                "Potential business losses due to delay"
+                "Need for faster loan approval due to business needs"
             ],
             "reasons (identified by agent)": [
-                "Customer losing business due to delay"
+                "Customer is losing business due to the delay."
             ],
             "actions of agent": [
-                "Agreed to escalate the application to the loan team for priority processing."
+                "Acknowledged customer's urgency.",
+                "Promised to escalate the application to the loan team for priority processing."
             ],
             "resolution_status": "pending",
             "resolution": "N/A",
             "dominant emotions (customer)": [
-                "Frustration",
-                "Urgency"
+                "Frustrated",
+                "Urgent"
             ],
             "conversation sentiment": "Negative",
             "agent professionalism": "Agent was understanding and offered a solution.",

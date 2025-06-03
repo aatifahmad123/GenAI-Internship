@@ -1,13 +1,13 @@
 {
     "call id": "39",
     "agent id": "4",
-    "call duration": "26",
-    "summary": "Customer's loan EMI increased; agent explains floating rate.",
+    "call duration": "30",
+    "summary": "Customer's loan EMI is higher than expected this month.",
     "intents": [
         {
-            "intent": "EMI Inquiry",
+            "intent": "EMI Increase Inquiry",
             "confidence": "95",
-            "keywords": "My loan EMI is higher this month",
+            "keywords": "My loan EMI is ... told me about this.",
             "products": [
                 "Loan"
             ],
@@ -21,8 +21,8 @@
             "actions of agent": [
                 "Apologized for the surprise",
                 "Asked for loan account number",
-                "Explained the reason for the increase",
-                "Offered to check for a fixed rate option",
+                "Explained floating interest rate",
+                "Offered to check for fixed rate option",
                 "Offered to send a comparison of fixed vs floating rates"
             ],
             "resolution_status": "pending",
@@ -40,17 +40,17 @@
             "callback time": "N/A"
         },
         {
-            "intent": "Need for Explanation",
+            "intent": "Need for Simple Explanation",
             "confidence": "90",
-            "keywords": "I don't understand this red stuff",
+            "keywords": "I don't understand this ... explain it simply?",
             "products": [
                 "Loan"
             ],
             "issues": [
-                "Lack of understanding of floating interest rates"
+                "Customer doesn't understand the concept of floating rates"
             ],
             "reasons (identified by agent)": [
-                "Customer unfamiliar with financial terms"
+                "Lack of customer understanding of financial terms"
             ],
             "actions of agent": [
                 "Offered a simplified explanation of floating rates"

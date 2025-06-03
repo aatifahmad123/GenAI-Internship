@@ -1,26 +1,27 @@
 {
     "call id": "10",
     "agent id": "1",
-    "call duration": "28",
-    "summary": "Customer needed help activating their new credit card.",
+    "call duration": "33",
+    "summary": "The agent activated the customer's credit card manually.",
     "intents": [
         {
             "intent": "Card Activation",
             "confidence": "95",
-            "keywords": "I've been trying to hours. It's not working do it now.",
+            "keywords": "I've been trying to ... it now.",
             "products": [
                 "Credit Card"
             ],
             "issues": [
-                "Credit card activation failure"
+                "Credit card activation failure",
+                "Card not working after following activation steps"
             ],
             "reasons (identified by agent)": [
-                "Activation request did not process correctly"
+                "Activation request did not process"
             ],
             "actions of agent": [
                 "Verified last 4 digits of the card",
                 "Manually activated the card",
-                "Offered to send confirmation"
+                "Offered to send a confirmation"
             ],
             "resolution_status": "resolved",
             "resolution": "Agent manually activated the customer's credit card.",
@@ -29,8 +30,8 @@
                 "Impatience"
             ],
             "conversation sentiment": "Negative",
-            "agent professionalism": "Professional and helpful.",
-            "agent performance (out of 10)": "9",
+            "agent professionalism": "Professional and helpful, but could have been more proactive.",
+            "agent performance (out of 10)": "8",
             "customer satisfaction (out of 10)": "7",
             "callback promise": "No",
             "callback time": "N/A"
@@ -38,7 +39,7 @@
         {
             "intent": "Confirmation Request",
             "confidence": "90",
-            "keywords": "Would you like me confirmation? Finally yeah, send it.",
+            "keywords": "Would you like ... confirmation?",
             "products": [
                 "Credit Card"
             ],
@@ -49,8 +50,7 @@
                 "Customer requested confirmation"
             ],
             "actions of agent": [
-                "Offered to send confirmation",
-                "Agreed to send confirmation"
+                "Offered to send a confirmation"
             ],
             "resolution_status": "pending",
             "resolution": "N/A",
@@ -58,9 +58,9 @@
                 "Relief"
             ],
             "conversation sentiment": "Positive",
-            "agent professionalism": "Professional and accommodating.",
-            "agent performance (out of 10)": "10",
-            "customer satisfaction (out of 10)": "9",
+            "agent professionalism": "Professional and helpful.",
+            "agent performance (out of 10)": "9",
+            "customer satisfaction (out of 10)": "8",
             "callback promise": "No",
             "callback time": "N/A"
         }

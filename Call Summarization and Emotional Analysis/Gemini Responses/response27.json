@@ -1,7 +1,7 @@
 {
     "call id": "27",
     "agent id": "3",
-    "call duration": "28",
+    "call duration": "32",
     "summary": "Customer requests premature withdrawal of fixed deposit.",
     "intents": [
         {
@@ -13,28 +13,57 @@
             ],
             "issues": [
                 "Premature withdrawal of fixed deposit",
-                "Interest rate reduction on premature withdrawal"
+                "Interest rate reduction due to premature withdrawal"
             ],
             "reasons (identified by agent)": [
                 "Customer needs the money urgently"
             ],
             "actions of agent": [
                 "Asked for FD account number",
-                "Explained reduced interest rate on premature withdrawal",
-                "Calculated the exact amount after penalty",
+                "Explained reduced interest rate",
+                "Offered to calculate the exact amount",
                 "Initiated the withdrawal process"
             ],
-            "resolution_status": "resolved",
-            "resolution": "Agent calculated the amount after penalty and initiated withdrawal.",
+            "resolution_status": "pending",
+            "resolution": "N/A",
             "dominant emotions (customer)": [
-                "Inquiry",
                 "Concern",
                 "Urgency"
             ],
             "conversation sentiment": "Neutral",
-            "agent professionalism": "Professional and helpful.",
-            "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "8",
+            "agent professionalism": "Professional and helpful",
+            "agent performance (out of 10)": "8",
+            "customer satisfaction (out of 10)": "7",
+            "callback promise": "No",
+            "callback time": "N/A"
+        },
+        {
+            "intent": "Interest Rate Inquiry",
+            "confidence": "90",
+            "keywords": "Will I lose ... all the interest?",
+            "products": [
+                "Fixed Deposit"
+            ],
+            "issues": [
+                "Concern about losing interest due to premature withdrawal"
+            ],
+            "reasons (identified by agent)": [
+                "Premature withdrawal penalty"
+            ],
+            "actions of agent": [
+                "Explained the concept of reduced interest rate for premature withdrawal",
+                "Calculated the interest after penalty"
+            ],
+            "resolution_status": "pending",
+            "resolution": "N/A",
+            "dominant emotions (customer)": [
+                "Concern",
+                "Anxiety"
+            ],
+            "conversation sentiment": "Neutral",
+            "agent professionalism": "Professional and informative",
+            "agent performance (out of 10)": "8",
+            "customer satisfaction (out of 10)": "7",
             "callback promise": "No",
             "callback time": "N/A"
         }

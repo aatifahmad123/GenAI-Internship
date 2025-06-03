@@ -1,34 +1,37 @@
 {
     "call id": "47",
     "agent id": "5",
-    "call duration": "21",
-    "summary": "Agent disputed a fraudulent charge and blocked transactions.",
+    "call duration": "23",
+    "summary": "Customer reports and agent resolves unauthorized credit card charge.",
     "intents": [
         {
-            "intent": "Report fraudulent charge",
+            "intent": "Report unauthorized transaction",
             "confidence": "95",
-            "keywords": "My credit card bills got a ... paying for this nonsense.",
+            "keywords": "My credit card bills...what's dis.",
             "products": [
                 "Credit Card"
             ],
             "issues": [
-                "Unauthorized $5000 charge on credit card"
+                "Unauthorized charge of $5000 on credit card"
             ],
             "reasons (identified by agent)": [
                 "Merchant error"
             ],
             "actions of agent": [
-                "Initiated dispute for the charge",
-                "Blocked the card for future transactions"
+                "Asked for card number and transaction date",
+                "Identified the charge as a merchant error",
+                "Initiated a dispute for the charge",
+                "Blocked the card for future transactions",
+                "Informed customer about refund timeline"
             ],
             "resolution_status": "resolved",
-            "resolution": "Dispute filed, refund expected in 7-10 days.",
+            "resolution": "Dispute filed, refund expected in 7-10 days, card blocked.",
             "dominant emotions (customer)": [
                 "Frustration",
                 "Anger"
             ],
             "conversation sentiment": "Negative",
-            "agent professionalism": "The agent was polite and helpful.",
+            "agent professionalism": "Professional and helpful",
             "agent performance (out of 10)": "9",
             "customer satisfaction (out of 10)": "7",
             "callback promise": "No",

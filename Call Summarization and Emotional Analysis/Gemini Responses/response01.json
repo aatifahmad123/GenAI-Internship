@@ -1,13 +1,13 @@
 {
     "call id": "1",
     "agent id": "1",
-    "call duration": "50",
-    "summary": "Customer reported a duplicate charge on their credit card.",
+    "call duration": "59",
+    "summary": "Customer reports duplicate charge and requests a refund.",
     "intents": [
         {
             "intent": "Report Duplicate Charge",
             "confidence": "95",
-            "keywords": "Arvind charged voice on ... happens this time.",
+            "keywords": "Arvind charged voice ... happens this time.",
             "products": [
                 "Credit Card"
             ],
@@ -19,11 +19,9 @@
                 "System error leading to duplicate billing"
             ],
             "actions of agent": [
-                "Account verification",
-                "Initiated chargeback request",
-                "Flagged for refund",
-                "Provided timeframe for refund (5-7 business days)",
-                "Promised to keep customer updated"
+                "Initiated a chargeback request",
+                "Flagged the transaction for a refund",
+                "Promised to keep the customer updated"
             ],
             "resolution_status": "pending",
             "resolution": "N/A",
@@ -33,13 +31,13 @@
                 "Impatience"
             ],
             "conversation sentiment": "Negative",
-            "agent professionalism": "The agent remained calm and professional despite the customer's anger.",
+            "agent professionalism": "Agent remained calm and professional despite customer's frustration.",
             "agent performance (out of 10)": "8",
             "customer satisfaction (out of 10)": "4",
             "callback promise": "No",
             "callback time": "N/A"
         }
     ],
-    "interruptions by customer": "4",
+    "interruptions by customer": "5",
     "interruptions by agent": "0"
 }

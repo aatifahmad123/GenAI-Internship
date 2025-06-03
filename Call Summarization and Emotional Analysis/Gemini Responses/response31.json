@@ -1,43 +1,42 @@
 {
-    "call id": "31",
-    "agent id": "4",
-    "call duration": "27",
-    "summary": "Agent initiated chargeback for unauthorized subscription charge.",
-    "intents": [
-        {
-            "intent": "Dispute Unauthorized Charge",
-            "confidence": "95",
-            "keywords": "I am Furious my ... my money back now.",
-            "products": [
-                "Credit Card",
-                "Subscription"
-            ],
-            "issues": [
-                "Unauthorized charge of $12000",
-                "Recurring charge after cancellation of subscription"
-            ],
-            "reasons (identified by agent)": [
-                "Recurring billing was not stopped after cancellation"
-            ],
-            "actions of agent": [
-                "Located the transaction",
-                "Initiated a chargeback",
-                "Blocked further charges"
-            ],
-            "resolution_status": "resolved",
-            "resolution": "Chargeback initiated, refund expected in 5-7 days.",
-            "dominant emotions (customer)": [
-                "Furious",
-                "Frustrated"
-            ],
-            "conversation sentiment": "Negative",
-            "agent professionalism": "Agent was polite and understanding.",
-            "agent performance (out of 10)": "8",
-            "customer satisfaction (out of 10)": "5",
-            "callback promise": "No",
-            "callback time": "N/A"
-        }
-    ],
-    "interruptions by customer": "0",
-    "interruptions by agent": "0"
+  "call id": "31",
+  "agent id": "4",
+  "call duration": "32",
+  "summary": "Customer is irate about unauthorized subscription charge.",
+  "intents": [
+    {
+      "intent": "Dispute Charge/Unauthorized Transaction",
+      "confidence": "95",
+      "keywords": "I am Furious my card...money back now.",
+      "products": [
+        "Credit Card"
+      ],
+      "issues": [
+        "Unauthorized charge of $12000 for a subscription",
+        "Recurring charge after cancellation"
+      ],
+      "reasons (identified by agent)": [
+        "Recurring billing not stopped after cancellation"
+      ],
+      "actions of agent": [
+        "Initiated a chargeback",
+        "Blocked further charges"
+      ],
+      "resolution_status": "resolved",
+      "resolution": "Chargeback initiated; refund in 5-7 days.",
+      "dominant emotions (customer)": [
+        "Furious",
+        "Frustration",
+        "Anger"
+      ],
+      "conversation sentiment": "Negative",
+      "agent professionalism": "Agent remained calm and professional.",
+      "agent performance (out of 10)": "8",
+      "customer satisfaction (out of 10)": "4",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ],
+  "interruptions by customer": "0",
+  "interruptions by agent": "0"
 }

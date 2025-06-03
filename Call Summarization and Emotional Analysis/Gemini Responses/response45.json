@@ -1,43 +1,70 @@
 {
-    "call id": "45",
-    "agent id": "5",
-    "call duration": "20",
-    "summary": "Customer wants to update nominee for savings account.",
-    "intents": [
-        {
-            "intent": "Nominee Update Request",
-            "confidence": "95",
-            "keywords": "I need to update the... do it over the phone?",
-            "products": [
-                "Savings Account"
-            ],
-            "issues": [
-                "Customer wants to update nominee information.",
-                "Customer wants to add son as nominee."
-            ],
-            "reasons (identified by agent)": [
-                "Form is required for verification.",
-                "Form ensures proper processing."
-            ],
-            "actions of agent": [
-                "Asked for account number.",
-                "Informed customer about the nominee update form requirement.",
-                "Offered to send the form to the registered email."
-            ],
-            "resolution_status": "pending",
-            "resolution": "N/A",
-            "dominant emotions (customer)": [
-                "Neutral",
-                "Frustration"
-            ],
-            "conversation sentiment": "Neutral",
-            "agent professionalism": "Agent was polite and provided necessary information.",
-            "agent performance (out of 10)": "7",
-            "customer satisfaction (out of 10)": "5",
-            "callback promise": "No",
-            "callback time": "N/A"
-        }
-    ],
-    "interruptions by customer": "0",
-    "interruptions by agent": "0"
+  "call id": "45",
+  "agent id": "5",
+  "call duration": "24",
+  "summary": "Customer wants to update nominee for savings account.",
+  "intents": [
+    {
+      "intent": "Nominee Update Request",
+      "confidence": "95",
+      "keywords": "I need to update ... do that?",
+      "products": [
+        "Savings Account"
+      ],
+      "issues": [
+        "Need to update nominee for savings account"
+      ],
+      "reasons (identified by agent)": [
+        "Form is required for verification",
+        "To ensure proper processing"
+      ],
+      "actions of agent": [
+        "Asked for account number",
+        "Offered to send nominee update form to registered email"
+      ],
+      "resolution_status": "pending",
+      "resolution": "N/A",
+      "dominant emotions (customer)": [
+        "Neutral",
+        "Inquiry"
+      ],
+      "conversation sentiment": "Neutral",
+      "agent professionalism": "Professional and helpful.",
+      "agent performance (out of 10)": "8",
+      "customer satisfaction (out of 10)": "6",
+      "callback promise": "No",
+      "callback time": "N/A"
+    },
+    {
+      "intent": "Channel Preference",
+      "confidence": "85",
+      "keywords": "Forms again can't ... over the phone?",
+      "products": [
+        "Savings Account"
+      ],
+      "issues": [
+        "Customer prefers updating nominee over the phone instead of using a form."
+      ],
+      "reasons (identified by agent)": [
+        "Form is required for verification",
+        "To ensure proper processing"
+      ],
+      "actions of agent": [
+        "Explained the necessity of the form for verification and proper processing."
+      ],
+      "resolution_status": "pending",
+      "resolution": "N/A",
+      "dominant emotions (customer)": [
+        "Frustration"
+      ],
+      "conversation sentiment": "Negative",
+      "agent professionalism": "Polite and explained the reason for the form.",
+      "agent performance (out of 10)": "7",
+      "customer satisfaction (out of 10)": "5",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ],
+  "interruptions by customer": "1",
+  "interruptions by agent": "0"
 }

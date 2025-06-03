@@ -1,71 +1,73 @@
 {
-    "call id": "28",
-    "agent id": "3",
-    "call duration": "23",
-    "summary": "Customer reports unauthorized charge; agent freezes card and files dispute.",
-    "intents": [
-        {
-            "intent": "Report Unauthorized Charge",
-            "confidence": "95",
-            "keywords": "I got a bill ending with what's going on?",
-            "products": [
-                "Credit Card"
-            ],
-            "issues": [
-                "Unauthorized charge of $8000"
-            ],
-            "reasons (identified by agent)": [
-                "Unauthorized transaction"
-            ],
-            "actions of agent": [
-                "Asked for the last 4 digits of the card",
-                "Pledged to freeze the card",
-                "Initiated a dispute"
-            ],
-            "resolution_status": "resolved",
-            "resolution": "Card frozen and dispute filed.",
-            "dominant emotions (customer)": [
-                "Worried",
-                "Anxious"
-            ],
-            "conversation sentiment": "Negative",
-            "agent professionalism": "The agent was reassuring and took immediate action.",
-            "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "8",
-            "callback promise": "No",
-            "callback time": "N/A"
-        },
-        {
-            "intent": "Inquire about Refund Timeline",
-            "confidence": "90",
-            "keywords": "Thanks, but how long ending with my money back.",
-            "products": [
-                "Credit Card"
-            ],
-            "issues": [
-                "Customer wants to know when they will get their money back"
-            ],
-            "reasons (identified by agent)": [
-                "Dispute process timeline"
-            ],
-            "actions of agent": [
-                "Provided a timeline of 5-7 days for refund",
-                "Promised to keep the customer updated"
-            ],
-            "resolution_status": "pending",
-            "resolution": "N/A",
-            "dominant emotions (customer)": [
-                "Concerned",
-                "Inquisitive"
-            ],
-            "conversation sentiment": "Neutral",
-            "agent professionalism": "The agent provided a clear timeline and offered to keep the customer updated.",
-            "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "8",
-            "callback promise": "No",
-            "callback time": "N/A"
-        }
-    ],
-    "interruptions by customer": "0",
-    "interruptions by agent": "0"
+  "call id": "28",
+  "agent id": "3",
+  "call duration": "26",
+  "summary": "Customer reports unauthorized charge; agent freezes card, files dispute.",
+  "intents": [
+    {
+      "intent": "Report Unauthorized Charge",
+      "confidence": "95",
+      "keywords": "I got a bill ... what's going on?",
+      "products": [
+        "Credit Card"
+      ],
+      "issues": [
+        "Unauthorized charge of $8000",
+        "Potential fraudulent use of credit card"
+      ],
+      "reasons (identified by agent)": [
+        "Unauthorized transaction"
+      ],
+      "actions of agent": [
+        "Verified last 4 digits of card",
+        "Initiated credit freeze on the card",
+        "Filed a dispute for the unauthorized charge",
+        "Promised to provide updates on the dispute status"
+      ],
+      "resolution_status": "resolved",
+      "resolution": "Credit card frozen and dispute filed.",
+      "dominant emotions (customer)": [
+        "Worried",
+        "Anxious"
+      ],
+      "conversation sentiment": "Negative",
+      "agent professionalism": "The agent responded quickly and professionally.",
+      "agent performance (out of 10)": "9",
+      "customer satisfaction (out of 10)": "8",
+      "callback promise": "No",
+      "callback time": "N/A"
+    },
+    {
+      "intent": "Inquire about Refund Timeline",
+      "confidence": "90",
+      "keywords": "how long till ... money back.",
+      "products": [
+        "Credit Card"
+      ],
+      "issues": [
+        "Customer wants to know when they will get their money back after reporting an unauthorized charge."
+      ],
+      "reasons (identified by agent)": [
+        "Dispute process timeline"
+      ],
+      "actions of agent": [
+        "Provided an estimated refund timeline of 5 to 7 days.",
+        "Promised to keep the customer updated on the progress of the refund."
+      ],
+      "resolution_status": "pending",
+      "resolution": "N/A",
+      "dominant emotions (customer)": [
+        "Concerned",
+        "Impatient"
+      ],
+      "conversation sentiment": "Neutral",
+      "agent professionalism": "The agent provided a clear timeline and offered to keep the customer updated.",
+      "agent performance (out of 10)": "8",
+      "customer satisfaction (out of 10)": "7",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ],
+  "interruptions by customer": "0",
+  "interruptions by agent": "0"
 }

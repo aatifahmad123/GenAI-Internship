@@ -1,38 +1,38 @@
 {
   "call id": "36",
   "agent id": "4",
-  "call duration": "24",
-  "summary": "Agent corrected the NPA status due to bank error.",
+  "call duration": "27",
+  "summary": "The agent resolved the customer's loan account NPA status.",
   "intents": [
     {
-      "intent": "Loan Account NPA Status Inquiry and Rectification",
+      "intent": "NPA Status Inquiry and Resolution",
       "confidence": "95",
-      "keywords": "I am so stressed...reported to CIBIL",
+      "keywords": "I am so stressed ... reported to CIBIL",
       "products": [
         "Loan Account"
       ],
       "issues": [
         "Loan account incorrectly marked as NPA (Non-Performing Asset)",
-        "Incorrect reporting to CIBIL (Credit Information Bureau of India Limited)"
+        "Potential negative impact on credit score"
       ],
       "reasons (identified by agent)": [
         "Payment was missed due to a bank error"
       ],
       "actions of agent": [
-        "Confirmed the loan account number",
-        "Identified the cause of the NPA status",
+        "Confirmed loan account number",
+        "Identified the cause of the incorrect NPA status (bank error)",
         "Corrected the NPA status",
         "Confirmed the account is clear",
-        "Confirmed it will be reported to CIBIL"
+        "Verified that the account status is reported correctly to CIBIL"
       ],
       "resolution_status": "resolved",
-      "resolution": "Agent corrected the NPA status and confirmed the updated status would be reported to CIBIL.",
+      "resolution": "The agent corrected the NPA status and confirmed the account is clear and correctly reported to CIBIL.",
       "dominant emotions (customer)": [
         "Stressed",
         "Worried"
       ],
       "conversation sentiment": "Negative",
-      "agent professionalism": "The agent was professional and addressed the customer's concern effectively.",
+      "agent professionalism": "The agent was professional and efficient in resolving the issue.",
       "agent performance (out of 10)": "9",
       "customer satisfaction (out of 10)": "8",
       "callback promise": "No",

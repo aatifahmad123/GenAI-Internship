@@ -1,43 +1,72 @@
 {
-    "call id": "30",
-    "agent id": "3",
-    "call duration": "25",
-    "summary": "Customer inquired about tracking an RTGS transfer.",
-    "intents": [
-        {
-            "intent": "Track RTGS Transfer",
-            "confidence": "95",
-            "keywords": "I setup RTGS transfers and ending track them.",
-            "products": [
-                "RTGS Transfer"
-            ],
-            "issues": [
-                "Need to track RTGS transfer"
-            ],
-            "reasons (identified by agent)": [
-                "N/A"
-            ],
-            "actions of agent": [
-                "Asked for transaction reference number",
-                "Confirmed transfer completion",
-                "Offered options to track transfer (app history or statement)",
-                "Sent statement to customer's email"
-            ],
-            "resolution_status": "resolved",
-            "resolution": "Agent confirmed the transfer was completed and sent a statement.",
-            "dominant emotions (customer)": [
-                "Inquiry",
-                "Relief",
-                "Gratitude"
-            ],
-            "conversation sentiment": "Positive",
-            "agent professionalism": "Professional and helpful.",
-            "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "10",
-            "callback promise": "No",
-            "callback time": "N/A"
-        }
-    ],
-    "interruptions by customer": "0",
-    "interruptions by agent": "0"
+  "call id": "30",
+  "agent id": "3",
+  "call duration": "30",
+  "summary": "Customer inquired about tracking an RTGS transfer and received assistance.",
+  "intents": [
+    {
+      "intent": "RTGS Transfer Tracking",
+      "confidence": "95",
+      "keywords": "I setup RTGS transfers and it's... make sure it went through.",
+      "products": [
+        "RTGS Transfers",
+        "Mobile App"
+      ],
+      "issues": [
+        "Customer needs assistance with tracking an RTGS transfer."
+      ],
+      "reasons (identified by agent)": [
+        "N/A"
+      ],
+      "actions of agent": [
+        "Asked for the transaction reference number.",
+        "Confirmed the transfer was completed.",
+        "Informed the customer that they can track it in the app's transaction history.",
+        "Offered to send a statement."
+      ],
+      "resolution_status": "resolved",
+      "resolution": "Agent confirmed the transfer was completed and offered to send a statement, which the customer accepted.",
+      "dominant emotions (customer)": [
+        "Inquisitive",
+        "Satisfied"
+      ],
+      "conversation sentiment": "Positive",
+      "agent professionalism": "Professional and helpful.",
+      "agent performance (out of 10)": "9",
+      "customer satisfaction (out of 10)": "10",
+      "callback promise": "No",
+      "callback time": "N/A"
+    },
+    {
+      "intent": "Statement Request",
+      "confidence": "90",
+      "keywords": "The transfer is completed you... I can send a statement.",
+      "products": [
+        "Bank Statements"
+      ],
+      "issues": [
+        "Customer requested a statement."
+      ],
+      "reasons (identified by agent)": [
+        "N/A"
+      ],
+      "actions of agent": [
+        "Offered to send a statement.",
+        "Sent the statement to the customer's email."
+      ],
+      "resolution_status": "resolved",
+      "resolution": "Agent sent the statement to the customer's email.",
+      "dominant emotions (customer)": [
+        "Grateful"
+      ],
+      "conversation sentiment": "Positive",
+      "agent professionalism": "Professional and efficient.",
+      "agent performance (out of 10)": "10",
+      "customer satisfaction (out of 10)": "10",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ],
+  "interruptions by customer": "0",
+  "interruptions by agent": "0"
 }

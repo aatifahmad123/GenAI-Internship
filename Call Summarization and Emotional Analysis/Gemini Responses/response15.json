@@ -1,32 +1,33 @@
 {
     "call id": "15",
     "agent id": "2",
-    "call duration": "29",
-    "summary": "Agent resolved loan EMI lean issue due to system error.",
+    "call duration": "33",
+    "summary": "Customer reports lean on account after EMI payment.",
     "intents": [
         {
-            "intent": "Inquiry about Loan EMI and Lean on Account",
+            "intent": "Lean on Account Inquiry",
             "confidence": "95",
-            "keywords": "I paid my loan ending with what's going on?",
+            "keywords": "I paid my loan ... what's going on?",
             "products": [
                 "Loan",
                 "EMI"
             ],
             "issues": [
-                "Lean on account despite EMI payment"
+                "Lean on account despite EMI payment",
+                "Funds locked"
             ],
             "reasons (identified by agent)": [
-                "System error"
+                "System error placed telling"
             ],
             "actions of agent": [
                 "Checked loan account details",
-                "Identified system error causing the lean",
+                "Identified system error",
                 "Removed the lean",
-                "Informed customer that funds are available",
-                "Promised to send a confirmation"
+                "Confirmed funds are available",
+                "Promised to send confirmation"
             ],
             "resolution_status": "resolved",
-            "resolution": "Lean was lifted, and funds are available.",
+            "resolution": "Lean was removed, and funds are available.",
             "dominant emotions (customer)": [
                 "Concern",
                 "Frustration"

@@ -1,15 +1,16 @@
 {
     "call id": "32",
     "agent id": "4",
-    "call duration": "28",
+    "call duration": "32",
     "summary": "Agent reactivated customer's card due to inactivity.",
     "intents": [
         {
             "intent": "Card Issue",
             "confidence": "95",
-            "keywords": "Hello, I tried using ATM...What's wrong?",
+            "keywords": "Hello, I tried using the ATM...What's wrong?",
             "products": [
-                "ATM Card"
+                "ATM",
+                "Debit Card"
             ],
             "issues": [
                 "Card declined at ATM",
@@ -22,16 +23,16 @@
                 "Checked card status",
                 "Offered to issue a new card or reactivate the existing one",
                 "Reactivated the card",
-                "Confirmed reactivation and promised a confirmation message"
+                "Confirmed reactivation and promised confirmation"
             ],
             "resolution_status": "resolved",
-            "resolution": "Card reactivated for immediate use.",
+            "resolution": "Card reactivated and customer can use it immediately.",
             "dominant emotions (customer)": [
                 "Frustration",
                 "Confusion"
             ],
-            "conversation sentiment": "Neutral",
-            "agent professionalism": "Polite and helpful.",
+            "conversation sentiment": "Negative",
+            "agent professionalism": "Professional and helpful.",
             "agent performance (out of 10)": "9",
             "customer satisfaction (out of 10)": "8",
             "callback promise": "No",

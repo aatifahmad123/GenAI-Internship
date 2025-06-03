@@ -1,66 +1,38 @@
 {
     "call id": "5",
     "agent id": "1",
-    "call duration": "30",
-    "summary": "Agent assisted customer with debit card decline due to insufficient funds.",
+    "call duration": "34",
+    "summary": "Agent resolved debit card decline due to insufficient funds.",
     "intents": [
         {
-            "intent": "Debit Card Declined",
+            "intent": "Debit Card Decline",
             "confidence": "95",
-            "keywords": "Hello, my debit card ... what's the deal?",
+            "keywords": "Hello, my debit card ... What's the deal?",
             "products": [
                 "Debit Card"
             ],
             "issues": [
-                "Debit card declined at a store."
+                "Debit card declined at a store"
             ],
             "reasons (identified by agent)": [
-                "Insufficient funds in the account."
+                "Insufficient funds in the account"
             ],
             "actions of agent": [
-                "Verified card activity.",
-                "Checked account balance.",
-                "Offered fund transfer from savings."
+                "Verified card activity",
+                "Checked account balance",
+                "Offered fund transfer from savings account",
+                "Initiated fund transfer"
             ],
             "resolution_status": "resolved",
-            "resolution": "Funds transferred from savings to cover the transaction amount.",
+            "resolution": "Funds transferred from savings to cover transaction.",
             "dominant emotions (customer)": [
                 "Concern",
                 "Surprise"
             ],
             "conversation sentiment": "Neutral",
-            "agent professionalism": "Polite and helpful.",
+            "agent professionalism": "Professional and helpful",
             "agent performance (out of 10)": "9",
             "customer satisfaction (out of 10)": "8",
-            "callback promise": "No",
-            "callback time": "N/A"
-        },
-        {
-            "intent": "Fund Transfer",
-            "confidence": "98",
-            "keywords": "Alright, let's transfer ... from my savings.",
-            "products": [
-                "Savings Account",
-                "Debit Card"
-            ],
-            "issues": [
-                "Insufficient funds in checking account to cover debit card transaction."
-            ],
-            "reasons (identified by agent)": [
-                "Low account balance."
-            ],
-            "actions of agent": [
-                "Initiated fund transfer from savings account to checking account."
-            ],
-            "resolution_status": "resolved",
-            "resolution": "Funds transferred from savings to checking.",
-            "dominant emotions (customer)": [
-                "Relief"
-            ],
-            "conversation sentiment": "Positive",
-            "agent professionalism": "Efficient and helpful.",
-            "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "9",
             "callback promise": "No",
             "callback time": "N/A"
         }

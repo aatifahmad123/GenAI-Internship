@@ -1,36 +1,38 @@
 {
     "call id": "49",
     "agent id": "5",
-    "call duration": "22",
+    "call duration": "24.92",
     "summary": "Customer received overdue notice despite payment; issue resolved.",
     "intents": [
         {
-            "intent": "Payment Inquiry/Overdue Notice Dispute",
+            "intent": "Payment Issue Inquiry",
             "confidence": "95",
-            "keywords": "I got a letter overdue what's happening?",
+            "keywords": "I got a letter... what's happening?",
             "products": [
                 "Loan"
             ],
             "issues": [
-                "Received an overdue notice despite having made a payment."
+                "Received overdue notice despite making payment."
             ],
             "reasons (identified by agent)": [
-                "System error caused the payment not to be reflected initially."
+                "System error caused payment not to be reflected initially."
             ],
             "actions of agent": [
                 "Asked for loan account number.",
-                "Checked the account status.",
-                "Confirmed the payment was updated.",
+                "Checked account status.",
+                "Confirmed payment was updated.",
+                "Assured customer that the account is clear.",
                 "Offered to send a confirmation."
             ],
             "resolution_status": "resolved",
-            "resolution": "The agent confirmed that the payment was updated and the account is clear.",
+            "resolution": "Agent confirmed payment was updated and account is clear.",
             "dominant emotions (customer)": [
-                "Confused",
-                "Anxious"
+                "Concern",
+                "Confusion",
+                "Anxiety"
             ],
-            "conversation sentiment": "Neutral",
-            "agent professionalism": "The agent was polite and helpful.",
+            "conversation sentiment": "Negative",
+            "agent professionalism": "The agent was polite and reassuring.",
             "agent performance (out of 10)": "9",
             "customer satisfaction (out of 10)": "8",
             "callback promise": "No",

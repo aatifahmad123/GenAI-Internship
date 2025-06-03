@@ -1,43 +1,72 @@
 {
-    "call id": "22",
-    "agent id": "3",
-    "call duration": "29",
-    "summary": "Agent assists customer with address update issue.",
-    "intents": [
-        {
-            "intent": "Address Update Issue",
-            "confidence": "95",
-            "keywords": "I went to the branch...expedite the update.",
-            "products": [
-                "Address Update"
-            ],
-            "issues": [
-                "Address update not processed",
-                "Missing signature on the form"
-            ],
-            "reasons (identified by agent)": [
-                "Missing signature on the form"
-            ],
-            "actions of agent": [
-                "Checked the status of the address update request",
-                "Identified the reason for the delay",
-                "Offered to email the required form",
-                "Promised to expedite the update upon form submission"
-            ],
-            "resolution_status": "pending",
-            "resolution": "N/A",
-            "dominant emotions (customer)": [
-                "Frustration",
-                "Confusion"
-            ],
-            "conversation sentiment": "Negative",
-            "agent professionalism": "The agent was polite and helpful.",
-            "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "7",
-            "callback promise": "No",
-            "callback time": "N/A"
-        }
-    ],
-    "interruptions by customer": "0",
-    "interruptions by agent": "0"
+  "call id": "22",
+  "agent id": "3",
+  "call duration": "34",
+  "summary": "Customer's address update delayed due to missing signature.",
+  "intents": [
+    {
+      "intent": "Address Update Issue",
+      "confidence": "95",
+      "keywords": "I went to the ... it's not done yet.",
+      "products": [
+        "Bank Account"
+      ],
+      "issues": [
+        "Address update not processed",
+        "Missing signature on the form"
+      ],
+      "reasons (identified by agent)": [
+        "Missing signature on the form"
+      ],
+      "actions of agent": [
+        "Apologized for the delay",
+        "Checked the status using account number",
+        "Identified the reason for the delay",
+        "Offered to email the form",
+        "Offered to expedite the update after submission"
+      ],
+      "resolution_status": "pending",
+      "resolution": "N/A",
+      "dominant emotions (customer)": [
+        "Frustration",
+        "Confusion"
+      ],
+      "conversation sentiment": "Negative",
+      "agent professionalism": "Professional and helpful",
+      "agent performance (out of 10)": "8",
+      "customer satisfaction (out of 10)": "6",
+      "callback promise": "No",
+      "callback time": "N/A"
+    },
+    {
+      "intent": "Request Form",
+      "confidence": "90",
+      "keywords": "Nobody told me ... send it to me?",
+      "products": [
+        "Bank Account"
+      ],
+      "issues": [
+        "Customer was not informed about the signature form requirement"
+      ],
+      "reasons (identified by agent)": [
+        "Lack of communication regarding the required form"
+      ],
+      "actions of agent": [
+        "Agreed to email the form to the customer's registered email address"
+      ],
+      "resolution_status": "pending",
+      "resolution": "N/A",
+      "dominant emotions (customer)": [
+        "Annoyance"
+      ],
+      "conversation sentiment": "Neutral",
+      "agent professionalism": "Professional and helpful",
+      "agent performance (out of 10)": "9",
+      "customer satisfaction (out of 10)": "7",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ],
+  "interruptions by customer": "0",
+  "interruptions by agent": "0"
 }

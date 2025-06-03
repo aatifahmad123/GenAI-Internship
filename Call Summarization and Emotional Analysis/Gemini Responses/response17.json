@@ -1,43 +1,46 @@
 {
-    "call id": "17",
-    "agent id": "2",
-    "call duration": "24",
-    "summary": "Customer reports unauthorized withdrawal; agent freezes account and investigates.",
-    "intents": [
-        {
-            "intent": "Report Unauthorized Transaction",
-            "confidence": "95",
-            "keywords": "I am worried my ... scared about this.",
-            "products": [
-                "Savings Account"
-            ],
-            "issues": [
-                "Unauthorized withdrawal of $25000",
-                "Fear of money being stolen"
-            ],
-            "reasons (identified by agent)": [
-                "Potential fraud"
-            ],
-            "actions of agent": [
-                "Account Frozen",
-                "Filed a fraud report",
-                "Assured customer account is secure",
-                "Promised to reverse the transaction"
-            ],
-            "resolution_status": "pending",
-            "resolution": "N/A",
-            "dominant emotions (customer)": [
-                "Worried",
-                "Scared"
-            ],
-            "conversation sentiment": "Negative",
-            "agent professionalism": "The agent was reassuring and took immediate action.",
-            "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "7",
-            "callback promise": "No",
-            "callback time": "N/A"
-        }
-    ],
-    "interruptions by customer": "0",
-    "interruptions by agent": "0"
+  "call id": "17",
+  "agent id": "2",
+  "call duration": "28",
+  "summary": "Customer reports unauthorized withdrawal; agent freezes account.",
+  "intents": [
+    {
+      "intent": "Report unauthorized transaction",
+      "confidence": "95",
+      "keywords": "I am worried my ... really scared about this.",
+      "products": [
+        "Savings account"
+      ],
+      "issues": [
+        "Unauthorized withdrawal of $25000",
+        "Potential fraud",
+        "Customer's money is not safe"
+      ],
+      "reasons (identified by agent)": [
+        "Potential account compromise",
+        "Fraudulent activity"
+      ],
+      "actions of agent": [
+        "Confirmed transaction amount and date",
+        "Froze the customer's account",
+        "Filed a fraud report",
+        "Assured customer account is secure",
+        "Promised to reverse the transaction"
+      ],
+      "resolution_status": "pending",
+      "resolution": "N/A",
+      "dominant emotions (customer)": [
+        "Worried",
+        "Scared"
+      ],
+      "conversation sentiment": "Negative",
+      "agent professionalism": "The agent was reassuring and took appropriate actions.",
+      "agent performance (out of 10)": "9",
+      "customer satisfaction (out of 10)": "7",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ],
+  "interruptions by customer": "0",
+  "interruptions by agent": "0"
 }

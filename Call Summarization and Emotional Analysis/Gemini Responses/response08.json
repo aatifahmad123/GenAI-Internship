@@ -1,42 +1,42 @@
 {
-    "call id": "8",
-    "agent id": "1",
-    "call duration": "20",
-    "summary": "Customer inquired about setting up UPI on the app.",
-    "intents": [
-        {
-            "intent": "UPI Setup Assistance",
-            "confidence": "95",
-            "keywords": "How do I set up ... with my phone.",
-            "products": [
-                "Savings Account",
-                "Mobile App",
-                "UPI"
-            ],
-            "issues": [
-                "Customer needs guidance on setting up UPI within the mobile application."
-            ],
-            "reasons (identified by agent)": [
-                "New user unfamiliar with the app's UPI setup process."
-            ],
-            "actions of agent": [
-                "Provided instructions on how to set up UPI within the app.",
-                "Offered to walk the customer through the process."
-            ],
-            "resolution_status": "resolved",
-            "resolution": "Customer understood the instructions and confirmed they could set up UPI themselves.",
-            "dominant emotions (customer)": [
-                "Inquisitive",
-                "Positive"
-            ],
-            "conversation sentiment": "Positive",
-            "agent professionalism": "The agent was helpful and offered assistance.",
-            "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "9",
-            "callback promise": "No",
-            "callback time": "N/A"
-        }
-    ],
-    "interruptions by customer": "0",
-    "interruptions by agent": "0"
+  "call id": "8",
+  "agent id": "1",
+  "call duration": "23",
+  "summary": "Customer inquired about setting up UPI on the app.",
+  "intents": [
+    {
+      "intent": "UPI Setup Assistance",
+      "confidence": "95",
+      "keywords": "How do I set... with my phone.",
+      "products": [
+        "Savings Account",
+        "Mobile App",
+        "UPI"
+      ],
+      "issues": [
+        "Customer needs assistance with setting up UPI on the mobile app."
+      ],
+      "reasons (identified by agent)": [
+        "N/A"
+      ],
+      "actions of agent": [
+        "Provided instructions on how to set up UPI.",
+        "Offered to walk the customer through the process."
+      ],
+      "resolution_status": "resolved",
+      "resolution": "Customer was provided with instructions to set up UPI.",
+      "dominant emotions (customer)": [
+        "Happy",
+        "Curious"
+      ],
+      "conversation sentiment": "Positive",
+      "agent professionalism": "Professional and helpful.",
+      "agent performance (out of 10)": "9",
+      "customer satisfaction (out of 10)": "9",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ],
+  "interruptions by customer": "0",
+  "interruptions by agent": "0"
 }

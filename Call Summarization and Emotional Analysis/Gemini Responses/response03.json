@@ -1,23 +1,24 @@
 {
     "call id": "3",
     "agent id": "1",
-    "call duration": "32",
-    "summary": "Customer unable to login; OTP not received.",
+    "call duration": "37",
+    "summary": "Customer unable to login; agent reset access manually.",
     "intents": [
         {
             "intent": "Login Issue",
             "confidence": "95",
-            "keywords": "Hi I can't login ... invalid credentials.",
+            "keywords": "Hi I can't login... invalid credentials.",
             "products": [
                 "Savings Account",
                 "Online Banking"
             ],
             "issues": [
                 "Unable to login to savings account online",
-                "Invalid credentials error"
+                "Invalid credentials error",
+                "OTP not received"
             ],
             "reasons (identified by agent)": [
-                "OTP system delay"
+                "OTP system is delayed"
             ],
             "actions of agent": [
                 "Verified customer's registered mobile number",
@@ -29,71 +30,6 @@
             "dominant emotions (customer)": [
                 "Frustration",
                 "Annoyance"
-            ],
-            "conversation sentiment": "Negative",
-            "agent professionalism": "Professional and empathetic.",
-            "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "7",
-            "callback promise": "No",
-            "callback time": "N/A"
-        },
-        {
-            "intent": "OTP Issue",
-            "confidence": "90",
-            "keywords": "Yeah, I did that ... OTP on my phone.",
-            "products": [
-                "Savings Account",
-                "Online Banking"
-            ],
-            "issues": [
-                "Not receiving OTP on registered mobile number"
-            ],
-            "reasons (identified by agent)": [
-                "OTP system delay"
-            ],
-            "actions of agent": [
-                "Verified customer's registered mobile number",
-                "Manually reset customer's access",
-                "Sent a temporary password"
-            ],
-            "resolution_status": "resolved",
-            "resolution": "Agent manually reset access and sent temporary password.",
-            "dominant emotions (customer)": [
-                "Frustration",
-                "Annoyance"
-            ],
-            "conversation sentiment": "Negative",
-            "agent professionalism": "Professional and empathetic.",
-            "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "7",
-            "callback promise": "No",
-            "callback time": "N/A"
-        },
-        {
-            "intent": "Money Transfer Urgency",
-            "confidence": "85",
-            "keywords": "This is so annoying ... transfer money today.",
-            "products": [
-                "Savings Account",
-                "Online Banking",
-                "Money Transfer"
-            ],
-            "issues": [
-                "Need to transfer money urgently"
-            ],
-            "reasons (identified by agent)": [
-                "Customer needs to transfer money today"
-            ],
-            "actions of agent": [
-                "Manually reset customer's access",
-                "Sent a temporary password"
-            ],
-            "resolution_status": "resolved",
-            "resolution": "Agent manually reset access and sent temporary password.",
-            "dominant emotions (customer)": [
-                "Frustration",
-                "Annoyance",
-                "Urgency"
             ],
             "conversation sentiment": "Negative",
             "agent professionalism": "Professional and empathetic.",

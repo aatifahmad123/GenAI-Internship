@@ -1,42 +1,42 @@
 {
-    "call id": "25",
-    "agent id": "3",
-    "call duration": "28",
-    "summary": "Customer inquired about a charge, agent waived the fee.",
-    "intents": [
-        {
-            "intent": "Inquiry about unexpected charge",
-            "confidence": "95",
-            "keywords": "Does a 200 rupees about?",
-            "products": [
-                "Savings account"
-            ],
-            "issues": [
-                "Unexpected charge of 200 rupees on savings account"
-            ],
-            "reasons (identified by agent)": [
-                "Maintenance fee due to low balance (below 10000 rupees)"
-            ],
-            "actions of agent": [
-                "Identified the charge as a maintenance fee.",
-                "Offered to waive the fee as a one-time courtesy.",
-                "Explained the minimum balance requirement.",
-                "Offered to set up balance alerts."
-            ],
-            "resolution_status": "resolved",
-            "resolution": "Agent waived the 200 rupees charge as a one-time courtesy.",
-            "dominant emotions (customer)": [
-                "Confusion",
-                "Annoyance"
-            ],
-            "conversation sentiment": "Negative",
-            "agent professionalism": "Professional and helpful.",
-            "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "7",
-            "callback promise": "No",
-            "callback time": "N/A"
-        }
-    ],
-    "interruptions by customer": "0",
-    "interruptions by agent": "0"
+  "call id": "25",
+  "agent id": "3",
+  "call duration": "31",
+  "summary": "Customer inquired about a charge, agent waived it.",
+  "intents": [
+    {
+      "intent": "Inquiry about unexpected charge",
+      "confidence": "95",
+      "keywords": "Does a 200 rupees... What's this about?",
+      "products": [
+        "Savings account"
+      ],
+      "issues": [
+        "Unexpected 200 rupees charge on savings account"
+      ],
+      "reasons (identified by agent)": [
+        "Maintenance fee due to low balance (below 10000 rupees)"
+      ],
+      "actions of agent": [
+        "Checked account details",
+        "Identified the charge as a maintenance fee",
+        "Waived the fee as a one-time courtesy",
+        "Offered to set up balance alerts"
+      ],
+      "resolution_status": "resolved",
+      "resolution": "The agent waived the 200 rupees charge as a one-time courtesy.",
+      "dominant emotions (customer)": [
+        "Confusion",
+        "Annoyance"
+      ],
+      "conversation sentiment": "Negative",
+      "agent professionalism": "Professional and helpful.",
+      "agent performance (out of 10)": "9",
+      "customer satisfaction (out of 10)": "7",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ],
+  "interruptions by customer": "0",
+  "interruptions by agent": "0"
 }

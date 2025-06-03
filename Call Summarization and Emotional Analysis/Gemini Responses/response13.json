@@ -1,36 +1,36 @@
 {
     "call id": "13",
     "agent id": "2",
-    "call duration": "24",
-    "summary": "Agent assisted customer with fraudulent credit card charge.",
+    "call duration": "29",
+    "summary": "Customer reports unauthorized charge, agent initiates chargeback.",
     "intents": [
         {
-            "intent": "Report Fraudulent Transaction",
+            "intent": "Report Fraudulent Charge",
             "confidence": "95",
-            "keywords": "Your bank so mass my ... I never made.",
+            "keywords": "Your bank so...I never made.",
             "products": [
                 "Credit Card"
             ],
             "issues": [
-                "Unauthorized charge of $15000 on credit card statement"
+                "Unauthorized charge of $15000",
+                "Fraudulent transaction"
             ],
             "reasons (identified by agent)": [
                 "Potential fraud"
             ],
             "actions of agent": [
-                "Confirmed transaction details (date and merchant)",
-                "Blocked the customer's credit card",
+                "Confirmed transaction details",
+                "Blocked the customer's card",
                 "Initiated a chargeback request"
             ],
             "resolution_status": "resolved",
-            "resolution": "Chargeback request filed; refund expected in 7-10 days.",
+            "resolution": "Chargeback request filed; refund in 7-10 days.",
             "dominant emotions (customer)": [
                 "Frustration",
-                "Anger",
-                "Concern"
+                "Anger"
             ],
             "conversation sentiment": "Negative",
-            "agent professionalism": "Agent remained calm and professional despite customer's frustration.",
+            "agent professionalism": "Professional and empathetic.",
             "agent performance (out of 10)": "9",
             "customer satisfaction (out of 10)": "6",
             "callback promise": "No",
