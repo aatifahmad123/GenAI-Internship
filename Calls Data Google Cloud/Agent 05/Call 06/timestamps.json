@@ -2,526 +2,376 @@
   {
     "word": "I",
     "start_time": "0.000 sec",
-    "end_time": "0.000 sec",
-    "confidence": 0.812,
-    "speaker": "Customer"
+    "end_time": "0.000 sec"
   },
   {
     "word": "am",
     "start_time": "0.000 sec",
-    "end_time": "0.000 sec",
-    "confidence": 0.812,
-    "speaker": "Customer"
+    "end_time": "0.000 sec"
   },
   {
     "word": "panicking",
     "start_time": "0.000 sec",
-    "end_time": "1.000 sec",
-    "confidence": 0.241,
-    "speaker": "Customer"
+    "end_time": "1.000 sec"
   },
   {
     "word": "my",
     "start_time": "1.000 sec",
-    "end_time": "1.000 sec",
-    "confidence": 0.811,
-    "speaker": "Customer"
+    "end_time": "1.000 sec"
   },
   {
     "word": "loan",
     "start_time": "1.000 sec",
-    "end_time": "2.000 sec",
-    "confidence": 0.964,
-    "speaker": "Customer"
+    "end_time": "2.000 sec"
   },
   {
     "word": "account",
     "start_time": "2.000 sec",
-    "end_time": "2.000 sec",
-    "confidence": 0.976,
-    "speaker": "Customer"
+    "end_time": "2.000 sec"
   },
   {
     "word": "shows",
     "start_time": "2.000 sec",
-    "end_time": "2.000 sec",
-    "confidence": 0.956,
-    "speaker": "Customer"
+    "end_time": "2.000 sec"
   },
   {
     "word": "a",
     "start_time": "2.000 sec",
-    "end_time": "2.000 sec",
-    "confidence": 0.563,
-    "speaker": "Customer"
+    "end_time": "2.000 sec"
   },
   {
     "word": "missed",
     "start_time": "2.000 sec",
-    "end_time": "2.000 sec",
-    "confidence": 0.479,
-    "speaker": "Customer"
+    "end_time": "3.000 sec"
   },
   {
     "word": "payment,",
-    "start_time": "2.000 sec",
-    "end_time": "3.000 sec",
-    "confidence": 0.912,
-    "speaker": "Customer"
+    "start_time": "3.000 sec",
+    "end_time": "3.000 sec"
   },
   {
     "word": "but",
     "start_time": "3.000 sec",
-    "end_time": "3.000 sec",
-    "confidence": 0.784,
-    "speaker": "Customer"
+    "end_time": "3.000 sec"
   },
   {
     "word": "I",
     "start_time": "3.000 sec",
-    "end_time": "3.000 sec",
-    "confidence": 0.955,
-    "speaker": "Customer"
+    "end_time": "3.000 sec"
   },
   {
     "word": "paid",
     "start_time": "3.000 sec",
-    "end_time": "4.000 sec",
-    "confidence": 0.713,
-    "speaker": "Customer"
+    "end_time": "4.000 sec"
   },
   {
-    "word": "it.",
+    "word": "it",
     "start_time": "4.000 sec",
-    "end_time": "4.000 sec",
-    "confidence": 0.772,
-    "speaker": "Customer"
+    "end_time": "4.000 sec"
   },
   {
     "word": "I",
     "start_time": "4.000 sec",
-    "end_time": "4.000 sec",
-    "confidence": 0.947,
-    "speaker": "Agent"
+    "end_time": "4.000 sec"
   },
   {
     "word": "am",
     "start_time": "4.000 sec",
-    "end_time": "4.000 sec",
-    "confidence": 0.914,
-    "speaker": "Agent"
+    "end_time": "4.000 sec"
   },
   {
     "word": "here",
     "start_time": "4.000 sec",
-    "end_time": "4.000 sec",
-    "confidence": 0.904,
-    "speaker": "Agent"
+    "end_time": "4.000 sec"
   },
   {
     "word": "to",
     "start_time": "4.000 sec",
-    "end_time": "4.000 sec",
-    "confidence": 0.952,
-    "speaker": "Agent"
+    "end_time": "4.000 sec"
   },
   {
     "word": "help",
     "start_time": "4.000 sec",
-    "end_time": "5.000 sec",
-    "confidence": 0.793,
-    "speaker": "Agent"
+    "end_time": "5.000 sec"
   },
   {
     "word": "sir.",
     "start_time": "5.000 sec",
-    "end_time": "5.000 sec",
-    "confidence": 0.541,
-    "speaker": "Agent"
+    "end_time": "5.000 sec"
   },
   {
     "word": "Can",
     "start_time": "5.000 sec",
-    "end_time": "5.000 sec",
-    "confidence": 0.992,
-    "speaker": "Agent"
+    "end_time": "5.000 sec"
   },
   {
     "word": "you",
     "start_time": "5.000 sec",
-    "end_time": "5.000 sec",
-    "confidence": 0.942,
-    "speaker": "Agent"
+    "end_time": "6.000 sec"
   },
   {
     "word": "confirm",
-    "start_time": "5.000 sec",
-    "end_time": "6.000 sec",
-    "confidence": 0.961,
-    "speaker": "Agent"
+    "start_time": "6.000 sec",
+    "end_time": "6.000 sec"
   },
   {
     "word": "your",
     "start_time": "6.000 sec",
-    "end_time": "6.000 sec",
-    "confidence": 0.969,
-    "speaker": "Agent"
+    "end_time": "6.000 sec"
   },
   {
     "word": "loan",
     "start_time": "6.000 sec",
-    "end_time": "6.000 sec",
-    "confidence": 0.966,
-    "speaker": "Agent"
+    "end_time": "6.000 sec"
   },
   {
     "word": "account",
     "start_time": "6.000 sec",
-    "end_time": "6.000 sec",
-    "confidence": 0.901,
-    "speaker": "Agent"
+    "end_time": "7.000 sec"
   },
   {
     "word": "number?",
-    "start_time": "6.000 sec",
-    "end_time": "7.000 sec",
-    "confidence": 0.748,
-    "speaker": "Agent"
+    "start_time": "7.000 sec",
+    "end_time": "7.000 sec"
   },
   {
     "word": "It's",
     "start_time": "7.000 sec",
-    "end_time": "7.000 sec",
-    "confidence": 0.0,
-    "speaker": "Customer"
+    "end_time": "7.000 sec"
   },
   {
     "word": "90",
     "start_time": "7.000 sec",
-    "end_time": "8.000 sec",
-    "confidence": 0.0,
-    "speaker": "Customer"
+    "end_time": "8.000 sec"
   },
   {
     "word": "12486",
     "start_time": "8.000 sec",
-    "end_time": "10.000 sec",
-    "confidence": 0.0,
-    "speaker": "Customer"
+    "end_time": "10.000 sec"
   },
   {
     "word": "577",
     "start_time": "10.000 sec",
-    "end_time": "11.000 sec",
-    "confidence": 0.0,
-    "speaker": "Customer"
+    "end_time": "12.000 sec"
   },
   {
     "word": "this",
-    "start_time": "11.000 sec",
-    "end_time": "12.000 sec",
-    "confidence": 0.0,
-    "speaker": "Customer"
+    "start_time": "12.000 sec",
+    "end_time": "13.000 sec"
   },
   {
     "word": "could",
-    "start_time": "12.000 sec",
-    "end_time": "12.000 sec",
-    "confidence": 0.0,
-    "speaker": "Customer"
+    "start_time": "13.000 sec",
+    "end_time": "13.000 sec"
   },
   {
     "word": "mess",
-    "start_time": "12.000 sec",
-    "end_time": "13.000 sec",
-    "confidence": 0.0,
-    "speaker": "Customer"
+    "start_time": "13.000 sec",
+    "end_time": "13.000 sec"
   },
   {
     "word": "up",
     "start_time": "13.000 sec",
-    "end_time": "13.000 sec",
-    "confidence": 0.0,
-    "speaker": "Customer"
+    "end_time": "13.000 sec"
   },
   {
     "word": "my",
     "start_time": "13.000 sec",
-    "end_time": "13.000 sec",
-    "confidence": 0.0,
-    "speaker": "Customer"
+    "end_time": "13.000 sec"
   },
   {
     "word": "credit",
     "start_time": "13.000 sec",
-    "end_time": "13.000 sec",
-    "confidence": 0.0,
-    "speaker": "Customer"
+    "end_time": "13.000 sec"
   },
   {
     "word": "score.",
     "start_time": "13.000 sec",
-    "end_time": "13.000 sec",
-    "confidence": 0.0,
-    "speaker": "Customer"
+    "end_time": "14.000 sec"
   },
   {
     "word": "I",
-    "start_time": "13.000 sec",
-    "end_time": "13.000 sec",
-    "confidence": 0.951,
-    "speaker": "Agent"
+    "start_time": "14.000 sec",
+    "end_time": "14.000 sec"
   },
   {
     "word": "see",
-    "start_time": "13.000 sec",
-    "end_time": "13.000 sec",
-    "confidence": 0.956,
-    "speaker": "Agent"
+    "start_time": "14.000 sec",
+    "end_time": "15.000 sec"
   },
   {
     "word": "the",
-    "start_time": "13.000 sec",
-    "end_time": "13.000 sec",
-    "confidence": 0.961,
-    "speaker": "Agent"
+    "start_time": "15.000 sec",
+    "end_time": "15.000 sec"
   },
   {
     "word": "payment",
-    "start_time": "13.000 sec",
-    "end_time": "13.000 sec",
-    "confidence": 0.971,
-    "speaker": "Agent"
+    "start_time": "15.000 sec",
+    "end_time": "15.000 sec"
   },
   {
     "word": "was",
-    "start_time": "13.000 sec",
-    "end_time": "14.000 sec",
-    "confidence": 0.966,
-    "speaker": "Agent"
+    "start_time": "15.000 sec",
+    "end_time": "15.000 sec"
   },
   {
     "word": "delayed",
-    "start_time": "14.000 sec",
-    "end_time": "14.000 sec",
-    "confidence": 0.913,
-    "speaker": "Agent"
+    "start_time": "15.000 sec",
+    "end_time": "16.000 sec"
   },
   {
     "word": "due",
-    "start_time": "14.000 sec",
-    "end_time": "14.000 sec",
-    "confidence": 0.982,
-    "speaker": "Agent"
+    "start_time": "16.000 sec",
+    "end_time": "16.000 sec"
   },
   {
     "word": "to",
-    "start_time": "14.000 sec",
-    "end_time": "15.000 sec",
-    "confidence": 0.978,
-    "speaker": "Agent"
+    "start_time": "16.000 sec",
+    "end_time": "16.000 sec"
   },
   {
     "word": "a",
-    "start_time": "15.000 sec",
-    "end_time": "15.000 sec",
-    "confidence": 0.93,
-    "speaker": "Agent"
+    "start_time": "16.000 sec",
+    "end_time": "16.000 sec"
   },
   {
     "word": "processing",
-    "start_time": "15.000 sec",
-    "end_time": "15.000 sec",
-    "confidence": 0.98,
-    "speaker": "Agent"
+    "start_time": "16.000 sec",
+    "end_time": "16.000 sec"
   },
   {
     "word": "error.",
-    "start_time": "15.000 sec",
-    "end_time": "15.000 sec",
-    "confidence": 0.964,
-    "speaker": "Agent"
-  },
-  {
-    "word": "I",
-    "start_time": "15.000 sec",
-    "end_time": "16.000 sec",
-    "confidence": 0.9,
-    "speaker": "Agent"
-  },
-  {
-    "word": "update",
     "start_time": "16.000 sec",
-    "end_time": "16.000 sec",
-    "confidence": 0.919,
-    "speaker": "Agent"
-  },
-  {
-    "word": "the",
-    "start_time": "16.000 sec",
-    "end_time": "17.000 sec",
-    "confidence": 0.959,
-    "speaker": "Agent"
-  },
-  {
-    "word": "status",
-    "start_time": "17.000 sec",
-    "end_time": "17.000 sec",
-    "confidence": 0.938,
-    "speaker": "Agent"
-  },
-  {
-    "word": "now.",
-    "start_time": "17.000 sec",
-    "end_time": "17.000 sec",
-    "confidence": 0.904,
-    "speaker": "Agent"
-  },
-  {
-    "word": "Thank",
-    "start_time": "17.000 sec",
-    "end_time": "17.000 sec",
-    "confidence": 0.788,
-    "speaker": "Customer"
-  },
-  {
-    "word": "God",
-    "start_time": "17.000 sec",
-    "end_time": "17.000 sec",
-    "confidence": 0.898,
-    "speaker": "Customer"
-  },
-  {
-    "word": "please",
-    "start_time": "17.000 sec",
-    "end_time": "18.000 sec",
-    "confidence": 0.969,
-    "speaker": "Customer"
-  },
-  {
-    "word": "make",
-    "start_time": "18.000 sec",
-    "end_time": "18.000 sec",
-    "confidence": 0.964,
-    "speaker": "Customer"
-  },
-  {
-    "word": "sure",
-    "start_time": "18.000 sec",
-    "end_time": "19.000 sec",
-    "confidence": 0.888,
-    "speaker": "Customer"
-  },
-  {
-    "word": "it's",
-    "start_time": "19.000 sec",
-    "end_time": "19.000 sec",
-    "confidence": 0.718,
-    "speaker": "Customer"
-  },
-  {
-    "word": "fixed.",
-    "start_time": "19.000 sec",
-    "end_time": "19.000 sec",
-    "confidence": 0.704,
-    "speaker": "Customer"
-  },
-  {
-    "word": "It's",
-    "start_time": "19.000 sec",
-    "end_time": "19.000 sec",
-    "confidence": 0.321,
-    "speaker": "Agent"
-  },
-  {
-    "word": "correct.",
-    "start_time": "19.000 sec",
-    "end_time": "19.000 sec",
-    "confidence": 0.816,
-    "speaker": "Agent"
-  },
-  {
-    "word": "It's",
-    "start_time": "19.000 sec",
-    "end_time": "19.000 sec",
-    "confidence": 0.389,
-    "speaker": "Agent"
-  },
-  {
-    "word": "your",
-    "start_time": "19.000 sec",
-    "end_time": "20.000 sec",
-    "confidence": 0.924,
-    "speaker": "Agent"
-  },
-  {
-    "word": "account",
-    "start_time": "20.000 sec",
-    "end_time": "20.000 sec",
-    "confidence": 0.972,
-    "speaker": "Agent"
-  },
-  {
-    "word": "is",
-    "start_time": "20.000 sec",
-    "end_time": "20.000 sec",
-    "confidence": 0.926,
-    "speaker": "Agent"
-  },
-  {
-    "word": "up",
-    "start_time": "20.000 sec",
-    "end_time": "21.000 sec",
-    "confidence": 0.901,
-    "speaker": "Agent"
-  },
-  {
-    "word": "to",
-    "start_time": "21.000 sec",
-    "end_time": "21.000 sec",
-    "confidence": 0.715,
-    "speaker": "Agent"
-  },
-  {
-    "word": "date",
-    "start_time": "21.000 sec",
-    "end_time": "21.000 sec",
-    "confidence": 0.697,
-    "speaker": "Agent"
-  },
-  {
-    "word": "and",
-    "start_time": "21.000 sec",
-    "end_time": "21.000 sec",
-    "confidence": 0.951,
-    "speaker": "Agent"
+    "end_time": "17.000 sec"
   },
   {
     "word": "I'll",
+    "start_time": "17.000 sec",
+    "end_time": "18.000 sec"
+  },
+  {
+    "word": "update",
+    "start_time": "18.000 sec",
+    "end_time": "18.000 sec"
+  },
+  {
+    "word": "the",
+    "start_time": "18.000 sec",
+    "end_time": "18.000 sec"
+  },
+  {
+    "word": "status",
+    "start_time": "18.000 sec",
+    "end_time": "18.000 sec"
+  },
+  {
+    "word": "now.",
+    "start_time": "18.000 sec",
+    "end_time": "19.000 sec"
+  },
+  {
+    "word": "Thank",
+    "start_time": "19.000 sec",
+    "end_time": "19.000 sec"
+  },
+  {
+    "word": "God",
+    "start_time": "19.000 sec",
+    "end_time": "20.000 sec"
+  },
+  {
+    "word": "please",
+    "start_time": "20.000 sec",
+    "end_time": "20.000 sec"
+  },
+  {
+    "word": "make",
+    "start_time": "20.000 sec",
+    "end_time": "20.000 sec"
+  },
+  {
+    "word": "sure",
+    "start_time": "20.000 sec",
+    "end_time": "21.000 sec"
+  },
+  {
+    "word": "it's",
     "start_time": "21.000 sec",
-    "end_time": "22.000 sec",
-    "confidence": 0.631,
-    "speaker": "Agent"
+    "end_time": "21.000 sec"
+  },
+  {
+    "word": "fixed",
+    "start_time": "21.000 sec",
+    "end_time": "21.000 sec"
+  },
+  {
+    "word": "its",
+    "start_time": "21.000 sec",
+    "end_time": "22.000 sec"
+  },
+  {
+    "word": "corrected",
+    "start_time": "22.000 sec",
+    "end_time": "22.000 sec"
+  },
+  {
+    "word": "sir.",
+    "start_time": "22.000 sec",
+    "end_time": "22.000 sec"
+  },
+  {
+    "word": "Your",
+    "start_time": "22.000 sec",
+    "end_time": "23.000 sec"
+  },
+  {
+    "word": "account",
+    "start_time": "23.000 sec",
+    "end_time": "23.000 sec"
+  },
+  {
+    "word": "is",
+    "start_time": "23.000 sec",
+    "end_time": "23.000 sec"
+  },
+  {
+    "word": "up",
+    "start_time": "23.000 sec",
+    "end_time": "23.000 sec"
+  },
+  {
+    "word": "to",
+    "start_time": "23.000 sec",
+    "end_time": "24.000 sec"
+  },
+  {
+    "word": "date",
+    "start_time": "24.000 sec",
+    "end_time": "24.000 sec"
+  },
+  {
+    "word": "and",
+    "start_time": "24.000 sec",
+    "end_time": "24.000 sec"
+  },
+  {
+    "word": "I'll",
+    "start_time": "24.000 sec",
+    "end_time": "24.000 sec"
   },
   {
     "word": "confirm",
-    "start_time": "22.000 sec",
-    "end_time": "22.000 sec",
-    "confidence": 0.927,
-    "speaker": "Agent"
+    "start_time": "24.000 sec",
+    "end_time": "25.000 sec"
   },
   {
     "word": "with",
-    "start_time": "22.000 sec",
-    "end_time": "22.000 sec",
-    "confidence": 0.949,
-    "speaker": "Agent"
+    "start_time": "25.000 sec",
+    "end_time": "25.000 sec"
   },
   {
     "word": "CIBIL",
-    "start_time": "22.000 sec",
-    "end_time": "23.000 sec",
-    "confidence": 0.29,
-    "speaker": "Agent"
+    "start_time": "25.000 sec",
+    "end_time": "26.000 sec"
   }
 ]

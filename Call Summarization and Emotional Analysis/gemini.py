@@ -35,21 +35,30 @@ def get_gemini_response(transcription,timestamps,metadata, agent_id, call_id):
                 {{
                     "intent": "<Intent recognized from the conversation>",
                     "confidence": "<Confidence level of intent recognition, as a percentage (0-100)>",
-                    "keywords": "<The segment of transcription that indicates the intent: give a couple of the starting words and a couple of ending words>",
+                    "keywords": "<The segment of transcription that indicates the intent: give a couple of the starting words and a couple of ending words separated by '...'>",
+                    "intent timestamp": "<Beginning and Ending timestamp of when the intent was identified, you may use the timstamps data provided>",
                     "products": "<List of products related to intent>",
                     "issues": [
                         {{
                             "issue": "<Brief description of the issue identified by the agent if any>",
                             "reason(s)": "<Brief description of the reason for the issue identified by the agent if any>",
-                            "issue type": "<Type of issue, e.g., 'technical', 'billing', 'service', etc.>"
+                            "issue type": "<Type of issue out of 
+                            1. 'Technical': software bugs, hardware malfunctions, connectivity, or system errors,
+                            2. 'Billing': invoices, payments, refunds, overcharges, or subscription,
+                            3. 'Service': long wait times, unhelpful support, or lack of follow-up,
+                            4. 'General Inquiry': questions not related to specific issues>",
                         }}
                     ],
                     "actions of agent": "<Brief description of the actions taken by the agent to handle the intent>",
-                    "resolution status": "<Status of resolution, e.g., 'resolved', 'pending'>",
+                    "resolution status": "<Status of resolution, One put of: 'Resolved', 'Unresolved', 'Pending with Process Request', 'Pending with Customer'>",
+                    "Process Request": "<Brief description of the process request if any, otherwise 'N/A'. Process request happens when the agent has to do something in the backend or with a third party to resolve the issue>",
+                    "resolution timestamp": "<Beginning and Ending timestamp of when the intent was resolved, you may use the timstamps data provided>",
                     "resolution": "<Brief description of the resolution if resolved or 'N/A' if not resolved>",
                     "dominant emotions (customer)": "[<list main emotions expressed by the customer>]",
                     "conversation sentiment": "<sentiment of the conversation: Positive/Negative/Neutral for that intent>",
-                    "agent professionalism": "<Brief comment on agent's professionalism>",
+                    "basic greeting and closing": "<Yes/No, whether the agent greeted and closed the call properly>",
+                    "fatal behaviour": "<Yes/No, whether the agent exhibited any fatal behaviour during the call>",
+                    "agent professionalism (out of 10)": "<Score from 1 to 10>",
                     "agent performance (out of 10)": "<Score from 1 to 10>",
                     "customer satisfaction (out of 10)": "<Score from 1 to 10>",
                     "callback promise": "<Yes/No>",

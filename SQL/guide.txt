@@ -40,3 +40,13 @@ Gender
 Number of Customers Handled
 Average Performance Score
 Average Customer Satisfaction
+
+
+# basic greeting (agent): <Yes or No, if yes, then the keywords (just a few) that reflect that
+in the transcription>
+# fatal
+# categorization : <Which category does the issue belong to?>
+# timestamps of intent identification
+# timstamps of resolution
+# resolution status : resolved, unresolved, pending, process request
+# process request: <Brief Description of process request>

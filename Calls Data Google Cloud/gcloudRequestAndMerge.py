@@ -2,24 +2,22 @@ from google.cloud import texttospeech
 from pydub import AudioSegment
 import os
 
-customer_vice = 'en-IN-Chirp3-HD-Achird'
-agent_voice = 'en-IN-Chirp3-HD-Autonoe'
+customer_vice = 'en-US-Chirp3-HD-Achird'
+agent_voice = 'en-US-Chirp3-HD-Autonoe'
 
 # Define the conversation
 conversation = [
-    "Hey, I’ve been charged twice on my credit card for the same transaction! This is ridiculous!",
-    "I’m so sorry to hear that, Sir. Could you please—",
-    "No, seriously, this is the second time something like this has happened! I just checked my statement and—",
-    "I completely understand your frustration. If you could just share the transaction details, I can—",
-    "It’s from last week, some restaurant bill, ₹5,200. I saw it twice, right there, two lines!",
-    "Thank you for that info. Let me pull up your account and—",
-    "And don’t tell me it’ll take weeks to fix, okay? I need that money back!",
-    "Of course, Sir. It sounds like a duplicate charge; I can initiate a chargeback request right away—",
-    "You better! I can’t keep paying for your mistakes! This is just not acceptable.",
-    "Absolutely, I understand. I’ve already flagged this for a refund, and—",
-    "How long is this going to take? I need to know!",
-    "It should reflect in 5–7 business days. I’ll keep you updated every step of the way.",
-    "Fine. Just make sure it happens this time."
+    "Hello? I applied for a personal loan last month, but nobody’s told me what’s happening with it.",
+    "Good afternoon, Sir. I’d be happy to check the status. Could you provide your application ID or full name?",
+    "It’s Priyansh Sharma. I don’t have any ID number… nobody gave me one!",
+    "No worries, I can search by name. One moment—",
+    "And please, don’t put me on hold for ages! I’ve been waiting too long already.",
+    "Of course, Sir. I’ll be as quick as possible. It looks like your application is under review due to a pending CIBIL score update—",
+    "CIBIL? What’s that? Nobody told me about this! Why is it taking so long?",
+    "I apologize for the confusion. CIBIL is your credit score, and we’re waiting for the latest report—",
+    "But I need the loan urgently! Can’t you speed it up?",
+    "Absolutely, I understand the urgency. I’ll escalate this to expedite the process and keep you updated.",
+    "Please do. I really hope I hear back soon this time."
 ]
 
 # Initialize Text-to-Speech client
@@ -30,7 +28,7 @@ def generate_and_save_audio(text, audio_voice, filename):
     synthesis_input = texttospeech.SynthesisInput(text=text)
 
     voice = texttospeech.VoiceSelectionParams(
-        language_code="en-IN",
+        language_code="en-US",
         name=audio_voice
     )
 
