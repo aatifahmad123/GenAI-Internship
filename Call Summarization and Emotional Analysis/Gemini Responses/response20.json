@@ -1,37 +1,44 @@
 {
-    "call id": "20",
-    "agent id": "2",
-    "call duration": "32",
-    "summary": "The agent assisted the customer with loan preclosure process.",
-    "intents": [
+  "call id": "20",
+  "agent id": "2",
+  "call duration": "32",
+  "summary": "Customer inquired about the final steps for loan preclosure.",
+  "intents": [
+    {
+      "intent": "Loan Preclosure",
+      "confidence": "95",
+      "keywords": "I am thrilled my loan preclosure was a proved just...know the final steps",
+      "intent timestamp": "0.000 sec - 9.000 sec",
+      "products": [
+        "Loan"
+      ],
+      "issues": [
         {
-            "intent": "Loan Preclosure Assistance",
-            "confidence": "95",
-            "keywords": "I am thrilled my loan preclosure was a proved...know the final steps",
-            "intent timestamp": "0.000 sec - 9.000 sec",
-            "products": [
-                "Loan"
-            ],
-            "issues": [],
-            "actions of agent": "Confirmed loan account number, provided the outstanding balance amount, and generated a payment link.",
-            "resolution status": "Resolved",
-            "Process Request": "Generated and sent payment link to customer.",
-            "resolution": "Payment link sent to customer for outstanding balance payment.",
-            "resolution timestamp": "27.000 sec - 29.000 sec",
-            "dominant emotions (customer)": [
-                "Happy",
-                "Excited"
-            ],
-            "conversation sentiment": "Positive",
-            "basic greeting and closing": "No",
-            "fatal behaviour": "No",
-            "agent professionalism (out of 10)": "9",
-            "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "9",
-            "callback promise": "No",
-            "callback time": "N/A"
+          "issue": "Customer needs to know the final steps for loan preclosure.",
+          "reason(s)": "N/A",
+          "issue type": "General Inquiry"
         }
-    ],
-    "interruptions by customer": "0",
-    "interruptions by agent": "0"
+      ],
+      "actions of agent": "Confirmed loan account number and provided information on outstanding balance and payment link.",
+      "resolution status": "Resolved",
+      "Process Request": "Generated and sent payment link to the customer.",
+      "resolution": "Payment link sent to customer to pay outstanding balance.",
+      "resolution timestamp": "27.000 sec - 29.000 sec",
+      "dominant emotions (customer)": [
+        "Thrilled",
+        "Happy"
+      ],
+      "conversation sentiment": "Positive",
+      "customer satisfaction": "100",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "10",
+  "agent performance (out of 10)": "10",
+  "customer satisfaction (out of 10)": "10",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0"
 }

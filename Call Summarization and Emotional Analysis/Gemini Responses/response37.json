@@ -1,8 +1,8 @@
 {
   "call id": "37",
   "agent id": "4",
-  "call duration": "24",
-  "summary": "Customer requests to open a demat account and agent assists.",
+  "call duration": "24.16",
+  "summary": "The agent assisted the customer in opening a demat account.",
   "intents": [
     {
       "intent": "Account Opening",
@@ -12,31 +12,48 @@
       "products": [
         "Demat Account"
       ],
-      "issues": [
-        {
-          "issue": "Customer needs assistance with opening a demat account.",
-          "reason(s)": "N/A",
-          "issue type": "General Inquiry"
-        }
-      ],
-      "actions of agent": "The agent asked for KYC documents and informed about the processing time and sent the form.",
+      "issues": [],
+      "actions of agent": "The agent confirmed the customer's request and asked for KYC documents.",
       "resolution status": "Pending with Process Request",
-      "Process Request": "Agent sent the form to the customer's email.",
-      "resolution": "Agent sent the form to the customer's email and will follow up.",
+      "Process Request": "The agent sent the customer a form to fill out and submit online and will follow up once it's processed.",
+      "resolution": "The agent sent the customer a form to fill out and submit online.",
       "resolution timestamp": "19.000 sec - 24.000 sec",
       "dominant emotions (customer)": [
         "Neutral"
       ],
       "conversation sentiment": "Neutral",
-      "basic greeting and closing": "No",
-      "fatal behaviour": "No",
-      "agent professionalism (out of 10)": "8",
-      "agent performance (out of 10)": "8",
-      "customer satisfaction (out of 10)": "7",
+      "customer satisfaction": "75",
       "callback promise": "Yes",
-      "callback time": "Once it's processed"
+      "callback time": "N/A"
+    },
+    {
+      "intent": "Inquiry about Processing Time",
+      "confidence": "90",
+      "keywords": "How long is this gonna take... 2 to 3 days...",
+      "intent timestamp": "8.000 sec - 13.000 sec",
+      "products": [
+        "Demat Account"
+      ],
+      "issues": [],
+      "actions of agent": "The agent informed the customer about the processing time.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "The agent informed the customer that it takes 2 to 3 days to process the account opening.",
+      "resolution timestamp": "11.000 sec - 14.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "80",
+      "callback promise": "No",
+      "callback time": "N/A"
     }
   ],
-  "interruptions by customer": "1",
+  "basic greeting and closing": "No",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "8",
+  "agent performance (out of 10)": "8",
+  "customer satisfaction (out of 10)": "7",
+  "interruptions by customer": "0",
   "interruptions by agent": "0"
 }

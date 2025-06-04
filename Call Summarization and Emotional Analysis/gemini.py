@@ -56,15 +56,16 @@ def get_gemini_response(transcription,timestamps,metadata, agent_id, call_id):
                     "resolution timestamp": "<Beginning and Ending timestamp of transcription that determines the resolution, again it has to be very specific atmost 10-15 words stretch, give a relaxed timeframe of 5 seconds (mandatorily), you may use the timstamps data provided>",
                     "dominant emotions (customer)": "[<list main emotions expressed by the customer>]",
                     "conversation sentiment": "<sentiment of the conversation: Positive/Negative/Neutral for that intent>",
-                    "basic greeting and closing": "<Yes/No, whether the agent greeted and closed the call properly>",
-                    "fatal behaviour": "<Yes/No, whether the agent exhibited any fatal behaviour during the call>",
-                    "agent professionalism (out of 10)": "<Score from 1 to 10>",
-                    "agent performance (out of 10)": "<Score from 1 to 10>",
-                    "customer satisfaction (out of 10)": "<Score from 1 to 10>",
+                    "customer satisfaction": "<Satisfaction of the customer with the agent's handling of the intent, as a percentage (0-100)>",
                     "callback promise": "<Yes/No>",
                     "callback time": "<Date (relative for eg. same day or next day and Time if applicable, otherwise 'N/A'>"
                 }}
             ],
+            "basic greeting and closing": "<Yes/No, whether the agent greeted and closed the call properly>",
+            "fatal behaviour": "<Yes/No, whether the agent exhibited any fatal behaviour during the call>",
+            "agent professionalism (out of 10)": "<Score from 1 to 10>",
+            "agent performance (out of 10)": "<Score from 1 to 10>",
+            "customer satisfaction (out of 10)": "<Score from 1 to 10>",
             "interruptions by customer": "<Number of times the customer interrupted the agent>",
             "interruptions by agent": "<Number of times the agent interrupted the customer>",
         }}

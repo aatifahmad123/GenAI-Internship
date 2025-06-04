@@ -1,69 +1,44 @@
 {
-  "call id": "30",
-  "agent id": "3",
-  "call duration": "30",
-  "summary": "Customer inquired about tracking an RTGS transfer and received confirmation.",
-  "intents": [
-    {
-      "intent": "Track RTGS Transfer",
-      "confidence": "95",
-      "keywords": "just need to know how to track them...want to make sure it went through",
-      "intent timestamp": "1.000 sec - 17.000 sec",
-      "products": [
-        "RTGS Transfer"
-      ],
-      "issues": [
+    "call id": "30",
+    "agent id": "3",
+    "call duration": "30.60",
+    "summary": "Customer inquired about tracking an RTGS transfer and received assistance.",
+    "intents": [
         {
-          "issue": "Customer wants to track RTGS transfer.",
-          "reason(s)": "Customer wants to confirm the transfer went through.",
-          "issue type": "General Inquiry"
+            "intent": "Track RTGS Transfer",
+            "confidence": "95",
+            "keywords": "I setup RTGS transfers and it's so easy just...how to track them",
+            "intent timestamp": "0.000 sec - 9.000 sec",
+            "products": [
+                "RTGS Transfer"
+            ],
+            "issues": [
+                {
+                    "issue": "Customer wants to track RTGS transfer.",
+                    "reason(s)": "Customer initiated an RTGS transfer and wants to confirm its status.",
+                    "issue type": "General Inquiry"
+                }
+            ],
+            "actions of agent": "Agent asked for the transaction reference number and confirmed the transfer was completed. Offered to send a statement.",
+            "resolution status": "Resolved",
+            "Process Request": "N/A",
+            "resolution": "Agent confirmed the transfer was completed and offered to send a statement, which the customer accepted.",
+            "resolution timestamp": "17.000 sec - 24.000 sec",
+            "dominant emotions (customer)": [
+                "Inquisitive",
+                "Satisfied"
+            ],
+            "conversation sentiment": "Positive",
+            "customer satisfaction": "100",
+            "callback promise": "No",
+            "callback time": "N/A"
         }
-      ],
-      "actions of agent": "Agent confirmed the transfer was completed and provided options to track it.",
-      "resolution status": "Resolved",
-      "Process Request": "N/A",
-      "resolution": "Agent confirmed the transfer was completed and provided options to track it in the app or receive a statement.",
-      "resolution timestamp": "17.000 sec - 21.000 sec",
-      "dominant emotions (customer)": [
-        "Inquisitive",
-        "Satisfied"
-      ],
-      "conversation sentiment": "Positive",
-      "basic greeting and closing": "Yes",
-      "fatal behaviour": "No",
-      "agent professionalism (out of 10)": "10",
-      "agent performance (out of 10)": "10",
-      "customer satisfaction (out of 10)": "10",
-      "callback promise": "No",
-      "callback time": "N/A"
-    },
-    {
-      "intent": "Request Statement",
-      "confidence": "90",
-      "keywords": "The transfer is completed...I can send a statement",
-      "intent timestamp": "17.000 sec - 24.000 sec",
-      "products": [
-        "Bank Statement"
-      ],
-      "issues": [],
-      "actions of agent": "Agent offered to send a statement and confirmed it was sent to the customer's email.",
-      "resolution status": "Resolved",
-      "Process Request": "N/A",
-      "resolution": "Agent sent the bank statement to the customer's email.",
-      "resolution timestamp": "28.000 sec - 30.000 sec",
-      "dominant emotions (customer)": [
-        "Happy"
-      ],
-      "conversation sentiment": "Positive",
-      "basic greeting and closing": "Yes",
-      "fatal behaviour": "No",
-      "agent professionalism (out of 10)": "10",
-      "agent performance (out of 10)": "10",
-      "customer satisfaction (out of 10)": "10",
-      "callback promise": "No",
-      "callback time": "N/A"
-    }
-  ],
-  "interruptions by customer": "0",
-  "interruptions by agent": "0"
+    ],
+    "basic greeting and closing": "Yes",
+    "fatal behaviour": "No",
+    "agent professionalism (out of 10)": "10",
+    "agent performance (out of 10)": "10",
+    "customer satisfaction (out of 10)": "10",
+    "interruptions by customer": "0",
+    "interruptions by agent": "0"
 }

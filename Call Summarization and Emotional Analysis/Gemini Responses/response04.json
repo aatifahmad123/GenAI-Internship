@@ -2,69 +2,72 @@
   "call id": "4",
   "agent id": "1",
   "call duration": "38",
-  "summary": "Customer is unhappy about EMI increase and seeks resolution.",
+  "summary": "Customer is upset about an unexpected EMI increase.",
   "intents": [
     {
       "intent": "EMI Increase Dispute",
       "confidence": "95",
-      "keywords": "Your banks cheating me my EMI went up this ... nobody told me.",
-      "intent timestamp": "0.000 sec - 8.000 sec",
+      "keywords": "Your banks cheating me my EMI went up this ... nobody told me. Why is this happening?",
+      "intent timestamp": "0.000 sec - 16.000 sec",
       "products": [
         "Loan"
       ],
       "issues": [
         {
           "issue": "Unexpected EMI increase",
-          "reason(s)": "Floating interest rate adjustment due to RBI repo rate hike.",
+          "reason(s)": "Floating interest rate increased due to RBI's repo rate hike.",
           "issue type": "Billing"
         }
       ],
-      "actions of agent": "Agent apologized, reviewed the account, explained the reason for the increase, and offered to explain the EMI calculation.",
+      "actions of agent": "Agent apologized, reviewed the loan account, explained the reason for the increase, and offered to explain the EMI calculation.",
       "resolution status": "Pending with Process Request",
       "Process Request": "Escalate to supervisor and explore EMI moratorium option.",
       "resolution": "Escalation to supervisor and exploration of EMI moratorium.",
-      "resolution timestamp": "30.000 sec - 35.000 sec",
+      "resolution timestamp": "28.000 sec - 36.000 sec",
       "dominant emotions (customer)": [
         "Anger",
         "Frustration"
       ],
       "conversation sentiment": "Negative",
-      "basic greeting and closing": "No",
-      "fatal behaviour": "No",
-      "agent professionalism (out of 10)": "7",
-      "agent performance (out of 10)": "6",
-      "customer satisfaction (out of 10)": "2",
+      "customer satisfaction": "20",
       "callback promise": "No",
       "callback time": "N/A"
     },
     {
       "intent": "Request to Speak to Manager",
       "confidence": "90",
-      "keywords": "This is nonsense. You should do won't me. ... speak to your manager.",
-      "intent timestamp": "23.000 sec - 30.000 sec",
+      "keywords": "This is nonsense. You should do won't me. I want ... speak to your manager.",
+      "intent timestamp": "23.000 sec - 29.000 sec",
       "products": [
         "Loan"
       ],
-      "issues": [],
+      "issues": [
+        {
+          "issue": "Customer wants to speak to a manager.",
+          "reason(s)": "Customer is dissatisfied with the explanation and wants further assistance.",
+          "issue type": "Service"
+        }
+      ],
       "actions of agent": "Agent agreed to escalate the issue to their supervisor.",
       "resolution status": "Pending with Process Request",
       "Process Request": "Escalate to supervisor.",
       "resolution": "Escalation to supervisor.",
-      "resolution timestamp": "30.000 sec - 33.000 sec",
+      "resolution timestamp": "28.000 sec - 33.000 sec",
       "dominant emotions (customer)": [
         "Anger",
         "Frustration"
       ],
       "conversation sentiment": "Negative",
-      "basic greeting and closing": "No",
-      "fatal behaviour": "No",
-      "agent professionalism (out of 10)": "7",
-      "agent performance (out of 10)": "6",
-      "customer satisfaction (out of 10)": "2",
+      "customer satisfaction": "20",
       "callback promise": "No",
       "callback time": "N/A"
     }
   ],
+  "basic greeting and closing": "No",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "6",
+  "agent performance (out of 10)": "6",
+  "customer satisfaction (out of 10)": "2",
   "interruptions by customer": "0",
   "interruptions by agent": "0"
 }

@@ -1,43 +1,44 @@
 {
-    "call id": "21",
-    "agent id": "3",
-    "call duration": "28",
-    "summary": "Agent enabled customer's debit card for online transactions.",
-    "intents": [
+  "call id": "21",
+  "agent id": "3",
+  "call duration": "28",
+  "summary": "Agent enabled online transactions for customer's debit card.",
+  "intents": [
+    {
+      "intent": "Debit Card Issue",
+      "confidence": "95",
+      "keywords": "My debit card is not working online...transaction failed fix it",
+      "intent timestamp": "0.000 sec - 9.000 sec",
+      "products": [
+        "Debit Card"
+      ],
+      "issues": [
         {
-            "intent": "Debit Card Issue",
-            "confidence": "95",
-            "keywords": "My debit card is not working online...transaction failed fix it",
-            "intent timestamp": "0.000 sec - 9.000 sec",
-            "products": [
-                "Debit Card"
-            ],
-            "issues": [
-                {
-                    "issue": "Debit card not working for online transactions",
-                    "reason(s)": "Online transactions were not enabled for the card.",
-                    "issue type": "Technical"
-                }
-            ],
-            "actions of agent": "Agent checked if online transactions were enabled and enabled it for the customer.",
-            "resolution status": "Resolved",
-            "Process Request": "Enabled online transactions for the debit card.",
-            "resolution": "Agent enabled the debit card for online transactions.",
-            "resolution timestamp": "24.000 sec - 28.000 sec",
-            "dominant emotions (customer)": [
-                "Frustration",
-                "Impatience"
-            ],
-            "conversation sentiment": "Negative",
-            "basic greeting and closing": "No",
-            "fatal behaviour": "No",
-            "agent professionalism (out of 10)": "7",
-            "agent performance (out of 10)": "8",
-            "customer satisfaction (out of 10)": "6",
-            "callback promise": "No",
-            "callback time": "N/A"
+          "issue": "Debit card not working for online transactions.",
+          "reason(s)": "Online transactions were not enabled for the card.",
+          "issue type": "Technical"
         }
-    ],
-    "interruptions by customer": "0",
-    "interruptions by agent": "0"
+      ],
+      "actions of agent": "Agent offered to enable online transactions for the customer's debit card.",
+      "resolution status": "Resolved",
+      "Process Request": "Enabled online transactions for the debit card.",
+      "resolution": "Agent enabled online transactions; customer to try again in a few minutes.",
+      "resolution timestamp": "22.000 sec - 28.000 sec",
+      "dominant emotions (customer)": [
+        "Frustration",
+        "Urgency"
+      ],
+      "conversation sentiment": "Negative",
+      "customer satisfaction": "70",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ],
+  "basic greeting and closing": "No",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "8",
+  "agent performance (out of 10)": "8",
+  "customer satisfaction (out of 10)": "7",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0"
 }

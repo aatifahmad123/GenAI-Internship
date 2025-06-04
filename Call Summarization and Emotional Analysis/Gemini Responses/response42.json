@@ -2,74 +2,71 @@
   "call id": "42",
   "agent id": "5",
   "call duration": "27",
-  "summary": "Customer wants to close loan and needs clarification.",
+  "summary": "The customer wants to close his loan early.",
   "intents": [
     {
       "intent": "Loan Closure Request",
       "confidence": "95",
-      "keywords": "I want to ... What's that about?",
+      "keywords": "I want to fuck close my loan...What's that about?",
       "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "Loan"
       ],
       "issues": [
         {
-          "issue": "Customer needs to close loan but requires a specific form.",
-          "reason(s)": "Branch informed customer about the form requirement but did not provide it.",
+          "issue": "Customer needs a specific form to close the loan.",
+          "reason(s)": "Branch informed the customer about the form requirement.",
           "issue type": "Service"
         }
       ],
-      "actions of agent": "Agent offered to help and asked for the loan account number.",
+      "actions of agent": "The agent offered to help and asked for the loan account number.",
       "resolution status": "Pending with Process Request",
-      "Process Request": "Agent will email the customer the foreclosure request form with instructions.",
-      "resolution": "Agent will email the foreclosure request form.",
-      "resolution timestamp": "15.000 sec - 18.000 sec",
+      "Process Request": "Agent will email the customer the closure request form with instructions.",
+      "resolution": "Agent will send the customer a loan closure request form.",
+      "resolution timestamp": "13.000 sec - 18.000 sec",
       "dominant emotions (customer)": [
         "Confused",
         "Frustrated"
       ],
       "conversation sentiment": "Neutral",
-      "basic greeting and closing": "No",
-      "fatal behaviour": "No",
-      "agent professionalism (out of 10)": "7",
-      "agent performance (out of 10)": "7",
-      "customer satisfaction (out of 10)": "6",
+      "customer satisfaction": "60",
       "callback promise": "No",
       "callback time": "N/A"
     },
     {
       "intent": "Information Request",
       "confidence": "90",
-      "keywords": "Ok, but what's ... nobody explain it.",
-      "intent timestamp": "16.000 sec - 22.000 sec",
+      "keywords": "what's for closure mean?...nobody explain it.",
+      "intent timestamp": "17.000 sec - 22.000 sec",
       "products": [
         "Loan"
       ],
       "issues": [
         {
-          "issue": "Customer does not understand the meaning of 'foreclosure'.",
-          "reason(s)": "Lack of clear explanation from the branch.",
+          "issue": "Customer does not understand the meaning of 'for closure'.",
+          "reason(s)": "Customer states that nobody explained it to him.",
           "issue type": "General Inquiry"
         }
       ],
-      "actions of agent": "Agent explained the meaning of foreclosure.",
+      "actions of agent": "The agent explained the meaning of 'for closure'.",
       "resolution status": "Resolved",
       "Process Request": "N/A",
-      "resolution": "Agent explained that foreclosure means paying off the loan early.",
+      "resolution": "Agent explained that 'for closure' means paying off the loan early.",
       "resolution timestamp": "21.000 sec - 27.000 sec",
       "dominant emotions (customer)": [
         "Confused"
       ],
       "conversation sentiment": "Neutral",
-      "basic greeting and closing": "No",
-      "fatal behaviour": "No",
-      "agent professionalism (out of 10)": "8",
-      "agent performance (out of 10)": "8",
-      "customer satisfaction (out of 10)": "7",
+      "customer satisfaction": "70",
       "callback promise": "No",
       "callback time": "N/A"
     }
   ],
+  "basic greeting and closing": "No",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "7",
+  "agent performance (out of 10)": "7",
+  "customer satisfaction (out of 10)": "6",
   "interruptions by customer": "0",
   "interruptions by agent": "0"
 }

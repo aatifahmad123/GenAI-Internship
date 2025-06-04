@@ -5,21 +5,21 @@
   "summary": "Customer unable to login to net banking due to OTP issue.",
   "intents": [
     {
-      "intent": "Login Issue",
+      "intent": "Technical Support",
       "confidence": "95",
-      "keywords": "I can't login to my net banking it says wrong ... I am sure it's right.",
+      "keywords": "I can't login to my net banking...I am sure it's right.",
       "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "Net Banking"
       ],
       "issues": [
         {
-          "issue": "Unable to login to net banking",
+          "issue": "Login failure",
           "reason(s)": "Incorrect password or system error",
           "issue type": "Technical"
         }
       ],
-      "actions of agent": "Verified customer's registered mobile number and fixed OTP issue.",
+      "actions of agent": "Troubleshooting the login issue and verifying customer details.",
       "resolution status": "Resolved",
       "Process Request": "N/A",
       "resolution": "OTP issue fixed from backend.",
@@ -28,47 +28,46 @@
         "Frustration"
       ],
       "conversation sentiment": "Negative",
-      "basic greeting and closing": "No",
-      "fatal behaviour": "No",
-      "agent professionalism (out of 10)": "7",
-      "agent performance (out of 10)": "8",
-      "customer satisfaction (out of 10)": "6",
+      "customer satisfaction": "70",
       "callback promise": "No",
       "callback time": "N/A"
     },
     {
       "intent": "OTP Issue",
-      "confidence": "90",
+      "confidence": "98",
       "keywords": "Yeah, but I don't get the OTP what's going on.",
       "intent timestamp": "8.000 sec - 13.000 sec",
       "products": [
-        "Net Banking"
+        "Net Banking",
+        "OTP"
       ],
       "issues": [
         {
-          "issue": "Not receiving OTP",
-          "reason(s)": "Possible system error or incorrect registered mobile number",
+          "issue": "OTP not received",
+          "reason(s)": "System error, incorrect registered mobile number",
           "issue type": "Technical"
         }
       ],
-      "actions of agent": "Verified customer's registered mobile number and fixed OTP issue.",
+      "actions of agent": "Verified registered mobile number and fixed the OTP issue.",
       "resolution status": "Resolved",
-      "Process Request": "N/A",
-      "resolution": "OTP issue fixed from backend.",
+      "Process Request": "Backend fix for OTP delivery",
+      "resolution": "Agent fixed the OTP delivery issue from the backend.",
       "resolution timestamp": "21.000 sec - 25.000 sec",
       "dominant emotions (customer)": [
-        "Frustration"
+        "Frustration",
+        "Annoyance"
       ],
       "conversation sentiment": "Negative",
-      "basic greeting and closing": "No",
-      "fatal behaviour": "No",
-      "agent professionalism (out of 10)": "7",
-      "agent performance (out of 10)": "8",
-      "customer satisfaction (out of 10)": "6",
+      "customer satisfaction": "75",
       "callback promise": "No",
       "callback time": "N/A"
     }
   ],
+  "basic greeting and closing": "No",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "8",
+  "agent performance (out of 10)": "8",
+  "customer satisfaction (out of 10)": "7",
   "interruptions by customer": "0",
   "interruptions by agent": "0"
 }

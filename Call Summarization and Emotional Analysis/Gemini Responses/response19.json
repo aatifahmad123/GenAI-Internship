@@ -7,7 +7,7 @@
     {
       "intent": "Account Closure",
       "confidence": "95",
-      "keywords": "I want to close my savings account the branch keeps ... this done quickly",
+      "keywords": "I want to close my savings account the branch keeps...done quickly.",
       "intent timestamp": "0.000 sec - 16.000 sec",
       "products": [
         "Savings Account"
@@ -15,55 +15,30 @@
       "issues": [
         {
           "issue": "Delay in account closure",
-          "reason(s)": "Branch is delaying the process.",
+          "reason(s)": "Branch is delaying the account closure process.",
           "issue type": "Service"
         }
       ],
-      "actions of agent": "Verified account details, offered options for pending balance, initiated closure and transfer.",
+      "actions of agent": "Verified account details, initiated closure and transfer of balance.",
       "resolution status": "Resolved",
-      "Process Request": "Initiated account closure and fund transfer to customer's other bank.",
-      "resolution": "Account closure and fund transfer initiated; completion in 3 days.",
+      "Process Request": "Initiated account closure and balance transfer.",
+      "resolution": "Account closure and balance transfer initiated, to be completed in 3 days.",
       "resolution timestamp": "26.000 sec - 31.000 sec",
       "dominant emotions (customer)": [
         "Frustration",
         "Impatience"
       ],
       "conversation sentiment": "Negative",
-      "basic greeting and closing": "No",
-      "fatal behaviour": "No",
-      "agent professionalism (out of 10)": "8",
-      "agent performance (out of 10)": "8",
-      "customer satisfaction (out of 10)": "6",
-      "callback promise": "No",
-      "callback time": "N/A"
-    },
-    {
-      "intent": "Balance Transfer",
-      "confidence": "90",
-      "keywords": "I understand there is a pending balance of 500 ... transfer it to my other bank",
-      "intent timestamp": "15.000 sec - 24.000 sec",
-      "products": [
-        "Savings Account"
-      ],
-      "issues": [],
-      "actions of agent": "Offered options for handling the pending balance and processed the transfer request.",
-      "resolution status": "Resolved",
-      "Process Request": "Initiated fund transfer to customer's other bank.",
-      "resolution": "Agent initiated the transfer of the 500 rupees balance to the customer's other bank.",
-      "resolution timestamp": "26.000 sec - 31.000 sec",
-      "dominant emotions (customer)": [
-        "Neutral"
-      ],
-      "conversation sentiment": "Neutral",
-      "basic greeting and closing": "No",
-      "fatal behaviour": "No",
-      "agent professionalism (out of 10)": "8",
-      "agent performance (out of 10)": "9",
-      "customer satisfaction (out of 10)": "7",
+      "customer satisfaction": "70",
       "callback promise": "No",
       "callback time": "N/A"
     }
   ],
+  "basic greeting and closing": "No",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "8",
+  "agent performance (out of 10)": "8",
+  "customer satisfaction (out of 10)": "7",
   "interruptions by customer": "0",
   "interruptions by agent": "0"
 }

@@ -1,8 +1,8 @@
 {
   "call id": "45",
   "agent id": "5",
-  "call duration": "24",
-  "summary": "Customer wants to update nominee for savings account.",
+  "call duration": "24.24",
+  "summary": "The customer wants to update nominee for savings account.",
   "intents": [
     {
       "intent": "Nominee Update Request",
@@ -13,25 +13,26 @@
         "Savings Account"
       ],
       "issues": [],
-      "actions of agent": "Agent asked for account number and informed customer about the nominee update form.",
+      "actions of agent": "The agent informed the customer about the nominee update form.",
       "resolution status": "Unresolved",
       "Process Request": "Send nominee update form to customer's registered email.",
-      "resolution": "Agent will send the nominee update form to the customer's registered email address.",
-      "resolution timestamp": "13.000 sec - 17.000 sec",
+      "resolution": "The agent will send the nominee update form to the customer's registered email address.",
+      "resolution timestamp": "14.000 sec - 17.000 sec",
       "dominant emotions (customer)": [
         "Neutral",
         "Inquiry"
       ],
       "conversation sentiment": "Neutral",
-      "basic greeting and closing": "No",
-      "fatal behaviour": "No",
-      "agent professionalism (out of 10)": "7",
-      "agent performance (out of 10)": "7",
-      "customer satisfaction (out of 10)": "5",
+      "customer satisfaction": "50",
       "callback promise": "No",
       "callback time": "N/A"
     }
   ],
-  "interruptions by customer": "1",
+  "basic greeting and closing": "No",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "7",
+  "agent performance (out of 10)": "6",
+  "customer satisfaction (out of 10)": "5",
+  "interruptions by customer": "0",
   "interruptions by agent": "0"
 }

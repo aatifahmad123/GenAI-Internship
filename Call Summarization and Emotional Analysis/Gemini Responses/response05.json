@@ -2,7 +2,7 @@
   "call id": "5",
   "agent id": "1",
   "call duration": "34.88",
-  "summary": "Customer's debit card declined due to insufficient funds, resolved.",
+  "summary": "Customer's debit card declined due to insufficient funds, resolved by transfer.",
   "intents": [
     {
       "intent": "Debit Card Declined",
@@ -19,25 +19,26 @@
           "issue type": "Billing"
         }
       ],
-      "actions of agent": "Verified the card status and account balance, then initiated a funds transfer.",
+      "actions of agent": "Verified the card status and account balance, offered fund transfer.",
       "resolution status": "Resolved",
-      "Process Request": "Funds transfer from savings to checking account.",
-      "resolution": "Funds transferred from savings to checking account.",
+      "Process Request": "Fund transfer from savings account.",
+      "resolution": "Funds transferred from savings to cover the transaction amount.",
       "resolution timestamp": "27.000 sec - 31.000 sec",
       "dominant emotions (customer)": [
         "Concern",
         "Surprise"
       ],
       "conversation sentiment": "Neutral",
-      "basic greeting and closing": "No",
-      "fatal behaviour": "No",
-      "agent professionalism (out of 10)": "8",
-      "agent performance (out of 10)": "9",
-      "customer satisfaction (out of 10)": "8",
+      "customer satisfaction": "90",
       "callback promise": "No",
       "callback time": "N/A"
     }
   ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "9",
   "interruptions by customer": "0",
   "interruptions by agent": "0"
 }

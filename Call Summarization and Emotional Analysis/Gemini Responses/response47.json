@@ -2,7 +2,7 @@
   "call id": "47",
   "agent id": "5",
   "call duration": "23.60",
-  "summary": "Agent assisted customer with fraudulent charge on credit card.",
+  "summary": "Agent assisted customer with fraudulent credit card charge.",
   "intents": [
     {
       "intent": "Fraudulent Charge Dispute",
@@ -14,30 +14,31 @@
       ],
       "issues": [
         {
-          "issue": "Unauthorized charge of $5000",
+          "issue": "Unauthorized $5000 charge on credit card",
           "reason(s)": "Merchant error",
           "issue type": "Billing"
         }
       ],
-      "actions of agent": "Agent identified the charge as a merchant error, initiated a dispute, and blocked the card for future transactions.",
+      "actions of agent": "Verified card details, initiated dispute, blocked card for transactions.",
       "resolution status": "Resolved",
-      "Process Request": "Dispute initiated and card blocked.",
-      "resolution": "Customer will receive a refund in 7 to 10 days.",
-      "resolution timestamp": "21.000 sec - 24.000 sec",
+      "Process Request": "Dispute filed for fraudulent charge.",
+      "resolution": "Refund will be processed in 7-10 days.",
+      "resolution timestamp": "20.000 sec - 24.000 sec",
       "dominant emotions (customer)": [
         "Concern",
         "Frustration"
       ],
       "conversation sentiment": "Negative",
-      "basic greeting and closing": "No",
-      "fatal behaviour": "No",
-      "agent professionalism (out of 10)": "7",
-      "agent performance (out of 10)": "8",
-      "customer satisfaction (out of 10)": "7",
+      "customer satisfaction": "80",
       "callback promise": "No",
       "callback time": "N/A"
     }
   ],
+  "basic greeting and closing": "No",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "7",
+  "agent performance (out of 10)": "8",
+  "customer satisfaction (out of 10)": "7",
   "interruptions by customer": "0",
   "interruptions by agent": "0"
 }

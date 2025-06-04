@@ -2,42 +2,43 @@
   "call id": "32",
   "agent id": "4",
   "call duration": "32",
-  "summary": "Customer's card was deactivated and agent reactivated it.",
+  "summary": "Agent reactivated customer's card due to inactivity.",
   "intents": [
     {
       "intent": "Card Issue",
       "confidence": "95",
-      "keywords": "Hello, I tried using the ATM but it says my...What's wrong?",
+      "keywords": "Hello, I tried using the ATM but it says...What's wrong?",
       "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "ATM Card"
       ],
       "issues": [
         {
-          "issue": "Card is not working at ATM.",
-          "reason(s)": "Card was deactivated due to inactivity.",
+          "issue": "Card is not working at ATM",
+          "reason(s)": "Card deactivated due to inactivity.",
           "issue type": "Technical"
         }
       ],
       "actions of agent": "Agent checked the card status and reactivated the card.",
       "resolution status": "Resolved",
       "Process Request": "N/A",
-      "resolution": "Card reactivated and confirmation sent.",
+      "resolution": "Card reactivated and confirmation sent to customer.",
       "resolution timestamp": "27.000 sec - 32.000 sec",
       "dominant emotions (customer)": [
-        "Frustration",
-        "Confusion"
+        "Concern",
+        "Frustration"
       ],
-      "conversation sentiment": "Negative",
-      "basic greeting and closing": "No",
-      "fatal behaviour": "No",
-      "agent professionalism (out of 10)": "8",
-      "agent performance (out of 10)": "9",
-      "customer satisfaction (out of 10)": "7",
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "85",
       "callback promise": "No",
       "callback time": "N/A"
     }
   ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "8",
   "interruptions by customer": "0",
   "interruptions by agent": "0"
 }

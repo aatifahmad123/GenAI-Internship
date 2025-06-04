@@ -1,14 +1,14 @@
 {
   "call id": "1",
   "agent id": "1",
-  "call duration": "59",
+  "call duration": "59.04",
   "summary": "Customer reported duplicate charge and requested a refund.",
   "intents": [
     {
-      "intent": "Report Duplicate Charge",
+      "intent": "Billing Dispute",
       "confidence": "95",
-      "keywords": "Arvind charged voice on my credit card for the ... same transaction",
-      "intent timestamp": "0.000 sec - 8.000 sec",
+      "keywords": "Arvind charged voice on my credit card for the ... This is the second time something like this happened",
+      "intent timestamp": "0.000 sec - 16.000 sec",
       "products": [
         "Credit Card"
       ],
@@ -21,23 +21,24 @@
       ],
       "actions of agent": "Agent apologized, collected transaction details, and initiated a chargeback request.",
       "resolution status": "Pending with Process Request",
-      "Process Request": "Chargeback request initiated by the agent.",
-      "resolution": "Refund to be processed within 5-7 business days.",
-      "resolution timestamp": "51.000 sec - 56.000 sec",
+      "Process Request": "Chargeback request initiated for the duplicate transaction.",
+      "resolution": "Refund of the duplicate charge to be processed within 5-7 business days.",
+      "resolution timestamp": "51.000 sec - 55.000 sec",
       "dominant emotions (customer)": [
         "Frustration",
         "Anger"
       ],
       "conversation sentiment": "Negative",
-      "basic greeting and closing": "No",
-      "fatal behaviour": "No",
-      "agent professionalism (out of 10)": "7",
-      "agent performance (out of 10)": "7",
-      "customer satisfaction (out of 10)": "4",
+      "customer satisfaction": "50",
       "callback promise": "No",
       "callback time": "N/A"
     }
   ],
+  "basic greeting and closing": "No",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "7",
+  "agent performance (out of 10)": "7",
+  "customer satisfaction (out of 10)": "5",
   "interruptions by customer": "3",
   "interruptions by agent": "0"
 }

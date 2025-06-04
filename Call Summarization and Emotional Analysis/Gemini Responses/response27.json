@@ -2,40 +2,36 @@
   "call id": "27",
   "agent id": "3",
   "call duration": "32",
-  "summary": "Customer inquired about withdrawing fixed deposit yearly.",
+  "summary": "Customer requests to withdraw fixed deposit and check interest.",
   "intents": [
     {
       "intent": "Fixed Deposit Withdrawal",
       "confidence": "95",
-      "keywords": "I want to withdraw my fixed deposit yearly, how ... that work?",
+      "keywords": "I want to withdraw my fixed deposit yearly, ... does that work?",
       "intent timestamp": "0.000 sec - 8.000 sec",
       "products": [
         "Fixed Deposit"
       ],
       "issues": [],
-      "actions of agent": "Agent offered assistance and asked for the FD account number.",
+      "actions of agent": "Agent asked for FD account number and explained about reduced interest rate.",
       "resolution status": "Pending with Process Request",
-      "Process Request": "Initiated premature withdrawal of FD.",
-      "resolution": "Premature withdrawal initiated with a penalty on interest.",
-      "resolution timestamp": "28.000 sec - 32.000 sec",
+      "Process Request": "Initiated premature withdrawal of FD with penalty calculation.",
+      "resolution": "Premature withdrawal initiated with penalty and interest calculation.",
+      "resolution timestamp": "29.000 sec - 32.000 sec",
       "dominant emotions (customer)": [
         "Inquiry",
         "Concern"
       ],
       "conversation sentiment": "Neutral",
-      "basic greeting and closing": "No",
-      "fatal behaviour": "No",
-      "agent professionalism (out of 10)": "7",
-      "agent performance (out of 10)": "7",
-      "customer satisfaction (out of 10)": "6",
+      "customer satisfaction": "70",
       "callback promise": "No",
       "callback time": "N/A"
     },
     {
-      "intent": "Interest Calculation",
+      "intent": "Interest Rate Inquiry",
       "confidence": "90",
-      "keywords": "Will I lose all the interest?...reduced interest rate.",
-      "intent timestamp": "12.000 sec - 19.000 sec",
+      "keywords": "Will I lose all the interest?",
+      "intent timestamp": "10.000 sec - 16.000 sec",
       "products": [
         "Fixed Deposit"
       ],
@@ -46,25 +42,26 @@
           "issue type": "Billing"
         }
       ],
-      "actions of agent": "Agent offered to calculate the exact amount after penalty.",
+      "actions of agent": "Agent explained about reduced interest rate and offered to calculate the exact amount.",
       "resolution status": "Pending with Process Request",
-      "Process Request": "Initiated premature withdrawal of FD.",
-      "resolution": "Agent calculated the interest after penalty.",
-      "resolution timestamp": "26.000 sec - 32.000 sec",
+      "Process Request": "Calculated penalty and interest after premature withdrawal.",
+      "resolution": "Provided information on reduced interest rate and calculated the amount after penalty.",
+      "resolution timestamp": "24.000 sec - 30.000 sec",
       "dominant emotions (customer)": [
         "Concern",
         "Anxiety"
       ],
       "conversation sentiment": "Neutral",
-      "basic greeting and closing": "No",
-      "fatal behaviour": "No",
-      "agent professionalism (out of 10)": "7",
-      "agent performance (out of 10)": "7",
-      "customer satisfaction (out of 10)": "6",
+      "customer satisfaction": "75",
       "callback promise": "No",
       "callback time": "N/A"
     }
   ],
+  "basic greeting and closing": "No",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "7",
+  "agent performance (out of 10)": "7",
+  "customer satisfaction (out of 10)": "7",
   "interruptions by customer": "0",
   "interruptions by agent": "0"
 }

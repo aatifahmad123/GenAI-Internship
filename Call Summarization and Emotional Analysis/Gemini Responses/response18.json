@@ -20,24 +20,25 @@
         }
       ],
       "actions of agent": "Offered troubleshooting steps and manual processing of application.",
-      "resolution status": "Pending with Process Request",
-      "Process Request": "Customer needs to email documents to loan desk for manual processing.",
-      "resolution": "Agent will process the car loan application manually after receiving documents.",
+      "resolution status": "Resolved",
+      "Process Request": "Manual processing of car loan application.",
+      "resolution": "Agent offered to process the application manually.",
       "resolution timestamp": "22.000 sec - 28.000 sec",
       "dominant emotions (customer)": [
         "Frustration",
         "Confusion"
       ],
       "conversation sentiment": "Negative",
-      "basic greeting and closing": "No",
-      "fatal behaviour": "No",
-      "agent professionalism (out of 10)": "8",
-      "agent performance (out of 10)": "8",
-      "customer satisfaction (out of 10)": "7",
+      "customer satisfaction": "85",
       "callback promise": "No",
       "callback time": "N/A"
     }
   ],
+  "basic greeting and closing": "No",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "8",
   "interruptions by customer": "0",
   "interruptions by agent": "0"
 }

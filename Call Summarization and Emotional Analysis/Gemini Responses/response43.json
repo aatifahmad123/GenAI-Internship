@@ -1,44 +1,45 @@
 {
-    "call id": "43",
-    "agent id": "5",
-    "call duration": "27",
-    "summary": "Agent refunded erroneous ATM fee and apologized to customer.",
-    "intents": [
+  "call id": "43",
+  "agent id": "5",
+  "call duration": "27",
+  "summary": "The agent resolved an erroneous ATM withdrawal fee issue.",
+  "intents": [
+    {
+      "intent": "Billing Dispute",
+      "confidence": "95",
+      "keywords": "you are charging me 1000 Rupees for nothing...account statement SMS",
+      "intent timestamp": "0.000 sec - 8.000 sec",
+      "products": [
+        "Bank Account",
+        "ATM"
+      ],
+      "issues": [
         {
-            "intent": "Billing Dispute",
-            "confidence": "95",
-            "keywords": "you are charging me 1000 Rupees for nothing my account...",
-            "intent timestamp": "0.000 sec - 8.000 sec",
-            "products": [
-                "Bank Account",
-                "ATM"
-            ],
-            "issues": [
-                {
-                    "issue": "Unauthorized charge of 1000 Rupees",
-                    "reason(s)": "Erroneous ATM withdrawal fee",
-                    "issue type": "Billing"
-                }
-            ],
-            "actions of agent": "Identified the erroneous charge and initiated a refund.",
-            "resolution status": "Resolved",
-            "Process Request": "Refund initiated",
-            "resolution": "Refund will be processed and reflected in 24 hours.",
-            "resolution timestamp": "23.000 sec - 27.000 sec",
-            "dominant emotions (customer)": [
-                "Anger",
-                "Frustration"
-            ],
-            "conversation sentiment": "Negative",
-            "basic greeting and closing": "No",
-            "fatal behaviour": "No",
-            "agent professionalism (out of 10)": "7",
-            "agent performance (out of 10)": "8",
-            "customer satisfaction (out of 10)": "4",
-            "callback promise": "No",
-            "callback time": "N/A"
+          "issue": "Unauthorized charge of 1000 Rupees",
+          "reason(s)": "Erroneous ATM withdrawal fee",
+          "issue type": "Billing"
         }
-    ],
-    "interruptions by customer": "0",
-    "interruptions by agent": "0"
+      ],
+      "actions of agent": "Identified the erroneous charge and initiated a refund.",
+      "resolution status": "Resolved",
+      "Process Request": "Refund processed",
+      "resolution": "Refund will be processed and reflected in the account within 24 hours.",
+      "resolution timestamp": "23.000 sec - 27.000 sec",
+      "dominant emotions (customer)": [
+        "Anger",
+        "Frustration"
+      ],
+      "conversation sentiment": "Negative",
+      "customer satisfaction": "60",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ],
+  "basic greeting and closing": "No",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "7",
+  "agent performance (out of 10)": "8",
+  "customer satisfaction (out of 10)": "6",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0"
 }

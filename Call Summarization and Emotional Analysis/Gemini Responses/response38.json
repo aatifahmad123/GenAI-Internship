@@ -1,8 +1,8 @@
 {
   "call id": "38",
   "agent id": "4",
-  "call duration": "24.68",
-  "summary": "Agent manually processed customer's stuck payment due to a glitch.",
+  "call duration": "24",
+  "summary": "The agent resolved the customer's payment processing issue.",
   "intents": [
     {
       "intent": "Payment Issue",
@@ -10,7 +10,7 @@
       "keywords": "My card payment stuck on processing for 2 days...What's the deal?",
       "intent timestamp": "0.000 sec - 8.000 sec",
       "products": [
-        "Gardens"
+        "Card Payment"
       ],
       "issues": [
         {
@@ -19,7 +19,7 @@
           "issue type": "Technical"
         }
       ],
-      "actions of agent": "Agent apologized and offered to manually process the payment.",
+      "actions of agent": "The agent apologized, identified the issue as a gateway glitch, and manually processed the payment.",
       "resolution status": "Resolved",
       "Process Request": "Manual payment processing.",
       "resolution": "Agent manually processed the payment.",
@@ -29,15 +29,16 @@
         "Annoyance"
       ],
       "conversation sentiment": "Negative",
-      "basic greeting and closing": "No",
-      "fatal behaviour": "No",
-      "agent professionalism (out of 10)": "7",
-      "agent performance (out of 10)": "8",
-      "customer satisfaction (out of 10)": "6",
+      "customer satisfaction": "60",
       "callback promise": "No",
       "callback time": "N/A"
     }
   ],
+  "basic greeting and closing": "No",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "7",
+  "agent performance (out of 10)": "8",
+  "customer satisfaction (out of 10)": "6",
   "interruptions by customer": "0",
   "interruptions by agent": "0"
 }

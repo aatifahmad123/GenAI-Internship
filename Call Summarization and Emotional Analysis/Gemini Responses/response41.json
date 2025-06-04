@@ -5,7 +5,7 @@
   "summary": "Customer's PPI wallet wasn't linking to the new debit card.",
   "intents": [
     {
-      "intent": "Technical issue with PPI wallet",
+      "intent": "Technical Support",
       "confidence": "95",
       "keywords": "My PPI wallet isn't linking to my new debit...What's the problem?",
       "intent timestamp": "0.000 sec - 8.000 sec",
@@ -20,7 +20,7 @@
           "issue type": "Technical"
         }
       ],
-      "actions of agent": "Verified the last 4 digits of the card and enabled PPI for the card.",
+      "actions of agent": "Verified the last four digits of the card and enabled PPI for the card.",
       "resolution status": "Resolved",
       "Process Request": "Enabled PPI for the card",
       "resolution": "Agent enabled PPI for the card immediately.",
@@ -30,15 +30,16 @@
         "Impatience"
       ],
       "conversation sentiment": "Negative",
-      "basic greeting and closing": "No",
-      "fatal behaviour": "No",
-      "agent professionalism (out of 10)": "7",
-      "agent performance (out of 10)": "8",
-      "customer satisfaction (out of 10)": "6",
+      "customer satisfaction": "70",
       "callback promise": "No",
       "callback time": "N/A"
     }
   ],
-  "interruptions by customer": "0",
+  "basic greeting and closing": "No",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "8",
+  "agent performance (out of 10)": "8",
+  "customer satisfaction (out of 10)": "7",
+  "interruptions by customer": "1",
   "interruptions by agent": "0"
 }

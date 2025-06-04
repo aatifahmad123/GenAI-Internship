@@ -2,37 +2,38 @@
   "call id": "14",
   "agent id": "2",
   "call duration": "27",
-  "summary": "Customer inquired about setting up NEFT transfer; agent provided guidance.",
+  "summary": "Customer inquired about setting up NEFT transfer, agent provided guidance.",
   "intents": [
     {
       "intent": "NEFT Transfer Setup",
       "confidence": "95",
-      "keywords": "How do I set up NEFT ... anything special for it?",
-      "intent timestamp": "3.000 sec - 16.000 sec",
+      "keywords": "How do I set up NEFT ... takes 24 hours to activate",
+      "intent timestamp": "3.000 sec - 21.000 sec",
       "products": [
         "Savings Account",
         "Mobile App"
       ],
       "issues": [],
-      "actions of agent": "The agent explained the process of setting up NEFT transfer using the mobile app, including adding a beneficiary and the required information.",
+      "actions of agent": "The agent explained the process of setting up NEFT transfer using the mobile app, including adding a beneficiary and the 24-hour activation period.",
       "resolution status": "Resolved",
       "Process Request": "N/A",
-      "resolution": "The agent informed the customer to go to the app's transfer section, add beneficiary with account number and IFSC code.",
+      "resolution": "The agent provided clear instructions on how to set up NEFT transfer.",
       "resolution timestamp": "5.000 sec - 12.000 sec",
       "dominant emotions (customer)": [
-        "Excited",
-        "Curious"
+        "Excitement",
+        "Gratitude"
       ],
       "conversation sentiment": "Positive",
-      "basic greeting and closing": "Yes",
-      "fatal behaviour": "No",
-      "agent professionalism (out of 10)": "10",
-      "agent performance (out of 10)": "10",
-      "customer satisfaction (out of 10)": "10",
+      "customer satisfaction": "100",
       "callback promise": "No",
       "callback time": "N/A"
     }
   ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "10",
+  "agent performance (out of 10)": "10",
+  "customer satisfaction (out of 10)": "10",
   "interruptions by customer": "0",
   "interruptions by agent": "0"
 }

@@ -1,37 +1,44 @@
 {
-    "call id": "50",
-    "agent id": "5",
-    "call duration": "25",
-    "summary": "Customer inquired about increasing recurring deposit amount.",
-    "intents": [
+  "call id": "50",
+  "agent id": "5",
+  "call duration": "25.88",
+  "summary": "Customer inquired about increasing the amount of recurring deposit.",
+  "intents": [
+    {
+      "intent": "Increase Recurring Deposit Amount",
+      "confidence": "95",
+      "keywords": "I set up a recurring deposit...How do I increase the amount?",
+      "intent timestamp": "0.000 sec - 8.000 sec",
+      "products": [
+        "Recurring Deposit"
+      ],
+      "issues": [
         {
-            "intent": "Increase Recurring Deposit Amount",
-            "confidence": "95",
-            "keywords": "How do I increase the amount?",
-            "intent timestamp": "0.000 sec - 8.000 sec",
-            "products": [
-                "Recurring Deposit"
-            ],
-            "issues": [],
-            "actions of agent": "Provided information on how to modify the recurring deposit amount.",
-            "resolution status": "Resolved",
-            "Process Request": "Send form to customer's email to modify RD.",
-            "resolution": "Agent sent a form to the customer's email to modify the RD amount and promised a follow-up.",
-            "resolution timestamp": "16.000 sec - 26.000 sec",
-            "dominant emotions (customer)": [
-                "Inquisitive",
-                "Positive"
-            ],
-            "conversation sentiment": "Positive",
-            "basic greeting and closing": "Yes",
-            "fatal behaviour": "No",
-            "agent professionalism (out of 10)": "8",
-            "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "9",
-            "callback promise": "Yes",
-            "callback time": "N/A"
+          "issue": "Customer wants to increase the amount of their recurring deposit.",
+          "reason(s)": "N/A",
+          "issue type": "Service"
         }
-    ],
-    "interruptions by customer": "0",
-    "interruptions by agent": "0"
+      ],
+      "actions of agent": "The agent informed the customer that they need to submit a request to modify the RD and that the agent will send the form to the customer's email and follow up once it's processed.",
+      "resolution status": "Pending with Process Request",
+      "Process Request": "Agent sent a form to the customer's email to modify the recurring deposit amount.",
+      "resolution": "The agent sent the customer a form to modify the RD amount and will follow up.",
+      "resolution timestamp": "16.000 sec - 26.000 sec",
+      "dominant emotions (customer)": [
+        "Inquisitive",
+        "Positive"
+      ],
+      "conversation sentiment": "Positive",
+      "customer satisfaction": "95",
+      "callback promise": "Yes",
+      "callback time": "N/A"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "9",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0"
 }

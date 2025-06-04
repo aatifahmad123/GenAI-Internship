@@ -12,25 +12,32 @@
       "products": [
         "Credit Card"
       ],
-      "issues": [],
+      "issues": [
+        {
+          "issue": "New card needs activation",
+          "reason(s)": "New card received by customer",
+          "issue type": "Service"
+        }
+      ],
       "actions of agent": "Agent offered to activate the card and activated it.",
       "resolution status": "Resolved",
       "Process Request": "N/A",
-      "resolution": "Agent activated the card.",
+      "resolution": "Card activated immediately by the agent.",
       "resolution timestamp": "15.000 sec - 18.000 sec",
       "dominant emotions (customer)": [
         "Happy"
       ],
       "conversation sentiment": "Positive",
-      "basic greeting and closing": "Yes",
-      "fatal behaviour": "No",
-      "agent professionalism (out of 10)": "10",
-      "agent performance (out of 10)": "10",
-      "customer satisfaction (out of 10)": "10",
+      "customer satisfaction": "100",
       "callback promise": "No",
       "callback time": "N/A"
     }
   ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "10",
+  "agent performance (out of 10)": "10",
+  "customer satisfaction (out of 10)": "10",
   "interruptions by customer": "0",
   "interruptions by agent": "0"
 }

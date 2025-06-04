@@ -7,37 +7,37 @@
     {
       "intent": "Address Update",
       "confidence": "95",
-      "keywords": "I went to the branch to update my address ... it's not done yet.",
+      "keywords": "I went to the branch to update my address ... it's not done yet",
       "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
-        "Bank Account"
+        "Address"
       ],
       "issues": [
         {
-          "issue": "Address update delayed.",
-          "reason(s)": "Missing signature on the form.",
+          "issue": "Address update not processed",
+          "reason(s)": "Missing signature on the form",
           "issue type": "Service"
         }
       ],
-      "actions of agent": "Agent checked the status of the address update request and identified the reason for the delay. Agent offered to email the form and expedite the update.",
+      "actions of agent": "Identified the reason for the delay and offered to email the form.",
       "resolution status": "Pending with Customer",
-      "Process Request": "Agent will email the form to the customer.",
-      "resolution": "Customer needs to submit the signed form to complete the address update.",
-      "resolution timestamp": "27.000 sec - 33.000 sec",
+      "Process Request": "Emailing the address update form to the customer.",
+      "resolution": "Customer needs to submit the signed form to expedite the address update.",
+      "resolution timestamp": "31.000 sec - 33.000 sec",
       "dominant emotions (customer)": [
-        "Frustration",
-        "Annoyance"
+        "Frustration"
       ],
       "conversation sentiment": "Negative",
-      "basic greeting and closing": "No",
-      "fatal behaviour": "No",
-      "agent professionalism (out of 10)": "8",
-      "agent performance (out of 10)": "7",
-      "customer satisfaction (out of 10)": "5",
+      "customer satisfaction": "60",
       "callback promise": "No",
       "callback time": "N/A"
     }
   ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "8",
+  "agent performance (out of 10)": "7",
+  "customer satisfaction (out of 10)": "6",
   "interruptions by customer": "0",
   "interruptions by agent": "0"
 }

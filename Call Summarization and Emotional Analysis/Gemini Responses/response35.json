@@ -14,30 +14,31 @@
       ],
       "issues": [
         {
-          "issue": "Penalty charge of 500 rupees",
-          "reason(s)": "Cheque bounce due to insufficient funds.",
+          "issue": "Customer is disputing a penalty fee of 500 rupees.",
+          "reason(s)": "Customer claims they did nothing wrong.",
           "issue type": "Billing"
         }
       ],
-      "actions of agent": "Investigated the account, waived the penalty, and offered to set up alerts.",
+      "actions of agent": "Agent investigated the issue and found a cheque bounce fee. Agent waived the fee and offered to set up alerts.",
       "resolution status": "Resolved",
       "Process Request": "N/A",
-      "resolution": "Penalty waived as a one-time gesture.",
-      "resolution timestamp": "26.000 sec - 28.000 sec",
+      "resolution": "Agent waived the 500 rupees penalty as a one-time gesture.",
+      "resolution timestamp": "25.000 sec - 30.000 sec",
       "dominant emotions (customer)": [
         "Frustration",
         "Anger"
       ],
       "conversation sentiment": "Negative",
-      "basic greeting and closing": "No",
-      "fatal behaviour": "No",
-      "agent professionalism (out of 10)": "8",
-      "agent performance (out of 10)": "9",
-      "customer satisfaction (out of 10)": "7",
+      "customer satisfaction": "80",
       "callback promise": "No",
       "callback time": "N/A"
     }
   ],
+  "basic greeting and closing": "No",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "8",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "7",
   "interruptions by customer": "1",
   "interruptions by agent": "0"
 }

@@ -11,7 +11,6 @@ Intent 2 Id: GI2..GI3..GI3
 Interruptions by Customer
 Interruptions by Agent
 
-
 Intents Table (Columns)
 
 Intent Id
@@ -50,3 +49,18 @@ in the transcription>
 # timstamps of resolution
 # resolution status : resolved, unresolved, pending, process request
 # process request: <Brief Description of process request>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Calls

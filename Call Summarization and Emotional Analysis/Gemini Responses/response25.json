@@ -5,7 +5,7 @@
   "summary": "Customer inquired about a charge, agent waived the fee.",
   "intents": [
     {
-      "intent": "Fee Inquiry and Refund Request",
+      "intent": "Billing Inquiry",
       "confidence": "95",
       "keywords": "Does a 200 rupees charge on my savings account...What's this about?",
       "intent timestamp": "0.000 sec - 9.000 sec",
@@ -19,51 +19,26 @@
           "issue type": "Billing"
         }
       ],
-      "actions of agent": "Identified the charge, explained the reason, and waived the fee.",
+      "actions of agent": "Agent checked the account, identified the charge as a maintenance fee, and offered to waive it as a one-time courtesy and set up balance alerts.",
       "resolution status": "Resolved",
       "Process Request": "N/A",
-      "resolution": "Agent waived the 200 rupees maintenance fee as a one-time courtesy.",
-      "resolution timestamp": "18.000 sec - 22.000 sec",
+      "resolution": "Agent waived the 200 rupees maintenance fee.",
+      "resolution timestamp": "27.000 sec - 29.000 sec",
       "dominant emotions (customer)": [
-        "Frustration",
-        "Inquiry"
+        "Concern",
+        "Frustration"
       ],
       "conversation sentiment": "Negative",
-      "basic greeting and closing": "No",
-      "fatal behaviour": "No",
-      "agent professionalism (out of 10)": "8",
-      "agent performance (out of 10)": "9",
-      "customer satisfaction (out of 10)": "7",
-      "callback promise": "No",
-      "callback time": "N/A"
-    },
-    {
-      "intent": "Balance Alert Setup",
-      "confidence": "85",
-      "keywords": "I waive the fee and can set up balance alerts...for you.",
-      "intent timestamp": "23.000 sec - 31.000 sec",
-      "products": [
-        "Savings Account"
-      ],
-      "issues": [],
-      "actions of agent": "Offered to set up balance alerts for the customer.",
-      "resolution status": "Pending with Customer",
-      "Process Request": "N/A",
-      "resolution": "Offered to set up balance alerts to avoid future low balance fees.",
-      "resolution timestamp": "27.000 sec - 31.000 sec",
-      "dominant emotions (customer)": [
-        "Neutral"
-      ],
-      "conversation sentiment": "Neutral",
-      "basic greeting and closing": "No",
-      "fatal behaviour": "No",
-      "agent professionalism (out of 10)": "8",
-      "agent performance (out of 10)": "7",
-      "customer satisfaction (out of 10)": "7",
+      "customer satisfaction": "75",
       "callback promise": "No",
       "callback time": "N/A"
     }
   ],
+  "basic greeting and closing": "No",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "8",
+  "agent performance (out of 10)": "8",
+  "customer satisfaction (out of 10)": "7",
   "interruptions by customer": "0",
   "interruptions by agent": "0"
 }

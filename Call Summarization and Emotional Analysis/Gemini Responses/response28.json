@@ -1,70 +1,66 @@
 {
-    "call id": "28",
-    "agent id": "3",
-    "call duration": "26",
-    "summary": "Customer reported unauthorized charge; agent initiated credit freeze.",
-    "intents": [
+  "call id": "28",
+  "agent id": "3",
+  "call duration": "26.60",
+  "summary": "Customer reported unauthorized charge, agent initiated credit freeze and dispute.",
+  "intents": [
+    {
+      "intent": "Fraudulent Charge Report",
+      "confidence": "95",
+      "keywords": "I got a bill for 8000 on my card...what's going on?",
+      "intent timestamp": "0.000 sec - 9.000 sec",
+      "products": [
+        "Credit Card"
+      ],
+      "issues": [
         {
-            "intent": "Fraudulent Charge Report",
-            "confidence": "95",
-            "keywords": "I got a bill for 8000 on my card...what's going on?",
-            "intent timestamp": "0.000 sec - 9.000 sec",
-            "products": [
-                "Credit Card"
-            ],
-            "issues": [
-                {
-                    "issue": "Unauthorized transaction of $8000",
-                    "reason(s)": "Potential fraudulent use of credit card.",
-                    "issue type": "Billing"
-                }
-            ],
-            "actions of agent": "Verified last four digits of the card, initiated credit freeze, and started a dispute.",
-            "resolution status": "Pending with Process Request",
-            "Process Request": "Dispute filing and refund request.",
-            "resolution": "Credit freeze on the card and filing a dispute for the unauthorized charge, with a refund expected in 5-7 days.",
-            "resolution timestamp": "12.000 sec - 18.000 sec",
-            "dominant emotions (customer)": [
-                "Worried",
-                "Anxious"
-            ],
-            "conversation sentiment": "Negative",
-            "basic greeting and closing": "No",
-            "fatal behaviour": "No",
-            "agent professionalism (out of 10)": "7",
-            "agent performance (out of 10)": "7",
-            "customer satisfaction (out of 10)": "6",
-            "callback promise": "No",
-            "callback time": "N/A"
-        },
-        {
-            "intent": "Refund Inquiry",
-            "confidence": "90",
-            "keywords": "how long till I get my money back",
-            "intent timestamp": "15.000 sec - 22.000 sec",
-            "products": [
-                "Credit Card"
-            ],
-            "issues": [],
-            "actions of agent": "Provided an estimated timeframe for the refund.",
-            "resolution status": "Pending with Process Request",
-            "Process Request": "N/A",
-            "resolution": "Refund will be processed in 5-7 days.",
-            "resolution timestamp": "21.000 sec - 26.000 sec",
-            "dominant emotions (customer)": [
-                "Impatient",
-                "Concerned"
-            ],
-            "conversation sentiment": "Neutral",
-            "basic greeting and closing": "No",
-            "fatal behaviour": "No",
-            "agent professionalism (out of 10)": "7",
-            "agent performance (out of 10)": "7",
-            "customer satisfaction (out of 10)": "6",
-            "callback promise": "No",
-            "callback time": "N/A"
+          "issue": "Unauthorized transaction of $8000",
+          "reason(s)": "Customer claims they did not make the transaction.",
+          "issue type": "Billing"
         }
-    ],
-    "interruptions by customer": "0",
-    "interruptions by agent": "0"
+      ],
+      "actions of agent": "Verified last four digits of card, initiated credit freeze, and filed a dispute.",
+      "resolution status": "Pending with Process Request",
+      "Process Request": "Dispute filed for unauthorized transaction and credit freeze initiated.",
+      "resolution": "Credit freeze on the card and dispute filed, refund in 5-7 days.",
+      "resolution timestamp": "13.000 sec - 18.000 sec",
+      "dominant emotions (customer)": [
+        "Worried",
+        "Anxious"
+      ],
+      "conversation sentiment": "Negative",
+      "customer satisfaction": "70",
+      "callback promise": "No",
+      "callback time": "N/A"
+    },
+    {
+      "intent": "Refund Inquiry",
+      "confidence": "90",
+      "keywords": "how long till I get my money back",
+      "intent timestamp": "18.000 sec - 21.000 sec",
+      "products": [
+        "Credit Card"
+      ],
+      "issues": [],
+      "actions of agent": "Provided estimated timeframe for refund.",
+      "resolution status": "Pending with Process Request",
+      "Process Request": "Refund to be processed after dispute resolution.",
+      "resolution": "Refund will be processed in 5-7 days.",
+      "resolution timestamp": "21.000 sec - 26.000 sec",
+      "dominant emotions (customer)": [
+        "Concerned"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "75",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ],
+  "basic greeting and closing": "No",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "7",
+  "agent performance (out of 10)": "7",
+  "customer satisfaction (out of 10)": "7",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0"
 }

@@ -1,43 +1,44 @@
 {
-    "call id": "11",
-    "agent id": "2",
-    "call duration": "28",
-    "summary": "Customer facing mobile banking app crashing issue.",
-    "intents": [
+  "call id": "11",
+  "agent id": "2",
+  "call duration": "28",
+  "summary": "Customer facing issue with mobile banking app crashing.",
+  "intents": [
+    {
+      "intent": "Technical Support",
+      "confidence": "95",
+      "keywords": "I can't set up my mobile banking that keeps crashing...everytime I try.",
+      "intent timestamp": "0.000 sec - 9.000 sec",
+      "products": [
+        "Mobile Banking App"
+      ],
+      "issues": [
         {
-            "intent": "Technical issue with mobile banking app",
-            "confidence": "95",
-            "keywords": "I can't set up my mobile banking that keeps crashing...",
-            "intent timestamp": "0.000 sec - 5.000 sec",
-            "products": [
-                "Mobile Banking App"
-            ],
-            "issues": [
-                {
-                    "issue": "Mobile banking app crashing",
-                    "reason(s)": "Unknown, possibly due to outdated app version or software bug.",
-                    "issue type": "Technical"
-                }
-            ],
-            "actions of agent": "Suggested uninstalling and reinstalling the app.",
-            "resolution status": "Pending with Customer",
-            "Process Request": "N/A",
-            "resolution": "Customer to uninstall and reinstall the mobile banking app.",
-            "resolution timestamp": "13.000 sec - 19.000 sec",
-            "dominant emotions (customer)": [
-                "Frustration",
-                "Annoyance"
-            ],
-            "conversation sentiment": "Negative",
-            "basic greeting and closing": "No",
-            "fatal behaviour": "No",
-            "agent professionalism (out of 10)": "7",
-            "agent performance (out of 10)": "7",
-            "customer satisfaction (out of 10)": "4",
-            "callback promise": "No",
-            "callback time": "N/A"
+          "issue": "Mobile banking app crashing",
+          "reason(s)": "Unknown, possibly due to a bug or compatibility issue.",
+          "issue type": "Technical"
         }
-    ],
-    "interruptions by customer": "0",
-    "interruptions by agent": "0"
+      ],
+      "actions of agent": "Suggested uninstalling and reinstalling the app.",
+      "resolution status": "Pending with Customer",
+      "Process Request": "N/A",
+      "resolution": "Customer to uninstall and reinstall the mobile banking app and log in with registered mobile number.",
+      "resolution timestamp": "13.000 sec - 19.000 sec",
+      "dominant emotions (customer)": [
+        "Frustration",
+        "Annoyance"
+      ],
+      "conversation sentiment": "Negative",
+      "customer satisfaction": "40",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ],
+  "basic greeting and closing": "No",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "7",
+  "agent performance (out of 10)": "7",
+  "customer satisfaction (out of 10)": "4",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0"
 }
