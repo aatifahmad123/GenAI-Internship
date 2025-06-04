@@ -2,26 +2,37 @@
   "call id": "30",
   "agent id": "3",
   "call duration": "30",
-  "summary": "Customer inquired about tracking an RTGS transfer.",
+  "summary": "Customer inquired about tracking an RTGS transfer and received confirmation.",
   "intents": [
     {
       "intent": "Track RTGS Transfer",
       "confidence": "95",
-      "keywords": "I setup RTGS transfers and them.",
+      "keywords": "just need to know how to track them...want to make sure it went through",
+      "intent timestamp": "1.000 sec - 17.000 sec",
       "products": [
         "RTGS Transfer"
       ],
-      "issues": [],
+      "issues": [
+        {
+          "issue": "Customer wants to track RTGS transfer.",
+          "reason(s)": "Customer wants to confirm the transfer went through.",
+          "issue type": "General Inquiry"
+        }
+      ],
       "actions of agent": "Agent confirmed the transfer was completed and provided options to track it.",
-      "resolution status": "resolved",
-      "resolution": "Agent confirmed transfer completion and offered tracking options.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "Agent confirmed the transfer was completed and provided options to track it in the app or receive a statement.",
+      "resolution timestamp": "17.000 sec - 21.000 sec",
       "dominant emotions (customer)": [
-        "positive",
-        "inquisitive"
+        "Inquisitive",
+        "Satisfied"
       ],
       "conversation sentiment": "Positive",
-      "agent professionalism": "Professional and helpful.",
-      "agent performance (out of 10)": "9",
+      "basic greeting and closing": "Yes",
+      "fatal behaviour": "No",
+      "agent professionalism (out of 10)": "10",
+      "agent performance (out of 10)": "10",
       "customer satisfaction (out of 10)": "10",
       "callback promise": "No",
       "callback time": "N/A"
@@ -29,21 +40,25 @@
     {
       "intent": "Request Statement",
       "confidence": "90",
-      "keywords": "I want to make sure statement.",
+      "keywords": "The transfer is completed...I can send a statement",
+      "intent timestamp": "17.000 sec - 24.000 sec",
       "products": [
         "Bank Statement"
       ],
       "issues": [],
-      "actions of agent": "Agent offered to send a statement to the customer's email.",
-      "resolution status": "resolved",
-      "resolution": "Agent sent the statement to the customer's email.",
+      "actions of agent": "Agent offered to send a statement and confirmed it was sent to the customer's email.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "Agent sent the bank statement to the customer's email.",
+      "resolution timestamp": "28.000 sec - 30.000 sec",
       "dominant emotions (customer)": [
-        "positive",
-        "grateful"
+        "Happy"
       ],
       "conversation sentiment": "Positive",
-      "agent professionalism": "Professional and helpful.",
-      "agent performance (out of 10)": "9",
+      "basic greeting and closing": "Yes",
+      "fatal behaviour": "No",
+      "agent professionalism (out of 10)": "10",
+      "agent performance (out of 10)": "10",
       "customer satisfaction (out of 10)": "10",
       "callback promise": "No",
       "callback time": "N/A"

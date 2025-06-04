@@ -1,33 +1,38 @@
 {
-    "call id": "14",
-    "agent id": "2",
-    "call duration": "27",
-    "summary": "Customer inquired about setting up NEFT transfer, resolved.",
-    "intents": [
-        {
-            "intent": "NEFT Transfer Setup",
-            "confidence": "95",
-            "keywords": "Hey, I just open my anything else.",
-            "products": [
-                "Savings Account",
-                "NEFT Transfer"
-            ],
-            "issues": [],
-            "actions of agent": "Provided instructions on how to set up NEFT transfer, including beneficiary details and activation time.",
-            "resolution status": "resolved",
-            "resolution": "The agent explained the steps to set up NEFT transfer via the app and informed the customer about the 24-hour activation period.",
-            "dominant emotions (customer)": [
-                "Excitement",
-                "Gratitude"
-            ],
-            "conversation sentiment": "Positive",
-            "agent professionalism": "The agent was polite, helpful, and clear in their instructions.",
-            "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "10",
-            "callback promise": "No",
-            "callback time": "N/A"
-        }
-    ],
-    "interruptions by customer": "0",
-    "interruptions by agent": "0"
+  "call id": "14",
+  "agent id": "2",
+  "call duration": "27",
+  "summary": "Customer inquired about setting up NEFT transfer; agent provided guidance.",
+  "intents": [
+    {
+      "intent": "NEFT Transfer Setup",
+      "confidence": "95",
+      "keywords": "How do I set up NEFT ... anything special for it?",
+      "intent timestamp": "3.000 sec - 16.000 sec",
+      "products": [
+        "Savings Account",
+        "Mobile App"
+      ],
+      "issues": [],
+      "actions of agent": "The agent explained the process of setting up NEFT transfer using the mobile app, including adding a beneficiary and the required information.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "The agent informed the customer to go to the app's transfer section, add beneficiary with account number and IFSC code.",
+      "resolution timestamp": "5.000 sec - 12.000 sec",
+      "dominant emotions (customer)": [
+        "Excited",
+        "Curious"
+      ],
+      "conversation sentiment": "Positive",
+      "basic greeting and closing": "Yes",
+      "fatal behaviour": "No",
+      "agent professionalism (out of 10)": "10",
+      "agent performance (out of 10)": "10",
+      "customer satisfaction (out of 10)": "10",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ],
+  "interruptions by customer": "0",
+  "interruptions by agent": "0"
 }

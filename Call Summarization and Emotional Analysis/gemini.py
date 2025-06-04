@@ -35,8 +35,8 @@ def get_gemini_response(transcription,timestamps,metadata, agent_id, call_id):
                 {{
                     "intent": "<Intent recognized from the conversation>",
                     "confidence": "<Confidence level of intent recognition, as a percentage (0-100)>",
-                    "keywords": "<The segment of transcription that indicates the intent: give a couple of the starting words and a couple of ending words separated by '...'>",
-                    "intent timestamp": "<Beginning and Ending timestamp of when the intent was identified, you may use the timstamps data provided>",
+                    "keywords": "<The part of transcription that identifies the intent, it has to be specific not a large part of transcription, atmost 10-15 words stretch, give a couple of beginning and ending words separated by '...' (mandatorily)>",
+                    "intent timestamp": "<Beginning and Ending timestamp of the above keywords that identify the intent, give a relaxed timeframe of 5 seconds (mandatorily), you may use the timstamps data provided>",
                     "products": "<List of products related to intent>",
                     "issues": [
                         {{
@@ -52,8 +52,8 @@ def get_gemini_response(transcription,timestamps,metadata, agent_id, call_id):
                     "actions of agent": "<Brief description of the actions taken by the agent to handle the intent>",
                     "resolution status": "<Status of resolution, One put of: 'Resolved', 'Unresolved', 'Pending with Process Request', 'Pending with Customer'>",
                     "Process Request": "<Brief description of the process request if any, otherwise 'N/A'. Process request happens when the agent has to do something in the backend or with a third party to resolve the issue>",
-                    "resolution timestamp": "<Beginning and Ending timestamp of when the intent was resolved, you may use the timstamps data provided>",
-                    "resolution": "<Brief description of the resolution if resolved or 'N/A' if not resolved>",
+                    "resolution": "<Brief description of the resolution irrespective of resolution status>",
+                    "resolution timestamp": "<Beginning and Ending timestamp of transcription that determines the resolution, again it has to be very specific atmost 10-15 words stretch, give a relaxed timeframe of 5 seconds (mandatorily), you may use the timstamps data provided>",
                     "dominant emotions (customer)": "[<list main emotions expressed by the customer>]",
                     "conversation sentiment": "<sentiment of the conversation: Positive/Negative/Neutral for that intent>",
                     "basic greeting and closing": "<Yes/No, whether the agent greeted and closed the call properly>",
@@ -85,7 +85,7 @@ def get_gemini_response(transcription,timestamps,metadata, agent_id, call_id):
         model="gemini-2.0-flash",
         contents=prompt,
         config=types.GenerateContentConfig(
-            max_output_tokens=1500,
+            max_output_tokens=1750,
             temperature=0.2
         )
     )

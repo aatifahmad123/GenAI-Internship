@@ -5,34 +5,39 @@
   "summary": "Customer reported duplicate charge and requested a refund.",
   "intents": [
     {
-      "intent": "Dispute Charge",
+      "intent": "Report Duplicate Charge",
       "confidence": "95",
-      "keywords": "Arvind charged voice on my ... happens this time.",
+      "keywords": "Arvind charged voice on my credit card for the ... same transaction",
+      "intent timestamp": "0.000 sec - 8.000 sec",
       "products": [
         "Credit Card"
       ],
       "issues": [
         {
-          "issue": "Duplicate charge",
-          "reason(s)": "System error",
-          "issue type": "billing"
+          "issue": "Duplicate charge on credit card",
+          "reason(s)": "System error leading to double billing",
+          "issue type": "Billing"
         }
       ],
-      "actions of agent": "Initiated a chargeback request and flagged for refund.",
-      "resolution status": "pending",
-      "resolution": "N/A",
+      "actions of agent": "Agent apologized, collected transaction details, and initiated a chargeback request.",
+      "resolution status": "Pending with Process Request",
+      "Process Request": "Chargeback request initiated by the agent.",
+      "resolution": "Refund to be processed within 5-7 business days.",
+      "resolution timestamp": "51.000 sec - 56.000 sec",
       "dominant emotions (customer)": [
-        "frustration",
-        "anger"
+        "Frustration",
+        "Anger"
       ],
       "conversation sentiment": "Negative",
-      "agent professionalism": "Agent remained calm and professional despite customer's frustration.",
-      "agent performance (out of 10)": "8",
+      "basic greeting and closing": "No",
+      "fatal behaviour": "No",
+      "agent professionalism (out of 10)": "7",
+      "agent performance (out of 10)": "7",
       "customer satisfaction (out of 10)": "4",
       "callback promise": "No",
       "callback time": "N/A"
     }
   ],
-  "interruptions by customer": "4",
+  "interruptions by customer": "3",
   "interruptions by agent": "0"
 }

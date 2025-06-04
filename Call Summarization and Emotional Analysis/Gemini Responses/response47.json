@@ -2,33 +2,38 @@
   "call id": "47",
   "agent id": "5",
   "call duration": "23.60",
-  "summary": "Customer reports and agent resolves unauthorized credit card charge.",
+  "summary": "Agent assisted customer with fraudulent charge on credit card.",
   "intents": [
     {
-      "intent": "Dispute Unauthorized Charge",
+      "intent": "Fraudulent Charge Dispute",
       "confidence": "95",
-      "keywords": "My credit card bills got ... paying for this nonsense.",
+      "keywords": "My credit card bills got a 5000 charge...recognise whats dis",
+      "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "Credit Card"
       ],
       "issues": [
         {
-          "issue": "Unauthorized $5000 charge",
+          "issue": "Unauthorized charge of $5000",
           "reason(s)": "Merchant error",
-          "issue type": "billing"
+          "issue type": "Billing"
         }
       ],
-      "actions of agent": "Agent verified card details, initiated dispute, blocked transactions.",
-      "resolution status": "resolved",
-      "resolution": "Dispute filed, refund expected in 7-10 days.",
+      "actions of agent": "Agent identified the charge as a merchant error, initiated a dispute, and blocked the card for future transactions.",
+      "resolution status": "Resolved",
+      "Process Request": "Dispute initiated and card blocked.",
+      "resolution": "Customer will receive a refund in 7 to 10 days.",
+      "resolution timestamp": "21.000 sec - 24.000 sec",
       "dominant emotions (customer)": [
-        "frustration",
-        "anger"
+        "Concern",
+        "Frustration"
       ],
       "conversation sentiment": "Negative",
-      "agent professionalism": "Professional and helpful.",
-      "agent performance (out of 10)": "9",
-      "customer satisfaction (out of 10)": "8",
+      "basic greeting and closing": "No",
+      "fatal behaviour": "No",
+      "agent professionalism (out of 10)": "7",
+      "agent performance (out of 10)": "8",
+      "customer satisfaction (out of 10)": "7",
       "callback promise": "No",
       "callback time": "N/A"
     }

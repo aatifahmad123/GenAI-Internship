@@ -1,60 +1,43 @@
 {
-  "call id": "16",
-  "agent id": "2",
-  "call duration": "30",
-  "summary": "Customer inquires about delayed credit limit increase request.",
-  "intents": [
-    {
-      "intent": "Check credit limit increase status",
-      "confidence": "95",
-      "keywords": "I requested a credit ... what's the hold up?",
-      "products": [
-        "Credit Card"
-      ],
-      "issues": [
+    "call id": "16",
+    "agent id": "2",
+    "call duration": "30",
+    "summary": "Customer inquires about delayed credit limit increase request.",
+    "intents": [
         {
-          "issue": "Delay in processing credit limit increase request",
-          "reason(s)": "Request is under review.",
-          "issue type": "service"
+            "intent": "Credit Limit Increase Status Inquiry",
+            "confidence": "95",
+            "keywords": "I requested a credit limit increase last week ... What's the hold up?",
+            "intent timestamp": "0.000 sec - 10.000 sec",
+            "products": [
+                "Credit Card"
+            ],
+            "issues": [
+                {
+                    "issue": "Delay in processing credit limit increase request",
+                    "reason(s)": "Request is under review.",
+                    "issue type": "Service"
+                }
+            ],
+            "actions of agent": "Checked the status of the request and expedited it.",
+            "resolution status": "Pending with Process Request",
+            "Process Request": "Expedited the credit limit increase request.",
+            "resolution": "Agent promised to expedite the request and provide an update by end of day.",
+            "resolution timestamp": "25.000 sec - 29.000 sec",
+            "dominant emotions (customer)": [
+                "Concern",
+                "Impatient"
+            ],
+            "conversation sentiment": "Negative",
+            "basic greeting and closing": "No",
+            "fatal behaviour": "No",
+            "agent professionalism (out of 10)": "7",
+            "agent performance (out of 10)": "7",
+            "customer satisfaction (out of 10)": "5",
+            "callback promise": "No",
+            "callback time": "N/A"
         }
-      ],
-      "actions of agent": "Checked the status of the request and expedited it.",
-      "resolution status": "pending",
-      "resolution": "N/A",
-      "dominant emotions (customer)": [
-        "frustration",
-        "impatience"
-      ],
-      "conversation sentiment": "Negative",
-      "agent professionalism": "Agent was polite and helpful.",
-      "agent performance (out of 10)": "8",
-      "customer satisfaction (out of 10)": "6",
-      "callback promise": "No",
-      "callback time": "N/A"
-    },
-    {
-      "intent": "Expedite credit limit increase",
-      "confidence": "90",
-      "keywords": "Tomorrow can't you ... a big purchase.",
-      "products": [
-        "Credit Card"
-      ],
-      "issues": [],
-      "actions of agent": "Prioritized the request and promised an update by end of day.",
-      "resolution status": "pending",
-      "resolution": "N/A",
-      "dominant emotions (customer)": [
-        "urgency",
-        "anxiety"
-      ],
-      "conversation sentiment": "Neutral",
-      "agent professionalism": "Agent was accommodating and tried to meet customer's needs.",
-      "agent performance (out of 10)": "9",
-      "customer satisfaction (out of 10)": "7",
-      "callback promise": "No",
-      "callback time": "N/A"
-    }
-  ],
-  "interruptions by customer": "0",
-  "interruptions by agent": "0"
+    ],
+    "interruptions by customer": "1",
+    "interruptions by agent": "0"
 }

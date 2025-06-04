@@ -1,54 +1,64 @@
 {
     "call id": "9",
     "agent id": "1",
-    "call duration": "40.84",
-    "summary": "Customer requested EMI moratorium, agent checked eligibility and clarified concerns.",
+    "call duration": "40",
+    "summary": "The agent assisted the customer with EMI Moratorium process.",
     "intents": [
         {
-            "intent": "Request EMI Moratorium",
+            "intent": "EMI Moratorium Request",
             "confidence": "95",
-            "keywords": "I am trying to get and your website so confusing",
+            "keywords": "I am trying to get an EMI Moratorium for ... website so confusing",
+            "intent timestamp": "0.000 sec - 9.000 sec",
             "products": [
                 "Home Loan"
             ],
             "issues": [
                 {
-                    "issue": "Website is confusing",
-                    "reason(s)": "N/A",
-                    "issue type": "service"
+                    "issue": "Customer is finding the website confusing for EMI Moratorium.",
+                    "reason(s)": "Website usability issues.",
+                    "issue type": "Technical"
                 }
             ],
-            "actions of agent": "Agent apologized, asked for loan account number, checked eligibility.",
-            "resolution status": "resolved",
-            "resolution": "Agent confirmed eligibility for 3-month moratorium.",
+            "actions of agent": "The agent apologized for the inconvenience and offered assistance with the moratorium process. The agent checked customer's eligibility and offered a 3-month moratorium.",
+            "resolution status": "Resolved",
+            "Process Request": "N/A",
+            "resolution": "The agent confirmed the customer's eligibility for a 3-month moratorium and offered to proceed.",
+            "resolution timestamp": "22.000 sec - 27.000 sec",
             "dominant emotions (customer)": [
-                "frustration",
-                "relief"
+                "Frustration",
+                "Relief"
             ],
             "conversation sentiment": "Positive",
-            "agent professionalism": "Professional and helpful.",
+            "basic greeting and closing": "No",
+            "fatal behaviour": "No",
+            "agent professionalism (out of 10)": "9",
             "agent performance (out of 10)": "9",
             "customer satisfaction (out of 10)": "9",
             "callback promise": "No",
             "callback time": "N/A"
         },
         {
-            "intent": "Inquire about CIBIL score impact",
+            "intent": "Clarification on CIBIL Score Impact",
             "confidence": "98",
-            "keywords": "Yes, please, but will affect my CIBIL score?",
+            "keywords": "Yes, please, but will it affect my CIBIL score?",
+            "intent timestamp": "22.000 sec - 30.000 sec",
             "products": [
                 "Home Loan"
             ],
             "issues": [],
-            "actions of agent": "Agent clarified moratorium won't directly impact CIBIL score but interest will accrue.",
-            "resolution status": "resolved",
-            "resolution": "Agent explained CIBIL impact and offered to send detailed email.",
+            "actions of agent": "The agent clarified that the moratorium would not directly impact the CIBIL score but interest would accrue. The agent also offered to send a detailed email with the terms.",
+            "resolution status": "Resolved",
+            "Process Request": "Send detailed email with the terms.",
+            "resolution": "Agent clarified moratorium won't directly impact CIBIL score, but interest will accrue.",
+            "resolution timestamp": "30.000 sec - 39.000 sec",
             "dominant emotions (customer)": [
-                "anxiety",
-                "relief"
+                "Anxiety",
+                "Relief"
             ],
             "conversation sentiment": "Positive",
-            "agent professionalism": "Professional and informative.",
+            "basic greeting and closing": "No",
+            "fatal behaviour": "No",
+            "agent professionalism (out of 10)": "10",
             "agent performance (out of 10)": "10",
             "customer satisfaction (out of 10)": "10",
             "callback promise": "No",

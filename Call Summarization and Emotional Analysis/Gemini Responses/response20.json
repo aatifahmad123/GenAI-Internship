@@ -1,32 +1,37 @@
 {
-  "call id": "20",
-  "agent id": "2",
-  "call duration": "32",
-  "summary": "Customer inquires about loan preclosure final steps.",
-  "intents": [
-    {
-      "intent": "Loan Preclosure",
-      "confidence": "95",
-      "keywords": "I am thrilled my...do next?",
-      "products": [
-        "Loan"
-      ],
-      "issues": [],
-      "actions of agent": "Confirmed loan account number and provided payment instructions.",
-      "resolution status": "resolved",
-      "resolution": "Payment link sent to customer for outstanding balance.",
-      "dominant emotions (customer)": [
-        "Happy",
-        "Excited"
-      ],
-      "conversation sentiment": "Positive",
-      "agent professionalism": "Professional and helpful.",
-      "agent performance (out of 10)": "9",
-      "customer satisfaction (out of 10)": "9",
-      "callback promise": "Yes",
-      "callback time": "N/A"
-    }
-  ],
-  "interruptions by customer": "0",
-  "interruptions by agent": "0"
+    "call id": "20",
+    "agent id": "2",
+    "call duration": "32",
+    "summary": "The agent assisted the customer with loan preclosure process.",
+    "intents": [
+        {
+            "intent": "Loan Preclosure Assistance",
+            "confidence": "95",
+            "keywords": "I am thrilled my loan preclosure was a proved...know the final steps",
+            "intent timestamp": "0.000 sec - 9.000 sec",
+            "products": [
+                "Loan"
+            ],
+            "issues": [],
+            "actions of agent": "Confirmed loan account number, provided the outstanding balance amount, and generated a payment link.",
+            "resolution status": "Resolved",
+            "Process Request": "Generated and sent payment link to customer.",
+            "resolution": "Payment link sent to customer for outstanding balance payment.",
+            "resolution timestamp": "27.000 sec - 29.000 sec",
+            "dominant emotions (customer)": [
+                "Happy",
+                "Excited"
+            ],
+            "conversation sentiment": "Positive",
+            "basic greeting and closing": "No",
+            "fatal behaviour": "No",
+            "agent professionalism (out of 10)": "9",
+            "agent performance (out of 10)": "9",
+            "customer satisfaction (out of 10)": "9",
+            "callback promise": "No",
+            "callback time": "N/A"
+        }
+    ],
+    "interruptions by customer": "0",
+    "interruptions by agent": "0"
 }

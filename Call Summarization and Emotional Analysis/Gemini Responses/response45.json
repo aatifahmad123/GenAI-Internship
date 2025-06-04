@@ -5,30 +5,29 @@
   "summary": "Customer wants to update nominee for savings account.",
   "intents": [
     {
-      "intent": "Nominee Update",
+      "intent": "Nominee Update Request",
       "confidence": "95",
-      "keywords": "I need to update the nominee...the nominee.",
+      "keywords": "I need to update the nominee for my savings ... How do I do that?",
+      "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "Savings Account"
       ],
-      "issues": [
-        {
-          "issue": "Customer needs to update nominee.",
-          "reason(s)": "Customer wants to add his son as nominee.",
-          "issue type": "service"
-        }
-      ],
-      "actions of agent": "Agent informed customer about the nominee update form and offered to send it to the registered email.",
-      "resolution status": "pending",
-      "resolution": "N/A",
+      "issues": [],
+      "actions of agent": "Agent asked for account number and informed customer about the nominee update form.",
+      "resolution status": "Unresolved",
+      "Process Request": "Send nominee update form to customer's registered email.",
+      "resolution": "Agent will send the nominee update form to the customer's registered email address.",
+      "resolution timestamp": "13.000 sec - 17.000 sec",
       "dominant emotions (customer)": [
         "Neutral",
         "Inquiry"
       ],
       "conversation sentiment": "Neutral",
-      "agent professionalism": "Agent was polite and provided information clearly.",
-      "agent performance (out of 10)": "8",
-      "customer satisfaction (out of 10)": "6",
+      "basic greeting and closing": "No",
+      "fatal behaviour": "No",
+      "agent professionalism (out of 10)": "7",
+      "agent performance (out of 10)": "7",
+      "customer satisfaction (out of 10)": "5",
       "callback promise": "No",
       "callback time": "N/A"
     }

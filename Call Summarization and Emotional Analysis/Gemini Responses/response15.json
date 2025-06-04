@@ -1,39 +1,44 @@
 {
-    "call id": "15",
-    "agent id": "2",
-    "call duration": "33",
-    "summary": "Customer reports lean on account after EMI payment.",
-    "intents": [
+  "call id": "15",
+  "agent id": "2",
+  "call duration": "33.68",
+  "summary": "Agent resolved loan EMI lean issue due to system error.",
+  "intents": [
+    {
+      "intent": "Loan EMI Lean Inquiry",
+      "confidence": "95",
+      "keywords": "I paid my loan EMI but there is a lean...what's going on?",
+      "intent timestamp": "0.000 sec - 8.000 sec",
+      "products": [
+        "Loan",
+        "EMI"
+      ],
+      "issues": [
         {
-            "intent": "Account Issue - Lean on Account",
-            "confidence": "95",
-            "keywords": "I paid my loan ... what's going on?",
-            "products": [
-                "Loan",
-                "EMI"
-            ],
-            "issues": [
-                {
-                    "issue": "Lean on account after EMI payment",
-                    "reason(s)": "System error",
-                    "issue type": "technical"
-                }
-            ],
-            "actions of agent": "Identified the issue, confirmed payment processing, and removed the lean.",
-            "resolution status": "resolved",
-            "resolution": "Lean was lifted and funds are available.",
-            "dominant emotions (customer)": [
-                "frustration",
-                "concern"
-            ],
-            "conversation sentiment": "Negative",
-            "agent professionalism": "Professional and empathetic.",
-            "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "8",
-            "callback promise": "No",
-            "callback time": "N/A"
+          "issue": "Lean on account after EMI payment.",
+          "reason(s)": "System error placed telling.",
+          "issue type": "Technical"
         }
-    ],
-    "interruptions by customer": "0",
-    "interruptions by agent": "0"
+      ],
+      "actions of agent": "Identified the issue, removed the lean, and confirmed resolution.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "Lean lifted and funds available.",
+      "resolution timestamp": "27.000 sec - 32.000 sec",
+      "dominant emotions (customer)": [
+        "Concern",
+        "Frustration"
+      ],
+      "conversation sentiment": "Negative",
+      "basic greeting and closing": "No",
+      "fatal behaviour": "No",
+      "agent professionalism (out of 10)": "8",
+      "agent performance (out of 10)": "9",
+      "customer satisfaction (out of 10)": "7",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ],
+  "interruptions by customer": "0",
+  "interruptions by agent": "0"
 }

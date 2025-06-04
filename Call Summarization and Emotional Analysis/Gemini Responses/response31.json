@@ -1,38 +1,43 @@
 {
-  "call id": "31",
-  "agent id": "4",
-  "call duration": "32",
-  "summary": "Customer is furious about unauthorized subscription charge.",
-  "intents": [
-    {
-      "intent": "Billing Dispute",
-      "confidence": "95",
-      "keywords": "I am Furious my card ... my money back now.",
-      "products": [
-        "Subscription"
-      ],
-      "issues": [
+    "call id": "31",
+    "agent id": "4",
+    "call duration": "32",
+    "summary": "Customer is furious about unauthorized subscription charge.",
+    "intents": [
         {
-          "issue": "Unauthorized charge",
-          "reason(s)": "Recurring charge after cancellation",
-          "issue type": "billing"
+            "intent": "Billing Dispute",
+            "confidence": "95",
+            "keywords": "I am Furious my card was charged 12000 ... cancel mans ago.",
+            "intent timestamp": "0.000 sec - 10.000 sec",
+            "products": [
+                "Subscription"
+            ],
+            "issues": [
+                {
+                    "issue": "Unauthorized charge of $12000 for subscription.",
+                    "reason(s)": "Customer claims to have cancelled the subscription months ago.",
+                    "issue type": "Billing"
+                }
+            ],
+            "actions of agent": "Agent located the transaction, initiated a chargeback, and blocked further charges.",
+            "resolution status": "Resolved",
+            "Process Request": "Chargeback initiated.",
+            "resolution": "Chargeback initiated, refund expected in 5-7 days, further charges blocked.",
+            "resolution timestamp": "27.000 sec - 32.000 sec",
+            "dominant emotions (customer)": [
+                "Furious",
+                "Frustration"
+            ],
+            "conversation sentiment": "Negative",
+            "basic greeting and closing": "No",
+            "fatal behaviour": "No",
+            "agent professionalism (out of 10)": "7",
+            "agent performance (out of 10)": "8",
+            "customer satisfaction (out of 10)": "4",
+            "callback promise": "No",
+            "callback time": "N/A"
         }
-      ],
-      "actions of agent": "Initiated a chargeback and blocked further charges.",
-      "resolution status": "resolved",
-      "resolution": "Chargeback filed; refund in 5-7 days.",
-      "dominant emotions (customer)": [
-        "furious",
-        "unhappy"
-      ],
-      "conversation sentiment": "Negative",
-      "agent professionalism": "The agent was polite and helpful.",
-      "agent performance (out of 10)": "8",
-      "customer satisfaction (out of 10)": "6",
-      "callback promise": "No",
-      "callback time": "N/A"
-    }
-  ],
-  "interruptions by customer": "0",
-  "interruptions by agent": "0"
+    ],
+    "interruptions by customer": "0",
+    "interruptions by agent": "0"
 }

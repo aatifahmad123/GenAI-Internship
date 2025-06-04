@@ -1,40 +1,44 @@
 {
-    "call id": "6",
-    "agent id": "1",
-    "call duration": "38",
-    "summary": "Agent assisted customer with Aadhaar linking to savings account.",
-    "intents": [
+  "call id": "6",
+  "agent id": "1",
+  "call duration": "38",
+  "summary": "The agent assisted customer in linking Aadhaar to savings account.",
+  "intents": [
+    {
+      "intent": "Aadhaar Linking Assistance",
+      "confidence": "95",
+      "keywords": "Hello, I want to know how to link my Aadhaar...branch help me.",
+      "intent timestamp": "0.000 sec - 10.000 sec",
+      "products": [
+        "Savings Account",
+        "Aadhaar"
+      ],
+      "issues": [
         {
-            "intent": "Aadhaar Linking Assistance",
-            "confidence": "95",
-            "keywords": "Hello, I want to know and submit online which",
-            "products": [
-                "Savings Account",
-                "Aadhaar"
-            ],
-            "issues": [
-                {
-                    "issue": "Difficulty linking Aadhaar to savings account.",
-                    "reason(s)": "Customer unable to get help at the branch and unfamiliar with online processes.",
-                    "issue type": "service"
-                }
-            ],
-            "actions of agent": "Offered to guide through the process, provided options to visit the branch or send a form via email.",
-            "resolution status": "resolved",
-            "resolution": "Agent offered to send a form to the customer's email for online submission.",
-            "dominant emotions (customer)": [
-                "frustration",
-                "apprehension",
-                "gratitude"
-            ],
-            "conversation sentiment": "Positive",
-            "agent professionalism": "Professional and helpful.",
-            "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "9",
-            "callback promise": "No",
-            "callback time": "N/A"
+          "issue": "Customer needs assistance linking Aadhaar to savings account.",
+          "reason(s)": "Customer was not helped at the branch and is unfamiliar with the online process.",
+          "issue type": "Service"
         }
-    ],
-    "interruptions by customer": "0",
-    "interruptions by agent": "0"
+      ],
+      "actions of agent": "Offered to guide the customer, provided options to visit the branch or send a form to fill out online, and offered help with filling out the form.",
+      "resolution status": "Resolved",
+      "Process Request": "Send a simple form to the customer's registered email.",
+      "resolution": "Agent will send a form to the customer's email to link Aadhaar to the savings account.",
+      "resolution timestamp": "31.000 sec - 36.000 sec",
+      "dominant emotions (customer)": [
+        "Frustration",
+        "Relief"
+      ],
+      "conversation sentiment": "Positive",
+      "basic greeting and closing": "No",
+      "fatal behaviour": "No",
+      "agent professionalism (out of 10)": "9",
+      "agent performance (out of 10)": "9",
+      "customer satisfaction (out of 10)": "9",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ],
+  "interruptions by customer": "0",
+  "interruptions by agent": "0"
 }

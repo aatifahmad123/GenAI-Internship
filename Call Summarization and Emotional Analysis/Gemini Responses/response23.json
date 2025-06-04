@@ -2,37 +2,42 @@
   "call id": "23",
   "agent id": "3",
   "call duration": "32",
-  "summary": "Customer is upset about a late fee on loan.",
+  "summary": "Agent resolved customer's late fee dispute by waiving the fee.",
   "intents": [
     {
-      "intent": "Dispute late fee",
+      "intent": "Dispute Late Fee",
       "confidence": "95",
-      "keywords": "You guys are reaping me off...for your mistak.",
+      "keywords": "My loan statement shows a late fee, but I paid...",
+      "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "Loan"
       ],
       "issues": [
         {
           "issue": "Late fee charged despite on-time payment",
-          "reason(s)": "ECS mandate issue caused payment to be credited late.",
-          "issue type": "billing"
+          "reason(s)": "ECS mandate issue caused payment to be credited a day late.",
+          "issue type": "Billing"
         }
       ],
-      "actions of agent": "Verified payment, identified ECS issue, waived the late fee, and apologized.",
-      "resolution status": "resolved",
-      "resolution": "Late fee waived; updated statement available in 24 hours.",
+      "actions of agent": "Verified payment, identified the reason for the late fee, and waived the fee.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "Agent waived the late fee and informed the customer that the updated statement will be available in 24 hours.",
+      "resolution timestamp": "25.000 sec - 32.000 sec",
       "dominant emotions (customer)": [
-        "anger",
-        "frustration"
+        "Angry",
+        "Frustrated"
       ],
       "conversation sentiment": "Negative",
-      "agent professionalism": "Agent remained calm and professional despite customer's anger.",
-      "agent performance (out of 10)": "9",
+      "basic greeting and closing": "No",
+      "fatal behaviour": "No",
+      "agent professionalism (out of 10)": "7",
+      "agent performance (out of 10)": "8",
       "customer satisfaction (out of 10)": "6",
       "callback promise": "No",
       "callback time": "N/A"
     }
   ],
   "interruptions by customer": "1",
-  "interruptions by agent": "1"
+  "interruptions by agent": "0"
 }

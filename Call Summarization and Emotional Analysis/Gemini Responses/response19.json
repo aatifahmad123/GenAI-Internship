@@ -1,43 +1,69 @@
 {
-    "call id": "19",
-    "agent id": "2",
-    "call duration": "31",
-    "summary": "Agent assisted customer with savings account closure request.",
-    "intents": [
+  "call id": "19",
+  "agent id": "2",
+  "call duration": "31.52",
+  "summary": "Agent assisted customer with savings account closure request.",
+  "intents": [
+    {
+      "intent": "Account Closure",
+      "confidence": "95",
+      "keywords": "I want to close my savings account the branch keeps ... this done quickly",
+      "intent timestamp": "0.000 sec - 16.000 sec",
+      "products": [
+        "Savings Account"
+      ],
+      "issues": [
         {
-            "intent": "Account Closure",
-            "confidence": "95",
-            "keywords": "I want to close delaying it",
-            "products": [
-                "Savings Account"
-            ],
-            "issues": [
-                {
-                    "issue": "Delay in account closure",
-                    "reason(s)": "Branch is delaying the process",
-                    "issue type": "service"
-                },
-                {
-                    "issue": "Pending balance",
-                    "reason(s)": "500 rupees pending balance",
-                    "issue type": "billing"
-                }
-            ],
-            "actions of agent": "Verified account, offered options for pending balance, initiated closure and transfer.",
-            "resolution status": "resolved",
-            "resolution": "Account closure and balance transfer initiated; confirmation to be sent.",
-            "dominant emotions (customer)": [
-                "frustration",
-                "impatience"
-            ],
-            "conversation sentiment": "Negative",
-            "agent professionalism": "Professional and empathetic.",
-            "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "7",
-            "callback promise": "No",
-            "callback time": "N/A"
+          "issue": "Delay in account closure",
+          "reason(s)": "Branch is delaying the process.",
+          "issue type": "Service"
         }
-    ],
-    "interruptions by customer": "0",
-    "interruptions by agent": "0"
+      ],
+      "actions of agent": "Verified account details, offered options for pending balance, initiated closure and transfer.",
+      "resolution status": "Resolved",
+      "Process Request": "Initiated account closure and fund transfer to customer's other bank.",
+      "resolution": "Account closure and fund transfer initiated; completion in 3 days.",
+      "resolution timestamp": "26.000 sec - 31.000 sec",
+      "dominant emotions (customer)": [
+        "Frustration",
+        "Impatience"
+      ],
+      "conversation sentiment": "Negative",
+      "basic greeting and closing": "No",
+      "fatal behaviour": "No",
+      "agent professionalism (out of 10)": "8",
+      "agent performance (out of 10)": "8",
+      "customer satisfaction (out of 10)": "6",
+      "callback promise": "No",
+      "callback time": "N/A"
+    },
+    {
+      "intent": "Balance Transfer",
+      "confidence": "90",
+      "keywords": "I understand there is a pending balance of 500 ... transfer it to my other bank",
+      "intent timestamp": "15.000 sec - 24.000 sec",
+      "products": [
+        "Savings Account"
+      ],
+      "issues": [],
+      "actions of agent": "Offered options for handling the pending balance and processed the transfer request.",
+      "resolution status": "Resolved",
+      "Process Request": "Initiated fund transfer to customer's other bank.",
+      "resolution": "Agent initiated the transfer of the 500 rupees balance to the customer's other bank.",
+      "resolution timestamp": "26.000 sec - 31.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "basic greeting and closing": "No",
+      "fatal behaviour": "No",
+      "agent professionalism (out of 10)": "8",
+      "agent performance (out of 10)": "9",
+      "customer satisfaction (out of 10)": "7",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ],
+  "interruptions by customer": "0",
+  "interruptions by agent": "0"
 }

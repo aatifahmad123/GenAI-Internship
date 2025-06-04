@@ -1,38 +1,43 @@
 {
-    "call id": "5",
-    "agent id": "1",
-    "call duration": "34.88",
-    "summary": "Agent assisted customer with debit card decline issue.",
-    "intents": [
+  "call id": "5",
+  "agent id": "1",
+  "call duration": "34.88",
+  "summary": "Customer's debit card declined due to insufficient funds, resolved.",
+  "intents": [
+    {
+      "intent": "Debit Card Declined",
+      "confidence": "95",
+      "keywords": "Hello, my debit card got declined at a store...What's the deal?",
+      "intent timestamp": "0.000 sec - 8.000 sec",
+      "products": [
+        "Debit Card"
+      ],
+      "issues": [
         {
-            "intent": "Debit Card Issue",
-            "confidence": "95",
-            "keywords": "Hello, my debit card ... what's the deal?",
-            "products": [
-                "Debit Card"
-            ],
-            "issues": [
-                {
-                    "issue": "Debit card declined at store.",
-                    "reason(s)": "Insufficient funds in the account.",
-                    "issue type": "technical"
-                }
-            ],
-            "actions of agent": "Verified card activity, identified insufficient funds, and initiated fund transfer from savings.",
-            "resolution status": "resolved",
-            "resolution": "Funds transferred from savings to cover transaction amount.",
-            "dominant emotions (customer)": [
-                "frustration",
-                "surprise"
-            ],
-            "conversation sentiment": "Neutral",
-            "agent professionalism": "Professional and helpful.",
-            "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "8",
-            "callback promise": "No",
-            "callback time": "N/A"
+          "issue": "Debit card declined at store.",
+          "reason(s)": "Insufficient funds in the account.",
+          "issue type": "Billing"
         }
-    ],
-    "interruptions by customer": "0",
-    "interruptions by agent": "0"
+      ],
+      "actions of agent": "Verified the card status and account balance, then initiated a funds transfer.",
+      "resolution status": "Resolved",
+      "Process Request": "Funds transfer from savings to checking account.",
+      "resolution": "Funds transferred from savings to checking account.",
+      "resolution timestamp": "27.000 sec - 31.000 sec",
+      "dominant emotions (customer)": [
+        "Concern",
+        "Surprise"
+      ],
+      "conversation sentiment": "Neutral",
+      "basic greeting and closing": "No",
+      "fatal behaviour": "No",
+      "agent professionalism (out of 10)": "8",
+      "agent performance (out of 10)": "9",
+      "customer satisfaction (out of 10)": "8",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ],
+  "interruptions by customer": "0",
+  "interruptions by agent": "0"
 }

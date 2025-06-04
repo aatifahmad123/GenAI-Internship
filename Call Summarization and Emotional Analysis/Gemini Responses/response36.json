@@ -5,28 +5,33 @@
   "summary": "Agent resolved customer's loan account NPA status concern.",
   "intents": [
     {
-      "intent": "NPA Status Inquiry and Resolution",
+      "intent": "Loan Account Issue",
       "confidence": "95",
-      "keywords": "I am so stressed my loan...reported to CIBIL",
+      "keywords": "I am so stressed my loan accounts marked npa ... I been paying",
+      "intent timestamp": "0.000 sec - 8.000 sec",
       "products": [
         "Loan Account"
       ],
       "issues": [
         {
-          "issue": "Loan account marked as NPA incorrectly",
+          "issue": "Loan account incorrectly marked as NPA.",
           "reason(s)": "Payment was missed due to a bank error.",
-          "issue type": "billing"
+          "issue type": "Billing"
         }
       ],
-      "actions of agent": "Confirmed account details, identified the cause of the NPA status, corrected the NPA status, and confirmed the account is clear and reported to CIBIL.",
-      "resolution status": "resolved",
-      "resolution": "Agent corrected the NPA status due to a bank error.",
+      "actions of agent": "Identified the issue and confirmed that it was due to a bank error. Agent corrected the NPA status and confirmed it was reported to CIBIL.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "Agent corrected the NPA status and confirmed it was reported to CIBIL.",
+      "resolution timestamp": "21.000 sec - 27.000 sec",
       "dominant emotions (customer)": [
-        "stressed",
-        "worried"
+        "Stressed",
+        "Worried"
       ],
       "conversation sentiment": "Negative",
-      "agent professionalism": "The agent was professional and helpful in resolving the issue.",
+      "basic greeting and closing": "No",
+      "fatal behaviour": "No",
+      "agent professionalism (out of 10)": "8",
       "agent performance (out of 10)": "9",
       "customer satisfaction (out of 10)": "8",
       "callback promise": "No",

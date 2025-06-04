@@ -2,38 +2,43 @@
   "call id": "41",
   "agent id": "5",
   "call duration": "26",
-  "summary": "Customer's PPI wallet wasn't linking; agent resolved the issue.",
+  "summary": "Customer's PPI wallet wasn't linking to the new debit card.",
   "intents": [
     {
-      "intent": "Debit Card Linking Issue",
+      "intent": "Technical issue with PPI wallet",
       "confidence": "95",
-      "keywords": "My PPI wallet isn't linking...What's the problem?",
+      "keywords": "My PPI wallet isn't linking to my new debit...What's the problem?",
+      "intent timestamp": "0.000 sec - 8.000 sec",
       "products": [
         "PPI Wallet",
         "Debit Card"
       ],
       "issues": [
         {
-          "issue": "Debit card not linking to PPI wallet.",
-          "reason(s)": "Card was not registered for PPI.",
-          "issue type": "technical"
+          "issue": "PPI wallet not linking to debit card",
+          "reason(s)": "Card not registered for PPI",
+          "issue type": "Technical"
         }
       ],
-      "actions of agent": "Verified card details, enabled PPI for the card, and expedited the activation.",
-      "resolution status": "resolved",
-      "resolution": "Agent enabled PPI for the card, resolving the linking issue immediately.",
+      "actions of agent": "Verified the last 4 digits of the card and enabled PPI for the card.",
+      "resolution status": "Resolved",
+      "Process Request": "Enabled PPI for the card",
+      "resolution": "Agent enabled PPI for the card immediately.",
+      "resolution timestamp": "21.000 sec - 26.000 sec",
       "dominant emotions (customer)": [
-        "frustration",
-        "urgency"
+        "Frustration",
+        "Impatience"
       ],
       "conversation sentiment": "Negative",
-      "agent professionalism": "Professional and helpful.",
-      "agent performance (out of 10)": "9",
-      "customer satisfaction (out of 10)": "8",
+      "basic greeting and closing": "No",
+      "fatal behaviour": "No",
+      "agent professionalism (out of 10)": "7",
+      "agent performance (out of 10)": "8",
+      "customer satisfaction (out of 10)": "6",
       "callback promise": "No",
       "callback time": "N/A"
     }
   ],
-  "interruptions by customer": "1",
+  "interruptions by customer": "0",
   "interruptions by agent": "0"
 }

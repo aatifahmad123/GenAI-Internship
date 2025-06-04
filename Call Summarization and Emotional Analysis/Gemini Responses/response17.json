@@ -1,38 +1,43 @@
 {
-    "call id": "17",
-    "agent id": "2",
-    "call duration": "28",
-    "summary": "Agent assisted customer with unauthorized transaction and secured account.",
-    "intents": [
+  "call id": "17",
+  "agent id": "2",
+  "call duration": "28",
+  "summary": "Agent assists customer with unauthorized withdrawal and secures account.",
+  "intents": [
+    {
+      "intent": "Fraudulent Transaction Report",
+      "confidence": "95",
+      "keywords": "I am worried my savings account shows of withdrawal...someone stealing my money.",
+      "intent timestamp": "0.000 sec - 9.000 sec",
+      "products": [
+        "Savings Account"
+      ],
+      "issues": [
         {
-            "intent": "Fraudulent Transaction Report",
-            "confidence": "95",
-            "keywords": "I am worried my and stealing my money.",
-            "products": [
-                "Savings Account"
-            ],
-            "issues": [
-                {
-                    "issue": "Unauthorized withdrawal of $25000",
-                    "reason(s": "Customer did not authorize the transaction.",
-                    "issue type": "fraud"
-                }
-            ],
-            "actions of agent": "Froze the customer's account, filed a fraud report, and assured transaction reversal.",
-            "resolution status": "pending",
-            "resolution": "Transaction will be reversed within 5 to 7 days.",
-            "dominant emotions (customer)": [
-                "worried",
-                "scared"
-            ],
-            "conversation sentiment": "Negative",
-            "agent professionalism": "Agent was reassuring and took appropriate actions.",
-            "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "7",
-            "callback promise": "No",
-            "callback time": "N/A"
+          "issue": "Unauthorized withdrawal of $25000",
+          "reason(s)": "Customer did not authorize the transaction.",
+          "issue type": "Billing"
         }
-    ],
-    "interruptions by customer": "0",
-    "interruptions by agent": "0"
+      ],
+      "actions of agent": "Confirmed transaction details, froze the account, and filed a fraud report.",
+      "resolution status": "Resolved",
+      "Process Request": "Fraud report filing and transaction reversal.",
+      "resolution": "Account secured, transaction reversal initiated within 5-7 days.",
+      "resolution timestamp": "22.000 sec - 28.000 sec",
+      "dominant emotions (customer)": [
+        "Worried",
+        "Scared"
+      ],
+      "conversation sentiment": "Negative",
+      "basic greeting and closing": "No",
+      "fatal behaviour": "No",
+      "agent professionalism (out of 10)": "9",
+      "agent performance (out of 10)": "9",
+      "customer satisfaction (out of 10)": "8",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ],
+  "interruptions by customer": "0",
+  "interruptions by agent": "0"
 }

@@ -7,7 +7,8 @@
     {
       "intent": "Payment Issue",
       "confidence": "95",
-      "keywords": "I am panicking my...confirm with CIBIL",
+      "keywords": "I am panicking my loan account shows a missed payment...I paid it",
+      "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "Loan Account"
       ],
@@ -15,18 +16,22 @@
         {
           "issue": "Missed payment showing on loan account despite payment made.",
           "reason(s)": "Payment was delayed due to a processing error.",
-          "issue type": "technical"
+          "issue type": "Billing"
         }
       ],
       "actions of agent": "Identified the processing error, updated the account status, and confirmed with CIBIL.",
-      "resolution status": "resolved",
-      "resolution": "Account status updated to reflect correct payment status.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "Account status updated and confirmed with CIBIL.",
+      "resolution timestamp": "21.000 sec - 26.000 sec",
       "dominant emotions (customer)": [
-        "anxious",
-        "relieved"
+        "Anxious",
+        "Relieved"
       ],
       "conversation sentiment": "Positive",
-      "agent professionalism": "The agent was helpful and efficient in resolving the issue.",
+      "basic greeting and closing": "No",
+      "fatal behaviour": "No",
+      "agent professionalism (out of 10)": "9",
       "agent performance (out of 10)": "9",
       "customer satisfaction (out of 10)": "9",
       "callback promise": "No",

@@ -2,39 +2,38 @@
   "call id": "26",
   "agent id": "3",
   "call duration": "30",
-  "summary": "Agent assisted customer with loan payment processing.",
+  "summary": "Agent processed manual loan payment for customer.",
   "intents": [
     {
-      "intent": "Loan Payment Assistance",
+      "intent": "Payment Assistance",
       "confidence": "95",
-      "keywords": "I am freaking out my...updated you are all",
+      "keywords": "I am freaking out my loan payment is due...can't access my account to pay it",
+      "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "Loan"
       ],
       "issues": [
         {
-          "issue": "Unable to access account to make loan payment.",
-          "reason(s)": "Unknown reason for account access issue.",
-          "issue type": "technical"
-        },
-        {
-          "issue": "Concern about impact on credit score due to potential late payment.",
-          "reason(s)": "Customer worried about CIBIL score.",
-          "issue type": "billing"
+          "issue": "Unable to access account to make payment.",
+          "reason(s)": "Unknown reason for access issue.",
+          "issue type": "Technical"
         }
       ],
-      "actions of agent": "Offered manual payment processing or extending the due date and processed manual payment.",
-      "resolution status": "resolved",
-      "resolution": "Manual payment processed and account updated.",
+      "actions of agent": "Offered manual payment or extending the due date.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "Processed manual payment and updated the account.",
+      "resolution timestamp": "25.000 sec - 30.000 sec",
       "dominant emotions (customer)": [
-        "anxious",
-        "stressed",
-        "worried"
+        "Anxious",
+        "Frustrated"
       ],
-      "conversation sentiment": "Positive",
-      "agent professionalism": "The agent was helpful and reassuring.",
+      "conversation sentiment": "Negative",
+      "basic greeting and closing": "No",
+      "fatal behaviour": "No",
+      "agent professionalism (out of 10)": "9",
       "agent performance (out of 10)": "9",
-      "customer satisfaction (out of 10)": "9",
+      "customer satisfaction (out of 10)": "8",
       "callback promise": "No",
       "callback time": "N/A"
     }

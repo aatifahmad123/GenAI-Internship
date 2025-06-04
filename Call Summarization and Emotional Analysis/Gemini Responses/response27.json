@@ -2,33 +2,65 @@
   "call id": "27",
   "agent id": "3",
   "call duration": "32",
-  "summary": "Customer requests premature withdrawal of fixed deposit.",
+  "summary": "Customer inquired about withdrawing fixed deposit yearly.",
   "intents": [
     {
       "intent": "Fixed Deposit Withdrawal",
       "confidence": "95",
-      "keywords": "I want to withdraw ... how does that work?",
+      "keywords": "I want to withdraw my fixed deposit yearly, how ... that work?",
+      "intent timestamp": "0.000 sec - 8.000 sec",
+      "products": [
+        "Fixed Deposit"
+      ],
+      "issues": [],
+      "actions of agent": "Agent offered assistance and asked for the FD account number.",
+      "resolution status": "Pending with Process Request",
+      "Process Request": "Initiated premature withdrawal of FD.",
+      "resolution": "Premature withdrawal initiated with a penalty on interest.",
+      "resolution timestamp": "28.000 sec - 32.000 sec",
+      "dominant emotions (customer)": [
+        "Inquiry",
+        "Concern"
+      ],
+      "conversation sentiment": "Neutral",
+      "basic greeting and closing": "No",
+      "fatal behaviour": "No",
+      "agent professionalism (out of 10)": "7",
+      "agent performance (out of 10)": "7",
+      "customer satisfaction (out of 10)": "6",
+      "callback promise": "No",
+      "callback time": "N/A"
+    },
+    {
+      "intent": "Interest Calculation",
+      "confidence": "90",
+      "keywords": "Will I lose all the interest?...reduced interest rate.",
+      "intent timestamp": "12.000 sec - 19.000 sec",
       "products": [
         "Fixed Deposit"
       ],
       "issues": [
         {
-          "issue": "Premature withdrawal penalty",
-          "reason(s)": "Customer wants to withdraw before maturity.",
-          "issue type": "billing"
+          "issue": "Reduced interest rate on premature withdrawal",
+          "reason(s)": "Premature withdrawal of fixed deposit",
+          "issue type": "Billing"
         }
       ],
-      "actions of agent": "Agent offered to calculate the reduced interest amount.",
-      "resolution status": "pending",
-      "resolution": "N/A",
+      "actions of agent": "Agent offered to calculate the exact amount after penalty.",
+      "resolution status": "Pending with Process Request",
+      "Process Request": "Initiated premature withdrawal of FD.",
+      "resolution": "Agent calculated the interest after penalty.",
+      "resolution timestamp": "26.000 sec - 32.000 sec",
       "dominant emotions (customer)": [
-        "anxious",
-        "urgent"
+        "Concern",
+        "Anxiety"
       ],
       "conversation sentiment": "Neutral",
-      "agent professionalism": "Professional and helpful.",
-      "agent performance (out of 10)": "8",
-      "customer satisfaction (out of 10)": "7",
+      "basic greeting and closing": "No",
+      "fatal behaviour": "No",
+      "agent professionalism (out of 10)": "7",
+      "agent performance (out of 10)": "7",
+      "customer satisfaction (out of 10)": "6",
       "callback promise": "No",
       "callback time": "N/A"
     }

@@ -1,39 +1,76 @@
 {
-    "call id": "2",
-    "agent id": "1",
-    "call duration": "58",
-    "summary": "Agent initiated chargeback for duplicate transaction and promised updates.",
-    "intents": [
+  "call id": "2",
+  "agent id": "1",
+  "call duration": "58",
+  "summary": "Customer inquires about personal loan application status and CIBIL score.",
+  "intents": [
+    {
+      "intent": "Check Loan Application Status",
+      "confidence": "95",
+      "keywords": "I applied for a personal loan last month but nobody tell...",
+      "intent timestamp": "0.000 sec - 5.000 sec",
+      "products": [
+        "Personal Loan"
+      ],
+      "issues": [
         {
-            "intent": "Billing Dispute",
-            "confidence": "95",
-            "keywords": "Hey, I've been charged ... happens this time.",
-            "products": [
-                "Credit Card"
-            ],
-            "issues": [
-                {
-                    "issue": "Duplicate charge",
-                    "reason(s)": "System error",
-                    "issue type": "billing"
-                }
-            ],
-            "actions of agent": "Initiated a chargeback request and promised updates.",
-            "resolution status": "resolved",
-            "resolution": "Chargeback request initiated; refund expected in 5-7 business days.",
-            "dominant emotions (customer)": [
-                "frustration",
-                "anger",
-                "urgency"
-            ],
-            "conversation sentiment": "Negative",
-            "agent professionalism": "Agent remained calm and empathetic despite customer's frustration.",
-            "agent performance (out of 10)": "8",
-            "customer satisfaction (out of 10)": "6",
-            "callback promise": "No",
-            "callback time": "N/A"
+          "issue": "Application status unknown",
+          "reason(s)": "Lack of communication regarding application status.",
+          "issue type": "Service"
         }
-    ],
-    "interruptions by customer": "5",
-    "interruptions by agent": "2"
+      ],
+      "actions of agent": "Checked the application status using customer's name.",
+      "resolution status": "Pending with Process Request",
+      "Process Request": "Application is under review due to pending CIBIL score.",
+      "resolution": "Agent informed the customer that the application is under review due to pending CIBIL score and it should reflect in 5 to 7 business days.",
+      "resolution timestamp": "45.000 sec - 49.000 sec",
+      "dominant emotions (customer)": [
+        "Anxious",
+        "Frustrated"
+      ],
+      "conversation sentiment": "Negative",
+      "basic greeting and closing": "Yes",
+      "fatal behaviour": "No",
+      "agent professionalism (out of 10)": "7",
+      "agent performance (out of 10)": "7",
+      "customer satisfaction (out of 10)": "4",
+      "callback promise": "Yes",
+      "callback time": "Every step of the way"
+    },
+    {
+      "intent": "Inquire about CIBIL score",
+      "confidence": "90",
+      "keywords": "Possible it looks like your application is under review due...CIBIL score",
+      "intent timestamp": "23.000 sec - 28.000 sec",
+      "products": [
+        "Personal Loan"
+      ],
+      "issues": [
+        {
+          "issue": "Customer unaware of CIBIL score impact",
+          "reason(s)": "Lack of prior explanation about CIBIL score importance.",
+          "issue type": "Service"
+        }
+      ],
+      "actions of agent": "Explained what CIBIL score is.",
+      "resolution status": "Pending with Process Request",
+      "Process Request": "Waiting for the latest CIBIL report.",
+      "resolution": "Agent explained that CIBIL is customer's credit score and the application is waiting for the latest report.",
+      "resolution timestamp": "37.000 sec - 41.000 sec",
+      "dominant emotions (customer)": [
+        "Confused",
+        "Anxious"
+      ],
+      "conversation sentiment": "Neutral",
+      "basic greeting and closing": "Yes",
+      "fatal behaviour": "No",
+      "agent professionalism (out of 10)": "8",
+      "agent performance (out of 10)": "8",
+      "customer satisfaction (out of 10)": "5",
+      "callback promise": "Yes",
+      "callback time": "Every step of the way"
+    }
+  ],
+  "interruptions by customer": "3",
+  "interruptions by agent": "0"
 }

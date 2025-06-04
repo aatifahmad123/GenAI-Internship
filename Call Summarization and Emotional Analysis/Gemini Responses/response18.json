@@ -1,38 +1,43 @@
 {
-    "call id": "18",
-    "agent id": "2",
-    "call duration": "28",
-    "summary": "Customer had issues applying for a car loan online.",
-    "intents": [
+  "call id": "18",
+  "agent id": "2",
+  "call duration": "28",
+  "summary": "Customer facing error while applying for car loan online.",
+  "intents": [
+    {
+      "intent": "Car Loan Application Issue",
+      "confidence": "95",
+      "keywords": "I tried applying for a car loan online, but the...what's wrong?",
+      "intent timestamp": "0.000 sec - 9.000 sec",
+      "products": [
+        "Car Loan"
+      ],
+      "issues": [
         {
-            "intent": "Car Loan Application Issue",
-            "confidence": "95",
-            "keywords": "I tried applying for and the application today.",
-            "products": [
-                "Car Loan"
-            ],
-            "issues": [
-                {
-                    "issue": "Online application portal error",
-                    "reason(s)": "System glitch or incorrect document format",
-                    "issue type": "technical"
-                }
-            ],
-            "actions of agent": "Suggested uploading documents in PDF format or offered manual processing.",
-            "resolution status": "resolved",
-            "resolution": "Agent offered to process the application manually after receiving documents via email.",
-            "dominant emotions (customer)": [
-                "frustration",
-                "confusion"
-            ],
-            "conversation sentiment": "Neutral",
-            "agent professionalism": "Professional and helpful.",
-            "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "8",
-            "callback promise": "No",
-            "callback time": "N/A"
+          "issue": "Online portal error during car loan application.",
+          "reason(s)": "System glitch when submitting income details.",
+          "issue type": "Technical"
         }
-    ],
-    "interruptions by customer": "0",
-    "interruptions by agent": "0"
+      ],
+      "actions of agent": "Offered troubleshooting steps and manual processing of application.",
+      "resolution status": "Pending with Process Request",
+      "Process Request": "Customer needs to email documents to loan desk for manual processing.",
+      "resolution": "Agent will process the car loan application manually after receiving documents.",
+      "resolution timestamp": "22.000 sec - 28.000 sec",
+      "dominant emotions (customer)": [
+        "Frustration",
+        "Confusion"
+      ],
+      "conversation sentiment": "Negative",
+      "basic greeting and closing": "No",
+      "fatal behaviour": "No",
+      "agent professionalism (out of 10)": "8",
+      "agent performance (out of 10)": "8",
+      "customer satisfaction (out of 10)": "7",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ],
+  "interruptions by customer": "0",
+  "interruptions by agent": "0"
 }

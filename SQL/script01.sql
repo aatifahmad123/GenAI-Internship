@@ -2,11 +2,19 @@ SHOW DATABASES;
 
 USE metabase_db;
 
+DROP TABLE IF EXISTS Agents;
+DROP TABLE IF EXISTS Calls;
+DROP TABLE IF EXISTS Intents;
+
+SHOW TABLES;
+
 CREATE TABLE Agents (
     agent_id INT PRIMARY KEY,
     chirp3_hd_voice VARCHAR(50),
     gender ENUM('Male', 'Female'),
     num_customers_handled INT,
+    avg_call_duration FLOAT,
+    avg_agent_professionalism FLOAT,
     avg_performance_score FLOAT,
     avg_customer_satisfaction FLOAT
 );

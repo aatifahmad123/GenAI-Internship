@@ -2,57 +2,73 @@
     "call id": "7",
     "agent id": "1",
     "call duration": "35",
-    "summary": "Agent assisted customer with fraudulent card transaction.",
+    "summary": "Agent assisted customer with fraud alert and card replacement.",
     "intents": [
         {
-            "intent": "Report Fraudulent Transaction",
+            "intent": "Fraudulent Transaction Report",
             "confidence": "95",
-            "keywords": "I got a fraud ... identite make",
+            "keywords": "I got a fraud alert on my card some 20000...identit make",
+            "intent timestamp": "0.000 sec - 9.000 sec",
             "products": [
                 "Credit Card"
             ],
             "issues": [
                 {
-                    "issue": "Unauthorized transaction",
-                    "reason(s)": "Card compromised",
-                    "issue type": "fraud"
+                    "issue": "Unauthorized transaction of $20000",
+                    "reason(s)": "Fraudulent activity",
+                    "issue type": "Billing"
                 }
             ],
             "actions of agent": "Blocked the card, filed a fraud report, and issued a replacement card.",
-            "resolution status": "resolved",
-            "resolution": "Card blocked, fraud report filed, replacement card issued.",
+            "resolution status": "Resolved",
+            "Process Request": "Fraud report and card replacement initiated.",
+            "resolution": "Card blocked, fraud report filed, and replacement card issued.",
+            "resolution timestamp": "17.000 sec - 22.000 sec",
             "dominant emotions (customer)": [
-                "worried",
-                "anxious"
+                "Worried",
+                "Anxious"
             ],
             "conversation sentiment": "Negative",
-            "agent professionalism": "Professional and empathetic.",
+            "basic greeting and closing": "No",
+            "fatal behaviour": "No",
+            "agent professionalism (out of 10)": "9",
             "agent performance (out of 10)": "9",
             "customer satisfaction (out of 10)": "8",
             "callback promise": "Yes",
-            "callback time": "In 7 to 10 days"
+            "callback time": "7 to 10 days"
         },
         {
-            "intent": "Inquire About Refund",
+            "intent": "Refund Inquiry",
             "confidence": "90",
-            "keywords": "But what about ... get it back?",
+            "keywords": "But what about my money? Will I get it back?",
+            "intent timestamp": "22.000 sec - 27.000 sec",
             "products": [
                 "Credit Card"
             ],
-            "issues": [],
-            "actions of agent": "Initiated a chargeback request and promised to follow up.",
-            "resolution status": "pending",
-            "resolution": "N/A",
+            "issues": [
+                {
+                    "issue": "Inquiry about refund of the fraudulent transaction amount.",
+                    "reason(s)": "Customer wants to know if they will get their money back.",
+                    "issue type": "Billing"
+                }
+            ],
+            "actions of agent": "Initiated a chargeback request and promised a follow-up.",
+            "resolution status": "Pending with Process Request",
+            "Process Request": "Chargeback request initiated.",
+            "resolution": "Chargeback request initiated; refund expected in 7-10 days.",
+            "resolution timestamp": "26.000 sec - 32.000 sec",
             "dominant emotions (customer)": [
-                "concerned",
-                "hopeful"
+                "Concerned",
+                "Hopeful"
             ],
             "conversation sentiment": "Neutral",
-            "agent professionalism": "Helpful and reassuring.",
+            "basic greeting and closing": "No",
+            "fatal behaviour": "No",
+            "agent professionalism (out of 10)": "9",
             "agent performance (out of 10)": "9",
             "customer satisfaction (out of 10)": "8",
             "callback promise": "Yes",
-            "callback time": "In 7 to 10 days"
+            "callback time": "7 to 10 days"
         }
     ],
     "interruptions by customer": "0",

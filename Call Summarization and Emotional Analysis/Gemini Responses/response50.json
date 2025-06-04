@@ -2,25 +2,30 @@
     "call id": "50",
     "agent id": "5",
     "call duration": "25",
-    "summary": "Customer wants to increase recurring deposit amount.",
+    "summary": "Customer inquired about increasing recurring deposit amount.",
     "intents": [
         {
             "intent": "Increase Recurring Deposit Amount",
             "confidence": "95",
-            "keywords": "I set up a ... increase the amount?",
+            "keywords": "How do I increase the amount?",
+            "intent timestamp": "0.000 sec - 8.000 sec",
             "products": [
                 "Recurring Deposit"
             ],
             "issues": [],
-            "actions of agent": "Agent asked for account number and provided information on how to modify the RD amount by submitting a form via email.",
-            "resolution status": "resolved",
-            "resolution": "Agent sent the form to customer's email.",
+            "actions of agent": "Provided information on how to modify the recurring deposit amount.",
+            "resolution status": "Resolved",
+            "Process Request": "Send form to customer's email to modify RD.",
+            "resolution": "Agent sent a form to the customer's email to modify the RD amount and promised a follow-up.",
+            "resolution timestamp": "16.000 sec - 26.000 sec",
             "dominant emotions (customer)": [
-                "happy",
-                "satisfied"
+                "Inquisitive",
+                "Positive"
             ],
             "conversation sentiment": "Positive",
-            "agent professionalism": "Professional and helpful.",
+            "basic greeting and closing": "Yes",
+            "fatal behaviour": "No",
+            "agent professionalism (out of 10)": "8",
             "agent performance (out of 10)": "9",
             "customer satisfaction (out of 10)": "9",
             "callback promise": "Yes",

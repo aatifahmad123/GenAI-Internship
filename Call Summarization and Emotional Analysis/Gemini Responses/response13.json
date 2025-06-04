@@ -2,33 +2,38 @@
   "call id": "13",
   "agent id": "2",
   "call duration": "29",
-  "summary": "Agent assisted customer with fraudulent credit card charge.",
+  "summary": "Agent assisted customer with fraudulent charge on credit card.",
   "intents": [
     {
-      "intent": "Fraudulent Charge Reporting",
+      "intent": "Fraudulent Charge Report",
       "confidence": "95",
-      "keywords": "Your bank so mass my credit, see the refund in 7 to 10 days.",
+      "keywords": "Your bank so mass my credit card statement shows of...I never made",
+      "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "Credit Card"
       ],
       "issues": [
         {
           "issue": "Unauthorized charge of $15000",
-          "reason(s)": "Customer claims they did not make the transaction.",
-          "issue type": "fraud"
+          "reason(s)": "Potential fraud",
+          "issue type": "Billing"
         }
       ],
-      "actions of agent": "Verified transaction details, blocked the card, and initiated a chargeback request.",
-      "resolution status": "resolved",
-      "resolution": "Chargeback request initiated; refund expected in 7-10 days.",
+      "actions of agent": "Blocked the card and initiated a chargeback request.",
+      "resolution status": "Resolved",
+      "Process Request": "Chargeback request initiated",
+      "resolution": "Chargeback filed, refund in 7-10 days.",
+      "resolution timestamp": "25.000 sec - 29.000 sec",
       "dominant emotions (customer)": [
-        "frustration",
-        "anger"
+        "Frustration",
+        "Anger"
       ],
       "conversation sentiment": "Negative",
-      "agent professionalism": "The agent remained calm and professional despite the customer's frustration.",
-      "agent performance (out of 10)": "9",
-      "customer satisfaction (out of 10)": "6",
+      "basic greeting and closing": "No",
+      "fatal behaviour": "No",
+      "agent professionalism (out of 10)": "8",
+      "agent performance (out of 10)": "8",
+      "customer satisfaction (out of 10)": "5",
       "callback promise": "No",
       "callback time": "N/A"
     }

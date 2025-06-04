@@ -2,28 +2,59 @@
   "call id": "34",
   "agent id": "4",
   "call duration": "23.84",
-  "summary": "Customer inquired about redeeming credit card rewards, resolved quickly.",
+  "summary": "Customer inquired about redeeming credit card rewards; agent provided assistance.",
   "intents": [
     {
       "intent": "Rewards Redemption",
       "confidence": "95",
-      "keywords": "I just upgraded my and I am loving",
+      "keywords": "I just upgraded my credit card and I am loving...how do I redeem the",
+      "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "Credit Card"
       ],
       "issues": [],
-      "actions of agent": "The agent informed the customer about redeeming rewards via the app.",
-      "resolution status": "resolved",
-      "resolution": "The agent directed the customer to the app's rewards section.",
+      "actions of agent": "The agent explained how to redeem rewards via the app.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "The customer was informed to redeem rewards via the app.",
+      "resolution timestamp": "4.000 sec - 9.000 sec",
       "dominant emotions (customer)": [
-        "Happy",
+        "Positive",
         "Curious"
       ],
       "conversation sentiment": "Positive",
-      "agent professionalism": "The agent was polite and helpful.",
+      "basic greeting and closing": "Yes",
+      "fatal behaviour": "No",
+      "agent professionalism (out of 10)": "9",
       "agent performance (out of 10)": "9",
       "customer satisfaction (out of 10)": "9",
-      "callback promise": "Yes",
+      "callback promise": "No",
+      "callback time": "N/A"
+    },
+    {
+      "intent": "Clarification on Rewards Type",
+      "confidence": "90",
+      "keywords": "Gokul is it like cashback appoints for shopping?",
+      "intent timestamp": "9.000 sec - 14.000 sec",
+      "products": [
+        "Credit Card Rewards"
+      ],
+      "issues": [],
+      "actions of agent": "The agent clarified that the rewards are points that can be converted.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "The agent clarified that rewards are points convertible to cashback or miles.",
+      "resolution timestamp": "12.000 sec - 17.000 sec",
+      "dominant emotions (customer)": [
+        "Inquisitive"
+      ],
+      "conversation sentiment": "Neutral",
+      "basic greeting and closing": "No",
+      "fatal behaviour": "No",
+      "agent professionalism (out of 10)": "9",
+      "agent performance (out of 10)": "9",
+      "customer satisfaction (out of 10)": "9",
+      "callback promise": "No",
       "callback time": "N/A"
     }
   ],

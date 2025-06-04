@@ -1,38 +1,43 @@
 {
-    "call id": "49",
-    "agent id": "5",
-    "call duration": "24.92",
-    "summary": "Agent resolved customer's loan overdue notice issue.",
-    "intents": [
+  "call id": "49",
+  "agent id": "5",
+  "call duration": "24.92",
+  "summary": "Customer received an overdue notice despite making payment.",
+  "intents": [
+    {
+      "intent": "Payment Inquiry",
+      "confidence": "95",
+      "keywords": "I got a letter saying my loans overdue that I paid...",
+      "intent timestamp": "0.000 sec - 5.000 sec",
+      "products": [
+        "Loans"
+      ],
+      "issues": [
         {
-            "intent": "Account Inquiry",
-            "confidence": "95",
-            "keywords": "I got a letter saying my overdue what's happening?",
-            "products": [
-                "Loan"
-            ],
-            "issues": [
-                {
-                    "issue": "Received overdue notice despite payment.",
-                    "reason(s)": "System error caused payment not to reflect.",
-                    "issue type": "billing"
-                }
-            ],
-            "actions of agent": "Verified account, identified system error, confirmed payment updated, and offered confirmation.",
-            "resolution status": "resolved",
-            "resolution": "Payment status updated; confirmation to be sent.",
-            "dominant emotions (customer)": [
-                "confused",
-                "concerned"
-            ],
-            "conversation sentiment": "Neutral",
-            "agent professionalism": "Professional and reassuring.",
-            "agent performance (out of 10)": "9",
-            "customer satisfaction (out of 10)": "8",
-            "callback promise": "No",
-            "callback time": "N/A"
+          "issue": "Overdue notice received despite payment.",
+          "reason(s)": "System error caused payment not to be reflected initially.",
+          "issue type": "Billing"
         }
-    ],
-    "interruptions by customer": "0",
-    "interruptions by agent": "0"
+      ],
+      "actions of agent": "Agent apologized, asked for account number, checked the account status and confirmed the payment.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "Payment reflected, account clear, confirmation to be sent.",
+      "resolution timestamp": "20.000 sec - 24.000 sec",
+      "dominant emotions (customer)": [
+        "Concern",
+        "Confusion"
+      ],
+      "conversation sentiment": "Negative",
+      "basic greeting and closing": "No",
+      "fatal behaviour": "No",
+      "agent professionalism (out of 10)": "8",
+      "agent performance (out of 10)": "9",
+      "customer satisfaction (out of 10)": "7",
+      "callback promise": "No",
+      "callback time": "N/A"
+    }
+  ],
+  "interruptions by customer": "0",
+  "interruptions by agent": "0"
 }

@@ -2,31 +2,41 @@
   "call id": "37",
   "agent id": "4",
   "call duration": "24",
-  "summary": "Agent assists customer in opening a demat account.",
+  "summary": "Customer requests to open a demat account and agent assists.",
   "intents": [
     {
-      "intent": "Open Demat Account",
+      "intent": "Account Opening",
       "confidence": "95",
-      "keywords": "I need to open, ... start trading so",
+      "keywords": "I need to open a demat account. Can you help...",
+      "intent timestamp": "0.000 sec - 8.000 sec",
       "products": [
         "Demat Account"
       ],
-      "issues": [],
-      "actions of agent": "Agent inquired about KYC documents, informed about processing time, and sent the form.",
-      "resolution status": "pending",
-      "resolution": "N/A",
+      "issues": [
+        {
+          "issue": "Customer needs assistance with opening a demat account.",
+          "reason(s)": "N/A",
+          "issue type": "General Inquiry"
+        }
+      ],
+      "actions of agent": "The agent asked for KYC documents and informed about the processing time and sent the form.",
+      "resolution status": "Pending with Process Request",
+      "Process Request": "Agent sent the form to the customer's email.",
+      "resolution": "Agent sent the form to the customer's email and will follow up.",
+      "resolution timestamp": "19.000 sec - 24.000 sec",
       "dominant emotions (customer)": [
-        "Interested",
-        "Eager"
+        "Neutral"
       ],
       "conversation sentiment": "Neutral",
-      "agent professionalism": "Professional and helpful.",
-      "agent performance (out of 10)": "9",
-      "customer satisfaction (out of 10)": "8",
+      "basic greeting and closing": "No",
+      "fatal behaviour": "No",
+      "agent professionalism (out of 10)": "8",
+      "agent performance (out of 10)": "8",
+      "customer satisfaction (out of 10)": "7",
       "callback promise": "Yes",
-      "callback time": "2-3 days"
+      "callback time": "Once it's processed"
     }
   ],
-  "interruptions by customer": "0",
+  "interruptions by customer": "1",
   "interruptions by agent": "0"
 }

@@ -2,33 +2,38 @@
   "call id": "22",
   "agent id": "3",
   "call duration": "34",
-  "summary": "Customer address update delayed due to missing signature.",
+  "summary": "Customer's address update request was delayed due to missing signature.",
   "intents": [
     {
       "intent": "Address Update",
       "confidence": "95",
-      "keywords": "I went to the branch ... it's not done yet.",
+      "keywords": "I went to the branch to update my address ... it's not done yet.",
+      "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "Bank Account"
       ],
       "issues": [
         {
-          "issue": "Address update not processed",
-          "reason(s": "Missing signature on the form.",
-          "issue type": "service"
+          "issue": "Address update delayed.",
+          "reason(s)": "Missing signature on the form.",
+          "issue type": "Service"
         }
       ],
-      "actions of agent": "Agent apologized, checked the status, identified the issue, and offered to email the form and expedite the update.",
-      "resolution status": "pending",
-      "resolution": "N/A",
+      "actions of agent": "Agent checked the status of the address update request and identified the reason for the delay. Agent offered to email the form and expedite the update.",
+      "resolution status": "Pending with Customer",
+      "Process Request": "Agent will email the form to the customer.",
+      "resolution": "Customer needs to submit the signed form to complete the address update.",
+      "resolution timestamp": "27.000 sec - 33.000 sec",
       "dominant emotions (customer)": [
-        "frustration",
-        "annoyance"
+        "Frustration",
+        "Annoyance"
       ],
       "conversation sentiment": "Negative",
-      "agent professionalism": "Professional and helpful.",
-      "agent performance (out of 10)": "8",
-      "customer satisfaction (out of 10)": "6",
+      "basic greeting and closing": "No",
+      "fatal behaviour": "No",
+      "agent professionalism (out of 10)": "8",
+      "agent performance (out of 10)": "7",
+      "customer satisfaction (out of 10)": "5",
       "callback promise": "No",
       "callback time": "N/A"
     }
