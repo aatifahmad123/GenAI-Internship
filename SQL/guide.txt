@@ -1,66 +1,15 @@
-Calls Table (Columns)
+Connecting to Metabase
 
-Call Id
-Agent Id
-Duration
-Transcript
-Summary
-Number of Intents Identified
-Intent 1 Id: GI1
-Intent 2 Id: GI2..GI3..GI3
-Interruptions by Customer
-Interruptions by Agent
+Display Name: ICICI Internship Database
 
-Intents Table (Columns)
+Host: 172.17.0.1
 
-Intent Id
-Intent
-Confidence
-Keywords
-Products
-Issues
-Reasons (identified by agent)
-Actions of agent
-Resolution status
-Resolution
-Dominant Emotions (Customer)
-Conversation Sentiment
-Agent Professionalism
-Agent Performance (out of 10)
-Customer Satisfaction (out of 10)
-Callback Promise
-Callback Time
+Port: 3306
 
-Agents Table (Columns)
+Database name: metabase_db
 
-Agent Id
-Chirp3 HD Voice
-Gender
-Number of Customers Handled
-Average Performance Score
-Average Customer Satisfaction
+User: metabase_user
 
+Password: ***********
 
-# basic greeting (agent): <Yes or No, if yes, then the keywords (just a few) that reflect that
-in the transcription>
-# fatal
-# categorization : <Which category does the issue belong to?>
-# timestamps of intent identification
-# timstamps of resolution
-# resolution status : resolved, unresolved, pending, process request
-# process request: <Brief Description of process request>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Calls
+Additional options: allowPublicKeyRetrieval=true
