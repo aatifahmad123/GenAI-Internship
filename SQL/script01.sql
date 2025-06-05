@@ -1,4 +1,6 @@
-SHOW DATABASES;
+CREATE DATABASE metabase_db;
+
+-- SHOW DATABASES;
 
 USE metabase_db;
 
@@ -6,7 +8,7 @@ DROP TABLE IF EXISTS Agents;
 DROP TABLE IF EXISTS Calls;
 DROP TABLE IF EXISTS Intents;
 
-SHOW TABLES;
+-- SHOW TABLES;
 
 CREATE TABLE Agents (
     agent_id INT PRIMARY KEY, -- unique identifier for each agent
@@ -58,8 +60,8 @@ CREATE TABLE Intents (
     FOREIGN KEY (call_id) REFERENCES Calls(call_id) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
-SHOW TABLES;
+-- SHOW TABLES;
 
-SELECT * FROM Agents;
-SELECT * FROM Calls;
-SELECT * FROM Intents;
+-- SELECT * FROM Agents;
+-- SELECT * FROM Calls;
+-- SELECT * FROM Intents;
