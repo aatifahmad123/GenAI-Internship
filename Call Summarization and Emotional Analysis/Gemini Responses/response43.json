@@ -2,16 +2,15 @@
   "call id": "43",
   "agent id": "5",
   "call duration": "27",
-  "summary": "The agent resolved an erroneous ATM withdrawal fee issue.",
+  "summary": "The agent resolved a billing issue by refunding an erroneous fee.",
   "intents": [
     {
       "intent": "Billing Dispute",
       "confidence": "95",
-      "keywords": "you are charging me 1000 Rupees for nothing...account statement SMS",
+      "keywords": "you are charging me 1000 Rupees for nothing ... account statement SMS",
       "intent timestamp": "0.000 sec - 8.000 sec",
       "products": [
-        "Bank Account",
-        "ATM"
+        "Bank Account"
       ],
       "issues": [
         {
@@ -26,8 +25,8 @@
       "resolution": "Refund will be processed and reflected in the account within 24 hours.",
       "resolution timestamp": "23.000 sec - 27.000 sec",
       "dominant emotions (customer)": [
-        "Anger",
-        "Frustration"
+        "Angry",
+        "Frustrated"
       ],
       "conversation sentiment": "Negative",
       "customer satisfaction": "60",

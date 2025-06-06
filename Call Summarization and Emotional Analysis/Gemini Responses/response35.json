@@ -1,44 +1,44 @@
 {
   "call id": "35",
   "agent id": "4",
-  "call duration": "30",
+  "call duration": "30.68",
   "summary": "Agent waived the penalty and set up alerts.",
   "intents": [
     {
       "intent": "Billing Dispute",
       "confidence": "95",
-      "keywords": "Why is there a 500 rupees penalty...I didn't do anything wrong.",
+      "keywords": "Why is there a 500 rupees penalty...I didn't do anything wrong",
       "intent timestamp": "0.000 sec - 5.000 sec",
       "products": [
         "Savings Account"
       ],
       "issues": [
         {
-          "issue": "Customer is disputing a penalty fee of 500 rupees.",
-          "reason(s)": "Customer claims they did nothing wrong.",
+          "issue": "Penalty charged on account",
+          "reason(s)": "Cheque bounce due to insufficient funds",
           "issue type": "Billing"
         }
       ],
-      "actions of agent": "Agent investigated the issue and found a cheque bounce fee. Agent waived the fee and offered to set up alerts.",
+      "actions of agent": "Investigated the account, waived the penalty as a one-time gesture, and offered to set up alerts.",
       "resolution status": "Resolved",
       "Process Request": "N/A",
-      "resolution": "Agent waived the 500 rupees penalty as a one-time gesture.",
-      "resolution timestamp": "25.000 sec - 30.000 sec",
+      "resolution": "Penalty waived as a one-time gesture.",
+      "resolution timestamp": "26.000 sec - 28.000 sec",
       "dominant emotions (customer)": [
         "Frustration",
-        "Anger"
+        "Disbelief"
       ],
       "conversation sentiment": "Negative",
-      "customer satisfaction": "80",
+      "customer satisfaction": "85",
       "callback promise": "No",
       "callback time": "N/A"
     }
   ],
   "basic greeting and closing": "No",
   "fatal behaviour": "No",
-  "agent professionalism (out of 10)": "8",
+  "agent professionalism (out of 10)": "9",
   "agent performance (out of 10)": "9",
-  "customer satisfaction (out of 10)": "7",
+  "customer satisfaction (out of 10)": "8",
   "interruptions by customer": "1",
   "interruptions by agent": "0"
 }

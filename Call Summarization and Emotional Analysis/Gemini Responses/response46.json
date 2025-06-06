@@ -2,7 +2,7 @@
   "call id": "46",
   "agent id": "5",
   "call duration": "26.64",
-  "summary": "Agent resolved customer's loan payment issue and updated CIBIL.",
+  "summary": "Agent resolved customer's loan payment issue due to processing error.",
   "intents": [
     {
       "intent": "Payment Issue",
@@ -14,22 +14,22 @@
       ],
       "issues": [
         {
-          "issue": "Missed payment showing on loan account despite payment made.",
-          "reason(s)": "Processing error caused the payment delay.",
+          "issue": "Missed payment showing on loan account despite payment being made.",
+          "reason(s)": "Payment was delayed due to a processing error.",
           "issue type": "Billing"
         }
       ],
       "actions of agent": "Identified the processing error, updated the account status, and confirmed with CIBIL.",
       "resolution status": "Resolved",
-      "Process Request": "Update account status and confirm with CIBIL.",
-      "resolution": "Account status updated to reflect the payment, and confirmation sent to CIBIL.",
+      "Process Request": "Confirmation with CIBIL",
+      "resolution": "Account status updated and confirmation with CIBIL initiated.",
       "resolution timestamp": "21.000 sec - 26.000 sec",
       "dominant emotions (customer)": [
         "Anxious",
         "Relieved"
       ],
       "conversation sentiment": "Positive",
-      "customer satisfaction": "95",
+      "customer satisfaction": "90",
       "callback promise": "No",
       "callback time": "N/A"
     }

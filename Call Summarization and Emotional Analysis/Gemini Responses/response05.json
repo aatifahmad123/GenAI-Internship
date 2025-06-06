@@ -5,7 +5,7 @@
   "summary": "Customer's debit card declined due to insufficient funds, resolved by transfer.",
   "intents": [
     {
-      "intent": "Debit Card Declined",
+      "intent": "Debit Card Issue",
       "confidence": "95",
       "keywords": "Hello, my debit card got declined at a store...What's the deal?",
       "intent timestamp": "0.000 sec - 8.000 sec",
@@ -16,20 +16,20 @@
         {
           "issue": "Debit card declined at store.",
           "reason(s)": "Insufficient funds in the account.",
-          "issue type": "Billing"
+          "issue type": "Technical"
         }
       ],
-      "actions of agent": "Verified the card status and account balance, offered fund transfer.",
+      "actions of agent": "Verified card activity, checked account balance, offered fund transfer.",
       "resolution status": "Resolved",
-      "Process Request": "Fund transfer from savings account.",
-      "resolution": "Funds transferred from savings to cover the transaction amount.",
+      "Process Request": "Initiated fund transfer from savings account.",
+      "resolution": "Fund transfer initiated to cover the transaction amount.",
       "resolution timestamp": "27.000 sec - 31.000 sec",
       "dominant emotions (customer)": [
         "Concern",
-        "Surprise"
+        "Frustration"
       ],
       "conversation sentiment": "Neutral",
-      "customer satisfaction": "90",
+      "customer satisfaction": "85",
       "callback promise": "No",
       "callback time": "N/A"
     }
@@ -38,7 +38,7 @@
   "fatal behaviour": "No",
   "agent professionalism (out of 10)": "9",
   "agent performance (out of 10)": "9",
-  "customer satisfaction (out of 10)": "9",
+  "customer satisfaction (out of 10)": "8",
   "interruptions by customer": "0",
   "interruptions by agent": "0"
 }

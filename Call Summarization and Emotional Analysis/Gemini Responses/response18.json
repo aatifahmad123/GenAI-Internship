@@ -7,7 +7,7 @@
     {
       "intent": "Car Loan Application Issue",
       "confidence": "95",
-      "keywords": "I tried applying for a car loan online, but the...what's wrong?",
+      "keywords": "I tried applying for a car loan online, but the ... what's wrong?",
       "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "Car Loan"
@@ -19,26 +19,26 @@
           "issue type": "Technical"
         }
       ],
-      "actions of agent": "Offered troubleshooting steps and manual processing of application.",
-      "resolution status": "Resolved",
-      "Process Request": "Manual processing of car loan application.",
-      "resolution": "Agent offered to process the application manually.",
+      "actions of agent": "Suggested uploading documents in PDF format or processing manually.",
+      "resolution status": "Process Request",
+      "Process Request": "Customer to email documents to loan desk for manual processing.",
+      "resolution": "Agent will process the application manually upon receiving the documents.",
       "resolution timestamp": "22.000 sec - 28.000 sec",
       "dominant emotions (customer)": [
         "Frustration",
         "Confusion"
       ],
       "conversation sentiment": "Negative",
-      "customer satisfaction": "85",
+      "customer satisfaction": "75",
       "callback promise": "No",
       "callback time": "N/A"
     }
   ],
   "basic greeting and closing": "No",
   "fatal behaviour": "No",
-  "agent professionalism (out of 10)": "9",
-  "agent performance (out of 10)": "9",
-  "customer satisfaction (out of 10)": "8",
+  "agent professionalism (out of 10)": "8",
+  "agent performance (out of 10)": "8",
+  "customer satisfaction (out of 10)": "7",
   "interruptions by customer": "0",
   "interruptions by agent": "0"
 }

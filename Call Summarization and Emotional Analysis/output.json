@@ -2,35 +2,35 @@
     {
         "call id": "1",
         "agent id": "1",
-        "call duration": "59.04",
-        "summary": "Customer reported duplicate charge and requested a refund.",
+        "call duration": "59",
+        "summary": "The customer reports a duplicate charge on their credit card.",
         "intents": [
             {
                 "intent": "Billing Dispute",
                 "confidence": "95",
-                "keywords": "Arvind charged voice on my credit card for the ... This is the second time something like this happened",
-                "intent timestamp": "0.000 sec - 16.000 sec",
+                "keywords": "Arvind charged voice on my credit card for the ... This is reticulus.",
+                "intent timestamp": "0.000 sec - 10.000 sec",
                 "products": [
                     "Credit Card"
                 ],
                 "issues": [
                     {
-                        "issue": "Duplicate charge on credit card",
-                        "reason(s)": "System error leading to double billing",
+                        "issue": "Duplicate charge",
+                        "reason(s)": "System error",
                         "issue type": "Billing"
                     }
                 ],
-                "actions of agent": "Agent apologized, collected transaction details, and initiated a chargeback request.",
-                "resolution status": "Pending with Process Request",
-                "Process Request": "Chargeback request initiated for the duplicate transaction.",
-                "resolution": "Refund of the duplicate charge to be processed within 5-7 business days.",
-                "resolution timestamp": "51.000 sec - 55.000 sec",
+                "actions of agent": "The agent apologized, gathered transaction details, and initiated a chargeback request.",
+                "resolution status": "Process Request",
+                "Process Request": "Initiated a chargeback request.",
+                "resolution": "Refund to be processed in 5-7 business days.",
+                "resolution timestamp": "51.000 sec - 53.000 sec",
                 "dominant emotions (customer)": [
                     "Frustration",
                     "Anger"
                 ],
                 "conversation sentiment": "Negative",
-                "customer satisfaction": "50",
+                "customer satisfaction": "40",
                 "callback promise": "No",
                 "callback time": "N/A"
             }
@@ -39,48 +39,71 @@
         "fatal behaviour": "No",
         "agent professionalism (out of 10)": "7",
         "agent performance (out of 10)": "7",
-        "customer satisfaction (out of 10)": "5",
-        "interruptions by customer": "3",
+        "customer satisfaction (out of 10)": "4",
+        "interruptions by customer": "2",
         "interruptions by agent": "0"
     },
     {
         "call id": "2",
         "agent id": "1",
         "call duration": "58",
-        "summary": "Agent assists customer with personal loan application status.",
+        "summary": "The agent addressed the customer's loan application status.",
         "intents": [
             {
                 "intent": "Check Loan Application Status",
                 "confidence": "95",
                 "keywords": "I applied for a personal loan last month but nobody tell...",
-                "intent timestamp": "0.000 sec - 6.000 sec",
+                "intent timestamp": "0.000 sec - 5.000 sec",
                 "products": [
                     "Personal Loan"
                 ],
                 "issues": [
                     {
-                        "issue": "Lack of communication regarding application status.",
-                        "reason(s)": "Customer was not informed about the application status or the reason for the delay.",
+                        "issue": "Lack of updates on loan application status.",
+                        "reason(s)": "Pending CIBIL score review.",
                         "issue type": "Service"
-                    },
-                    {
-                        "issue": "Application is under review due to pending CIBIL score.",
-                        "reason(s)": "CIBIL score report is pending.",
-                        "issue type": "Billing"
                     }
                 ],
-                "actions of agent": "Checked the application status and informed the customer about the CIBIL score review.",
-                "resolution status": "Pending with Process Request",
-                "Process Request": "Agent promised to keep the customer updated on the application status.",
+                "actions of agent": "Checked the loan application status and provided an update.",
+                "resolution status": "Unresolved",
+                "Process Request": "N/A",
                 "resolution": "The agent informed the customer that the application is under review due to the CIBIL score and it should reflect in 5 to 7 business days.",
-                "resolution timestamp": "36.000 sec - 42.000 sec",
+                "resolution timestamp": "45.000 sec - 49.000 sec",
                 "dominant emotions (customer)": [
                     "Frustration",
-                    "Urgency",
-                    "Anxiety"
+                    "Urgency"
                 ],
                 "conversation sentiment": "Negative",
                 "customer satisfaction": "50",
+                "callback promise": "Yes",
+                "callback time": "Every step of the way"
+            },
+            {
+                "intent": "Inquiry about CIBIL score",
+                "confidence": "90",
+                "keywords": "Sibal what's that? Nobody tell me about this. Why is...",
+                "intent timestamp": "31.000 sec - 36.000 sec",
+                "products": [
+                    "Personal Loan"
+                ],
+                "issues": [
+                    {
+                        "issue": "Customer unaware of CIBIL score importance.",
+                        "reason(s)": "Lack of communication from the company.",
+                        "issue type": "General Inquiry"
+                    }
+                ],
+                "actions of agent": "Explained what CIBIL score is.",
+                "resolution status": "Resolved",
+                "Process Request": "N/A",
+                "resolution": "The agent explained that CIBIL is the customer's credit score.",
+                "resolution timestamp": "37.000 sec - 40.000 sec",
+                "dominant emotions (customer)": [
+                    "Confusion",
+                    "Frustration"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "60",
                 "callback promise": "No",
                 "callback time": "N/A"
             }
@@ -89,7 +112,7 @@
         "fatal behaviour": "No",
         "agent professionalism (out of 10)": "7",
         "agent performance (out of 10)": "7",
-        "customer satisfaction (out of 10)": "5",
+        "customer satisfaction (out of 10)": "6",
         "interruptions by customer": "3",
         "interruptions by agent": "0"
     },
@@ -102,7 +125,7 @@
             {
                 "intent": "Login Issue",
                 "confidence": "95",
-                "keywords": "Hi I can't login to my savings account online...saying invalid credentials",
+                "keywords": "Hi I can't login to my savings account online...invalid credentials",
                 "intent timestamp": "0.000 sec - 9.000 sec",
                 "products": [
                     "Savings Account"
@@ -114,7 +137,7 @@
                         "issue type": "Technical"
                     }
                 ],
-                "actions of agent": "Verified if customer tried resetting password. Verified registered mobile number.",
+                "actions of agent": "Verified if the customer tried resetting the password. Verified registered mobile number.",
                 "resolution status": "Resolved",
                 "Process Request": "Manual password reset",
                 "resolution": "Agent manually reset the access and sent a temporary password.",
@@ -124,14 +147,14 @@
                     "Annoyance"
                 ],
                 "conversation sentiment": "Negative",
-                "customer satisfaction": "75",
+                "customer satisfaction": "70",
                 "callback promise": "No",
                 "callback time": "N/A"
             },
             {
                 "intent": "OTP Issue",
                 "confidence": "90",
-                "keywords": "I did that but I am not getting the OTP...on my phone.",
+                "keywords": "I did that but I am not getting the OTP...on my phone",
                 "intent timestamp": "9.000 sec - 18.000 sec",
                 "products": [
                     "Savings Account"
@@ -139,11 +162,11 @@
                 "issues": [
                     {
                         "issue": "Not receiving OTP",
-                        "reason(s)": "OTP system delayed",
+                        "reason(s)": "OTP system is delayed",
                         "issue type": "Technical"
                     }
                 ],
-                "actions of agent": "Acknowledged the issue and informed customer about OTP system delay.",
+                "actions of agent": "Identified OTP delivery delay.",
                 "resolution status": "Resolved",
                 "Process Request": "Manual password reset",
                 "resolution": "Agent manually reset the access and sent a temporary password.",
@@ -153,7 +176,7 @@
                     "Annoyance"
                 ],
                 "conversation sentiment": "Negative",
-                "customer satisfaction": "75",
+                "customer satisfaction": "70",
                 "callback promise": "No",
                 "callback time": "N/A"
             }
@@ -170,28 +193,28 @@
         "call id": "4",
         "agent id": "1",
         "call duration": "38",
-        "summary": "Customer is upset about an unexpected EMI increase.",
+        "summary": "Customer is upset about increased EMI and seeks resolution.",
         "intents": [
             {
                 "intent": "EMI Increase Dispute",
                 "confidence": "95",
-                "keywords": "Your banks cheating me my EMI went up this ... nobody told me. Why is this happening?",
-                "intent timestamp": "0.000 sec - 16.000 sec",
+                "keywords": "Your banks cheating me my EMI went up this ... nobody told me.",
+                "intent timestamp": "0.000 sec - 8.000 sec",
                 "products": [
                     "Loan"
                 ],
                 "issues": [
                     {
                         "issue": "Unexpected EMI increase",
-                        "reason(s)": "Floating interest rate increased due to RBI's repo rate hike.",
+                        "reason(s)": "Floating interest rate increase due to RBI's repo rate hike.",
                         "issue type": "Billing"
                     }
                 ],
-                "actions of agent": "Agent apologized, reviewed the loan account, explained the reason for the increase, and offered to explain the EMI calculation.",
-                "resolution status": "Pending with Process Request",
+                "actions of agent": "Agent apologized, asked for loan account number, explained the reason for EMI increase and offered to explain the EMI calculation.",
+                "resolution status": "Process Request",
                 "Process Request": "Escalate to supervisor and explore EMI moratorium option.",
                 "resolution": "Escalation to supervisor and exploration of EMI moratorium.",
-                "resolution timestamp": "28.000 sec - 36.000 sec",
+                "resolution timestamp": "30.000 sec - 35.000 sec",
                 "dominant emotions (customer)": [
                     "Anger",
                     "Frustration"
@@ -202,25 +225,25 @@
                 "callback time": "N/A"
             },
             {
-                "intent": "Request to Speak to Manager",
+                "intent": "Request to speak to manager",
                 "confidence": "90",
-                "keywords": "This is nonsense. You should do won't me. I want ... speak to your manager.",
-                "intent timestamp": "23.000 sec - 29.000 sec",
+                "keywords": "This is nonsense. You should do won't me. I ... speak to your manager.",
+                "intent timestamp": "23.000 sec - 30.000 sec",
                 "products": [
                     "Loan"
                 ],
                 "issues": [
                     {
-                        "issue": "Customer wants to speak to a manager.",
-                        "reason(s)": "Customer is dissatisfied with the explanation and wants further assistance.",
+                        "issue": "Dissatisfaction with agent's response",
+                        "reason(s)": "Customer feels the agent is not addressing the issue adequately.",
                         "issue type": "Service"
                     }
                 ],
                 "actions of agent": "Agent agreed to escalate the issue to their supervisor.",
-                "resolution status": "Pending with Process Request",
+                "resolution status": "Process Request",
                 "Process Request": "Escalate to supervisor.",
                 "resolution": "Escalation to supervisor.",
-                "resolution timestamp": "28.000 sec - 33.000 sec",
+                "resolution timestamp": "30.000 sec - 33.000 sec",
                 "dominant emotions (customer)": [
                     "Anger",
                     "Frustration"
@@ -234,7 +257,7 @@
         "basic greeting and closing": "No",
         "fatal behaviour": "No",
         "agent professionalism (out of 10)": "6",
-        "agent performance (out of 10)": "6",
+        "agent performance (out of 10)": "5",
         "customer satisfaction (out of 10)": "2",
         "interruptions by customer": "0",
         "interruptions by agent": "0"
@@ -246,7 +269,7 @@
         "summary": "Customer's debit card declined due to insufficient funds, resolved by transfer.",
         "intents": [
             {
-                "intent": "Debit Card Declined",
+                "intent": "Debit Card Issue",
                 "confidence": "95",
                 "keywords": "Hello, my debit card got declined at a store...What's the deal?",
                 "intent timestamp": "0.000 sec - 8.000 sec",
@@ -257,20 +280,20 @@
                     {
                         "issue": "Debit card declined at store.",
                         "reason(s)": "Insufficient funds in the account.",
-                        "issue type": "Billing"
+                        "issue type": "Technical"
                     }
                 ],
-                "actions of agent": "Verified the card status and account balance, offered fund transfer.",
+                "actions of agent": "Verified card activity, checked account balance, offered fund transfer.",
                 "resolution status": "Resolved",
-                "Process Request": "Fund transfer from savings account.",
-                "resolution": "Funds transferred from savings to cover the transaction amount.",
+                "Process Request": "Initiated fund transfer from savings account.",
+                "resolution": "Fund transfer initiated to cover the transaction amount.",
                 "resolution timestamp": "27.000 sec - 31.000 sec",
                 "dominant emotions (customer)": [
                     "Concern",
-                    "Surprise"
+                    "Frustration"
                 ],
                 "conversation sentiment": "Neutral",
-                "customer satisfaction": "90",
+                "customer satisfaction": "85",
                 "callback promise": "No",
                 "callback time": "N/A"
             }
@@ -279,7 +302,7 @@
         "fatal behaviour": "No",
         "agent professionalism (out of 10)": "9",
         "agent performance (out of 10)": "9",
-        "customer satisfaction (out of 10)": "9",
+        "customer satisfaction (out of 10)": "8",
         "interruptions by customer": "0",
         "interruptions by agent": "0"
     },
@@ -287,7 +310,7 @@
         "call id": "6",
         "agent id": "1",
         "call duration": "38",
-        "summary": "The agent assisted the customer in linking Aadhaar to account.",
+        "summary": "The agent helped the customer link Aadhaar to savings account.",
         "intents": [
             {
                 "intent": "Aadhaar Linking Assistance",
@@ -300,15 +323,15 @@
                 ],
                 "issues": [
                     {
-                        "issue": "Customer needs assistance linking Aadhaar to savings account.",
-                        "reason(s)": "Customer unable to get help at the branch and is not comfortable with online processes.",
+                        "issue": "Difficulty linking Aadhaar to savings account.",
+                        "reason(s)": "Customer unable to get assistance at the branch and unfamiliar with online processes.",
                         "issue type": "Service"
                     }
                 ],
-                "actions of agent": "The agent offered to send a simple form to the customer's email for online submission.",
-                "resolution status": "Resolved",
-                "Process Request": "Send form to customer's registered email.",
-                "resolution": "Agent will send a form to the customer's email address to facilitate Aadhaar linking.",
+                "actions of agent": "Offered to guide the customer, provided options for branch visit or online form submission, and offered assistance with filling out the form.",
+                "resolution status": "Process Request",
+                "Process Request": "Agent will send a simple form to the customer's registered email address.",
+                "resolution": "Agent will send a form to the customer's email to link Aadhaar to the savings account.",
                 "resolution timestamp": "31.000 sec - 36.000 sec",
                 "dominant emotions (customer)": [
                     "Frustration",
@@ -332,34 +355,34 @@
         "call id": "7",
         "agent id": "1",
         "call duration": "35",
-        "summary": "Agent assisted customer with fraudulent card activity and refund.",
+        "summary": "The agent addressed a fraud alert and blocked the card.",
         "intents": [
             {
-                "intent": "Fraudulent Transaction Reporting",
+                "intent": "Fraudulent Transaction",
                 "confidence": "95",
-                "keywords": "I got a fraud alert on my card some...transaction identit make",
+                "keywords": "I got a fraud alert on my card...transaction identit make",
                 "intent timestamp": "0.000 sec - 9.000 sec",
                 "products": [
                     "Credit Card"
                 ],
                 "issues": [
                     {
-                        "issue": "Unauthorized transaction",
-                        "reason(s)": "Fraudulent activity on the card",
+                        "issue": "Unauthorized transaction of $20000",
+                        "reason(s)": "Fraudulent activity",
                         "issue type": "Billing"
                     }
                 ],
-                "actions of agent": "Blocked the card, filed a fraud report, and initiated card replacement.",
-                "resolution status": "Pending with Process Request",
+                "actions of agent": "Blocked the card, filed a fraud report, and issued a replacement card.",
+                "resolution status": "Resolved",
                 "Process Request": "Fraud report filing and card replacement request.",
-                "resolution": "Card blocked, fraud report filed, and replacement card issued. Chargeback initiated.",
-                "resolution timestamp": "17.000 sec - 23.000 sec",
+                "resolution": "Card blocked, fraud report filed, and replacement card issued.",
+                "resolution timestamp": "17.000 sec - 22.000 sec",
                 "dominant emotions (customer)": [
                     "Worried",
                     "Anxious"
                 ],
                 "conversation sentiment": "Negative",
-                "customer satisfaction": "80",
+                "customer satisfaction": "85",
                 "callback promise": "Yes",
                 "callback time": "7 to 10 days"
             },
@@ -373,22 +396,22 @@
                 ],
                 "issues": [
                     {
-                        "issue": "Concern about refund of fraudulent transaction amount",
-                        "reason(s)": "Customer wants assurance of getting money back",
+                        "issue": "Inquiry about refund of the fraudulent transaction amount",
+                        "reason(s)": "Customer concern about financial loss due to fraud",
                         "issue type": "Billing"
                     }
                 ],
                 "actions of agent": "Initiated a chargeback request and promised a follow-up.",
-                "resolution status": "Pending with Process Request",
+                "resolution status": "Process Request",
                 "Process Request": "Chargeback request initiation.",
-                "resolution": "Chargeback request initiated, refund expected in 7-10 days, agent will follow up.",
-                "resolution timestamp": "26.000 sec - 33.000 sec",
+                "resolution": "Chargeback request initiated, refund expected in 7-10 days.",
+                "resolution timestamp": "26.000 sec - 32.000 sec",
                 "dominant emotions (customer)": [
                     "Concerned",
                     "Hopeful"
                 ],
                 "conversation sentiment": "Neutral",
-                "customer satisfaction": "85",
+                "customer satisfaction": "90",
                 "callback promise": "Yes",
                 "callback time": "7 to 10 days"
             }
@@ -397,39 +420,33 @@
         "fatal behaviour": "No",
         "agent professionalism (out of 10)": "9",
         "agent performance (out of 10)": "9",
-        "customer satisfaction (out of 10)": "8",
+        "customer satisfaction (out of 10)": "9",
         "interruptions by customer": "0",
         "interruptions by agent": "0"
     },
     {
         "call id": "8",
         "agent id": "1",
-        "call duration": "23",
-        "summary": "Customer inquires about setting up UPI on the app.",
+        "call duration": "23.92",
+        "summary": "Customer inquires about setting up UPI and gets assistance.",
         "intents": [
             {
                 "intent": "UPI Setup Assistance",
                 "confidence": "95",
-                "keywords": "How do I set up upi? I want to ... with my phone.",
+                "keywords": "How do I set up upi?...start paying with my phone.",
                 "intent timestamp": "6.000 sec - 11.000 sec",
                 "products": [
                     "Savings Account",
                     "Mobile App"
                 ],
-                "issues": [
-                    {
-                        "issue": "Customer needs guidance on setting up UPI.",
-                        "reason(s)": "New user unfamiliar with the UPI setup process in the app.",
-                        "issue type": "General Inquiry"
-                    }
-                ],
-                "actions of agent": "Provided instructions on how to set up UPI.",
+                "issues": [],
+                "actions of agent": "The agent provided instructions on how to set up UPI.",
                 "resolution status": "Resolved",
                 "Process Request": "N/A",
-                "resolution": "The agent instructed the customer to go to the UPI section in the app, link their account, and set a UPI pin.",
+                "resolution": "Customer was informed to go to the apps UPI section, link account and set UPI pin.",
                 "resolution timestamp": "10.000 sec - 16.000 sec",
                 "dominant emotions (customer)": [
-                    "Curious",
+                    "Inquisitive",
                     "Positive"
                 ],
                 "conversation sentiment": "Positive",
@@ -449,29 +466,29 @@
     {
         "call id": "9",
         "agent id": "1",
-        "call duration": "40.84",
+        "call duration": "40",
         "summary": "The agent assisted the customer with EMI Moratorium process.",
         "intents": [
             {
                 "intent": "EMI Moratorium Request",
                 "confidence": "95",
-                "keywords": "I am trying to get an EMI Moratorium for my ... website so confusing.",
+                "keywords": "I am trying to get an EMI Moratorium...website so confusing.",
                 "intent timestamp": "0.000 sec - 9.000 sec",
                 "products": [
                     "Home Loan"
                 ],
                 "issues": [
                     {
-                        "issue": "Website confusing for Moratorium application",
-                        "reason(s)": "Website UI/UX issues",
-                        "issue type": "Technical"
+                        "issue": "Website is confusing",
+                        "reason(s)": "N/A",
+                        "issue type": "Service"
                     }
                 ],
-                "actions of agent": "Agent apologized, offered assistance, checked eligibility, and offered a 3-month moratorium.",
-                "resolution status": "Resolved",
-                "Process Request": "N/A",
-                "resolution": "Agent confirmed eligibility and offered a 3-month moratorium.",
-                "resolution timestamp": "23.000 sec - 27.000 sec",
+                "actions of agent": "The agent apologized, asked for the loan account number, checked eligibility, and offered a 3-month moratorium.",
+                "resolution status": "Process Request",
+                "Process Request": "The agent will proceed with the 3-month moratorium request.",
+                "resolution": "The agent confirmed the customer's eligibility for a 3-month moratorium and offered to proceed with the request.",
+                "resolution timestamp": "22.000 sec - 27.000 sec",
                 "dominant emotions (customer)": [
                     "Frustration",
                     "Relief"
@@ -482,19 +499,19 @@
                 "callback time": "N/A"
             },
             {
-                "intent": "CIBIL Score Impact Inquiry",
+                "intent": "Clarification on CIBIL Score Impact",
                 "confidence": "98",
-                "keywords": "But will it affect my CIBIL score?",
-                "intent timestamp": "23.000 sec - 31.000 sec",
+                "keywords": "Yes, please, but will it affect my CIBIL score?",
+                "intent timestamp": "22.000 sec - 30.000 sec",
                 "products": [
                     "Home Loan"
                 ],
                 "issues": [],
-                "actions of agent": "Agent clarified that moratorium won't directly impact CIBIL score but interest will accrue and offered to send a detailed email.",
+                "actions of agent": "The agent clarified that the moratorium won't directly impact the CIBIL score but interest will accrue and offered to send a detailed email.",
                 "resolution status": "Resolved",
-                "Process Request": "Send detailed email with terms",
-                "resolution": "Agent clarified CIBIL impact and promised to send email with details.",
-                "resolution timestamp": "30.000 sec - 39.000 sec",
+                "Process Request": "The agent will send a detailed email with the terms.",
+                "resolution": "The agent clarified that the moratorium won't directly impact the CIBIL score but interest will accrue.",
+                "resolution timestamp": "30.000 sec - 38.000 sec",
                 "dominant emotions (customer)": [
                     "Concern",
                     "Relief"
@@ -522,14 +539,14 @@
             {
                 "intent": "Card Activation",
                 "confidence": "95",
-                "keywords": "I've been trying to activate my new credit card...It's still not active",
-                "intent timestamp": "0.000 sec - 15.000 sec",
+                "keywords": "I've been trying to activate my new credit card ... it now",
+                "intent timestamp": "0.000 sec - 9.000 sec",
                 "products": [
                     "Credit Card"
                 ],
                 "issues": [
                     {
-                        "issue": "Credit card activation failed",
+                        "issue": "Card activation failed",
                         "reason(s)": "Activation request did not process automatically.",
                         "issue type": "Technical"
                     }
@@ -537,7 +554,7 @@
                 "actions of agent": "Verified customer's card details and manually activated the card.",
                 "resolution status": "Resolved",
                 "Process Request": "Manual card activation",
-                "resolution": "Agent manually activated the customer's credit card.",
+                "resolution": "Card is active and ready to use.",
                 "resolution timestamp": "25.000 sec - 29.000 sec",
                 "dominant emotions (customer)": [
                     "Frustration",
@@ -551,29 +568,29 @@
             {
                 "intent": "Confirmation Request",
                 "confidence": "90",
-                "keywords": "Would you like me to send a confirmation?...Yeah, send it.",
-                "intent timestamp": "29.000 sec - 33.000 sec",
+                "keywords": "Would you like me to send a confirmation?...send it",
+                "intent timestamp": "25.000 sec - 33.000 sec",
                 "products": [
                     "Credit Card"
                 ],
                 "issues": [],
-                "actions of agent": "Offered to send a confirmation of the card activation.",
-                "resolution status": "Resolved",
-                "Process Request": "N/A",
-                "resolution": "Agent will send a confirmation of the card activation.",
-                "resolution timestamp": "32.000 sec - 33.000 sec",
+                "actions of agent": "Offered to send a confirmation of card activation.",
+                "resolution status": "Process Request",
+                "Process Request": "Sending confirmation of card activation",
+                "resolution": "Confirmation to be sent to the customer.",
+                "resolution timestamp": "31.000 sec - 33.000 sec",
                 "dominant emotions (customer)": [
                     "Relief"
                 ],
                 "conversation sentiment": "Positive",
-                "customer satisfaction": "85",
+                "customer satisfaction": "80",
                 "callback promise": "No",
                 "callback time": "N/A"
             }
         ],
         "basic greeting and closing": "No",
         "fatal behaviour": "No",
-        "agent professionalism (out of 10)": "8",
+        "agent professionalism (out of 10)": "7",
         "agent performance (out of 10)": "8",
         "customer satisfaction (out of 10)": "7",
         "interruptions by customer": "1",
@@ -582,28 +599,28 @@
     {
         "call id": "11",
         "agent id": "2",
-        "call duration": "28",
-        "summary": "Customer facing issue with mobile banking app crashing.",
+        "call duration": "28.16",
+        "summary": "Customer facing mobile banking app crashing issue.",
         "intents": [
             {
-                "intent": "Technical Support",
+                "intent": "Technical issue with mobile banking app",
                 "confidence": "95",
-                "keywords": "I can't set up my mobile banking that keeps crashing...everytime I try.",
-                "intent timestamp": "0.000 sec - 9.000 sec",
+                "keywords": "I can't set up my mobile banking that keeps ... everytime I try",
+                "intent timestamp": "0.000 sec - 8.000 sec",
                 "products": [
                     "Mobile Banking App"
                 ],
                 "issues": [
                     {
                         "issue": "Mobile banking app crashing",
-                        "reason(s)": "Unknown, possibly due to a bug or compatibility issue.",
+                        "reason(s)": "Unknown, possibly software bug or compatibility issue",
                         "issue type": "Technical"
                     }
                 ],
                 "actions of agent": "Suggested uninstalling and reinstalling the app.",
-                "resolution status": "Pending with Customer",
+                "resolution status": "Unresolved",
                 "Process Request": "N/A",
-                "resolution": "Customer to uninstall and reinstall the mobile banking app and log in with registered mobile number.",
+                "resolution": "Customer needs to uninstall and reinstall the app.",
                 "resolution timestamp": "13.000 sec - 19.000 sec",
                 "dominant emotions (customer)": [
                     "Frustration",
@@ -618,7 +635,7 @@
         "basic greeting and closing": "No",
         "fatal behaviour": "No",
         "agent professionalism (out of 10)": "7",
-        "agent performance (out of 10)": "7",
+        "agent performance (out of 10)": "6",
         "customer satisfaction (out of 10)": "4",
         "interruptions by customer": "0",
         "interruptions by agent": "0"
@@ -627,22 +644,22 @@
         "call id": "12",
         "agent id": "2",
         "call duration": "35",
-        "summary": "The agent informed the customer about KYC documents needed.",
+        "summary": "The customer inquired about their loan application status.",
         "intents": [
             {
                 "intent": "Loan Application Status Inquiry",
                 "confidence": "95",
-                "keywords": "Hello, I want to know if my loan application got...been weeks.",
+                "keywords": "Hello, I want to know if my loan application got...weeks.",
                 "intent timestamp": "0.000 sec - 9.000 sec",
                 "products": [
                     "Loan"
                 ],
                 "issues": [],
-                "actions of agent": "Checked the loan application status using customer's name.",
-                "resolution status": "Pending with Customer",
-                "Process Request": "N/A",
-                "resolution": "The agent informed the customer that the loan is approved but KYC documents are required.",
-                "resolution timestamp": "16.000 sec - 20.000 sec",
+                "actions of agent": "Checked the loan application status using the customer's name.",
+                "resolution status": "Process Request",
+                "Process Request": "Agent will send the list of required KYC documents via SMS.",
+                "resolution": "The agent informed the customer that the loan application was approved but KYC documents are needed.",
+                "resolution timestamp": "14.000 sec - 20.000 sec",
                 "dominant emotions (customer)": [
                     "Inquiry",
                     "Concern"
@@ -653,7 +670,7 @@
                 "callback time": "N/A"
             },
             {
-                "intent": "KYC Document Explanation",
+                "intent": "KYC Information Request",
                 "confidence": "90",
                 "keywords": "KYC what's that? Why didn't anyone tell me",
                 "intent timestamp": "19.000 sec - 24.000 sec",
@@ -662,16 +679,16 @@
                 ],
                 "issues": [
                     {
-                        "issue": "Customer unaware of KYC requirement.",
-                        "reason(s)": "Oversight in communication from the branch.",
+                        "issue": "Customer unaware of KYC requirements.",
+                        "reason(s)": "Lack of communication from the branch.",
                         "issue type": "Service"
                     }
                 ],
-                "actions of agent": "Apologized for the oversight and explained KYC.",
-                "resolution status": "Pending with Customer",
-                "Process Request": "Send KYC document list via SMS.",
-                "resolution": "Agent will send a list of required KYC documents via SMS.",
-                "resolution timestamp": "28.000 sec - 32.000 sec",
+                "actions of agent": "Explained KYC and offered to send required documents via SMS.",
+                "resolution status": "Process Request",
+                "Process Request": "Agent will send the list of required KYC documents via SMS.",
+                "resolution": "Agent explained KYC and promised to send the list of required documents.",
+                "resolution timestamp": "25.000 sec - 32.000 sec",
                 "dominant emotions (customer)": [
                     "Confusion",
                     "Frustration"
@@ -685,7 +702,7 @@
         "basic greeting and closing": "Yes",
         "fatal behaviour": "No",
         "agent professionalism (out of 10)": "8",
-        "agent performance (out of 10)": "7",
+        "agent performance (out of 10)": "8",
         "customer satisfaction (out of 10)": "7",
         "interruptions by customer": "0",
         "interruptions by agent": "0"
@@ -699,7 +716,7 @@
             {
                 "intent": "Fraudulent Charge Report",
                 "confidence": "95",
-                "keywords": "Your bank so mass my credit card statement shows of ... I never made",
+                "keywords": "Your bank so mass my credit card statement shows of...I never made",
                 "intent timestamp": "0.000 sec - 9.000 sec",
                 "products": [
                     "Credit Card"
@@ -707,14 +724,14 @@
                 "issues": [
                     {
                         "issue": "Unauthorized charge of $15000",
-                        "reason(s)": "Customer claims they did not make the transaction.",
+                        "reason(s)": "Potential fraud",
                         "issue type": "Billing"
                     }
                 ],
-                "actions of agent": "Agent blocked the card and initiated a chargeback request.",
-                "resolution status": "Resolved",
+                "actions of agent": "Blocked the card and initiated a chargeback request.",
+                "resolution status": "Process Request",
                 "Process Request": "Chargeback request initiated.",
-                "resolution": "Chargeback request filed, refund expected in 7-10 days.",
+                "resolution": "Chargeback request filed, refund in 7-10 days.",
                 "resolution timestamp": "25.000 sec - 29.000 sec",
                 "dominant emotions (customer)": [
                     "Frustration",
@@ -738,7 +755,7 @@
         "call id": "14",
         "agent id": "2",
         "call duration": "27",
-        "summary": "Customer inquired about setting up NEFT transfer, agent provided guidance.",
+        "summary": "Customer inquired about setting up NEFT transfer and was assisted.",
         "intents": [
             {
                 "intent": "NEFT Transfer Setup",
@@ -749,15 +766,22 @@
                     "Savings Account",
                     "Mobile App"
                 ],
-                "issues": [],
-                "actions of agent": "The agent explained the process of setting up NEFT transfer using the mobile app, including adding a beneficiary and the 24-hour activation period.",
+                "issues": [
+                    {
+                        "issue": "Customer needs guidance on setting up NEFT transfer.",
+                        "reason(s)": "New savings account holder unfamiliar with the NEFT transfer process.",
+                        "issue type": "General Inquiry"
+                    }
+                ],
+                "actions of agent": "The agent explained the process of setting up NEFT transfer using the mobile app.",
                 "resolution status": "Resolved",
                 "Process Request": "N/A",
-                "resolution": "The agent provided clear instructions on how to set up NEFT transfer.",
-                "resolution timestamp": "5.000 sec - 12.000 sec",
+                "resolution": "The agent informed the customer to go to the apps transfer section and add a beneficiary with account number and IFSC code. It takes 24 hours to activate.",
+                "resolution timestamp": "5.000 sec - 21.000 sec",
                 "dominant emotions (customer)": [
-                    "Excitement",
-                    "Gratitude"
+                    "Excited",
+                    "Curious",
+                    "Satisfied"
                 ],
                 "conversation sentiment": "Positive",
                 "customer satisfaction": "100",
@@ -776,36 +800,35 @@
     {
         "call id": "15",
         "agent id": "2",
-        "call duration": "33.68",
-        "summary": "Agent resolved customer's loan EMI lean issue.",
+        "call duration": "33",
+        "summary": "Agent resolved loan lean issue due to system error.",
         "intents": [
             {
-                "intent": "Loan EMI Payment Issue",
+                "intent": "Loan Issue",
                 "confidence": "95",
                 "keywords": "I paid my loan EMI but there is a lean...what's going on?",
                 "intent timestamp": "0.000 sec - 8.000 sec",
                 "products": [
-                    "Loan",
-                    "EMI"
+                    "Loan"
                 ],
                 "issues": [
                     {
                         "issue": "Lean on account after EMI payment",
-                        "reason(s)": "System error placed a lean despite payment.",
+                        "reason(s)": "System error placed telling",
                         "issue type": "Technical"
                     }
                 ],
-                "actions of agent": "Identified the issue, confirmed payment, and removed the lean.",
+                "actions of agent": "Identified the issue, removed the lean, and confirmed resolution.",
                 "resolution status": "Resolved",
                 "Process Request": "N/A",
-                "resolution": "Lean lifted and funds available.",
-                "resolution timestamp": "28.000 sec - 32.000 sec",
+                "resolution": "Lean is lifted and funds are available.",
+                "resolution timestamp": "27.000 sec - 32.000 sec",
                 "dominant emotions (customer)": [
                     "Concern",
                     "Frustration"
                 ],
                 "conversation sentiment": "Negative",
-                "customer satisfaction": "80",
+                "customer satisfaction": "85",
                 "callback promise": "No",
                 "callback time": "N/A"
             }
@@ -822,13 +845,13 @@
         "call id": "16",
         "agent id": "2",
         "call duration": "30",
-        "summary": "Customer inquires about delayed credit limit increase request.",
+        "summary": "Customer inquired about delayed credit limit increase request.",
         "intents": [
             {
                 "intent": "Credit Limit Increase Status Inquiry",
                 "confidence": "95",
                 "keywords": "I requested a credit limit increase last week...What's the hold up?",
-                "intent timestamp": "0.000 sec - 6.000 sec",
+                "intent timestamp": "0.000 sec - 10.000 sec",
                 "products": [
                     "Credit Card"
                 ],
@@ -839,11 +862,11 @@
                         "issue type": "Service"
                     }
                 ],
-                "actions of agent": "Checked the status of the credit limit increase request and expedited it.",
-                "resolution status": "Pending with Process Request",
+                "actions of agent": "Checked the status of the request and expedited it.",
+                "resolution status": "Process Request",
                 "Process Request": "Agent expedited the credit limit increase request.",
-                "resolution": "Agent promised an update by the end of the day.",
-                "resolution timestamp": "25.000 sec - 29.000 sec",
+                "resolution": "Agent promised to expedite the request and provide an update by end of day.",
+                "resolution timestamp": "24.000 sec - 29.000 sec",
                 "dominant emotions (customer)": [
                     "Concern",
                     "Impatient"
@@ -866,31 +889,75 @@
         "call id": "17",
         "agent id": "2",
         "call duration": "28.88",
-        "summary": "Agent assisted customer with unauthorized withdrawal and secured account.",
+        "summary": "Customer reports unauthorized withdrawal; agent freezes account and investigates.",
         "intents": [
             {
                 "intent": "Fraudulent Transaction Report",
                 "confidence": "95",
-                "keywords": "I am worried my savings account shows of withdrawal...someone stealing my money.",
-                "intent timestamp": "0.000 sec - 7.000 sec",
+                "keywords": "I am worried my savings account shows of withdrawal...someone stealing my money",
+                "intent timestamp": "0.000 sec - 9.000 sec",
                 "products": [
                     "Savings Account"
                 ],
                 "issues": [
                     {
                         "issue": "Unauthorized withdrawal of $25000",
-                        "reason(s)": "Potential fraud, customer did not authorize the transaction.",
+                        "reason(s)": "Customer did not authorize the transaction.",
                         "issue type": "Billing"
                     }
                 ],
                 "actions of agent": "Confirmed transaction details, froze the account, and filed a fraud report.",
-                "resolution status": "Pending with Process Request",
-                "Process Request": "Reversal of the fraudulent transaction and filing a fraud report.",
-                "resolution": "The agent assured the customer that the transaction will be reversed within 5 to 7 days.",
-                "resolution timestamp": "23.000 sec - 29.000 sec",
+                "resolution status": "Process Request",
+                "Process Request": "Reverse the fraudulent transaction and keep the customer updated.",
+                "resolution": "The agent will reverse the transaction within 5 to 7 days.",
+                "resolution timestamp": "24.000 sec - 28.000 sec",
                 "dominant emotions (customer)": [
                     "Worried",
                     "Scared"
+                ],
+                "conversation sentiment": "Negative",
+                "customer satisfaction": "70",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "basic greeting and closing": "No",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "8",
+        "agent performance (out of 10)": "9",
+        "customer satisfaction (out of 10)": "7",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "18",
+        "agent id": "2",
+        "call duration": "28",
+        "summary": "Customer facing error while applying for car loan online.",
+        "intents": [
+            {
+                "intent": "Car Loan Application Issue",
+                "confidence": "95",
+                "keywords": "I tried applying for a car loan online, but the ... what's wrong?",
+                "intent timestamp": "0.000 sec - 9.000 sec",
+                "products": [
+                    "Car Loan"
+                ],
+                "issues": [
+                    {
+                        "issue": "Online portal error during car loan application.",
+                        "reason(s)": "System glitch when submitting income details.",
+                        "issue type": "Technical"
+                    }
+                ],
+                "actions of agent": "Suggested uploading documents in PDF format or processing manually.",
+                "resolution status": "Process Request",
+                "Process Request": "Customer to email documents to loan desk for manual processing.",
+                "resolution": "Agent will process the application manually upon receiving the documents.",
+                "resolution timestamp": "22.000 sec - 28.000 sec",
+                "dominant emotions (customer)": [
+                    "Frustration",
+                    "Confusion"
                 ],
                 "conversation sentiment": "Negative",
                 "customer satisfaction": "75",
@@ -907,90 +974,46 @@
         "interruptions by agent": "0"
     },
     {
-        "call id": "18",
-        "agent id": "2",
-        "call duration": "28",
-        "summary": "Customer facing error while applying for car loan online.",
-        "intents": [
-            {
-                "intent": "Car Loan Application Issue",
-                "confidence": "95",
-                "keywords": "I tried applying for a car loan online, but the...what's wrong?",
-                "intent timestamp": "0.000 sec - 9.000 sec",
-                "products": [
-                    "Car Loan"
-                ],
-                "issues": [
-                    {
-                        "issue": "Online portal error during car loan application.",
-                        "reason(s)": "System glitch when submitting income details.",
-                        "issue type": "Technical"
-                    }
-                ],
-                "actions of agent": "Offered troubleshooting steps and manual processing of application.",
-                "resolution status": "Resolved",
-                "Process Request": "Manual processing of car loan application.",
-                "resolution": "Agent offered to process the application manually.",
-                "resolution timestamp": "22.000 sec - 28.000 sec",
-                "dominant emotions (customer)": [
-                    "Frustration",
-                    "Confusion"
-                ],
-                "conversation sentiment": "Negative",
-                "customer satisfaction": "85",
-                "callback promise": "No",
-                "callback time": "N/A"
-            }
-        ],
-        "basic greeting and closing": "No",
-        "fatal behaviour": "No",
-        "agent professionalism (out of 10)": "9",
-        "agent performance (out of 10)": "9",
-        "customer satisfaction (out of 10)": "8",
-        "interruptions by customer": "0",
-        "interruptions by agent": "0"
-    },
-    {
         "call id": "19",
         "agent id": "2",
         "call duration": "31.52",
-        "summary": "Agent assisted customer with savings account closure request.",
+        "summary": "The agent assisted with closing the customer's savings account.",
         "intents": [
             {
                 "intent": "Account Closure",
                 "confidence": "95",
-                "keywords": "I want to close my savings account the branch keeps...done quickly.",
-                "intent timestamp": "0.000 sec - 16.000 sec",
+                "keywords": "I want to close my savings account the branch ... keeps delaying it",
+                "intent timestamp": "0.000 sec - 5.000 sec",
                 "products": [
                     "Savings Account"
                 ],
                 "issues": [
                     {
                         "issue": "Delay in account closure",
-                        "reason(s)": "Branch is delaying the account closure process.",
+                        "reason(s)": "Branch is delaying the process",
                         "issue type": "Service"
                     }
                 ],
-                "actions of agent": "Verified account details, initiated closure and transfer of balance.",
-                "resolution status": "Resolved",
-                "Process Request": "Initiated account closure and balance transfer.",
-                "resolution": "Account closure and balance transfer initiated, to be completed in 3 days.",
+                "actions of agent": "Initiated account closure and transfer of funds.",
+                "resolution status": "Process Request",
+                "Process Request": "Initiated the closure and transfer of the remaining balance to the customer's other bank account.",
+                "resolution": "Account closure and fund transfer will be completed in 3 days.",
                 "resolution timestamp": "26.000 sec - 31.000 sec",
                 "dominant emotions (customer)": [
                     "Frustration",
                     "Impatience"
                 ],
                 "conversation sentiment": "Negative",
-                "customer satisfaction": "70",
+                "customer satisfaction": "60",
                 "callback promise": "No",
                 "callback time": "N/A"
             }
         ],
         "basic greeting and closing": "No",
         "fatal behaviour": "No",
-        "agent professionalism (out of 10)": "8",
-        "agent performance (out of 10)": "8",
-        "customer satisfaction (out of 10)": "7",
+        "agent professionalism (out of 10)": "7",
+        "agent performance (out of 10)": "7",
+        "customer satisfaction (out of 10)": "6",
         "interruptions by customer": "0",
         "interruptions by agent": "0"
     },
@@ -998,31 +1021,24 @@
         "call id": "20",
         "agent id": "2",
         "call duration": "32",
-        "summary": "Customer inquired about the final steps for loan preclosure.",
+        "summary": "The customer inquired about the final steps of loan preclosure.",
         "intents": [
             {
-                "intent": "Loan Preclosure",
+                "intent": "Loan Preclosure Inquiry",
                 "confidence": "95",
                 "keywords": "I am thrilled my loan preclosure was a proved just...know the final steps",
                 "intent timestamp": "0.000 sec - 9.000 sec",
                 "products": [
                     "Loan"
                 ],
-                "issues": [
-                    {
-                        "issue": "Customer needs to know the final steps for loan preclosure.",
-                        "reason(s)": "N/A",
-                        "issue type": "General Inquiry"
-                    }
-                ],
-                "actions of agent": "Confirmed loan account number and provided information on outstanding balance and payment link.",
+                "issues": [],
+                "actions of agent": "Confirmed loan account number and provided payment link.",
                 "resolution status": "Resolved",
-                "Process Request": "Generated and sent payment link to the customer.",
+                "Process Request": "Payment link sent to customer.",
                 "resolution": "Payment link sent to customer to pay outstanding balance.",
                 "resolution timestamp": "27.000 sec - 29.000 sec",
                 "dominant emotions (customer)": [
-                    "Thrilled",
-                    "Happy"
+                    "Thrilled"
                 ],
                 "conversation sentiment": "Positive",
                 "customer satisfaction": "100",
@@ -1042,7 +1058,7 @@
         "call id": "21",
         "agent id": "3",
         "call duration": "28",
-        "summary": "Agent enabled online transactions for customer's debit card.",
+        "summary": "The agent enabled online transactions for the customer's debit card.",
         "intents": [
             {
                 "intent": "Debit Card Issue",
@@ -1059,14 +1075,14 @@
                         "issue type": "Technical"
                     }
                 ],
-                "actions of agent": "Agent offered to enable online transactions for the customer's debit card.",
+                "actions of agent": "The agent enabled online transactions for the customer's debit card.",
                 "resolution status": "Resolved",
-                "Process Request": "Enabled online transactions for the debit card.",
-                "resolution": "Agent enabled online transactions; customer to try again in a few minutes.",
-                "resolution timestamp": "22.000 sec - 28.000 sec",
+                "Process Request": "Enabled online transactions for the customer's debit card.",
+                "resolution": "Online transactions enabled; customer advised to try again in a few minutes.",
+                "resolution timestamp": "24.000 sec - 28.000 sec",
                 "dominant emotions (customer)": [
                     "Frustration",
-                    "Urgency"
+                    "Impatience"
                 ],
                 "conversation sentiment": "Negative",
                 "customer satisfaction": "70",
@@ -1077,7 +1093,7 @@
         "basic greeting and closing": "No",
         "fatal behaviour": "No",
         "agent professionalism (out of 10)": "8",
-        "agent performance (out of 10)": "8",
+        "agent performance (out of 10)": "9",
         "customer satisfaction (out of 10)": "7",
         "interruptions by customer": "0",
         "interruptions by agent": "0"
@@ -1086,30 +1102,31 @@
         "call id": "22",
         "agent id": "3",
         "call duration": "34",
-        "summary": "Customer's address update request was delayed due to missing signature.",
+        "summary": "Customer's address update was delayed due to missing signature.",
         "intents": [
             {
                 "intent": "Address Update",
                 "confidence": "95",
                 "keywords": "I went to the branch to update my address ... it's not done yet",
-                "intent timestamp": "0.000 sec - 9.000 sec",
+                "intent timestamp": "0.000 sec - 8.000 sec",
                 "products": [
-                    "Address"
+                    "Bank Account"
                 ],
                 "issues": [
                     {
-                        "issue": "Address update not processed",
-                        "reason(s)": "Missing signature on the form",
+                        "issue": "Address update delayed.",
+                        "reason(s)": "Missing signature on the form.",
                         "issue type": "Service"
                     }
                 ],
-                "actions of agent": "Identified the reason for the delay and offered to email the form.",
-                "resolution status": "Pending with Customer",
-                "Process Request": "Emailing the address update form to the customer.",
-                "resolution": "Customer needs to submit the signed form to expedite the address update.",
-                "resolution timestamp": "31.000 sec - 33.000 sec",
+                "actions of agent": "Agent checked the status and informed the customer about the missing signature.",
+                "resolution status": "Process Request",
+                "Process Request": "Agent will email the form to the customer's registered email address and expedite the update once the signed form is submitted.",
+                "resolution": "Agent will email the form to the customer and expedite the update.",
+                "resolution timestamp": "27.000 sec - 34.000 sec",
                 "dominant emotions (customer)": [
-                    "Frustration"
+                    "Frustration",
+                    "Annoyance"
                 ],
                 "conversation sentiment": "Negative",
                 "customer satisfaction": "60",
@@ -1129,24 +1146,24 @@
         "call id": "23",
         "agent id": "3",
         "call duration": "32",
-        "summary": "Customer complains about late fee on loan statement.",
+        "summary": "Customer is upset about a late fee on loan.",
         "intents": [
             {
                 "intent": "Billing Dispute",
                 "confidence": "95",
-                "keywords": "You guys are reaping me off. My loan statement shows...I paid on time. This is a scam.",
-                "intent timestamp": "0.000 sec - 17.000 sec",
+                "keywords": "You guys are reaping me off. My loan statement shows...I paid on time.",
+                "intent timestamp": "0.000 sec - 9.000 sec",
                 "products": [
                     "Loan"
                 ],
                 "issues": [
                     {
-                        "issue": "Late fee charged despite on-time payment.",
+                        "issue": "Late fee charged despite on-time payment",
                         "reason(s)": "ECS mandate issue caused payment to be credited a day late.",
                         "issue type": "Billing"
                     }
                 ],
-                "actions of agent": "Verified the payment and identified the reason for the late fee. Offered to waive the fee.",
+                "actions of agent": "Agent verified the payment and explained the reason for the late fee.",
                 "resolution status": "Resolved",
                 "Process Request": "N/A",
                 "resolution": "Agent waived the late fee.",
@@ -1172,8 +1189,8 @@
     {
         "call id": "24",
         "agent id": "3",
-        "call duration": "26",
-        "summary": "Customer requested to activate new credit card, agent assisted.",
+        "call duration": "26.04",
+        "summary": "Customer wants to activate new credit card, agent assists.",
         "intents": [
             {
                 "intent": "Card Activation",
@@ -1183,18 +1200,12 @@
                 "products": [
                     "Credit Card"
                 ],
-                "issues": [
-                    {
-                        "issue": "New card needs activation",
-                        "reason(s)": "New card received by customer",
-                        "issue type": "Service"
-                    }
-                ],
-                "actions of agent": "Agent offered to activate the card and activated it.",
+                "issues": [],
+                "actions of agent": "Agent offered to activate the card and asked for the card number.",
                 "resolution status": "Resolved",
                 "Process Request": "N/A",
-                "resolution": "Card activated immediately by the agent.",
-                "resolution timestamp": "15.000 sec - 18.000 sec",
+                "resolution": "Agent activated the card for the customer.",
+                "resolution timestamp": "15.000 sec - 17.000 sec",
                 "dominant emotions (customer)": [
                     "Happy"
                 ],
@@ -1216,10 +1227,10 @@
         "call id": "25",
         "agent id": "3",
         "call duration": "31",
-        "summary": "Customer inquired about a charge, agent waived the fee.",
+        "summary": "Customer inquired about a charge and it was waived.",
         "intents": [
             {
-                "intent": "Billing Inquiry",
+                "intent": "Inquiry about charge",
                 "confidence": "95",
                 "keywords": "Does a 200 rupees charge on my savings account...What's this about?",
                 "intent timestamp": "0.000 sec - 9.000 sec",
@@ -1233,17 +1244,39 @@
                         "issue type": "Billing"
                     }
                 ],
-                "actions of agent": "Agent checked the account, identified the charge as a maintenance fee, and offered to waive it as a one-time courtesy and set up balance alerts.",
+                "actions of agent": "Identified the charge as a maintenance fee and offered to waive it.",
                 "resolution status": "Resolved",
                 "Process Request": "N/A",
-                "resolution": "Agent waived the 200 rupees maintenance fee.",
-                "resolution timestamp": "27.000 sec - 29.000 sec",
+                "resolution": "Agent waived the maintenance fee as a one-time courtesy.",
+                "resolution timestamp": "19.000 sec - 22.000 sec",
                 "dominant emotions (customer)": [
                     "Concern",
-                    "Frustration"
+                    "Inquiry"
                 ],
                 "conversation sentiment": "Negative",
                 "customer satisfaction": "75",
+                "callback promise": "No",
+                "callback time": "N/A"
+            },
+            {
+                "intent": "Balance Alert Setup",
+                "confidence": "80",
+                "keywords": "I waive the fee and can set up balance alerts...for you.",
+                "intent timestamp": "23.000 sec - 31.000 sec",
+                "products": [
+                    "Savings Account"
+                ],
+                "issues": [],
+                "actions of agent": "Offered to set up balance alerts for the customer.",
+                "resolution status": "Process Request",
+                "Process Request": "Agent needs to set up balance alerts in the system.",
+                "resolution": "Agent offered to set up balance alerts to prevent future low balance fees.",
+                "resolution timestamp": "28.000 sec - 31.000 sec",
+                "dominant emotions (customer)": [
+                    "Neutral"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "70",
                 "callback promise": "No",
                 "callback time": "N/A"
             }
@@ -1259,40 +1292,40 @@
     {
         "call id": "26",
         "agent id": "3",
-        "call duration": "30",
-        "summary": "Agent processed manual loan payment to avoid credit issues.",
+        "call duration": "30.80",
+        "summary": "Agent processed manual loan payment for the customer.",
         "intents": [
             {
                 "intent": "Payment Assistance",
                 "confidence": "95",
-                "keywords": "I am freaking out my loan payment is due, but ... to pay it.",
+                "keywords": "I am freaking out my loan payment is due, but I ... my account to pay it.",
                 "intent timestamp": "0.000 sec - 9.000 sec",
                 "products": [
                     "Loan"
                 ],
                 "issues": [
                     {
-                        "issue": "Unable to access account to make loan payment.",
-                        "reason(s)": "Unknown reason for account access issue.",
+                        "issue": "Unable to access account to make payment.",
+                        "reason(s)": "Unknown reason for access issue.",
                         "issue type": "Technical"
                     },
                     {
                         "issue": "Concern about impact on credit score due to missed payment.",
-                        "reason(s)": "Potential late payment of loan.",
+                        "reason(s)": "Potential late payment.",
                         "issue type": "Billing"
                     }
                 ],
-                "actions of agent": "Offered manual payment processing or extending the due date.",
+                "actions of agent": "Offered manual payment processing or extending the due date and processed manual payment.",
                 "resolution status": "Resolved",
                 "Process Request": "Manual payment processing.",
-                "resolution": "Manual payment was processed and account was updated.",
+                "resolution": "Manual payment processed and account updated.",
                 "resolution timestamp": "25.000 sec - 30.000 sec",
                 "dominant emotions (customer)": [
                     "Anxious",
                     "Frustrated"
                 ],
                 "conversation sentiment": "Negative",
-                "customer satisfaction": "90",
+                "customer satisfaction": "85",
                 "callback promise": "No",
                 "callback time": "N/A"
             }
@@ -1301,62 +1334,39 @@
         "fatal behaviour": "No",
         "agent professionalism (out of 10)": "9",
         "agent performance (out of 10)": "9",
-        "customer satisfaction (out of 10)": "9",
+        "customer satisfaction (out of 10)": "8",
         "interruptions by customer": "0",
         "interruptions by agent": "0"
     },
     {
         "call id": "27",
         "agent id": "3",
-        "call duration": "32",
-        "summary": "Customer requests to withdraw fixed deposit and check interest.",
+        "call duration": "32.44",
+        "summary": "The customer wants to withdraw fixed deposit yearly.",
         "intents": [
             {
                 "intent": "Fixed Deposit Withdrawal",
                 "confidence": "95",
-                "keywords": "I want to withdraw my fixed deposit yearly, ... does that work?",
+                "keywords": "I want to withdraw my fixed deposit yearly, how ... that work?",
                 "intent timestamp": "0.000 sec - 8.000 sec",
-                "products": [
-                    "Fixed Deposit"
-                ],
-                "issues": [],
-                "actions of agent": "Agent asked for FD account number and explained about reduced interest rate.",
-                "resolution status": "Pending with Process Request",
-                "Process Request": "Initiated premature withdrawal of FD with penalty calculation.",
-                "resolution": "Premature withdrawal initiated with penalty and interest calculation.",
-                "resolution timestamp": "29.000 sec - 32.000 sec",
-                "dominant emotions (customer)": [
-                    "Inquiry",
-                    "Concern"
-                ],
-                "conversation sentiment": "Neutral",
-                "customer satisfaction": "70",
-                "callback promise": "No",
-                "callback time": "N/A"
-            },
-            {
-                "intent": "Interest Rate Inquiry",
-                "confidence": "90",
-                "keywords": "Will I lose all the interest?",
-                "intent timestamp": "10.000 sec - 16.000 sec",
                 "products": [
                     "Fixed Deposit"
                 ],
                 "issues": [
                     {
-                        "issue": "Reduced interest rate on premature withdrawal",
-                        "reason(s)": "Premature withdrawal of fixed deposit",
+                        "issue": "Premature withdrawal implications",
+                        "reason(s)": "Customer wants to know about interest loss on premature withdrawal.",
                         "issue type": "Billing"
                     }
                 ],
-                "actions of agent": "Agent explained about reduced interest rate and offered to calculate the exact amount.",
-                "resolution status": "Pending with Process Request",
-                "Process Request": "Calculated penalty and interest after premature withdrawal.",
-                "resolution": "Provided information on reduced interest rate and calculated the amount after penalty.",
-                "resolution timestamp": "24.000 sec - 30.000 sec",
+                "actions of agent": "The agent offered to calculate the exact amount after penalty.",
+                "resolution status": "Process Request",
+                "Process Request": "Agent initiated the withdrawal process.",
+                "resolution": "Withdrawal initiated with reduced interest after penalty.",
+                "resolution timestamp": "28.000 sec - 32.000 sec",
                 "dominant emotions (customer)": [
-                    "Concern",
-                    "Anxiety"
+                    "Inquiry",
+                    "Concern"
                 ],
                 "conversation sentiment": "Neutral",
                 "customer satisfaction": "75",
@@ -1376,28 +1386,28 @@
         "call id": "28",
         "agent id": "3",
         "call duration": "26.60",
-        "summary": "Customer reported unauthorized charge, agent initiated credit freeze and dispute.",
+        "summary": "The agent addressed unauthorized card usage and initiated a dispute.",
         "intents": [
             {
-                "intent": "Fraudulent Charge Report",
+                "intent": "Fraudulent Activity",
                 "confidence": "95",
-                "keywords": "I got a bill for 8000 on my card...what's going on?",
+                "keywords": "I got a bill for 8000 on my card, but...what's going on?",
                 "intent timestamp": "0.000 sec - 9.000 sec",
                 "products": [
                     "Credit Card"
                 ],
                 "issues": [
                     {
-                        "issue": "Unauthorized transaction of $8000",
-                        "reason(s)": "Customer claims they did not make the transaction.",
+                        "issue": "Unauthorized transaction",
+                        "reason(s)": "Customer reports a bill for an amount they didn't spend.",
                         "issue type": "Billing"
                     }
                 ],
-                "actions of agent": "Verified last four digits of card, initiated credit freeze, and filed a dispute.",
-                "resolution status": "Pending with Process Request",
-                "Process Request": "Dispute filed for unauthorized transaction and credit freeze initiated.",
-                "resolution": "Credit freeze on the card and dispute filed, refund in 5-7 days.",
-                "resolution timestamp": "13.000 sec - 18.000 sec",
+                "actions of agent": "Verified last four digits of card, pledged to freeze the card, initiated a dispute.",
+                "resolution status": "Process Request",
+                "Process Request": "Dispute filing and credit freeze on the card.",
+                "resolution": "The agent will file a dispute and the customer should see a refund in 5-7 days.",
+                "resolution timestamp": "21.000 sec - 26.000 sec",
                 "dominant emotions (customer)": [
                     "Worried",
                     "Anxious"
@@ -1410,15 +1420,21 @@
             {
                 "intent": "Refund Inquiry",
                 "confidence": "90",
-                "keywords": "how long till I get my money back",
-                "intent timestamp": "18.000 sec - 21.000 sec",
+                "keywords": "Thanks, but how long till I get...money back.",
+                "intent timestamp": "17.000 sec - 22.000 sec",
                 "products": [
                     "Credit Card"
                 ],
-                "issues": [],
-                "actions of agent": "Provided estimated timeframe for refund.",
-                "resolution status": "Pending with Process Request",
-                "Process Request": "Refund to be processed after dispute resolution.",
+                "issues": [
+                    {
+                        "issue": "Refund timeline",
+                        "reason(s)": "Customer wants to know when they will receive their money back.",
+                        "issue type": "Billing"
+                    }
+                ],
+                "actions of agent": "Provided an estimated timeframe for the refund.",
+                "resolution status": "Resolved",
+                "Process Request": "N/A",
                 "resolution": "Refund will be processed in 5-7 days.",
                 "resolution timestamp": "21.000 sec - 26.000 sec",
                 "dominant emotions (customer)": [
@@ -1442,7 +1458,7 @@
         "call id": "29",
         "agent id": "3",
         "call duration": "30",
-        "summary": "Customer is unable to check loan balance online.",
+        "summary": "Customer is unable to access loan balance online.",
         "intents": [
             {
                 "intent": "Account Access Issue",
@@ -1454,16 +1470,16 @@
                 ],
                 "issues": [
                     {
-                        "issue": "Account not linked to online portal",
-                        "reason(s)": "Account was not initially linked during setup.",
+                        "issue": "Customer is unable to access their loan account online.",
+                        "reason(s)": "Account is not linked to the online portal.",
                         "issue type": "Technical"
                     }
                 ],
-                "actions of agent": "Agent confirmed the account number and offered to link the account to the portal and provide login instructions.",
+                "actions of agent": "Agent confirmed the account number and offered to link the account to the portal and provide login instructions and a guide.",
                 "resolution status": "Resolved",
-                "Process Request": "Account linked to the portal.",
-                "resolution": "Account linked to portal and login instructions sent.",
-                "resolution timestamp": "17.000 sec - 21.000 sec",
+                "Process Request": "Account linking to portal.",
+                "resolution": "Agent will link the account and send login instructions and guide.",
+                "resolution timestamp": "18.000 sec - 21.000 sec",
                 "dominant emotions (customer)": [
                     "Frustration",
                     "Concern"
@@ -1471,27 +1487,27 @@
                 "conversation sentiment": "Neutral",
                 "customer satisfaction": "85",
                 "callback promise": "Yes",
-                "callback time": "N/A"
+                "callback time": "If needed"
             },
             {
                 "intent": "Assistance Request",
                 "confidence": "90",
-                "keywords": "I am not good with these online things will it be easy?",
-                "intent timestamp": "20.000 sec - 27.000 sec",
+                "keywords": "Ok but I am not good with these online things will it be easy?",
+                "intent timestamp": "21.000 sec - 26.000 sec",
                 "products": [
                     "Loan Portal"
                 ],
                 "issues": [
                     {
-                        "issue": "Customer is not comfortable with online portals.",
-                        "reason(s)": "Customer expresses unfamiliarity with online systems.",
+                        "issue": "Customer expresses concern about ease of use of online portal.",
+                        "reason(s)": "Customer is not comfortable with online systems.",
                         "issue type": "Service"
                     }
                 ],
-                "actions of agent": "Agent assured the customer it is simple, will send a guide, and offered further assistance via call.",
+                "actions of agent": "Agent reassured the customer that it is simple, will send a guide, and offered further assistance via call.",
                 "resolution status": "Resolved",
                 "Process Request": "N/A",
-                "resolution": "Agent provided reassurance, a guide, and offered further support.",
+                "resolution": "Agent reassures customer and offers support.",
                 "resolution timestamp": "25.000 sec - 30.000 sec",
                 "dominant emotions (customer)": [
                     "Anxiety",
@@ -1500,10 +1516,10 @@
                 "conversation sentiment": "Neutral",
                 "customer satisfaction": "90",
                 "callback promise": "Yes",
-                "callback time": "N/A"
+                "callback time": "If needed"
             }
         ],
-        "basic greeting and closing": "Yes",
+        "basic greeting and closing": "No",
         "fatal behaviour": "No",
         "agent professionalism (out of 10)": "9",
         "agent performance (out of 10)": "9",
@@ -1515,12 +1531,12 @@
         "call id": "30",
         "agent id": "3",
         "call duration": "30.60",
-        "summary": "Customer inquired about tracking an RTGS transfer and received assistance.",
+        "summary": "Customer inquired about tracking RTGS transfer and was assisted.",
         "intents": [
             {
-                "intent": "Track RTGS Transfer",
+                "intent": "RTGS Transfer Tracking",
                 "confidence": "95",
-                "keywords": "I setup RTGS transfers and it's so easy just...how to track them",
+                "keywords": "I setup RTGS transfers and it's so easy just ... know how to track them",
                 "intent timestamp": "0.000 sec - 9.000 sec",
                 "products": [
                     "RTGS Transfer"
@@ -1528,18 +1544,18 @@
                 "issues": [
                     {
                         "issue": "Customer wants to track RTGS transfer.",
-                        "reason(s)": "Customer initiated an RTGS transfer and wants to confirm its status.",
+                        "reason(s)": "Customer wants to confirm the transfer went through.",
                         "issue type": "General Inquiry"
                     }
                 ],
-                "actions of agent": "Agent asked for the transaction reference number and confirmed the transfer was completed. Offered to send a statement.",
+                "actions of agent": "Agent asked for transaction reference number and confirmed the transfer was completed. Agent offered to send a statement.",
                 "resolution status": "Resolved",
                 "Process Request": "N/A",
                 "resolution": "Agent confirmed the transfer was completed and offered to send a statement, which the customer accepted.",
-                "resolution timestamp": "17.000 sec - 24.000 sec",
+                "resolution timestamp": "17.000 sec - 19.000 sec",
                 "dominant emotions (customer)": [
                     "Inquisitive",
-                    "Satisfied"
+                    "Positive"
                 ],
                 "conversation sentiment": "Positive",
                 "customer satisfaction": "100",
@@ -1559,27 +1575,27 @@
         "call id": "31",
         "agent id": "4",
         "call duration": "32",
-        "summary": "The agent addressed unauthorized subscription charge and initiated chargeback.",
+        "summary": "The agent addressed unauthorized charge and initiated a chargeback.",
         "intents": [
             {
                 "intent": "Billing Dispute",
                 "confidence": "95",
-                "keywords": "I am Furious my card was charged 12000 ... I cancel mans ago",
+                "keywords": "I am Furious my card was charged 12000 ... I cancel mans ago.",
                 "intent timestamp": "0.000 sec - 10.000 sec",
                 "products": [
                     "Subscription"
                 ],
                 "issues": [
                     {
-                        "issue": "Unauthorized charge",
+                        "issue": "Unauthorized charge of $12000",
                         "reason(s)": "Recurring charge after cancellation",
                         "issue type": "Billing"
                     }
                 ],
-                "actions of agent": "Initiated a chargeback and blocked further charges.",
+                "actions of agent": "Agent located the transaction, initiated a chargeback, and blocked further charges.",
                 "resolution status": "Resolved",
-                "Process Request": "Chargeback initiated",
-                "resolution": "Chargeback initiated, refund in 5-7 days, further charges blocked.",
+                "Process Request": "Chargeback initiation",
+                "resolution": "Chargeback initiated, refund in 5-7 days.",
                 "resolution timestamp": "27.000 sec - 32.000 sec",
                 "dominant emotions (customer)": [
                     "Furious",
@@ -1591,7 +1607,7 @@
                 "callback time": "N/A"
             }
         ],
-        "basic greeting and closing": "No",
+        "basic greeting and closing": "Yes",
         "fatal behaviour": "No",
         "agent professionalism (out of 10)": "7",
         "agent performance (out of 10)": "8",
@@ -1603,12 +1619,12 @@
         "call id": "32",
         "agent id": "4",
         "call duration": "32",
-        "summary": "Agent reactivated customer's card due to inactivity.",
+        "summary": "The customer's card was deactivated and agent reactivated it.",
         "intents": [
             {
                 "intent": "Card Issue",
                 "confidence": "95",
-                "keywords": "Hello, I tried using the ATM but it says...What's wrong?",
+                "keywords": "Hello, I tried using the ATM but it says ... What's wrong?",
                 "intent timestamp": "0.000 sec - 9.000 sec",
                 "products": [
                     "ATM Card"
@@ -1616,14 +1632,14 @@
                 "issues": [
                     {
                         "issue": "Card is not working at ATM",
-                        "reason(s)": "Card deactivated due to inactivity.",
+                        "reason(s)": "Card was deactivated due to inactivity.",
                         "issue type": "Technical"
                     }
                 ],
                 "actions of agent": "Agent checked the card status and reactivated the card.",
                 "resolution status": "Resolved",
                 "Process Request": "N/A",
-                "resolution": "Card reactivated and confirmation sent to customer.",
+                "resolution": "Card reactivated and customer can use it immediately.",
                 "resolution timestamp": "27.000 sec - 32.000 sec",
                 "dominant emotions (customer)": [
                     "Concern",
@@ -1635,7 +1651,7 @@
                 "callback time": "N/A"
             }
         ],
-        "basic greeting and closing": "Yes",
+        "basic greeting and closing": "No",
         "fatal behaviour": "No",
         "agent professionalism (out of 10)": "9",
         "agent performance (out of 10)": "9",
@@ -1646,32 +1662,32 @@
     {
         "call id": "33",
         "agent id": "4",
-        "call duration": "31.40",
-        "summary": "Customer inquired about business loan application status and urgency.",
+        "call duration": "31",
+        "summary": "The agent escalated the loan application for priority processing.",
         "intents": [
             {
                 "intent": "Check Loan Application Status",
                 "confidence": "95",
-                "keywords": "I applied for a business loan...When will I get an update?",
+                "keywords": "I applied for a business loan and it's taking forever...When will I get an update?",
                 "intent timestamp": "0.000 sec - 9.000 sec",
                 "products": [
                     "Business Loan"
                 ],
                 "issues": [
                     {
-                        "issue": "Delayed loan approval",
+                        "issue": "Delayed loan application processing",
                         "reason(s)": "Application is in final review.",
                         "issue type": "Service"
                     }
                 ],
-                "actions of agent": "Checked application status and informed customer it's in final review. Agent escalated the application for priority processing.",
-                "resolution status": "Pending with Process Request",
+                "actions of agent": "Checked the application status and informed the customer it's in final review. Escalated the application for priority processing.",
+                "resolution status": "Process Request",
                 "Process Request": "Escalated the loan application to the loan team for priority processing.",
-                "resolution": "Escalated application for priority processing to expedite approval.",
+                "resolution": "The agent escalated the loan application for priority processing.",
                 "resolution timestamp": "26.000 sec - 31.000 sec",
                 "dominant emotions (customer)": [
-                    "Anxious",
-                    "Impatient"
+                    "Concern",
+                    "Impatience"
                 ],
                 "conversation sentiment": "Negative",
                 "customer satisfaction": "60",
@@ -1680,40 +1696,40 @@
             }
         ],
         "basic greeting and closing": "No",
-        "fatal behaviour": "No",
-        "agent professionalism (out of 10)": "7",
-        "agent performance (out of 10)": "7",
-        "customer satisfaction (out of 10)": "6",
-        "interruptions by customer": "0",
+        "fatal behaviour": "Yes",
+        "agent professionalism (out of 10)": "5",
+        "agent performance (out of 10)": "6",
+        "customer satisfaction (out of 10)": "5",
+        "interruptions by customer": "1",
         "interruptions by agent": "0"
     },
     {
         "call id": "34",
         "agent id": "4",
         "call duration": "23.84",
-        "summary": "Customer inquired about redeeming credit card rewards; issue resolved.",
+        "summary": "Customer inquired about redeeming credit card rewards, agent provided assistance.",
         "intents": [
             {
                 "intent": "Redeem Rewards",
                 "confidence": "95",
-                "keywords": "I just upgraded my credit card and I am loving...how do I redeem the",
+                "keywords": "I just upgraded my credit card and I am loving...how do I redeem them?",
                 "intent timestamp": "0.000 sec - 9.000 sec",
                 "products": [
                     "Credit Card"
                 ],
                 "issues": [],
-                "actions of agent": "The agent informed the customer that rewards can be redeemed via the app's rewards section and offered further assistance.",
+                "actions of agent": "The agent explained that rewards can be redeemed via the app's reward section and offered further assistance.",
                 "resolution status": "Resolved",
                 "Process Request": "N/A",
-                "resolution": "The agent advised the customer to redeem rewards via the app.",
-                "resolution timestamp": "6.000 sec - 9.000 sec",
+                "resolution": "The agent informed the customer to redeem rewards via the app.",
+                "resolution timestamp": "6.000 sec - 10.000 sec",
                 "dominant emotions (customer)": [
                     "Happy",
-                    "Inquisitive"
+                    "Curious"
                 ],
                 "conversation sentiment": "Positive",
                 "customer satisfaction": "100",
-                "callback promise": "No",
+                "callback promise": "Yes",
                 "callback time": "N/A"
             }
         ],
@@ -1728,69 +1744,69 @@
     {
         "call id": "35",
         "agent id": "4",
-        "call duration": "30",
+        "call duration": "30.68",
         "summary": "Agent waived the penalty and set up alerts.",
         "intents": [
             {
                 "intent": "Billing Dispute",
                 "confidence": "95",
-                "keywords": "Why is there a 500 rupees penalty...I didn't do anything wrong.",
+                "keywords": "Why is there a 500 rupees penalty...I didn't do anything wrong",
                 "intent timestamp": "0.000 sec - 5.000 sec",
                 "products": [
                     "Savings Account"
                 ],
                 "issues": [
                     {
-                        "issue": "Customer is disputing a penalty fee of 500 rupees.",
-                        "reason(s)": "Customer claims they did nothing wrong.",
+                        "issue": "Penalty charged on account",
+                        "reason(s)": "Cheque bounce due to insufficient funds",
                         "issue type": "Billing"
                     }
                 ],
-                "actions of agent": "Agent investigated the issue and found a cheque bounce fee. Agent waived the fee and offered to set up alerts.",
+                "actions of agent": "Investigated the account, waived the penalty as a one-time gesture, and offered to set up alerts.",
                 "resolution status": "Resolved",
                 "Process Request": "N/A",
-                "resolution": "Agent waived the 500 rupees penalty as a one-time gesture.",
-                "resolution timestamp": "25.000 sec - 30.000 sec",
+                "resolution": "Penalty waived as a one-time gesture.",
+                "resolution timestamp": "26.000 sec - 28.000 sec",
                 "dominant emotions (customer)": [
                     "Frustration",
-                    "Anger"
+                    "Disbelief"
                 ],
                 "conversation sentiment": "Negative",
-                "customer satisfaction": "80",
+                "customer satisfaction": "85",
                 "callback promise": "No",
                 "callback time": "N/A"
             }
         ],
         "basic greeting and closing": "No",
         "fatal behaviour": "No",
-        "agent professionalism (out of 10)": "8",
+        "agent professionalism (out of 10)": "9",
         "agent performance (out of 10)": "9",
-        "customer satisfaction (out of 10)": "7",
+        "customer satisfaction (out of 10)": "8",
         "interruptions by customer": "1",
         "interruptions by agent": "0"
     },
     {
         "call id": "36",
         "agent id": "4",
-        "call duration": "27",
-        "summary": "Agent resolved customer's loan account NPA status concern.",
+        "call duration": "27.48",
+        "summary": "Agent resolved customer's loan account NPA status issue.",
         "intents": [
             {
                 "intent": "Loan Account Issue",
                 "confidence": "95",
-                "keywords": "I am so stressed my loan accounts marked npa ... worried about this",
-                "intent timestamp": "0.000 sec - 22.000 sec",
+                "keywords": "I am so stressed my loan accounts marked npa, ... I been paying",
+                "intent timestamp": "0.000 sec - 5.000 sec",
                 "products": [
                     "Loan Account"
                 ],
                 "issues": [
                     {
-                        "issue": "Loan account incorrectly marked as NPA.",
-                        "reason(s)": "Payment was missed due to a bank error.",
+                        "issue": "Loan account marked as NPA despite payments.",
+                        "reason(s)": "Bank error leading to a missed payment.",
                         "issue type": "Billing"
                     }
                 ],
-                "actions of agent": "Identified the issue, confirmed the account number, and corrected the NPA status.",
+                "actions of agent": "Identified the issue, confirmed the bank error, and corrected the NPA status.",
                 "resolution status": "Resolved",
                 "Process Request": "N/A",
                 "resolution": "Agent confirmed the account is clear and reported to CIBIL.",
@@ -1816,7 +1832,7 @@
     {
         "call id": "37",
         "agent id": "4",
-        "call duration": "24.16",
+        "call duration": "24",
         "summary": "The agent assisted the customer in opening a demat account.",
         "intents": [
             {
@@ -1828,39 +1844,18 @@
                     "Demat Account"
                 ],
                 "issues": [],
-                "actions of agent": "The agent confirmed the customer's request and asked for KYC documents.",
-                "resolution status": "Pending with Process Request",
-                "Process Request": "The agent sent the customer a form to fill out and submit online and will follow up once it's processed.",
-                "resolution": "The agent sent the customer a form to fill out and submit online.",
+                "actions of agent": "The agent inquired about KYC documents and informed about the processing time and form submission.",
+                "resolution status": "Process Request",
+                "Process Request": "Agent sent the form to the customer's email and promised a follow-up.",
+                "resolution": "The agent sent the demat account opening form to the customer's email.",
                 "resolution timestamp": "19.000 sec - 24.000 sec",
                 "dominant emotions (customer)": [
-                    "Neutral"
-                ],
-                "conversation sentiment": "Neutral",
-                "customer satisfaction": "75",
-                "callback promise": "Yes",
-                "callback time": "N/A"
-            },
-            {
-                "intent": "Inquiry about Processing Time",
-                "confidence": "90",
-                "keywords": "How long is this gonna take... 2 to 3 days...",
-                "intent timestamp": "8.000 sec - 13.000 sec",
-                "products": [
-                    "Demat Account"
-                ],
-                "issues": [],
-                "actions of agent": "The agent informed the customer about the processing time.",
-                "resolution status": "Resolved",
-                "Process Request": "N/A",
-                "resolution": "The agent informed the customer that it takes 2 to 3 days to process the account opening.",
-                "resolution timestamp": "11.000 sec - 14.000 sec",
-                "dominant emotions (customer)": [
-                    "Neutral"
+                    "Neutral",
+                    "Eager"
                 ],
                 "conversation sentiment": "Neutral",
                 "customer satisfaction": "80",
-                "callback promise": "No",
+                "callback promise": "Yes",
                 "callback time": "N/A"
             }
         ],
@@ -1868,15 +1863,15 @@
         "fatal behaviour": "No",
         "agent professionalism (out of 10)": "8",
         "agent performance (out of 10)": "8",
-        "customer satisfaction (out of 10)": "7",
+        "customer satisfaction (out of 10)": "8",
         "interruptions by customer": "0",
         "interruptions by agent": "0"
     },
     {
         "call id": "38",
         "agent id": "4",
-        "call duration": "24",
-        "summary": "The agent resolved the customer's payment processing issue.",
+        "call duration": "24.68",
+        "summary": "The agent resolved customer's stuck payment by manual processing.",
         "intents": [
             {
                 "intent": "Payment Issue",
@@ -1888,14 +1883,14 @@
                 ],
                 "issues": [
                     {
-                        "issue": "Payment stuck on processing.",
-                        "reason(s)": "Payment gateway glitch.",
+                        "issue": "Payment stuck on processing",
+                        "reason(s)": "Payment gateway glitch",
                         "issue type": "Technical"
                     }
                 ],
-                "actions of agent": "The agent apologized, identified the issue as a gateway glitch, and manually processed the payment.",
+                "actions of agent": "Identified the issue, apologized for the delay, and offered to manually process the payment.",
                 "resolution status": "Resolved",
-                "Process Request": "Manual payment processing.",
+                "Process Request": "Manual payment processing",
                 "resolution": "Agent manually processed the payment.",
                 "resolution timestamp": "20.000 sec - 24.000 sec",
                 "dominant emotions (customer)": [
@@ -1920,32 +1915,32 @@
         "call id": "39",
         "agent id": "4",
         "call duration": "30",
-        "summary": "Customer complains about increased EMI and seeks clarification.",
+        "summary": "Customer's loan EMI is higher due to floating rate.",
         "intents": [
             {
                 "intent": "EMI Inquiry",
                 "confidence": "95",
                 "keywords": "My loan EMI is higher this month. Nobody told ... why is it more now?",
-                "intent timestamp": "0.000 sec - 15.000 sec",
+                "intent timestamp": "0.000 sec - 18.000 sec",
                 "products": [
                     "Loan"
                 ],
                 "issues": [
                     {
-                        "issue": "Unexpected increase in EMI amount.",
-                        "reason(s)": "Floating interest rate and RBI rate hikes.",
+                        "issue": "Unexpected increase in EMI amount",
+                        "reason(s)": "Floating interest rate and RBI rate hikes",
                         "issue type": "Billing"
                     }
                 ],
                 "actions of agent": "Agent apologized, asked for account number, explained floating rate.",
-                "resolution status": "Pending with Process Request",
-                "Process Request": "Agent offered to check for a fixed rate option and send a comparison.",
-                "resolution": "Agent will send a comparison of fixed versus floating rates.",
-                "resolution timestamp": "27.000 sec - 30.000 sec",
+                "resolution status": "Process Request",
+                "Process Request": "Agent will check for fixed rate options and send a comparison.",
+                "resolution": "Agent offered to check for a fixed rate option and provide a comparison.",
+                "resolution timestamp": "18.000 sec - 30.000 sec",
                 "dominant emotions (customer)": [
                     "Surprise",
                     "Concern",
-                    "Frustration"
+                    "Confusion"
                 ],
                 "conversation sentiment": "Negative",
                 "customer satisfaction": "60",
@@ -1955,23 +1950,23 @@
             {
                 "intent": "Explanation Request",
                 "confidence": "90",
-                "keywords": "I don't understand this right stuff. Can you explain ... explain it simply?",
-                "intent timestamp": "20.000 sec - 24.000 sec",
+                "keywords": "I don't understand this right stuff. Can you explain ... fixed versus Flo",
+                "intent timestamp": "20.000 sec - 30.000 sec",
                 "products": [
                     "Loan"
                 ],
                 "issues": [
                     {
-                        "issue": "Customer doesn't understand floating rates.",
-                        "reason(s)": "Lack of understanding of financial terms.",
+                        "issue": "Customer doesn't understand floating rates",
+                        "reason(s)": "Lack of understanding of financial terms",
                         "issue type": "General Inquiry"
                     }
                 ],
-                "actions of agent": "Agent explained floating rates and offered to send comparison.",
-                "resolution status": "Pending with Process Request",
+                "actions of agent": "Agent explained floating rates and offered a comparison.",
+                "resolution status": "Process Request",
                 "Process Request": "Agent will send a comparison of fixed versus floating rates.",
-                "resolution": "Agent explained floating rates and will send a comparison.",
-                "resolution timestamp": "24.000 sec - 30.000 sec",
+                "resolution": "Agent offered to send a comparison of fixed versus floating rates.",
+                "resolution timestamp": "27.000 sec - 30.000 sec",
                 "dominant emotions (customer)": [
                     "Confusion"
                 ],
@@ -1983,7 +1978,7 @@
         ],
         "basic greeting and closing": "No",
         "fatal behaviour": "No",
-        "agent professionalism (out of 10)": "8",
+        "agent professionalism (out of 10)": "7",
         "agent performance (out of 10)": "7",
         "customer satisfaction (out of 10)": "6",
         "interruptions by customer": "0",
@@ -1993,27 +1988,49 @@
         "call id": "40",
         "agent id": "4",
         "call duration": "26.80",
-        "summary": "Customer requests an increase to their overdraft facility limit.",
+        "summary": "Customer requests an increase to their overdraft limit.",
         "intents": [
             {
                 "intent": "Overdraft Limit Increase",
                 "confidence": "95",
-                "keywords": "I got an overdraft facility...How do I increase the limit?",
+                "keywords": "I got an overdraft facility on my account...How do I increase the limit?",
                 "intent timestamp": "0.000 sec - 9.000 sec",
                 "products": [
                     "Overdraft Facility"
                 ],
                 "issues": [],
-                "actions of agent": "The agent asked for account confirmation and requested the customer to email documents for processing the increase.",
-                "resolution status": "Pending with Process Request",
-                "Process Request": "Customer needs to email documents to the bank to process the overdraft limit increase request.",
-                "resolution": "The customer needs to email the required documents to the bank.",
-                "resolution timestamp": "18.000 sec - 19.000 sec",
+                "actions of agent": "Agent asked for account confirmation and requested the customer to email documents.",
+                "resolution status": "Unresolved",
+                "Process Request": "Customer needs to email documents for the agent to process the limit increase.",
+                "resolution": "Customer needs to email the required documents to the bank.",
+                "resolution timestamp": "23.000 sec - 26.000 sec",
                 "dominant emotions (customer)": [
                     "Neutral"
                 ],
                 "conversation sentiment": "Neutral",
                 "customer satisfaction": "60",
+                "callback promise": "No",
+                "callback time": "N/A"
+            },
+            {
+                "intent": "Positive Feedback",
+                "confidence": "90",
+                "keywords": "something this Bank great by the way",
+                "intent timestamp": "19.000 sec - 23.000 sec",
+                "products": [
+                    "Banking Services"
+                ],
+                "issues": [],
+                "actions of agent": "Agent thanked the customer.",
+                "resolution status": "Resolved",
+                "Process Request": "N/A",
+                "resolution": "Agent acknowledged and thanked the customer for the positive feedback.",
+                "resolution timestamp": "22.000 sec - 23.000 sec",
+                "dominant emotions (customer)": [
+                    "Positive"
+                ],
+                "conversation sentiment": "Positive",
+                "customer satisfaction": "100",
                 "callback promise": "No",
                 "callback time": "N/A"
             }
@@ -2030,12 +2047,12 @@
         "call id": "41",
         "agent id": "5",
         "call duration": "26",
-        "summary": "Customer's PPI wallet wasn't linking to the new debit card.",
+        "summary": "Customer's PPI wallet was not linking to new debit card.",
         "intents": [
             {
-                "intent": "Technical Support",
+                "intent": "Debit Card Issue",
                 "confidence": "95",
-                "keywords": "My PPI wallet isn't linking to my new debit...What's the problem?",
+                "keywords": "My PPI wallet isn't linking ... What's the problem?",
                 "intent timestamp": "0.000 sec - 8.000 sec",
                 "products": [
                     "PPI Wallet",
@@ -2043,15 +2060,15 @@
                 ],
                 "issues": [
                     {
-                        "issue": "PPI wallet not linking to debit card",
-                        "reason(s)": "Card not registered for PPI",
+                        "issue": "PPI wallet not linking to new debit card",
+                        "reason(s)": "Card was not registered for PPI",
                         "issue type": "Technical"
                     }
                 ],
                 "actions of agent": "Verified the last four digits of the card and enabled PPI for the card.",
                 "resolution status": "Resolved",
-                "Process Request": "Enabled PPI for the card",
-                "resolution": "Agent enabled PPI for the card immediately.",
+                "Process Request": "Enabled PPI for the card.",
+                "resolution": "Agent enabled PPI and customer can link immediately.",
                 "resolution timestamp": "21.000 sec - 26.000 sec",
                 "dominant emotions (customer)": [
                     "Frustration",
@@ -2075,28 +2092,28 @@
         "call id": "42",
         "agent id": "5",
         "call duration": "27",
-        "summary": "The customer wants to close his loan early.",
+        "summary": "The customer wants to close their loan early.",
         "intents": [
             {
                 "intent": "Loan Closure Request",
                 "confidence": "95",
-                "keywords": "I want to fuck close my loan...What's that about?",
+                "keywords": "I want to fuck close my loan, but the branch ... What's that about?",
                 "intent timestamp": "0.000 sec - 9.000 sec",
                 "products": [
                     "Loan"
                 ],
                 "issues": [
                     {
-                        "issue": "Customer needs a specific form to close the loan.",
-                        "reason(s)": "Branch informed the customer about the form requirement.",
+                        "issue": "Need for closure form",
+                        "reason(s)": "Branch requires a specific form for loan closure.",
                         "issue type": "Service"
                     }
                 ],
                 "actions of agent": "The agent offered to help and asked for the loan account number.",
-                "resolution status": "Pending with Process Request",
-                "Process Request": "Agent will email the customer the closure request form with instructions.",
-                "resolution": "Agent will send the customer a loan closure request form.",
-                "resolution timestamp": "13.000 sec - 18.000 sec",
+                "resolution status": "Process Request",
+                "Process Request": "Agent will email the closure request form with instructions.",
+                "resolution": "Agent will send the required form and guide the customer through the process.",
+                "resolution timestamp": "15.000 sec - 18.000 sec",
                 "dominant emotions (customer)": [
                     "Confused",
                     "Frustrated"
@@ -2107,24 +2124,24 @@
                 "callback time": "N/A"
             },
             {
-                "intent": "Information Request",
+                "intent": "Clarification on Loan Closure",
                 "confidence": "90",
-                "keywords": "what's for closure mean?...nobody explain it.",
+                "keywords": "Ok, but what's for closure mean? Exactly, nobody explain it.",
                 "intent timestamp": "17.000 sec - 22.000 sec",
                 "products": [
                     "Loan"
                 ],
                 "issues": [
                     {
-                        "issue": "Customer does not understand the meaning of 'for closure'.",
-                        "reason(s)": "Customer states that nobody explained it to him.",
-                        "issue type": "General Inquiry"
+                        "issue": "Lack of understanding of 'foreclosure'",
+                        "reason(s)": "Customer was not explained the meaning of foreclosure",
+                        "issue type": "Service"
                     }
                 ],
-                "actions of agent": "The agent explained the meaning of 'for closure'.",
+                "actions of agent": "The agent explained what paying off the loan early means.",
                 "resolution status": "Resolved",
                 "Process Request": "N/A",
-                "resolution": "Agent explained that 'for closure' means paying off the loan early.",
+                "resolution": "Agent explained the meaning of foreclosure.",
                 "resolution timestamp": "21.000 sec - 27.000 sec",
                 "dominant emotions (customer)": [
                     "Confused"
@@ -2147,16 +2164,15 @@
         "call id": "43",
         "agent id": "5",
         "call duration": "27",
-        "summary": "The agent resolved an erroneous ATM withdrawal fee issue.",
+        "summary": "The agent resolved a billing issue by refunding an erroneous fee.",
         "intents": [
             {
                 "intent": "Billing Dispute",
                 "confidence": "95",
-                "keywords": "you are charging me 1000 Rupees for nothing...account statement SMS",
+                "keywords": "you are charging me 1000 Rupees for nothing ... account statement SMS",
                 "intent timestamp": "0.000 sec - 8.000 sec",
                 "products": [
-                    "Bank Account",
-                    "ATM"
+                    "Bank Account"
                 ],
                 "issues": [
                     {
@@ -2171,8 +2187,8 @@
                 "resolution": "Refund will be processed and reflected in the account within 24 hours.",
                 "resolution timestamp": "23.000 sec - 27.000 sec",
                 "dominant emotions (customer)": [
-                    "Anger",
-                    "Frustration"
+                    "Angry",
+                    "Frustrated"
                 ],
                 "conversation sentiment": "Negative",
                 "customer satisfaction": "60",
@@ -2197,103 +2213,44 @@
             {
                 "intent": "UPI Mandate Setup",
                 "confidence": "95",
-                "keywords": "How do I set up a...upi mandate?",
-                "intent timestamp": "0.000 sec - 8.000 sec",
+                "keywords": "How do I set up a upi ... apps payment section?",
+                "intent timestamp": "1.000 sec - 9.000 sec",
                 "products": [
                     "Debit Card",
                     "UPI"
                 ],
                 "issues": [],
-                "actions of agent": "The agent explained how to set up a UPI mandate via the app's payment section and offered to walk the customer through the process.",
+                "actions of agent": "The agent explained how to set up a UPI mandate via the app's payment section.",
                 "resolution status": "Resolved",
                 "Process Request": "N/A",
-                "resolution": "The agent explained that the customer can set up a UPI mandate via the app's payment section.",
-                "resolution timestamp": "3.000 sec - 9.000 sec",
+                "resolution": "The agent informed the customer that they can set up a UPI mandate via the app's payment section.",
+                "resolution timestamp": "4.000 sec - 9.000 sec",
                 "dominant emotions (customer)": [
                     "Positive",
                     "Inquisitive"
                 ],
                 "conversation sentiment": "Positive",
-                "customer satisfaction": "100",
+                "customer satisfaction": "90",
                 "callback promise": "Yes",
                 "callback time": "N/A"
-            }
-        ],
-        "basic greeting and closing": "Yes",
-        "fatal behaviour": "No",
-        "agent professionalism (out of 10)": "10",
-        "agent performance (out of 10)": "10",
-        "customer satisfaction (out of 10)": "10",
-        "interruptions by customer": "0",
-        "interruptions by agent": "0"
-    },
-    {
-        "call id": "45",
-        "agent id": "5",
-        "call duration": "24.24",
-        "summary": "The customer wants to update nominee for savings account.",
-        "intents": [
+            },
             {
-                "intent": "Nominee Update Request",
-                "confidence": "95",
-                "keywords": "I need to update the nominee for my savings ... How do I do that?",
-                "intent timestamp": "0.000 sec - 9.000 sec",
+                "intent": "Auto Payments Confirmation",
+                "confidence": "90",
+                "keywords": "Nice is it for auto payments ... approve recurring payments",
+                "intent timestamp": "8.000 sec - 14.000 sec",
                 "products": [
-                    "Savings Account"
+                    "Debit Card",
+                    "UPI"
                 ],
                 "issues": [],
-                "actions of agent": "The agent informed the customer about the nominee update form.",
-                "resolution status": "Unresolved",
-                "Process Request": "Send nominee update form to customer's registered email.",
-                "resolution": "The agent will send the nominee update form to the customer's registered email address.",
-                "resolution timestamp": "14.000 sec - 17.000 sec",
-                "dominant emotions (customer)": [
-                    "Neutral",
-                    "Inquiry"
-                ],
-                "conversation sentiment": "Neutral",
-                "customer satisfaction": "50",
-                "callback promise": "No",
-                "callback time": "N/A"
-            }
-        ],
-        "basic greeting and closing": "No",
-        "fatal behaviour": "No",
-        "agent professionalism (out of 10)": "7",
-        "agent performance (out of 10)": "6",
-        "customer satisfaction (out of 10)": "5",
-        "interruptions by customer": "0",
-        "interruptions by agent": "0"
-    },
-    {
-        "call id": "46",
-        "agent id": "5",
-        "call duration": "26.64",
-        "summary": "Agent resolved customer's loan payment issue and updated CIBIL.",
-        "intents": [
-            {
-                "intent": "Payment Issue",
-                "confidence": "95",
-                "keywords": "I am panicking my loan account shows a missed payment...I paid it",
-                "intent timestamp": "0.000 sec - 9.000 sec",
-                "products": [
-                    "Loan Account"
-                ],
-                "issues": [
-                    {
-                        "issue": "Missed payment showing on loan account despite payment made.",
-                        "reason(s)": "Processing error caused the payment delay.",
-                        "issue type": "Billing"
-                    }
-                ],
-                "actions of agent": "Identified the processing error, updated the account status, and confirmed with CIBIL.",
+                "actions of agent": "The agent confirmed that UPI mandate can be used for auto payments.",
                 "resolution status": "Resolved",
-                "Process Request": "Update account status and confirm with CIBIL.",
-                "resolution": "Account status updated to reflect the payment, and confirmation sent to CIBIL.",
-                "resolution timestamp": "21.000 sec - 26.000 sec",
+                "Process Request": "N/A",
+                "resolution": "The agent confirmed that it is for auto payments.",
+                "resolution timestamp": "11.000 sec - 14.000 sec",
                 "dominant emotions (customer)": [
-                    "Anxious",
-                    "Relieved"
+                    "Neutral"
                 ],
                 "conversation sentiment": "Positive",
                 "customer satisfaction": "95",
@@ -2310,31 +2267,113 @@
         "interruptions by agent": "0"
     },
     {
+        "call id": "45",
+        "agent id": "5",
+        "call duration": "24.24",
+        "summary": "Customer wants to update nominee for savings account.",
+        "intents": [
+            {
+                "intent": "Nominee Update",
+                "confidence": "95",
+                "keywords": "I need to update the nominee for my savings ... How do I do that?",
+                "intent timestamp": "0.000 sec - 9.000 sec",
+                "products": [
+                    "Savings Account"
+                ],
+                "issues": [],
+                "actions of agent": "Agent offered to assist and asked for account number. Agent informed customer about submitting a form.",
+                "resolution status": "Unresolved",
+                "Process Request": "Send nominee update form to customer's registered email.",
+                "resolution": "Agent will send nominee update form to customer's registered email.",
+                "resolution timestamp": "14.000 sec - 17.000 sec",
+                "dominant emotions (customer)": [
+                    "Neutral",
+                    "Inquiry"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "50",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "7",
+        "agent performance (out of 10)": "6",
+        "customer satisfaction (out of 10)": "5",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
+        "call id": "46",
+        "agent id": "5",
+        "call duration": "26.64",
+        "summary": "Agent resolved customer's loan payment issue due to processing error.",
+        "intents": [
+            {
+                "intent": "Payment Issue",
+                "confidence": "95",
+                "keywords": "I am panicking my loan account shows a missed payment...I paid it",
+                "intent timestamp": "0.000 sec - 9.000 sec",
+                "products": [
+                    "Loan Account"
+                ],
+                "issues": [
+                    {
+                        "issue": "Missed payment showing on loan account despite payment being made.",
+                        "reason(s)": "Payment was delayed due to a processing error.",
+                        "issue type": "Billing"
+                    }
+                ],
+                "actions of agent": "Identified the processing error, updated the account status, and confirmed with CIBIL.",
+                "resolution status": "Resolved",
+                "Process Request": "Confirmation with CIBIL",
+                "resolution": "Account status updated and confirmation with CIBIL initiated.",
+                "resolution timestamp": "21.000 sec - 26.000 sec",
+                "dominant emotions (customer)": [
+                    "Anxious",
+                    "Relieved"
+                ],
+                "conversation sentiment": "Positive",
+                "customer satisfaction": "90",
+                "callback promise": "No",
+                "callback time": "N/A"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "9",
+        "customer satisfaction (out of 10)": "9",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0"
+    },
+    {
         "call id": "47",
         "agent id": "5",
         "call duration": "23.60",
-        "summary": "Agent assisted customer with fraudulent credit card charge.",
+        "summary": "Agent helped customer dispute a fraudulent credit card charge.",
         "intents": [
             {
-                "intent": "Fraudulent Charge Dispute",
+                "intent": "Dispute Charge",
                 "confidence": "95",
-                "keywords": "My credit card bills got a 5000 charge...recognise whats dis",
+                "keywords": "My credit card bills got a 5000 charge. I don't ... whats dis",
                 "intent timestamp": "0.000 sec - 9.000 sec",
                 "products": [
                     "Credit Card"
                 ],
                 "issues": [
                     {
-                        "issue": "Unauthorized $5000 charge on credit card",
+                        "issue": "Unauthorized charge of $5000",
                         "reason(s)": "Merchant error",
                         "issue type": "Billing"
                     }
                 ],
-                "actions of agent": "Verified card details, initiated dispute, blocked card for transactions.",
+                "actions of agent": "Agent offered to dispute the charge and block the card.",
                 "resolution status": "Resolved",
-                "Process Request": "Dispute filed for fraudulent charge.",
-                "resolution": "Refund will be processed in 7-10 days.",
-                "resolution timestamp": "20.000 sec - 24.000 sec",
+                "Process Request": "N/A",
+                "resolution": "The agent filed a dispute and the customer will receive a refund in 7-10 days.",
+                "resolution timestamp": "14.000 sec - 24.000 sec",
                 "dominant emotions (customer)": [
                     "Concern",
                     "Frustration"
@@ -2360,21 +2399,21 @@
         "summary": "Customer unable to login to net banking due to OTP issue.",
         "intents": [
             {
-                "intent": "Technical Support",
+                "intent": "Login Issue",
                 "confidence": "95",
-                "keywords": "I can't login to my net banking...I am sure it's right.",
+                "keywords": "I can't login to my net banking it says wrong ... I am sure it's right",
                 "intent timestamp": "0.000 sec - 9.000 sec",
                 "products": [
                     "Net Banking"
                 ],
                 "issues": [
                     {
-                        "issue": "Login failure",
+                        "issue": "Unable to login",
                         "reason(s)": "Incorrect password or system error",
                         "issue type": "Technical"
                     }
                 ],
-                "actions of agent": "Troubleshooting the login issue and verifying customer details.",
+                "actions of agent": "Verified the customer's registered mobile number and fixed the OTP issue.",
                 "resolution status": "Resolved",
                 "Process Request": "N/A",
                 "resolution": "OTP issue fixed from backend.",
@@ -2389,28 +2428,26 @@
             },
             {
                 "intent": "OTP Issue",
-                "confidence": "98",
-                "keywords": "Yeah, but I don't get the OTP what's going on.",
+                "confidence": "90",
+                "keywords": "Yeah, but I don't get the OTP what's going on",
                 "intent timestamp": "8.000 sec - 13.000 sec",
                 "products": [
-                    "Net Banking",
-                    "OTP"
+                    "Net Banking"
                 ],
                 "issues": [
                     {
                         "issue": "OTP not received",
-                        "reason(s)": "System error, incorrect registered mobile number",
+                        "reason(s)": "Possible network issue or incorrect registered mobile number",
                         "issue type": "Technical"
                     }
                 ],
-                "actions of agent": "Verified registered mobile number and fixed the OTP issue.",
+                "actions of agent": "Verified the registered mobile number and resolved the OTP delivery issue.",
                 "resolution status": "Resolved",
                 "Process Request": "Backend fix for OTP delivery",
-                "resolution": "Agent fixed the OTP delivery issue from the backend.",
+                "resolution": "OTP delivery issue resolved.",
                 "resolution timestamp": "21.000 sec - 25.000 sec",
                 "dominant emotions (customer)": [
-                    "Frustration",
-                    "Annoyance"
+                    "Frustration"
                 ],
                 "conversation sentiment": "Negative",
                 "customer satisfaction": "75",
@@ -2430,31 +2467,31 @@
         "call id": "49",
         "agent id": "5",
         "call duration": "24.92",
-        "summary": "Customer received overdue letter despite payment; issue resolved.",
+        "summary": "Customer received an overdue notice despite having paid.",
         "intents": [
             {
                 "intent": "Payment Inquiry",
                 "confidence": "95",
-                "keywords": "I got a letter saying my loans overdue...what's happening?",
+                "keywords": "I got a letter saying my loans overdue that...what's happening?",
                 "intent timestamp": "0.000 sec - 9.000 sec",
                 "products": [
-                    "Loan"
+                    "Loans"
                 ],
                 "issues": [
                     {
-                        "issue": "Overdue payment letter received despite payment.",
+                        "issue": "Overdue notice received despite payment.",
                         "reason(s)": "System error caused payment not to be reflected initially.",
                         "issue type": "Billing"
                     }
                 ],
-                "actions of agent": "Identified the issue, confirmed payment status, and offered to send confirmation.",
+                "actions of agent": "Agent apologized, asked for the loan account number, checked the account, and confirmed the payment was updated.",
                 "resolution status": "Resolved",
                 "Process Request": "N/A",
-                "resolution": "Payment status updated, customer is clear, confirmation to be sent.",
-                "resolution timestamp": "20.000 sec - 25.000 sec",
+                "resolution": "Payment was updated in the system.",
+                "resolution timestamp": "20.000 sec - 24.000 sec",
                 "dominant emotions (customer)": [
                     "Concern",
-                    "Confusion"
+                    "Frustration"
                 ],
                 "conversation sentiment": "Negative",
                 "customer satisfaction": "85",
@@ -2464,7 +2501,7 @@
         ],
         "basic greeting and closing": "No",
         "fatal behaviour": "No",
-        "agent professionalism (out of 10)": "9",
+        "agent professionalism (out of 10)": "8",
         "agent performance (out of 10)": "9",
         "customer satisfaction (out of 10)": "8",
         "interruptions by customer": "0",
@@ -2474,10 +2511,10 @@
         "call id": "50",
         "agent id": "5",
         "call duration": "25.88",
-        "summary": "Customer inquired about increasing the amount of recurring deposit.",
+        "summary": "Customer inquired about increasing recurring deposit amount.",
         "intents": [
             {
-                "intent": "Increase Recurring Deposit Amount",
+                "intent": "Recurring Deposit Increase",
                 "confidence": "95",
                 "keywords": "I set up a recurring deposit...How do I increase the amount?",
                 "intent timestamp": "0.000 sec - 8.000 sec",
@@ -2491,24 +2528,24 @@
                         "issue type": "Service"
                     }
                 ],
-                "actions of agent": "The agent informed the customer that they need to submit a request to modify the RD and that the agent will send the form to the customer's email and follow up once it's processed.",
-                "resolution status": "Pending with Process Request",
-                "Process Request": "Agent sent a form to the customer's email to modify the recurring deposit amount.",
-                "resolution": "The agent sent the customer a form to modify the RD amount and will follow up.",
-                "resolution timestamp": "16.000 sec - 26.000 sec",
+                "actions of agent": "The agent provided information on how to modify the recurring deposit by submitting a request form.",
+                "resolution status": "Process Request",
+                "Process Request": "Agent sent a form to the customer's email to modify the RD and will follow up once it's processed.",
+                "resolution": "The agent sent the customer a form to modify the recurring deposit amount.",
+                "resolution timestamp": "17.000 sec - 26.000 sec",
                 "dominant emotions (customer)": [
                     "Inquisitive",
                     "Positive"
                 ],
                 "conversation sentiment": "Positive",
-                "customer satisfaction": "95",
+                "customer satisfaction": "90",
                 "callback promise": "Yes",
-                "callback time": "N/A"
+                "callback time": "Once the form is processed"
             }
         ],
-        "basic greeting and closing": "Yes",
+        "basic greeting and closing": "No",
         "fatal behaviour": "No",
-        "agent professionalism (out of 10)": "9",
+        "agent professionalism (out of 10)": "8",
         "agent performance (out of 10)": "9",
         "customer satisfaction (out of 10)": "9",
         "interruptions by customer": "0",

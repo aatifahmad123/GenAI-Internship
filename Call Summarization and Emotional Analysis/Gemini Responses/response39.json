@@ -2,32 +2,32 @@
   "call id": "39",
   "agent id": "4",
   "call duration": "30",
-  "summary": "Customer complains about increased EMI and seeks clarification.",
+  "summary": "Customer's loan EMI is higher due to floating rate.",
   "intents": [
     {
       "intent": "EMI Inquiry",
       "confidence": "95",
       "keywords": "My loan EMI is higher this month. Nobody told ... why is it more now?",
-      "intent timestamp": "0.000 sec - 15.000 sec",
+      "intent timestamp": "0.000 sec - 18.000 sec",
       "products": [
         "Loan"
       ],
       "issues": [
         {
-          "issue": "Unexpected increase in EMI amount.",
-          "reason(s)": "Floating interest rate and RBI rate hikes.",
+          "issue": "Unexpected increase in EMI amount",
+          "reason(s)": "Floating interest rate and RBI rate hikes",
           "issue type": "Billing"
         }
       ],
       "actions of agent": "Agent apologized, asked for account number, explained floating rate.",
-      "resolution status": "Pending with Process Request",
-      "Process Request": "Agent offered to check for a fixed rate option and send a comparison.",
-      "resolution": "Agent will send a comparison of fixed versus floating rates.",
-      "resolution timestamp": "27.000 sec - 30.000 sec",
+      "resolution status": "Process Request",
+      "Process Request": "Agent will check for fixed rate options and send a comparison.",
+      "resolution": "Agent offered to check for a fixed rate option and provide a comparison.",
+      "resolution timestamp": "18.000 sec - 30.000 sec",
       "dominant emotions (customer)": [
         "Surprise",
         "Concern",
-        "Frustration"
+        "Confusion"
       ],
       "conversation sentiment": "Negative",
       "customer satisfaction": "60",
@@ -37,23 +37,23 @@
     {
       "intent": "Explanation Request",
       "confidence": "90",
-      "keywords": "I don't understand this right stuff. Can you explain ... explain it simply?",
-      "intent timestamp": "20.000 sec - 24.000 sec",
+      "keywords": "I don't understand this right stuff. Can you explain ... fixed versus Flo",
+      "intent timestamp": "20.000 sec - 30.000 sec",
       "products": [
         "Loan"
       ],
       "issues": [
         {
-          "issue": "Customer doesn't understand floating rates.",
-          "reason(s)": "Lack of understanding of financial terms.",
+          "issue": "Customer doesn't understand floating rates",
+          "reason(s)": "Lack of understanding of financial terms",
           "issue type": "General Inquiry"
         }
       ],
-      "actions of agent": "Agent explained floating rates and offered to send comparison.",
-      "resolution status": "Pending with Process Request",
+      "actions of agent": "Agent explained floating rates and offered a comparison.",
+      "resolution status": "Process Request",
       "Process Request": "Agent will send a comparison of fixed versus floating rates.",
-      "resolution": "Agent explained floating rates and will send a comparison.",
-      "resolution timestamp": "24.000 sec - 30.000 sec",
+      "resolution": "Agent offered to send a comparison of fixed versus floating rates.",
+      "resolution timestamp": "27.000 sec - 30.000 sec",
       "dominant emotions (customer)": [
         "Confusion"
       ],
@@ -65,7 +65,7 @@
   ],
   "basic greeting and closing": "No",
   "fatal behaviour": "No",
-  "agent professionalism (out of 10)": "8",
+  "agent professionalism (out of 10)": "7",
   "agent performance (out of 10)": "7",
   "customer satisfaction (out of 10)": "6",
   "interruptions by customer": "0",

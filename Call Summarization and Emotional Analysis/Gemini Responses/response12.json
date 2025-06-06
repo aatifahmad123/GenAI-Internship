@@ -2,22 +2,22 @@
   "call id": "12",
   "agent id": "2",
   "call duration": "35",
-  "summary": "The agent informed the customer about KYC documents needed.",
+  "summary": "The customer inquired about their loan application status.",
   "intents": [
     {
       "intent": "Loan Application Status Inquiry",
       "confidence": "95",
-      "keywords": "Hello, I want to know if my loan application got...been weeks.",
+      "keywords": "Hello, I want to know if my loan application got...weeks.",
       "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "Loan"
       ],
       "issues": [],
-      "actions of agent": "Checked the loan application status using customer's name.",
-      "resolution status": "Pending with Customer",
-      "Process Request": "N/A",
-      "resolution": "The agent informed the customer that the loan is approved but KYC documents are required.",
-      "resolution timestamp": "16.000 sec - 20.000 sec",
+      "actions of agent": "Checked the loan application status using the customer's name.",
+      "resolution status": "Process Request",
+      "Process Request": "Agent will send the list of required KYC documents via SMS.",
+      "resolution": "The agent informed the customer that the loan application was approved but KYC documents are needed.",
+      "resolution timestamp": "14.000 sec - 20.000 sec",
       "dominant emotions (customer)": [
         "Inquiry",
         "Concern"
@@ -28,7 +28,7 @@
       "callback time": "N/A"
     },
     {
-      "intent": "KYC Document Explanation",
+      "intent": "KYC Information Request",
       "confidence": "90",
       "keywords": "KYC what's that? Why didn't anyone tell me",
       "intent timestamp": "19.000 sec - 24.000 sec",
@@ -37,16 +37,16 @@
       ],
       "issues": [
         {
-          "issue": "Customer unaware of KYC requirement.",
-          "reason(s)": "Oversight in communication from the branch.",
+          "issue": "Customer unaware of KYC requirements.",
+          "reason(s)": "Lack of communication from the branch.",
           "issue type": "Service"
         }
       ],
-      "actions of agent": "Apologized for the oversight and explained KYC.",
-      "resolution status": "Pending with Customer",
-      "Process Request": "Send KYC document list via SMS.",
-      "resolution": "Agent will send a list of required KYC documents via SMS.",
-      "resolution timestamp": "28.000 sec - 32.000 sec",
+      "actions of agent": "Explained KYC and offered to send required documents via SMS.",
+      "resolution status": "Process Request",
+      "Process Request": "Agent will send the list of required KYC documents via SMS.",
+      "resolution": "Agent explained KYC and promised to send the list of required documents.",
+      "resolution timestamp": "25.000 sec - 32.000 sec",
       "dominant emotions (customer)": [
         "Confusion",
         "Frustration"
@@ -60,7 +60,7 @@
   "basic greeting and closing": "Yes",
   "fatal behaviour": "No",
   "agent professionalism (out of 10)": "8",
-  "agent performance (out of 10)": "7",
+  "agent performance (out of 10)": "8",
   "customer satisfaction (out of 10)": "7",
   "interruptions by customer": "0",
   "interruptions by agent": "0"

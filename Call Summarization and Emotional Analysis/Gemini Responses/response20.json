@@ -2,31 +2,24 @@
   "call id": "20",
   "agent id": "2",
   "call duration": "32",
-  "summary": "Customer inquired about the final steps for loan preclosure.",
+  "summary": "The customer inquired about the final steps of loan preclosure.",
   "intents": [
     {
-      "intent": "Loan Preclosure",
+      "intent": "Loan Preclosure Inquiry",
       "confidence": "95",
       "keywords": "I am thrilled my loan preclosure was a proved just...know the final steps",
       "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "Loan"
       ],
-      "issues": [
-        {
-          "issue": "Customer needs to know the final steps for loan preclosure.",
-          "reason(s)": "N/A",
-          "issue type": "General Inquiry"
-        }
-      ],
-      "actions of agent": "Confirmed loan account number and provided information on outstanding balance and payment link.",
+      "issues": [],
+      "actions of agent": "Confirmed loan account number and provided payment link.",
       "resolution status": "Resolved",
-      "Process Request": "Generated and sent payment link to the customer.",
+      "Process Request": "Payment link sent to customer.",
       "resolution": "Payment link sent to customer to pay outstanding balance.",
       "resolution timestamp": "27.000 sec - 29.000 sec",
       "dominant emotions (customer)": [
-        "Thrilled",
-        "Happy"
+        "Thrilled"
       ],
       "conversation sentiment": "Positive",
       "customer satisfaction": "100",

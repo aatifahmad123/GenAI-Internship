@@ -50,7 +50,7 @@ def get_gemini_response(transcription,timestamps,metadata, agent_id, call_id):
                         }}
                     ],
                     "actions of agent": "<Brief description of the actions taken by the agent to handle the intent>",
-                    "resolution status": "<Status of resolution, One put of: 'Resolved', 'Unresolved', 'Pending with Process Request', 'Pending with Customer'>",
+                    "resolution status": "<Status of resolution, One put of: 'Resolved', 'Unresolved', Process Request'>",
                     "Process Request": "<Brief description of the process request if any, otherwise 'N/A'. Process request happens when the agent has to do something in the backend or with a third party to resolve the issue>",
                     "resolution": "<Brief description of the resolution irrespective of resolution status>",
                     "resolution timestamp": "<Beginning and Ending timestamp of transcription that determines the resolution, again it has to be very specific atmost 10-15 words stretch, give a relaxed timeframe of 5 seconds (mandatorily), you may use the timstamps data provided>",

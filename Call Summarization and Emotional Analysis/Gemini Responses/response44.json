@@ -7,33 +7,56 @@
     {
       "intent": "UPI Mandate Setup",
       "confidence": "95",
-      "keywords": "How do I set up a...upi mandate?",
-      "intent timestamp": "0.000 sec - 8.000 sec",
+      "keywords": "How do I set up a upi ... apps payment section?",
+      "intent timestamp": "1.000 sec - 9.000 sec",
       "products": [
         "Debit Card",
         "UPI"
       ],
       "issues": [],
-      "actions of agent": "The agent explained how to set up a UPI mandate via the app's payment section and offered to walk the customer through the process.",
+      "actions of agent": "The agent explained how to set up a UPI mandate via the app's payment section.",
       "resolution status": "Resolved",
       "Process Request": "N/A",
-      "resolution": "The agent explained that the customer can set up a UPI mandate via the app's payment section.",
-      "resolution timestamp": "3.000 sec - 9.000 sec",
+      "resolution": "The agent informed the customer that they can set up a UPI mandate via the app's payment section.",
+      "resolution timestamp": "4.000 sec - 9.000 sec",
       "dominant emotions (customer)": [
         "Positive",
         "Inquisitive"
       ],
       "conversation sentiment": "Positive",
-      "customer satisfaction": "100",
+      "customer satisfaction": "90",
       "callback promise": "Yes",
+      "callback time": "N/A"
+    },
+    {
+      "intent": "Auto Payments Confirmation",
+      "confidence": "90",
+      "keywords": "Nice is it for auto payments ... approve recurring payments",
+      "intent timestamp": "8.000 sec - 14.000 sec",
+      "products": [
+        "Debit Card",
+        "UPI"
+      ],
+      "issues": [],
+      "actions of agent": "The agent confirmed that UPI mandate can be used for auto payments.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "The agent confirmed that it is for auto payments.",
+      "resolution timestamp": "11.000 sec - 14.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Positive",
+      "customer satisfaction": "95",
+      "callback promise": "No",
       "callback time": "N/A"
     }
   ],
   "basic greeting and closing": "Yes",
   "fatal behaviour": "No",
-  "agent professionalism (out of 10)": "10",
-  "agent performance (out of 10)": "10",
-  "customer satisfaction (out of 10)": "10",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "9",
   "interruptions by customer": "0",
   "interruptions by agent": "0"
 }

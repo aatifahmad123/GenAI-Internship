@@ -2,30 +2,31 @@
   "call id": "22",
   "agent id": "3",
   "call duration": "34",
-  "summary": "Customer's address update request was delayed due to missing signature.",
+  "summary": "Customer's address update was delayed due to missing signature.",
   "intents": [
     {
       "intent": "Address Update",
       "confidence": "95",
       "keywords": "I went to the branch to update my address ... it's not done yet",
-      "intent timestamp": "0.000 sec - 9.000 sec",
+      "intent timestamp": "0.000 sec - 8.000 sec",
       "products": [
-        "Address"
+        "Bank Account"
       ],
       "issues": [
         {
-          "issue": "Address update not processed",
-          "reason(s)": "Missing signature on the form",
+          "issue": "Address update delayed.",
+          "reason(s)": "Missing signature on the form.",
           "issue type": "Service"
         }
       ],
-      "actions of agent": "Identified the reason for the delay and offered to email the form.",
-      "resolution status": "Pending with Customer",
-      "Process Request": "Emailing the address update form to the customer.",
-      "resolution": "Customer needs to submit the signed form to expedite the address update.",
-      "resolution timestamp": "31.000 sec - 33.000 sec",
+      "actions of agent": "Agent checked the status and informed the customer about the missing signature.",
+      "resolution status": "Process Request",
+      "Process Request": "Agent will email the form to the customer's registered email address and expedite the update once the signed form is submitted.",
+      "resolution": "Agent will email the form to the customer and expedite the update.",
+      "resolution timestamp": "27.000 sec - 34.000 sec",
       "dominant emotions (customer)": [
-        "Frustration"
+        "Frustration",
+        "Annoyance"
       ],
       "conversation sentiment": "Negative",
       "customer satisfaction": "60",

@@ -5,21 +5,21 @@
   "summary": "Customer unable to login to net banking due to OTP issue.",
   "intents": [
     {
-      "intent": "Technical Support",
+      "intent": "Login Issue",
       "confidence": "95",
-      "keywords": "I can't login to my net banking...I am sure it's right.",
+      "keywords": "I can't login to my net banking it says wrong ... I am sure it's right",
       "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "Net Banking"
       ],
       "issues": [
         {
-          "issue": "Login failure",
+          "issue": "Unable to login",
           "reason(s)": "Incorrect password or system error",
           "issue type": "Technical"
         }
       ],
-      "actions of agent": "Troubleshooting the login issue and verifying customer details.",
+      "actions of agent": "Verified the customer's registered mobile number and fixed the OTP issue.",
       "resolution status": "Resolved",
       "Process Request": "N/A",
       "resolution": "OTP issue fixed from backend.",
@@ -34,28 +34,26 @@
     },
     {
       "intent": "OTP Issue",
-      "confidence": "98",
-      "keywords": "Yeah, but I don't get the OTP what's going on.",
+      "confidence": "90",
+      "keywords": "Yeah, but I don't get the OTP what's going on",
       "intent timestamp": "8.000 sec - 13.000 sec",
       "products": [
-        "Net Banking",
-        "OTP"
+        "Net Banking"
       ],
       "issues": [
         {
           "issue": "OTP not received",
-          "reason(s)": "System error, incorrect registered mobile number",
+          "reason(s)": "Possible network issue or incorrect registered mobile number",
           "issue type": "Technical"
         }
       ],
-      "actions of agent": "Verified registered mobile number and fixed the OTP issue.",
+      "actions of agent": "Verified the registered mobile number and resolved the OTP delivery issue.",
       "resolution status": "Resolved",
       "Process Request": "Backend fix for OTP delivery",
-      "resolution": "Agent fixed the OTP delivery issue from the backend.",
+      "resolution": "OTP delivery issue resolved.",
       "resolution timestamp": "21.000 sec - 25.000 sec",
       "dominant emotions (customer)": [
-        "Frustration",
-        "Annoyance"
+        "Frustration"
       ],
       "conversation sentiment": "Negative",
       "customer satisfaction": "75",

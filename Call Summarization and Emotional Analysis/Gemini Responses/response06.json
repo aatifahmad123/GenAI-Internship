@@ -2,7 +2,7 @@
   "call id": "6",
   "agent id": "1",
   "call duration": "38",
-  "summary": "The agent assisted the customer in linking Aadhaar to account.",
+  "summary": "The agent helped the customer link Aadhaar to savings account.",
   "intents": [
     {
       "intent": "Aadhaar Linking Assistance",
@@ -15,15 +15,15 @@
       ],
       "issues": [
         {
-          "issue": "Customer needs assistance linking Aadhaar to savings account.",
-          "reason(s)": "Customer unable to get help at the branch and is not comfortable with online processes.",
+          "issue": "Difficulty linking Aadhaar to savings account.",
+          "reason(s)": "Customer unable to get assistance at the branch and unfamiliar with online processes.",
           "issue type": "Service"
         }
       ],
-      "actions of agent": "The agent offered to send a simple form to the customer's email for online submission.",
-      "resolution status": "Resolved",
-      "Process Request": "Send form to customer's registered email.",
-      "resolution": "Agent will send a form to the customer's email address to facilitate Aadhaar linking.",
+      "actions of agent": "Offered to guide the customer, provided options for branch visit or online form submission, and offered assistance with filling out the form.",
+      "resolution status": "Process Request",
+      "Process Request": "Agent will send a simple form to the customer's registered email address.",
+      "resolution": "Agent will send a form to the customer's email to link Aadhaar to the savings account.",
       "resolution timestamp": "31.000 sec - 36.000 sec",
       "dominant emotions (customer)": [
         "Frustration",

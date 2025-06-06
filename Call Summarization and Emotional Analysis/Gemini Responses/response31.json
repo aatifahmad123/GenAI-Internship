@@ -2,27 +2,27 @@
   "call id": "31",
   "agent id": "4",
   "call duration": "32",
-  "summary": "The agent addressed unauthorized subscription charge and initiated chargeback.",
+  "summary": "The agent addressed unauthorized charge and initiated a chargeback.",
   "intents": [
     {
       "intent": "Billing Dispute",
       "confidence": "95",
-      "keywords": "I am Furious my card was charged 12000 ... I cancel mans ago",
+      "keywords": "I am Furious my card was charged 12000 ... I cancel mans ago.",
       "intent timestamp": "0.000 sec - 10.000 sec",
       "products": [
         "Subscription"
       ],
       "issues": [
         {
-          "issue": "Unauthorized charge",
+          "issue": "Unauthorized charge of $12000",
           "reason(s)": "Recurring charge after cancellation",
           "issue type": "Billing"
         }
       ],
-      "actions of agent": "Initiated a chargeback and blocked further charges.",
+      "actions of agent": "Agent located the transaction, initiated a chargeback, and blocked further charges.",
       "resolution status": "Resolved",
-      "Process Request": "Chargeback initiated",
-      "resolution": "Chargeback initiated, refund in 5-7 days, further charges blocked.",
+      "Process Request": "Chargeback initiation",
+      "resolution": "Chargeback initiated, refund in 5-7 days.",
       "resolution timestamp": "27.000 sec - 32.000 sec",
       "dominant emotions (customer)": [
         "Furious",
@@ -34,7 +34,7 @@
       "callback time": "N/A"
     }
   ],
-  "basic greeting and closing": "No",
+  "basic greeting and closing": "Yes",
   "fatal behaviour": "No",
   "agent professionalism (out of 10)": "7",
   "agent performance (out of 10)": "8",

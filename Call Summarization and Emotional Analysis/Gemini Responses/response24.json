@@ -1,8 +1,8 @@
 {
   "call id": "24",
   "agent id": "3",
-  "call duration": "26",
-  "summary": "Customer requested to activate new credit card, agent assisted.",
+  "call duration": "26.04",
+  "summary": "Customer wants to activate new credit card, agent assists.",
   "intents": [
     {
       "intent": "Card Activation",
@@ -12,18 +12,12 @@
       "products": [
         "Credit Card"
       ],
-      "issues": [
-        {
-          "issue": "New card needs activation",
-          "reason(s)": "New card received by customer",
-          "issue type": "Service"
-        }
-      ],
-      "actions of agent": "Agent offered to activate the card and activated it.",
+      "issues": [],
+      "actions of agent": "Agent offered to activate the card and asked for the card number.",
       "resolution status": "Resolved",
       "Process Request": "N/A",
-      "resolution": "Card activated immediately by the agent.",
-      "resolution timestamp": "15.000 sec - 18.000 sec",
+      "resolution": "Agent activated the card for the customer.",
+      "resolution timestamp": "15.000 sec - 17.000 sec",
       "dominant emotions (customer)": [
         "Happy"
       ],

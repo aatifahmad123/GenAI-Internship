@@ -7,7 +7,7 @@
     {
       "intent": "Login Issue",
       "confidence": "95",
-      "keywords": "Hi I can't login to my savings account online...saying invalid credentials",
+      "keywords": "Hi I can't login to my savings account online...invalid credentials",
       "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "Savings Account"
@@ -19,7 +19,7 @@
           "issue type": "Technical"
         }
       ],
-      "actions of agent": "Verified if customer tried resetting password. Verified registered mobile number.",
+      "actions of agent": "Verified if the customer tried resetting the password. Verified registered mobile number.",
       "resolution status": "Resolved",
       "Process Request": "Manual password reset",
       "resolution": "Agent manually reset the access and sent a temporary password.",
@@ -29,14 +29,14 @@
         "Annoyance"
       ],
       "conversation sentiment": "Negative",
-      "customer satisfaction": "75",
+      "customer satisfaction": "70",
       "callback promise": "No",
       "callback time": "N/A"
     },
     {
       "intent": "OTP Issue",
       "confidence": "90",
-      "keywords": "I did that but I am not getting the OTP...on my phone.",
+      "keywords": "I did that but I am not getting the OTP...on my phone",
       "intent timestamp": "9.000 sec - 18.000 sec",
       "products": [
         "Savings Account"
@@ -44,11 +44,11 @@
       "issues": [
         {
           "issue": "Not receiving OTP",
-          "reason(s)": "OTP system delayed",
+          "reason(s)": "OTP system is delayed",
           "issue type": "Technical"
         }
       ],
-      "actions of agent": "Acknowledged the issue and informed customer about OTP system delay.",
+      "actions of agent": "Identified OTP delivery delay.",
       "resolution status": "Resolved",
       "Process Request": "Manual password reset",
       "resolution": "Agent manually reset the access and sent a temporary password.",
@@ -58,7 +58,7 @@
         "Annoyance"
       ],
       "conversation sentiment": "Negative",
-      "customer satisfaction": "75",
+      "customer satisfaction": "70",
       "callback promise": "No",
       "callback time": "N/A"
     }

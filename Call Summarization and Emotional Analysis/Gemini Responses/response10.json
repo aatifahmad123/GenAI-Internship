@@ -7,14 +7,14 @@
     {
       "intent": "Card Activation",
       "confidence": "95",
-      "keywords": "I've been trying to activate my new credit card...It's still not active",
-      "intent timestamp": "0.000 sec - 15.000 sec",
+      "keywords": "I've been trying to activate my new credit card ... it now",
+      "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "Credit Card"
       ],
       "issues": [
         {
-          "issue": "Credit card activation failed",
+          "issue": "Card activation failed",
           "reason(s)": "Activation request did not process automatically.",
           "issue type": "Technical"
         }
@@ -22,7 +22,7 @@
       "actions of agent": "Verified customer's card details and manually activated the card.",
       "resolution status": "Resolved",
       "Process Request": "Manual card activation",
-      "resolution": "Agent manually activated the customer's credit card.",
+      "resolution": "Card is active and ready to use.",
       "resolution timestamp": "25.000 sec - 29.000 sec",
       "dominant emotions (customer)": [
         "Frustration",
@@ -36,29 +36,29 @@
     {
       "intent": "Confirmation Request",
       "confidence": "90",
-      "keywords": "Would you like me to send a confirmation?...Yeah, send it.",
-      "intent timestamp": "29.000 sec - 33.000 sec",
+      "keywords": "Would you like me to send a confirmation?...send it",
+      "intent timestamp": "25.000 sec - 33.000 sec",
       "products": [
         "Credit Card"
       ],
       "issues": [],
-      "actions of agent": "Offered to send a confirmation of the card activation.",
-      "resolution status": "Resolved",
-      "Process Request": "N/A",
-      "resolution": "Agent will send a confirmation of the card activation.",
-      "resolution timestamp": "32.000 sec - 33.000 sec",
+      "actions of agent": "Offered to send a confirmation of card activation.",
+      "resolution status": "Process Request",
+      "Process Request": "Sending confirmation of card activation",
+      "resolution": "Confirmation to be sent to the customer.",
+      "resolution timestamp": "31.000 sec - 33.000 sec",
       "dominant emotions (customer)": [
         "Relief"
       ],
       "conversation sentiment": "Positive",
-      "customer satisfaction": "85",
+      "customer satisfaction": "80",
       "callback promise": "No",
       "callback time": "N/A"
     }
   ],
   "basic greeting and closing": "No",
   "fatal behaviour": "No",
-  "agent professionalism (out of 10)": "8",
+  "agent professionalism (out of 10)": "7",
   "agent performance (out of 10)": "8",
   "customer satisfaction (out of 10)": "7",
   "interruptions by customer": "1",

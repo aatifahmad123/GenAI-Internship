@@ -2,31 +2,31 @@
   "call id": "49",
   "agent id": "5",
   "call duration": "24.92",
-  "summary": "Customer received overdue letter despite payment; issue resolved.",
+  "summary": "Customer received an overdue notice despite having paid.",
   "intents": [
     {
       "intent": "Payment Inquiry",
       "confidence": "95",
-      "keywords": "I got a letter saying my loans overdue...what's happening?",
+      "keywords": "I got a letter saying my loans overdue that...what's happening?",
       "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
-        "Loan"
+        "Loans"
       ],
       "issues": [
         {
-          "issue": "Overdue payment letter received despite payment.",
+          "issue": "Overdue notice received despite payment.",
           "reason(s)": "System error caused payment not to be reflected initially.",
           "issue type": "Billing"
         }
       ],
-      "actions of agent": "Identified the issue, confirmed payment status, and offered to send confirmation.",
+      "actions of agent": "Agent apologized, asked for the loan account number, checked the account, and confirmed the payment was updated.",
       "resolution status": "Resolved",
       "Process Request": "N/A",
-      "resolution": "Payment status updated, customer is clear, confirmation to be sent.",
-      "resolution timestamp": "20.000 sec - 25.000 sec",
+      "resolution": "Payment was updated in the system.",
+      "resolution timestamp": "20.000 sec - 24.000 sec",
       "dominant emotions (customer)": [
         "Concern",
-        "Confusion"
+        "Frustration"
       ],
       "conversation sentiment": "Negative",
       "customer satisfaction": "85",
@@ -36,7 +36,7 @@
   ],
   "basic greeting and closing": "No",
   "fatal behaviour": "No",
-  "agent professionalism (out of 10)": "9",
+  "agent professionalism (out of 10)": "8",
   "agent performance (out of 10)": "9",
   "customer satisfaction (out of 10)": "8",
   "interruptions by customer": "0",

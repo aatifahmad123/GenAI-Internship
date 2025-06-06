@@ -2,24 +2,24 @@
   "call id": "23",
   "agent id": "3",
   "call duration": "32",
-  "summary": "Customer complains about late fee on loan statement.",
+  "summary": "Customer is upset about a late fee on loan.",
   "intents": [
     {
       "intent": "Billing Dispute",
       "confidence": "95",
-      "keywords": "You guys are reaping me off. My loan statement shows...I paid on time. This is a scam.",
-      "intent timestamp": "0.000 sec - 17.000 sec",
+      "keywords": "You guys are reaping me off. My loan statement shows...I paid on time.",
+      "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "Loan"
       ],
       "issues": [
         {
-          "issue": "Late fee charged despite on-time payment.",
+          "issue": "Late fee charged despite on-time payment",
           "reason(s)": "ECS mandate issue caused payment to be credited a day late.",
           "issue type": "Billing"
         }
       ],
-      "actions of agent": "Verified the payment and identified the reason for the late fee. Offered to waive the fee.",
+      "actions of agent": "Agent verified the payment and explained the reason for the late fee.",
       "resolution status": "Resolved",
       "Process Request": "N/A",
       "resolution": "Agent waived the late fee.",

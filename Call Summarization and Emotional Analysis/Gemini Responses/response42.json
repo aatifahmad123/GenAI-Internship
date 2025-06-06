@@ -2,28 +2,28 @@
   "call id": "42",
   "agent id": "5",
   "call duration": "27",
-  "summary": "The customer wants to close his loan early.",
+  "summary": "The customer wants to close their loan early.",
   "intents": [
     {
       "intent": "Loan Closure Request",
       "confidence": "95",
-      "keywords": "I want to fuck close my loan...What's that about?",
+      "keywords": "I want to fuck close my loan, but the branch ... What's that about?",
       "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "Loan"
       ],
       "issues": [
         {
-          "issue": "Customer needs a specific form to close the loan.",
-          "reason(s)": "Branch informed the customer about the form requirement.",
+          "issue": "Need for closure form",
+          "reason(s)": "Branch requires a specific form for loan closure.",
           "issue type": "Service"
         }
       ],
       "actions of agent": "The agent offered to help and asked for the loan account number.",
-      "resolution status": "Pending with Process Request",
-      "Process Request": "Agent will email the customer the closure request form with instructions.",
-      "resolution": "Agent will send the customer a loan closure request form.",
-      "resolution timestamp": "13.000 sec - 18.000 sec",
+      "resolution status": "Process Request",
+      "Process Request": "Agent will email the closure request form with instructions.",
+      "resolution": "Agent will send the required form and guide the customer through the process.",
+      "resolution timestamp": "15.000 sec - 18.000 sec",
       "dominant emotions (customer)": [
         "Confused",
         "Frustrated"
@@ -34,24 +34,24 @@
       "callback time": "N/A"
     },
     {
-      "intent": "Information Request",
+      "intent": "Clarification on Loan Closure",
       "confidence": "90",
-      "keywords": "what's for closure mean?...nobody explain it.",
+      "keywords": "Ok, but what's for closure mean? Exactly, nobody explain it.",
       "intent timestamp": "17.000 sec - 22.000 sec",
       "products": [
         "Loan"
       ],
       "issues": [
         {
-          "issue": "Customer does not understand the meaning of 'for closure'.",
-          "reason(s)": "Customer states that nobody explained it to him.",
-          "issue type": "General Inquiry"
+          "issue": "Lack of understanding of 'foreclosure'",
+          "reason(s)": "Customer was not explained the meaning of foreclosure",
+          "issue type": "Service"
         }
       ],
-      "actions of agent": "The agent explained the meaning of 'for closure'.",
+      "actions of agent": "The agent explained what paying off the loan early means.",
       "resolution status": "Resolved",
       "Process Request": "N/A",
-      "resolution": "Agent explained that 'for closure' means paying off the loan early.",
+      "resolution": "Agent explained the meaning of foreclosure.",
       "resolution timestamp": "21.000 sec - 27.000 sec",
       "dominant emotions (customer)": [
         "Confused"

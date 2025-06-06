@@ -2,43 +2,43 @@
   "call id": "19",
   "agent id": "2",
   "call duration": "31.52",
-  "summary": "Agent assisted customer with savings account closure request.",
+  "summary": "The agent assisted with closing the customer's savings account.",
   "intents": [
     {
       "intent": "Account Closure",
       "confidence": "95",
-      "keywords": "I want to close my savings account the branch keeps...done quickly.",
-      "intent timestamp": "0.000 sec - 16.000 sec",
+      "keywords": "I want to close my savings account the branch ... keeps delaying it",
+      "intent timestamp": "0.000 sec - 5.000 sec",
       "products": [
         "Savings Account"
       ],
       "issues": [
         {
           "issue": "Delay in account closure",
-          "reason(s)": "Branch is delaying the account closure process.",
+          "reason(s)": "Branch is delaying the process",
           "issue type": "Service"
         }
       ],
-      "actions of agent": "Verified account details, initiated closure and transfer of balance.",
-      "resolution status": "Resolved",
-      "Process Request": "Initiated account closure and balance transfer.",
-      "resolution": "Account closure and balance transfer initiated, to be completed in 3 days.",
+      "actions of agent": "Initiated account closure and transfer of funds.",
+      "resolution status": "Process Request",
+      "Process Request": "Initiated the closure and transfer of the remaining balance to the customer's other bank account.",
+      "resolution": "Account closure and fund transfer will be completed in 3 days.",
       "resolution timestamp": "26.000 sec - 31.000 sec",
       "dominant emotions (customer)": [
         "Frustration",
         "Impatience"
       ],
       "conversation sentiment": "Negative",
-      "customer satisfaction": "70",
+      "customer satisfaction": "60",
       "callback promise": "No",
       "callback time": "N/A"
     }
   ],
   "basic greeting and closing": "No",
   "fatal behaviour": "No",
-  "agent professionalism (out of 10)": "8",
-  "agent performance (out of 10)": "8",
-  "customer satisfaction (out of 10)": "7",
+  "agent professionalism (out of 10)": "7",
+  "agent performance (out of 10)": "7",
+  "customer satisfaction (out of 10)": "6",
   "interruptions by customer": "0",
   "interruptions by agent": "0"
 }

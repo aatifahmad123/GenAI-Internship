@@ -2,12 +2,12 @@
   "call id": "32",
   "agent id": "4",
   "call duration": "32",
-  "summary": "Agent reactivated customer's card due to inactivity.",
+  "summary": "The customer's card was deactivated and agent reactivated it.",
   "intents": [
     {
       "intent": "Card Issue",
       "confidence": "95",
-      "keywords": "Hello, I tried using the ATM but it says...What's wrong?",
+      "keywords": "Hello, I tried using the ATM but it says ... What's wrong?",
       "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "ATM Card"
@@ -15,14 +15,14 @@
       "issues": [
         {
           "issue": "Card is not working at ATM",
-          "reason(s)": "Card deactivated due to inactivity.",
+          "reason(s)": "Card was deactivated due to inactivity.",
           "issue type": "Technical"
         }
       ],
       "actions of agent": "Agent checked the card status and reactivated the card.",
       "resolution status": "Resolved",
       "Process Request": "N/A",
-      "resolution": "Card reactivated and confirmation sent to customer.",
+      "resolution": "Card reactivated and customer can use it immediately.",
       "resolution timestamp": "27.000 sec - 32.000 sec",
       "dominant emotions (customer)": [
         "Concern",
@@ -34,7 +34,7 @@
       "callback time": "N/A"
     }
   ],
-  "basic greeting and closing": "Yes",
+  "basic greeting and closing": "No",
   "fatal behaviour": "No",
   "agent professionalism (out of 10)": "9",
   "agent performance (out of 10)": "9",

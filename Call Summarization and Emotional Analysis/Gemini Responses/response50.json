@@ -2,10 +2,10 @@
   "call id": "50",
   "agent id": "5",
   "call duration": "25.88",
-  "summary": "Customer inquired about increasing the amount of recurring deposit.",
+  "summary": "Customer inquired about increasing recurring deposit amount.",
   "intents": [
     {
-      "intent": "Increase Recurring Deposit Amount",
+      "intent": "Recurring Deposit Increase",
       "confidence": "95",
       "keywords": "I set up a recurring deposit...How do I increase the amount?",
       "intent timestamp": "0.000 sec - 8.000 sec",
@@ -19,24 +19,24 @@
           "issue type": "Service"
         }
       ],
-      "actions of agent": "The agent informed the customer that they need to submit a request to modify the RD and that the agent will send the form to the customer's email and follow up once it's processed.",
-      "resolution status": "Pending with Process Request",
-      "Process Request": "Agent sent a form to the customer's email to modify the recurring deposit amount.",
-      "resolution": "The agent sent the customer a form to modify the RD amount and will follow up.",
-      "resolution timestamp": "16.000 sec - 26.000 sec",
+      "actions of agent": "The agent provided information on how to modify the recurring deposit by submitting a request form.",
+      "resolution status": "Process Request",
+      "Process Request": "Agent sent a form to the customer's email to modify the RD and will follow up once it's processed.",
+      "resolution": "The agent sent the customer a form to modify the recurring deposit amount.",
+      "resolution timestamp": "17.000 sec - 26.000 sec",
       "dominant emotions (customer)": [
         "Inquisitive",
         "Positive"
       ],
       "conversation sentiment": "Positive",
-      "customer satisfaction": "95",
+      "customer satisfaction": "90",
       "callback promise": "Yes",
-      "callback time": "N/A"
+      "callback time": "Once the form is processed"
     }
   ],
-  "basic greeting and closing": "Yes",
+  "basic greeting and closing": "No",
   "fatal behaviour": "No",
-  "agent professionalism (out of 10)": "9",
+  "agent professionalism (out of 10)": "8",
   "agent performance (out of 10)": "9",
   "customer satisfaction (out of 10)": "9",
   "interruptions by customer": "0",

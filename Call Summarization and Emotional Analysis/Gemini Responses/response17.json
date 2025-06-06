@@ -2,34 +2,34 @@
   "call id": "17",
   "agent id": "2",
   "call duration": "28.88",
-  "summary": "Agent assisted customer with unauthorized withdrawal and secured account.",
+  "summary": "Customer reports unauthorized withdrawal; agent freezes account and investigates.",
   "intents": [
     {
       "intent": "Fraudulent Transaction Report",
       "confidence": "95",
-      "keywords": "I am worried my savings account shows of withdrawal...someone stealing my money.",
-      "intent timestamp": "0.000 sec - 7.000 sec",
+      "keywords": "I am worried my savings account shows of withdrawal...someone stealing my money",
+      "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "Savings Account"
       ],
       "issues": [
         {
           "issue": "Unauthorized withdrawal of $25000",
-          "reason(s)": "Potential fraud, customer did not authorize the transaction.",
+          "reason(s)": "Customer did not authorize the transaction.",
           "issue type": "Billing"
         }
       ],
       "actions of agent": "Confirmed transaction details, froze the account, and filed a fraud report.",
-      "resolution status": "Pending with Process Request",
-      "Process Request": "Reversal of the fraudulent transaction and filing a fraud report.",
-      "resolution": "The agent assured the customer that the transaction will be reversed within 5 to 7 days.",
-      "resolution timestamp": "23.000 sec - 29.000 sec",
+      "resolution status": "Process Request",
+      "Process Request": "Reverse the fraudulent transaction and keep the customer updated.",
+      "resolution": "The agent will reverse the transaction within 5 to 7 days.",
+      "resolution timestamp": "24.000 sec - 28.000 sec",
       "dominant emotions (customer)": [
         "Worried",
         "Scared"
       ],
       "conversation sentiment": "Negative",
-      "customer satisfaction": "75",
+      "customer satisfaction": "70",
       "callback promise": "No",
       "callback time": "N/A"
     }
@@ -37,7 +37,7 @@
   "basic greeting and closing": "No",
   "fatal behaviour": "No",
   "agent professionalism (out of 10)": "8",
-  "agent performance (out of 10)": "8",
+  "agent performance (out of 10)": "9",
   "customer satisfaction (out of 10)": "7",
   "interruptions by customer": "0",
   "interruptions by agent": "0"

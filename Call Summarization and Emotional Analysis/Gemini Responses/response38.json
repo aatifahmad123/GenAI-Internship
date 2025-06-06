@@ -1,8 +1,8 @@
 {
   "call id": "38",
   "agent id": "4",
-  "call duration": "24",
-  "summary": "The agent resolved the customer's payment processing issue.",
+  "call duration": "24.68",
+  "summary": "The agent resolved customer's stuck payment by manual processing.",
   "intents": [
     {
       "intent": "Payment Issue",
@@ -14,14 +14,14 @@
       ],
       "issues": [
         {
-          "issue": "Payment stuck on processing.",
-          "reason(s)": "Payment gateway glitch.",
+          "issue": "Payment stuck on processing",
+          "reason(s)": "Payment gateway glitch",
           "issue type": "Technical"
         }
       ],
-      "actions of agent": "The agent apologized, identified the issue as a gateway glitch, and manually processed the payment.",
+      "actions of agent": "Identified the issue, apologized for the delay, and offered to manually process the payment.",
       "resolution status": "Resolved",
-      "Process Request": "Manual payment processing.",
+      "Process Request": "Manual payment processing",
       "resolution": "Agent manually processed the payment.",
       "resolution timestamp": "20.000 sec - 24.000 sec",
       "dominant emotions (customer)": [

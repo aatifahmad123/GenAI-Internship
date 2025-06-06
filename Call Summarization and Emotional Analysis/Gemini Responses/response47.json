@@ -2,28 +2,28 @@
   "call id": "47",
   "agent id": "5",
   "call duration": "23.60",
-  "summary": "Agent assisted customer with fraudulent credit card charge.",
+  "summary": "Agent helped customer dispute a fraudulent credit card charge.",
   "intents": [
     {
-      "intent": "Fraudulent Charge Dispute",
+      "intent": "Dispute Charge",
       "confidence": "95",
-      "keywords": "My credit card bills got a 5000 charge...recognise whats dis",
+      "keywords": "My credit card bills got a 5000 charge. I don't ... whats dis",
       "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "Credit Card"
       ],
       "issues": [
         {
-          "issue": "Unauthorized $5000 charge on credit card",
+          "issue": "Unauthorized charge of $5000",
           "reason(s)": "Merchant error",
           "issue type": "Billing"
         }
       ],
-      "actions of agent": "Verified card details, initiated dispute, blocked card for transactions.",
+      "actions of agent": "Agent offered to dispute the charge and block the card.",
       "resolution status": "Resolved",
-      "Process Request": "Dispute filed for fraudulent charge.",
-      "resolution": "Refund will be processed in 7-10 days.",
-      "resolution timestamp": "20.000 sec - 24.000 sec",
+      "Process Request": "N/A",
+      "resolution": "The agent filed a dispute and the customer will receive a refund in 7-10 days.",
+      "resolution timestamp": "14.000 sec - 24.000 sec",
       "dominant emotions (customer)": [
         "Concern",
         "Frustration"

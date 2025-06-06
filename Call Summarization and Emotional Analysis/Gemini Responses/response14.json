@@ -2,7 +2,7 @@
   "call id": "14",
   "agent id": "2",
   "call duration": "27",
-  "summary": "Customer inquired about setting up NEFT transfer, agent provided guidance.",
+  "summary": "Customer inquired about setting up NEFT transfer and was assisted.",
   "intents": [
     {
       "intent": "NEFT Transfer Setup",
@@ -13,15 +13,22 @@
         "Savings Account",
         "Mobile App"
       ],
-      "issues": [],
-      "actions of agent": "The agent explained the process of setting up NEFT transfer using the mobile app, including adding a beneficiary and the 24-hour activation period.",
+      "issues": [
+        {
+          "issue": "Customer needs guidance on setting up NEFT transfer.",
+          "reason(s)": "New savings account holder unfamiliar with the NEFT transfer process.",
+          "issue type": "General Inquiry"
+        }
+      ],
+      "actions of agent": "The agent explained the process of setting up NEFT transfer using the mobile app.",
       "resolution status": "Resolved",
       "Process Request": "N/A",
-      "resolution": "The agent provided clear instructions on how to set up NEFT transfer.",
-      "resolution timestamp": "5.000 sec - 12.000 sec",
+      "resolution": "The agent informed the customer to go to the apps transfer section and add a beneficiary with account number and IFSC code. It takes 24 hours to activate.",
+      "resolution timestamp": "5.000 sec - 21.000 sec",
       "dominant emotions (customer)": [
-        "Excitement",
-        "Gratitude"
+        "Excited",
+        "Curious",
+        "Satisfied"
       ],
       "conversation sentiment": "Positive",
       "customer satisfaction": "100",

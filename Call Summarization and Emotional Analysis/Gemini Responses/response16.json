@@ -2,13 +2,13 @@
   "call id": "16",
   "agent id": "2",
   "call duration": "30",
-  "summary": "Customer inquires about delayed credit limit increase request.",
+  "summary": "Customer inquired about delayed credit limit increase request.",
   "intents": [
     {
       "intent": "Credit Limit Increase Status Inquiry",
       "confidence": "95",
       "keywords": "I requested a credit limit increase last week...What's the hold up?",
-      "intent timestamp": "0.000 sec - 6.000 sec",
+      "intent timestamp": "0.000 sec - 10.000 sec",
       "products": [
         "Credit Card"
       ],
@@ -19,11 +19,11 @@
           "issue type": "Service"
         }
       ],
-      "actions of agent": "Checked the status of the credit limit increase request and expedited it.",
-      "resolution status": "Pending with Process Request",
+      "actions of agent": "Checked the status of the request and expedited it.",
+      "resolution status": "Process Request",
       "Process Request": "Agent expedited the credit limit increase request.",
-      "resolution": "Agent promised an update by the end of the day.",
-      "resolution timestamp": "25.000 sec - 29.000 sec",
+      "resolution": "Agent promised to expedite the request and provide an update by end of day.",
+      "resolution timestamp": "24.000 sec - 29.000 sec",
       "dominant emotions (customer)": [
         "Concern",
         "Impatient"

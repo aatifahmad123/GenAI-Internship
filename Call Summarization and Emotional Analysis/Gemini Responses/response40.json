@@ -2,27 +2,49 @@
   "call id": "40",
   "agent id": "4",
   "call duration": "26.80",
-  "summary": "Customer requests an increase to their overdraft facility limit.",
+  "summary": "Customer requests an increase to their overdraft limit.",
   "intents": [
     {
       "intent": "Overdraft Limit Increase",
       "confidence": "95",
-      "keywords": "I got an overdraft facility...How do I increase the limit?",
+      "keywords": "I got an overdraft facility on my account...How do I increase the limit?",
       "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "Overdraft Facility"
       ],
       "issues": [],
-      "actions of agent": "The agent asked for account confirmation and requested the customer to email documents for processing the increase.",
-      "resolution status": "Pending with Process Request",
-      "Process Request": "Customer needs to email documents to the bank to process the overdraft limit increase request.",
-      "resolution": "The customer needs to email the required documents to the bank.",
-      "resolution timestamp": "18.000 sec - 19.000 sec",
+      "actions of agent": "Agent asked for account confirmation and requested the customer to email documents.",
+      "resolution status": "Unresolved",
+      "Process Request": "Customer needs to email documents for the agent to process the limit increase.",
+      "resolution": "Customer needs to email the required documents to the bank.",
+      "resolution timestamp": "23.000 sec - 26.000 sec",
       "dominant emotions (customer)": [
         "Neutral"
       ],
       "conversation sentiment": "Neutral",
       "customer satisfaction": "60",
+      "callback promise": "No",
+      "callback time": "N/A"
+    },
+    {
+      "intent": "Positive Feedback",
+      "confidence": "90",
+      "keywords": "something this Bank great by the way",
+      "intent timestamp": "19.000 sec - 23.000 sec",
+      "products": [
+        "Banking Services"
+      ],
+      "issues": [],
+      "actions of agent": "Agent thanked the customer.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "Agent acknowledged and thanked the customer for the positive feedback.",
+      "resolution timestamp": "22.000 sec - 23.000 sec",
+      "dominant emotions (customer)": [
+        "Positive"
+      ],
+      "conversation sentiment": "Positive",
+      "customer satisfaction": "100",
       "callback promise": "No",
       "callback time": "N/A"
     }

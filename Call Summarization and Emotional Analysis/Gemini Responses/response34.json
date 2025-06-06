@@ -2,29 +2,29 @@
   "call id": "34",
   "agent id": "4",
   "call duration": "23.84",
-  "summary": "Customer inquired about redeeming credit card rewards; issue resolved.",
+  "summary": "Customer inquired about redeeming credit card rewards, agent provided assistance.",
   "intents": [
     {
       "intent": "Redeem Rewards",
       "confidence": "95",
-      "keywords": "I just upgraded my credit card and I am loving...how do I redeem the",
+      "keywords": "I just upgraded my credit card and I am loving...how do I redeem them?",
       "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "Credit Card"
       ],
       "issues": [],
-      "actions of agent": "The agent informed the customer that rewards can be redeemed via the app's rewards section and offered further assistance.",
+      "actions of agent": "The agent explained that rewards can be redeemed via the app's reward section and offered further assistance.",
       "resolution status": "Resolved",
       "Process Request": "N/A",
-      "resolution": "The agent advised the customer to redeem rewards via the app.",
-      "resolution timestamp": "6.000 sec - 9.000 sec",
+      "resolution": "The agent informed the customer to redeem rewards via the app.",
+      "resolution timestamp": "6.000 sec - 10.000 sec",
       "dominant emotions (customer)": [
         "Happy",
-        "Inquisitive"
+        "Curious"
       ],
       "conversation sentiment": "Positive",
       "customer satisfaction": "100",
-      "callback promise": "No",
+      "callback promise": "Yes",
       "callback time": "N/A"
     }
   ],

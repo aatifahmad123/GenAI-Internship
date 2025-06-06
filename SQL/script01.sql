@@ -1,12 +1,12 @@
-CREATE DATABASE metabase_db;
+CREATE DATABASE IF NOT EXISTS metabase_db;
 
 -- SHOW DATABASES;
 
 USE metabase_db;
 
-DROP TABLE IF EXISTS Agents;
-DROP TABLE IF EXISTS Calls;
 DROP TABLE IF EXISTS Intents;
+DROP TABLE IF EXISTS Calls;
+DROP TABLE IF EXISTS Agents;
 
 -- SHOW TABLES;
 
@@ -47,7 +47,7 @@ CREATE TABLE Intents (
     products TEXT, -- Products mentioned (e.g., Credit Card)
     issues TEXT, -- Issues described (e.g., Duplicate charge)
     actions_of_agent TEXT, -- Actions taken by agent
-    resolution_status ENUM('Resolved', 'Unresolved', 'Pending with Process Request', 'Pending with Customer'), -- Resolution status
+    resolution_status ENUM('Resolved', 'Unresolved', 'Process Request'), -- Resolution status
     process_request TEXT, -- Details of process request
     resolution TEXT, -- Resolution description
     resolution_begin_timestamp FLOAT, -- Start timestamp of resolution
@@ -60,8 +60,8 @@ CREATE TABLE Intents (
     FOREIGN KEY (call_id) REFERENCES Calls(call_id) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
--- SHOW TABLES;
+SHOW TABLES;
 
--- SELECT * FROM Agents;
--- SELECT * FROM Calls;
--- SELECT * FROM Intents;
+SELECT * FROM Agents;
+SELECT * FROM Calls;
+SELECT * FROM Intents;

@@ -1,40 +1,40 @@
 {
   "call id": "26",
   "agent id": "3",
-  "call duration": "30",
-  "summary": "Agent processed manual loan payment to avoid credit issues.",
+  "call duration": "30.80",
+  "summary": "Agent processed manual loan payment for the customer.",
   "intents": [
     {
       "intent": "Payment Assistance",
       "confidence": "95",
-      "keywords": "I am freaking out my loan payment is due, but ... to pay it.",
+      "keywords": "I am freaking out my loan payment is due, but I ... my account to pay it.",
       "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "Loan"
       ],
       "issues": [
         {
-          "issue": "Unable to access account to make loan payment.",
-          "reason(s)": "Unknown reason for account access issue.",
+          "issue": "Unable to access account to make payment.",
+          "reason(s)": "Unknown reason for access issue.",
           "issue type": "Technical"
         },
         {
           "issue": "Concern about impact on credit score due to missed payment.",
-          "reason(s)": "Potential late payment of loan.",
+          "reason(s)": "Potential late payment.",
           "issue type": "Billing"
         }
       ],
-      "actions of agent": "Offered manual payment processing or extending the due date.",
+      "actions of agent": "Offered manual payment processing or extending the due date and processed manual payment.",
       "resolution status": "Resolved",
       "Process Request": "Manual payment processing.",
-      "resolution": "Manual payment was processed and account was updated.",
+      "resolution": "Manual payment processed and account updated.",
       "resolution timestamp": "25.000 sec - 30.000 sec",
       "dominant emotions (customer)": [
         "Anxious",
         "Frustrated"
       ],
       "conversation sentiment": "Negative",
-      "customer satisfaction": "90",
+      "customer satisfaction": "85",
       "callback promise": "No",
       "callback time": "N/A"
     }
@@ -43,7 +43,7 @@
   "fatal behaviour": "No",
   "agent professionalism (out of 10)": "9",
   "agent performance (out of 10)": "9",
-  "customer satisfaction (out of 10)": "9",
+  "customer satisfaction (out of 10)": "8",
   "interruptions by customer": "0",
   "interruptions by agent": "0"
 }

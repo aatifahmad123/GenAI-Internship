@@ -1,25 +1,25 @@
 {
   "call id": "36",
   "agent id": "4",
-  "call duration": "27",
-  "summary": "Agent resolved customer's loan account NPA status concern.",
+  "call duration": "27.48",
+  "summary": "Agent resolved customer's loan account NPA status issue.",
   "intents": [
     {
       "intent": "Loan Account Issue",
       "confidence": "95",
-      "keywords": "I am so stressed my loan accounts marked npa ... worried about this",
-      "intent timestamp": "0.000 sec - 22.000 sec",
+      "keywords": "I am so stressed my loan accounts marked npa, ... I been paying",
+      "intent timestamp": "0.000 sec - 5.000 sec",
       "products": [
         "Loan Account"
       ],
       "issues": [
         {
-          "issue": "Loan account incorrectly marked as NPA.",
-          "reason(s)": "Payment was missed due to a bank error.",
+          "issue": "Loan account marked as NPA despite payments.",
+          "reason(s)": "Bank error leading to a missed payment.",
           "issue type": "Billing"
         }
       ],
-      "actions of agent": "Identified the issue, confirmed the account number, and corrected the NPA status.",
+      "actions of agent": "Identified the issue, confirmed the bank error, and corrected the NPA status.",
       "resolution status": "Resolved",
       "Process Request": "N/A",
       "resolution": "Agent confirmed the account is clear and reported to CIBIL.",
