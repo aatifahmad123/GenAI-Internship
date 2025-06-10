@@ -50,15 +50,13 @@ def get_gemini_response(transcription,timestamps,metadata, agent_id, call_id):
                         }}
                     ],
                     "actions of agent": "<Brief description of the actions taken by the agent to handle the intent>",
-                    "resolution status": "<Status of resolution, One put of: 'Resolved', 'Unresolved', Process Request'>",
+                    "resolution status": "<Status of resolution, One out of: 'Resolved', 'Unresolved', Pending with Callback'>",
                     "Process Request": "<Brief description of the process request if any, otherwise 'N/A'. Process request happens when the agent has to do something in the backend or with a third party to resolve the issue>",
                     "resolution": "<Brief description of the resolution irrespective of resolution status>",
                     "resolution timestamp": "<Beginning and Ending timestamp of transcription that determines the resolution, again it has to be very specific atmost 10-15 words stretch, give a relaxed timeframe of 5 seconds (mandatorily), you may use the timstamps data provided>",
                     "dominant emotions (customer)": "[<list main emotions expressed by the customer>]",
                     "conversation sentiment": "<sentiment of the conversation: Positive/Negative/Neutral for that intent>",
-                    "customer satisfaction": "<Satisfaction of the customer with the agent's handling of the intent, as a percentage (0-100)>",
-                    "callback promise": "<Yes/No>",
-                    "callback time": "<Date (relative for eg. same day or next day and Time if applicable, otherwise 'N/A'>"
+                    "customer satisfaction": "<Satisfaction of the customer with the agent's handling of the intent, as a percentage (0-100)>"
                 }}
             ],
             "basic greeting and closing": "<Yes/No, whether the agent greeted and closed the call properly>",
@@ -68,6 +66,8 @@ def get_gemini_response(transcription,timestamps,metadata, agent_id, call_id):
             "customer satisfaction (out of 10)": "<Score from 1 to 10>",
             "interruptions by customer": "<Number of times the customer interrupted the agent>",
             "interruptions by agent": "<Number of times the agent interrupted the customer>",
+            "callback promise": "<Yes/No>",
+            "callback time": "<Date (relative for eg. same day or next day and Time if applicable, otherwise 'N/A'>
         }}
         
         Call ID: {call_id}

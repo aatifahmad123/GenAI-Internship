@@ -1,37 +1,36 @@
 {
   "call id": "15",
   "agent id": "2",
-  "call duration": "33",
-  "summary": "Agent resolved loan lean issue due to system error.",
+  "call duration": "33.68",
+  "summary": "The agent resolved the customer's loan EMI lean issue.",
   "intents": [
     {
-      "intent": "Loan Issue",
+      "intent": "Loan EMI Lean Inquiry",
       "confidence": "95",
       "keywords": "I paid my loan EMI but there is a lean...what's going on?",
       "intent timestamp": "0.000 sec - 8.000 sec",
       "products": [
-        "Loan"
+        "Loan",
+        "EMI"
       ],
       "issues": [
         {
-          "issue": "Lean on account after EMI payment",
-          "reason(s)": "System error placed telling",
+          "issue": "Lean on account despite EMI payment",
+          "reason(s)": "System error",
           "issue type": "Technical"
         }
       ],
-      "actions of agent": "Identified the issue, removed the lean, and confirmed resolution.",
+      "actions of agent": "Identified the issue, confirmed payment, and removed the lean.",
       "resolution status": "Resolved",
       "Process Request": "N/A",
-      "resolution": "Lean is lifted and funds are available.",
-      "resolution timestamp": "27.000 sec - 32.000 sec",
+      "resolution": "Lean lifted, funds available, confirmation sent.",
+      "resolution timestamp": "27.000 sec - 33.000 sec",
       "dominant emotions (customer)": [
         "Concern",
         "Frustration"
       ],
       "conversation sentiment": "Negative",
-      "customer satisfaction": "85",
-      "callback promise": "No",
-      "callback time": "N/A"
+      "customer satisfaction": "85"
     }
   ],
   "basic greeting and closing": "No",
@@ -40,5 +39,7 @@
   "agent performance (out of 10)": "9",
   "customer satisfaction (out of 10)": "8",
   "interruptions by customer": "0",
-  "interruptions by agent": "0"
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
 }

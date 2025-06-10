@@ -2,12 +2,12 @@
   "call id": "41",
   "agent id": "5",
   "call duration": "26",
-  "summary": "Customer's PPI wallet was not linking to new debit card.",
+  "summary": "Customer's PPI wallet wasn't linking; agent resolved it immediately.",
   "intents": [
     {
-      "intent": "Debit Card Issue",
+      "intent": "Technical Support",
       "confidence": "95",
-      "keywords": "My PPI wallet isn't linking ... What's the problem?",
+      "keywords": "My PPI wallet isn't linking to my new debit...What's the problem?",
       "intent timestamp": "0.000 sec - 8.000 sec",
       "products": [
         "PPI Wallet",
@@ -22,24 +22,24 @@
       ],
       "actions of agent": "Verified the last four digits of the card and enabled PPI for the card.",
       "resolution status": "Resolved",
-      "Process Request": "Enabled PPI for the card.",
-      "resolution": "Agent enabled PPI and customer can link immediately.",
+      "Process Request": "Enabled PPI for the card",
+      "resolution": "Agent enabled PPI for the card immediately.",
       "resolution timestamp": "21.000 sec - 26.000 sec",
       "dominant emotions (customer)": [
         "Frustration",
         "Impatience"
       ],
       "conversation sentiment": "Negative",
-      "customer satisfaction": "70",
-      "callback promise": "No",
-      "callback time": "N/A"
+      "customer satisfaction": "70"
     }
   ],
   "basic greeting and closing": "No",
   "fatal behaviour": "No",
   "agent professionalism (out of 10)": "8",
-  "agent performance (out of 10)": "8",
+  "agent performance (out of 10)": "9",
   "customer satisfaction (out of 10)": "7",
   "interruptions by customer": "1",
-  "interruptions by agent": "0"
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
 }

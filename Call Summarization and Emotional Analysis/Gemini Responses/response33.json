@@ -1,14 +1,14 @@
 {
   "call id": "33",
   "agent id": "4",
-  "call duration": "31",
-  "summary": "The agent escalated the loan application for priority processing.",
+  "call duration": "31.40",
+  "summary": "Customer inquired about business loan application status and processing time.",
   "intents": [
     {
       "intent": "Check Loan Application Status",
       "confidence": "95",
-      "keywords": "I applied for a business loan and it's taking forever...When will I get an update?",
-      "intent timestamp": "0.000 sec - 9.000 sec",
+      "keywords": "I applied for a business loan...When will I get an update?",
+      "intent timestamp": "0.000 sec - 5.000 sec",
       "products": [
         "Business Loan"
       ],
@@ -19,26 +19,26 @@
           "issue type": "Service"
         }
       ],
-      "actions of agent": "Checked the application status and informed the customer it's in final review. Escalated the application for priority processing.",
-      "resolution status": "Process Request",
-      "Process Request": "Escalated the loan application to the loan team for priority processing.",
-      "resolution": "The agent escalated the loan application for priority processing.",
+      "actions of agent": "Checked application status and informed customer about the final review stage. Escalated the application for priority processing.",
+      "resolution status": "Pending with Callback",
+      "Process Request": "Escalated to loan team for priority processing.",
+      "resolution": "Escalated the loan application for priority processing to expedite the approval.",
       "resolution timestamp": "26.000 sec - 31.000 sec",
       "dominant emotions (customer)": [
-        "Concern",
-        "Impatience"
+        "Anxious",
+        "Impatient"
       ],
       "conversation sentiment": "Negative",
-      "customer satisfaction": "60",
-      "callback promise": "No",
-      "callback time": "N/A"
+      "customer satisfaction": "60"
     }
   ],
   "basic greeting and closing": "No",
-  "fatal behaviour": "Yes",
-  "agent professionalism (out of 10)": "5",
-  "agent performance (out of 10)": "6",
-  "customer satisfaction (out of 10)": "5",
-  "interruptions by customer": "1",
-  "interruptions by agent": "0"
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "7",
+  "agent performance (out of 10)": "7",
+  "customer satisfaction (out of 10)": "6",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
 }

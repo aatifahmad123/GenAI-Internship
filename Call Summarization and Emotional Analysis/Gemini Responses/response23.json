@@ -2,36 +2,34 @@
   "call id": "23",
   "agent id": "3",
   "call duration": "32",
-  "summary": "Customer is upset about a late fee on loan.",
+  "summary": "Agent waived late fee due to ECS mandate issue.",
   "intents": [
     {
       "intent": "Billing Dispute",
       "confidence": "95",
-      "keywords": "You guys are reaping me off. My loan statement shows...I paid on time.",
-      "intent timestamp": "0.000 sec - 9.000 sec",
+      "keywords": "My loan statement shows a late fee, but I paid ... This is a scam.",
+      "intent timestamp": "0.000 sec - 17.000 sec",
       "products": [
         "Loan"
       ],
       "issues": [
         {
           "issue": "Late fee charged despite on-time payment",
-          "reason(s)": "ECS mandate issue caused payment to be credited a day late.",
+          "reason(s)": "ECS mandate issue caused payment to be credited late.",
           "issue type": "Billing"
         }
       ],
-      "actions of agent": "Agent verified the payment and explained the reason for the late fee.",
+      "actions of agent": "Verified payment, identified the reason for the late fee, and waived the fee.",
       "resolution status": "Resolved",
       "Process Request": "N/A",
-      "resolution": "Agent waived the late fee.",
-      "resolution timestamp": "25.000 sec - 27.000 sec",
+      "resolution": "Agent waived the late fee and informed the customer that the updated statement would be available in 24 hours.",
+      "resolution timestamp": "25.000 sec - 32.000 sec",
       "dominant emotions (customer)": [
         "Angry",
         "Frustrated"
       ],
       "conversation sentiment": "Negative",
-      "customer satisfaction": "70",
-      "callback promise": "No",
-      "callback time": "N/A"
+      "customer satisfaction": "70"
     }
   ],
   "basic greeting and closing": "No",
@@ -40,5 +38,7 @@
   "agent performance (out of 10)": "8",
   "customer satisfaction (out of 10)": "7",
   "interruptions by customer": "1",
-  "interruptions by agent": "0"
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
 }

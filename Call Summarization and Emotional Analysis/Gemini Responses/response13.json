@@ -5,40 +5,40 @@
   "summary": "Agent assisted customer with fraudulent credit card charge.",
   "intents": [
     {
-      "intent": "Fraudulent Charge Report",
+      "intent": "Fraudulent Charge Reporting",
       "confidence": "95",
-      "keywords": "Your bank so mass my credit card statement shows of...I never made",
+      "keywords": "my credit card statement shows of 15000 charge. I never...",
       "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "Credit Card"
       ],
       "issues": [
         {
-          "issue": "Unauthorized charge of $15000",
-          "reason(s)": "Potential fraud",
+          "issue": "Unauthorized transaction of $15000",
+          "reason(s)": "Customer claims they did not make the purchase.",
           "issue type": "Billing"
         }
       ],
-      "actions of agent": "Blocked the card and initiated a chargeback request.",
-      "resolution status": "Process Request",
+      "actions of agent": "Agent blocked the card and initiated a chargeback request.",
+      "resolution status": "Resolved",
       "Process Request": "Chargeback request initiated.",
-      "resolution": "Chargeback request filed, refund in 7-10 days.",
+      "resolution": "Card blocked and chargeback initiated. Refund expected in 7-10 days.",
       "resolution timestamp": "25.000 sec - 29.000 sec",
       "dominant emotions (customer)": [
         "Frustration",
         "Anger"
       ],
       "conversation sentiment": "Negative",
-      "customer satisfaction": "60",
-      "callback promise": "No",
-      "callback time": "N/A"
+      "customer satisfaction": "60"
     }
   ],
   "basic greeting and closing": "No",
   "fatal behaviour": "No",
-  "agent professionalism (out of 10)": "7",
+  "agent professionalism (out of 10)": "8",
   "agent performance (out of 10)": "8",
   "customer satisfaction (out of 10)": "6",
   "interruptions by customer": "0",
-  "interruptions by agent": "0"
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
 }

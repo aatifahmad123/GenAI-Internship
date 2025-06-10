@@ -1,8 +1,8 @@
 {
   "call id": "3",
   "agent id": "1",
-  "call duration": "37.16",
-  "summary": "Customer unable to login, agent reset password manually.",
+  "call duration": "37",
+  "summary": "The agent resolved the customer's login issue.",
   "intents": [
     {
       "intent": "Login Issue",
@@ -14,60 +14,31 @@
       ],
       "issues": [
         {
-          "issue": "Unable to login to savings account",
-          "reason(s)": "Invalid credentials",
+          "issue": "Unable to login to savings account online.",
+          "reason(s)": "Invalid credentials and OTP not being received.",
           "issue type": "Technical"
         }
       ],
-      "actions of agent": "Verified if the customer tried resetting the password. Verified registered mobile number.",
+      "actions of agent": "Verified customer's registered mobile number and manually reset access.",
       "resolution status": "Resolved",
-      "Process Request": "Manual password reset",
-      "resolution": "Agent manually reset the access and sent a temporary password.",
-      "resolution timestamp": "28.000 sec - 33.000 sec",
+      "Process Request": "Manual reset of access and sending temporary password.",
+      "resolution": "Agent manually reset the customer's access and sent a temporary password.",
+      "resolution timestamp": "28.000 sec - 34.000 sec",
       "dominant emotions (customer)": [
         "Frustration",
         "Annoyance"
       ],
       "conversation sentiment": "Negative",
-      "customer satisfaction": "70",
-      "callback promise": "No",
-      "callback time": "N/A"
-    },
-    {
-      "intent": "OTP Issue",
-      "confidence": "90",
-      "keywords": "I did that but I am not getting the OTP...on my phone",
-      "intent timestamp": "9.000 sec - 18.000 sec",
-      "products": [
-        "Savings Account"
-      ],
-      "issues": [
-        {
-          "issue": "Not receiving OTP",
-          "reason(s)": "OTP system is delayed",
-          "issue type": "Technical"
-        }
-      ],
-      "actions of agent": "Identified OTP delivery delay.",
-      "resolution status": "Resolved",
-      "Process Request": "Manual password reset",
-      "resolution": "Agent manually reset the access and sent a temporary password.",
-      "resolution timestamp": "28.000 sec - 33.000 sec",
-      "dominant emotions (customer)": [
-        "Frustration",
-        "Annoyance"
-      ],
-      "conversation sentiment": "Negative",
-      "customer satisfaction": "70",
-      "callback promise": "No",
-      "callback time": "N/A"
+      "customer satisfaction": "80"
     }
   ],
-  "basic greeting and closing": "Yes",
+  "basic greeting and closing": "No",
   "fatal behaviour": "No",
   "agent professionalism (out of 10)": "8",
-  "agent performance (out of 10)": "8",
-  "customer satisfaction (out of 10)": "7",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "8",
   "interruptions by customer": "0",
-  "interruptions by agent": "0"
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
 }

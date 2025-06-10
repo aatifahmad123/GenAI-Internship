@@ -1,8 +1,8 @@
 {
   "call id": "38",
   "agent id": "4",
-  "call duration": "24.68",
-  "summary": "The agent resolved customer's stuck payment by manual processing.",
+  "call duration": "24",
+  "summary": "The agent resolved the customer's payment processing issue.",
   "intents": [
     {
       "intent": "Payment Issue",
@@ -14,31 +14,31 @@
       ],
       "issues": [
         {
-          "issue": "Payment stuck on processing",
-          "reason(s)": "Payment gateway glitch",
+          "issue": "Payment stuck on processing.",
+          "reason(s)": "Payment gateway glitch.",
           "issue type": "Technical"
         }
       ],
-      "actions of agent": "Identified the issue, apologized for the delay, and offered to manually process the payment.",
+      "actions of agent": "The agent apologized, asked for transaction ID or card number, and manually processed the payment.",
       "resolution status": "Resolved",
-      "Process Request": "Manual payment processing",
+      "Process Request": "Manual payment processing.",
       "resolution": "Agent manually processed the payment.",
-      "resolution timestamp": "20.000 sec - 24.000 sec",
+      "resolution timestamp": "20.000 sec - 25.000 sec",
       "dominant emotions (customer)": [
-        "Frustration",
-        "Annoyance"
+        "Annoyance",
+        "Frustration"
       ],
       "conversation sentiment": "Negative",
-      "customer satisfaction": "60",
-      "callback promise": "No",
-      "callback time": "N/A"
+      "customer satisfaction": "70"
     }
   ],
   "basic greeting and closing": "No",
   "fatal behaviour": "No",
   "agent professionalism (out of 10)": "7",
   "agent performance (out of 10)": "8",
-  "customer satisfaction (out of 10)": "6",
+  "customer satisfaction (out of 10)": "7",
   "interruptions by customer": "0",
-  "interruptions by agent": "0"
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
 }

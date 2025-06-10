@@ -2,43 +2,43 @@
   "call id": "49",
   "agent id": "5",
   "call duration": "24.92",
-  "summary": "Customer received an overdue notice despite having paid.",
+  "summary": "Agent resolved customer's loan overdue notice issue.",
   "intents": [
     {
-      "intent": "Payment Inquiry",
+      "intent": "Payment Issue",
       "confidence": "95",
-      "keywords": "I got a letter saying my loans overdue that...what's happening?",
+      "keywords": "I got a letter saying my loans overdue...what's happening?",
       "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "Loans"
       ],
       "issues": [
         {
-          "issue": "Overdue notice received despite payment.",
-          "reason(s)": "System error caused payment not to be reflected initially.",
+          "issue": "Customer received an overdue notice despite making payment.",
+          "reason(s)": "System error caused the payment not to be reflected initially.",
           "issue type": "Billing"
         }
       ],
-      "actions of agent": "Agent apologized, asked for the loan account number, checked the account, and confirmed the payment was updated.",
+      "actions of agent": "Agent checked the account, identified the system error, and confirmed the payment was updated.",
       "resolution status": "Resolved",
-      "Process Request": "N/A",
-      "resolution": "Payment was updated in the system.",
-      "resolution timestamp": "20.000 sec - 24.000 sec",
+      "Process Request": "Confirmation email to be sent.",
+      "resolution": "Agent confirmed the payment was updated and the account is clear.",
+      "resolution timestamp": "20.000 sec - 25.000 sec",
       "dominant emotions (customer)": [
         "Concern",
-        "Frustration"
+        "Confusion"
       ],
       "conversation sentiment": "Negative",
-      "customer satisfaction": "85",
-      "callback promise": "No",
-      "callback time": "N/A"
+      "customer satisfaction": "85"
     }
   ],
   "basic greeting and closing": "No",
   "fatal behaviour": "No",
-  "agent professionalism (out of 10)": "8",
+  "agent professionalism (out of 10)": "9",
   "agent performance (out of 10)": "9",
   "customer satisfaction (out of 10)": "8",
   "interruptions by customer": "0",
-  "interruptions by agent": "0"
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
 }

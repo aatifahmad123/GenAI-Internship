@@ -2,10 +2,10 @@
   "call id": "28",
   "agent id": "3",
   "call duration": "26.60",
-  "summary": "The agent addressed unauthorized card usage and initiated a dispute.",
+  "summary": "Agent assisted customer with unauthorized card usage and dispute.",
   "intents": [
     {
-      "intent": "Fraudulent Activity",
+      "intent": "Fraudulent Transaction",
       "confidence": "95",
       "keywords": "I got a bill for 8000 on my card, but...what's going on?",
       "intent timestamp": "0.000 sec - 9.000 sec",
@@ -14,42 +14,34 @@
       ],
       "issues": [
         {
-          "issue": "Unauthorized transaction",
-          "reason(s)": "Customer reports a bill for an amount they didn't spend.",
+          "issue": "Unauthorized transaction of $8000",
+          "reason(s)": "Potential card fraud",
           "issue type": "Billing"
         }
       ],
-      "actions of agent": "Verified last four digits of card, pledged to freeze the card, initiated a dispute.",
-      "resolution status": "Process Request",
-      "Process Request": "Dispute filing and credit freeze on the card.",
-      "resolution": "The agent will file a dispute and the customer should see a refund in 5-7 days.",
-      "resolution timestamp": "21.000 sec - 26.000 sec",
+      "actions of agent": "Verified last four digits of the card, pledged to freeze the card and file a dispute.",
+      "resolution status": "Pending with Callback",
+      "Process Request": "File a dispute for the unauthorized transaction.",
+      "resolution": "Credit freeze on the card and filing a dispute for the fraudulent charge. Refund in 5-7 days.",
+      "resolution timestamp": "13.000 sec - 18.000 sec",
       "dominant emotions (customer)": [
         "Worried",
         "Anxious"
       ],
       "conversation sentiment": "Negative",
-      "customer satisfaction": "70",
-      "callback promise": "No",
-      "callback time": "N/A"
+      "customer satisfaction": "70"
     },
     {
       "intent": "Refund Inquiry",
       "confidence": "90",
-      "keywords": "Thanks, but how long till I get...money back.",
-      "intent timestamp": "17.000 sec - 22.000 sec",
+      "keywords": "how long till I get my money back",
+      "intent timestamp": "18.000 sec - 21.000 sec",
       "products": [
         "Credit Card"
       ],
-      "issues": [
-        {
-          "issue": "Refund timeline",
-          "reason(s)": "Customer wants to know when they will receive their money back.",
-          "issue type": "Billing"
-        }
-      ],
+      "issues": [],
       "actions of agent": "Provided an estimated timeframe for the refund.",
-      "resolution status": "Resolved",
+      "resolution status": "Unresolved",
       "Process Request": "N/A",
       "resolution": "Refund will be processed in 5-7 days.",
       "resolution timestamp": "21.000 sec - 26.000 sec",
@@ -57,9 +49,7 @@
         "Concerned"
       ],
       "conversation sentiment": "Neutral",
-      "customer satisfaction": "75",
-      "callback promise": "No",
-      "callback time": "N/A"
+      "customer satisfaction": "75"
     }
   ],
   "basic greeting and closing": "No",
@@ -68,5 +58,7 @@
   "agent performance (out of 10)": "7",
   "customer satisfaction (out of 10)": "7",
   "interruptions by customer": "0",
-  "interruptions by agent": "0"
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
 }

@@ -7,58 +7,54 @@
     {
       "intent": "Login Issue",
       "confidence": "95",
-      "keywords": "I can't login to my net banking it says wrong ... I am sure it's right",
+      "keywords": "I can't login to my net banking it says wrong ... sure it's right",
       "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "Net Banking"
       ],
       "issues": [
         {
-          "issue": "Unable to login",
-          "reason(s)": "Incorrect password or system error",
+          "issue": "Customer is unable to login to net banking.",
+          "reason(s)": "Customer claims the password is correct but the system says it's wrong.",
           "issue type": "Technical"
         }
       ],
-      "actions of agent": "Verified the customer's registered mobile number and fixed the OTP issue.",
+      "actions of agent": "Agent apologized and asked if the customer had tried resetting the password.",
       "resolution status": "Resolved",
-      "Process Request": "N/A",
-      "resolution": "OTP issue fixed from backend.",
+      "Process Request": "Agent fixed the OTP issue in the backend.",
+      "resolution": "Agent resolved the OTP issue, and the customer should receive it now.",
       "resolution timestamp": "21.000 sec - 25.000 sec",
       "dominant emotions (customer)": [
         "Frustration"
       ],
       "conversation sentiment": "Negative",
-      "customer satisfaction": "70",
-      "callback promise": "No",
-      "callback time": "N/A"
+      "customer satisfaction": "70"
     },
     {
       "intent": "OTP Issue",
       "confidence": "90",
-      "keywords": "Yeah, but I don't get the OTP what's going on",
+      "keywords": "Yeah, but I don't get the OTP what's ... going on.",
       "intent timestamp": "8.000 sec - 13.000 sec",
       "products": [
         "Net Banking"
       ],
       "issues": [
         {
-          "issue": "OTP not received",
-          "reason(s)": "Possible network issue or incorrect registered mobile number",
+          "issue": "Customer is not receiving the OTP after attempting to reset the password.",
+          "reason(s)": "Unknown, potentially a system error or issue with the mobile number.",
           "issue type": "Technical"
         }
       ],
-      "actions of agent": "Verified the registered mobile number and resolved the OTP delivery issue.",
+      "actions of agent": "Agent verified the registered mobile number and fixed the OTP issue.",
       "resolution status": "Resolved",
-      "Process Request": "Backend fix for OTP delivery",
-      "resolution": "OTP delivery issue resolved.",
+      "Process Request": "Agent fixed the OTP issue in the backend.",
+      "resolution": "Agent resolved the OTP issue, and the customer should receive it now.",
       "resolution timestamp": "21.000 sec - 25.000 sec",
       "dominant emotions (customer)": [
         "Frustration"
       ],
       "conversation sentiment": "Negative",
-      "customer satisfaction": "75",
-      "callback promise": "No",
-      "callback time": "N/A"
+      "customer satisfaction": "75"
     }
   ],
   "basic greeting and closing": "No",
@@ -67,5 +63,7 @@
   "agent performance (out of 10)": "8",
   "customer satisfaction (out of 10)": "7",
   "interruptions by customer": "0",
-  "interruptions by agent": "0"
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
 }

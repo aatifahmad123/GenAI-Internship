@@ -14,18 +14,16 @@
       ],
       "issues": [],
       "actions of agent": "Checked the loan application status using the customer's name.",
-      "resolution status": "Process Request",
-      "Process Request": "Agent will send the list of required KYC documents via SMS.",
-      "resolution": "The agent informed the customer that the loan application was approved but KYC documents are needed.",
-      "resolution timestamp": "14.000 sec - 20.000 sec",
+      "resolution status": "Unresolved",
+      "Process Request": "N/A",
+      "resolution": "The agent informed the customer that the loan was approved but KYC documents are required.",
+      "resolution timestamp": "16.000 sec - 20.000 sec",
       "dominant emotions (customer)": [
         "Inquiry",
         "Concern"
       ],
       "conversation sentiment": "Neutral",
-      "customer satisfaction": "70",
-      "callback promise": "No",
-      "callback time": "N/A"
+      "customer satisfaction": "60"
     },
     {
       "intent": "KYC Information Request",
@@ -42,26 +40,26 @@
           "issue type": "Service"
         }
       ],
-      "actions of agent": "Explained KYC and offered to send required documents via SMS.",
-      "resolution status": "Process Request",
-      "Process Request": "Agent will send the list of required KYC documents via SMS.",
-      "resolution": "Agent explained KYC and promised to send the list of required documents.",
-      "resolution timestamp": "25.000 sec - 32.000 sec",
+      "actions of agent": "Explained KYC and offered to send a list of required documents via SMS.",
+      "resolution status": "Unresolved",
+      "Process Request": "Send list of documents via SMS",
+      "resolution": "Agent will send the list of required KYC documents via SMS.",
+      "resolution timestamp": "28.000 sec - 32.000 sec",
       "dominant emotions (customer)": [
         "Confusion",
         "Frustration"
       ],
-      "conversation sentiment": "Neutral",
-      "customer satisfaction": "75",
-      "callback promise": "No",
-      "callback time": "N/A"
+      "conversation sentiment": "Negative",
+      "customer satisfaction": "50"
     }
   ],
   "basic greeting and closing": "Yes",
   "fatal behaviour": "No",
   "agent professionalism (out of 10)": "8",
-  "agent performance (out of 10)": "8",
-  "customer satisfaction (out of 10)": "7",
+  "agent performance (out of 10)": "7",
+  "customer satisfaction (out of 10)": "6",
   "interruptions by customer": "0",
-  "interruptions by agent": "0"
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
 }

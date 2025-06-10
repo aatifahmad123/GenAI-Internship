@@ -2,7 +2,7 @@
   "call id": "43",
   "agent id": "5",
   "call duration": "27",
-  "summary": "The agent resolved a billing issue by refunding an erroneous fee.",
+  "summary": "The agent addressed an erroneous charge and processed a refund.",
   "intents": [
     {
       "intent": "Billing Dispute",
@@ -22,23 +22,50 @@
       "actions of agent": "Identified the erroneous charge and initiated a refund.",
       "resolution status": "Resolved",
       "Process Request": "Refund processed",
-      "resolution": "Refund will be processed and reflected in the account within 24 hours.",
+      "resolution": "Refund will be processed and reflected in the customer's account within 24 hours.",
       "resolution timestamp": "23.000 sec - 27.000 sec",
       "dominant emotions (customer)": [
-        "Angry",
-        "Frustrated"
+        "Frustration",
+        "Anger"
       ],
       "conversation sentiment": "Negative",
-      "customer satisfaction": "60",
-      "callback promise": "No",
-      "callback time": "N/A"
+      "customer satisfaction": "60"
+    },
+    {
+      "intent": "Account Closure Threat",
+      "confidence": "85",
+      "keywords": "fix this or I am closing my account",
+      "intent timestamp": "8.000 sec - 14.000 sec",
+      "products": [
+        "Bank Account"
+      ],
+      "issues": [
+        {
+          "issue": "Customer threatened to close account",
+          "reason(s)": "Due to unauthorized charge",
+          "issue type": "Service"
+        }
+      ],
+      "actions of agent": "Addressed the billing issue and apologized for the inconvenience.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "Agent assured resolution by refunding the erroneous charge.",
+      "resolution timestamp": "23.000 sec - 27.000 sec",
+      "dominant emotions (customer)": [
+        "Anger",
+        "Threat"
+      ],
+      "conversation sentiment": "Negative",
+      "customer satisfaction": "60"
     }
   ],
   "basic greeting and closing": "No",
   "fatal behaviour": "No",
   "agent professionalism (out of 10)": "7",
-  "agent performance (out of 10)": "8",
+  "agent performance (out of 10)": "7",
   "customer satisfaction (out of 10)": "6",
   "interruptions by customer": "0",
-  "interruptions by agent": "0"
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
 }

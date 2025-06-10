@@ -2,7 +2,7 @@
   "call id": "18",
   "agent id": "2",
   "call duration": "28",
-  "summary": "Customer facing error while applying for car loan online.",
+  "summary": "Customer encountered an error applying for a car loan online.",
   "intents": [
     {
       "intent": "Car Loan Application Issue",
@@ -19,26 +19,26 @@
           "issue type": "Technical"
         }
       ],
-      "actions of agent": "Suggested uploading documents in PDF format or processing manually.",
-      "resolution status": "Process Request",
-      "Process Request": "Customer to email documents to loan desk for manual processing.",
-      "resolution": "Agent will process the application manually upon receiving the documents.",
+      "actions of agent": "Offered troubleshooting steps and manual processing of the application.",
+      "resolution status": "Resolved",
+      "Process Request": "Manual processing of car loan application.",
+      "resolution": "Agent offered to process the application manually after the customer emails the documents.",
       "resolution timestamp": "22.000 sec - 28.000 sec",
       "dominant emotions (customer)": [
         "Frustration",
         "Confusion"
       ],
       "conversation sentiment": "Negative",
-      "customer satisfaction": "75",
-      "callback promise": "No",
-      "callback time": "N/A"
+      "customer satisfaction": "85"
     }
   ],
   "basic greeting and closing": "No",
   "fatal behaviour": "No",
-  "agent professionalism (out of 10)": "8",
-  "agent performance (out of 10)": "8",
-  "customer satisfaction (out of 10)": "7",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "8",
   "interruptions by customer": "0",
-  "interruptions by agent": "0"
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
 }

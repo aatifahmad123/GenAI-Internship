@@ -2,10 +2,10 @@
   "call id": "50",
   "agent id": "5",
   "call duration": "25.88",
-  "summary": "Customer inquired about increasing recurring deposit amount.",
+  "summary": "Customer inquired about increasing the recurring deposit amount.",
   "intents": [
     {
-      "intent": "Recurring Deposit Increase",
+      "intent": "Recurring Deposit Modification",
       "confidence": "95",
       "keywords": "I set up a recurring deposit...How do I increase the amount?",
       "intent timestamp": "0.000 sec - 8.000 sec",
@@ -19,26 +19,26 @@
           "issue type": "Service"
         }
       ],
-      "actions of agent": "The agent provided information on how to modify the recurring deposit by submitting a request form.",
-      "resolution status": "Process Request",
-      "Process Request": "Agent sent a form to the customer's email to modify the RD and will follow up once it's processed.",
-      "resolution": "The agent sent the customer a form to modify the recurring deposit amount.",
-      "resolution timestamp": "17.000 sec - 26.000 sec",
+      "actions of agent": "The agent provided information about submitting a request form.",
+      "resolution status": "Resolved",
+      "Process Request": "Agent sent the modification form to the customer's email.",
+      "resolution": "The agent sent the customer a form to modify their recurring deposit amount.",
+      "resolution timestamp": "17.000 sec - 19.000 sec",
       "dominant emotions (customer)": [
         "Inquisitive",
         "Positive"
       ],
       "conversation sentiment": "Positive",
-      "customer satisfaction": "90",
-      "callback promise": "Yes",
-      "callback time": "Once the form is processed"
+      "customer satisfaction": "90"
     }
   ],
   "basic greeting and closing": "No",
   "fatal behaviour": "No",
   "agent professionalism (out of 10)": "8",
-  "agent performance (out of 10)": "9",
+  "agent performance (out of 10)": "8",
   "customer satisfaction (out of 10)": "9",
   "interruptions by customer": "0",
-  "interruptions by agent": "0"
+  "interruptions by agent": "0",
+  "callback promise": "Yes",
+  "callback time": "Once it's processed"
 }

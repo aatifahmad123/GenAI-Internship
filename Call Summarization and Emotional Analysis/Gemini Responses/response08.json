@@ -2,7 +2,7 @@
   "call id": "8",
   "agent id": "1",
   "call duration": "23.92",
-  "summary": "Customer inquires about setting up UPI and gets assistance.",
+  "summary": "Customer inquired about setting up UPI and got assistance.",
   "intents": [
     {
       "intent": "UPI Setup Assistance",
@@ -13,20 +13,24 @@
         "Savings Account",
         "Mobile App"
       ],
-      "issues": [],
+      "issues": [
+        {
+          "issue": "Customer needs guidance on setting up UPI.",
+          "reason(s)": "New user, unfamiliar with the UPI setup process.",
+          "issue type": "General Inquiry"
+        }
+      ],
       "actions of agent": "The agent provided instructions on how to set up UPI.",
       "resolution status": "Resolved",
       "Process Request": "N/A",
-      "resolution": "Customer was informed to go to the apps UPI section, link account and set UPI pin.",
+      "resolution": "The agent instructed the customer to go to the UPI section in the app, link their account, and set a UPI pin.",
       "resolution timestamp": "10.000 sec - 16.000 sec",
       "dominant emotions (customer)": [
         "Inquisitive",
         "Positive"
       ],
       "conversation sentiment": "Positive",
-      "customer satisfaction": "100",
-      "callback promise": "No",
-      "callback time": "N/A"
+      "customer satisfaction": "100"
     }
   ],
   "basic greeting and closing": "Yes",
@@ -35,5 +39,7 @@
   "agent performance (out of 10)": "10",
   "customer satisfaction (out of 10)": "10",
   "interruptions by customer": "0",
-  "interruptions by agent": "0"
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
 }

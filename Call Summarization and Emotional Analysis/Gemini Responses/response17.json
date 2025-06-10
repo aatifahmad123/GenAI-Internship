@@ -1,13 +1,13 @@
 {
   "call id": "17",
   "agent id": "2",
-  "call duration": "28.88",
-  "summary": "Customer reports unauthorized withdrawal; agent freezes account and investigates.",
+  "call duration": "28",
+  "summary": "Customer reported unauthorized withdrawal; agent froze account and filed report.",
   "intents": [
     {
       "intent": "Fraudulent Transaction Report",
       "confidence": "95",
-      "keywords": "I am worried my savings account shows of withdrawal...someone stealing my money",
+      "keywords": "I am worried my savings account shows of withdrawal...someone stealing my money.",
       "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "Savings Account"
@@ -19,26 +19,26 @@
           "issue type": "Billing"
         }
       ],
-      "actions of agent": "Confirmed transaction details, froze the account, and filed a fraud report.",
-      "resolution status": "Process Request",
-      "Process Request": "Reverse the fraudulent transaction and keep the customer updated.",
-      "resolution": "The agent will reverse the transaction within 5 to 7 days.",
-      "resolution timestamp": "24.000 sec - 28.000 sec",
+      "actions of agent": "Confirmed transaction details, froze the account, filed a fraud report, and assured the customer of fund recovery.",
+      "resolution status": "Resolved",
+      "Process Request": "Fraud report filing and transaction reversal.",
+      "resolution": "The agent assured the customer that the transaction would be reversed within 5 to 7 days.",
+      "resolution timestamp": "23.000 sec - 28.000 sec",
       "dominant emotions (customer)": [
         "Worried",
         "Scared"
       ],
       "conversation sentiment": "Negative",
-      "customer satisfaction": "70",
-      "callback promise": "No",
-      "callback time": "N/A"
+      "customer satisfaction": "85"
     }
   ],
   "basic greeting and closing": "No",
   "fatal behaviour": "No",
-  "agent professionalism (out of 10)": "8",
+  "agent professionalism (out of 10)": "9",
   "agent performance (out of 10)": "9",
-  "customer satisfaction (out of 10)": "7",
+  "customer satisfaction (out of 10)": "8",
   "interruptions by customer": "0",
-  "interruptions by agent": "0"
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
 }

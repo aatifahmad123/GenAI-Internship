@@ -2,13 +2,13 @@
   "call id": "14",
   "agent id": "2",
   "call duration": "27",
-  "summary": "Customer inquired about setting up NEFT transfer and was assisted.",
+  "summary": "Customer inquired about setting up NEFT transfer, agent provided guidance.",
   "intents": [
     {
       "intent": "NEFT Transfer Setup",
       "confidence": "95",
-      "keywords": "How do I set up NEFT ... takes 24 hours to activate",
-      "intent timestamp": "3.000 sec - 21.000 sec",
+      "keywords": "How do I set up NEFT ... you need help with anything else",
+      "intent timestamp": "3.000 sec - 27.000 sec",
       "products": [
         "Savings Account",
         "Mobile App"
@@ -20,20 +20,17 @@
           "issue type": "General Inquiry"
         }
       ],
-      "actions of agent": "The agent explained the process of setting up NEFT transfer using the mobile app.",
+      "actions of agent": "The agent explained the process of setting up NEFT transfer using the mobile app, including adding a beneficiary and the required information.",
       "resolution status": "Resolved",
       "Process Request": "N/A",
-      "resolution": "The agent informed the customer to go to the apps transfer section and add a beneficiary with account number and IFSC code. It takes 24 hours to activate.",
+      "resolution": "The agent provided clear instructions on how to set up NEFT transfer, including beneficiary details and activation time.",
       "resolution timestamp": "5.000 sec - 21.000 sec",
       "dominant emotions (customer)": [
         "Excited",
-        "Curious",
-        "Satisfied"
+        "Happy"
       ],
       "conversation sentiment": "Positive",
-      "customer satisfaction": "100",
-      "callback promise": "No",
-      "callback time": "N/A"
+      "customer satisfaction": "100"
     }
   ],
   "basic greeting and closing": "Yes",
@@ -42,5 +39,7 @@
   "agent performance (out of 10)": "10",
   "customer satisfaction (out of 10)": "10",
   "interruptions by customer": "0",
-  "interruptions by agent": "0"
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
 }

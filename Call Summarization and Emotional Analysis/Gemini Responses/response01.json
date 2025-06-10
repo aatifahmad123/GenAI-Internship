@@ -2,7 +2,7 @@
   "call id": "1",
   "agent id": "1",
   "call duration": "59",
-  "summary": "The customer reports a duplicate charge on their credit card.",
+  "summary": "Customer reports duplicate charge and requests a refund.",
   "intents": [
     {
       "intent": "Billing Dispute",
@@ -14,31 +14,31 @@
       ],
       "issues": [
         {
-          "issue": "Duplicate charge",
-          "reason(s)": "System error",
+          "issue": "Duplicate charge on credit card",
+          "reason(s)": "System error leading to double billing",
           "issue type": "Billing"
         }
       ],
-      "actions of agent": "The agent apologized, gathered transaction details, and initiated a chargeback request.",
-      "resolution status": "Process Request",
-      "Process Request": "Initiated a chargeback request.",
-      "resolution": "Refund to be processed in 5-7 business days.",
+      "actions of agent": "Agent apologized, collected transaction details, initiated a chargeback request, and promised updates.",
+      "resolution status": "Resolved",
+      "Process Request": "Chargeback request initiated.",
+      "resolution": "Refund will be reflected in 5 to 7 business days.",
       "resolution timestamp": "51.000 sec - 53.000 sec",
       "dominant emotions (customer)": [
         "Frustration",
         "Anger"
       ],
       "conversation sentiment": "Negative",
-      "customer satisfaction": "40",
-      "callback promise": "No",
-      "callback time": "N/A"
+      "customer satisfaction": "60"
     }
   ],
   "basic greeting and closing": "No",
   "fatal behaviour": "No",
   "agent professionalism (out of 10)": "7",
   "agent performance (out of 10)": "7",
-  "customer satisfaction (out of 10)": "4",
-  "interruptions by customer": "2",
-  "interruptions by agent": "0"
+  "customer satisfaction (out of 10)": "6",
+  "interruptions by customer": "3",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
 }

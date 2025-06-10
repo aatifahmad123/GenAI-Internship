@@ -8,7 +8,7 @@
       "intent": "Address Update",
       "confidence": "95",
       "keywords": "I went to the branch to update my address ... it's not done yet",
-      "intent timestamp": "0.000 sec - 8.000 sec",
+      "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "Bank Account"
       ],
@@ -19,26 +19,26 @@
           "issue type": "Service"
         }
       ],
-      "actions of agent": "Agent checked the status and informed the customer about the missing signature.",
-      "resolution status": "Process Request",
-      "Process Request": "Agent will email the form to the customer's registered email address and expedite the update once the signed form is submitted.",
-      "resolution": "Agent will email the form to the customer and expedite the update.",
+      "actions of agent": "Agent checked the status of the address update and identified the reason for the delay. Agent offered to email the form and expedite the update.",
+      "resolution status": "Unresolved",
+      "Process Request": "Agent will email the form to the customer.",
+      "resolution": "The agent will email the form to the customer, and expedite the update once the signed form is submitted.",
       "resolution timestamp": "27.000 sec - 34.000 sec",
       "dominant emotions (customer)": [
         "Frustration",
         "Annoyance"
       ],
       "conversation sentiment": "Negative",
-      "customer satisfaction": "60",
-      "callback promise": "No",
-      "callback time": "N/A"
+      "customer satisfaction": "60"
     }
   ],
-  "basic greeting and closing": "Yes",
+  "basic greeting and closing": "No",
   "fatal behaviour": "No",
   "agent professionalism (out of 10)": "8",
   "agent performance (out of 10)": "7",
   "customer satisfaction (out of 10)": "6",
   "interruptions by customer": "0",
-  "interruptions by agent": "0"
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
 }

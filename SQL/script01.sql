@@ -33,6 +33,8 @@ CREATE TABLE Calls (
     agent_professionalism INT, -- Agent professionalism score (0-10)
     agent_performance INT, -- Agent performance score (0-10)
     customer_satisfaction INT, -- Customer satisfaction score (0-10)
+    callback_promise BOOLEAN, -- Whether a callback was promised
+    callback_time VARCHAR(50), -- Callback time or N/A
     FOREIGN KEY (agent_id) REFERENCES Agents(agent_id) ON DELETE SET NULL ON UPDATE CASCADE
 );
 
@@ -47,7 +49,7 @@ CREATE TABLE Intents (
     products TEXT, -- Products mentioned (e.g., Credit Card)
     issues TEXT, -- Issues described (e.g., Duplicate charge)
     actions_of_agent TEXT, -- Actions taken by agent
-    resolution_status ENUM('Resolved', 'Unresolved', 'Process Request'), -- Resolution status
+    resolution_status ENUM('Resolved', 'Unresolved', 'Pending with Callback'), -- Resolution status
     process_request TEXT, -- Details of process request
     resolution TEXT, -- Resolution description
     resolution_begin_timestamp FLOAT, -- Start timestamp of resolution
@@ -55,13 +57,11 @@ CREATE TABLE Intents (
     dominant_emotions_customer TEXT, -- Customer emotions (e.g., Frustration, Anger)
     conversation_sentiment ENUM('Positive', 'Negative', 'Neutral'), -- Sentiment of conversation
     customer_satisfaction INT, -- Customer satisfaction for this intent (0-100)
-    callback_promise BOOLEAN, -- Whether a callback was promised
-    callback_time VARCHAR(50), -- Callback time or N/A
     FOREIGN KEY (call_id) REFERENCES Calls(call_id) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
-SHOW TABLES;
+-- SHOW TABLES;
 
-SELECT * FROM Agents;
-SELECT * FROM Calls;
-SELECT * FROM Intents;
+-- SELECT * FROM Agents;
+-- SELECT * FROM Calls;
+-- SELECT * FROM Intents;

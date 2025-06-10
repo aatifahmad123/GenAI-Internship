@@ -2,7 +2,7 @@
   "call id": "31",
   "agent id": "4",
   "call duration": "32",
-  "summary": "The agent addressed unauthorized charge and initiated a chargeback.",
+  "summary": "Customer is furious about unauthorized subscription charge.",
   "intents": [
     {
       "intent": "Billing Dispute",
@@ -14,31 +14,31 @@
       ],
       "issues": [
         {
-          "issue": "Unauthorized charge of $12000",
-          "reason(s)": "Recurring charge after cancellation",
+          "issue": "Unauthorized recurring charge",
+          "reason(s)": "Customer claims to have cancelled the subscription months ago.",
           "issue type": "Billing"
         }
       ],
-      "actions of agent": "Agent located the transaction, initiated a chargeback, and blocked further charges.",
+      "actions of agent": "Initiated a chargeback and blocked further charges.",
       "resolution status": "Resolved",
-      "Process Request": "Chargeback initiation",
-      "resolution": "Chargeback initiated, refund in 5-7 days.",
-      "resolution timestamp": "27.000 sec - 32.000 sec",
+      "Process Request": "Chargeback initiated.",
+      "resolution": "Chargeback filed, refund expected in 5-7 days.",
+      "resolution timestamp": "28.000 sec - 32.000 sec",
       "dominant emotions (customer)": [
         "Furious",
-        "Frustration"
+        "Frustrated"
       ],
       "conversation sentiment": "Negative",
-      "customer satisfaction": "60",
-      "callback promise": "No",
-      "callback time": "N/A"
+      "customer satisfaction": "60"
     }
   ],
-  "basic greeting and closing": "Yes",
+  "basic greeting and closing": "No",
   "fatal behaviour": "No",
   "agent professionalism (out of 10)": "7",
   "agent performance (out of 10)": "8",
   "customer satisfaction (out of 10)": "6",
   "interruptions by customer": "0",
-  "interruptions by agent": "0"
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
 }

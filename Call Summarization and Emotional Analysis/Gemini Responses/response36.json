@@ -5,21 +5,21 @@
   "summary": "Agent resolved customer's loan account NPA status issue.",
   "intents": [
     {
-      "intent": "Loan Account Issue",
+      "intent": "NPA Status Inquiry",
       "confidence": "95",
-      "keywords": "I am so stressed my loan accounts marked npa, ... I been paying",
-      "intent timestamp": "0.000 sec - 5.000 sec",
+      "keywords": "I am so stressed my loan accounts marked npa...I been paying",
+      "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "Loan Account"
       ],
       "issues": [
         {
-          "issue": "Loan account marked as NPA despite payments.",
-          "reason(s)": "Bank error leading to a missed payment.",
+          "issue": "Loan account incorrectly marked as NPA",
+          "reason(s)": "Payment was missed due to a bank error.",
           "issue type": "Billing"
         }
       ],
-      "actions of agent": "Identified the issue, confirmed the bank error, and corrected the NPA status.",
+      "actions of agent": "Confirmed account number, identified the cause of the NPA status, and corrected the status.",
       "resolution status": "Resolved",
       "Process Request": "N/A",
       "resolution": "Agent confirmed the account is clear and reported to CIBIL.",
@@ -29,9 +29,7 @@
         "Worried"
       ],
       "conversation sentiment": "Negative",
-      "customer satisfaction": "85",
-      "callback promise": "No",
-      "callback time": "N/A"
+      "customer satisfaction": "85"
     }
   ],
   "basic greeting and closing": "No",
@@ -40,5 +38,7 @@
   "agent performance (out of 10)": "9",
   "customer satisfaction (out of 10)": "8",
   "interruptions by customer": "0",
-  "interruptions by agent": "0"
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
 }

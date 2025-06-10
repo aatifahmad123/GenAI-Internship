@@ -1,8 +1,8 @@
 {
   "call id": "24",
   "agent id": "3",
-  "call duration": "26.04",
-  "summary": "Customer wants to activate new credit card, agent assists.",
+  "call duration": "26",
+  "summary": "The customer requested to activate their new credit card.",
   "intents": [
     {
       "intent": "Card Activation",
@@ -13,18 +13,16 @@
         "Credit Card"
       ],
       "issues": [],
-      "actions of agent": "Agent offered to activate the card and asked for the card number.",
+      "actions of agent": "The agent offered to activate the card for the customer and activated it.",
       "resolution status": "Resolved",
       "Process Request": "N/A",
-      "resolution": "Agent activated the card for the customer.",
-      "resolution timestamp": "15.000 sec - 17.000 sec",
+      "resolution": "The agent activated the customer's credit card.",
+      "resolution timestamp": "15.000 sec - 18.000 sec",
       "dominant emotions (customer)": [
         "Happy"
       ],
       "conversation sentiment": "Positive",
-      "customer satisfaction": "100",
-      "callback promise": "No",
-      "callback time": "N/A"
+      "customer satisfaction": "100"
     }
   ],
   "basic greeting and closing": "Yes",
@@ -33,5 +31,7 @@
   "agent performance (out of 10)": "10",
   "customer satisfaction (out of 10)": "10",
   "interruptions by customer": "0",
-  "interruptions by agent": "0"
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
 }

@@ -2,7 +2,7 @@
   "call id": "2",
   "agent id": "1",
   "call duration": "58",
-  "summary": "The agent addressed the customer's loan application status.",
+  "summary": "The agent addressed the customer's personal loan application status.",
   "intents": [
     {
       "intent": "Check Loan Application Status",
@@ -14,53 +14,49 @@
       ],
       "issues": [
         {
-          "issue": "Lack of updates on loan application status.",
-          "reason(s)": "Pending CIBIL score review.",
+          "issue": "Loan application status is unknown to the customer.",
+          "reason(s)": "Lack of communication regarding the application status.",
           "issue type": "Service"
         }
       ],
-      "actions of agent": "Checked the loan application status and provided an update.",
-      "resolution status": "Unresolved",
+      "actions of agent": "Checked the application status using the customer's name.",
+      "resolution status": "Pending with Callback",
       "Process Request": "N/A",
-      "resolution": "The agent informed the customer that the application is under review due to the CIBIL score and it should reflect in 5 to 7 business days.",
-      "resolution timestamp": "45.000 sec - 49.000 sec",
+      "resolution": "The agent informed the customer that the application is under review due to CIBIL score and will provide updates.",
+      "resolution timestamp": "49.000 sec - 53.000 sec",
       "dominant emotions (customer)": [
         "Frustration",
-        "Urgency"
+        "Anxiety"
       ],
       "conversation sentiment": "Negative",
-      "customer satisfaction": "50",
-      "callback promise": "Yes",
-      "callback time": "Every step of the way"
+      "customer satisfaction": "60"
     },
     {
       "intent": "Inquiry about CIBIL score",
       "confidence": "90",
-      "keywords": "Sibal what's that? Nobody tell me about this. Why is...",
-      "intent timestamp": "31.000 sec - 36.000 sec",
+      "keywords": "Sibal what's that? Nobody tell me about this. Why...",
+      "intent timestamp": "32.000 sec - 37.000 sec",
       "products": [
         "Personal Loan"
       ],
       "issues": [
         {
-          "issue": "Customer unaware of CIBIL score importance.",
-          "reason(s)": "Lack of communication from the company.",
+          "issue": "Customer is unaware of CIBIL score and its impact on loan application.",
+          "reason(s)": "Lack of explanation during the application process.",
           "issue type": "General Inquiry"
         }
       ],
-      "actions of agent": "Explained what CIBIL score is.",
+      "actions of agent": "Explained that CIBIL is the customer's credit score.",
       "resolution status": "Resolved",
       "Process Request": "N/A",
-      "resolution": "The agent explained that CIBIL is the customer's credit score.",
-      "resolution timestamp": "37.000 sec - 40.000 sec",
+      "resolution": "The agent explained what CIBIL score is.",
+      "resolution timestamp": "37.000 sec - 41.000 sec",
       "dominant emotions (customer)": [
         "Confusion",
-        "Frustration"
+        "Concern"
       ],
       "conversation sentiment": "Neutral",
-      "customer satisfaction": "60",
-      "callback promise": "No",
-      "callback time": "N/A"
+      "customer satisfaction": "70"
     }
   ],
   "basic greeting and closing": "Yes",
@@ -69,5 +65,7 @@
   "agent performance (out of 10)": "7",
   "customer satisfaction (out of 10)": "6",
   "interruptions by customer": "3",
-  "interruptions by agent": "0"
+  "interruptions by agent": "0",
+  "callback promise": "Yes",
+  "callback time": "Every step of the way"
 }

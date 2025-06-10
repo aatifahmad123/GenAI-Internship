@@ -2,48 +2,70 @@
   "call id": "26",
   "agent id": "3",
   "call duration": "30.80",
-  "summary": "Agent processed manual loan payment for the customer.",
+  "summary": "Agent processed manual loan payment to resolve customer issue.",
   "intents": [
     {
-      "intent": "Payment Assistance",
+      "intent": "Account Access Issue",
       "confidence": "95",
-      "keywords": "I am freaking out my loan payment is due, but I ... my account to pay it.",
+      "keywords": "I am freaking out my loan payment is due, ... access my account to pay it.",
       "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "Loan"
       ],
       "issues": [
         {
-          "issue": "Unable to access account to make payment.",
-          "reason(s)": "Unknown reason for access issue.",
+          "issue": "Customer unable to access account to make loan payment.",
+          "reason(s)": "Unknown reason for account access issue.",
           "issue type": "Technical"
-        },
-        {
-          "issue": "Concern about impact on credit score due to missed payment.",
-          "reason(s)": "Potential late payment.",
-          "issue type": "Billing"
         }
       ],
-      "actions of agent": "Offered manual payment processing or extending the due date and processed manual payment.",
+      "actions of agent": "Offered to process a manual payment or extend the due date.",
       "resolution status": "Resolved",
-      "Process Request": "Manual payment processing.",
-      "resolution": "Manual payment processed and account updated.",
+      "Process Request": "Manual payment processed by agent.",
+      "resolution": "Agent processed a manual payment for the customer.",
       "resolution timestamp": "25.000 sec - 30.000 sec",
       "dominant emotions (customer)": [
         "Anxious",
         "Frustrated"
       ],
       "conversation sentiment": "Negative",
-      "customer satisfaction": "85",
-      "callback promise": "No",
-      "callback time": "N/A"
+      "customer satisfaction": "85"
+    },
+    {
+      "intent": "Payment Issue",
+      "confidence": "90",
+      "keywords": "what if I miss the payment will it hurt my credit?",
+      "intent timestamp": "11.000 sec - 16.000 sec",
+      "products": [
+        "Loan"
+      ],
+      "issues": [
+        {
+          "issue": "Customer worried about the impact of missing a payment on their credit score.",
+          "reason(s)": "Customer unable to make payment due to account access issue.",
+          "issue type": "Billing"
+        }
+      ],
+      "actions of agent": "Assured the customer and processed manual payment.",
+      "resolution status": "Resolved",
+      "Process Request": "Manual payment processed by agent.",
+      "resolution": "Agent processed a manual payment for the customer.",
+      "resolution timestamp": "25.000 sec - 30.000 sec",
+      "dominant emotions (customer)": [
+        "Worried",
+        "Concerned"
+      ],
+      "conversation sentiment": "Negative",
+      "customer satisfaction": "90"
     }
   ],
   "basic greeting and closing": "Yes",
   "fatal behaviour": "No",
   "agent professionalism (out of 10)": "9",
   "agent performance (out of 10)": "9",
-  "customer satisfaction (out of 10)": "8",
+  "customer satisfaction (out of 10)": "9",
   "interruptions by customer": "0",
-  "interruptions by agent": "0"
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
 }

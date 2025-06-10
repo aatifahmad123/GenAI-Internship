@@ -2,7 +2,7 @@
   "call id": "29",
   "agent id": "3",
   "call duration": "30",
-  "summary": "Customer is unable to access loan balance online.",
+  "summary": "Customer unable to access loan balance online, agent fixed it.",
   "intents": [
     {
       "intent": "Account Access Issue",
@@ -14,53 +14,49 @@
       ],
       "issues": [
         {
-          "issue": "Customer is unable to access their loan account online.",
-          "reason(s)": "Account is not linked to the online portal.",
+          "issue": "Customer cannot access loan balance online.",
+          "reason(s)": "Account not linked to the online portal.",
           "issue type": "Technical"
         }
       ],
-      "actions of agent": "Agent confirmed the account number and offered to link the account to the portal and provide login instructions and a guide.",
+      "actions of agent": "Agent linked the account to the portal and provided login instructions and a guide.",
       "resolution status": "Resolved",
-      "Process Request": "Account linking to portal.",
-      "resolution": "Agent will link the account and send login instructions and guide.",
-      "resolution timestamp": "18.000 sec - 21.000 sec",
+      "Process Request": "Account linked to portal.",
+      "resolution": "Account linked to the portal and login instructions sent.",
+      "resolution timestamp": "17.000 sec - 21.000 sec",
       "dominant emotions (customer)": [
         "Frustration",
         "Concern"
       ],
       "conversation sentiment": "Neutral",
-      "customer satisfaction": "85",
-      "callback promise": "Yes",
-      "callback time": "If needed"
+      "customer satisfaction": "85"
     },
     {
       "intent": "Assistance Request",
-      "confidence": "90",
-      "keywords": "Ok but I am not good with these online things will it be easy?",
-      "intent timestamp": "21.000 sec - 26.000 sec",
+      "confidence": "80",
+      "keywords": "Ok but I am not good with these online things...will it be easy?",
+      "intent timestamp": "20.000 sec - 26.000 sec",
       "products": [
         "Loan Portal"
       ],
       "issues": [
         {
-          "issue": "Customer expresses concern about ease of use of online portal.",
-          "reason(s)": "Customer is not comfortable with online systems.",
-          "issue type": "Service"
+          "issue": "Customer expresses difficulty with online systems.",
+          "reason(s)": "Customer is not familiar with online processes.",
+          "issue type": "General Inquiry"
         }
       ],
-      "actions of agent": "Agent reassured the customer that it is simple, will send a guide, and offered further assistance via call.",
+      "actions of agent": "Agent assured customer of simplicity and offered a guide and further assistance.",
       "resolution status": "Resolved",
       "Process Request": "N/A",
-      "resolution": "Agent reassures customer and offers support.",
+      "resolution": "Agent provided reassurance and offered a guide and further assistance.",
       "resolution timestamp": "25.000 sec - 30.000 sec",
       "dominant emotions (customer)": [
         "Anxiety",
         "Uncertainty"
       ],
       "conversation sentiment": "Neutral",
-      "customer satisfaction": "90",
-      "callback promise": "Yes",
-      "callback time": "If needed"
+      "customer satisfaction": "90"
     }
   ],
   "basic greeting and closing": "No",
@@ -69,5 +65,7 @@
   "agent performance (out of 10)": "9",
   "customer satisfaction (out of 10)": "8",
   "interruptions by customer": "0",
-  "interruptions by agent": "0"
+  "interruptions by agent": "0",
+  "callback promise": "Yes",
+  "callback time": "If needed"
 }

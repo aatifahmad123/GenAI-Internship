@@ -1,67 +1,65 @@
 {
-  "call id": "9",
-  "agent id": "1",
-  "call duration": "40",
-  "summary": "The agent assisted the customer with EMI Moratorium process.",
-  "intents": [
-    {
-      "intent": "EMI Moratorium Request",
-      "confidence": "95",
-      "keywords": "I am trying to get an EMI Moratorium...website so confusing.",
-      "intent timestamp": "0.000 sec - 9.000 sec",
-      "products": [
-        "Home Loan"
-      ],
-      "issues": [
+    "call id": "9",
+    "agent id": "1",
+    "call duration": "40.84",
+    "summary": "The agent assisted the customer with EMI Moratorium process.",
+    "intents": [
         {
-          "issue": "Website is confusing",
-          "reason(s)": "N/A",
-          "issue type": "Service"
+            "intent": "EMI Moratorium Request",
+            "confidence": "95",
+            "keywords": "I am trying to get an EMI Moratorium for my home loan...website so confusing.",
+            "intent timestamp": "0.000 sec - 9.000 sec",
+            "products": [
+                "Home Loan"
+            ],
+            "issues": [
+                {
+                    "issue": "Website is confusing",
+                    "reason(s)": "N/A",
+                    "issue type": "Service"
+                }
+            ],
+            "actions of agent": "The agent offered assistance, checked eligibility, and offered a 3-month moratorium.",
+            "resolution status": "Resolved",
+            "Process Request": "N/A",
+            "resolution": "Customer was informed about eligibility for a 3-month moratorium and agreed to proceed.",
+            "resolution timestamp": "23.000 sec - 27.000 sec",
+            "dominant emotions (customer)": [
+                "Frustration",
+                "Relief"
+            ],
+            "conversation sentiment": "Positive",
+            "customer satisfaction": "90"
+        },
+        {
+            "intent": "CIBIL Score Inquiry",
+            "confidence": "98",
+            "keywords": "will it affect my CIBIL score?",
+            "intent timestamp": "24.000 sec - 31.000 sec",
+            "products": [
+                "Home Loan"
+            ],
+            "issues": [],
+            "actions of agent": "The agent clarified that the moratorium would not directly impact the CIBIL score but interest would accrue.",
+            "resolution status": "Resolved",
+            "Process Request": "N/A",
+            "resolution": "Agent clarified that moratorium won't directly impact CIBIL score but interest will accrue and will send details via email.",
+            "resolution timestamp": "30.000 sec - 39.000 sec",
+            "dominant emotions (customer)": [
+                "Concern",
+                "Relief"
+            ],
+            "conversation sentiment": "Positive",
+            "customer satisfaction": "95"
         }
-      ],
-      "actions of agent": "The agent apologized, asked for the loan account number, checked eligibility, and offered a 3-month moratorium.",
-      "resolution status": "Process Request",
-      "Process Request": "The agent will proceed with the 3-month moratorium request.",
-      "resolution": "The agent confirmed the customer's eligibility for a 3-month moratorium and offered to proceed with the request.",
-      "resolution timestamp": "22.000 sec - 27.000 sec",
-      "dominant emotions (customer)": [
-        "Frustration",
-        "Relief"
-      ],
-      "conversation sentiment": "Neutral",
-      "customer satisfaction": "85",
-      "callback promise": "No",
-      "callback time": "N/A"
-    },
-    {
-      "intent": "Clarification on CIBIL Score Impact",
-      "confidence": "98",
-      "keywords": "Yes, please, but will it affect my CIBIL score?",
-      "intent timestamp": "22.000 sec - 30.000 sec",
-      "products": [
-        "Home Loan"
-      ],
-      "issues": [],
-      "actions of agent": "The agent clarified that the moratorium won't directly impact the CIBIL score but interest will accrue and offered to send a detailed email.",
-      "resolution status": "Resolved",
-      "Process Request": "The agent will send a detailed email with the terms.",
-      "resolution": "The agent clarified that the moratorium won't directly impact the CIBIL score but interest will accrue.",
-      "resolution timestamp": "30.000 sec - 38.000 sec",
-      "dominant emotions (customer)": [
-        "Concern",
-        "Relief"
-      ],
-      "conversation sentiment": "Positive",
-      "customer satisfaction": "95",
-      "callback promise": "No",
-      "callback time": "N/A"
-    }
-  ],
-  "basic greeting and closing": "Yes",
-  "fatal behaviour": "No",
-  "agent professionalism (out of 10)": "9",
-  "agent performance (out of 10)": "9",
-  "customer satisfaction (out of 10)": "9",
-  "interruptions by customer": "0",
-  "interruptions by agent": "0"
+    ],
+    "basic greeting and closing": "Yes",
+    "fatal behaviour": "No",
+    "agent professionalism (out of 10)": "9",
+    "agent performance (out of 10)": "9",
+    "customer satisfaction (out of 10)": "9",
+    "interruptions by customer": "0",
+    "interruptions by agent": "0",
+    "callback promise": "No",
+    "callback time": "N/A"
 }

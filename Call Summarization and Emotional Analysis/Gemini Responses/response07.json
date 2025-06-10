@@ -2,12 +2,12 @@
   "call id": "7",
   "agent id": "1",
   "call duration": "35",
-  "summary": "The agent addressed a fraud alert and blocked the card.",
+  "summary": "Agent assisted customer with fraudulent card activity and initiated chargeback.",
   "intents": [
     {
-      "intent": "Fraudulent Transaction",
+      "intent": "Fraudulent Activity Report",
       "confidence": "95",
-      "keywords": "I got a fraud alert on my card...transaction identit make",
+      "keywords": "I got a fraud alert on my card some...transaction identit make",
       "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "Credit Card"
@@ -15,59 +15,57 @@
       "issues": [
         {
           "issue": "Unauthorized transaction of $20000",
-          "reason(s)": "Fraudulent activity",
+          "reason(s)": "Fraudulent activity on the customer's card.",
           "issue type": "Billing"
         }
       ],
       "actions of agent": "Blocked the card, filed a fraud report, and issued a replacement card.",
-      "resolution status": "Resolved",
-      "Process Request": "Fraud report filing and card replacement request.",
-      "resolution": "Card blocked, fraud report filed, and replacement card issued.",
-      "resolution timestamp": "17.000 sec - 22.000 sec",
+      "resolution status": "Pending with Callback",
+      "Process Request": "Fraud report filing and chargeback request initiation.",
+      "resolution": "Card blocked, fraud report filed, replacement card issued, and chargeback request initiated. Refund expected in 7-10 days.",
+      "resolution timestamp": "26.000 sec - 32.000 sec",
       "dominant emotions (customer)": [
         "Worried",
         "Anxious"
       ],
       "conversation sentiment": "Negative",
-      "customer satisfaction": "85",
-      "callback promise": "Yes",
-      "callback time": "7 to 10 days"
+      "customer satisfaction": "75"
     },
     {
       "intent": "Refund Inquiry",
       "confidence": "90",
       "keywords": "But what about my money? Will I get it back?",
-      "intent timestamp": "23.000 sec - 27.000 sec",
+      "intent timestamp": "22.000 sec - 27.000 sec",
       "products": [
         "Credit Card"
       ],
       "issues": [
         {
-          "issue": "Inquiry about refund of the fraudulent transaction amount",
-          "reason(s)": "Customer concern about financial loss due to fraud",
+          "issue": "Customer wants to know about refund of money lost in fraud",
+          "reason(s)": "Customer is concerned about recovering the funds from the fraudulent transaction.",
           "issue type": "Billing"
         }
       ],
-      "actions of agent": "Initiated a chargeback request and promised a follow-up.",
-      "resolution status": "Process Request",
-      "Process Request": "Chargeback request initiation.",
-      "resolution": "Chargeback request initiated, refund expected in 7-10 days.",
+      "actions of agent": "Assured the customer that a chargeback request would be initiated and a refund should be received in 7-10 days. Promised to follow up personally.",
+      "resolution status": "Pending with Callback",
+      "Process Request": "Initiated chargeback request.",
+      "resolution": "Chargeback request initiated, refund expected in 7-10 days, agent will follow up.",
       "resolution timestamp": "26.000 sec - 32.000 sec",
       "dominant emotions (customer)": [
         "Concerned",
         "Hopeful"
       ],
       "conversation sentiment": "Neutral",
-      "customer satisfaction": "90",
-      "callback promise": "Yes",
-      "callback time": "7 to 10 days"
+      "customer satisfaction": "80"
     }
   ],
   "basic greeting and closing": "No",
   "fatal behaviour": "No",
   "agent professionalism (out of 10)": "9",
   "agent performance (out of 10)": "9",
-  "customer satisfaction (out of 10)": "9",
+  "customer satisfaction (out of 10)": "8",
   "interruptions by customer": "0",
-  "interruptions by agent": "0"
+  "interruptions by agent": "0",
+  "callback promise": "Yes",
+  "callback time": "7 to 10 days"
 }

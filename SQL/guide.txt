@@ -1,5 +1,7 @@
 Connecting to Metabase
 
+Database Type: MySQL
+
 Display Name: ICICI Internship Database
 
 Host: 172.17.0.1

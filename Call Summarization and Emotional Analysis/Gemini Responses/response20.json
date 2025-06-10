@@ -1,37 +1,38 @@
 {
   "call id": "20",
   "agent id": "2",
-  "call duration": "32",
-  "summary": "The customer inquired about the final steps of loan preclosure.",
+  "call duration": "32.24",
+  "summary": "The agent assisted the customer with loan preclosure process.",
   "intents": [
     {
       "intent": "Loan Preclosure Inquiry",
       "confidence": "95",
-      "keywords": "I am thrilled my loan preclosure was a proved just...know the final steps",
+      "keywords": "I am thrilled my loan preclosure was a proved...know the final steps",
       "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "Loan"
       ],
       "issues": [],
-      "actions of agent": "Confirmed loan account number and provided payment link.",
+      "actions of agent": "Confirmed the loan account number and provided information about the outstanding balance and payment link.",
       "resolution status": "Resolved",
-      "Process Request": "Payment link sent to customer.",
-      "resolution": "Payment link sent to customer to pay outstanding balance.",
+      "Process Request": "Payment link generation",
+      "resolution": "The agent sent a payment link to the customer to pay the outstanding balance for loan preclosure.",
       "resolution timestamp": "27.000 sec - 29.000 sec",
       "dominant emotions (customer)": [
-        "Thrilled"
+        "Thrilled",
+        "Happy"
       ],
       "conversation sentiment": "Positive",
-      "customer satisfaction": "100",
-      "callback promise": "No",
-      "callback time": "N/A"
+      "customer satisfaction": "95"
     }
   ],
-  "basic greeting and closing": "Yes",
+  "basic greeting and closing": "No",
   "fatal behaviour": "No",
-  "agent professionalism (out of 10)": "10",
-  "agent performance (out of 10)": "10",
-  "customer satisfaction (out of 10)": "10",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "9",
   "interruptions by customer": "0",
-  "interruptions by agent": "0"
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
 }

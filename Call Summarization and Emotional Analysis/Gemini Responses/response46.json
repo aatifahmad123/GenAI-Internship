@@ -2,7 +2,7 @@
   "call id": "46",
   "agent id": "5",
   "call duration": "26.64",
-  "summary": "Agent resolved customer's loan payment issue due to processing error.",
+  "summary": "Agent resolved customer's loan payment issue.",
   "intents": [
     {
       "intent": "Payment Issue",
@@ -10,7 +10,7 @@
       "keywords": "I am panicking my loan account shows a missed payment...I paid it",
       "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
-        "Loan Account"
+        "Loan"
       ],
       "issues": [
         {
@@ -19,26 +19,26 @@
           "issue type": "Billing"
         }
       ],
-      "actions of agent": "Identified the processing error, updated the account status, and confirmed with CIBIL.",
+      "actions of agent": "Agent identified the processing error and updated the payment status.",
       "resolution status": "Resolved",
-      "Process Request": "Confirmation with CIBIL",
-      "resolution": "Account status updated and confirmation with CIBIL initiated.",
+      "Process Request": "Updated payment status and confirmed with CIBIL.",
+      "resolution": "Agent updated the payment status and confirmed it is up to date.",
       "resolution timestamp": "21.000 sec - 26.000 sec",
       "dominant emotions (customer)": [
-        "Anxious",
-        "Relieved"
+        "Anxiety",
+        "Relief"
       ],
       "conversation sentiment": "Positive",
-      "customer satisfaction": "90",
-      "callback promise": "No",
-      "callback time": "N/A"
+      "customer satisfaction": "90"
     }
   ],
-  "basic greeting and closing": "Yes",
+  "basic greeting and closing": "No",
   "fatal behaviour": "No",
   "agent professionalism (out of 10)": "9",
   "agent performance (out of 10)": "9",
   "customer satisfaction (out of 10)": "9",
   "interruptions by customer": "0",
-  "interruptions by agent": "0"
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
 }

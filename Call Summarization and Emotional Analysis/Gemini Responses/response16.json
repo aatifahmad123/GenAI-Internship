@@ -2,7 +2,7 @@
   "call id": "16",
   "agent id": "2",
   "call duration": "30",
-  "summary": "Customer inquired about delayed credit limit increase request.",
+  "summary": "Customer inquires about delayed credit limit increase request.",
   "intents": [
     {
       "intent": "Credit Limit Increase Status Inquiry",
@@ -15,23 +15,21 @@
       "issues": [
         {
           "issue": "Delay in processing credit limit increase request",
-          "reason(s)": "Request is under review.",
+          "reason(s)": "Request is under review",
           "issue type": "Service"
         }
       ],
       "actions of agent": "Checked the status of the request and expedited it.",
-      "resolution status": "Process Request",
-      "Process Request": "Agent expedited the credit limit increase request.",
+      "resolution status": "Pending with Callback",
+      "Process Request": "Expedited the credit limit increase request.",
       "resolution": "Agent promised to expedite the request and provide an update by end of day.",
-      "resolution timestamp": "24.000 sec - 29.000 sec",
+      "resolution timestamp": "25.000 sec - 29.000 sec",
       "dominant emotions (customer)": [
         "Concern",
-        "Impatient"
+        "Impatience"
       ],
-      "conversation sentiment": "Negative",
-      "customer satisfaction": "60",
-      "callback promise": "No",
-      "callback time": "N/A"
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "60"
     }
   ],
   "basic greeting and closing": "No",
@@ -40,5 +38,7 @@
   "agent performance (out of 10)": "7",
   "customer satisfaction (out of 10)": "6",
   "interruptions by customer": "1",
-  "interruptions by agent": "0"
+  "interruptions by agent": "0",
+  "callback promise": "Yes",
+  "callback time": "Same day"
 }

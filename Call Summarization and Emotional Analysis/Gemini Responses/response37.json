@@ -1,31 +1,34 @@
 {
   "call id": "37",
   "agent id": "4",
-  "call duration": "24",
+  "call duration": "24.16",
   "summary": "The agent assisted the customer in opening a demat account.",
   "intents": [
     {
       "intent": "Account Opening",
       "confidence": "95",
-      "keywords": "I need to open a demat account. Can you help...",
+      "keywords": "I need to open a demat account. Can you help...it up?",
       "intent timestamp": "0.000 sec - 8.000 sec",
       "products": [
         "Demat Account"
       ],
-      "issues": [],
-      "actions of agent": "The agent inquired about KYC documents and informed about the processing time and form submission.",
-      "resolution status": "Process Request",
-      "Process Request": "Agent sent the form to the customer's email and promised a follow-up.",
-      "resolution": "The agent sent the demat account opening form to the customer's email.",
+      "issues": [
+        {
+          "issue": "Customer needs assistance with opening a demat account.",
+          "reason(s)": "N/A",
+          "issue type": "General Inquiry"
+        }
+      ],
+      "actions of agent": "The agent confirmed the process and asked for KYC documents.",
+      "resolution status": "Resolved",
+      "Process Request": "The agent sent the form to the customer's email.",
+      "resolution": "The agent sent the form to the customer's email and will follow up.",
       "resolution timestamp": "19.000 sec - 24.000 sec",
       "dominant emotions (customer)": [
-        "Neutral",
-        "Eager"
+        "Neutral"
       ],
       "conversation sentiment": "Neutral",
-      "customer satisfaction": "80",
-      "callback promise": "Yes",
-      "callback time": "N/A"
+      "customer satisfaction": "80"
     }
   ],
   "basic greeting and closing": "No",
@@ -34,5 +37,7 @@
   "agent performance (out of 10)": "8",
   "customer satisfaction (out of 10)": "8",
   "interruptions by customer": "0",
-  "interruptions by agent": "0"
+  "interruptions by agent": "0",
+  "callback promise": "Yes",
+  "callback time": "Once it's processed"
 }

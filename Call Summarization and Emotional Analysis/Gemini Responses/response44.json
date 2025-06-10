@@ -2,13 +2,13 @@
   "call id": "44",
   "agent id": "5",
   "call duration": "20.92",
-  "summary": "Customer inquired about setting up a UPI mandate.",
+  "summary": "Customer inquired about setting up a UPI mandate and auto-payments.",
   "intents": [
     {
       "intent": "UPI Mandate Setup",
       "confidence": "95",
-      "keywords": "How do I set up a upi ... apps payment section?",
-      "intent timestamp": "1.000 sec - 9.000 sec",
+      "keywords": "How do I set up a upi mandate?...apps payment section?",
+      "intent timestamp": "0.000 sec - 13.000 sec",
       "products": [
         "Debit Card",
         "UPI"
@@ -17,39 +17,35 @@
       "actions of agent": "The agent explained how to set up a UPI mandate via the app's payment section.",
       "resolution status": "Resolved",
       "Process Request": "N/A",
-      "resolution": "The agent informed the customer that they can set up a UPI mandate via the app's payment section.",
+      "resolution": "The agent informed the customer that they could set up the UPI mandate via the app's payment section.",
       "resolution timestamp": "4.000 sec - 9.000 sec",
       "dominant emotions (customer)": [
         "Positive",
-        "Inquisitive"
+        "Curious"
       ],
       "conversation sentiment": "Positive",
-      "customer satisfaction": "90",
-      "callback promise": "Yes",
-      "callback time": "N/A"
+      "customer satisfaction": "90"
     },
     {
-      "intent": "Auto Payments Confirmation",
+      "intent": "Auto Payments Inquiry",
       "confidence": "90",
-      "keywords": "Nice is it for auto payments ... approve recurring payments",
-      "intent timestamp": "8.000 sec - 14.000 sec",
+      "keywords": "Nice is it for auto payments like bill?...approve recurring payments want me to walk you through.",
+      "intent timestamp": "8.000 sec - 16.000 sec",
       "products": [
         "Debit Card",
         "UPI"
       ],
       "issues": [],
-      "actions of agent": "The agent confirmed that UPI mandate can be used for auto payments.",
+      "actions of agent": "The agent confirmed that it is for auto payments and offered to walk the customer through the process.",
       "resolution status": "Resolved",
       "Process Request": "N/A",
-      "resolution": "The agent confirmed that it is for auto payments.",
-      "resolution timestamp": "11.000 sec - 14.000 sec",
+      "resolution": "The agent confirmed that UPI mandate can be used for auto payments.",
+      "resolution timestamp": "11.000 sec - 15.000 sec",
       "dominant emotions (customer)": [
         "Neutral"
       ],
       "conversation sentiment": "Positive",
-      "customer satisfaction": "95",
-      "callback promise": "No",
-      "callback time": "N/A"
+      "customer satisfaction": "90"
     }
   ],
   "basic greeting and closing": "Yes",
@@ -58,5 +54,7 @@
   "agent performance (out of 10)": "9",
   "customer satisfaction (out of 10)": "9",
   "interruptions by customer": "0",
-  "interruptions by agent": "0"
+  "interruptions by agent": "0",
+  "callback promise": "Yes",
+  "callback time": "N/A"
 }
