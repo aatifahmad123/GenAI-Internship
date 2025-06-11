@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 from google import genai
 from google.genai import types
 import gradio as gr
+from datetime import datetime
 
 # Load environment variables
 load_dotenv()
@@ -141,8 +142,7 @@ def format_analysis_results(json_data):
     if not json_data:
         return "No analysis results available."
     
-    formatted = f"""
-# Call Analysis Report
+    formatted = f"""# Call Analysis Report
 
 ## Call Information
 - **Call ID:** {json_data.get('call id', 'N/A')}
@@ -204,18 +204,55 @@ def format_analysis_results(json_data):
     
     return formatted
 
+# Function to create downloadable file
+def create_download_file(formatted_report, json_data, call_id, agent_id):
+    if not formatted_report or formatted_report == "No analysis results available.":
+        return None
+    
+    # Create timestamp for filename
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    filename = f"Call_Analysis_Agent{agent_id:02d}_Call{call_id:02d}_{timestamp}.md"
+    
+    # Add metadata header
+    header = f"""---
+title: Call Analysis Report
+call_id: {call_id:02d}
+agent_id: {agent_id:02d}
+generated_on: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
+---
+
+"""
+    
+    # Combine header with formatted report
+    full_content = header + formatted_report
+    
+    # Write to temporary file
+    temp_filepath = f"/tmp/{filename}"
+    try:
+        with open(temp_filepath, 'w', encoding='utf-8') as f:
+            f.write(full_content)
+        return temp_filepath
+    except Exception as e:
+        print(f"Error creating download file: {e}")
+        return None
+
 # Custom CSS for wide layout
 custom_css = """
 .gradio-container {
     max-width: 100% !important;
     width: 100% !important;
 }
+.download-btn {
+    background: linear-gradient(45deg, #4CAF50, #45a049) !important;
+    color: white !important;
+    font-weight: bold !important;
+}
 """
 
 # Gradio interface
 with gr.Blocks(css=custom_css, title="ICICI Bank Call Analysis") as demo:
+    # Set up the title and description
     gr.Markdown("# AI Powered Voice Call Summarization with Emotion and Sentiment Analysis")
-    gr.Markdown("## Made by Aatif")
     
     # Input section
     with gr.Row():
@@ -241,8 +278,7 @@ with gr.Blocks(css=custom_css, title="ICICI Bank Call Analysis") as demo:
     
     # Submit button
     with gr.Row():
-        submit_btn = gr.Button("Analyze Call",
-                               variant="primary",)
+        submit_btn = gr.Button("Analyze Call", variant="primary")
     
     # Status message
     status_output = gr.Textbox(
@@ -255,6 +291,15 @@ with gr.Blocks(css=custom_css, title="ICICI Bank Call Analysis") as demo:
     with gr.Row():
         with gr.Column():
             gr.Markdown("### Analysis Results")
+            
+            # Download button (initially hidden)
+            download_btn = gr.DownloadButton(
+                "Download Report",
+                variant="secondary",
+                visible=False,
+                elem_classes=["download-btn"]
+            )
+            
             formatted_output = gr.Markdown(
                 label="Formatted Report",
                 value="Run analysis to see results here..."
@@ -265,7 +310,6 @@ with gr.Blocks(css=custom_css, title="ICICI Bank Call Analysis") as demo:
                 output_json = gr.JSON(
                     label="Detailed Analysis JSON"
                 )
-
     
     # Event handlers
     def handle_analysis(call_id, agent_id):
@@ -273,22 +317,26 @@ with gr.Blocks(css=custom_css, title="ICICI Bank Call Analysis") as demo:
         
         if result:
             formatted_report = format_analysis_results(result)
+            download_file = create_download_file(formatted_report, result, int(call_id), int(agent_id))
+            
             return {
                 formatted_output: formatted_report,
                 output_json: result,
-                status_output: gr.update(value=message, visible=True)
+                status_output: gr.update(value=message, visible=True),
+                download_btn: gr.update(value=download_file, visible=True if download_file else False)
             }
         else:
             return {
                 formatted_output: "Analysis failed. Check status message below.",
                 output_json: None,
-                status_output: gr.update(value=message, visible=True)
+                status_output: gr.update(value=message, visible=True),
+                download_btn: gr.update(visible=False)
             }
     
     submit_btn.click(
         fn=handle_analysis,
         inputs=[call_id, agent_id],
-        outputs=[formatted_output, output_json, status_output]
+        outputs=[formatted_output, output_json, status_output, download_btn]
     )
 
 # Launch the app
