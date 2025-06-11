@@ -2,22 +2,18 @@ from google.cloud import texttospeech
 from pydub import AudioSegment
 import os
 
-customer_vice = 'en-US-Chirp3-HD-Achird'
-agent_voice = 'en-US-Chirp3-HD-Autonoe'
+customer_vice = 'hi-IN-Chirp3-HD-Umbriel'
+agent_voice = 'hi-IN-Chirp3-HD-Sulafat'
 
 # Define the conversation
 conversation = [
-    "Hello? I applied for a personal loan last month, but nobody’s told me what’s happening with it.",
-    "Good afternoon, Sir. I’d be happy to check the status. Could you provide your application ID or full name?",
-    "It’s Priyansh Sharma. I don’t have any ID number… nobody gave me one!",
-    "No worries, I can search by name. One moment—",
-    "And please, don’t put me on hold for ages! I’ve been waiting too long already.",
-    "Of course, Sir. I’ll be as quick as possible. It looks like your application is under review due to a pending CIBIL score update—",
-    "CIBIL? What’s that? Nobody told me about this! Why is it taking so long?",
-    "I apologize for the confusion. CIBIL is your credit score, and we’re waiting for the latest report—",
-    "But I need the loan urgently! Can’t you speed it up?",
-    "Absolutely, I understand the urgency. I’ll escalate this to expedite the process and keep you updated.",
-    "Please do. I really hope I hear back soon this time."
+    "नमस्ते, मेरा नाम रवि कुमार है। मेरा डेबिट कार्ड पिछले हफ्ते से काम नहीं कर रहा है।",
+    "नमस्ते रवि जी, मैं आपकी मदद के लिए हूँ। क्या आप बता सकते हैं कि कार्ड का उपयोग कहाँ करने की कोशिश की थी?",
+    "हाँ, मैंने एक ऑनलाइन खरीदारी की कोशिश की, लेकिन हर बार 'लेनदेन अस्वीकृत' का संदेश आ रहा है।",
+    "समझा। क्या आप अपना कार्ड नंबर बता सकते हैं ताकि मैं इसे चेक कर सकूँ?",
+    "ये लीजिए, 2468-1357-2091-1234। कृपया जल्दी देखिए, मुझे ये जल्द ठीक करवाना है।",
+    "जी, मैंने देख लिया। आपके कार्ड पर एक तकनीकी ब्लॉक है। मैं इसे अभी अनब्लॉक कर देती हूँ। 2 घंटे में ये काम करने लगेगा।",
+    "धन्यवाद, कृपया सुनिश्चित करें कि ये जल्दी हो जाए।",
 ]
 
 # Initialize Text-to-Speech client
@@ -28,7 +24,7 @@ def generate_and_save_audio(text, audio_voice, filename):
     synthesis_input = texttospeech.SynthesisInput(text=text)
 
     voice = texttospeech.VoiceSelectionParams(
-        language_code="en-US",
+        language_code="hi-IN",
         name=audio_voice
     )
 
@@ -49,16 +45,16 @@ def generate_and_save_audio(text, audio_voice, filename):
 
 # Generate audio for each line
 for i, text in enumerate(conversation):
-    filename = f"Agent 01/Call 02/normal audios/synthesis({i}).wav"
+    filename = f"Agent 01/Call 01/normal audios/synthesis({i}).wav"
     voice = customer_vice if i % 2 == 0 else agent_voice
     generate_and_save_audio(text, voice, filename)
 
 print("All audios generated and saved successfully.")
 
 # Merge all audio files
-audio_files_folder = "Agent 01/Call 02/normal audios"
+audio_files_folder = "Agent 01/Call 01/normal audios"
 files = [f"{audio_files_folder}/synthesis({i}).wav" for i in range(len(conversation))]
-combined_audio_file = "Agent 01/Call 02/normalAudio.wav"
+combined_audio_file = "Agent 01/Call 01/normalAudio.wav"
 
 def merge_audio(files):
     combined = AudioSegment.empty()
