@@ -68,7 +68,7 @@ def get_gemini_response(transcription,timestamps,metadata, agent_id, call_id):
             "interruptions by customer": "<Number of times the customer interrupted the agent>",
             "interruptions by agent": "<Number of times the agent interrupted the customer>",
             "callback promise": "<Yes/No>",
-            "callback time": "<Date (relative for eg. same day or next day and Time if applicable, otherwise 'N/A'>
+            "callback time": "<Date (relative for eg. same day or next day and Time if applicable, otherwise 'N/A')>
         }}
         
         Call ID: {call_id}
