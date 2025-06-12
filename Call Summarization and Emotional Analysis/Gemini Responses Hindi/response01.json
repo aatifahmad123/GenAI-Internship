@@ -1,0 +1,44 @@
+{
+    "call id": "1",
+    "agent id": "1",
+    "call duration": "48",
+    "summary": "The customer reported a debit card issue, which the agent resolved.",
+    "intents": [
+        {
+            "intent": "Debit Card Issue",
+            "confidence": "95",
+            "keywords": "नमस्ते मेरा नाम रवि कुमार है ... पिछले हफ्ते से काम नहीं कर रहा है।",
+            "intent timestamp": "0-5",
+            "products": [
+                "Debit Card"
+            ],
+            "issues": [
+                {
+                    "issue": "Debit card not working.",
+                    "reason(s)": "Technical block on the card.",
+                    "issue type": "Technical"
+                }
+            ],
+            "actions of agent": "Identified the issue as a technical block and unblocked the card.",
+            "resolution status": "Resolved",
+            "Process Request": "Unblocking the debit card.",
+            "resolution": "The agent unblocked the card and informed the customer it would work in 2 hours.",
+            "resolution timestamp": "30-35",
+            "dominant emotions (customer)": [
+                "Concern",
+                "Urgency"
+            ],
+            "conversation sentiment": "Neutral",
+            "customer satisfaction": "80"
+        }
+    ],
+    "basic greeting and closing": "Yes",
+    "fatal behaviour": "No",
+    "agent professionalism (out of 10)": "9",
+    "agent performance (out of 10)": "9",
+    "customer satisfaction (out of 10)": "8",
+    "interruptions by customer": "0",
+    "interruptions by agent": "0",
+    "callback promise": "No",
+    "callback time": "N/A"
+}
