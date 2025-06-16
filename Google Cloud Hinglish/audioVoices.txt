@@ -1,0 +1,47 @@
+Chirp3 HD Voices [Normal Audios]
+
+Customer: Achird
+
+Agent 01: Autonoe
+Agent 02: Sulafat
+Agent 03: Erinome
+Agent 04: Sadaltager
+Agent 05: Schedar
+
+Wavenet Voices [SSML Audios]
+
+Customer: en-IN-Wavenet-B
+
+Agent 01: en-IN-Wavenet-A
+Agent 02: en-IN-Wavenet-C
+Agent 03: en-IN-Wavenet-D
+Agent 04: en-IN-Wavenet-A
+Agent 05: en-IN-Wavenet-C
+
+Other Chirp3 HD Voices
+
+Achernar: Female (energetic) 
+Algenib: Male (calm)
+Algieba: Male (natural)
+Alnilam: Male (natural) 
+Aoede: Female (natural)
+Callirhoe: Female (natural) 
+Charon: Male (deep) 
+Despina: Female (childish) 
+Enceladus: Male (deep) 
+Fenrir: Male (childish)
+Gacrux: Female (aged) 
+Lapetus: Male (natural)
+Kore: Female (natural)
+Laomedeia: Female (natural)
+Leda: Female (natural) 
+Orus: Male (natural) 
+Puck: Male (natural)
+Pulcherrima: Male (natural, northeastern accent)
+Rasalgethi: Male (natural) 
+Sadachbia: Male (natural)
+Umbriel: Male (natural)
+Vindemiatrix: Female (deep)
+Zephyr: Female (natural)
+Zubenelgenubi: Male (natural)
+
