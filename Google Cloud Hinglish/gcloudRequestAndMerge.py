@@ -2,18 +2,18 @@ from google.cloud import texttospeech
 from pydub import AudioSegment
 import os
 
-customer_vice = 'hi-IN-Chirp3-HD-Umbriel'
-agent_voice = 'hi-IN-Chirp3-HD-Sulafat'
+customer_vice = 'en-IN-Chirp3-HD-Umbriel'
+agent_voice = 'en-IN-Chirp3-HD-Sulafat'
 
 # Define the conversation
 conversation = [
-    "नमस्ते, मेरा नाम रवि कुमार है। मेरा डेबिट कार्ड पिछले हफ्ते से काम नहीं कर रहा है।",
-    "नमस्ते रवि जी, मैं आपकी मदद के लिए हूँ। क्या आप बता सकते हैं कि कार्ड का उपयोग कहाँ करने की कोशिश की थी?",
-    "हाँ, मैंने एक ऑनलाइन खरीदारी की कोशिश की, लेकिन हर बार 'लेनदेन अस्वीकृत' का संदेश आ रहा है।",
-    "समझा। क्या आप अपना कार्ड नंबर बता सकते हैं ताकि मैं इसे चेक कर सकूँ?",
-    "ये लीजिए, 2468-1357-2091-1234। कृपया जल्दी देखिए, मुझे ये जल्द ठीक करवाना है।",
-    "जी, मैंने देख लिया। आपके कार्ड पर एक तकनीकी ब्लॉक है। मैं इसे अभी अनब्लॉक कर देती हूँ। 2 घंटे में ये काम करने लगेगा।",
-    "धन्यवाद, कृपया सुनिश्चित करें कि ये जल्दी हो जाए।",
+     "Namaste, mera naam Ravi Kumar hai. Mera debit card last week se kaam nahi kar raha hai.",
+    "Namaste Ravi ji, main aapki help ke liye hoon. Kya aap bata sakte hain ki card kahaan use karne ki koshish ki thi?",
+    "Haan, maine ek online shopping ki try ki, lekin har baar 'transaction declined' ka message aa raha hai.",
+    "Samjha. Kya aap apna card number bata sakte hain taaki main check kar sakoon?",
+    "Yeh lijiye, 2468-1357-2091-1234. Please jaldi dekho, mujhe yeh jaldi fix karwana hai.",
+    "Ji, maine dekh liya. Aapke card pe ek technical block hai. Main ise abhi unblock kar deta hoon. 2 ghante mein yeh work karne lagega.",
+    "Thanks, please sure karo ki yeh jaldi ho jaye.",
 ]
 
 # Initialize Text-to-Speech client
@@ -24,7 +24,7 @@ def generate_and_save_audio(text, audio_voice, filename):
     synthesis_input = texttospeech.SynthesisInput(text=text)
 
     voice = texttospeech.VoiceSelectionParams(
-        language_code="hi-IN",
+        language_code="en-IN",
         name=audio_voice
     )
 

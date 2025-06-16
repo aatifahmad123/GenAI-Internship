@@ -1,7 +1,7 @@
-Customer: नमस्ते मेरा नाम रवि कुमार है। मेरा डेबिट कार्ड पिछले हफ्ते से काम नहीं कर रहा है।
-Agent: नमस्ते रवि जी, मैं आपकी मदद के लिए हूं। क्या आप बता सकते हैं कि कार्ड का उपयोग कहां करने की कोशिश की थी?
-Customer: हां, मैंने एक ऑनलाइन खरीदारी की कोशिश की लेकिन हर बार लेनदेन अस्वीकृत का संदेश आ रहा है।
-Agent: समझा क्या आप अपना कार्ड नंबर बता सकते हैं ताकि मैसेज चेक कर सकूं?
-Customer: यह लीजिए 2, 4, 6, 8 1 3 5 7 2 0 9 1 1 2 3 4 कृपया जल्दी देखिए, मुझे यह जल्द ठीक करवाना है।
-Agent: जी मैंने देख लिया। आपका कार्ड पर एक तकनीकी ब्लॉक है। मैं इसे अभी अनब्लॉक कर देता हूं। 2 घंटे में यह काम करने लगेगा।
-Customer: धन्यवाद कृपया सुनिश्चित करें कि यह जल्दी हो जाए।
+Customer: Namaste mera naam Ravi Kumar hai mera debit card last week Se Kam Nahin kar raha hai.
+Agent: Namaste Ravi ji, main aapki help ke liye hun kya bata sakte hain ki kard kahan use karne ki koshish ki thi?
+Customer: Khan meaning online shopping ki tricky lekin Har Bar transaction decline ka message a raha hai
+Agent: Samjha kya aap apna card number bata sakte hain Taki main check kar Sakun
+Customer: Yah Lijiye 24681 3572 4911234 please jaldi dekho Mujhe yah jaldi fix karvana hai.
+Agent: Ji, Maine dekh liya aapke card Par Ek technical block hai. Main ise abhi unblock kar deta hun 2 ghante Mein yah work karne lagega.
+Customer: Thanks, please show karo ki jaldi ho jaaye.

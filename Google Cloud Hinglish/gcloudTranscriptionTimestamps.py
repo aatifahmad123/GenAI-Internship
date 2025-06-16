@@ -28,7 +28,7 @@ def transcribe_for_transcription():
         config = speech.RecognitionConfig(
             encoding=speech.RecognitionConfig.AudioEncoding.LINEAR16,
             sample_rate_hertz=24000,
-            language_code="hi-IN",
+            language_code="en-IN",
             model="latest_short",
             audio_channel_count=1,
             enable_automatic_punctuation=True,
@@ -51,56 +51,56 @@ def transcribe_for_transcription():
 
     print(f"Transcript saved to {transcription_file_path} for {call_directory}")
 
-# def transcribe_for_timestamps():
-#     '''
-#     Transcribe a single normalAudio.wav file to generate timestamps without speaker tags.
-#     '''
-#     all_words_data = []
+def transcribe_for_timestamps():
+    '''
+    Transcribe a single normalAudio.wav file to generate timestamps without speaker tags.
+    '''
+    all_words_data = []
 
-#     audio_file = "normalAudio.wav"
-#     file_path = os.path.join(call_directory, audio_file)
+    audio_file = "normalAudio.wav"
+    file_path = os.path.join(call_directory, audio_file)
 
-#     # Check if audio file exists
-#     if not os.path.exists(file_path):
-#         print(f"Audio file not found: {file_path}")
-#         return
+    # Check if audio file exists
+    if not os.path.exists(file_path):
+        print(f"Audio file not found: {file_path}")
+        return
 
-#     # Read audio file
-#     with io.open(file_path, "rb") as audio:
-#         content = audio.read()
+    # Read audio file
+    with io.open(file_path, "rb") as audio:
+        content = audio.read()
 
-#     audio = speech.RecognitionAudio(content=content)
+    audio = speech.RecognitionAudio(content=content)
 
-#     config = speech.RecognitionConfig(
-#         encoding=speech.RecognitionConfig.AudioEncoding.LINEAR16,
-#         sample_rate_hertz=24000,
-#         language_code="hi-IN",
-#         model="latest_short",
-#         audio_channel_count=1,
-#         enable_word_time_offsets=True,
-#         enable_automatic_punctuation=True,
-#     )
+    config = speech.RecognitionConfig(
+        encoding=speech.RecognitionConfig.AudioEncoding.LINEAR16,
+        sample_rate_hertz=24000,
+        language_code="en-IN",
+        model="latest_short",
+        audio_channel_count=1,
+        enable_word_time_offsets=True,
+        enable_automatic_punctuation=True,
+    )
 
-#     # Transcribe audio
-#     response = client.recognize(config=config, audio=audio)
+    # Transcribe audio
+    response = client.recognize(config=config, audio=audio)
 
-#     # Process word-level timestamps without speaker
-#     for result in response.results:
-#         for word_info in result.alternatives[0].words:
-#             start_time = word_info.start_time.seconds
-#             end_time = word_info.end_time.seconds
-#             word_data = {
-#                 "word": word_info.word,
-#                 "start_time": f"{start_time:.3f} sec",
-#                 "end_time": f"{end_time:.3f} sec",
-#             }
-#             all_words_data.append(word_data)
+    # Process word-level timestamps without speaker
+    for result in response.results:
+        for word_info in result.alternatives[0].words:
+            start_time = word_info.start_time.seconds
+            end_time = word_info.end_time.seconds
+            word_data = {
+                "word": word_info.word,
+                "start_time": f"{start_time:.3f} sec",
+                "end_time": f"{end_time:.3f} sec",
+            }
+            all_words_data.append(word_data)
 
-#     # Save timestamps
-#     with open(timestamps_file_path, "w", encoding="utf-8") as jsonf:
-#         json.dump(all_words_data, jsonf, indent=2)
+    # Save timestamps
+    with open(timestamps_file_path, "w", encoding="utf-8") as jsonf:
+        json.dump(all_words_data, jsonf, indent=2)
 
-#     print(f"Timestamps saved to {timestamps_file_path} for {call_directory}")
+    print(f"Timestamps saved to {timestamps_file_path} for {call_directory}")
 
 agents = ["Agent 01"]
 calls = ["Call 01"]
@@ -109,8 +109,8 @@ for agent in agents:
     for call in calls:
         call_directory = f"{agent}/{call}"
         transcription_file_path = os.path.join(call_directory, "transcription.txt")
-        # timestamps_file_path = os.path.join(call_directory, "timestamps.json")
+        timestamps_file_path = os.path.join(call_directory, "timestamps.json")
 
         # Transcribe for transcription and timestamps
         transcribe_for_transcription()
-        # transcribe_for_timestamps()
+        transcribe_for_timestamps()
