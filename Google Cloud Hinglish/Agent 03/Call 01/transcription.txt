@@ -1,0 +1,7 @@
+Customer: Namaste main Shalini Tiwari Mera credit card ka pin Kaise change karun?
+Agent: namaste Shalini Ji Main aapko guide karta hun kya aap apna card number Bata sakti hai
+Customer: Han Yeh hai. 987654 3214 987654
+Agent: Theek Hai Aap Hamare mobile aap yah ATM se pin change kar sakti hain. Main aapko aapke steps SMS karta hoon kya yeh theek hai?
+Customer: Han SMS bhej do kitna time lagega?
+Agent: Turant reflect ho jaega, Jaisi aap new pin set Karenge Koi Aur madad.
+Customer: Nahin Shukriya

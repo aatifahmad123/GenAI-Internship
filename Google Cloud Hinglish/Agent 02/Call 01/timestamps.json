@@ -1,0 +1,432 @@
+[
+  {
+    "word": "Namaste",
+    "start_time": "0.000 sec",
+    "end_time": "0.000 sec"
+  },
+  {
+    "word": "main",
+    "start_time": "0.000 sec",
+    "end_time": "1.000 sec"
+  },
+  {
+    "word": "Priya",
+    "start_time": "1.000 sec",
+    "end_time": "1.000 sec"
+  },
+  {
+    "word": "Sharma",
+    "start_time": "1.000 sec",
+    "end_time": "1.000 sec"
+  },
+  {
+    "word": "mera",
+    "start_time": "1.000 sec",
+    "end_time": "2.000 sec"
+  },
+  {
+    "word": "net",
+    "start_time": "2.000 sec",
+    "end_time": "2.000 sec"
+  },
+  {
+    "word": "banking",
+    "start_time": "2.000 sec",
+    "end_time": "3.000 sec"
+  },
+  {
+    "word": "login",
+    "start_time": "3.000 sec",
+    "end_time": "3.000 sec"
+  },
+  {
+    "word": "Nahin",
+    "start_time": "3.000 sec",
+    "end_time": "3.000 sec"
+  },
+  {
+    "word": "ho",
+    "start_time": "3.000 sec",
+    "end_time": "3.000 sec"
+  },
+  {
+    "word": "raha",
+    "start_time": "3.000 sec",
+    "end_time": "4.000 sec"
+  },
+  {
+    "word": "hai",
+    "start_time": "4.000 sec",
+    "end_time": "4.000 sec"
+  },
+  {
+    "word": "namaste",
+    "start_time": "4.000 sec",
+    "end_time": "5.000 sec"
+  },
+  {
+    "word": "Priya",
+    "start_time": "5.000 sec",
+    "end_time": "5.000 sec"
+  },
+  {
+    "word": "ji,",
+    "start_time": "5.000 sec",
+    "end_time": "5.000 sec"
+  },
+  {
+    "word": "main",
+    "start_time": "5.000 sec",
+    "end_time": "6.000 sec"
+  },
+  {
+    "word": "aapki",
+    "start_time": "6.000 sec",
+    "end_time": "6.000 sec"
+  },
+  {
+    "word": "madad",
+    "start_time": "6.000 sec",
+    "end_time": "6.000 sec"
+  },
+  {
+    "word": "karunga",
+    "start_time": "6.000 sec",
+    "end_time": "6.000 sec"
+  },
+  {
+    "word": "kya?",
+    "start_time": "6.000 sec",
+    "end_time": "7.000 sec"
+  },
+  {
+    "word": "Error",
+    "start_time": "7.000 sec",
+    "end_time": "8.000 sec"
+  },
+  {
+    "word": "message",
+    "start_time": "8.000 sec",
+    "end_time": "8.000 sec"
+  },
+  {
+    "word": "Ja",
+    "start_time": "8.000 sec",
+    "end_time": "8.000 sec"
+  },
+  {
+    "word": "Raha",
+    "start_time": "8.000 sec",
+    "end_time": "8.000 sec"
+  },
+  {
+    "word": "Hai",
+    "start_time": "8.000 sec",
+    "end_time": "8.000 sec"
+  },
+  {
+    "word": "Jab",
+    "start_time": "8.000 sec",
+    "end_time": "9.000 sec"
+  },
+  {
+    "word": "aap",
+    "start_time": "9.000 sec",
+    "end_time": "9.000 sec"
+  },
+  {
+    "word": "login",
+    "start_time": "9.000 sec",
+    "end_time": "9.000 sec"
+  },
+  {
+    "word": "karte",
+    "start_time": "9.000 sec",
+    "end_time": "10.000 sec"
+  },
+  {
+    "word": "hain",
+    "start_time": "10.000 sec",
+    "end_time": "10.000 sec"
+  },
+  {
+    "word": "password",
+    "start_time": "10.000 sec",
+    "end_time": "12.000 sec"
+  },
+  {
+    "word": "bol",
+    "start_time": "12.000 sec",
+    "end_time": "12.000 sec"
+  },
+  {
+    "word": "raha",
+    "start_time": "12.000 sec",
+    "end_time": "12.000 sec"
+  },
+  {
+    "word": "hai",
+    "start_time": "12.000 sec",
+    "end_time": "12.000 sec"
+  },
+  {
+    "word": "lekin",
+    "start_time": "12.000 sec",
+    "end_time": "13.000 sec"
+  },
+  {
+    "word": "men",
+    "start_time": "13.000 sec",
+    "end_time": "13.000 sec"
+  },
+  {
+    "word": "Vahi",
+    "start_time": "13.000 sec",
+    "end_time": "13.000 sec"
+  },
+  {
+    "word": "password",
+    "start_time": "13.000 sec",
+    "end_time": "13.000 sec"
+  },
+  {
+    "word": "Dala",
+    "start_time": "13.000 sec",
+    "end_time": "14.000 sec"
+  },
+  {
+    "word": "Jo",
+    "start_time": "14.000 sec",
+    "end_time": "14.000 sec"
+  },
+  {
+    "word": "Hamesha",
+    "start_time": "14.000 sec",
+    "end_time": "14.000 sec"
+  },
+  {
+    "word": "use",
+    "start_time": "14.000 sec",
+    "end_time": "15.000 sec"
+  },
+  {
+    "word": "karti",
+    "start_time": "15.000 sec",
+    "end_time": "15.000 sec"
+  },
+  {
+    "word": "hun",
+    "start_time": "15.000 sec",
+    "end_time": "15.000 sec"
+  },
+  {
+    "word": "theek",
+    "start_time": "15.000 sec",
+    "end_time": "16.000 sec"
+  },
+  {
+    "word": "hai.",
+    "start_time": "16.000 sec",
+    "end_time": "16.000 sec"
+  },
+  {
+    "word": "Shayad",
+    "start_time": "16.000 sec",
+    "end_time": "17.000 sec"
+  },
+  {
+    "word": "password",
+    "start_time": "17.000 sec",
+    "end_time": "17.000 sec"
+  },
+  {
+    "word": "reset",
+    "start_time": "17.000 sec",
+    "end_time": "18.000 sec"
+  },
+  {
+    "word": "karna",
+    "start_time": "18.000 sec",
+    "end_time": "18.000 sec"
+  },
+  {
+    "word": "padega",
+    "start_time": "18.000 sec",
+    "end_time": "18.000 sec"
+  },
+  {
+    "word": "kya",
+    "start_time": "18.000 sec",
+    "end_time": "19.000 sec"
+  },
+  {
+    "word": "aap",
+    "start_time": "19.000 sec",
+    "end_time": "19.000 sec"
+  },
+  {
+    "word": "apna",
+    "start_time": "19.000 sec",
+    "end_time": "19.000 sec"
+  },
+  {
+    "word": "register",
+    "start_time": "19.000 sec",
+    "end_time": "20.000 sec"
+  },
+  {
+    "word": "mobile",
+    "start_time": "20.000 sec",
+    "end_time": "20.000 sec"
+  },
+  {
+    "word": "number",
+    "start_time": "20.000 sec",
+    "end_time": "20.000 sec"
+  },
+  {
+    "word": "confirm",
+    "start_time": "20.000 sec",
+    "end_time": "21.000 sec"
+  },
+  {
+    "word": "kar",
+    "start_time": "21.000 sec",
+    "end_time": "21.000 sec"
+  },
+  {
+    "word": "sakti",
+    "start_time": "21.000 sec",
+    "end_time": "21.000 sec"
+  },
+  {
+    "word": "hai.",
+    "start_time": "21.000 sec",
+    "end_time": "21.000 sec"
+  },
+  {
+    "word": "9876543",
+    "start_time": "21.000 sec",
+    "end_time": "26.000 sec"
+  },
+  {
+    "word": "214",
+    "start_time": "26.000 sec",
+    "end_time": "26.000 sec"
+  },
+  {
+    "word": "reset",
+    "start_time": "26.000 sec",
+    "end_time": "29.000 sec"
+  },
+  {
+    "word": "ke",
+    "start_time": "29.000 sec",
+    "end_time": "29.000 sec"
+  },
+  {
+    "word": "liye",
+    "start_time": "29.000 sec",
+    "end_time": "29.000 sec"
+  },
+  {
+    "word": "5",
+    "start_time": "29.000 sec",
+    "end_time": "30.000 sec"
+  },
+  {
+    "word": "minut",
+    "start_time": "30.000 sec",
+    "end_time": "30.000 sec"
+  },
+  {
+    "word": "mein",
+    "start_time": "30.000 sec",
+    "end_time": "31.000 sec"
+  },
+  {
+    "word": "aap",
+    "start_time": "31.000 sec",
+    "end_time": "31.000 sec"
+  },
+  {
+    "word": "Dobara",
+    "start_time": "31.000 sec",
+    "end_time": "31.000 sec"
+  },
+  {
+    "word": "TRAI",
+    "start_time": "31.000 sec",
+    "end_time": "31.000 sec"
+  },
+  {
+    "word": "kar",
+    "start_time": "31.000 sec",
+    "end_time": "32.000 sec"
+  },
+  {
+    "word": "sakti",
+    "start_time": "32.000 sec",
+    "end_time": "32.000 sec"
+  },
+  {
+    "word": "hain",
+    "start_time": "32.000 sec",
+    "end_time": "32.000 sec"
+  },
+  {
+    "word": "Koi",
+    "start_time": "32.000 sec",
+    "end_time": "33.000 sec"
+  },
+  {
+    "word": "Aur",
+    "start_time": "33.000 sec",
+    "end_time": "33.000 sec"
+  },
+  {
+    "word": "madad",
+    "start_time": "33.000 sec",
+    "end_time": "34.000 sec"
+  },
+  {
+    "word": "chahie",
+    "start_time": "34.000 sec",
+    "end_time": "34.000 sec"
+  },
+  {
+    "word": "Nahin",
+    "start_time": "34.000 sec",
+    "end_time": "35.000 sec"
+  },
+  {
+    "word": "bus",
+    "start_time": "35.000 sec",
+    "end_time": "35.000 sec"
+  },
+  {
+    "word": "yah",
+    "start_time": "35.000 sec",
+    "end_time": "36.000 sec"
+  },
+  {
+    "word": "fix",
+    "start_time": "36.000 sec",
+    "end_time": "36.000 sec"
+  },
+  {
+    "word": "Ho",
+    "start_time": "36.000 sec",
+    "end_time": "36.000 sec"
+  },
+  {
+    "word": "Jaaye",
+    "start_time": "36.000 sec",
+    "end_time": "36.000 sec"
+  },
+  {
+    "word": "Shukriya",
+    "start_time": "36.000 sec",
+    "end_time": "37.000 sec"
+  }
+]

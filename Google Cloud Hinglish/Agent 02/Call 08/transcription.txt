@@ -1,0 +1,7 @@
+Customer: hello main Kiran Desai marry credit card statement main late payment Hui Kyon Laga
+Agent: Namaste Kiran ji, main check karta hun kya? Aap apna card number Bata sakti hain.
+Customer: On 3456789 412 345678 Main To time par payment kiya tha.
+Agent: Maine Dekha payment due date ke ek din baad receive Hua isliye feel Lag Gaya Main Ek Bar Ke Liye free wave kar deta hun.
+Customer: Thank you aage se kya Dhyan rakho.
+Agent: Due date se 1 Din pahle payment kar dena main aapko payment reminder activate kar deta hun theek hai.
+Customer: han Shukriya

@@ -1,0 +1,7 @@
+Customer: Namaste main Divya Bharti Mera account ka email adress update Kaise karun?
+Agent: Namaste Divya Ji Main aapko guide karta hun kya aap apna account number aur naya email address bata sakti hain.
+Customer: account number hai 345 12378 9456 aur naya email Hai Divya Daud Bharti Aate example.com
+Agent: Theek hai Main Ek OTP bhejta hun verification ke liye OTP aane ke bad Bata dijiye.
+Customer: OTP Mila yah 7891123
+Agent: verified aapka email update Ho Gaya Hai Koi Aur madad
+Customer: Nahin Shukriya

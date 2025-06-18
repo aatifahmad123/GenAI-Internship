@@ -1,0 +1,7 @@
+Customer: Hello, maine Arnav Gupta Mera credit card ka statement physical copy Kaise milega?
+Agent: Namaste Arnav ji, main aapki madad karunga kya aap apna card number bata sakte hain.
+Customer: yah 56789 012345 6789
+Agent: aapke registered adress per physical statement bheja, Ja sakta hai kya aap annual subscription ke liye apply karna chahte hain ya Ek Bar ka statement chahie
+Customer: Bas Ek Baar ka chahie Kitna charge hoga
+Agent: ek bar ke liye 100 rupees charge hai main request Dal deta hun 7 din main statement aapke adress per a Jaega theek hai
+Customer: han thank u

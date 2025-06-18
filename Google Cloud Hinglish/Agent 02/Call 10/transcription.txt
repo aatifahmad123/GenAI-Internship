@@ -1,0 +1,7 @@
+Customer: namaste main Pooja Saxena Mera account ka registered mobile number change karna hai
+Agent: Namaste Pooja Ji main aapki madad karunga kya aap apna account number aur naya mobile number Bata sakti hain.
+Customer: Account number hai. 6789012 34567 aur naya number hai. 87654 32149
+Agent: Theek hai Main Ek OTP bhejta hun verification ke liye OTP aane ke bad Bata dijiye.
+Customer: OTP Mila Yeh hai 456789
+Agent: verified aapka naya number register Ho Gaya Hai Koi Aur madad chahie
+Customer: Nahin thank you.

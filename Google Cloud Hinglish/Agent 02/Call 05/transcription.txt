@@ -1,0 +1,7 @@
+Customer: Namaste main Rohan Gupta Mera debit card broad Kam Nahin kar raha.
+Agent: Namaste Rohan ji, main check karta hun kya aap card number aur country ka naam bata sakte hain.
+Customer: Card number is 789012 34567 89012 or main USA mein hoon.
+Agent: Samjha aapki card per international transactions disabled hai man se abhi enable kar deta hun 10 minut Mindtree Karan
+Customer: Please jaldi karo, please.
+Agent: Ho Gaya Rohan ji a flat aapka card abroad kam Karega Koi Aur Sawal
+Customer: Nahin bas itna hi thanks.

@@ -1,0 +1,7 @@
+Customer: namaste main Rohit Sharma Mera savings account ka minimum balance charge Kyon Laga
+Agent: Namaste Rohit ji, main check karta hun kya aap apna account number bata sakte hain.
+Customer: han yah 123789 456412
+Agent: Maine Dekha aapka account balance last manth minimum requirement se kam tha isliye 500 rupees ka charge Laga kya men se wave karne ki request Dal Dun
+Customer: Haan, please wave kar do.
+Agent: Theek hai main request Dal deta hun. 325 Din Mein charge revers ho jaega, Koi Aur madad.
+Customer: Nahin Shukriya

@@ -1,0 +1,6 @@
+Customer: Hello main Neha Joshi Mera loan application reject Kyon hua?
+Agent: Namaste Neha ji, main aapki application ka status check karta hun, please apna application number bata do.
+Customer: Yeh APN 456789 Mujhe Koi reason Nahin bataya Gaya
+Agent: Maine check kiya aapka CIBIL score requirement se kam tha kya aap ise improve karne ke liye tips chahti hai.
+Customer: Ham please batao yah bahut jaruri hai.
+Agent: JEE main aapko credit improvement ke tips mail karta hun aur dobara application ke liye guide karunga

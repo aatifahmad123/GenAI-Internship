@@ -1,0 +1,7 @@
+Customer: Namaste main Vikram Patel Mera mutual fund investment ka status kya hai?
+Agent: Namaste Vikram ji men check karta hun kya aap apna phone number bata sakte hain.
+Customer: Han yah MH 78 9123456 main 3 mahine pahle invest kiya tha.
+Agent: 1 minut aapka investment active hai aur current NAV ke hisab se 5% Roz dikh raha hai kya aap detail report Chahte Hain
+Customer: On please email kar do.
+Agent: theek hai men report aapke register email per bhej deta hun aur koi Sawal
+Customer: Nahin Shukriya

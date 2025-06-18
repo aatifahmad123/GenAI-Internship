@@ -1,0 +1,7 @@
+Customer: Namaste Meena Anil Thakur Mera personal loan ka interest rate Kyon badh gaya?
+Agent: Namaste Anil ji, main aapke loan details check karta hun kya aap apna loan account number bata sakte hain.
+Customer: Han yah Ellen 9876 54321 pahle 9% Tha Ab 10% dikh raha hai.
+Agent: Maine Dekha RBI ke new guidelines ke vajah se floating weight loans per interest Badha hai kya aap fix rate per switch karna chahte hain?
+Customer: Han yah Bator hai kaise karun?
+Agent: Main aapko process ke liye documents aur steps mail karta hun 3 Din Mein switch ho jaega theek hai.
+Customer: Shukriya bus jaldi karo

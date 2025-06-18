@@ -1,0 +1,7 @@
+Customer: Hello, main Sheetal Sharma bol rahi hun. Mere home loan ki EMI is mahine nahin karti kya hua?
+Agent: namaste Sheetal ji main aapki help karunga kya aap apna loan account number Bata sakti hai
+Customer: Han yah Hai LN 12345678 dot main auto debit set kiya tha Fir Bhi Nahin hua.
+Agent: Main check karta hun 1 minut lagta hai aapke account mein enough balance nahin tha kya aap confirm kar sakti hain.
+Customer: Are yah Kaise maine toh paise Rakhe the Kitna kam tha.
+Agent: almost 2000 ki Kami Thi men suggest Karta Hoon Ki balance Daal Ke Dobara auto debit try karo
+Customer: Theek hai, main aaj hi Dal deti hun. Thanks.

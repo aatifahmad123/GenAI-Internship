@@ -1,0 +1,7 @@
+Customer: namaste main Nisha Yadav Mera account se ek double transaction ho gaya hai
+Agent: Namaste Nisha ji, sorry for the trouble kya aap apna account number aur transaction details Bata sakti hain.
+Customer: account number hai, 789012 345678 or 2000 rupees ka transaction Do Bar Hua Kal
+Agent: Main check karta hun han yah duplicate transaction hai, main refund process Shuru karta hun. 325 Din Mein 2000 rupees Wapas a jaega.
+Customer: Please jaldi karo.
+Agent: main priority per handle karta hun aapko update Dunga Koi Aur madad
+Customer: Nahin Shukriya

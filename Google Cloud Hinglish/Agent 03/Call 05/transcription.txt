@@ -1,0 +1,7 @@
+Customer: hello main Nikhil Jan Meri ATM se paise Nahin nikal rahe lekin balance cut Gaya
+Agent: Namaste Nikhil ji, sorry for the trouble kya aap apna account number aur transaction time bata sakte hain.
+Customer: Account number is 789 or 12345678 aur yah Aaj Subah 10:00 hua.
+Agent: Min check karta hun yah ATM list ki vajah se hua hai main refund request Dal deta hun. 325 Din Mein paise Wapas aaenge.
+Customer: Theek hai, please confirm karo jab ho jaaye.
+Agent: Ji Main aapko update Karunga Koi Aur Sawal
+Customer: Nahin thank you.

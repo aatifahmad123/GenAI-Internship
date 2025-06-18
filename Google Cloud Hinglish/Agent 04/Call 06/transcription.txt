@@ -1,0 +1,7 @@
+Customer: Namaste main Neeraj Kumar Mera credit card ka reward points expire Kyon ho rahe hain?
+Agent: Namaste Neeraj ji min check karta hun kya aap apna card number bata sakte hain.
+Customer: Yeh 23456789 412 34567
+Agent: Mean Dekha aapke card ke points 2 Sal bad expire hote hain as per terms aapke Kuchh points cal expire hone wale hain kya aap redeem karna chahte hain?
+Customer: Han Kaise karun?
+Agent: Mean aapko redemption process ke steps app ya website per Mel karta hun Koi Aur madad.
+Customer: Nahin Shukriya

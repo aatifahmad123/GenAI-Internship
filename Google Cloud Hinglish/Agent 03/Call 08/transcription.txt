@@ -1,0 +1,7 @@
+Customer: Hello main Ritu Malhotra Mere savings account ka interest rate kya hai?
+Agent: namaste Ritu ji min check karta hun kya aap apna account number Bata sakti hai
+Customer: Yeh hai. 456789 012345
+Agent: aapke savings account ka current interest rate 3.5% per annum Hai quarterly credit kya aapko detail terms chahie
+Customer: Han Thodi aur Jankari bhej do.
+Agent: Mean aapko interest calculation aur terms ki details email karta hun Koi Aur madad.
+Customer: Nahin thank you.

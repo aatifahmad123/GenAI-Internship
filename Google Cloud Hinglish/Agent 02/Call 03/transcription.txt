@@ -1,0 +1,7 @@
+Customer: Hello, maine Arjun Malhotra Mera insurance premium ka payment fail ho raha hai.
+Agent: Namaste Arjun ji, main aapki madad karunga kya aap policy number bata sakte hain?
+Customer: Yah INS 45678 9123 main debit card se try kiya lekin error a raha hai.
+Agent: Min check karta hun lagta hai payment gateway Mein temporary issue hai kya aap upi ya net banking se TRAI kar sakte hain.
+Customer: Theek hai main upi TRAI karta hun kitna time lagega?
+Agent: Payment turant reflect Hona chahie Agar Fir Bhi issue ho to mujhe Dobara call Karen aur koi madad.
+Customer: Nahin thank you.

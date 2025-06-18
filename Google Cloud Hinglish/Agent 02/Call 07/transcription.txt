@@ -1,0 +1,7 @@
+Customer: Namaste main Deepak Kumar Mera locker ka renewal Kaise karun?
+Agent: Namaste Deepak Ji Main aapko guide karta hun kya aap apna locker number yah account number bata sakte hain.
+Customer: Account number hai. 23456789 0123 locker number Yaad Nahi
+Agent: Koi baat nahin men check kar liya aapka locker renewal pending Hai branch visit Karke yah online payment se renew kar sakte hain.
+Customer: online kaise hoga
+Agent: Meena ko online renewal ke steps mail karta hoon payment ke baad locker Renu ho jaega aur koi madad
+Customer: Nahin Shukriya

@@ -1,0 +1,7 @@
+Customer: Hello mean Rakesh Patel Mera fix deposit ka auto renewal Kaise Ban karun?
+Agent: Namaste Rakesh ji main aapki madad karunga kya aap apna FD number bata sakte hain.
+Customer: Ham yah FD 45678 9123
+Agent: Maine Dekha aapka FD auto renewal per set hai main ise deactivate kar deta hun maturity ke baad amount aapke account mein credit ho jaega.
+Customer: Theek hai kab tak ho jaega?
+Agent: request Aaj hi process ho jayegi Koi Aur Sawal
+Customer: Nahin thank you.

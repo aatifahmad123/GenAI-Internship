@@ -1,0 +1,6 @@
+Customer: namaste min Vikas Singh Mera ATM card Kho Gaya Hai ise block karo
+Agent: Namaste Vikas JEE main turant card block karta hun, please apna card number account number bata do.
+Customer: Card number Yaad Nahin lekin account number hai. 123456789012
+Agent: Theek hai, main card block kar diya naya card 5 Din mein aapke adress per a jaega.
+Customer: Shukriya Kitna charge hoga
+Agent: Pahla replacement free hai aapko Koi charge Nahin Dena hoga.

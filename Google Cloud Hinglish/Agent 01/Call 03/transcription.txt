@@ -1,0 +1,6 @@
+Customer: namaste mean Rajesh Gupta Mere credit card ka bill 10000 Jyada dikh raha hai
+Agent: Namaste Rajesh ji, sorry for the trouble kya bill ki date aur transaction details bata sakte hain.
+Customer: on the 15th of make a bill Hai Ek transaction 10000 ka hai jo main Kiya hi Nahin
+Agent: Samjha men check karta hun lagta hai yah Ek froad transaction ho sakta hai, maine ise block kar deta hun aur refund process start karta hun.
+Customer: Please jaldi karo yah bahut Pareshan karne wala hai.
+Agent: JEE main samajhta hun 7 to 10 Din Mein refund aapke account mein hoga maine aapko update dunga.

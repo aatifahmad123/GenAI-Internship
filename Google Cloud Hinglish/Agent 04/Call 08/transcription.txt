@@ -1,0 +1,7 @@
+Customer: hello mean Sameer Khan Mera mutual fund SIP Queen Band Ho Gaya
+Agent: Namaste Sameer ji main check karta hun kya aap apna Folio number bata sakte hain.
+Customer: Yeh Hai MF 12378 9456
+Agent: Maine Dekha aapke account mean in sufficient balance tha isliye sirf fail ho gaya kya balance dalkar SIP restart karna chahte hain.
+Customer: Han Kaise karun?
+Agent: Main aapko restart process aur payment details mail karta hun Aaj Sham Tak restart ho jaega theek hai.
+Customer: And thank you.

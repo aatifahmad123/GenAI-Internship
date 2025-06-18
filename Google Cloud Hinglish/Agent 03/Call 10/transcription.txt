@@ -1,0 +1,7 @@
+Customer: namaste main Gita Varma Mera upi transaction stuck ho gaya hai
+Agent: Namaste Geeta ji, sorry for the inconvenience kya aap Transaction ID Y upi reference number Bata sakti hain?
+Customer: Han yah hai upi. 12345678901
+Agent: Min check karta hoon transaction pending Hai banking se resolve kar deta hun. 24 ghante mai paise reflect Ho Jayenge
+Customer: Theek hai mujhe update dena.
+Agent: Ji Main aapko confirm karta hun Jab resolve Ho Jaaye Koi Aur madad
+Customer: Nahin Shukriya

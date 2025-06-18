@@ -1,0 +1,7 @@
+Customer: namaste Maine Anil Verma Mera credit card ka international transaction Kyon Nahin ho raha
+Agent: Namaste Anil ji main check karta hun kya aap apna card number aur country ka naam bata sakte hain.
+Customer: Card number hai. 1234567 894 123 456 Aur Main UK mein hoon.
+Agent: aapki Kat per international transactions disabled Hai Maine se abhi enable kar deta hun 15 minut Mein Karen
+Customer: Achcha Koi extra charge To Nahin
+Agent: Nahin Koi extra charge Nahin Hai Koi Aur Sawal
+Customer: Nahin Shukriya

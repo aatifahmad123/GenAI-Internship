@@ -1,0 +1,7 @@
+Customer: Hello main Anjali Gupta Mera credit card ka cash withdrawal limit kya hai?
+Agent: Namaste Anjali ji main aapke card details check karta hun kya aap apna card number Bata sakti hain.
+Customer: Yeh 4567894 123456789
+Agent: aapke card ka cash withdrawal limit 50000 per day hai kya aap ismein Koi change chahti Hain
+Customer: Nahin bus Jankari chahie Thi Koi charge To Nahin Hai Na
+Agent: Cash withdrawal per 2.5% feel lagta hai minimum 300 rupees main aapko details Mel kar deta hun theek hai.
+Customer: And thank you.

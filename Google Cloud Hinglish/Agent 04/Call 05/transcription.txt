@@ -1,0 +1,7 @@
+Customer: Hello main Amitabh Das Mera Demat account ka password reset Kaise karun?
+Agent: Namaste Amitabh Ji Main aapko guide karta hun kya aap apna Demat account number bata sakte hain.
+Customer: han yah DM 45678 9123
+Agent: Aap Hamare website ya App se password reset kar sakte hain mean aapko OTP based reset process ke steps email Karta Hoon
+Customer: Han email kar do kitna time lagega.
+Agent: OTP ke sath turant reset ho jaega Koi Aur Sawal
+Customer: Nahin thank you.

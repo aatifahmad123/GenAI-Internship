@@ -1,0 +1,6 @@
+Customer: hello main Priti Yadav Mere account se 3000 Gayab Hai Yeh Kya mazak hai
+Agent: namaste Priti ji yah sunkar, sorry Laga please apna account number bata do Taki men check kar Sakun
+Customer: Han yah 9876 543 2198 jaldi dekho main bahut Pareshan hun.
+Agent: Maine Dekha 3000 ka ek online transaction hua hai kya aapane koi payment kiya tha
+Customer: Nahin main Kuchh Nahin Kiya yah froad hai.
+Agent: Chinta mat karo Maine ise froad case Mein register karta hoon, aur refund process start karta hun.

@@ -1,0 +1,6 @@
+Customer: namaste mean Ajay Verma Mera savings account ka passbook update Nahin Hua Hai
+Agent: Namaste ji main aapki help Karunga please apna account number bata do.
+Customer: Han 456789 123 456 last 2 mahine ka record Nahin dikh raha.
+Agent: Maine check kiya aapka passbook update system main pending hai kya? Branch mein le sakte hain ya digital statement chahie
+Customer: Digital statement bhej do.
+Agent: Theek hai, main ise aapke registered email per bhej deta hun.

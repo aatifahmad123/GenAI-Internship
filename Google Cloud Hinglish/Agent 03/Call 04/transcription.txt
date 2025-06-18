@@ -1,0 +1,7 @@
+Customer: Namaste main Rekha Patel Mera fix deposit mature ho gaya ab kya karun?
+Agent: Namaste Rekha ji, main aapki madad karunga kya aap FD number Bata sakti hain?
+Customer: yah FD 7894 56123
+Agent: Main Dekha aapki FB mature ho chuki hai kya aap amount withdrawal karna chahti hain ya Renu karna hai?
+Customer: mean withdraw karna chahti hun kitna time lagega
+Agent: Amount 24 ghante mein aapke account mein credit Ho Jayega main process start kar deta hun. Koi Aur madad.
+Customer: Nahin Shukriya

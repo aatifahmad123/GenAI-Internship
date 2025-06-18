@@ -1,0 +1,7 @@
+Customer: namaste main Priyanka Chopra Mera locker ka Axis card Kho Gaya Hai
+Agent: Namaste Priyanka Ji main aapki madad karunga kya aap apna account number ya locker number Bata sakti hain?
+Customer: Account number hai. 678 123456789
+Agent: main check karta hun aapko branch visit Karke new access card ke liye apply karna hoga main aapko required documents ke details mail Karta Hoon
+Customer: Kitna charge hoga?
+Agent: replacement card ka charge 200 rupees Hai Koi Aur Sawal
+Customer: Nahin Shukriya

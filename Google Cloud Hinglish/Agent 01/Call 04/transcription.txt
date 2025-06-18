@@ -1,0 +1,6 @@
+Customer: Hello main Anita Verma meaning FB Kholi Thi lekin uska interest credit Nahin hua.
+Agent: Namaste Anita ji, main aapki FD details check karta hun kya aap FD number Bata sakti hain?
+Customer: Khan FD 123456 yah 6 mahine pahle Kholi thi.
+Agent: Thanks mean check kiya aapki FD ka interest Quadri credit hota hai next credit agale Hafte hoga.
+Customer: Achcha Mujhe yah bataya Nahin gaya tha theek hai. Thanks.
+Agent: Sorry agar yah clear nahin tha main aapko details Mel kar deta hun.

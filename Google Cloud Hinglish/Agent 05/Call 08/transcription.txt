@@ -1,0 +1,7 @@
+Customer: hello mean Meera Joshi Mera Demat account ka annual maintenance charge Kyon Laga
+Agent: Namaste Meera ji, main check karta hun kya aap apna Demat account number Bata sakti hain.
+Customer: yah DM 789123 456
+Agent: Maine Dekha aapke account per standard annual maintenance charge 500 rupees Laga Hai Kya Aap ise wave karne ke liye eligible Hai men check kar sakta hun.
+Customer: Please check karo.
+Agent: Theek hai, aapki trading volume ke basis par men wave request Dal deta hun. 5 Din Mein update Milega Koi Aur madad.
+Customer: Nahin thank you.

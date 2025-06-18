@@ -1,0 +1,7 @@
+Customer: namaste main Sanjay Rawat Mera debit card ka annual fee Kyon Laga
+Agent: Namaste Sanjay ji main aapke card details check karta hun kya aap card number bata sakte hain?
+Customer: han yah Hai 567894 123456789
+Agent: Main Dekha aapke card ka Annual fees standard charges ka hissa hai lekin agar aap minimum transactions Karte Hain To Main free wave karne ki request Dal sakta hun.
+Customer: Haan, please wave kar do.
+Agent: Theek hai main request Dal deta hun. 5 Din Mein free reverse ho jaega, Koi Aur Sawal
+Customer: Nahin Shukriya

@@ -1,0 +1,7 @@
+Customer: namaste min Rajiv Mehra Mera credit card ka bill payment online Kyon Nahin ho raha
+Agent: Namaste Rajiv ji, sorry for the trouble kya aap apna card number aur error message bata sakte hain.
+Customer: Card number hai. 7891 2345 6789012 aur error hai payment gateway time out.
+Agent: Main check karta hun yah temporary Gateway issue ho sakta hai kya? Aap upi yah net banking se TRAI kar sakte hain.
+Customer: Theek hai main net banking TRAI karta hun kitna time lagega?
+Agent: payment turant reflect Hona chahie Agar Fir Bhi issue ho mujhe Dobara call Karen Koi Aur Sawal
+Customer: Nahin Shukriya

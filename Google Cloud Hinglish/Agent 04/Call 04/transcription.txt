@@ -1,0 +1,7 @@
+Customer: namaste Maine Suman Rani Mere account mein ek wrong credit Hua Hai 10000 ka
+Agent: namaste Suman Ji yah sunkar sorry Laga kya aap apna account number aur transaction date Bata sakti hai
+Customer: Account number hai, 9912345 6789 aur yah cal hua.
+Agent: Min check karta hun yah Ek Bank error lagta hai men isase reverse karne ka process Shuru karta hun 5 din main resolve ho jaega.
+Customer: Theek hai mujhe update dena.
+Agent: Main aapko inform karta rahunga Koi Aur madad.
+Customer: Nahin Shukriya

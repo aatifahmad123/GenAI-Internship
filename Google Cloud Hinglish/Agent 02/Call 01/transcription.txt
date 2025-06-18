@@ -1,0 +1,7 @@
+Customer: Namaste main Priya Sharma mera net banking login Nahin ho raha hai.
+Agent: namaste Priya ji main aapki madad karunga kya error message a Raha Hai Jab aap login Karte Hain
+Customer: Han interact password bol raha hai lekin main Vahi password Dala Jo Hamesha use karti hun.
+Agent: Theek hai, Shayad password reset karna padega kya aap apna register mobile number confirm kar sakti hain.
+Customer: han yah 98765 43214
+Agent: Main aapko Ek OTP bhejta hun password reset ke liye 5 minut mein aap Dobara TRAI kar sakti hain Koi Aur madad chahie.
+Customer: Nahin bus yah fix Ho Jaaye Shukriya
