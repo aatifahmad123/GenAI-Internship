@@ -1,0 +1,45 @@
+{
+  "call id": "6",
+  "agent id": "1",
+  "call duration": "33.56",
+  "summary": "Agent initiated fraud claim for unauthorized transaction and refund.",
+  "intents": [
+    {
+      "intent": "Fraudulent Transaction Reporting",
+      "confidence": "95",
+      "keywords": "हेलो मैं प्रीति यादव मेरे खाते से 3000 गायब है...यह फ्रॉड है",
+      "intent timestamp": "0.000 sec - 29.000 sec",
+      "products": [
+        "Bank Account"
+      ],
+      "issues": [
+        {
+          "issue": "Unauthorized debit of 3000 rupees",
+          "reason(s)": "Customer claims no knowledge of the transaction.",
+          "issue type": "Billing"
+        }
+      ],
+      "actions of agent": "Agent acknowledged the issue, collected account details, confirmed the transaction, initiated a fraud case, and started the refund process.",
+      "resolution status": "Resolved",
+      "Process Request": "Initiated fraud claim and refund process.",
+      "resolution": "Agent filed a fraud case and initiated the refund process for the unauthorized transaction.",
+      "resolution timestamp": "28.000 sec - 33.000 sec",
+      "dominant emotions (customer)": [
+        "Anxiety",
+        "Concern",
+        "Frustration"
+      ],
+      "conversation sentiment": "Negative",
+      "customer satisfaction": "80"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "8",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

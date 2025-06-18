@@ -1,0 +1,43 @@
+{
+  "call id": "47",
+  "agent id": "5",
+  "call duration": "37",
+  "summary": "Customer requests to revert credit card billing cycle.",
+  "intents": [
+    {
+      "intent": "Billing Inquiry",
+      "confidence": "95",
+      "keywords": "नमस्ते मैं विवेक गुप्ता ... क्रेडिट कार्ड का बिलिंग साइकिल बदल गया है।",
+      "intent timestamp": "0.000 sec - 9.000 sec",
+      "products": [
+        "Credit Card"
+      ],
+      "issues": [
+        {
+          "issue": "Billing cycle changed",
+          "reason(s)": "System update",
+          "issue type": "Billing"
+        }
+      ],
+      "actions of agent": "Agent checked the system and confirmed the billing cycle change. Agent offered to revert the billing cycle and raised a request.",
+      "resolution status": "Resolved",
+      "Process Request": "Request to revert billing cycle",
+      "resolution": "Agent reverted the billing cycle to the original date.",
+      "resolution timestamp": "30.000 sec - 34.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "90"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "9",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

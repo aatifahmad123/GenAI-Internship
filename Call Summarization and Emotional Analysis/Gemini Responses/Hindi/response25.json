@@ -1,0 +1,63 @@
+{
+  "call id": "25",
+  "agent id": "3",
+  "call duration": "29",
+  "summary": "Agent helped customer with maturity details and sent statement.",
+  "intents": [
+    {
+      "intent": "Check Fixed Deposit Maturity Details",
+      "confidence": "95",
+      "keywords": "नमस्ते मैं मोहन राव ... मैच्योरिटी डिटेल्स नहीं मिल रही।",
+      "intent timestamp": "0.000 sec - 8.000 sec",
+      "products": [
+        "Fixed Deposit"
+      ],
+      "issues": [
+        {
+          "issue": "Customer unable to find maturity details of FD.",
+          "reason(s)": "N/A",
+          "issue type": "Service"
+        }
+      ],
+      "actions of agent": "Agent checked the FD details and confirmed the maturity amount was credited.",
+      "resolution status": "Resolved",
+      "Process Request": "Send account statement to customer",
+      "resolution": "Agent confirmed that the maturity amount including interest was credited and offered to send the statement.",
+      "resolution timestamp": "14.000 sec - 25.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "90"
+    },
+    {
+      "intent": "Inquire about interest",
+      "confidence": "90",
+      "keywords": "क्या ब्याज भी शामिल है?",
+      "intent timestamp": "19.000 sec - 22.000 sec",
+      "products": [
+        "Fixed Deposit"
+      ],
+      "issues": [],
+      "actions of agent": "Agent confirmed interest was included.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "Agent confirmed interest was included in the credited amount.",
+      "resolution timestamp": "21.000 sec - 25.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "95"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "9",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

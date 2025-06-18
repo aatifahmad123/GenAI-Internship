@@ -1,0 +1,43 @@
+{
+  "call id": "32",
+  "agent id": "4",
+  "call duration": "32",
+  "summary": "Customer reported credit card PIN generation failure, agent reinitiated process.",
+  "intents": [
+    {
+      "intent": "PIN Generation Issue",
+      "confidence": "95",
+      "keywords": "हेलो मैं रीना चौधरी मेरा क्रेडिट कार्ड का पिन ... जनरेट हुआ।",
+      "intent timestamp": "0.000 sec - 8.000 sec",
+      "products": [
+        "Credit Card"
+      ],
+      "issues": [
+        {
+          "issue": "PIN not generated",
+          "reason(s)": "PIN generation request failed",
+          "issue type": "Technical"
+        }
+      ],
+      "actions of agent": "Agent checked the status, identified the failed PIN generation request, and reinitiated the process.",
+      "resolution status": "Resolved",
+      "Process Request": "Reinitiated PIN generation process.",
+      "resolution": "PIN will be generated and sent via SMS within 48 hours.",
+      "resolution timestamp": "25.000 sec - 29.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "80"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "8",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

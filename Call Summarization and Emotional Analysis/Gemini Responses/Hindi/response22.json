@@ -1,0 +1,43 @@
+{
+  "call id": "22",
+  "agent id": "3",
+  "call duration": "37",
+  "summary": "The agent resolved the customer's international transaction issue.",
+  "intents": [
+    {
+      "intent": "Credit Card Issue",
+      "confidence": "95",
+      "keywords": "हेलो मैं स्वाति मिश्रा मेरा क्रेडिट कार्ड विदेश में ... नहीं कर रहा।",
+      "intent timestamp": "0.000 sec - 9.000 sec",
+      "products": [
+        "Credit Card"
+      ],
+      "issues": [
+        {
+          "issue": "Credit card not working for international transactions.",
+          "reason(s)": "International transactions are blocked on the card.",
+          "issue type": "Technical"
+        }
+      ],
+      "actions of agent": "The agent identified that international transactions were blocked and activated them.",
+      "resolution status": "Resolved",
+      "Process Request": "The agent activated international transactions.",
+      "resolution": "International transactions will be activated within 24 hours.",
+      "resolution timestamp": "23.000 sec - 28.000 sec",
+      "dominant emotions (customer)": [
+        "Concerned"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "80"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "8",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

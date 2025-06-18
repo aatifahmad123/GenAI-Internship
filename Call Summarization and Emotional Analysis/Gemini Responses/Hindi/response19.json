@@ -1,0 +1,65 @@
+{
+  "call id": "19",
+  "agent id": "2",
+  "call duration": "31.92",
+  "summary": "Customer is facing issues with X registration, agent provides resolution.",
+  "intents": [
+    {
+      "intent": "Technical Issue",
+      "confidence": "95",
+      "keywords": "हेलो मैं विक्रम राठौर मेरे खाते में एक्स रजिस्ट्रेशन नहीं ...रजिस्ट्रेशन नहीं हो रहा!",
+      "intent timestamp": "0.000 sec - 9.000 sec",
+      "products": [
+        "Mutual Fund SIP",
+        "X Registration"
+      ],
+      "issues": [
+        {
+          "issue": "X registration not working",
+          "reason(s)": "Incomplete form",
+          "issue type": "Technical"
+        }
+      ],
+      "actions of agent": "Identified the issue, provided a new form link.",
+      "resolution status": "Resolved",
+      "Process Request": "Sending new form link to customer.",
+      "resolution": "Agent sent a new form link to the customer to complete the X registration.",
+      "resolution timestamp": "21.000 sec - 24.000 sec",
+      "dominant emotions (customer)": [
+        "Concerned"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "80"
+    },
+    {
+      "intent": "Inquiry about resolution time",
+      "confidence": "90",
+      "keywords": "कितने समय में सेट हो जाएगा?",
+      "intent timestamp": "22.000 sec - 26.000 sec",
+      "products": [
+        "Mutual Fund SIP",
+        "X Registration"
+      ],
+      "issues": [],
+      "actions of agent": "Provided the estimated time for the X registration to be set up.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "Agent informed that it will take 3 days after form submission.",
+      "resolution timestamp": "25.000 sec - 28.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "90"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "8",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

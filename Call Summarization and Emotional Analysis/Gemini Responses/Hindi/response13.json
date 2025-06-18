@@ -1,0 +1,43 @@
+{
+  "call id": "13",
+  "agent id": "2",
+  "call duration": "26",
+  "summary": "The agent helped the customer reset his net banking password.",
+  "intents": [
+    {
+      "intent": "Password Reset",
+      "confidence": "95",
+      "keywords": "हेलो मैं दीपक वर्मा मेरा नेट बैंकिंग पासवर्ड ... नहीं कर रहा।",
+      "intent timestamp": "0.000 sec - 8.000 sec",
+      "products": [
+        "Net Banking"
+      ],
+      "issues": [
+        {
+          "issue": "Customer's net banking password is not working.",
+          "reason(s)": "Customer entered the wrong password multiple times, leading to account lockout.",
+          "issue type": "Technical"
+        }
+      ],
+      "actions of agent": "The agent offered to send a password reset link to the customer's registered email address.",
+      "resolution status": "Resolved",
+      "Process Request": "Password reset link sent to customer's registered email.",
+      "resolution": "Password reset link sent to the customer's registered email address.",
+      "resolution timestamp": "12.000 sec - 18.000 sec",
+      "dominant emotions (customer)": [
+        "Frustration"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "90"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "9",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

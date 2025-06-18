@@ -1,0 +1,43 @@
+{
+  "call id": "35",
+  "agent id": "4",
+  "call duration": "32",
+  "summary": "Customer reports incorrect name linked to account, agent assists.",
+  "intents": [
+    {
+      "intent": "Account Information Update",
+      "confidence": "95",
+      "keywords": "नमस्ते मैं रोहित वर्मा ... खाता धारक का नाम लिंक है।",
+      "intent timestamp": "0.000 sec - 9.000 sec",
+      "products": [
+        "Account"
+      ],
+      "issues": [
+        {
+          "issue": "Incorrect name on account",
+          "reason(s)": "Name mismatch in the account records.",
+          "issue type": "Technical"
+        }
+      ],
+      "actions of agent": "Verified account details, initiated name update request.",
+      "resolution status": "Pending with Callback",
+      "Process Request": "Name update request initiated.",
+      "resolution": "Agent informed the customer that the name update request has been initiated and will take 3-5 working days.",
+      "resolution timestamp": "21.000 sec - 28.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "75"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "8",
+  "customer satisfaction (out of 10)": "8",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

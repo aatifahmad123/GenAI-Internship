@@ -1,0 +1,44 @@
+{
+  "call id": "39",
+  "agent id": "4",
+  "call duration": "32",
+  "summary": "The customer inquired about a decrease in their debit card limit.",
+  "intents": [
+    {
+      "intent": "Debit Card Limit Inquiry",
+      "confidence": "95",
+      "keywords": "नमस्ते मैं अंकित जोशी ... डेबिट कार्ड की लिमिट काम क्यों हो गई?",
+      "intent timestamp": "0.000 sec - 8.000 sec",
+      "products": [
+        "Debit Card"
+      ],
+      "issues": [
+        {
+          "issue": "Debit card limit decreased",
+          "reason(s)": "Security reasons",
+          "issue type": "Billing"
+        }
+      ],
+      "actions of agent": "The agent checked the customer's card details and initiated a request to increase the limit.",
+      "resolution status": "Pending with Callback",
+      "Process Request": "Request to increase debit card limit",
+      "resolution": "The agent informed the customer that the limit increase request would take 3-5 business days.",
+      "resolution timestamp": "26.000 sec - 29.000 sec",
+      "dominant emotions (customer)": [
+        "Concerned",
+        "Inquisitive"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "70"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "8",
+  "agent performance (out of 10)": "8",
+  "customer satisfaction (out of 10)": "7",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

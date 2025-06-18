@@ -1,0 +1,44 @@
+{
+  "call id": "8",
+  "agent id": "1",
+  "call duration": "29",
+  "summary": "Customer inquired about loan application rejection and sought guidance.",
+  "intents": [
+    {
+      "intent": "Loan Application Status Inquiry",
+      "confidence": "95",
+      "keywords": "हेलो मैं नेहा जोशी, मेरा लोन आवेदन रिजेक्ट क्यों ... कोई कारण नहीं बताया गया।",
+      "intent timestamp": "0.000 sec - 16.000 sec",
+      "products": [
+        "Loan"
+      ],
+      "issues": [
+        {
+          "issue": "Loan application rejected",
+          "reason(s)": "Low CIBIL score",
+          "issue type": "Billing"
+        }
+      ],
+      "actions of agent": "Checked application status and provided the reason for rejection.",
+      "resolution status": "Unresolved",
+      "Process Request": "N/A",
+      "resolution": "Agent offered to email credit improvement tips and guide for re-application.",
+      "resolution timestamp": "24.000 sec - 30.000 sec",
+      "dominant emotions (customer)": [
+        "Concern",
+        "Inquiry"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "70"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "8",
+  "customer satisfaction (out of 10)": "7",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

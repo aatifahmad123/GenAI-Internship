@@ -1,0 +1,69 @@
+{
+  "call id": "23",
+  "agent id": "3",
+  "call duration": "31",
+  "summary": "Customer inquired about home loan prepayment charges and waiver.",
+  "intents": [
+    {
+      "intent": "Prepayment Charge Inquiry",
+      "confidence": "95",
+      "keywords": "नमस्ते मैं अरुण यादव ... प्री पेमेंट चार्ज कितना होगा?",
+      "intent timestamp": "0.000 sec - 9.000 sec",
+      "products": [
+        "Home Loan"
+      ],
+      "issues": [
+        {
+          "issue": "Customer wants to know the prepayment charge for their home loan.",
+          "reason(s)": "N/A",
+          "issue type": "Billing"
+        }
+      ],
+      "actions of agent": "Agent checked the prepayment charges associated with the customer's loan account.",
+      "resolution status": "Unresolved",
+      "Process Request": "N/A",
+      "resolution": "Agent informed the customer about the 2% prepayment charge, which amounts to ₹10,000.",
+      "resolution timestamp": "15.000 sec - 21.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "60"
+    },
+    {
+      "intent": "Prepayment Charge Waiver Request",
+      "confidence": "90",
+      "keywords": "क्या इसे माफ कर सकते हैं?",
+      "intent timestamp": "20.000 sec - 23.000 sec",
+      "products": [
+        "Home Loan"
+      ],
+      "issues": [
+        {
+          "issue": "Customer is requesting a waiver of the prepayment charges.",
+          "reason(s)": "N/A",
+          "issue type": "Billing"
+        }
+      ],
+      "actions of agent": "Agent agreed to submit a request for a waiver of the prepayment charges.",
+      "resolution status": "Pending with Callback",
+      "Process Request": "Agent will submit a waiver request.",
+      "resolution": "Agent will provide an update to the customer in 3-5 days regarding the waiver request.",
+      "resolution timestamp": "22.000 sec - 29.000 sec",
+      "dominant emotions (customer)": [
+        "Hopeful"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "70"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "8",
+  "agent performance (out of 10)": "7",
+  "customer satisfaction (out of 10)": "7",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "Yes",
+  "callback time": "3-5 days"
+}

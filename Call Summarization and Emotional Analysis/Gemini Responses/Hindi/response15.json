@@ -1,0 +1,63 @@
+{
+    "call id": "15",
+    "agent id": "2",
+    "call duration": "26",
+    "summary": "Customer forgot ATM pin, agent initiated pin reset request.",
+    "intents": [
+        {
+            "intent": "ATM Pin Reset",
+            "confidence": "95",
+            "keywords": "हेलो मैं राहुल मेहता मेरा एटीएम पिन भूल ... पिन जनरेट करने का अनुरोध दर्ज किया।",
+            "intent timestamp": "0.000 sec - 19.000 sec",
+            "products": [
+                "ATM Card"
+            ],
+            "issues": [
+                {
+                    "issue": "Customer forgot ATM PIN",
+                    "reason(s)": "N/A",
+                    "issue type": "Service"
+                }
+            ],
+            "actions of agent": "Verified customer details and initiated a request to generate a new ATM PIN.",
+            "resolution status": "Resolved",
+            "Process Request": "New ATM PIN generation request.",
+            "resolution": "New ATM PIN will be sent via SMS in 48 hours.",
+            "resolution timestamp": "13.000 sec - 19.000 sec",
+            "dominant emotions (customer)": [
+                "Neutral"
+            ],
+            "conversation sentiment": "Neutral",
+            "customer satisfaction": "90"
+        },
+        {
+            "intent": "Check for charges",
+            "confidence": "90",
+            "keywords": "कोई चार्ज तो नहीं?",
+            "intent timestamp": "18.000 sec - 21.000 sec",
+            "products": [
+                "ATM Card"
+            ],
+            "issues": [],
+            "actions of agent": "Informed the customer that there are no charges for the service.",
+            "resolution status": "Resolved",
+            "Process Request": "N/A",
+            "resolution": "Confirmed that the service is free of charge.",
+            "resolution timestamp": "21.000 sec - 23.000 sec",
+            "dominant emotions (customer)": [
+                "Neutral"
+            ],
+            "conversation sentiment": "Neutral",
+            "customer satisfaction": "100"
+        }
+    ],
+    "basic greeting and closing": "Yes",
+    "fatal behaviour": "No",
+    "agent professionalism (out of 10)": "9",
+    "agent performance (out of 10)": "9",
+    "customer satisfaction (out of 10)": "9",
+    "interruptions by customer": "0",
+    "interruptions by agent": "0",
+    "callback promise": "No",
+    "callback time": "N/A"
+}

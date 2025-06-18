@@ -1,0 +1,49 @@
+{
+  "call id": "14",
+  "agent id": "2",
+  "call duration": "29",
+  "summary": "Customer inquired about a sudden increase in loan interest rate.",
+  "intents": [
+    {
+      "intent": "Interest Rate Inquiry",
+      "confidence": "95",
+      "keywords": "नमस्ते मैं पूजा गुप्ता मेरे लोन की ब्याज दर अचानक ... गई है।",
+      "intent timestamp": "0.000 sec - 8.000 sec",
+      "products": [
+        "Loan"
+      ],
+      "issues": [
+        {
+          "issue": "Unexpected increase in loan interest rate.",
+          "reason(s)": "RBI's new policy caused the change in interest rate.",
+          "issue type": "Billing"
+        },
+        {
+          "issue": "Did not receive a notice about the interest rate change.",
+          "reason(s)": "N/A",
+          "issue type": "Billing"
+        }
+      ],
+      "actions of agent": "Agent checked the account, explained the reason for the increase, offered to send details via email, and submitted a review request.",
+      "resolution status": "Pending with Callback",
+      "Process Request": "Review request for interest rate.",
+      "resolution": "Agent will send details via email and provide an update after the review.",
+      "resolution timestamp": "21.000 sec - 26.000 sec",
+      "dominant emotions (customer)": [
+        "Concern",
+        "Surprise"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "60"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "8",
+  "agent performance (out of 10)": "7",
+  "customer satisfaction (out of 10)": "6",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "Yes",
+  "callback time": "N/A"
+}

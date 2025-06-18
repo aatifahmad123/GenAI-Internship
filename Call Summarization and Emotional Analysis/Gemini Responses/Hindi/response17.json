@@ -1,0 +1,44 @@
+{
+  "call id": "17",
+  "agent id": "2",
+  "call duration": "33",
+  "summary": "Agent processed customer's request for annual fee waiver.",
+  "intents": [
+    {
+      "intent": "Fee Waiver Request",
+      "confidence": "95",
+      "keywords": "हेलो मैं सुनील चौहान मेरे क्रेडिट कार्ड की वार्षिक फीस माफ ... क्यों नहीं हुई?",
+      "intent timestamp": "0.000 sec - 9.000 sec",
+      "products": [
+        "Credit Card"
+      ],
+      "issues": [
+        {
+          "issue": "Annual fee not waived",
+          "reason(s)": "Minimum spending criteria not met for fee waiver offer.",
+          "issue type": "Billing"
+        }
+      ],
+      "actions of agent": "Agent checked the customer's account and confirmed the reason for the fee not being waived. Agent then submitted a request for a fee waiver.",
+      "resolution status": "Pending with Callback",
+      "Process Request": "Request for fee waiver submitted.",
+      "resolution": "Agent submitted a request to waive the annual fee, which will be updated in 5-7 days.",
+      "resolution timestamp": "20.000 sec - 29.000 sec",
+      "dominant emotions (customer)": [
+        "Concerned",
+        "Inquisitive"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "75"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "8",
+  "customer satisfaction (out of 10)": "7",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

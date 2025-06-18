@@ -1,0 +1,43 @@
+{
+  "call id": "10",
+  "agent id": "1",
+  "call duration": "32",
+  "summary": "Customer inquired about redeeming credit card reward points.",
+  "intents": [
+    {
+      "intent": "Reward Points Redemption",
+      "confidence": "95",
+      "keywords": "हेलो मैं कविता मेहता ... रीवार्ड प्वाइंट्स रिडीम कैसे करें?",
+      "intent timestamp": "0.000 sec - 9.000 sec",
+      "products": [
+        "Credit Card"
+      ],
+      "issues": [
+        {
+          "issue": "Customer needs assistance with reward points redemption process.",
+          "reason(s)": "Customer is unsure how to redeem reward points.",
+          "issue type": "Service"
+        }
+      ],
+      "actions of agent": "The agent provided guidance on how to redeem points and offered to email the steps.",
+      "resolution status": "Resolved",
+      "Process Request": "Emailing detailed guide to the customer.",
+      "resolution": "Agent offered to send a detailed guide via email.",
+      "resolution timestamp": "26.000 sec - 29.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "90"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "9",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

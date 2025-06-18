@@ -1,0 +1,43 @@
+{
+  "call id": "41",
+  "agent id": "5",
+  "call duration": "31",
+  "summary": "Customer reported direct debit setup issue, agent provided resolution.",
+  "intents": [
+    {
+      "intent": "Direct Debit Setup Issue",
+      "confidence": "95",
+      "keywords": "मेरे खाते में डायरेक्ट डेबिट सेटअप नहीं ... रहा हूं।",
+      "intent timestamp": "0.000 sec - 9.000 sec",
+      "products": [
+        "Direct Debit"
+      ],
+      "issues": [
+        {
+          "issue": "Direct debit setup is not working.",
+          "reason(s)": "Mandate form was incomplete.",
+          "issue type": "Technical"
+        }
+      ],
+      "actions of agent": "Agent identified the issue, informed customer about incomplete form, and offered to send a new form link.",
+      "resolution status": "Resolved",
+      "Process Request": "Send new mandate form link to customer.",
+      "resolution": "Agent sent a new mandate form link to the customer and informed that it will take 3 working days to setup.",
+      "resolution timestamp": "21.000 sec - 28.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "80"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "8",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

@@ -1,0 +1,43 @@
+{
+  "call id": "20",
+  "agent id": "2",
+  "call duration": "31.84",
+  "summary": "The agent resolved the customer's issue of not receiving statements.",
+  "intents": [
+    {
+      "intent": "Inquiry about Credit Card Statement",
+      "confidence": "95",
+      "keywords": "नमस्ते मैं स्मिता...क्रेडिट कार्ड स्टेटमेंट ईमेल पर नहीं आ रहा।",
+      "intent timestamp": "0.000 sec - 9.000 sec",
+      "products": [
+        "Credit Card"
+      ],
+      "issues": [
+        {
+          "issue": "Customer is not receiving credit card statements via email.",
+          "reason(s)": "Email address was not updated in the system.",
+          "issue type": "Technical"
+        }
+      ],
+      "actions of agent": "The agent checked the customer's email and updated it.",
+      "resolution status": "Resolved",
+      "Process Request": "Updated customer's email address in the system.",
+      "resolution": "The agent updated the customer's email address and resent the latest statement.",
+      "resolution timestamp": "16.000 sec - 23.000 sec",
+      "dominant emotions (customer)": [
+        "Concern"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "90"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "9",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

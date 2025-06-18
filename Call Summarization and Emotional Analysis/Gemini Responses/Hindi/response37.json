@@ -1,0 +1,43 @@
+{
+  "call id": "37",
+  "agent id": "4",
+  "call duration": "29",
+  "summary": "Customer reported a failed RTGS transfer, agent identified incorrect details.",
+  "intents": [
+    {
+      "intent": "Failed Transaction",
+      "confidence": "95",
+      "keywords": "नमस्ते मैं काजल यादव ... आरटीजीएस ट्रांसफर फेल हो गया।",
+      "intent timestamp": "0.000 sec - 8.000 sec",
+      "products": [
+        "RTGS"
+      ],
+      "issues": [
+        {
+          "issue": "RTGS transfer failed",
+          "reason(s)": "Incorrect beneficiary details",
+          "issue type": "Technical"
+        }
+      ],
+      "actions of agent": "Agent checked the details and informed the customer about the reason for failure.",
+      "resolution status": "Unresolved",
+      "Process Request": "N/A",
+      "resolution": "Customer was informed that the RTGS transfer failed due to incorrect beneficiary details and needs to try again with correct details.",
+      "resolution timestamp": "16.000 sec - 21.000 sec",
+      "dominant emotions (customer)": [
+        "Concern"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "60"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "8",
+  "agent performance (out of 10)": "7",
+  "customer satisfaction (out of 10)": "6",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

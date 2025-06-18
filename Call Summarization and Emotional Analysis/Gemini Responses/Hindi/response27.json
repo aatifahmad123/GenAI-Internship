@@ -1,0 +1,43 @@
+{
+  "call id": "27",
+  "agent id": "3",
+  "call duration": "33",
+  "summary": "Customer reported EMI conversion issue, agent resolved it.",
+  "intents": [
+    {
+      "intent": "EMI Conversion Issue",
+      "confidence": "95",
+      "keywords": "नमस्ते मैं शालिनी वर्मा मेरी क्रेडिट कार्ड का एमी कन्वर्जन ... नहीं हुआ।",
+      "intent timestamp": "0.000 sec - 9.000 sec",
+      "products": [
+        "Credit Card"
+      ],
+      "issues": [
+        {
+          "issue": "EMI conversion not processed",
+          "reason(s)": "Request was not processed",
+          "issue type": "Technical"
+        }
+      ],
+      "actions of agent": "Checked the status, confirmed the issue, and initiated EMI conversion.",
+      "resolution status": "Resolved",
+      "Process Request": "Manual EMI conversion request",
+      "resolution": "Agent initiated EMI conversion for 12 months.",
+      "resolution timestamp": "22.000 sec - 25.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "85"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "8",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

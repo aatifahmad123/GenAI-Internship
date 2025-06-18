@@ -1,0 +1,63 @@
+{
+  "call id": "48",
+  "agent id": "5",
+  "call duration": "27",
+  "summary": "Customer requests loan repayment schedule, agent provides resolution.",
+  "intents": [
+    {
+      "intent": "Request Loan Repayment Schedule",
+      "confidence": "95",
+      "keywords": "हेलो मैं मेघा सिंह मेरी लोन का पुनर ... मुझे शेड्यूल नहीं मिला।",
+      "intent timestamp": "0.000 sec - 8.000 sec",
+      "products": [
+        "Loan"
+      ],
+      "issues": [
+        {
+          "issue": "Customer did not receive the loan repayment schedule.",
+          "reason(s)": "Unknown",
+          "issue type": "Service"
+        }
+      ],
+      "actions of agent": "Agent checked and confirmed the schedule was sent to the registered email and offered to resend it.",
+      "resolution status": "Resolved",
+      "Process Request": "Resending the repayment schedule via email.",
+      "resolution": "Agent resent the loan repayment schedule to the customer's registered email address.",
+      "resolution timestamp": "16.000 sec - 18.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "85"
+    },
+    {
+      "intent": "Request for Physical Copy",
+      "confidence": "90",
+      "keywords": "क्या इस फिजिकल कॉपी में मिल सकता है?",
+      "intent timestamp": "18.000 sec - 21.000 sec",
+      "products": [
+        "Loan"
+      ],
+      "issues": [],
+      "actions of agent": "Agent informed the customer that they can obtain a physical copy from the branch.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "Customer can get the physical copy from the branch.",
+      "resolution timestamp": "20.000 sec - 23.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "90"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "9",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

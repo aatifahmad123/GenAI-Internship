@@ -1,0 +1,64 @@
+{
+  "call id": "44",
+  "agent id": "5",
+  "call duration": "32",
+  "summary": "Agent assisted customer with unauthorized debit card transaction.",
+  "intents": [
+    {
+      "intent": "Report Unauthorized Transaction",
+      "confidence": "95",
+      "keywords": "हेलो मैं सृष्टि शर्मा मेरे डेबिट कार्ड पर ... लेनदेन हुआ है।",
+      "intent timestamp": "0.000 sec - 8.000 sec",
+      "products": [
+        "Debit Card"
+      ],
+      "issues": [
+        {
+          "issue": "Unauthorized transaction on debit card",
+          "reason(s)": "Unknown",
+          "issue type": "Billing"
+        }
+      ],
+      "actions of agent": "Agent acknowledged the issue, asked for card number and transaction details, initiated card block and refund process.",
+      "resolution status": "Resolved",
+      "Process Request": "Card block and refund initiation.",
+      "resolution": "Card will be blocked and refund will be processed in 7-10 working days.",
+      "resolution timestamp": "20.000 sec - 28.000 sec",
+      "dominant emotions (customer)": [
+        "Concern",
+        "Anxiety"
+      ],
+      "conversation sentiment": "Negative",
+      "customer satisfaction": "80"
+    },
+    {
+      "intent": "Inquire Refund Time",
+      "confidence": "90",
+      "keywords": "कितने दिन लगेंगे?",
+      "intent timestamp": "23.000 sec - 27.000 sec",
+      "products": [
+        "Debit Card"
+      ],
+      "issues": [],
+      "actions of agent": "Provided the estimated refund time frame.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "Refund will be processed in 7-10 working days.",
+      "resolution timestamp": "25.000 sec - 28.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "90"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "8",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

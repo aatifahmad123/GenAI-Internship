@@ -1,0 +1,44 @@
+{
+  "call id": "12",
+  "agent id": "2",
+  "call duration": "33",
+  "summary": "Agent initiated refund for duplicate debit card transaction.",
+  "intents": [
+    {
+      "intent": "Fraudulent Transaction Reporting",
+      "confidence": "95",
+      "keywords": "नमस्ते मैं राधिका सिंह मेरी डेबिट कार्ड ... गलत डेबिट हुआ है।",
+      "intent timestamp": "0.000 sec - 8.000 sec",
+      "products": [
+        "Debit Card"
+      ],
+      "issues": [
+        {
+          "issue": "Unauthorized debit transaction",
+          "reason(s)": "Duplicate transaction",
+          "issue type": "Billing"
+        }
+      ],
+      "actions of agent": "Verified the transaction details and initiated a refund process.",
+      "resolution status": "Resolved",
+      "Process Request": "Refund initiation",
+      "resolution": "Refund will be processed in seven working days.",
+      "resolution timestamp": "22.000 sec - 28.000 sec",
+      "dominant emotions (customer)": [
+        "Concern",
+        "Anxiety"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "80"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "8",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

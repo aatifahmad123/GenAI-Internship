@@ -1,0 +1,64 @@
+{
+  "call id": "50",
+  "agent id": "5",
+  "call duration": "31",
+  "summary": "Customer inquired about mutual fund amount not credited.",
+  "intents": [
+    {
+      "intent": "Fund Credit Inquiry",
+      "confidence": "95",
+      "keywords": "हेलो मैं अन्य राय मेरे खाते में म्युचुअल फंड ... राशि क्रेडिट नहीं हुई।",
+      "intent timestamp": "0.000 sec - 9.000 sec",
+      "products": [
+        "Mutual Funds"
+      ],
+      "issues": [
+        {
+          "issue": "Mutual fund amount not credited to account.",
+          "reason(s)": "Funds are still in processing.",
+          "issue type": "Billing"
+        }
+      ],
+      "actions of agent": "Agent checked the account and informed the customer that the amount is in processing and will be credited in three working days.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "The agent confirmed that the amount is in processing and will be credited within three working days.",
+      "resolution timestamp": "17.000 sec - 21.000 sec",
+      "dominant emotions (customer)": [
+        "Concerned",
+        "Inquisitive"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "85"
+    },
+    {
+      "intent": "Confirmation Request",
+      "confidence": "90",
+      "keywords": "क्या मुझे कंफर्मेशन मिलेगा?",
+      "intent timestamp": "21.000 sec - 26.000 sec",
+      "products": [
+        "Mutual Funds"
+      ],
+      "issues": [],
+      "actions of agent": "Agent confirmed that the customer will receive confirmation via SMS and email.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "The agent confirmed that the customer will receive confirmation via SMS and email.",
+      "resolution timestamp": "23.000 sec - 26.000 sec",
+      "dominant emotions (customer)": [
+        "Inquisitive"
+      ],
+      "conversation sentiment": "Positive",
+      "customer satisfaction": "90"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "8",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

@@ -1,0 +1,44 @@
+{
+  "call id": "16",
+  "agent id": "2",
+  "call duration": "31.20",
+  "summary": "Customer reports incorrect transaction in account statement, agent resolves.",
+  "intents": [
+    {
+      "intent": "Statement Issue",
+      "confidence": "95",
+      "keywords": "नमस्ते मैं ममता यादव ... खाते का स्टेटमेंट गलत है।",
+      "intent timestamp": "0.000 sec - 8.000 sec",
+      "products": [
+        "Account Statement"
+      ],
+      "issues": [
+        {
+          "issue": "Incorrect transaction in statement",
+          "reason(s)": "Technical error",
+          "issue type": "Technical"
+        }
+      ],
+      "actions of agent": "Identified the issue as a technical error and submitted a request to fix it.",
+      "resolution status": "Resolved",
+      "Process Request": "Yes",
+      "resolution": "The agent informed the customer that the issue will be resolved in three working days.",
+      "resolution timestamp": "26.000 sec - 27.000 sec",
+      "dominant emotions (customer)": [
+        "Concern",
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "80"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "8",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

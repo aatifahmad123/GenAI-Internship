@@ -1,0 +1,44 @@
+{
+  "call id": "3",
+  "agent id": "1",
+  "call duration": "33.96",
+  "summary": "The customer reported a fraudulent transaction on their credit card.",
+  "intents": [
+    {
+      "intent": "Fraudulent Transaction Report",
+      "confidence": "95",
+      "keywords": "क्रेडिट कार्ड का बिल 10000 रुपए ज्यादा ... जो मैंने किया ही नहीं",
+      "intent timestamp": "0.000 sec - 16.000 sec",
+      "products": [
+        "Credit Card"
+      ],
+      "issues": [
+        {
+          "issue": "Unauthorized transaction of 10000 rupees",
+          "reason(s)": "Fraudulent activity",
+          "issue type": "Billing"
+        }
+      ],
+      "actions of agent": "The agent acknowledged the issue, blocked the card, and initiated a refund.",
+      "resolution status": "Resolved",
+      "Process Request": "Refund initiated",
+      "resolution": "The agent blocked the card and initiated a refund process.",
+      "resolution timestamp": "20.000 sec - 24.000 sec",
+      "dominant emotions (customer)": [
+        "Concern",
+        "Anxiety"
+      ],
+      "conversation sentiment": "Negative",
+      "customer satisfaction": "70"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "8",
+  "agent performance (out of 10)": "8",
+  "customer satisfaction (out of 10)": "7",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

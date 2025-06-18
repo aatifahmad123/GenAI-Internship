@@ -1,0 +1,43 @@
+{
+  "call id": "11",
+  "agent id": "2",
+  "call duration": "36",
+  "summary": "The customer reported an incorrect interest credit in their account.",
+  "intents": [
+    {
+      "intent": "Billing Inquiry",
+      "confidence": "95",
+      "keywords": "नमस्ते मैं अमित शर्मा बोल रहा हूं...खाते में गलत ब्याज क्रेडिट हुआ है।",
+      "intent timestamp": "0.000 sec - 9.000 sec",
+      "products": [
+        "Savings Account"
+      ],
+      "issues": [
+        {
+          "issue": "Incorrect interest credited",
+          "reason(s)": "Error in interest calculation",
+          "issue type": "Billing"
+        }
+      ],
+      "actions of agent": "The agent verified the account details and initiated a request to correct the interest calculation.",
+      "resolution status": "Resolved",
+      "Process Request": "Request to correct interest calculation",
+      "resolution": "The agent informed the customer that the interest would be updated in 3-5 working days.",
+      "resolution timestamp": "26.000 sec - 30.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "80"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "8",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "Yes",
+  "callback time": "3-5 working days"
+}

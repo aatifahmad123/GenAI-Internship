@@ -1,0 +1,44 @@
+{
+  "call id": "7",
+  "agent id": "1",
+  "call duration": "33",
+  "summary": "The agent assisted with credit card limit increase request.",
+  "intents": [
+    {
+      "intent": "Credit Card Limit Inquiry",
+      "confidence": "95",
+      "keywords": "नमस्ते मैं संजय मिश्रा ... क्रेडिट कार्ड लिमिट क्यों काम हो गया?",
+      "intent timestamp": "0.000 sec - 8.000 sec",
+      "products": [
+        "Credit Card"
+      ],
+      "issues": [
+        {
+          "issue": "Credit card limit decreased",
+          "reason(s)": "Recent payment history",
+          "issue type": "Billing"
+        }
+      ],
+      "actions of agent": "Checked card details and payment history, initiated a request to increase the limit.",
+      "resolution status": "Pending with Callback",
+      "Process Request": "Request to increase credit card limit.",
+      "resolution": "The agent initiated a request to restore the credit card limit to 2 lakhs, which will take 3-5 days.",
+      "resolution timestamp": "27.000 sec - 32.000 sec",
+      "dominant emotions (customer)": [
+        "Concern",
+        "Inquiry"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "75"
+    }
+  ],
+  "basic greeting and closing": "No",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "8",
+  "agent performance (out of 10)": "8",
+  "customer satisfaction (out of 10)": "7",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

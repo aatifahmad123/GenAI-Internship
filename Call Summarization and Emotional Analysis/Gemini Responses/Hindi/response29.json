@@ -1,0 +1,45 @@
+{
+  "call id": "29",
+  "agent id": "3",
+  "call duration": "32",
+  "summary": "Agent assisted customer with failed NEFT transfer.",
+  "intents": [
+    {
+      "intent": "NEFT Transfer Issue",
+      "confidence": "95",
+      "keywords": "नमस्ते मैं प्रियंका राठौर मेरे खाते में नेफ्ट ट्रांसफर ...किया था",
+      "intent timestamp": "0.000 sec - 18.000 sec",
+      "products": [
+        "Bank Account",
+        "NEFT"
+      ],
+      "issues": [
+        {
+          "issue": "NEFT transfer failed.",
+          "reason(s)": "Incorrect IFSC code.",
+          "issue type": "Technical"
+        }
+      ],
+      "actions of agent": "Agent checked the transfer details and identified the incorrect IFSC code as the reason for failure. Agent offered to reinitiate the transfer once the correct IFSC code is provided.",
+      "resolution status": "Pending with Callback",
+      "Process Request": "Reinitiate NEFT transfer after customer provides correct IFSC code.",
+      "resolution": "Customer needs to provide the correct IFSC code to reinitiate the NEFT transfer.",
+      "resolution timestamp": "26.000 sec - 29.000 sec",
+      "dominant emotions (customer)": [
+        "Concern",
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "70"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "8",
+  "customer satisfaction (out of 10)": "7",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

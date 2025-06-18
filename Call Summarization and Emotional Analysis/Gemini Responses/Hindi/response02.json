@@ -1,0 +1,44 @@
+{
+  "call id": "2",
+  "agent id": "1",
+  "call duration": "38",
+  "summary": "Customer's home loan EMI was not deducted, agent assisted.",
+  "intents": [
+    {
+      "intent": "EMI Deduction Issue",
+      "confidence": "95",
+      "keywords": "हेलो मैं शीतल शर्मा बोल रही हूं। ... इस महीने नहीं काटी क्या हुआ?",
+      "intent timestamp": "0.000 sec - 10.000 sec",
+      "products": [
+        "Home Loan"
+      ],
+      "issues": [
+        {
+          "issue": "EMI not deducted",
+          "reason(s)": "Insufficient balance in the account",
+          "issue type": "Billing"
+        }
+      ],
+      "actions of agent": "Checked the account and informed the customer about the insufficient balance.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "Advised customer to deposit the required balance and retry auto-debit.",
+      "resolution timestamp": "31.000 sec - 36.000 sec",
+      "dominant emotions (customer)": [
+        "Concern",
+        "Surprise"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "85"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "8",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

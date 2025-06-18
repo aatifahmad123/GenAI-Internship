@@ -1,0 +1,44 @@
+{
+  "call id": "9",
+  "agent id": "1",
+  "call duration": "26",
+  "summary": "The customer requests an update to their passbook.",
+  "intents": [
+    {
+      "intent": "Passbook Update Request",
+      "confidence": "95",
+      "keywords": "नमस्ते मैं अजय वर्मा ... पासबुक अपडेट नहीं हुआ है।",
+      "intent timestamp": "0.000 sec - 8.000 sec",
+      "products": [
+        "Savings Account",
+        "Passbook"
+      ],
+      "issues": [
+        {
+          "issue": "Passbook not updated",
+          "reason(s)": "System pending update",
+          "issue type": "Technical"
+        }
+      ],
+      "actions of agent": "Offered branch visit or digital statement, and processed digital statement request.",
+      "resolution status": "Resolved",
+      "Process Request": "Digital statement sent to registered email.",
+      "resolution": "Digital statement sent to customer's registered email.",
+      "resolution timestamp": "22.000 sec - 27.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "90"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "9",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

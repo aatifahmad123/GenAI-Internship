@@ -1,0 +1,44 @@
+{
+  "call id": "43",
+  "agent id": "5",
+  "call duration": "29",
+  "summary": "Customer inquired about the delay in loan processing fee refund.",
+  "intents": [
+    {
+      "intent": "Refund Status Inquiry",
+      "confidence": "95",
+      "keywords": "नमस्ते मैं आदित्य राव ... प्रोसेसिंग फीस वापस क्यों नहीं हुई?",
+      "intent timestamp": "0.000 sec - 9.000 sec",
+      "products": [
+        "Loan"
+      ],
+      "issues": [
+        {
+          "issue": "Delay in processing fee refund",
+          "reason(s)": "Refund process delayed",
+          "issue type": "Billing"
+        }
+      ],
+      "actions of agent": "Agent checked the status and initiated the refund process.",
+      "resolution status": "Resolved",
+      "Process Request": "Yes",
+      "resolution": "Refund will be processed in 5-7 working days.",
+      "resolution timestamp": "22.000 sec - 25.000 sec",
+      "dominant emotions (customer)": [
+        "Concern",
+        "Inquiry"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "80"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "8",
+  "customer satisfaction (out of 10)": "8",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

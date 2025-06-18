@@ -1,0 +1,64 @@
+{
+  "call id": "42",
+  "agent id": "5",
+  "call duration": "30.88",
+  "summary": "Customer reported non-delivery of credit card statement, resolved by email.",
+  "intents": [
+    {
+      "intent": "Statement Issue",
+      "confidence": "95",
+      "keywords": "हेलो मैं रितिक जैन मेरा क्रेडिट कार्ड स्टेटमेंट डिलीवर ... नहीं हुआ।",
+      "intent timestamp": "0.000 sec - 8.000 sec",
+      "products": [
+        "Credit Card"
+      ],
+      "issues": [
+        {
+          "issue": "Credit card statement not delivered",
+          "reason(s)": "Delivery error",
+          "issue type": "Service"
+        }
+      ],
+      "actions of agent": "Agent checked the delivery status and offered to email a digital statement.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "Agent emailed the digital statement to the customer.",
+      "resolution timestamp": "21.000 sec - 23.000 sec",
+      "dominant emotions (customer)": [
+        "Concern",
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "80"
+    },
+    {
+      "intent": "Inquiry about Future Statements",
+      "confidence": "90",
+      "keywords": "क्या भविष्य में फिजिकल स्टेटमेंट मिलेगा?",
+      "intent timestamp": "21.000 sec - 26.000 sec",
+      "products": [
+        "Credit Card"
+      ],
+      "issues": [],
+      "actions of agent": "Agent assured the customer that they would receive physical statements in the future.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "Agent confirmed future physical statements.",
+      "resolution timestamp": "24.000 sec - 28.000 sec",
+      "dominant emotions (customer)": [
+        "Inquiry"
+      ],
+      "conversation sentiment": "Positive",
+      "customer satisfaction": "90"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "9",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

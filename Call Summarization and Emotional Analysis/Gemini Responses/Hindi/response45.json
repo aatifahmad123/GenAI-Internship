@@ -1,0 +1,63 @@
+{
+  "call id": "45",
+  "agent id": "5",
+  "call duration": "26",
+  "summary": "Agent manually renewed customer's FB due to technical error.",
+  "intents": [
+    {
+      "intent": "Renewal Issue",
+      "confidence": "95",
+      "keywords": "नमस्ते मैं राहुल पाटिल मेरे एफबी का ऑटो रिनुअल ... क्यों नहीं हुआ?",
+      "intent timestamp": "0.000 sec - 9.000 sec",
+      "products": [
+        "FB"
+      ],
+      "issues": [
+        {
+          "issue": "Auto renewal failed",
+          "reason(s)": "Technical error in the system",
+          "issue type": "Technical"
+        }
+      ],
+      "actions of agent": "Identified the issue, manually renewed the customer's FB.",
+      "resolution status": "Resolved",
+      "Process Request": "Manual renewal of FB",
+      "resolution": "Agent manually renewed the FB.",
+      "resolution timestamp": "17.000 sec - 19.000 sec",
+      "dominant emotions (customer)": [
+        "Concerned"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "85"
+    },
+    {
+      "intent": "Rate Confirmation",
+      "confidence": "90",
+      "keywords": "क्या ब्याज दर वही रहेगी?",
+      "intent timestamp": "17.000 sec - 23.000 sec",
+      "products": [
+        "FB"
+      ],
+      "issues": [],
+      "actions of agent": "Confirmed that the interest rate would remain the same.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "Confirmed the interest rate will remain same.",
+      "resolution timestamp": "20.000 sec - 23.000 sec",
+      "dominant emotions (customer)": [
+        "Inquiry"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "90"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "9",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

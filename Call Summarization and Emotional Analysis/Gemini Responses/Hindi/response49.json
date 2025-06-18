@@ -1,0 +1,63 @@
+{
+  "call id": "49",
+  "agent id": "5",
+  "call duration": "29",
+  "summary": "Customer is unable to set online limit for debit card.",
+  "intents": [
+    {
+      "intent": "Debit Card Limit Issue",
+      "confidence": "95",
+      "keywords": "नमस्ते मैं तरुण मेहता ... ऑनलाइन लिमिट सेट नहीं हो रहा।",
+      "intent timestamp": "0.000 sec - 9.000 sec",
+      "products": [
+        "Debit Card"
+      ],
+      "issues": [
+        {
+          "issue": "Unable to set online limit for debit card.",
+          "reason(s)": "KYC update required.",
+          "issue type": "Technical"
+        }
+      ],
+      "actions of agent": "Agent checked the customer's details and informed about the KYC update requirement and promised to send a link.",
+      "resolution status": "Pending with Callback",
+      "Process Request": "Send KYC update link to customer.",
+      "resolution": "Agent informed the customer that KYC update is required and will send a link for the same.",
+      "resolution timestamp": "16.000 sec - 22.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "70"
+    },
+    {
+      "intent": "Inquiry about Resolution Time",
+      "confidence": "90",
+      "keywords": "कितने समय में सेट होगा?",
+      "intent timestamp": "21.000 sec - 24.000 sec",
+      "products": [
+        "Debit Card"
+      ],
+      "issues": [],
+      "actions of agent": "Agent informed the customer about the time required for the limit to be set after KYC submission.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "Agent informed that it will take two working days after KYC submission.",
+      "resolution timestamp": "23.000 sec - 27.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "80"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "8",
+  "customer satisfaction (out of 10)": "7",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "Yes",
+  "callback time": "Same day"
+}

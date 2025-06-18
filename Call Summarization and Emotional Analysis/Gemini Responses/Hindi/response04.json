@@ -1,0 +1,44 @@
+{
+  "call id": "4",
+  "agent id": "1",
+  "call duration": "29.80",
+  "summary": "Customer inquired about fixed deposit interest credit not received.",
+  "intents": [
+    {
+      "intent": "Fixed Deposit Inquiry",
+      "confidence": "95",
+      "keywords": "हेलो मैं अनीता वर्मा मैंने एक एचडी खोली थी ...व्यास क्रेडिट नहीं हुआ।",
+      "intent timestamp": "0.000 sec - 10.000 sec",
+      "products": [
+        "Fixed Deposit"
+      ],
+      "issues": [
+        {
+          "issue": "Interest not credited",
+          "reason(s)": "Interest is credited quarterly, not monthly as expected by the customer.",
+          "issue type": "Billing"
+        }
+      ],
+      "actions of agent": "Checked the customer's FD details and informed about the quarterly credit cycle.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "Informed the customer that the interest is credited quarterly and the next credit will be next week.",
+      "resolution timestamp": "17.000 sec - 21.000 sec",
+      "dominant emotions (customer)": [
+        "Inquiry",
+        "Concern"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "80"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "8",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

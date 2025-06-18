@@ -1,0 +1,43 @@
+{
+  "call id": "18",
+  "agent id": "2",
+  "call duration": "28",
+  "summary": "Agent assisted customer with KYC update for locked account.",
+  "intents": [
+    {
+      "intent": "Account Access Issue",
+      "confidence": "95",
+      "keywords": "नमस्ते मैं किरण जोशी मेरा दिमाग खाता लॉक ...ट्रेडिंग नहीं कर पा रही हूं।",
+      "intent timestamp": "0.000 sec - 13.000 sec",
+      "products": [
+        "दिमाग खाता"
+      ],
+      "issues": [
+        {
+          "issue": "Account locked",
+          "reason(s)": "KYC update missing",
+          "issue type": "Technical"
+        }
+      ],
+      "actions of agent": "Identified the issue and provided a solution.",
+      "resolution status": "Resolved",
+      "Process Request": "Send online KYC link",
+      "resolution": "Agent offered to send an online KYC link.",
+      "resolution timestamp": "21.000 sec - 24.000 sec",
+      "dominant emotions (customer)": [
+        "Concerned"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "80"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "8",
+  "customer satisfaction (out of 10)": "8",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}
