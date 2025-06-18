@@ -1,20 +1,46 @@
 from google.cloud import texttospeech
 from pydub import AudioSegment
 import os
+import json
+import argparse
 
-customer_vice = 'en-IN-Chirp3-HD-Umbriel'
-agent_voice = 'en-IN-Chirp3-HD-Sulafat'
+# Set up argument parser
+parser = argparse.ArgumentParser(description="Generate and merge audio files for a call conversation.")
+parser.add_argument("agent_id", type=int, help="Agent ID (integer)")
+parser.add_argument("call_id", type=int, help="Call ID (integer)")
+args = parser.parse_args()
 
-# Define the conversation
-conversation = [
-     "Namaste, mera naam Ravi Kumar hai. Mera debit card last week se kaam nahi kar raha hai.",
-    "Namaste Ravi ji, main aapki help ke liye hoon. Kya aap bata sakte hain ki card kahaan use karne ki koshish ki thi?",
-    "Haan, maine ek online shopping ki try ki, lekin har baar 'transaction declined' ka message aa raha hai.",
-    "Samjha. Kya aap apna card number bata sakte hain taaki main check kar sakoon?",
-    "Yeh lijiye, 2468-1357-2091-1234. Please jaldi dekho, mujhe yeh jaldi fix karwana hai.",
-    "Ji, maine dekh liya. Aapke card pe ek technical block hai. Main ise abhi unblock kar deta hoon. 2 ghante mein yeh work karne lagega.",
-    "Thanks, please sure karo ki yeh jaldi ho jaye.",
-]
+# Get agent_id and call_id from command line
+agent_id = args.agent_id
+call_id = args.call_id
+
+print(f"Agent id : {agent_id}, Call id : { call_id}")
+
+customer_voice = 'en-IN-Chirp3-HD-Achird'
+agent_voice = 'en-IN-Chirp3-HD-Autonoe'
+
+if agent_id == 1:
+    agent_voice = 'en-IN-Chirp3-HD-Autonoe'
+elif agent_id == 2:
+    agent_voice = 'en-IN-Chirp3-HD-Sulafat'
+elif agent_id == 3:
+    agent_voice = 'en-IN-Chirp3-HD-Erinome'
+elif agent_id == 4:
+    agent_voice = 'en-IN-Chirp3-HD-Sadaltager'
+elif agent_id == 5:
+    agent_voice = 'en-IN-Chirp3-HD-Schedar'
+
+
+call_dir = f"Agent {agent_id:02d}/Call {call_id:02d}"
+
+json_file_path = os.path.join(call_dir, "data.json")
+
+with open(json_file_path, "r", encoding="utf-8") as jsonf:
+    data = json.load(jsonf)
+
+conversation = [item["text"] for item in data["conversation"]]
+
+print(conversation)
 
 # Initialize Text-to-Speech client
 client = texttospeech.TextToSpeechClient()
@@ -45,16 +71,16 @@ def generate_and_save_audio(text, audio_voice, filename):
 
 # Generate audio for each line
 for i, text in enumerate(conversation):
-    filename = f"Agent 01/Call 01/normal audios/synthesis({i}).wav"
-    voice = customer_vice if i % 2 == 0 else agent_voice
+    filename = os.path.join(call_dir, f"normal audios/synthesis({i}).wav")
+    voice = customer_voice if i % 2 == 0 else agent_voice
     generate_and_save_audio(text, voice, filename)
 
 print("All audios generated and saved successfully.")
 
 # Merge all audio files
-audio_files_folder = "Agent 01/Call 01/normal audios"
-files = [f"{audio_files_folder}/synthesis({i}).wav" for i in range(len(conversation))]
-combined_audio_file = "Agent 01/Call 01/normalAudio.wav"
+audio_files_folder = os.path.join(call_dir, "normal audios")
+files = [os.path.join(audio_files_folder, f"synthesis({i}).wav") for i in range(len(conversation))]
+combined_audio_file = os.path.join(call_dir, "normalAudio.wav")
 
 def merge_audio(files):
     combined = AudioSegment.empty()

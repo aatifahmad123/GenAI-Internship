@@ -98,12 +98,12 @@ def transcribe_for_timestamps():
 
     # Save timestamps
     with open(timestamps_file_path, "w", encoding="utf-8") as jsonf:
-        json.dump(all_words_data, jsonf, indent=2)
+        json.dump(all_words_data, jsonf, indent=2, ensure_ascii=False)
 
     print(f"Timestamps saved to {timestamps_file_path} for {call_directory}")
 
-agents = ["Agent 01"]
-calls = ["Call 01"]
+agents = ["Agent 01","Agent 02","Agent 03","Agent 04","Agent 05"]
+calls = ["Call 01","Call 02","Call 03","Call 04","Call 05","Call 06","Call 07","Call 08","Call 09","Call 10"]
 
 for agent in agents:
     for call in calls:
