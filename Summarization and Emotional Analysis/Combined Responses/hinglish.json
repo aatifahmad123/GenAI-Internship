@@ -1,0 +1,2475 @@
+[
+    {
+        "call id": "1",
+        "agent id": "1",
+        "call duration": "42",
+        "summary": "The agent resolved the customer's debit card issue.",
+        "intents": [
+            {
+                "intent": "Debit Card Issue",
+                "confidence": "95",
+                "keywords": "mera debit card last week Se Kam Nahin ... transaction decline ka message a raha hai",
+                "intent timestamp": "0.000 sec - 17.000 sec",
+                "products": [
+                    "Debit Card"
+                ],
+                "issues": [
+                    {
+                        "issue": "Debit card not working for online transactions.",
+                        "reason(s)": "Technical block on the card.",
+                        "issue type": "Technical"
+                    }
+                ],
+                "actions of agent": "The agent checked the card status and identified a technical block. The agent then unblocked the card.",
+                "resolution status": "Resolved",
+                "Process Request": "Unblocking the debit card.",
+                "resolution": "The agent unblocked the debit card, which will be functional within 2 hours.",
+                "resolution timestamp": "35.000 sec - 39.000 sec",
+                "dominant emotions (customer)": [
+                    "Concern",
+                    "Urgency"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "85"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "9",
+        "customer satisfaction (out of 10)": "8",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "2",
+        "agent id": "1",
+        "call duration": "37",
+        "summary": "Customer inquired about home loan EMI auto-debit failure.",
+        "intents": [
+            {
+                "intent": "EMI Payment Issue",
+                "confidence": "95",
+                "keywords": "Mere home loan ki EMI is mahine nahin karti...auto debit set kiya tha Fir Bhi Nahin hua",
+                "intent timestamp": "0.000 sec - 18.000 sec",
+                "products": [
+                    "Home Loan"
+                ],
+                "issues": [
+                    {
+                        "issue": "EMI auto-debit failed",
+                        "reason(s)": "Insufficient balance in the account",
+                        "issue type": "Billing"
+                    }
+                ],
+                "actions of agent": "Agent checked the account and confirmed insufficient balance.",
+                "resolution status": "Resolved",
+                "Process Request": "N/A",
+                "resolution": "Customer was advised to deposit the remaining amount and retry auto-debit.",
+                "resolution timestamp": "30.000 sec - 34.000 sec",
+                "dominant emotions (customer)": [
+                    "Concern",
+                    "Surprise"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "85"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "9",
+        "customer satisfaction (out of 10)": "8",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "3",
+        "agent id": "1",
+        "call duration": "35",
+        "summary": "The agent addressed a fraudulent transaction and initiated a refund.",
+        "intents": [
+            {
+                "intent": "Fraudulent Transaction Reporting",
+                "confidence": "95",
+                "keywords": "Mere credit card ka bill 10000 Jyada ... transaction 10000 ka hai jo main Kiya hi Nahin",
+                "intent timestamp": "0.000 sec - 16.000 sec",
+                "products": [
+                    "Credit Card"
+                ],
+                "issues": [
+                    {
+                        "issue": "Unauthorized transaction of 10000",
+                        "reason(s)": "Fraudulent activity",
+                        "issue type": "Billing"
+                    }
+                ],
+                "actions of agent": "The agent blocked the card and initiated a refund process.",
+                "resolution status": "Resolved",
+                "Process Request": "Refund initiated",
+                "resolution": "Refund will be processed in 7-10 days.",
+                "resolution timestamp": "31.000 sec - 35.000 sec",
+                "dominant emotions (customer)": [
+                    "Concern",
+                    "Anxiety"
+                ],
+                "conversation sentiment": "Negative",
+                "customer satisfaction": "75"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "9",
+        "customer satisfaction (out of 10)": "8",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "4",
+        "agent id": "1",
+        "call duration": "31",
+        "summary": "Customer inquires about FD interest credit, agent provides information.",
+        "intents": [
+            {
+                "intent": "Interest Credit Inquiry",
+                "confidence": "95",
+                "keywords": "Hello main Anita Verma meaning FB Kholi Thi lekin uska...credit Nahin Hua",
+                "intent timestamp": "0.000 sec - 9.000 sec",
+                "products": [
+                    "Fixed Deposit (FD)"
+                ],
+                "issues": [
+                    {
+                        "issue": "Interest not credited",
+                        "reason(s)": "Interest is credited quarterly, customer was not informed.",
+                        "issue type": "Billing"
+                    }
+                ],
+                "actions of agent": "Checked FD details, informed customer about quarterly credit cycle, apologized for lack of clarity, offered to email details.",
+                "resolution status": "Resolved",
+                "Process Request": "N/A",
+                "resolution": "Informed the customer that the interest is credited quarterly and the next credit will be next week.",
+                "resolution timestamp": "17.000 sec - 22.000 sec",
+                "dominant emotions (customer)": [
+                    "Inquisitive",
+                    "Concerned"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "80"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "9",
+        "customer satisfaction (out of 10)": "8",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "5",
+        "agent id": "1",
+        "call duration": "28",
+        "summary": "The customer reported a lost ATM card and requested blocking.",
+        "intents": [
+            {
+                "intent": "Block ATM Card",
+                "confidence": "95",
+                "keywords": "Mera ATM card Kho Gaya Hai ise ... block karo",
+                "intent timestamp": "1.000 sec - 5.000 sec",
+                "products": [
+                    "ATM Card"
+                ],
+                "issues": [
+                    {
+                        "issue": "Lost ATM card",
+                        "reason(s)": "Customer reported losing their ATM card.",
+                        "issue type": "Service"
+                    }
+                ],
+                "actions of agent": "Blocked the customer's ATM card and informed about new card delivery.",
+                "resolution status": "Resolved",
+                "Process Request": "Agent blocked the card in the backend.",
+                "resolution": "ATM card blocked and new card will be delivered in 5 days.",
+                "resolution timestamp": "16.000 sec - 19.000 sec",
+                "dominant emotions (customer)": [
+                    "Concerned"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "85"
+            },
+            {
+                "intent": "Inquire about replacement charges",
+                "confidence": "90",
+                "keywords": "Shukriya Kitna charge hoga",
+                "intent timestamp": "21.000 sec - 25.000 sec",
+                "products": [
+                    "ATM Card Replacement"
+                ],
+                "issues": [],
+                "actions of agent": "Informed the customer that the first replacement is free.",
+                "resolution status": "Resolved",
+                "Process Request": "N/A",
+                "resolution": "First ATM card replacement is free of charge.",
+                "resolution timestamp": "24.000 sec - 28.000 sec",
+                "dominant emotions (customer)": [
+                    "Inquisitive"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "90"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "9",
+        "customer satisfaction (out of 10)": "9",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "6",
+        "agent id": "1",
+        "call duration": "33",
+        "summary": "Customer reported unauthorized transaction and agent initiated fraud claim.",
+        "intents": [
+            {
+                "intent": "Fraud Reporting",
+                "confidence": "95",
+                "keywords": "Mere account se 3000 Gayab Hai ... Kya mazak hai",
+                "intent timestamp": "0.000 sec - 10.000 sec",
+                "products": [
+                    "Bank Account"
+                ],
+                "issues": [
+                    {
+                        "issue": "Unauthorized transaction of 3000",
+                        "reason(s)": "Customer claims no payment was made",
+                        "issue type": "Billing"
+                    }
+                ],
+                "actions of agent": "Agent apologized, asked for account number, verified transaction, registered fraud case, and initiated refund process.",
+                "resolution status": "Pending with Callback",
+                "Process Request": "Fraud claim registration and refund process initiation.",
+                "resolution": "Agent registered a fraud case and started the refund process.",
+                "resolution timestamp": "27.000 sec - 33.000 sec",
+                "dominant emotions (customer)": [
+                    "Angry",
+                    "Worried"
+                ],
+                "conversation sentiment": "Negative",
+                "customer satisfaction": "60"
+            }
+        ],
+        "basic greeting and closing": "No",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "8",
+        "agent performance (out of 10)": "8",
+        "customer satisfaction (out of 10)": "6",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "7",
+        "agent id": "1",
+        "call duration": "31",
+        "summary": "Customer requested an increase in their credit card limit.",
+        "intents": [
+            {
+                "intent": "Credit Card Limit Increase",
+                "confidence": "95",
+                "keywords": "Mera credit card limit kam ho gaya...Wapas 2 lakh karo",
+                "intent timestamp": "1.000 sec - 27.000 sec",
+                "products": [
+                    "Credit Card"
+                ],
+                "issues": [
+                    {
+                        "issue": "Credit card limit decreased",
+                        "reason(s)": "Payment history",
+                        "issue type": "Billing"
+                    }
+                ],
+                "actions of agent": "Agent checked card details and registered a request to increase the credit card limit.",
+                "resolution status": "Pending with Callback",
+                "Process Request": "Request registered to increase credit card limit.",
+                "resolution": "Agent registered a request to increase the credit card limit back to 2 lakh, which will be updated in 25-30 days.",
+                "resolution timestamp": "26.000 sec - 31.000 sec",
+                "dominant emotions (customer)": [
+                    "Concern",
+                    "Request"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "70"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "8",
+        "agent performance (out of 10)": "7",
+        "customer satisfaction (out of 10)": "7",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "8",
+        "agent id": "1",
+        "call duration": "29.84",
+        "summary": "Agent provided reason for loan rejection and offered assistance.",
+        "intents": [
+            {
+                "intent": "Loan Application Status Inquiry",
+                "confidence": "95",
+                "keywords": "Hello main Neha Joshi Mera loan application reject ... Kyon Hua?",
+                "intent timestamp": "0.000 sec - 8.000 sec",
+                "products": [
+                    "Loan"
+                ],
+                "issues": [
+                    {
+                        "issue": "Loan application rejected",
+                        "reason(s)": "Low CIBIL score",
+                        "issue type": "Billing"
+                    }
+                ],
+                "actions of agent": "Checked application status and provided the reason for rejection.",
+                "resolution status": "Resolved",
+                "Process Request": "N/A",
+                "resolution": "Agent identified low CIBIL score as the reason and offered credit improvement tips via email.",
+                "resolution timestamp": "14.000 sec - 19.000 sec",
+                "dominant emotions (customer)": [
+                    "Concern",
+                    "Inquiry"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "75"
+            },
+            {
+                "intent": "Assistance with Credit Improvement",
+                "confidence": "90",
+                "keywords": "kya aap ise improve karne ke liye tips chahti hai... bahut jaruri hai",
+                "intent timestamp": "15.000 sec - 24.000 sec",
+                "products": [
+                    "Loan"
+                ],
+                "issues": [],
+                "actions of agent": "Offered to send credit improvement tips via email and guide for re-application.",
+                "resolution status": "Resolved",
+                "Process Request": "Send email with credit improvement tips",
+                "resolution": "Agent will email credit improvement tips and guide for re-application.",
+                "resolution timestamp": "25.000 sec - 29.000 sec",
+                "dominant emotions (customer)": [
+                    "Hopeful",
+                    "Anxious"
+                ],
+                "conversation sentiment": "Positive",
+                "customer satisfaction": "85"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "8",
+        "customer satisfaction (out of 10)": "8",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "9",
+        "agent id": "1",
+        "call duration": "27",
+        "summary": "Customer requests passbook update and receives digital statement.",
+        "intents": [
+            {
+                "intent": "Passbook Update Request",
+                "confidence": "95",
+                "keywords": "Mera savings account ka passbook update ... update Nahin Hua Hai",
+                "intent timestamp": "0.000 sec - 9.000 sec",
+                "products": [
+                    "Savings Account",
+                    "Passbook"
+                ],
+                "issues": [
+                    {
+                        "issue": "Passbook not updated",
+                        "reason(s)": "System pending update",
+                        "issue type": "Technical"
+                    }
+                ],
+                "actions of agent": "Offered branch visit or digital statement; opted for digital statement.",
+                "resolution status": "Resolved",
+                "Process Request": "Agent will send digital statement to registered email.",
+                "resolution": "Agent agreed to send digital statement to customer's registered email.",
+                "resolution timestamp": "23.000 sec - 28.000 sec",
+                "dominant emotions (customer)": [
+                    "Neutral"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "85"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "9",
+        "customer satisfaction (out of 10)": "8",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "10",
+        "agent id": "1",
+        "call duration": "33",
+        "summary": "Customer inquired about redeeming credit card reward points.",
+        "intents": [
+            {
+                "intent": "Reward Points Redemption",
+                "confidence": "95",
+                "keywords": "credit card ke reward points redeem ... redeem Kaise karun?",
+                "intent timestamp": "0.000 sec - 9.000 sec",
+                "products": [
+                    "Credit Card"
+                ],
+                "issues": [
+                    {
+                        "issue": "Customer needs assistance with reward points redemption process.",
+                        "reason(s)": "Customer is unsure how to redeem their reward points.",
+                        "issue type": "General Inquiry"
+                    }
+                ],
+                "actions of agent": "The agent offered to guide the customer and asked for the card number. The agent then explained the redemption process via app or website and offered to email the steps.",
+                "resolution status": "Resolved",
+                "Process Request": "Emailing redemption steps to the customer.",
+                "resolution": "Agent provided instructions on how to redeem points and offered to email the steps.",
+                "resolution timestamp": "20.000 sec - 26.000 sec",
+                "dominant emotions (customer)": [
+                    "Neutral"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "90"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "9",
+        "customer satisfaction (out of 10)": "9",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "11",
+        "agent id": "2",
+        "call duration": "37",
+        "summary": "The customer is unable to log in to net banking.",
+        "intents": [
+            {
+                "intent": "Technical Support",
+                "confidence": "95",
+                "keywords": "mera net banking login Nahin ho raha hai...password bol raha hai lekin main Vahi password Dala",
+                "intent timestamp": "0.000 sec - 17.000 sec",
+                "products": [
+                    "Net Banking"
+                ],
+                "issues": [
+                    {
+                        "issue": "Unable to login to net banking",
+                        "reason(s)": "Incorrect password",
+                        "issue type": "Technical"
+                    }
+                ],
+                "actions of agent": "The agent offered assistance and suggested resetting the password.",
+                "resolution status": "Resolved",
+                "Process Request": "OTP sent to customer's registered mobile number for password reset.",
+                "resolution": "Password reset initiated via OTP.",
+                "resolution timestamp": "26.000 sec - 32.000 sec",
+                "dominant emotions (customer)": [
+                    "Frustration"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "85"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "9",
+        "customer satisfaction (out of 10)": "8",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "12",
+        "agent id": "2",
+        "call duration": "32",
+        "summary": "The customer inquired about mutual fund investment status.",
+        "intents": [
+            {
+                "intent": "Check Investment Status",
+                "confidence": "95",
+                "keywords": "Namaste main Vikram Patel ... investment ka status kya hai?",
+                "intent timestamp": "0.000 sec - 9.000 sec",
+                "products": [
+                    "Mutual Fund"
+                ],
+                "issues": [
+                    {
+                        "issue": "Customer wants to know the current status of their mutual fund investment.",
+                        "reason(s)": "N/A",
+                        "issue type": "General Inquiry"
+                    }
+                ],
+                "actions of agent": "Agent checked the investment status and provided the current growth percentage. Agent offered to send a detailed report to the customer's registered email address.",
+                "resolution status": "Resolved",
+                "Process Request": "Emailing the detailed report to the customer.",
+                "resolution": "The agent confirmed the investment is active and showing 5% growth and emailed the detailed report.",
+                "resolution timestamp": "26.000 sec - 30.000 sec",
+                "dominant emotions (customer)": [
+                    "Neutral"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "90"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "9",
+        "customer satisfaction (out of 10)": "9",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "13",
+        "agent id": "2",
+        "call duration": "34",
+        "summary": "Customer reported insurance premium payment failure, agent provided alternative solution.",
+        "intents": [
+            {
+                "intent": "Payment Issue",
+                "confidence": "95",
+                "keywords": "Hello, maine Arjun Malhotra...premium ka payment fail ho raha hai.",
+                "intent timestamp": "0.000 sec - 8.000 sec",
+                "products": [
+                    "Insurance"
+                ],
+                "issues": [
+                    {
+                        "issue": "Payment failure",
+                        "reason(s)": "Temporary issue with payment gateway",
+                        "issue type": "Technical"
+                    }
+                ],
+                "actions of agent": "Identified the issue and suggested alternative payment method (UPI or Net Banking).",
+                "resolution status": "Pending with Callback",
+                "Process Request": "N/A",
+                "resolution": "Suggested customer to try UPI or Net Banking for payment.",
+                "resolution timestamp": "16.000 sec - 22.000 sec",
+                "dominant emotions (customer)": [
+                    "Concern",
+                    "Frustration"
+                ],
+                "conversation sentiment": "Negative",
+                "customer satisfaction": "60"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "8",
+        "agent performance (out of 10)": "7",
+        "customer satisfaction (out of 10)": "6",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "14",
+        "agent id": "2",
+        "call duration": "34",
+        "summary": "Agent helped customer resolve account freeze due to pending KYC.",
+        "intents": [
+            {
+                "intent": "Account Issue",
+                "confidence": "95",
+                "keywords": "Mera account freeze Kyon Ho Gaya Hai...account active ho jaega theek hai",
+                "intent timestamp": "1.000 sec - 33.000 sec",
+                "products": [
+                    "Account"
+                ],
+                "issues": [
+                    {
+                        "issue": "Account freeze",
+                        "reason(s)": "KYC update pending",
+                        "issue type": "Technical"
+                    }
+                ],
+                "actions of agent": "Identified the reason for the account freeze and provided a solution to update KYC online.",
+                "resolution status": "Resolved",
+                "Process Request": "Agent to send KYC steps via email.",
+                "resolution": "Account will be active 24 hours after KYC submission.",
+                "resolution timestamp": "25.000 sec - 33.000 sec",
+                "dominant emotions (customer)": [
+                    "Concern",
+                    "Inquiry"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "85"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "9",
+        "customer satisfaction (out of 10)": "8",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "15",
+        "agent id": "2",
+        "call duration": "36",
+        "summary": "Agent enabled international transactions on customer's debit card.",
+        "intents": [
+            {
+                "intent": "Debit Card Issue",
+                "confidence": "95",
+                "keywords": "Namaste main Rohan Gupta Mera debit card broad Kam ... kar raha Koi Aur Sawal thanks.",
+                "intent timestamp": "0.000 sec - 36.000 sec",
+                "products": [
+                    "Debit Card"
+                ],
+                "issues": [
+                    {
+                        "issue": "Debit card not working abroad",
+                        "reason(s)": "International transactions disabled on the card",
+                        "issue type": "Technical"
+                    }
+                ],
+                "actions of agent": "Verified customer details and enabled international transactions.",
+                "resolution status": "Resolved",
+                "Process Request": "Enable international transactions",
+                "resolution": "Agent enabled international transactions on the customer's debit card.",
+                "resolution timestamp": "28.000 sec - 32.000 sec",
+                "dominant emotions (customer)": [
+                    "Concern",
+                    "Anxiety"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "85"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "9",
+        "customer satisfaction (out of 10)": "8",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "16",
+        "agent id": "2",
+        "call duration": "35",
+        "summary": "Agent assisted customer with shares not reflecting in Demat account.",
+        "intents": [
+            {
+                "intent": "Shares not reflecting in Demat account",
+                "confidence": "95",
+                "keywords": "Hello main Manisha Reddy Mere Demat account main shares Nahin dikh...",
+                "intent timestamp": "0.000 sec - 5.000 sec",
+                "products": [
+                    "Demat Account",
+                    "Shares"
+                ],
+                "issues": [
+                    {
+                        "issue": "Shares purchased not visible in Demat account.",
+                        "reason(s)": "T+2 settlement period.",
+                        "issue type": "Technical"
+                    }
+                ],
+                "actions of agent": "Agent checked the account and explained the T+2 settlement period.",
+                "resolution status": "Resolved",
+                "Process Request": "N/A",
+                "resolution": "Shares will reflect in the account by tomorrow due to T+2 settlement.",
+                "resolution timestamp": "21.000 sec - 24.000 sec",
+                "dominant emotions (customer)": [
+                    "Concerned"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "80"
+            },
+            {
+                "intent": "Information about T+2 settlement",
+                "confidence": "90",
+                "keywords": "Achcha yah t plus two Kya Hota Hai...details mail karta hun theek hai.",
+                "intent timestamp": "23.000 sec - 30.000 sec",
+                "products": [
+                    "Stock Market"
+                ],
+                "issues": [],
+                "actions of agent": "Agent explained T+2 settlement and offered to send details via email.",
+                "resolution status": "Resolved",
+                "Process Request": "Send details of T+2 settlement via email.",
+                "resolution": "Agent will send details about T+2 settlement via email.",
+                "resolution timestamp": "26.000 sec - 31.000 sec",
+                "dominant emotions (customer)": [
+                    "Curious"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "90"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "9",
+        "customer satisfaction (out of 10)": "8",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "17",
+        "agent id": "2",
+        "call duration": "33",
+        "summary": "Customer inquired about locker renewal process, agent provided guidance.",
+        "intents": [
+            {
+                "intent": "Locker Renewal Inquiry",
+                "confidence": "95",
+                "keywords": "Mera locker ka renewal Kaise ... online kaise hoga",
+                "intent timestamp": "0.000 sec - 25.000 sec",
+                "products": [
+                    "Locker"
+                ],
+                "issues": [
+                    {
+                        "issue": "Customer wants to renew locker.",
+                        "reason(s)": "N/A",
+                        "issue type": "General Inquiry"
+                    }
+                ],
+                "actions of agent": "Agent provided information on renewal process and offered to send online renewal steps via email.",
+                "resolution status": "Resolved",
+                "Process Request": "Send online renewal steps via email.",
+                "resolution": "Agent explained the renewal can be done by visiting the branch or through online payment and offered to email the online renewal steps.",
+                "resolution timestamp": "25.000 sec - 30.000 sec",
+                "dominant emotions (customer)": [
+                    "Neutral"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "85"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "9",
+        "customer satisfaction (out of 10)": "8",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "18",
+        "agent id": "2",
+        "call duration": "36",
+        "summary": "Agent waived late fee and activated payment reminder.",
+        "intents": [
+            {
+                "intent": "Fee Inquiry and Waiver Request",
+                "confidence": "95",
+                "keywords": "hello main Kiran Desai marry credit card statement main late...Kyon Laga",
+                "intent timestamp": "0.000 sec - 9.000 sec",
+                "products": [
+                    "Credit Card"
+                ],
+                "issues": [
+                    {
+                        "issue": "Late payment fee charged",
+                        "reason(s)": "Payment received one day after the due date.",
+                        "issue type": "Billing"
+                    }
+                ],
+                "actions of agent": "Agent checked the account, confirmed the late payment, waived the fee, and offered to activate payment reminders.",
+                "resolution status": "Resolved",
+                "Process Request": "Fee waiver processed.",
+                "resolution": "Late payment fee waived for this instance.",
+                "resolution timestamp": "23.000 sec - 26.000 sec",
+                "dominant emotions (customer)": [
+                    "Concern",
+                    "Inquiry"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "90"
+            },
+            {
+                "intent": "Payment Reminder Setup",
+                "confidence": "90",
+                "keywords": "Due date se 1 Din pahle payment kar dena...theek hai.",
+                "intent timestamp": "26.000 sec - 35.000 sec",
+                "products": [
+                    "Credit Card"
+                ],
+                "issues": [],
+                "actions of agent": "Agent offered and activated payment reminders.",
+                "resolution status": "Resolved",
+                "Process Request": "Payment reminder activated.",
+                "resolution": "Payment reminder activated to avoid future late fees.",
+                "resolution timestamp": "32.000 sec - 34.000 sec",
+                "dominant emotions (customer)": [
+                    "Gratitude"
+                ],
+                "conversation sentiment": "Positive",
+                "customer satisfaction": "95"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "9",
+        "customer satisfaction (out of 10)": "9",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "19",
+        "agent id": "2",
+        "call duration": "37",
+        "summary": "The customer inquired about an increase in their loan interest rate.",
+        "intents": [
+            {
+                "intent": "Interest Rate Inquiry",
+                "confidence": "95",
+                "keywords": "Mera personal loan ka interest rate Kyon ... bad gaya?",
+                "intent timestamp": "0.000 sec - 9.000 sec",
+                "products": [
+                    "Personal Loan"
+                ],
+                "issues": [
+                    {
+                        "issue": "Increased interest rate on personal loan",
+                        "reason(s)": "RBI's new guidelines affecting floating rate loans.",
+                        "issue type": "Billing"
+                    }
+                ],
+                "actions of agent": "The agent checked the loan details and explained the reason for the increase.",
+                "resolution status": "Resolved",
+                "Process Request": "The agent will email the documents and steps to switch to a fixed rate.",
+                "resolution": "Agent offered to switch to a fixed interest rate loan and explained the process.",
+                "resolution timestamp": "23.000 sec - 28.000 sec",
+                "dominant emotions (customer)": [
+                    "Concern",
+                    "Inquiry"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "75"
+            },
+            {
+                "intent": "Fixed Rate Switch Request",
+                "confidence": "90",
+                "keywords": "kya aap fix rate per switch karna chahte hain?",
+                "intent timestamp": "20.000 sec - 28.000 sec",
+                "products": [
+                    "Personal Loan"
+                ],
+                "issues": [],
+                "actions of agent": "The agent explained the process for switching to a fixed rate loan.",
+                "resolution status": "Resolved",
+                "Process Request": "Agent to send documents and steps via email.",
+                "resolution": "Agent will send the required documents and steps to switch to a fixed rate loan, which will take 3 days.",
+                "resolution timestamp": "28.000 sec - 35.000 sec",
+                "dominant emotions (customer)": [
+                    "Acceptance",
+                    "Hopeful"
+                ],
+                "conversation sentiment": "Positive",
+                "customer satisfaction": "85"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "8",
+        "agent performance (out of 10)": "8",
+        "customer satisfaction (out of 10)": "8",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "20",
+        "agent id": "2",
+        "call duration": "35",
+        "summary": "The customer wants to change her registered mobile number.",
+        "intents": [
+            {
+                "intent": "Change Registered Mobile Number",
+                "confidence": "95",
+                "keywords": "namaste main Pooja Saxena ... mobile number change karna hai",
+                "intent timestamp": "0.000 sec - 9.000 sec",
+                "products": [
+                    "Bank Account"
+                ],
+                "issues": [
+                    {
+                        "issue": "Customer wants to change her registered mobile number.",
+                        "reason(s)": "N/A",
+                        "issue type": "Service"
+                    }
+                ],
+                "actions of agent": "The agent asked for the account number and new mobile number, verified the OTP, and updated the mobile number.",
+                "resolution status": "Resolved",
+                "Process Request": "OTP verification and mobile number update in the system.",
+                "resolution": "The agent successfully updated the customer's registered mobile number.",
+                "resolution timestamp": "24.000 sec - 25.000 sec",
+                "dominant emotions (customer)": [
+                    "Neutral"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "95"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "9",
+        "customer satisfaction (out of 10)": "9",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "21",
+        "agent id": "3",
+        "call duration": "34",
+        "summary": "The customer inquired about changing her credit card PIN.",
+        "intents": [
+            {
+                "intent": "Change Credit Card PIN",
+                "confidence": "95",
+                "keywords": "Namaste main Shalini Tiwari Mera credit card ka pin ... change Karun?",
+                "intent timestamp": "0.000 sec - 9.000 sec",
+                "products": [
+                    "Credit Card"
+                ],
+                "issues": [
+                    {
+                        "issue": "Customer wants to change credit card PIN.",
+                        "reason(s)": "N/A",
+                        "issue type": "General Inquiry"
+                    }
+                ],
+                "actions of agent": "The agent provided instructions on how to change the PIN via mobile app or ATM and offered to send the steps via SMS.",
+                "resolution status": "Resolved",
+                "Process Request": "SMS the steps to change the PIN.",
+                "resolution": "The agent explained the process and sent SMS with instructions.",
+                "resolution timestamp": "16.000 sec - 24.000 sec",
+                "dominant emotions (customer)": [
+                    "Neutral"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "90"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "9",
+        "customer satisfaction (out of 10)": "9",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "22",
+        "agent id": "3",
+        "call duration": "36.96",
+        "summary": "The agent addressed an unauthorized transaction and initiated a refund.",
+        "intents": [
+            {
+                "intent": "Fraudulent Transaction Reporting",
+                "confidence": "95",
+                "keywords": "hello, main Karan Mehra Mere account mein ek unknown transaction...",
+                "intent timestamp": "0.000 sec - 6.000 sec",
+                "products": [
+                    "Account"
+                ],
+                "issues": [
+                    {
+                        "issue": "Unauthorized transaction of 5000",
+                        "reason(s)": "Unknown transaction",
+                        "issue type": "Billing"
+                    }
+                ],
+                "actions of agent": "The agent acknowledged the issue, blocked the transaction, and initiated a refund process.",
+                "resolution status": "Resolved",
+                "Process Request": "Refund initiated",
+                "resolution": "The agent blocked the unauthorized transaction and initiated a refund process.",
+                "resolution timestamp": "22.000 sec - 28.000 sec",
+                "dominant emotions (customer)": [
+                    "Concern",
+                    "Anxiety"
+                ],
+                "conversation sentiment": "Negative",
+                "customer satisfaction": "75"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "8",
+        "customer satisfaction (out of 10)": "7",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "23",
+        "agent id": "3",
+        "call duration": "33",
+        "summary": "Agent explained home loan foreclosure process and charges to customer.",
+        "intents": [
+            {
+                "intent": "Foreclosure Inquiry",
+                "confidence": "95",
+                "keywords": "Mera home loan ka photo process kya hai?...process samjhata hun kya aap apna loan",
+                "intent timestamp": "0.000 sec - 10.000 sec",
+                "products": [
+                    "Home Loan"
+                ],
+                "issues": [
+                    {
+                        "issue": "Customer wants to know the foreclosure process.",
+                        "reason(s)": "N/A",
+                        "issue type": "General Inquiry"
+                    }
+                ],
+                "actions of agent": "The agent explained that the customer needs to pay outstanding amount and charges for foreclosure and offered to email the exact amount and process.",
+                "resolution status": "Resolved",
+                "Process Request": "Emailing the exact amount and process for foreclosure.",
+                "resolution": "Agent will email the exact amount and process for foreclosure.",
+                "resolution timestamp": "21.000 sec - 23.000 sec",
+                "dominant emotions (customer)": [
+                    "Neutral"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "70"
+            },
+            {
+                "intent": "Charges Inquiry",
+                "confidence": "90",
+                "keywords": "Kitna charge lagega?...terms per depend karta hai lekin details email",
+                "intent timestamp": "22.000 sec - 29.000 sec",
+                "products": [
+                    "Home Loan"
+                ],
+                "issues": [
+                    {
+                        "issue": "Customer wants to know the foreclosure charges.",
+                        "reason(s)": "N/A",
+                        "issue type": "Billing"
+                    }
+                ],
+                "actions of agent": "The agent explained that the charges depend on loan terms and the details will be in the email.",
+                "resolution status": "Resolved",
+                "Process Request": "N/A",
+                "resolution": "Agent informed customer that details of charges will be in email.",
+                "resolution timestamp": "29.000 sec - 31.000 sec",
+                "dominant emotions (customer)": [
+                    "Neutral"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "70"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "8",
+        "agent performance (out of 10)": "8",
+        "customer satisfaction (out of 10)": "7",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "24",
+        "agent id": "3",
+        "call duration": "33",
+        "summary": "Agent assisted customer with FD withdrawal request.",
+        "intents": [
+            {
+                "intent": "Fixed Deposit Maturity Inquiry and Withdrawal",
+                "confidence": "95",
+                "keywords": "Namaste main Rekha Patel Mera fix deposit mature ho gaya...amount withdrawal karna chahti hun kitna time lagega",
+                "intent timestamp": "0.000 sec - 24.000 sec",
+                "products": [
+                    "Fixed Deposit"
+                ],
+                "issues": [
+                    {
+                        "issue": "Customer wants to withdraw the amount from matured FD.",
+                        "reason(s)": "N/A",
+                        "issue type": "General Inquiry"
+                    }
+                ],
+                "actions of agent": "Verified FD details, confirmed withdrawal request, and informed about the processing time.",
+                "resolution status": "Resolved",
+                "Process Request": "Withdrawal request processed.",
+                "resolution": "Amount will be credited to the customer's account in 24 hours.",
+                "resolution timestamp": "23.000 sec - 28.000 sec",
+                "dominant emotions (customer)": [
+                    "Neutral"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "90"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "9",
+        "customer satisfaction (out of 10)": "9",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "25",
+        "agent id": "3",
+        "call duration": "33.64",
+        "summary": "The agent assisted with a failed ATM transaction and initiated refund.",
+        "intents": [
+            {
+                "intent": "Report ATM Transaction Issue",
+                "confidence": "95",
+                "keywords": "hello main Nikhil Jan Meri ATM se paise ... lekin balance cut Gaya",
+                "intent timestamp": "0.000 sec - 10.000 sec",
+                "products": [
+                    "ATM",
+                    "Bank Account"
+                ],
+                "issues": [
+                    {
+                        "issue": "Money not dispensed from ATM but amount debited.",
+                        "reason(s)": "ATM Glitch",
+                        "issue type": "Technical"
+                    }
+                ],
+                "actions of agent": "Agent apologized, asked for account number and transaction time, identified the issue as an ATM glitch, and initiated a refund request.",
+                "resolution status": "Resolved",
+                "Process Request": "Refund request initiated.",
+                "resolution": "Refund request initiated, with a 3-5 day processing time.",
+                "resolution timestamp": "21.000 sec - 26.000 sec",
+                "dominant emotions (customer)": [
+                    "Concerned"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "80"
+            },
+            {
+                "intent": "Request for Update",
+                "confidence": "85",
+                "keywords": "Theek hai, please confirm karo jab ho jaaye",
+                "intent timestamp": "23.000 sec - 30.000 sec",
+                "products": [
+                    "Bank Account"
+                ],
+                "issues": [],
+                "actions of agent": "Agent assured the customer that they would be updated.",
+                "resolution status": "Resolved",
+                "Process Request": "N/A",
+                "resolution": "Agent confirmed that they would provide an update.",
+                "resolution timestamp": "28.000 sec - 31.000 sec",
+                "dominant emotions (customer)": [
+                    "Neutral"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "90"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "9",
+        "customer satisfaction (out of 10)": "8",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "Yes",
+        "callback time": "3-5 days"
+    },
+    {
+        "call id": "26",
+        "agent id": "3",
+        "call duration": "36",
+        "summary": "The customer needed help downloading her credit card statement.",
+        "intents": [
+            {
+                "intent": "Statement Download Assistance",
+                "confidence": "95",
+                "keywords": "Mera credit card ka statement online kaise ... download Karun",
+                "intent timestamp": "0.000 sec - 9.000 sec",
+                "products": [
+                    "Credit Card"
+                ],
+                "issues": [
+                    {
+                        "issue": "Customer needs assistance with downloading credit card statement online.",
+                        "reason(s)": "Customer is not familiar with the online process.",
+                        "issue type": "Service"
+                    }
+                ],
+                "actions of agent": "The agent offered to provide steps and email the details with screenshots.",
+                "resolution status": "Resolved",
+                "Process Request": "N/A",
+                "resolution": "Agent emailed the customer the steps to download the statement with screenshots.",
+                "resolution timestamp": "22.000 sec - 25.000 sec",
+                "dominant emotions (customer)": [
+                    "Neutral"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "85"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "9",
+        "customer satisfaction (out of 10)": "8",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "27",
+        "agent id": "3",
+        "call duration": "31.60",
+        "summary": "Customer requested EMI schedule, agent emailed it to customer.",
+        "intents": [
+            {
+                "intent": "Request EMI Schedule",
+                "confidence": "95",
+                "keywords": "Namaste main Aditya Singh ... car EMI schedule kahan se milega?",
+                "intent timestamp": "0.000 sec - 5.000 sec",
+                "products": [
+                    "Car Loan"
+                ],
+                "issues": [
+                    {
+                        "issue": "Customer needs EMI schedule.",
+                        "reason(s)": "Unknown to customer where to find EMI schedule.",
+                        "issue type": "General Inquiry"
+                    }
+                ],
+                "actions of agent": "Agent offered to email the EMI schedule or guide to download from net banking.",
+                "resolution status": "Resolved",
+                "Process Request": "Emailing the EMI schedule to the customer.",
+                "resolution": "Agent emailed the EMI schedule to the customer's registered email address.",
+                "resolution timestamp": "20.000 sec - 21.000 sec",
+                "dominant emotions (customer)": [
+                    "Neutral"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "90"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "9",
+        "customer satisfaction (out of 10)": "9",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "28",
+        "agent id": "3",
+        "call duration": "31.96",
+        "summary": "Customer inquired about savings account interest rate and details.",
+        "intents": [
+            {
+                "intent": "Interest Rate Inquiry",
+                "confidence": "95",
+                "keywords": "Hello main Ritu Malhotra Mere savings account ka interest rate...kya hai?",
+                "intent timestamp": "0.000 sec - 9.000 sec",
+                "products": [
+                    "Savings Account"
+                ],
+                "issues": [],
+                "actions of agent": "Agent checked the customer's savings account interest rate and provided the information.",
+                "resolution status": "Resolved",
+                "Process Request": "N/A",
+                "resolution": "The agent informed the customer that the current interest rate is 3.5% per annum, credited quarterly.",
+                "resolution timestamp": "15.000 sec - 20.000 sec",
+                "dominant emotions (customer)": [
+                    "Neutral"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "90"
+            },
+            {
+                "intent": "Request for Information",
+                "confidence": "90",
+                "keywords": "Han Thodi aur Jankari bhej do.",
+                "intent timestamp": "22.000 sec - 27.000 sec",
+                "products": [
+                    "Savings Account"
+                ],
+                "issues": [],
+                "actions of agent": "Agent offered to email the interest calculation and terms details.",
+                "resolution status": "Resolved",
+                "Process Request": "Emailing Information",
+                "resolution": "The agent will email the customer the interest calculation and terms details.",
+                "resolution timestamp": "25.000 sec - 29.000 sec",
+                "dominant emotions (customer)": [
+                    "Neutral"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "95"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "9",
+        "customer satisfaction (out of 10)": "9",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "29",
+        "agent id": "3",
+        "call duration": "34",
+        "summary": "The customer inquired about debit card annual fee charges.",
+        "intents": [
+            {
+                "intent": "Fee Inquiry and Waiver Request",
+                "confidence": "95",
+                "keywords": "Mera debit card ka annual fee Kyon Laga...please wave kar do.",
+                "intent timestamp": "0.000 sec - 27.000 sec",
+                "products": [
+                    "Debit Card"
+                ],
+                "issues": [
+                    {
+                        "issue": "Customer was charged an annual fee on their debit card.",
+                        "reason(s)": "The fee is a standard charge, but can be waived if minimum transaction criteria are met.",
+                        "issue type": "Billing"
+                    }
+                ],
+                "actions of agent": "Checked card details, explained the fee, and submitted a fee waiver request.",
+                "resolution status": "Resolved",
+                "Process Request": "Fee waiver request submitted.",
+                "resolution": "The agent submitted a request to waive the annual fee, which will be reversed in 5 days.",
+                "resolution timestamp": "27.000 sec - 32.000 sec",
+                "dominant emotions (customer)": [
+                    "Concern",
+                    "Inquiry"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "85"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "9",
+        "customer satisfaction (out of 10)": "8",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "30",
+        "agent id": "3",
+        "call duration": "35",
+        "summary": "The agent resolved customer's stuck UPI transaction issue.",
+        "intents": [
+            {
+                "intent": "Transaction Issue",
+                "confidence": "95",
+                "keywords": "namaste main Gita Varma Mera upi transaction stuck ... gaya hai",
+                "intent timestamp": "0.000 sec - 9.000 sec",
+                "products": [
+                    "UPI"
+                ],
+                "issues": [
+                    {
+                        "issue": "UPI transaction stuck",
+                        "reason(s)": "Pending with the banking system",
+                        "issue type": "Technical"
+                    }
+                ],
+                "actions of agent": "The agent checked the transaction status and informed the customer that it was pending with the bank and would be resolved within 24 hours.",
+                "resolution status": "Resolved",
+                "Process Request": "The agent will resolve the transaction with the banking system.",
+                "resolution": "The agent confirmed the transaction was pending and would resolve it with the bank, with funds reflecting in 24 hours.",
+                "resolution timestamp": "17.000 sec - 26.000 sec",
+                "dominant emotions (customer)": [
+                    "Concerned"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "80"
+            },
+            {
+                "intent": "Update Request",
+                "confidence": "90",
+                "keywords": "Theek hai mujhe update dena.",
+                "intent timestamp": "22.000 sec - 30.000 sec",
+                "products": [
+                    "UPI"
+                ],
+                "issues": [],
+                "actions of agent": "The agent agreed to provide an update once the issue was resolved.",
+                "resolution status": "Resolved",
+                "Process Request": "N/A",
+                "resolution": "Agent confirmed that they would provide an update.",
+                "resolution timestamp": "29.000 sec - 30.000 sec",
+                "dominant emotions (customer)": [
+                    "Neutral"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "85"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "9",
+        "customer satisfaction (out of 10)": "8",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "Yes",
+        "callback time": "Same day, within 24 hours"
+    },
+    {
+        "call id": "31",
+        "agent id": "4",
+        "call duration": "32",
+        "summary": "Agent waived minimum balance charge for the customer.",
+        "intents": [
+            {
+                "intent": "Minimum Balance Charge Inquiry",
+                "confidence": "95",
+                "keywords": "Mera savings account ka minimum balance charge Kyon ...",
+                "intent timestamp": "0.000 sec - 9.000 sec",
+                "products": [
+                    "Savings Account"
+                ],
+                "issues": [
+                    {
+                        "issue": "Minimum balance charge applied",
+                        "reason(s)": "Account balance fell below the minimum required amount.",
+                        "issue type": "Billing"
+                    }
+                ],
+                "actions of agent": "Verified the account details and confirmed the charge. Agent offered to waive the charge.",
+                "resolution status": "Resolved",
+                "Process Request": "Charge waiver request initiated",
+                "resolution": "Charge waiver request submitted, reversal in 3-5 days.",
+                "resolution timestamp": "25.000 sec - 30.000 sec",
+                "dominant emotions (customer)": [
+                    "Concern",
+                    "Relief"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "85"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "9",
+        "customer satisfaction (out of 10)": "8",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "32",
+        "agent id": "4",
+        "call duration": "34",
+        "summary": "Customer inquired about credit card cash withdrawal limit and charges.",
+        "intents": [
+            {
+                "intent": "Cash Withdrawal Limit Inquiry",
+                "confidence": "95",
+                "keywords": "Mera credit card ka cash withdrawal limit ... kya hai?",
+                "intent timestamp": "0.000 sec - 5.000 sec",
+                "products": [
+                    "Credit Card"
+                ],
+                "issues": [
+                    {
+                        "issue": "Customer wants to know the cash withdrawal limit on their credit card.",
+                        "reason(s)": "N/A",
+                        "issue type": "General Inquiry"
+                    }
+                ],
+                "actions of agent": "Agent verified the customer's card details and provided the cash withdrawal limit.",
+                "resolution status": "Resolved",
+                "Process Request": "N/A",
+                "resolution": "The agent informed the customer that the cash withdrawal limit is 50000 per day.",
+                "resolution timestamp": "17.000 sec - 21.000 sec",
+                "dominant emotions (customer)": [
+                    "Neutral"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "90"
+            },
+            {
+                "intent": "Cash Withdrawal Charge Inquiry",
+                "confidence": "90",
+                "keywords": "Koi charge To Nahin Hai Na",
+                "intent timestamp": "23.000 sec - 27.000 sec",
+                "products": [
+                    "Credit Card"
+                ],
+                "issues": [
+                    {
+                        "issue": "Customer wants to know if there are any charges for cash withdrawal.",
+                        "reason(s)": "N/A",
+                        "issue type": "Billing"
+                    }
+                ],
+                "actions of agent": "The agent informed the customer about the cash withdrawal charges.",
+                "resolution status": "Resolved",
+                "Process Request": "N/A",
+                "resolution": "The agent informed the customer about the 2.5% fee on cash withdrawals, with a minimum of 300 rupees, and offered to email the details.",
+                "resolution timestamp": "26.000 sec - 33.000 sec",
+                "dominant emotions (customer)": [
+                    "Neutral"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "90"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "9",
+        "customer satisfaction (out of 10)": "9",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "33",
+        "agent id": "4",
+        "call duration": "31",
+        "summary": "Customer inquired about the personal loan pre-payment process.",
+        "intents": [
+            {
+                "intent": "Prepayment Inquiry",
+                "confidence": "95",
+                "keywords": "Maine Vikas Yadav Mera personal loan ka pre payment ... pre payment Kaise karun?",
+                "intent timestamp": "0.000 sec - 5.000 sec",
+                "products": [
+                    "Personal Loan"
+                ],
+                "issues": [],
+                "actions of agent": "Explained the pre-payment process and requested the loan account number. Provided information on charges and processing time. Offered to email the exact amount.",
+                "resolution status": "Resolved",
+                "Process Request": "Emailing the exact pre-payment amount to the customer.",
+                "resolution": "The agent explained the pre-payment process, including the outstanding amount, 2% pre-payment charge, and the 3-day processing time.",
+                "resolution timestamp": "25.000 sec - 29.000 sec",
+                "dominant emotions (customer)": [
+                    "Neutral"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "85"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "9",
+        "customer satisfaction (out of 10)": "8",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "34",
+        "agent id": "4",
+        "call duration": "31.40",
+        "summary": "Agent addressed customer's wrong credit issue and initiated reversal.",
+        "intents": [
+            {
+                "intent": "Incorrect Transaction",
+                "confidence": "95",
+                "keywords": "namaste Maine Suman Rani Mere account mein ek wrong credit ... 10000 ka",
+                "intent timestamp": "0.000 sec - 9.000 sec",
+                "products": [
+                    "Account"
+                ],
+                "issues": [
+                    {
+                        "issue": "Wrong credit of 10000",
+                        "reason(s)": "Bank error",
+                        "issue type": "Billing"
+                    }
+                ],
+                "actions of agent": "Agent apologized, asked for account number and transaction date, identified the issue as a bank error, and initiated a reversal process.",
+                "resolution status": "Pending with Callback",
+                "Process Request": "Reversal of the incorrect transaction",
+                "resolution": "The agent initiated the process to reverse the incorrect transaction, which will take 5 days.",
+                "resolution timestamp": "21.000 sec - 24.000 sec",
+                "dominant emotions (customer)": [
+                    "Concern",
+                    "Expectation"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "80"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "8",
+        "customer satisfaction (out of 10)": "8",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "Yes",
+        "callback time": "Within 5 days"
+    },
+    {
+        "call id": "35",
+        "agent id": "4",
+        "call duration": "31",
+        "summary": "The customer needed help resetting their Demat account password.",
+        "intents": [
+            {
+                "intent": "Password Reset",
+                "confidence": "95",
+                "keywords": "Mera Demat account ka password reset Kaise ...",
+                "intent timestamp": "0.000 sec - 5.000 sec",
+                "products": [
+                    "Demat Account"
+                ],
+                "issues": [
+                    {
+                        "issue": "Customer unable to reset Demat account password.",
+                        "reason(s)": "Customer is unaware of the password reset process.",
+                        "issue type": "Technical"
+                    }
+                ],
+                "actions of agent": "The agent offered to guide the customer and provided the OTP based reset process.",
+                "resolution status": "Resolved",
+                "Process Request": "Emailing OTP based reset process steps.",
+                "resolution": "Agent emailed the customer the steps to reset the password via OTP.",
+                "resolution timestamp": "18.000 sec - 23.000 sec",
+                "dominant emotions (customer)": [
+                    "Neutral"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "90"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "9",
+        "customer satisfaction (out of 10)": "9",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "36",
+        "agent id": "4",
+        "call duration": "33",
+        "summary": "The customer inquired about expiring reward points on their card.",
+        "intents": [
+            {
+                "intent": "Inquiry about reward points expiration",
+                "confidence": "95",
+                "keywords": "Mera credit card ka reward points expire ... rahe hain?",
+                "intent timestamp": "0.000 sec - 9.000 sec",
+                "products": [
+                    "Credit Card"
+                ],
+                "issues": [
+                    {
+                        "issue": "Customer wants to know why reward points are expiring.",
+                        "reason(s)": "Points expire after 2 years as per terms.",
+                        "issue type": "Billing"
+                    }
+                ],
+                "actions of agent": "Agent checked the customer's card details and explained the expiration policy.",
+                "resolution status": "Resolved",
+                "Process Request": "N/A",
+                "resolution": "Agent informed customer that points expire after 2 years and offered to send redemption steps via email.",
+                "resolution timestamp": "16.000 sec - 30.000 sec",
+                "dominant emotions (customer)": [
+                    "Inquisitive"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "80"
+            },
+            {
+                "intent": "Redemption process assistance",
+                "confidence": "90",
+                "keywords": "Han Kaise karun?",
+                "intent timestamp": "20.000 sec - 27.000 sec",
+                "products": [
+                    "Credit Card"
+                ],
+                "issues": [],
+                "actions of agent": "Agent offered to send redemption process steps via email.",
+                "resolution status": "Resolved",
+                "Process Request": "N/A",
+                "resolution": "Agent will send redemption steps via email.",
+                "resolution timestamp": "26.000 sec - 31.000 sec",
+                "dominant emotions (customer)": [
+                    "Interested"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "90"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "9",
+        "customer satisfaction (out of 10)": "8",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "37",
+        "agent id": "4",
+        "call duration": "31.76",
+        "summary": "Customer reported a lost locker access card and inquired about charges.",
+        "intents": [
+            {
+                "intent": "Report Lost Card",
+                "confidence": "95",
+                "keywords": "namaste main Priyanka Chopra Mera locker ka Axis card Kho ... Hai",
+                "intent timestamp": "0.000 sec - 8.000 sec",
+                "products": [
+                    "Locker Access Card"
+                ],
+                "issues": [
+                    {
+                        "issue": "Lost locker access card",
+                        "reason(s)": "Customer reported the card as lost.",
+                        "issue type": "Service"
+                    }
+                ],
+                "actions of agent": "Agent acknowledged the issue and asked for account/locker number.",
+                "resolution status": "Resolved",
+                "Process Request": "N/A",
+                "resolution": "Advised customer to visit branch for a new access card and will email required documents.",
+                "resolution timestamp": "16.000 sec - 24.000 sec",
+                "dominant emotions (customer)": [
+                    "Concerned"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "70"
+            },
+            {
+                "intent": "Inquire about Replacement Card Charges",
+                "confidence": "90",
+                "keywords": "Kitna charge hoga?",
+                "intent timestamp": "24.000 sec - 26.000 sec",
+                "products": [
+                    "Locker Access Card"
+                ],
+                "issues": [],
+                "actions of agent": "Agent informed the customer about the replacement card charge.",
+                "resolution status": "Resolved",
+                "Process Request": "N/A",
+                "resolution": "Informed customer that the replacement card charge is 200 rupees.",
+                "resolution timestamp": "25.000 sec - 29.000 sec",
+                "dominant emotions (customer)": [
+                    "Neutral"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "80"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "8",
+        "customer satisfaction (out of 10)": "8",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "38",
+        "agent id": "4",
+        "call duration": "31",
+        "summary": "Customer's mutual fund SIP was stopped due to insufficient balance.",
+        "intents": [
+            {
+                "intent": "SIP Issue",
+                "confidence": "95",
+                "keywords": "Mera mutual fund SIP Queen Band Ho ... insufficient balance tha isliye sirf fail ho gaya",
+                "intent timestamp": "0.000 sec - 18.000 sec",
+                "products": [
+                    "Mutual Fund SIP"
+                ],
+                "issues": [
+                    {
+                        "issue": "SIP stopped",
+                        "reason(s)": "Insufficient balance",
+                        "issue type": "Billing"
+                    }
+                ],
+                "actions of agent": "Agent checked the account and confirmed the reason for SIP failure.",
+                "resolution status": "Resolved",
+                "Process Request": "Agent will email the restart process and payment details.",
+                "resolution": "Agent offered to email the restart process and payment details to the customer.",
+                "resolution timestamp": "24.000 sec - 29.000 sec",
+                "dominant emotions (customer)": [
+                    "Concern"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "85"
+            },
+            {
+                "intent": "Restart SIP",
+                "confidence": "90",
+                "keywords": "kya balance dalkar SIP restart karna ... Kaise karun?",
+                "intent timestamp": "15.000 sec - 24.000 sec",
+                "products": [
+                    "Mutual Fund SIP"
+                ],
+                "issues": [],
+                "actions of agent": "Agent offered to send the restart process.",
+                "resolution status": "Resolved",
+                "Process Request": "Agent will email the restart process and payment details.",
+                "resolution": "Agent offered to email the restart process and payment details to the customer.",
+                "resolution timestamp": "24.000 sec - 29.000 sec",
+                "dominant emotions (customer)": [
+                    "Inquiry"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "85"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "9",
+        "customer satisfaction (out of 10)": "8",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "39",
+        "agent id": "4",
+        "call duration": "35.96",
+        "summary": "Customer requested to update email address, agent assisted.",
+        "intents": [
+            {
+                "intent": "Update Email Address",
+                "confidence": "95",
+                "keywords": "Mera account ka email address update ... Karoon",
+                "intent timestamp": "0.000 sec - 9.000 sec",
+                "products": [
+                    "Account"
+                ],
+                "issues": [
+                    {
+                        "issue": "Customer wants to update their email address.",
+                        "reason(s)": "N/A",
+                        "issue type": "General Inquiry"
+                    }
+                ],
+                "actions of agent": "Agent asked for account number and new email address, then sent an OTP for verification and updated the email address.",
+                "resolution status": "Resolved",
+                "Process Request": "Email address update",
+                "resolution": "Email address updated after OTP verification.",
+                "resolution timestamp": "30.000 sec - 34.000 sec",
+                "dominant emotions (customer)": [
+                    "Neutral"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "100"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "10",
+        "agent performance (out of 10)": "10",
+        "customer satisfaction (out of 10)": "10",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "40",
+        "agent id": "4",
+        "call duration": "36",
+        "summary": "Customer is unable to pay credit card bill online.",
+        "intents": [
+            {
+                "intent": "Payment Issue",
+                "confidence": "95",
+                "keywords": "Mera credit card ka bill payment online Kyon Nahin ... error hai payment gateway time out",
+                "intent timestamp": "1.000 sec - 18.000 sec",
+                "products": [
+                    "Credit Card"
+                ],
+                "issues": [
+                    {
+                        "issue": "Online payment failure",
+                        "reason(s)": "Payment gateway timeout",
+                        "issue type": "Technical"
+                    }
+                ],
+                "actions of agent": "Agent acknowledged the issue, asked for card number and error message, suggested alternative payment methods (UPI or net banking), and offered further assistance.",
+                "resolution status": "Pending with Callback",
+                "Process Request": "N/A",
+                "resolution": "Agent suggested using UPI or Net Banking and to call back if issue persists.",
+                "resolution timestamp": "17.000 sec - 33.000 sec",
+                "dominant emotions (customer)": [
+                    "Concerned",
+                    "Frustrated"
+                ],
+                "conversation sentiment": "Negative",
+                "customer satisfaction": "60"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "8",
+        "agent performance (out of 10)": "7",
+        "customer satisfaction (out of 10)": "6",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "Yes",
+        "callback time": "Same day if issue persists"
+    },
+    {
+        "call id": "41",
+        "agent id": "5",
+        "call duration": "34",
+        "summary": "The customer inquired about adding a nominee to their account.",
+        "intents": [
+            {
+                "intent": "Add Nominee",
+                "confidence": "95",
+                "keywords": "Mera account ka nominee Kaise add ... add karun?",
+                "intent timestamp": "1.000 sec - 5.000 sec",
+                "products": [
+                    "Account"
+                ],
+                "issues": [
+                    {
+                        "issue": "Customer wants to add a nominee to their account.",
+                        "reason(s)": "N/A",
+                        "issue type": "General Inquiry"
+                    }
+                ],
+                "actions of agent": "The agent explained the process of adding a nominee, including submitting a form at the branch or requesting online.",
+                "resolution status": "Resolved",
+                "Process Request": "The agent will email the process and document details.",
+                "resolution": "The agent provided information on how to add a nominee.",
+                "resolution timestamp": "23.000 sec - 26.000 sec",
+                "dominant emotions (customer)": [
+                    "Neutral"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "80"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "8",
+        "customer satisfaction (out of 10)": "8",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "42",
+        "agent id": "5",
+        "call duration": "38",
+        "summary": "Customer requested a physical copy of their credit card statement.",
+        "intents": [
+            {
+                "intent": "Request Physical Statement",
+                "confidence": "95",
+                "keywords": "Mera credit card ka statement physical copy Kaise ...",
+                "intent timestamp": "0.000 sec - 9.000 sec",
+                "products": [
+                    "Credit Card"
+                ],
+                "issues": [
+                    {
+                        "issue": "Customer wants a physical copy of the credit card statement.",
+                        "reason(s)": "N/A",
+                        "issue type": "General Inquiry"
+                    }
+                ],
+                "actions of agent": "Agent offered to send a physical statement to the registered address and inquired about annual subscription.",
+                "resolution status": "Resolved",
+                "Process Request": "Agent placed a request to send the physical statement.",
+                "resolution": "Physical statement will be sent to the customer's registered address in 7 days for a charge of 100 rupees.",
+                "resolution timestamp": "30.000 sec - 37.000 sec",
+                "dominant emotions (customer)": [
+                    "Neutral"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "90"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "9",
+        "customer satisfaction (out of 10)": "9",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "43",
+        "agent id": "5",
+        "call duration": "29",
+        "summary": "Customer requested interest certificate, agent emailed it to him.",
+        "intents": [
+            {
+                "intent": "Request Interest Certificate",
+                "confidence": "95",
+                "keywords": "Namaste main Vinod Kumar ... interest certificate kahan se milega?",
+                "intent timestamp": "0.000 sec - 9.000 sec",
+                "products": [
+                    "Home Loan"
+                ],
+                "issues": [
+                    {
+                        "issue": "Customer needs interest certificate.",
+                        "reason(s)": "N/A",
+                        "issue type": "General Inquiry"
+                    }
+                ],
+                "actions of agent": "Agent offered to email the certificate or provide it via net banking.",
+                "resolution status": "Resolved",
+                "Process Request": "Emailing the certificate to the customer.",
+                "resolution": "Agent emailed the interest certificate to the customer's registered email address.",
+                "resolution timestamp": "23.000 sec - 27.000 sec",
+                "dominant emotions (customer)": [
+                    "Neutral"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "90"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "9",
+        "customer satisfaction (out of 10)": "9",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "44",
+        "agent id": "5",
+        "call duration": "35",
+        "summary": "The customer inquired about activating debit card contact list feature.",
+        "intents": [
+            {
+                "intent": "Debit Card Feature Activation",
+                "confidence": "95",
+                "keywords": "Mera debit card ka contact list feature Kaise ... Karun?",
+                "intent timestamp": "0.000 sec - 10.000 sec",
+                "products": [
+                    "Debit Card"
+                ],
+                "issues": [
+                    {
+                        "issue": "Customer wants to activate contact list feature on debit card.",
+                        "reason(s)": "N/A",
+                        "issue type": "General Inquiry"
+                    }
+                ],
+                "actions of agent": "The agent guided the customer on how to activate the feature via mobile app or ATM and offered to send SMS instructions.",
+                "resolution status": "Resolved",
+                "Process Request": "Send SMS with activation steps.",
+                "resolution": "The agent provided instructions to activate the feature via mobile app or ATM and sent SMS instructions.",
+                "resolution timestamp": "23.000 sec - 26.000 sec",
+                "dominant emotions (customer)": [
+                    "Neutral"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "90"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "9",
+        "customer satisfaction (out of 10)": "9",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "45",
+        "agent id": "5",
+        "call duration": "28.80",
+        "summary": "Customer wants to deactivate auto renewal of fixed deposit.",
+        "intents": [
+            {
+                "intent": "Fixed Deposit Auto Renewal Deactivation",
+                "confidence": "95",
+                "keywords": "Mera fix deposite ka auto renewal Kaise Ban ...",
+                "intent timestamp": "0.000 sec - 5.000 sec",
+                "products": [
+                    "Fixed Deposit"
+                ],
+                "issues": [
+                    {
+                        "issue": "Customer wants to stop auto renewal of FD.",
+                        "reason(s)": "Customer's preference to manage funds manually.",
+                        "issue type": "Service"
+                    }
+                ],
+                "actions of agent": "Agent deactivated the auto renewal of the fixed deposit.",
+                "resolution status": "Resolved",
+                "Process Request": "Deactivated auto renewal in the system.",
+                "resolution": "Auto renewal deactivated, amount will be credited after maturity.",
+                "resolution timestamp": "16.000 sec - 23.000 sec",
+                "dominant emotions (customer)": [
+                    "Neutral"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "90"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "9",
+        "customer satisfaction (out of 10)": "9",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "46",
+        "agent id": "5",
+        "call duration": "34",
+        "summary": "Agent processed refund for duplicate transaction and provided timeframe.",
+        "intents": [
+            {
+                "intent": "Duplicate Transaction Report",
+                "confidence": "95",
+                "keywords": "namaste main Nisha Yadav Mera account se ek double...gaya hai",
+                "intent timestamp": "0.000 sec - 9.000 sec",
+                "products": [
+                    "Account"
+                ],
+                "issues": [
+                    {
+                        "issue": "Duplicate transaction of 2000 rupees",
+                        "reason(s)": "N/A",
+                        "issue type": "Billing"
+                    }
+                ],
+                "actions of agent": "Verified the transaction details and initiated refund process.",
+                "resolution status": "Resolved",
+                "Process Request": "Refund initiated",
+                "resolution": "Refund process initiated, and customer informed about the timeframe of 3-5 days for refund.",
+                "resolution timestamp": "21.000 sec - 26.000 sec",
+                "dominant emotions (customer)": [
+                    "Concern",
+                    "Anxiety"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "75"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "8",
+        "agent performance (out of 10)": "8",
+        "customer satisfaction (out of 10)": "7",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "47",
+        "agent id": "5",
+        "call duration": "32",
+        "summary": "Agent enabled international transactions on customer's credit card.",
+        "intents": [
+            {
+                "intent": "International Transaction Issue",
+                "confidence": "95",
+                "keywords": "namaste Maine Anil Verma Mera credit card ka international transaction ... ho raha",
+                "intent timestamp": "0.000 sec - 9.000 sec",
+                "products": [
+                    "Credit Card"
+                ],
+                "issues": [
+                    {
+                        "issue": "International transactions are not working.",
+                        "reason(s)": "International transactions were disabled on the card.",
+                        "issue type": "Technical"
+                    }
+                ],
+                "actions of agent": "Agent checked the card status and enabled international transactions.",
+                "resolution status": "Resolved",
+                "Process Request": "Enable international transactions on the card.",
+                "resolution": "Agent enabled international transactions, which will be active in 15 minutes.",
+                "resolution timestamp": "21.000 sec - 25.000 sec",
+                "dominant emotions (customer)": [
+                    "Concerned"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "90"
+            },
+            {
+                "intent": "Inquiry about Extra Charges",
+                "confidence": "90",
+                "keywords": "Achcha Koi extra charge To Nahin",
+                "intent timestamp": "22.000 sec - 29.000 sec",
+                "products": [
+                    "Credit Card"
+                ],
+                "issues": [],
+                "actions of agent": "Agent confirmed there are no extra charges.",
+                "resolution status": "Resolved",
+                "Process Request": "N/A",
+                "resolution": "Agent confirmed no extra charges for enabling international transactions.",
+                "resolution timestamp": "27.000 sec - 30.000 sec",
+                "dominant emotions (customer)": [
+                    "Concerned"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "95"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "9",
+        "customer satisfaction (out of 10)": "9",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "48",
+        "agent id": "5",
+        "call duration": "34",
+        "summary": "Customer inquired about Demat account annual maintenance charge.",
+        "intents": [
+            {
+                "intent": "Billing Inquiry",
+                "confidence": "95",
+                "keywords": "hello mean Meera Joshi Mera Demat account ka annual ... charge Kyon Laga",
+                "intent timestamp": "0.000 sec - 5.000 sec",
+                "products": [
+                    "Demat Account"
+                ],
+                "issues": [
+                    {
+                        "issue": "Annual maintenance charge applied to Demat account",
+                        "reason(s)": "Standard annual maintenance charge",
+                        "issue type": "Billing"
+                    }
+                ],
+                "actions of agent": "Checked the account and informed the customer about the charge. Checked eligibility for waiver and submitted a waiver request.",
+                "resolution status": "Pending with Callback",
+                "Process Request": "Waiver request submitted based on trading volume.",
+                "resolution": "Waiver request submitted, update to be provided in 5 days.",
+                "resolution timestamp": "27.000 sec - 30.000 sec",
+                "dominant emotions (customer)": [
+                    "Inquiry"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "80"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "9",
+        "customer satisfaction (out of 10)": "8",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "49",
+        "agent id": "5",
+        "call duration": "31.40",
+        "summary": "Customer requested to change loan EMI date, agent provided details.",
+        "intents": [
+            {
+                "intent": "Change EMI Date",
+                "confidence": "95",
+                "keywords": "Mera loan ka EMI date change kaise ...",
+                "intent timestamp": "0.000 sec - 5.000 sec",
+                "products": [
+                    "Loan"
+                ],
+                "issues": [
+                    {
+                        "issue": "Customer wants to change the EMI date of their loan.",
+                        "reason(s)": "N/A",
+                        "issue type": "Service"
+                    }
+                ],
+                "actions of agent": "Agent explained the process of submitting a request form and offered online and branch options.",
+                "resolution status": "Resolved",
+                "Process Request": "Agent will send details of online and branch options via email.",
+                "resolution": "Agent provided information on how to change the EMI date and the associated charges.",
+                "resolution timestamp": "14.000 sec - 22.000 sec",
+                "dominant emotions (customer)": [
+                    "Neutral"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "80"
+            },
+            {
+                "intent": "Inquiry about processing time and charges",
+                "confidence": "90",
+                "keywords": "Kitna time lagega aur koi charge hai?",
+                "intent timestamp": "22.000 sec - 25.000 sec",
+                "products": [
+                    "Loan"
+                ],
+                "issues": [],
+                "actions of agent": "Agent informed about the processing time (5-7 days) and the nominal charge (200 rupees).",
+                "resolution status": "Resolved",
+                "Process Request": "N/A",
+                "resolution": "Agent provided the processing time and charge details.",
+                "resolution timestamp": "24.000 sec - 29.000 sec",
+                "dominant emotions (customer)": [
+                    "Neutral"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "90"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "9",
+        "customer satisfaction (out of 10)": "8",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    },
+    {
+        "call id": "50",
+        "agent id": "5",
+        "call duration": "33",
+        "summary": "The agent assisted the customer in creating a UPI ID.",
+        "intents": [
+            {
+                "intent": "UPI ID Creation Assistance",
+                "confidence": "95",
+                "keywords": "namaste main Pooja Malhotra Mera upi ID kaise ...",
+                "intent timestamp": "0.000 sec - 5.000 sec",
+                "products": [
+                    "UPI"
+                ],
+                "issues": [
+                    {
+                        "issue": "Customer needs assistance creating a UPI ID.",
+                        "reason(s)": "Customer is unsure of the process.",
+                        "issue type": "General Inquiry"
+                    }
+                ],
+                "actions of agent": "The agent provided the process to create UPI ID and offered to send step-by-step guide via SMS.",
+                "resolution status": "Resolved",
+                "Process Request": "N/A",
+                "resolution": "Agent provided guidance on creating a UPI ID through the mobile app and offered to send SMS instructions.",
+                "resolution timestamp": "15.000 sec - 21.000 sec",
+                "dominant emotions (customer)": [
+                    "Neutral"
+                ],
+                "conversation sentiment": "Neutral",
+                "customer satisfaction": "90"
+            }
+        ],
+        "basic greeting and closing": "Yes",
+        "fatal behaviour": "No",
+        "agent professionalism (out of 10)": "9",
+        "agent performance (out of 10)": "9",
+        "customer satisfaction (out of 10)": "9",
+        "interruptions by customer": "0",
+        "interruptions by agent": "0",
+        "callback promise": "No",
+        "callback time": "N/A"
+    }
+]
