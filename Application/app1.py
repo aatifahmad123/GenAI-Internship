@@ -30,9 +30,7 @@ def get_audio_duration(audio_path):
         return f"Error calculating duration: {str(e)}"
 
 # Function to transcribe audio
-def transcribe_audio(audio_path, language="en-IN", model="Google Cloud Transcription"):
-    if model != "Google Cloud Transcription":
-        return "Selected model not available. Please use Google Cloud Transcription."
+def transcribe_audio(audio_path, language="en-IN"):
     
     try:
         with io.open(audio_path, "rb") as audio:
@@ -59,9 +57,7 @@ def transcribe_audio(audio_path, language="en-IN", model="Google Cloud Transcrip
         return f"Error during transcription: {str(e)}"
 
 # Function to generate timestamps
-def generate_timestamps(audio_path, language="en-IN", model="Google Cloud Transcription"):
-    if model != "Google Cloud Transcription":
-        return {"error": "Selected model not available. Please use Google Cloud Transcription."}
+def generate_timestamps(audio_path, language="en-IN"):
     
     try:
         with io.open(audio_path, "rb") as audio:
@@ -287,15 +283,12 @@ with gr.Blocks(css=custom_css, title="ICICI Bank Call Analysis") as demo:
             audio_input = gr.Audio(label="Upload Audio File (WAV)", type="filepath")
             language = gr.Dropdown(
                 label="Select Language",
-                choices=["en-IN"],
-                value="en-IN",
-                info="Hindi and Hinglish coming soon"
-            )
-            transcription_model = gr.Dropdown(
-                label="Transcription Model",
-                choices=["Google Cloud Transcription"],
-                value="Google Cloud Transcription",
-                info="Open AI Whisper coming soon"
+                choices=[
+                    ("English", "en-IN"),
+                    ("Hindi", "hi-IN"),
+                    ("Hinglish", "en-IN")
+                ],
+                value="en-IN"
             )
     
     # Action buttons
@@ -369,31 +362,31 @@ with gr.Blocks(css=custom_css, title="ICICI Bank Call Analysis") as demo:
             status_output: gr.update(value="Duration calculated successfully.", visible=True)
         }
     
-    def handle_transcription(audio_path, language, model):
+    def handle_transcription(audio_path, language):
         if not audio_path:
             return {
                 transcription_output: "Please upload an audio file first.",
                 status_output: gr.update(value="No audio file provided.", visible=True)
             }
-        transcription = transcribe_audio(audio_path, language, model)
+        transcription = transcribe_audio(audio_path, language)
         return {
             transcription_output: transcription,
             status_output: gr.update(value="Transcription generated successfully.", visible=True)
         }
     
-    def handle_timestamps(audio_path, language, model):
+    def handle_timestamps(audio_path, language):
         if not audio_path:
             return {
                 timestamps_output: {"error": "Please upload an audio file first."},
                 status_output: gr.update(value="No audio file provided.", visible=True)
             }
-        timestamps = generate_timestamps(audio_path, language, model)
+        timestamps = generate_timestamps(audio_path, language)
         return {
             timestamps_output: timestamps,
             status_output: gr.update(value="Timestamps generated successfully.", visible=True)
         }
     
-    def handle_analysis(audio_path, language, model):
+    def handle_analysis(audio_path, language):
         if not audio_path:
             return {
                 formatted_output: "Please upload an audio file first.",
@@ -403,8 +396,8 @@ with gr.Blocks(css=custom_css, title="ICICI Bank Call Analysis") as demo:
             }
         
         try:
-            transcription = transcribe_audio(audio_path, language, model)
-            timestamps = json.dumps(generate_timestamps(audio_path, language, model))
+            transcription = transcribe_audio(audio_path, language)
+            timestamps = json.dumps(generate_timestamps(audio_path, language))
             duration = get_audio_duration(audio_path)
             metadata = f"Duration: {duration:.2f} seconds" if isinstance(duration, float) else "N/A"
             
@@ -443,19 +436,19 @@ with gr.Blocks(css=custom_css, title="ICICI Bank Call Analysis") as demo:
     
     transcribe_btn.click(
         fn=handle_transcription,
-        inputs=[audio_input, language, transcription_model],
+        inputs=[audio_input, language],
         outputs=[transcription_output, status_output]
     )
     
     timestamps_btn.click(
         fn=handle_timestamps,
-        inputs=[audio_input, language, transcription_model],
+        inputs=[audio_input, language],
         outputs=[timestamps_output, status_output]
     )
     
     analyze_btn.click(
         fn=handle_analysis,
-        inputs=[audio_input, language, transcription_model],
+        inputs=[audio_input, language],
         outputs=[formatted_output, output_json, status_output, download_btn]
     )
 
