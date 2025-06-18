@@ -1,0 +1,567 @@
+[
+  {
+    "word": "नमस्ते",
+    "start_time": "0.000 sec",
+    "end_time": "0.000 sec"
+  },
+  {
+    "word": "मेरा",
+    "start_time": "0.000 sec",
+    "end_time": "0.000 sec"
+  },
+  {
+    "word": "नाम",
+    "start_time": "0.000 sec",
+    "end_time": "1.000 sec"
+  },
+  {
+    "word": "रवि",
+    "start_time": "1.000 sec",
+    "end_time": "1.000 sec"
+  },
+  {
+    "word": "कुमार",
+    "start_time": "1.000 sec",
+    "end_time": "1.000 sec"
+  },
+  {
+    "word": "है।",
+    "start_time": "1.000 sec",
+    "end_time": "1.000 sec"
+  },
+  {
+    "word": "मेरा",
+    "start_time": "1.000 sec",
+    "end_time": "2.000 sec"
+  },
+  {
+    "word": "डेबिट",
+    "start_time": "2.000 sec",
+    "end_time": "2.000 sec"
+  },
+  {
+    "word": "कार्ड",
+    "start_time": "2.000 sec",
+    "end_time": "3.000 sec"
+  },
+  {
+    "word": "पिछले",
+    "start_time": "3.000 sec",
+    "end_time": "3.000 sec"
+  },
+  {
+    "word": "हफ्ते",
+    "start_time": "3.000 sec",
+    "end_time": "3.000 sec"
+  },
+  {
+    "word": "से",
+    "start_time": "3.000 sec",
+    "end_time": "3.000 sec"
+  },
+  {
+    "word": "काम",
+    "start_time": "3.000 sec",
+    "end_time": "4.000 sec"
+  },
+  {
+    "word": "नहीं",
+    "start_time": "4.000 sec",
+    "end_time": "4.000 sec"
+  },
+  {
+    "word": "कर",
+    "start_time": "4.000 sec",
+    "end_time": "4.000 sec"
+  },
+  {
+    "word": "रहा",
+    "start_time": "4.000 sec",
+    "end_time": "4.000 sec"
+  },
+  {
+    "word": "है।",
+    "start_time": "4.000 sec",
+    "end_time": "4.000 sec"
+  },
+  {
+    "word": "नमस्ते",
+    "start_time": "4.000 sec",
+    "end_time": "5.000 sec"
+  },
+  {
+    "word": "रवि",
+    "start_time": "5.000 sec",
+    "end_time": "5.000 sec"
+  },
+  {
+    "word": "जी",
+    "start_time": "5.000 sec",
+    "end_time": "6.000 sec"
+  },
+  {
+    "word": "मैं",
+    "start_time": "6.000 sec",
+    "end_time": "6.000 sec"
+  },
+  {
+    "word": "आपकी",
+    "start_time": "6.000 sec",
+    "end_time": "6.000 sec"
+  },
+  {
+    "word": "मदद",
+    "start_time": "6.000 sec",
+    "end_time": "6.000 sec"
+  },
+  {
+    "word": "के",
+    "start_time": "6.000 sec",
+    "end_time": "6.000 sec"
+  },
+  {
+    "word": "लिए",
+    "start_time": "6.000 sec",
+    "end_time": "7.000 sec"
+  },
+  {
+    "word": "हूं।",
+    "start_time": "7.000 sec",
+    "end_time": "7.000 sec"
+  },
+  {
+    "word": "क्या",
+    "start_time": "7.000 sec",
+    "end_time": "7.000 sec"
+  },
+  {
+    "word": "आप",
+    "start_time": "7.000 sec",
+    "end_time": "8.000 sec"
+  },
+  {
+    "word": "बता",
+    "start_time": "8.000 sec",
+    "end_time": "8.000 sec"
+  },
+  {
+    "word": "सकते",
+    "start_time": "8.000 sec",
+    "end_time": "8.000 sec"
+  },
+  {
+    "word": "हैं",
+    "start_time": "8.000 sec",
+    "end_time": "8.000 sec"
+  },
+  {
+    "word": "कि",
+    "start_time": "8.000 sec",
+    "end_time": "8.000 sec"
+  },
+  {
+    "word": "कार्ड",
+    "start_time": "8.000 sec",
+    "end_time": "9.000 sec"
+  },
+  {
+    "word": "का",
+    "start_time": "9.000 sec",
+    "end_time": "9.000 sec"
+  },
+  {
+    "word": "उपयोग",
+    "start_time": "9.000 sec",
+    "end_time": "9.000 sec"
+  },
+  {
+    "word": "कहां",
+    "start_time": "9.000 sec",
+    "end_time": "9.000 sec"
+  },
+  {
+    "word": "करने",
+    "start_time": "9.000 sec",
+    "end_time": "10.000 sec"
+  },
+  {
+    "word": "की",
+    "start_time": "10.000 sec",
+    "end_time": "10.000 sec"
+  },
+  {
+    "word": "कोशिश",
+    "start_time": "10.000 sec",
+    "end_time": "10.000 sec"
+  },
+  {
+    "word": "की",
+    "start_time": "10.000 sec",
+    "end_time": "10.000 sec"
+  },
+  {
+    "word": "थी।",
+    "start_time": "10.000 sec",
+    "end_time": "10.000 sec"
+  },
+  {
+    "word": "मैंने",
+    "start_time": "10.000 sec",
+    "end_time": "12.000 sec"
+  },
+  {
+    "word": "एक",
+    "start_time": "12.000 sec",
+    "end_time": "12.000 sec"
+  },
+  {
+    "word": "ऑनलाइन",
+    "start_time": "12.000 sec",
+    "end_time": "12.000 sec"
+  },
+  {
+    "word": "खरीदारी",
+    "start_time": "12.000 sec",
+    "end_time": "12.000 sec"
+  },
+  {
+    "word": "की",
+    "start_time": "12.000 sec",
+    "end_time": "13.000 sec"
+  },
+  {
+    "word": "कोशिश",
+    "start_time": "13.000 sec",
+    "end_time": "13.000 sec"
+  },
+  {
+    "word": "की,",
+    "start_time": "13.000 sec",
+    "end_time": "13.000 sec"
+  },
+  {
+    "word": "लेकिन",
+    "start_time": "13.000 sec",
+    "end_time": "14.000 sec"
+  },
+  {
+    "word": "हर",
+    "start_time": "14.000 sec",
+    "end_time": "14.000 sec"
+  },
+  {
+    "word": "बार",
+    "start_time": "14.000 sec",
+    "end_time": "14.000 sec"
+  },
+  {
+    "word": "लेन",
+    "start_time": "14.000 sec",
+    "end_time": "15.000 sec"
+  },
+  {
+    "word": "देन",
+    "start_time": "15.000 sec",
+    "end_time": "15.000 sec"
+  },
+  {
+    "word": "अस्वीकृत",
+    "start_time": "15.000 sec",
+    "end_time": "15.000 sec"
+  },
+  {
+    "word": "का",
+    "start_time": "15.000 sec",
+    "end_time": "15.000 sec"
+  },
+  {
+    "word": "संदेश",
+    "start_time": "15.000 sec",
+    "end_time": "16.000 sec"
+  },
+  {
+    "word": "आ",
+    "start_time": "16.000 sec",
+    "end_time": "16.000 sec"
+  },
+  {
+    "word": "रहा",
+    "start_time": "16.000 sec",
+    "end_time": "16.000 sec"
+  },
+  {
+    "word": "है।",
+    "start_time": "16.000 sec",
+    "end_time": "16.000 sec"
+  },
+  {
+    "word": "समझा",
+    "start_time": "16.000 sec",
+    "end_time": "17.000 sec"
+  },
+  {
+    "word": "क्या",
+    "start_time": "17.000 sec",
+    "end_time": "18.000 sec"
+  },
+  {
+    "word": "आप",
+    "start_time": "18.000 sec",
+    "end_time": "18.000 sec"
+  },
+  {
+    "word": "अपना",
+    "start_time": "18.000 sec",
+    "end_time": "18.000 sec"
+  },
+  {
+    "word": "कार्ड",
+    "start_time": "18.000 sec",
+    "end_time": "18.000 sec"
+  },
+  {
+    "word": "नंबर",
+    "start_time": "18.000 sec",
+    "end_time": "18.000 sec"
+  },
+  {
+    "word": "बता",
+    "start_time": "18.000 sec",
+    "end_time": "19.000 sec"
+  },
+  {
+    "word": "सकते",
+    "start_time": "19.000 sec",
+    "end_time": "19.000 sec"
+  },
+  {
+    "word": "हैं",
+    "start_time": "19.000 sec",
+    "end_time": "19.000 sec"
+  },
+  {
+    "word": "ताकि",
+    "start_time": "19.000 sec",
+    "end_time": "20.000 sec"
+  },
+  {
+    "word": "मैं",
+    "start_time": "20.000 sec",
+    "end_time": "20.000 sec"
+  },
+  {
+    "word": "इसे",
+    "start_time": "20.000 sec",
+    "end_time": "20.000 sec"
+  },
+  {
+    "word": "चेक",
+    "start_time": "20.000 sec",
+    "end_time": "20.000 sec"
+  },
+  {
+    "word": "कर",
+    "start_time": "20.000 sec",
+    "end_time": "20.000 sec"
+  },
+  {
+    "word": "सकूं।",
+    "start_time": "20.000 sec",
+    "end_time": "21.000 sec"
+  },
+  {
+    "word": "यह",
+    "start_time": "21.000 sec",
+    "end_time": "22.000 sec"
+  },
+  {
+    "word": "लीजिए",
+    "start_time": "22.000 sec",
+    "end_time": "22.000 sec"
+  },
+  {
+    "word": "246813,",
+    "start_time": "22.000 sec",
+    "end_time": "26.000 sec"
+  },
+  {
+    "word": "572",
+    "start_time": "26.000 sec",
+    "end_time": "28.000 sec"
+  },
+  {
+    "word": "091",
+    "start_time": "28.000 sec",
+    "end_time": "29.000 sec"
+  },
+  {
+    "word": "1234।",
+    "start_time": "29.000 sec",
+    "end_time": "33.000 sec"
+  },
+  {
+    "word": "कृपया",
+    "start_time": "33.000 sec",
+    "end_time": "33.000 sec"
+  },
+  {
+    "word": "जल्दी",
+    "start_time": "33.000 sec",
+    "end_time": "34.000 sec"
+  },
+  {
+    "word": "देखिए।",
+    "start_time": "34.000 sec",
+    "end_time": "34.000 sec"
+  },
+  {
+    "word": "मुझे",
+    "start_time": "34.000 sec",
+    "end_time": "35.000 sec"
+  },
+  {
+    "word": "यह",
+    "start_time": "35.000 sec",
+    "end_time": "35.000 sec"
+  },
+  {
+    "word": "जल्द",
+    "start_time": "35.000 sec",
+    "end_time": "35.000 sec"
+  },
+  {
+    "word": "ठीक",
+    "start_time": "35.000 sec",
+    "end_time": "35.000 sec"
+  },
+  {
+    "word": "करवाना",
+    "start_time": "35.000 sec",
+    "end_time": "36.000 sec"
+  },
+  {
+    "word": "है।",
+    "start_time": "36.000 sec",
+    "end_time": "36.000 sec"
+  },
+  {
+    "word": "आपके",
+    "start_time": "36.000 sec",
+    "end_time": "38.000 sec"
+  },
+  {
+    "word": "कार्ड",
+    "start_time": "38.000 sec",
+    "end_time": "38.000 sec"
+  },
+  {
+    "word": "पर",
+    "start_time": "38.000 sec",
+    "end_time": "39.000 sec"
+  },
+  {
+    "word": "एक",
+    "start_time": "39.000 sec",
+    "end_time": "39.000 sec"
+  },
+  {
+    "word": "तकनीकी",
+    "start_time": "39.000 sec",
+    "end_time": "39.000 sec"
+  },
+  {
+    "word": "ब्लॉक",
+    "start_time": "39.000 sec",
+    "end_time": "39.000 sec"
+  },
+  {
+    "word": "है।",
+    "start_time": "39.000 sec",
+    "end_time": "40.000 sec"
+  },
+  {
+    "word": "मैं",
+    "start_time": "40.000 sec",
+    "end_time": "41.000 sec"
+  },
+  {
+    "word": "इसे",
+    "start_time": "41.000 sec",
+    "end_time": "41.000 sec"
+  },
+  {
+    "word": "अभी",
+    "start_time": "41.000 sec",
+    "end_time": "41.000 sec"
+  },
+  {
+    "word": "अनब्लॉक",
+    "start_time": "41.000 sec",
+    "end_time": "42.000 sec"
+  },
+  {
+    "word": "कर",
+    "start_time": "42.000 sec",
+    "end_time": "42.000 sec"
+  },
+  {
+    "word": "देता",
+    "start_time": "42.000 sec",
+    "end_time": "42.000 sec"
+  },
+  {
+    "word": "हूं।",
+    "start_time": "42.000 sec",
+    "end_time": "42.000 sec"
+  },
+  {
+    "word": "2",
+    "start_time": "42.000 sec",
+    "end_time": "43.000 sec"
+  },
+  {
+    "word": "घंटे",
+    "start_time": "43.000 sec",
+    "end_time": "43.000 sec"
+  },
+  {
+    "word": "में",
+    "start_time": "43.000 sec",
+    "end_time": "44.000 sec"
+  },
+  {
+    "word": "यह",
+    "start_time": "44.000 sec",
+    "end_time": "44.000 sec"
+  },
+  {
+    "word": "काम",
+    "start_time": "44.000 sec",
+    "end_time": "44.000 sec"
+  },
+  {
+    "word": "करने",
+    "start_time": "44.000 sec",
+    "end_time": "44.000 sec"
+  },
+  {
+    "word": "लगेगा।",
+    "start_time": "44.000 sec",
+    "end_time": "44.000 sec"
+  },
+  {
+    "word": "जल्दी",
+    "start_time": "44.000 sec",
+    "end_time": "47.000 sec"
+  },
+  {
+    "word": "हो",
+    "start_time": "47.000 sec",
+    "end_time": "47.000 sec"
+  },
+  {
+    "word": "जाए।",
+    "start_time": "47.000 sec",
+    "end_time": "48.000 sec"
+  }
+]
