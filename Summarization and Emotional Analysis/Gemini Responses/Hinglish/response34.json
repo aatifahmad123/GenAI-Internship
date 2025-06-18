@@ -1,0 +1,44 @@
+{
+  "call id": "34",
+  "agent id": "4",
+  "call duration": "31.40",
+  "summary": "Agent addressed customer's wrong credit issue and initiated reversal.",
+  "intents": [
+    {
+      "intent": "Incorrect Transaction",
+      "confidence": "95",
+      "keywords": "namaste Maine Suman Rani Mere account mein ek wrong credit ... 10000 ka",
+      "intent timestamp": "0.000 sec - 9.000 sec",
+      "products": [
+        "Account"
+      ],
+      "issues": [
+        {
+          "issue": "Wrong credit of 10000",
+          "reason(s)": "Bank error",
+          "issue type": "Billing"
+        }
+      ],
+      "actions of agent": "Agent apologized, asked for account number and transaction date, identified the issue as a bank error, and initiated a reversal process.",
+      "resolution status": "Pending with Callback",
+      "Process Request": "Reversal of the incorrect transaction",
+      "resolution": "The agent initiated the process to reverse the incorrect transaction, which will take 5 days.",
+      "resolution timestamp": "21.000 sec - 24.000 sec",
+      "dominant emotions (customer)": [
+        "Concern",
+        "Expectation"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "80"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "8",
+  "customer satisfaction (out of 10)": "8",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "Yes",
+  "callback time": "Within 5 days"
+}

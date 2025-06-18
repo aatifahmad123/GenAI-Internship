@@ -1,0 +1,64 @@
+{
+  "call id": "25",
+  "agent id": "3",
+  "call duration": "33.64",
+  "summary": "The agent assisted with a failed ATM transaction and initiated refund.",
+  "intents": [
+    {
+      "intent": "Report ATM Transaction Issue",
+      "confidence": "95",
+      "keywords": "hello main Nikhil Jan Meri ATM se paise ... lekin balance cut Gaya",
+      "intent timestamp": "0.000 sec - 10.000 sec",
+      "products": [
+        "ATM",
+        "Bank Account"
+      ],
+      "issues": [
+        {
+          "issue": "Money not dispensed from ATM but amount debited.",
+          "reason(s)": "ATM Glitch",
+          "issue type": "Technical"
+        }
+      ],
+      "actions of agent": "Agent apologized, asked for account number and transaction time, identified the issue as an ATM glitch, and initiated a refund request.",
+      "resolution status": "Resolved",
+      "Process Request": "Refund request initiated.",
+      "resolution": "Refund request initiated, with a 3-5 day processing time.",
+      "resolution timestamp": "21.000 sec - 26.000 sec",
+      "dominant emotions (customer)": [
+        "Concerned"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "80"
+    },
+    {
+      "intent": "Request for Update",
+      "confidence": "85",
+      "keywords": "Theek hai, please confirm karo jab ho jaaye",
+      "intent timestamp": "23.000 sec - 30.000 sec",
+      "products": [
+        "Bank Account"
+      ],
+      "issues": [],
+      "actions of agent": "Agent assured the customer that they would be updated.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "Agent confirmed that they would provide an update.",
+      "resolution timestamp": "28.000 sec - 31.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "90"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "8",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "Yes",
+  "callback time": "3-5 days"
+}

@@ -1,0 +1,63 @@
+{
+  "call id": "38",
+  "agent id": "4",
+  "call duration": "31",
+  "summary": "Customer's mutual fund SIP was stopped due to insufficient balance.",
+  "intents": [
+    {
+      "intent": "SIP Issue",
+      "confidence": "95",
+      "keywords": "Mera mutual fund SIP Queen Band Ho ... insufficient balance tha isliye sirf fail ho gaya",
+      "intent timestamp": "0.000 sec - 18.000 sec",
+      "products": [
+        "Mutual Fund SIP"
+      ],
+      "issues": [
+        {
+          "issue": "SIP stopped",
+          "reason(s)": "Insufficient balance",
+          "issue type": "Billing"
+        }
+      ],
+      "actions of agent": "Agent checked the account and confirmed the reason for SIP failure.",
+      "resolution status": "Resolved",
+      "Process Request": "Agent will email the restart process and payment details.",
+      "resolution": "Agent offered to email the restart process and payment details to the customer.",
+      "resolution timestamp": "24.000 sec - 29.000 sec",
+      "dominant emotions (customer)": [
+        "Concern"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "85"
+    },
+    {
+      "intent": "Restart SIP",
+      "confidence": "90",
+      "keywords": "kya balance dalkar SIP restart karna ... Kaise karun?",
+      "intent timestamp": "15.000 sec - 24.000 sec",
+      "products": [
+        "Mutual Fund SIP"
+      ],
+      "issues": [],
+      "actions of agent": "Agent offered to send the restart process.",
+      "resolution status": "Resolved",
+      "Process Request": "Agent will email the restart process and payment details.",
+      "resolution": "Agent offered to email the restart process and payment details to the customer.",
+      "resolution timestamp": "24.000 sec - 29.000 sec",
+      "dominant emotions (customer)": [
+        "Inquiry"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "85"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "8",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

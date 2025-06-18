@@ -1,0 +1,44 @@
+{
+  "call id": "15",
+  "agent id": "2",
+  "call duration": "36",
+  "summary": "Agent enabled international transactions on customer's debit card.",
+  "intents": [
+    {
+      "intent": "Debit Card Issue",
+      "confidence": "95",
+      "keywords": "Namaste main Rohan Gupta Mera debit card broad Kam ... kar raha Koi Aur Sawal thanks.",
+      "intent timestamp": "0.000 sec - 36.000 sec",
+      "products": [
+        "Debit Card"
+      ],
+      "issues": [
+        {
+          "issue": "Debit card not working abroad",
+          "reason(s)": "International transactions disabled on the card",
+          "issue type": "Technical"
+        }
+      ],
+      "actions of agent": "Verified customer details and enabled international transactions.",
+      "resolution status": "Resolved",
+      "Process Request": "Enable international transactions",
+      "resolution": "Agent enabled international transactions on the customer's debit card.",
+      "resolution timestamp": "28.000 sec - 32.000 sec",
+      "dominant emotions (customer)": [
+        "Concern",
+        "Anxiety"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "85"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "8",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

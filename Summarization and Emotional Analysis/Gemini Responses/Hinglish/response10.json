@@ -1,0 +1,43 @@
+{
+  "call id": "10",
+  "agent id": "1",
+  "call duration": "33",
+  "summary": "Customer inquired about redeeming credit card reward points.",
+  "intents": [
+    {
+      "intent": "Reward Points Redemption",
+      "confidence": "95",
+      "keywords": "credit card ke reward points redeem ... redeem Kaise karun?",
+      "intent timestamp": "0.000 sec - 9.000 sec",
+      "products": [
+        "Credit Card"
+      ],
+      "issues": [
+        {
+          "issue": "Customer needs assistance with reward points redemption process.",
+          "reason(s)": "Customer is unsure how to redeem their reward points.",
+          "issue type": "General Inquiry"
+        }
+      ],
+      "actions of agent": "The agent offered to guide the customer and asked for the card number. The agent then explained the redemption process via app or website and offered to email the steps.",
+      "resolution status": "Resolved",
+      "Process Request": "Emailing redemption steps to the customer.",
+      "resolution": "Agent provided instructions on how to redeem points and offered to email the steps.",
+      "resolution timestamp": "20.000 sec - 26.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "90"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "9",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

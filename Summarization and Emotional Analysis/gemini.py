@@ -96,12 +96,12 @@ responseNumber = 1
 
 for i in range(1, agents + 1):
     for j in range(1, calls_per_agent + 1):
-        agentDir = f'../Google Cloud Hindi/Agent {i:02d}'
+        agentDir = f'../Google Cloud Hinglish/Agent {i:02d}'
         callDir = f'Call {j:02d}'
         transcriptionFile = f'{agentDir}/{callDir}/transcription.txt'
         timestampsFile = f'{agentDir}/{callDir}/timestamps.json'
         metadataFile = f'{agentDir}/{callDir}/metadata.txt'
-        responsesFile = f'Gemini Responses/Hindi/response{responseNumber:02d}.json'
+        responsesFile = f'Gemini Responses/Hinglish/response{responseNumber:02d}.json'
         
         with open(transcriptionFile, 'r') as file:
             transcription = file.read()

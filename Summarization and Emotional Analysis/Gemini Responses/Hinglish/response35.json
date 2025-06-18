@@ -1,0 +1,43 @@
+{
+  "call id": "35",
+  "agent id": "4",
+  "call duration": "31",
+  "summary": "The customer needed help resetting their Demat account password.",
+  "intents": [
+    {
+      "intent": "Password Reset",
+      "confidence": "95",
+      "keywords": "Mera Demat account ka password reset Kaise ...",
+      "intent timestamp": "0.000 sec - 5.000 sec",
+      "products": [
+        "Demat Account"
+      ],
+      "issues": [
+        {
+          "issue": "Customer unable to reset Demat account password.",
+          "reason(s)": "Customer is unaware of the password reset process.",
+          "issue type": "Technical"
+        }
+      ],
+      "actions of agent": "The agent offered to guide the customer and provided the OTP based reset process.",
+      "resolution status": "Resolved",
+      "Process Request": "Emailing OTP based reset process steps.",
+      "resolution": "Agent emailed the customer the steps to reset the password via OTP.",
+      "resolution timestamp": "18.000 sec - 23.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "90"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "9",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

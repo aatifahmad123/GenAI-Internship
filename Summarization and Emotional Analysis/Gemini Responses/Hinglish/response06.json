@@ -1,0 +1,44 @@
+{
+  "call id": "6",
+  "agent id": "1",
+  "call duration": "33",
+  "summary": "Customer reported unauthorized transaction and agent initiated fraud claim.",
+  "intents": [
+    {
+      "intent": "Fraud Reporting",
+      "confidence": "95",
+      "keywords": "Mere account se 3000 Gayab Hai ... Kya mazak hai",
+      "intent timestamp": "0.000 sec - 10.000 sec",
+      "products": [
+        "Bank Account"
+      ],
+      "issues": [
+        {
+          "issue": "Unauthorized transaction of 3000",
+          "reason(s)": "Customer claims no payment was made",
+          "issue type": "Billing"
+        }
+      ],
+      "actions of agent": "Agent apologized, asked for account number, verified transaction, registered fraud case, and initiated refund process.",
+      "resolution status": "Pending with Callback",
+      "Process Request": "Fraud claim registration and refund process initiation.",
+      "resolution": "Agent registered a fraud case and started the refund process.",
+      "resolution timestamp": "27.000 sec - 33.000 sec",
+      "dominant emotions (customer)": [
+        "Angry",
+        "Worried"
+      ],
+      "conversation sentiment": "Negative",
+      "customer satisfaction": "60"
+    }
+  ],
+  "basic greeting and closing": "No",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "8",
+  "agent performance (out of 10)": "8",
+  "customer satisfaction (out of 10)": "6",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

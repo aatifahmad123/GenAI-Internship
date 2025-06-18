@@ -1,0 +1,57 @@
+{
+  "call id": "28",
+  "agent id": "3",
+  "call duration": "31.96",
+  "summary": "Customer inquired about savings account interest rate and details.",
+  "intents": [
+    {
+      "intent": "Interest Rate Inquiry",
+      "confidence": "95",
+      "keywords": "Hello main Ritu Malhotra Mere savings account ka interest rate...kya hai?",
+      "intent timestamp": "0.000 sec - 9.000 sec",
+      "products": [
+        "Savings Account"
+      ],
+      "issues": [],
+      "actions of agent": "Agent checked the customer's savings account interest rate and provided the information.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "The agent informed the customer that the current interest rate is 3.5% per annum, credited quarterly.",
+      "resolution timestamp": "15.000 sec - 20.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "90"
+    },
+    {
+      "intent": "Request for Information",
+      "confidence": "90",
+      "keywords": "Han Thodi aur Jankari bhej do.",
+      "intent timestamp": "22.000 sec - 27.000 sec",
+      "products": [
+        "Savings Account"
+      ],
+      "issues": [],
+      "actions of agent": "Agent offered to email the interest calculation and terms details.",
+      "resolution status": "Resolved",
+      "Process Request": "Emailing Information",
+      "resolution": "The agent will email the customer the interest calculation and terms details.",
+      "resolution timestamp": "25.000 sec - 29.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "95"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "9",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

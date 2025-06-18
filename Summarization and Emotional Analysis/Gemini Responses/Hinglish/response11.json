@@ -1,0 +1,43 @@
+{
+  "call id": "11",
+  "agent id": "2",
+  "call duration": "37",
+  "summary": "The customer is unable to log in to net banking.",
+  "intents": [
+    {
+      "intent": "Technical Support",
+      "confidence": "95",
+      "keywords": "mera net banking login Nahin ho raha hai...password bol raha hai lekin main Vahi password Dala",
+      "intent timestamp": "0.000 sec - 17.000 sec",
+      "products": [
+        "Net Banking"
+      ],
+      "issues": [
+        {
+          "issue": "Unable to login to net banking",
+          "reason(s)": "Incorrect password",
+          "issue type": "Technical"
+        }
+      ],
+      "actions of agent": "The agent offered assistance and suggested resetting the password.",
+      "resolution status": "Resolved",
+      "Process Request": "OTP sent to customer's registered mobile number for password reset.",
+      "resolution": "Password reset initiated via OTP.",
+      "resolution timestamp": "26.000 sec - 32.000 sec",
+      "dominant emotions (customer)": [
+        "Frustration"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "85"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "8",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

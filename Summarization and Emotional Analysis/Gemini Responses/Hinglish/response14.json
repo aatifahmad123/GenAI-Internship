@@ -1,0 +1,44 @@
+{
+  "call id": "14",
+  "agent id": "2",
+  "call duration": "34",
+  "summary": "Agent helped customer resolve account freeze due to pending KYC.",
+  "intents": [
+    {
+      "intent": "Account Issue",
+      "confidence": "95",
+      "keywords": "Mera account freeze Kyon Ho Gaya Hai...account active ho jaega theek hai",
+      "intent timestamp": "1.000 sec - 33.000 sec",
+      "products": [
+        "Account"
+      ],
+      "issues": [
+        {
+          "issue": "Account freeze",
+          "reason(s)": "KYC update pending",
+          "issue type": "Technical"
+        }
+      ],
+      "actions of agent": "Identified the reason for the account freeze and provided a solution to update KYC online.",
+      "resolution status": "Resolved",
+      "Process Request": "Agent to send KYC steps via email.",
+      "resolution": "Account will be active 24 hours after KYC submission.",
+      "resolution timestamp": "25.000 sec - 33.000 sec",
+      "dominant emotions (customer)": [
+        "Concern",
+        "Inquiry"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "85"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "8",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

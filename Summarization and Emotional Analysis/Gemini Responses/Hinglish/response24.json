@@ -1,0 +1,43 @@
+{
+  "call id": "24",
+  "agent id": "3",
+  "call duration": "33",
+  "summary": "Agent assisted customer with FD withdrawal request.",
+  "intents": [
+    {
+      "intent": "Fixed Deposit Maturity Inquiry and Withdrawal",
+      "confidence": "95",
+      "keywords": "Namaste main Rekha Patel Mera fix deposit mature ho gaya...amount withdrawal karna chahti hun kitna time lagega",
+      "intent timestamp": "0.000 sec - 24.000 sec",
+      "products": [
+        "Fixed Deposit"
+      ],
+      "issues": [
+        {
+          "issue": "Customer wants to withdraw the amount from matured FD.",
+          "reason(s)": "N/A",
+          "issue type": "General Inquiry"
+        }
+      ],
+      "actions of agent": "Verified FD details, confirmed withdrawal request, and informed about the processing time.",
+      "resolution status": "Resolved",
+      "Process Request": "Withdrawal request processed.",
+      "resolution": "Amount will be credited to the customer's account in 24 hours.",
+      "resolution timestamp": "23.000 sec - 28.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "90"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "9",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

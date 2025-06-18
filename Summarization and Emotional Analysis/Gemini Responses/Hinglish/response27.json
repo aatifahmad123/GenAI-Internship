@@ -1,0 +1,43 @@
+{
+  "call id": "27",
+  "agent id": "3",
+  "call duration": "31.60",
+  "summary": "Customer requested EMI schedule, agent emailed it to customer.",
+  "intents": [
+    {
+      "intent": "Request EMI Schedule",
+      "confidence": "95",
+      "keywords": "Namaste main Aditya Singh ... car EMI schedule kahan se milega?",
+      "intent timestamp": "0.000 sec - 5.000 sec",
+      "products": [
+        "Car Loan"
+      ],
+      "issues": [
+        {
+          "issue": "Customer needs EMI schedule.",
+          "reason(s)": "Unknown to customer where to find EMI schedule.",
+          "issue type": "General Inquiry"
+        }
+      ],
+      "actions of agent": "Agent offered to email the EMI schedule or guide to download from net banking.",
+      "resolution status": "Resolved",
+      "Process Request": "Emailing the EMI schedule to the customer.",
+      "resolution": "Agent emailed the EMI schedule to the customer's registered email address.",
+      "resolution timestamp": "20.000 sec - 21.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "90"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "9",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

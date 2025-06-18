@@ -1,0 +1,63 @@
+{
+  "call id": "37",
+  "agent id": "4",
+  "call duration": "31.76",
+  "summary": "Customer reported a lost locker access card and inquired about charges.",
+  "intents": [
+    {
+      "intent": "Report Lost Card",
+      "confidence": "95",
+      "keywords": "namaste main Priyanka Chopra Mera locker ka Axis card Kho ... Hai",
+      "intent timestamp": "0.000 sec - 8.000 sec",
+      "products": [
+        "Locker Access Card"
+      ],
+      "issues": [
+        {
+          "issue": "Lost locker access card",
+          "reason(s)": "Customer reported the card as lost.",
+          "issue type": "Service"
+        }
+      ],
+      "actions of agent": "Agent acknowledged the issue and asked for account/locker number.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "Advised customer to visit branch for a new access card and will email required documents.",
+      "resolution timestamp": "16.000 sec - 24.000 sec",
+      "dominant emotions (customer)": [
+        "Concerned"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "70"
+    },
+    {
+      "intent": "Inquire about Replacement Card Charges",
+      "confidence": "90",
+      "keywords": "Kitna charge hoga?",
+      "intent timestamp": "24.000 sec - 26.000 sec",
+      "products": [
+        "Locker Access Card"
+      ],
+      "issues": [],
+      "actions of agent": "Agent informed the customer about the replacement card charge.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "Informed customer that the replacement card charge is 200 rupees.",
+      "resolution timestamp": "25.000 sec - 29.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "80"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "8",
+  "customer satisfaction (out of 10)": "8",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

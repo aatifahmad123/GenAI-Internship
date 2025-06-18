@@ -1,0 +1,43 @@
+{
+  "call id": "17",
+  "agent id": "2",
+  "call duration": "33",
+  "summary": "Customer inquired about locker renewal process, agent provided guidance.",
+  "intents": [
+    {
+      "intent": "Locker Renewal Inquiry",
+      "confidence": "95",
+      "keywords": "Mera locker ka renewal Kaise ... online kaise hoga",
+      "intent timestamp": "0.000 sec - 25.000 sec",
+      "products": [
+        "Locker"
+      ],
+      "issues": [
+        {
+          "issue": "Customer wants to renew locker.",
+          "reason(s)": "N/A",
+          "issue type": "General Inquiry"
+        }
+      ],
+      "actions of agent": "Agent provided information on renewal process and offered to send online renewal steps via email.",
+      "resolution status": "Resolved",
+      "Process Request": "Send online renewal steps via email.",
+      "resolution": "Agent explained the renewal can be done by visiting the branch or through online payment and offered to email the online renewal steps.",
+      "resolution timestamp": "25.000 sec - 30.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "85"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "8",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

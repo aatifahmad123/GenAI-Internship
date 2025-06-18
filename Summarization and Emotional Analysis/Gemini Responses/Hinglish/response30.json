@@ -1,0 +1,63 @@
+{
+  "call id": "30",
+  "agent id": "3",
+  "call duration": "35",
+  "summary": "The agent resolved customer's stuck UPI transaction issue.",
+  "intents": [
+    {
+      "intent": "Transaction Issue",
+      "confidence": "95",
+      "keywords": "namaste main Gita Varma Mera upi transaction stuck ... gaya hai",
+      "intent timestamp": "0.000 sec - 9.000 sec",
+      "products": [
+        "UPI"
+      ],
+      "issues": [
+        {
+          "issue": "UPI transaction stuck",
+          "reason(s)": "Pending with the banking system",
+          "issue type": "Technical"
+        }
+      ],
+      "actions of agent": "The agent checked the transaction status and informed the customer that it was pending with the bank and would be resolved within 24 hours.",
+      "resolution status": "Resolved",
+      "Process Request": "The agent will resolve the transaction with the banking system.",
+      "resolution": "The agent confirmed the transaction was pending and would resolve it with the bank, with funds reflecting in 24 hours.",
+      "resolution timestamp": "17.000 sec - 26.000 sec",
+      "dominant emotions (customer)": [
+        "Concerned"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "80"
+    },
+    {
+      "intent": "Update Request",
+      "confidence": "90",
+      "keywords": "Theek hai mujhe update dena.",
+      "intent timestamp": "22.000 sec - 30.000 sec",
+      "products": [
+        "UPI"
+      ],
+      "issues": [],
+      "actions of agent": "The agent agreed to provide an update once the issue was resolved.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "Agent confirmed that they would provide an update.",
+      "resolution timestamp": "29.000 sec - 30.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "85"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "8",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "Yes",
+  "callback time": "Same day, within 24 hours"
+}

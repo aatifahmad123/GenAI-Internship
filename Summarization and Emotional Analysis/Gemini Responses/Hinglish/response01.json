@@ -1,0 +1,44 @@
+{
+    "call id": "1",
+    "agent id": "1",
+    "call duration": "42",
+    "summary": "The agent resolved the customer's debit card issue.",
+    "intents": [
+        {
+            "intent": "Debit Card Issue",
+            "confidence": "95",
+            "keywords": "mera debit card last week Se Kam Nahin ... transaction decline ka message a raha hai",
+            "intent timestamp": "0.000 sec - 17.000 sec",
+            "products": [
+                "Debit Card"
+            ],
+            "issues": [
+                {
+                    "issue": "Debit card not working for online transactions.",
+                    "reason(s)": "Technical block on the card.",
+                    "issue type": "Technical"
+                }
+            ],
+            "actions of agent": "The agent checked the card status and identified a technical block. The agent then unblocked the card.",
+            "resolution status": "Resolved",
+            "Process Request": "Unblocking the debit card.",
+            "resolution": "The agent unblocked the debit card, which will be functional within 2 hours.",
+            "resolution timestamp": "35.000 sec - 39.000 sec",
+            "dominant emotions (customer)": [
+                "Concern",
+                "Urgency"
+            ],
+            "conversation sentiment": "Neutral",
+            "customer satisfaction": "85"
+        }
+    ],
+    "basic greeting and closing": "Yes",
+    "fatal behaviour": "No",
+    "agent professionalism (out of 10)": "9",
+    "agent performance (out of 10)": "9",
+    "customer satisfaction (out of 10)": "8",
+    "interruptions by customer": "0",
+    "interruptions by agent": "0",
+    "callback promise": "No",
+    "callback time": "N/A"
+}

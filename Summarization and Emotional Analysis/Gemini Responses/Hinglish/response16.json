@@ -1,0 +1,64 @@
+{
+  "call id": "16",
+  "agent id": "2",
+  "call duration": "35",
+  "summary": "Agent assisted customer with shares not reflecting in Demat account.",
+  "intents": [
+    {
+      "intent": "Shares not reflecting in Demat account",
+      "confidence": "95",
+      "keywords": "Hello main Manisha Reddy Mere Demat account main shares Nahin dikh...",
+      "intent timestamp": "0.000 sec - 5.000 sec",
+      "products": [
+        "Demat Account",
+        "Shares"
+      ],
+      "issues": [
+        {
+          "issue": "Shares purchased not visible in Demat account.",
+          "reason(s)": "T+2 settlement period.",
+          "issue type": "Technical"
+        }
+      ],
+      "actions of agent": "Agent checked the account and explained the T+2 settlement period.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "Shares will reflect in the account by tomorrow due to T+2 settlement.",
+      "resolution timestamp": "21.000 sec - 24.000 sec",
+      "dominant emotions (customer)": [
+        "Concerned"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "80"
+    },
+    {
+      "intent": "Information about T+2 settlement",
+      "confidence": "90",
+      "keywords": "Achcha yah t plus two Kya Hota Hai...details mail karta hun theek hai.",
+      "intent timestamp": "23.000 sec - 30.000 sec",
+      "products": [
+        "Stock Market"
+      ],
+      "issues": [],
+      "actions of agent": "Agent explained T+2 settlement and offered to send details via email.",
+      "resolution status": "Resolved",
+      "Process Request": "Send details of T+2 settlement via email.",
+      "resolution": "Agent will send details about T+2 settlement via email.",
+      "resolution timestamp": "26.000 sec - 31.000 sec",
+      "dominant emotions (customer)": [
+        "Curious"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "90"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "8",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

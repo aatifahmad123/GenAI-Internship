@@ -1,0 +1,69 @@
+{
+  "call id": "23",
+  "agent id": "3",
+  "call duration": "33",
+  "summary": "Agent explained home loan foreclosure process and charges to customer.",
+  "intents": [
+    {
+      "intent": "Foreclosure Inquiry",
+      "confidence": "95",
+      "keywords": "Mera home loan ka photo process kya hai?...process samjhata hun kya aap apna loan",
+      "intent timestamp": "0.000 sec - 10.000 sec",
+      "products": [
+        "Home Loan"
+      ],
+      "issues": [
+        {
+          "issue": "Customer wants to know the foreclosure process.",
+          "reason(s)": "N/A",
+          "issue type": "General Inquiry"
+        }
+      ],
+      "actions of agent": "The agent explained that the customer needs to pay outstanding amount and charges for foreclosure and offered to email the exact amount and process.",
+      "resolution status": "Resolved",
+      "Process Request": "Emailing the exact amount and process for foreclosure.",
+      "resolution": "Agent will email the exact amount and process for foreclosure.",
+      "resolution timestamp": "21.000 sec - 23.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "70"
+    },
+    {
+      "intent": "Charges Inquiry",
+      "confidence": "90",
+      "keywords": "Kitna charge lagega?...terms per depend karta hai lekin details email",
+      "intent timestamp": "22.000 sec - 29.000 sec",
+      "products": [
+        "Home Loan"
+      ],
+      "issues": [
+        {
+          "issue": "Customer wants to know the foreclosure charges.",
+          "reason(s)": "N/A",
+          "issue type": "Billing"
+        }
+      ],
+      "actions of agent": "The agent explained that the charges depend on loan terms and the details will be in the email.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "Agent informed customer that details of charges will be in email.",
+      "resolution timestamp": "29.000 sec - 31.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "70"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "8",
+  "agent performance (out of 10)": "8",
+  "customer satisfaction (out of 10)": "7",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

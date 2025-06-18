@@ -1,0 +1,63 @@
+{
+  "call id": "36",
+  "agent id": "4",
+  "call duration": "33",
+  "summary": "The customer inquired about expiring reward points on their card.",
+  "intents": [
+    {
+      "intent": "Inquiry about reward points expiration",
+      "confidence": "95",
+      "keywords": "Mera credit card ka reward points expire ... rahe hain?",
+      "intent timestamp": "0.000 sec - 9.000 sec",
+      "products": [
+        "Credit Card"
+      ],
+      "issues": [
+        {
+          "issue": "Customer wants to know why reward points are expiring.",
+          "reason(s)": "Points expire after 2 years as per terms.",
+          "issue type": "Billing"
+        }
+      ],
+      "actions of agent": "Agent checked the customer's card details and explained the expiration policy.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "Agent informed customer that points expire after 2 years and offered to send redemption steps via email.",
+      "resolution timestamp": "16.000 sec - 30.000 sec",
+      "dominant emotions (customer)": [
+        "Inquisitive"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "80"
+    },
+    {
+      "intent": "Redemption process assistance",
+      "confidence": "90",
+      "keywords": "Han Kaise karun?",
+      "intent timestamp": "20.000 sec - 27.000 sec",
+      "products": [
+        "Credit Card"
+      ],
+      "issues": [],
+      "actions of agent": "Agent offered to send redemption process steps via email.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "Agent will send redemption steps via email.",
+      "resolution timestamp": "26.000 sec - 31.000 sec",
+      "dominant emotions (customer)": [
+        "Interested"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "90"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "8",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

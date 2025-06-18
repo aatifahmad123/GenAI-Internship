@@ -1,0 +1,43 @@
+{
+  "call id": "12",
+  "agent id": "2",
+  "call duration": "32",
+  "summary": "The customer inquired about mutual fund investment status.",
+  "intents": [
+    {
+      "intent": "Check Investment Status",
+      "confidence": "95",
+      "keywords": "Namaste main Vikram Patel ... investment ka status kya hai?",
+      "intent timestamp": "0.000 sec - 9.000 sec",
+      "products": [
+        "Mutual Fund"
+      ],
+      "issues": [
+        {
+          "issue": "Customer wants to know the current status of their mutual fund investment.",
+          "reason(s)": "N/A",
+          "issue type": "General Inquiry"
+        }
+      ],
+      "actions of agent": "Agent checked the investment status and provided the current growth percentage. Agent offered to send a detailed report to the customer's registered email address.",
+      "resolution status": "Resolved",
+      "Process Request": "Emailing the detailed report to the customer.",
+      "resolution": "The agent confirmed the investment is active and showing 5% growth and emailed the detailed report.",
+      "resolution timestamp": "26.000 sec - 30.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "90"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "9",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

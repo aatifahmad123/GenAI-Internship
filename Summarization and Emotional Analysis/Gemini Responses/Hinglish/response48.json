@@ -1,0 +1,43 @@
+{
+  "call id": "48",
+  "agent id": "5",
+  "call duration": "34",
+  "summary": "Customer inquired about Demat account annual maintenance charge.",
+  "intents": [
+    {
+      "intent": "Billing Inquiry",
+      "confidence": "95",
+      "keywords": "hello mean Meera Joshi Mera Demat account ka annual ... charge Kyon Laga",
+      "intent timestamp": "0.000 sec - 5.000 sec",
+      "products": [
+        "Demat Account"
+      ],
+      "issues": [
+        {
+          "issue": "Annual maintenance charge applied to Demat account",
+          "reason(s)": "Standard annual maintenance charge",
+          "issue type": "Billing"
+        }
+      ],
+      "actions of agent": "Checked the account and informed the customer about the charge. Checked eligibility for waiver and submitted a waiver request.",
+      "resolution status": "Pending with Callback",
+      "Process Request": "Waiver request submitted based on trading volume.",
+      "resolution": "Waiver request submitted, update to be provided in 5 days.",
+      "resolution timestamp": "27.000 sec - 30.000 sec",
+      "dominant emotions (customer)": [
+        "Inquiry"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "80"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "8",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

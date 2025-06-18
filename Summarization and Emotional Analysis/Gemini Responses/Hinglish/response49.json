@@ -1,0 +1,63 @@
+{
+  "call id": "49",
+  "agent id": "5",
+  "call duration": "31.40",
+  "summary": "Customer requested to change loan EMI date, agent provided details.",
+  "intents": [
+    {
+      "intent": "Change EMI Date",
+      "confidence": "95",
+      "keywords": "Mera loan ka EMI date change kaise ...",
+      "intent timestamp": "0.000 sec - 5.000 sec",
+      "products": [
+        "Loan"
+      ],
+      "issues": [
+        {
+          "issue": "Customer wants to change the EMI date of their loan.",
+          "reason(s)": "N/A",
+          "issue type": "Service"
+        }
+      ],
+      "actions of agent": "Agent explained the process of submitting a request form and offered online and branch options.",
+      "resolution status": "Resolved",
+      "Process Request": "Agent will send details of online and branch options via email.",
+      "resolution": "Agent provided information on how to change the EMI date and the associated charges.",
+      "resolution timestamp": "14.000 sec - 22.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "80"
+    },
+    {
+      "intent": "Inquiry about processing time and charges",
+      "confidence": "90",
+      "keywords": "Kitna time lagega aur koi charge hai?",
+      "intent timestamp": "22.000 sec - 25.000 sec",
+      "products": [
+        "Loan"
+      ],
+      "issues": [],
+      "actions of agent": "Agent informed about the processing time (5-7 days) and the nominal charge (200 rupees).",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "Agent provided the processing time and charge details.",
+      "resolution timestamp": "24.000 sec - 29.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "90"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "8",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

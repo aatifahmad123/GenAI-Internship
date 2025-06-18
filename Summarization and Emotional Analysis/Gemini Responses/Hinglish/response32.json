@@ -1,0 +1,69 @@
+{
+  "call id": "32",
+  "agent id": "4",
+  "call duration": "34",
+  "summary": "Customer inquired about credit card cash withdrawal limit and charges.",
+  "intents": [
+    {
+      "intent": "Cash Withdrawal Limit Inquiry",
+      "confidence": "95",
+      "keywords": "Mera credit card ka cash withdrawal limit ... kya hai?",
+      "intent timestamp": "0.000 sec - 5.000 sec",
+      "products": [
+        "Credit Card"
+      ],
+      "issues": [
+        {
+          "issue": "Customer wants to know the cash withdrawal limit on their credit card.",
+          "reason(s)": "N/A",
+          "issue type": "General Inquiry"
+        }
+      ],
+      "actions of agent": "Agent verified the customer's card details and provided the cash withdrawal limit.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "The agent informed the customer that the cash withdrawal limit is 50000 per day.",
+      "resolution timestamp": "17.000 sec - 21.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "90"
+    },
+    {
+      "intent": "Cash Withdrawal Charge Inquiry",
+      "confidence": "90",
+      "keywords": "Koi charge To Nahin Hai Na",
+      "intent timestamp": "23.000 sec - 27.000 sec",
+      "products": [
+        "Credit Card"
+      ],
+      "issues": [
+        {
+          "issue": "Customer wants to know if there are any charges for cash withdrawal.",
+          "reason(s)": "N/A",
+          "issue type": "Billing"
+        }
+      ],
+      "actions of agent": "The agent informed the customer about the cash withdrawal charges.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "The agent informed the customer about the 2.5% fee on cash withdrawals, with a minimum of 300 rupees, and offered to email the details.",
+      "resolution timestamp": "26.000 sec - 33.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "90"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "9",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

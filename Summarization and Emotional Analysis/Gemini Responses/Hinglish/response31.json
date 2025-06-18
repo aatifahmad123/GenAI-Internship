@@ -1,0 +1,44 @@
+{
+    "call id": "31",
+    "agent id": "4",
+    "call duration": "32",
+    "summary": "Agent waived minimum balance charge for the customer.",
+    "intents": [
+        {
+            "intent": "Minimum Balance Charge Inquiry",
+            "confidence": "95",
+            "keywords": "Mera savings account ka minimum balance charge Kyon ...",
+            "intent timestamp": "0.000 sec - 9.000 sec",
+            "products": [
+                "Savings Account"
+            ],
+            "issues": [
+                {
+                    "issue": "Minimum balance charge applied",
+                    "reason(s)": "Account balance fell below the minimum required amount.",
+                    "issue type": "Billing"
+                }
+            ],
+            "actions of agent": "Verified the account details and confirmed the charge. Agent offered to waive the charge.",
+            "resolution status": "Resolved",
+            "Process Request": "Charge waiver request initiated",
+            "resolution": "Charge waiver request submitted, reversal in 3-5 days.",
+            "resolution timestamp": "25.000 sec - 30.000 sec",
+            "dominant emotions (customer)": [
+                "Concern",
+                "Relief"
+            ],
+            "conversation sentiment": "Neutral",
+            "customer satisfaction": "85"
+        }
+    ],
+    "basic greeting and closing": "Yes",
+    "fatal behaviour": "No",
+    "agent professionalism (out of 10)": "9",
+    "agent performance (out of 10)": "9",
+    "customer satisfaction (out of 10)": "8",
+    "interruptions by customer": "0",
+    "interruptions by agent": "0",
+    "callback promise": "No",
+    "callback time": "N/A"
+}

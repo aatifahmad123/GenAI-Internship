@@ -1,0 +1,43 @@
+{
+  "call id": "39",
+  "agent id": "4",
+  "call duration": "35.96",
+  "summary": "Customer requested to update email address, agent assisted.",
+  "intents": [
+    {
+      "intent": "Update Email Address",
+      "confidence": "95",
+      "keywords": "Mera account ka email address update ... Karoon",
+      "intent timestamp": "0.000 sec - 9.000 sec",
+      "products": [
+        "Account"
+      ],
+      "issues": [
+        {
+          "issue": "Customer wants to update their email address.",
+          "reason(s)": "N/A",
+          "issue type": "General Inquiry"
+        }
+      ],
+      "actions of agent": "Agent asked for account number and new email address, then sent an OTP for verification and updated the email address.",
+      "resolution status": "Resolved",
+      "Process Request": "Email address update",
+      "resolution": "Email address updated after OTP verification.",
+      "resolution timestamp": "30.000 sec - 34.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "100"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "10",
+  "agent performance (out of 10)": "10",
+  "customer satisfaction (out of 10)": "10",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

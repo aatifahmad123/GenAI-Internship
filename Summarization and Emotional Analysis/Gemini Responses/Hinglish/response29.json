@@ -1,0 +1,44 @@
+{
+    "call id": "29",
+    "agent id": "3",
+    "call duration": "34",
+    "summary": "The customer inquired about debit card annual fee charges.",
+    "intents": [
+        {
+            "intent": "Fee Inquiry and Waiver Request",
+            "confidence": "95",
+            "keywords": "Mera debit card ka annual fee Kyon Laga...please wave kar do.",
+            "intent timestamp": "0.000 sec - 27.000 sec",
+            "products": [
+                "Debit Card"
+            ],
+            "issues": [
+                {
+                    "issue": "Customer was charged an annual fee on their debit card.",
+                    "reason(s)": "The fee is a standard charge, but can be waived if minimum transaction criteria are met.",
+                    "issue type": "Billing"
+                }
+            ],
+            "actions of agent": "Checked card details, explained the fee, and submitted a fee waiver request.",
+            "resolution status": "Resolved",
+            "Process Request": "Fee waiver request submitted.",
+            "resolution": "The agent submitted a request to waive the annual fee, which will be reversed in 5 days.",
+            "resolution timestamp": "27.000 sec - 32.000 sec",
+            "dominant emotions (customer)": [
+                "Concern",
+                "Inquiry"
+            ],
+            "conversation sentiment": "Neutral",
+            "customer satisfaction": "85"
+        }
+    ],
+    "basic greeting and closing": "Yes",
+    "fatal behaviour": "No",
+    "agent professionalism (out of 10)": "9",
+    "agent performance (out of 10)": "9",
+    "customer satisfaction (out of 10)": "8",
+    "interruptions by customer": "0",
+    "interruptions by agent": "0",
+    "callback promise": "No",
+    "callback time": "N/A"
+}

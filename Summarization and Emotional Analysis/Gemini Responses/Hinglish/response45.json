@@ -1,0 +1,43 @@
+{
+  "call id": "45",
+  "agent id": "5",
+  "call duration": "28.80",
+  "summary": "Customer wants to deactivate auto renewal of fixed deposit.",
+  "intents": [
+    {
+      "intent": "Fixed Deposit Auto Renewal Deactivation",
+      "confidence": "95",
+      "keywords": "Mera fix deposite ka auto renewal Kaise Ban ...",
+      "intent timestamp": "0.000 sec - 5.000 sec",
+      "products": [
+        "Fixed Deposit"
+      ],
+      "issues": [
+        {
+          "issue": "Customer wants to stop auto renewal of FD.",
+          "reason(s)": "Customer's preference to manage funds manually.",
+          "issue type": "Service"
+        }
+      ],
+      "actions of agent": "Agent deactivated the auto renewal of the fixed deposit.",
+      "resolution status": "Resolved",
+      "Process Request": "Deactivated auto renewal in the system.",
+      "resolution": "Auto renewal deactivated, amount will be credited after maturity.",
+      "resolution timestamp": "16.000 sec - 23.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "90"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "9",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

@@ -1,0 +1,64 @@
+{
+  "call id": "18",
+  "agent id": "2",
+  "call duration": "36",
+  "summary": "Agent waived late fee and activated payment reminder.",
+  "intents": [
+    {
+      "intent": "Fee Inquiry and Waiver Request",
+      "confidence": "95",
+      "keywords": "hello main Kiran Desai marry credit card statement main late...Kyon Laga",
+      "intent timestamp": "0.000 sec - 9.000 sec",
+      "products": [
+        "Credit Card"
+      ],
+      "issues": [
+        {
+          "issue": "Late payment fee charged",
+          "reason(s)": "Payment received one day after the due date.",
+          "issue type": "Billing"
+        }
+      ],
+      "actions of agent": "Agent checked the account, confirmed the late payment, waived the fee, and offered to activate payment reminders.",
+      "resolution status": "Resolved",
+      "Process Request": "Fee waiver processed.",
+      "resolution": "Late payment fee waived for this instance.",
+      "resolution timestamp": "23.000 sec - 26.000 sec",
+      "dominant emotions (customer)": [
+        "Concern",
+        "Inquiry"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "90"
+    },
+    {
+      "intent": "Payment Reminder Setup",
+      "confidence": "90",
+      "keywords": "Due date se 1 Din pahle payment kar dena...theek hai.",
+      "intent timestamp": "26.000 sec - 35.000 sec",
+      "products": [
+        "Credit Card"
+      ],
+      "issues": [],
+      "actions of agent": "Agent offered and activated payment reminders.",
+      "resolution status": "Resolved",
+      "Process Request": "Payment reminder activated.",
+      "resolution": "Payment reminder activated to avoid future late fees.",
+      "resolution timestamp": "32.000 sec - 34.000 sec",
+      "dominant emotions (customer)": [
+        "Gratitude"
+      ],
+      "conversation sentiment": "Positive",
+      "customer satisfaction": "95"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "9",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

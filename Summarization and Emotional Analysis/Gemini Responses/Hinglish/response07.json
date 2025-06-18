@@ -1,0 +1,44 @@
+{
+  "call id": "7",
+  "agent id": "1",
+  "call duration": "31",
+  "summary": "Customer requested an increase in their credit card limit.",
+  "intents": [
+    {
+      "intent": "Credit Card Limit Increase",
+      "confidence": "95",
+      "keywords": "Mera credit card limit kam ho gaya...Wapas 2 lakh karo",
+      "intent timestamp": "1.000 sec - 27.000 sec",
+      "products": [
+        "Credit Card"
+      ],
+      "issues": [
+        {
+          "issue": "Credit card limit decreased",
+          "reason(s)": "Payment history",
+          "issue type": "Billing"
+        }
+      ],
+      "actions of agent": "Agent checked card details and registered a request to increase the credit card limit.",
+      "resolution status": "Pending with Callback",
+      "Process Request": "Request registered to increase credit card limit.",
+      "resolution": "Agent registered a request to increase the credit card limit back to 2 lakh, which will be updated in 25-30 days.",
+      "resolution timestamp": "26.000 sec - 31.000 sec",
+      "dominant emotions (customer)": [
+        "Concern",
+        "Request"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "70"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "8",
+  "agent performance (out of 10)": "7",
+  "customer satisfaction (out of 10)": "7",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

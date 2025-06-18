@@ -1,0 +1,44 @@
+{
+  "call id": "2",
+  "agent id": "1",
+  "call duration": "37",
+  "summary": "Customer inquired about home loan EMI auto-debit failure.",
+  "intents": [
+    {
+      "intent": "EMI Payment Issue",
+      "confidence": "95",
+      "keywords": "Mere home loan ki EMI is mahine nahin karti...auto debit set kiya tha Fir Bhi Nahin hua",
+      "intent timestamp": "0.000 sec - 18.000 sec",
+      "products": [
+        "Home Loan"
+      ],
+      "issues": [
+        {
+          "issue": "EMI auto-debit failed",
+          "reason(s)": "Insufficient balance in the account",
+          "issue type": "Billing"
+        }
+      ],
+      "actions of agent": "Agent checked the account and confirmed insufficient balance.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "Customer was advised to deposit the remaining amount and retry auto-debit.",
+      "resolution timestamp": "30.000 sec - 34.000 sec",
+      "dominant emotions (customer)": [
+        "Concern",
+        "Surprise"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "85"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "8",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

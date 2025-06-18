@@ -1,0 +1,43 @@
+{
+  "call id": "42",
+  "agent id": "5",
+  "call duration": "38",
+  "summary": "Customer requested a physical copy of their credit card statement.",
+  "intents": [
+    {
+      "intent": "Request Physical Statement",
+      "confidence": "95",
+      "keywords": "Mera credit card ka statement physical copy Kaise ...",
+      "intent timestamp": "0.000 sec - 9.000 sec",
+      "products": [
+        "Credit Card"
+      ],
+      "issues": [
+        {
+          "issue": "Customer wants a physical copy of the credit card statement.",
+          "reason(s)": "N/A",
+          "issue type": "General Inquiry"
+        }
+      ],
+      "actions of agent": "Agent offered to send a physical statement to the registered address and inquired about annual subscription.",
+      "resolution status": "Resolved",
+      "Process Request": "Agent placed a request to send the physical statement.",
+      "resolution": "Physical statement will be sent to the customer's registered address in 7 days for a charge of 100 rupees.",
+      "resolution timestamp": "30.000 sec - 37.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "90"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "9",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

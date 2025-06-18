@@ -1,0 +1,43 @@
+{
+  "call id": "41",
+  "agent id": "5",
+  "call duration": "34",
+  "summary": "The customer inquired about adding a nominee to their account.",
+  "intents": [
+    {
+      "intent": "Add Nominee",
+      "confidence": "95",
+      "keywords": "Mera account ka nominee Kaise add ... add karun?",
+      "intent timestamp": "1.000 sec - 5.000 sec",
+      "products": [
+        "Account"
+      ],
+      "issues": [
+        {
+          "issue": "Customer wants to add a nominee to their account.",
+          "reason(s)": "N/A",
+          "issue type": "General Inquiry"
+        }
+      ],
+      "actions of agent": "The agent explained the process of adding a nominee, including submitting a form at the branch or requesting online.",
+      "resolution status": "Resolved",
+      "Process Request": "The agent will email the process and document details.",
+      "resolution": "The agent provided information on how to add a nominee.",
+      "resolution timestamp": "23.000 sec - 26.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "80"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "8",
+  "customer satisfaction (out of 10)": "8",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

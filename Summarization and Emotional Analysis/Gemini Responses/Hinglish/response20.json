@@ -1,0 +1,43 @@
+{
+  "call id": "20",
+  "agent id": "2",
+  "call duration": "35",
+  "summary": "The customer wants to change her registered mobile number.",
+  "intents": [
+    {
+      "intent": "Change Registered Mobile Number",
+      "confidence": "95",
+      "keywords": "namaste main Pooja Saxena ... mobile number change karna hai",
+      "intent timestamp": "0.000 sec - 9.000 sec",
+      "products": [
+        "Bank Account"
+      ],
+      "issues": [
+        {
+          "issue": "Customer wants to change her registered mobile number.",
+          "reason(s)": "N/A",
+          "issue type": "Service"
+        }
+      ],
+      "actions of agent": "The agent asked for the account number and new mobile number, verified the OTP, and updated the mobile number.",
+      "resolution status": "Resolved",
+      "Process Request": "OTP verification and mobile number update in the system.",
+      "resolution": "The agent successfully updated the customer's registered mobile number.",
+      "resolution timestamp": "24.000 sec - 25.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "95"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "9",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

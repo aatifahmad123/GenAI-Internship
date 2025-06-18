@@ -1,0 +1,44 @@
+{
+  "call id": "22",
+  "agent id": "3",
+  "call duration": "36.96",
+  "summary": "The agent addressed an unauthorized transaction and initiated a refund.",
+  "intents": [
+    {
+      "intent": "Fraudulent Transaction Reporting",
+      "confidence": "95",
+      "keywords": "hello, main Karan Mehra Mere account mein ek unknown transaction...",
+      "intent timestamp": "0.000 sec - 6.000 sec",
+      "products": [
+        "Account"
+      ],
+      "issues": [
+        {
+          "issue": "Unauthorized transaction of 5000",
+          "reason(s)": "Unknown transaction",
+          "issue type": "Billing"
+        }
+      ],
+      "actions of agent": "The agent acknowledged the issue, blocked the transaction, and initiated a refund process.",
+      "resolution status": "Resolved",
+      "Process Request": "Refund initiated",
+      "resolution": "The agent blocked the unauthorized transaction and initiated a refund process.",
+      "resolution timestamp": "22.000 sec - 28.000 sec",
+      "dominant emotions (customer)": [
+        "Concern",
+        "Anxiety"
+      ],
+      "conversation sentiment": "Negative",
+      "customer satisfaction": "75"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "8",
+  "customer satisfaction (out of 10)": "7",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

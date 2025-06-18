@@ -1,0 +1,43 @@
+{
+  "call id": "26",
+  "agent id": "3",
+  "call duration": "36",
+  "summary": "The customer needed help downloading her credit card statement.",
+  "intents": [
+    {
+      "intent": "Statement Download Assistance",
+      "confidence": "95",
+      "keywords": "Mera credit card ka statement online kaise ... download Karun",
+      "intent timestamp": "0.000 sec - 9.000 sec",
+      "products": [
+        "Credit Card"
+      ],
+      "issues": [
+        {
+          "issue": "Customer needs assistance with downloading credit card statement online.",
+          "reason(s)": "Customer is not familiar with the online process.",
+          "issue type": "Service"
+        }
+      ],
+      "actions of agent": "The agent offered to provide steps and email the details with screenshots.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "Agent emailed the customer the steps to download the statement with screenshots.",
+      "resolution timestamp": "22.000 sec - 25.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "85"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "8",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

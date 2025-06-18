@@ -1,0 +1,44 @@
+{
+  "call id": "9",
+  "agent id": "1",
+  "call duration": "27",
+  "summary": "Customer requests passbook update and receives digital statement.",
+  "intents": [
+    {
+      "intent": "Passbook Update Request",
+      "confidence": "95",
+      "keywords": "Mera savings account ka passbook update ... update Nahin Hua Hai",
+      "intent timestamp": "0.000 sec - 9.000 sec",
+      "products": [
+        "Savings Account",
+        "Passbook"
+      ],
+      "issues": [
+        {
+          "issue": "Passbook not updated",
+          "reason(s)": "System pending update",
+          "issue type": "Technical"
+        }
+      ],
+      "actions of agent": "Offered branch visit or digital statement; opted for digital statement.",
+      "resolution status": "Resolved",
+      "Process Request": "Agent will send digital statement to registered email.",
+      "resolution": "Agent agreed to send digital statement to customer's registered email.",
+      "resolution timestamp": "23.000 sec - 28.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "85"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "8",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

@@ -1,0 +1,63 @@
+{
+  "call id": "5",
+  "agent id": "1",
+  "call duration": "28",
+  "summary": "The customer reported a lost ATM card and requested blocking.",
+  "intents": [
+    {
+      "intent": "Block ATM Card",
+      "confidence": "95",
+      "keywords": "Mera ATM card Kho Gaya Hai ise ... block karo",
+      "intent timestamp": "1.000 sec - 5.000 sec",
+      "products": [
+        "ATM Card"
+      ],
+      "issues": [
+        {
+          "issue": "Lost ATM card",
+          "reason(s)": "Customer reported losing their ATM card.",
+          "issue type": "Service"
+        }
+      ],
+      "actions of agent": "Blocked the customer's ATM card and informed about new card delivery.",
+      "resolution status": "Resolved",
+      "Process Request": "Agent blocked the card in the backend.",
+      "resolution": "ATM card blocked and new card will be delivered in 5 days.",
+      "resolution timestamp": "16.000 sec - 19.000 sec",
+      "dominant emotions (customer)": [
+        "Concerned"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "85"
+    },
+    {
+      "intent": "Inquire about replacement charges",
+      "confidence": "90",
+      "keywords": "Shukriya Kitna charge hoga",
+      "intent timestamp": "21.000 sec - 25.000 sec",
+      "products": [
+        "ATM Card Replacement"
+      ],
+      "issues": [],
+      "actions of agent": "Informed the customer that the first replacement is free.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "First ATM card replacement is free of charge.",
+      "resolution timestamp": "24.000 sec - 28.000 sec",
+      "dominant emotions (customer)": [
+        "Inquisitive"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "90"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "9",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

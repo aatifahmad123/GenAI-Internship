@@ -1,0 +1,65 @@
+{
+  "call id": "8",
+  "agent id": "1",
+  "call duration": "29.84",
+  "summary": "Agent provided reason for loan rejection and offered assistance.",
+  "intents": [
+    {
+      "intent": "Loan Application Status Inquiry",
+      "confidence": "95",
+      "keywords": "Hello main Neha Joshi Mera loan application reject ... Kyon Hua?",
+      "intent timestamp": "0.000 sec - 8.000 sec",
+      "products": [
+        "Loan"
+      ],
+      "issues": [
+        {
+          "issue": "Loan application rejected",
+          "reason(s)": "Low CIBIL score",
+          "issue type": "Billing"
+        }
+      ],
+      "actions of agent": "Checked application status and provided the reason for rejection.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "Agent identified low CIBIL score as the reason and offered credit improvement tips via email.",
+      "resolution timestamp": "14.000 sec - 19.000 sec",
+      "dominant emotions (customer)": [
+        "Concern",
+        "Inquiry"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "75"
+    },
+    {
+      "intent": "Assistance with Credit Improvement",
+      "confidence": "90",
+      "keywords": "kya aap ise improve karne ke liye tips chahti hai... bahut jaruri hai",
+      "intent timestamp": "15.000 sec - 24.000 sec",
+      "products": [
+        "Loan"
+      ],
+      "issues": [],
+      "actions of agent": "Offered to send credit improvement tips via email and guide for re-application.",
+      "resolution status": "Resolved",
+      "Process Request": "Send email with credit improvement tips",
+      "resolution": "Agent will email credit improvement tips and guide for re-application.",
+      "resolution timestamp": "25.000 sec - 29.000 sec",
+      "dominant emotions (customer)": [
+        "Hopeful",
+        "Anxious"
+      ],
+      "conversation sentiment": "Positive",
+      "customer satisfaction": "85"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "8",
+  "customer satisfaction (out of 10)": "8",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

@@ -1,0 +1,37 @@
+{
+  "call id": "33",
+  "agent id": "4",
+  "call duration": "31",
+  "summary": "Customer inquired about the personal loan pre-payment process.",
+  "intents": [
+    {
+      "intent": "Prepayment Inquiry",
+      "confidence": "95",
+      "keywords": "Maine Vikas Yadav Mera personal loan ka pre payment ... pre payment Kaise karun?",
+      "intent timestamp": "0.000 sec - 5.000 sec",
+      "products": [
+        "Personal Loan"
+      ],
+      "issues": [],
+      "actions of agent": "Explained the pre-payment process and requested the loan account number. Provided information on charges and processing time. Offered to email the exact amount.",
+      "resolution status": "Resolved",
+      "Process Request": "Emailing the exact pre-payment amount to the customer.",
+      "resolution": "The agent explained the pre-payment process, including the outstanding amount, 2% pre-payment charge, and the 3-day processing time.",
+      "resolution timestamp": "25.000 sec - 29.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "85"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "8",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

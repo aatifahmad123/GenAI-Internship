@@ -1,0 +1,43 @@
+{
+  "call id": "44",
+  "agent id": "5",
+  "call duration": "35",
+  "summary": "The customer inquired about activating debit card contact list feature.",
+  "intents": [
+    {
+      "intent": "Debit Card Feature Activation",
+      "confidence": "95",
+      "keywords": "Mera debit card ka contact list feature Kaise ... Karun?",
+      "intent timestamp": "0.000 sec - 10.000 sec",
+      "products": [
+        "Debit Card"
+      ],
+      "issues": [
+        {
+          "issue": "Customer wants to activate contact list feature on debit card.",
+          "reason(s)": "N/A",
+          "issue type": "General Inquiry"
+        }
+      ],
+      "actions of agent": "The agent guided the customer on how to activate the feature via mobile app or ATM and offered to send SMS instructions.",
+      "resolution status": "Resolved",
+      "Process Request": "Send SMS with activation steps.",
+      "resolution": "The agent provided instructions to activate the feature via mobile app or ATM and sent SMS instructions.",
+      "resolution timestamp": "23.000 sec - 26.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "90"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "9",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

@@ -1,0 +1,43 @@
+{
+  "call id": "50",
+  "agent id": "5",
+  "call duration": "33",
+  "summary": "The agent assisted the customer in creating a UPI ID.",
+  "intents": [
+    {
+      "intent": "UPI ID Creation Assistance",
+      "confidence": "95",
+      "keywords": "namaste main Pooja Malhotra Mera upi ID kaise ...",
+      "intent timestamp": "0.000 sec - 5.000 sec",
+      "products": [
+        "UPI"
+      ],
+      "issues": [
+        {
+          "issue": "Customer needs assistance creating a UPI ID.",
+          "reason(s)": "Customer is unsure of the process.",
+          "issue type": "General Inquiry"
+        }
+      ],
+      "actions of agent": "The agent provided the process to create UPI ID and offered to send step-by-step guide via SMS.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "Agent provided guidance on creating a UPI ID through the mobile app and offered to send SMS instructions.",
+      "resolution timestamp": "15.000 sec - 21.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "90"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "9",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

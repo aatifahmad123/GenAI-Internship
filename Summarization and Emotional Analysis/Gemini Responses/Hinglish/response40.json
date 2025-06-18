@@ -1,0 +1,44 @@
+{
+  "call id": "40",
+  "agent id": "4",
+  "call duration": "36",
+  "summary": "Customer is unable to pay credit card bill online.",
+  "intents": [
+    {
+      "intent": "Payment Issue",
+      "confidence": "95",
+      "keywords": "Mera credit card ka bill payment online Kyon Nahin ... error hai payment gateway time out",
+      "intent timestamp": "1.000 sec - 18.000 sec",
+      "products": [
+        "Credit Card"
+      ],
+      "issues": [
+        {
+          "issue": "Online payment failure",
+          "reason(s)": "Payment gateway timeout",
+          "issue type": "Technical"
+        }
+      ],
+      "actions of agent": "Agent acknowledged the issue, asked for card number and error message, suggested alternative payment methods (UPI or net banking), and offered further assistance.",
+      "resolution status": "Pending with Callback",
+      "Process Request": "N/A",
+      "resolution": "Agent suggested using UPI or Net Banking and to call back if issue persists.",
+      "resolution timestamp": "17.000 sec - 33.000 sec",
+      "dominant emotions (customer)": [
+        "Concerned",
+        "Frustrated"
+      ],
+      "conversation sentiment": "Negative",
+      "customer satisfaction": "60"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "8",
+  "agent performance (out of 10)": "7",
+  "customer satisfaction (out of 10)": "6",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "Yes",
+  "callback time": "Same day if issue persists"
+}

@@ -1,0 +1,65 @@
+{
+  "call id": "19",
+  "agent id": "2",
+  "call duration": "37",
+  "summary": "The customer inquired about an increase in their loan interest rate.",
+  "intents": [
+    {
+      "intent": "Interest Rate Inquiry",
+      "confidence": "95",
+      "keywords": "Mera personal loan ka interest rate Kyon ... bad gaya?",
+      "intent timestamp": "0.000 sec - 9.000 sec",
+      "products": [
+        "Personal Loan"
+      ],
+      "issues": [
+        {
+          "issue": "Increased interest rate on personal loan",
+          "reason(s)": "RBI's new guidelines affecting floating rate loans.",
+          "issue type": "Billing"
+        }
+      ],
+      "actions of agent": "The agent checked the loan details and explained the reason for the increase.",
+      "resolution status": "Resolved",
+      "Process Request": "The agent will email the documents and steps to switch to a fixed rate.",
+      "resolution": "Agent offered to switch to a fixed interest rate loan and explained the process.",
+      "resolution timestamp": "23.000 sec - 28.000 sec",
+      "dominant emotions (customer)": [
+        "Concern",
+        "Inquiry"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "75"
+    },
+    {
+      "intent": "Fixed Rate Switch Request",
+      "confidence": "90",
+      "keywords": "kya aap fix rate per switch karna chahte hain?",
+      "intent timestamp": "20.000 sec - 28.000 sec",
+      "products": [
+        "Personal Loan"
+      ],
+      "issues": [],
+      "actions of agent": "The agent explained the process for switching to a fixed rate loan.",
+      "resolution status": "Resolved",
+      "Process Request": "Agent to send documents and steps via email.",
+      "resolution": "Agent will send the required documents and steps to switch to a fixed rate loan, which will take 3 days.",
+      "resolution timestamp": "28.000 sec - 35.000 sec",
+      "dominant emotions (customer)": [
+        "Acceptance",
+        "Hopeful"
+      ],
+      "conversation sentiment": "Positive",
+      "customer satisfaction": "85"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "8",
+  "agent performance (out of 10)": "8",
+  "customer satisfaction (out of 10)": "8",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

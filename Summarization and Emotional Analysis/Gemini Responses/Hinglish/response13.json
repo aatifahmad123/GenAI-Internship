@@ -1,0 +1,44 @@
+{
+  "call id": "13",
+  "agent id": "2",
+  "call duration": "34",
+  "summary": "Customer reported insurance premium payment failure, agent provided alternative solution.",
+  "intents": [
+    {
+      "intent": "Payment Issue",
+      "confidence": "95",
+      "keywords": "Hello, maine Arjun Malhotra...premium ka payment fail ho raha hai.",
+      "intent timestamp": "0.000 sec - 8.000 sec",
+      "products": [
+        "Insurance"
+      ],
+      "issues": [
+        {
+          "issue": "Payment failure",
+          "reason(s)": "Temporary issue with payment gateway",
+          "issue type": "Technical"
+        }
+      ],
+      "actions of agent": "Identified the issue and suggested alternative payment method (UPI or Net Banking).",
+      "resolution status": "Pending with Callback",
+      "Process Request": "N/A",
+      "resolution": "Suggested customer to try UPI or Net Banking for payment.",
+      "resolution timestamp": "16.000 sec - 22.000 sec",
+      "dominant emotions (customer)": [
+        "Concern",
+        "Frustration"
+      ],
+      "conversation sentiment": "Negative",
+      "customer satisfaction": "60"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "8",
+  "agent performance (out of 10)": "7",
+  "customer satisfaction (out of 10)": "6",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}

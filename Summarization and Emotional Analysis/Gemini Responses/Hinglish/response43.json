@@ -1,0 +1,43 @@
+{
+    "call id": "43",
+    "agent id": "5",
+    "call duration": "29",
+    "summary": "Customer requested interest certificate, agent emailed it to him.",
+    "intents": [
+        {
+            "intent": "Request Interest Certificate",
+            "confidence": "95",
+            "keywords": "Namaste main Vinod Kumar ... interest certificate kahan se milega?",
+            "intent timestamp": "0.000 sec - 9.000 sec",
+            "products": [
+                "Home Loan"
+            ],
+            "issues": [
+                {
+                    "issue": "Customer needs interest certificate.",
+                    "reason(s)": "N/A",
+                    "issue type": "General Inquiry"
+                }
+            ],
+            "actions of agent": "Agent offered to email the certificate or provide it via net banking.",
+            "resolution status": "Resolved",
+            "Process Request": "Emailing the certificate to the customer.",
+            "resolution": "Agent emailed the interest certificate to the customer's registered email address.",
+            "resolution timestamp": "23.000 sec - 27.000 sec",
+            "dominant emotions (customer)": [
+                "Neutral"
+            ],
+            "conversation sentiment": "Neutral",
+            "customer satisfaction": "90"
+        }
+    ],
+    "basic greeting and closing": "Yes",
+    "fatal behaviour": "No",
+    "agent professionalism (out of 10)": "9",
+    "agent performance (out of 10)": "9",
+    "customer satisfaction (out of 10)": "9",
+    "interruptions by customer": "0",
+    "interruptions by agent": "0",
+    "callback promise": "No",
+    "callback time": "N/A"
+}

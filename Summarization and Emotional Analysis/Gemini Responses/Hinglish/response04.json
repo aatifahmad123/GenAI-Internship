@@ -1,0 +1,44 @@
+{
+  "call id": "4",
+  "agent id": "1",
+  "call duration": "31",
+  "summary": "Customer inquires about FD interest credit, agent provides information.",
+  "intents": [
+    {
+      "intent": "Interest Credit Inquiry",
+      "confidence": "95",
+      "keywords": "Hello main Anita Verma meaning FB Kholi Thi lekin uska...credit Nahin Hua",
+      "intent timestamp": "0.000 sec - 9.000 sec",
+      "products": [
+        "Fixed Deposit (FD)"
+      ],
+      "issues": [
+        {
+          "issue": "Interest not credited",
+          "reason(s)": "Interest is credited quarterly, customer was not informed.",
+          "issue type": "Billing"
+        }
+      ],
+      "actions of agent": "Checked FD details, informed customer about quarterly credit cycle, apologized for lack of clarity, offered to email details.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "Informed the customer that the interest is credited quarterly and the next credit will be next week.",
+      "resolution timestamp": "17.000 sec - 22.000 sec",
+      "dominant emotions (customer)": [
+        "Inquisitive",
+        "Concerned"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "80"
+    }
+  ],
+  "basic greeting and closing": "Yes",
+  "fatal behaviour": "No",
+  "agent professionalism (out of 10)": "9",
+  "agent performance (out of 10)": "9",
+  "customer satisfaction (out of 10)": "8",
+  "interruptions by customer": "0",
+  "interruptions by agent": "0",
+  "callback promise": "No",
+  "callback time": "N/A"
+}
