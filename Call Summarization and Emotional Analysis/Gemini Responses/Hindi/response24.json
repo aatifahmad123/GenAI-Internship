@@ -2,7 +2,7 @@
   "call id": "24",
   "agent id": "3",
   "call duration": "30",
-  "summary": "Customer unable to login to mobile banking app, issue resolved.",
+  "summary": "Customer unable to login to mobile banking app, agent reset.",
   "intents": [
     {
       "intent": "Technical Support",
@@ -19,10 +19,10 @@
           "issue type": "Technical"
         }
       ],
-      "actions of agent": "The agent reset the customer's registration and sent a new login link via SMS.",
+      "actions of agent": "The agent reset the customer's registration.",
       "resolution status": "Resolved",
       "Process Request": "Registration reset",
-      "resolution": "Registration reset and new login link sent via SMS.",
+      "resolution": "The agent reset the registration and informed the customer that a new login link would be sent via SMS.",
       "resolution timestamp": "22.000 sec - 26.000 sec",
       "dominant emotions (customer)": [
         "Frustration"

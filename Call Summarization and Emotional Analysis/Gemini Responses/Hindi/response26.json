@@ -2,28 +2,28 @@
   "call id": "26",
   "agent id": "3",
   "call duration": "31",
-  "summary": "The customer reported a name discrepancy on their account.",
+  "summary": "The customer reported a discrepancy in their account name.",
   "intents": [
     {
-      "intent": "Account Information Update",
+      "intent": "Account Name Correction",
       "confidence": "95",
-      "keywords": "हेलो मैं अनुज शर्मा मेरे खाते का नाम गलत ... प्रिंट हुआ है।",
+      "keywords": "हेलो मैं अनुज शर्मा ... खाते का नाम गलत प्रिंट हुआ है।",
       "intent timestamp": "0.000 sec - 8.000 sec",
       "products": [
         "Bank Account"
       ],
       "issues": [
         {
-          "issue": "Incorrect name printed on the account.",
-          "reason(s)": "Data entry error during account creation.",
+          "issue": "Incorrect name printed on account",
+          "reason(s)": "Printing error",
           "issue type": "Technical"
         }
       ],
-      "actions of agent": "The agent apologized, collected the correct account number and name, and initiated the update process.",
+      "actions of agent": "The agent apologized, collected account details and correct name, and initiated the update process.",
       "resolution status": "Resolved",
-      "Process Request": "Agent initiated account update process and sent KYC link.",
-      "resolution": "Agent initiated the process to update the customer's name and requested KYC documents.",
-      "resolution timestamp": "17.000 sec - 23.000 sec",
+      "Process Request": "KYC document submission and account update process.",
+      "resolution": "Agent initiated the account name update process and provided a link for online KYC submission.",
+      "resolution timestamp": "20.000 sec - 27.000 sec",
       "dominant emotions (customer)": [
         "Neutral"
       ],
@@ -31,18 +31,18 @@
       "customer satisfaction": "85"
     },
     {
-      "intent": "KYC Document Submission Inquiry",
+      "intent": "Document Submission Inquiry",
       "confidence": "90",
       "keywords": "क्या ऑनलाइन जमा कर सकता हूं?",
-      "intent timestamp": "22.000 sec - 25.000 sec",
+      "intent timestamp": "23.000 sec - 25.000 sec",
       "products": [
         "Bank Account"
       ],
       "issues": [],
-      "actions of agent": "The agent confirmed that the customer could submit the documents online and offered to send a link.",
+      "actions of agent": "The agent confirmed online submission and offered to send a link.",
       "resolution status": "Resolved",
       "Process Request": "N/A",
-      "resolution": "Agent confirmed online submission and offered to send a link.",
+      "resolution": "Agent confirmed online submission is possible and will send a link.",
       "resolution timestamp": "24.000 sec - 27.000 sec",
       "dominant emotions (customer)": [
         "Neutral"

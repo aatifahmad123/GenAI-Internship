@@ -20,23 +20,23 @@
           "issue type": "Technical"
         }
       ],
-      "actions of agent": "Offered branch visit or digital statement, and processed digital statement request.",
+      "actions of agent": "Agent checked the status and offered solutions.",
       "resolution status": "Resolved",
-      "Process Request": "Digital statement sent to registered email.",
-      "resolution": "Digital statement sent to customer's registered email.",
+      "Process Request": "Agent will send digital statement to registered email.",
+      "resolution": "Digital statement will be sent to the customer's registered email address.",
       "resolution timestamp": "22.000 sec - 27.000 sec",
       "dominant emotions (customer)": [
         "Neutral"
       ],
       "conversation sentiment": "Neutral",
-      "customer satisfaction": "90"
+      "customer satisfaction": "85"
     }
   ],
   "basic greeting and closing": "Yes",
   "fatal behaviour": "No",
   "agent professionalism (out of 10)": "9",
   "agent performance (out of 10)": "9",
-  "customer satisfaction (out of 10)": "9",
+  "customer satisfaction (out of 10)": "8",
   "interruptions by customer": "0",
   "interruptions by agent": "0",
   "callback promise": "No",

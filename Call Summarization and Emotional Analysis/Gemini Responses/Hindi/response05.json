@@ -7,7 +7,7 @@
     {
       "intent": "Block Lost ATM Card",
       "confidence": "95",
-      "keywords": "नमस्ते मैं विकास सिंह मेरा एटीएम कार्ड खो गया है। इसे ... करें।",
+      "keywords": "नमस्ते मैं विकास सिंह मेरा एटीएम कार्ड खो गया है। ... इसे ब्लॉक करें।",
       "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "ATM Card"
@@ -19,23 +19,23 @@
           "issue type": "Service"
         }
       ],
-      "actions of agent": "Blocked the ATM card after verifying the account number.",
+      "actions of agent": "Blocked the ATM card after verifying account number.",
       "resolution status": "Resolved",
-      "Process Request": "Backend process to block the card.",
-      "resolution": "ATM card blocked and new card will be sent in 5 days.",
+      "Process Request": "Backend process to block the card and initiate replacement.",
+      "resolution": "ATM card blocked and new card will be delivered in 5 days.",
       "resolution timestamp": "18.000 sec - 24.000 sec",
       "dominant emotions (customer)": [
-        "Concern",
-        "Urgency"
+        "Concerned",
+        "Anxious"
       ],
       "conversation sentiment": "Neutral",
-      "customer satisfaction": "90"
+      "customer satisfaction": "85"
     },
     {
       "intent": "Inquire about Replacement Charges",
       "confidence": "90",
       "keywords": "शुक्रिया कितना चार्ज होगा?",
-      "intent timestamp": "20.000 sec - 27.000 sec",
+      "intent timestamp": "24.000 sec - 26.000 sec",
       "products": [
         "ATM Card"
       ],
@@ -49,7 +49,7 @@
         "Inquisitive"
       ],
       "conversation sentiment": "Neutral",
-      "customer satisfaction": "100"
+      "customer satisfaction": "90"
     }
   ],
   "basic greeting and closing": "Yes",

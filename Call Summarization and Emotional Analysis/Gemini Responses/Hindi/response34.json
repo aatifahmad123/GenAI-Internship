@@ -2,12 +2,12 @@
   "call id": "34",
   "agent id": "4",
   "call duration": "33",
-  "summary": "Agent issued a new card due to CVV error.",
+  "summary": "Agent issues a new card due to CVV error.",
   "intents": [
     {
       "intent": "Debit Card Issue",
       "confidence": "95",
-      "keywords": "हेलो मैं मनीष शर्मा मेरे डेबिट कार्ड का सीवीवी ... काम नहीं कर रहा।",
+      "keywords": "हेलो मैं मनीष शर्मा ... सीवीवी नंबर काम नहीं कर रहा।",
       "intent timestamp": "0.000 sec - 5.000 sec",
       "products": [
         "Debit Card"
@@ -19,7 +19,7 @@
           "issue type": "Technical"
         }
       ],
-      "actions of agent": "Agent checked the system, identified a data error, and initiated a new card issuance.",
+      "actions of agent": "Agent checked the card details and identified a data error. Agent initiated a new card issuance.",
       "resolution status": "Resolved",
       "Process Request": "New card issuance request.",
       "resolution": "A new debit card will be issued and delivered in 5-7 days.",

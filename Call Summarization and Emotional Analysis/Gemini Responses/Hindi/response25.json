@@ -2,10 +2,10 @@
   "call id": "25",
   "agent id": "3",
   "call duration": "29",
-  "summary": "Agent helped customer with maturity details and sent statement.",
+  "summary": "Agent helped customer with FB maturity details and statement.",
   "intents": [
     {
-      "intent": "Check Fixed Deposit Maturity Details",
+      "intent": "Check FB Maturity Details",
       "confidence": "95",
       "keywords": "नमस्ते मैं मोहन राव ... मैच्योरिटी डिटेल्स नहीं मिल रही।",
       "intent timestamp": "0.000 sec - 8.000 sec",
@@ -14,16 +14,16 @@
       ],
       "issues": [
         {
-          "issue": "Customer unable to find maturity details of FD.",
+          "issue": "Customer unable to find FB maturity details.",
           "reason(s)": "N/A",
           "issue type": "Service"
         }
       ],
-      "actions of agent": "Agent checked the FD details and confirmed the maturity amount was credited.",
+      "actions of agent": "Agent checked the customer's account and confirmed the maturity amount was credited.",
       "resolution status": "Resolved",
-      "Process Request": "Send account statement to customer",
-      "resolution": "Agent confirmed that the maturity amount including interest was credited and offered to send the statement.",
-      "resolution timestamp": "14.000 sec - 25.000 sec",
+      "Process Request": "N/A",
+      "resolution": "Agent confirmed the maturity amount was credited and offered to send a statement.",
+      "resolution timestamp": "14.000 sec - 19.000 sec",
       "dominant emotions (customer)": [
         "Neutral"
       ],
@@ -31,7 +31,7 @@
       "customer satisfaction": "90"
     },
     {
-      "intent": "Inquire about interest",
+      "intent": "Inquire about Interest",
       "confidence": "90",
       "keywords": "क्या ब्याज भी शामिल है?",
       "intent timestamp": "19.000 sec - 22.000 sec",

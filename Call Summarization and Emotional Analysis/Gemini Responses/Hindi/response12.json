@@ -19,16 +19,16 @@
           "issue type": "Billing"
         }
       ],
-      "actions of agent": "Verified the transaction details and initiated a refund process.",
+      "actions of agent": "Verified the transaction details and initiated refund process.",
       "resolution status": "Resolved",
       "Process Request": "Refund initiation",
-      "resolution": "Refund will be processed in seven working days.",
+      "resolution": "Refund will be processed in 7 working days.",
       "resolution timestamp": "22.000 sec - 28.000 sec",
       "dominant emotions (customer)": [
         "Concern",
         "Anxiety"
       ],
-      "conversation sentiment": "Neutral",
+      "conversation sentiment": "Negative",
       "customer satisfaction": "80"
     }
   ],

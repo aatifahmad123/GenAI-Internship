@@ -5,7 +5,7 @@
   "summary": "Agent addressed loan statement error and submitted update request.",
   "intents": [
     {
-      "intent": "Report Loan Statement Error",
+      "intent": "Report Issue",
       "confidence": "95",
       "keywords": "हेलो मैं कमलेश जोशी, मेरा लोन स्टेटमेंट गलत अवधि दिख ... 5 साल की बजाय 7 साल दिख रहा है।",
       "intent timestamp": "0.000 sec - 17.000 sec",
@@ -14,19 +14,18 @@
       ],
       "issues": [
         {
-          "issue": "Incorrect loan term displayed on statement.",
+          "issue": "Incorrect loan term displayed on the statement.",
           "reason(s)": "System error.",
           "issue type": "Technical"
         }
       ],
-      "actions of agent": "Acknowledged the issue, verified the loan account number, identified the error as a system issue, and submitted a request to update the loan term.",
+      "actions of agent": "Acknowledged the issue, verified the loan account number, identified the problem as a system error, and submitted a request to update the loan term.",
       "resolution status": "Pending with Callback",
       "Process Request": "Update loan term in the system.",
-      "resolution": "Agent submitted a request to correct the loan term, which will take 3-5 business days.",
+      "resolution": "The agent submitted a request to correct the loan term, which will be updated within 3-5 business days.",
       "resolution timestamp": "19.000 sec - 27.000 sec",
       "dominant emotions (customer)": [
-        "Concern",
-        "Inquiry"
+        "Concerned"
       ],
       "conversation sentiment": "Neutral",
       "customer satisfaction": "75"

@@ -19,7 +19,7 @@
           "issue type": "Billing"
         }
       ],
-      "actions of agent": "Agent checked the customer's card details and offer details.",
+      "actions of agent": "Agent verified the customer's card number and offer details.",
       "resolution status": "Resolved",
       "Process Request": "N/A",
       "resolution": "Cashback will be credited in the next billing cycle by the 15th.",

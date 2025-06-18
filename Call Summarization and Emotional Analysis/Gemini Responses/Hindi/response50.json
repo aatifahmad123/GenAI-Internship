@@ -14,39 +14,38 @@
       ],
       "issues": [
         {
-          "issue": "Mutual fund amount not credited to account.",
-          "reason(s)": "Funds are still in processing.",
+          "issue": "Mutual fund amount not credited to the account.",
+          "reason(s)": "Processing delay.",
           "issue type": "Billing"
         }
       ],
-      "actions of agent": "Agent checked the account and informed the customer that the amount is in processing and will be credited in three working days.",
+      "actions of agent": "Checked the account and fund details, confirmed the amount is in processing.",
       "resolution status": "Resolved",
       "Process Request": "N/A",
-      "resolution": "The agent confirmed that the amount is in processing and will be credited within three working days.",
+      "resolution": "Informed the customer that the amount is in processing and will be credited in three working days.",
       "resolution timestamp": "17.000 sec - 21.000 sec",
       "dominant emotions (customer)": [
-        "Concerned",
-        "Inquisitive"
+        "Concerned"
       ],
       "conversation sentiment": "Neutral",
-      "customer satisfaction": "85"
+      "customer satisfaction": "80"
     },
     {
       "intent": "Confirmation Request",
       "confidence": "90",
       "keywords": "क्या मुझे कंफर्मेशन मिलेगा?",
-      "intent timestamp": "21.000 sec - 26.000 sec",
+      "intent timestamp": "21.000 sec - 27.000 sec",
       "products": [
         "Mutual Funds"
       ],
       "issues": [],
-      "actions of agent": "Agent confirmed that the customer will receive confirmation via SMS and email.",
+      "actions of agent": "Assured the customer that they will receive confirmation via SMS and email.",
       "resolution status": "Resolved",
       "Process Request": "N/A",
-      "resolution": "The agent confirmed that the customer will receive confirmation via SMS and email.",
-      "resolution timestamp": "23.000 sec - 26.000 sec",
+      "resolution": "Confirmation will be sent via SMS and email.",
+      "resolution timestamp": "23.000 sec - 27.000 sec",
       "dominant emotions (customer)": [
-        "Inquisitive"
+        "Neutral"
       ],
       "conversation sentiment": "Positive",
       "customer satisfaction": "90"

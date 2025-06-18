@@ -1,8 +1,8 @@
 {
   "call id": "40",
   "agent id": "4",
-  "call duration": "32.92",
-  "summary": "The agent updated the customer's mobile number.",
+  "call duration": "32",
+  "summary": "The customer wants to update her mobile number.",
   "intents": [
     {
       "intent": "Update Mobile Number",
@@ -19,23 +19,23 @@
           "issue type": "Technical"
         }
       ],
-      "actions of agent": "The agent collected the account number and new mobile number, and initiated OTP verification.",
+      "actions of agent": "The agent asked for the account number and new mobile number, and informed the customer about OTP verification.",
       "resolution status": "Resolved",
-      "Process Request": "Initiated OTP verification to update mobile number.",
-      "resolution": "Mobile number update initiated via OTP verification.",
-      "resolution timestamp": "21.000 sec - 23.000 sec",
+      "Process Request": "OTP Verification",
+      "resolution": "The agent updated the mobile number after OTP verification.",
+      "resolution timestamp": "26.000 sec - 29.000 sec",
       "dominant emotions (customer)": [
         "Neutral"
       ],
       "conversation sentiment": "Neutral",
-      "customer satisfaction": "85"
+      "customer satisfaction": "90"
     }
   ],
   "basic greeting and closing": "Yes",
   "fatal behaviour": "No",
   "agent professionalism (out of 10)": "9",
   "agent performance (out of 10)": "9",
-  "customer satisfaction (out of 10)": "8",
+  "customer satisfaction (out of 10)": "9",
   "interruptions by customer": "0",
   "interruptions by agent": "0",
   "callback promise": "No",

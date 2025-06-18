@@ -2,33 +2,33 @@
   "call id": "46",
   "agent id": "5",
   "call duration": "30",
-  "summary": "Customer reported an incorrect email address and agent updated it.",
+  "summary": "The agent updated the customer's email address.",
   "intents": [
     {
       "intent": "Update Email Address",
       "confidence": "95",
-      "keywords": "हेलो मैं नीतू वर्मा मेरे खाते का ईमेल पता गलत ... अपडेट हो जाएगा?",
+      "keywords": "हेलो मैं नीतू वर्मा मेरे खाते का ईमेल पता ... अपडेट हो जाएगा?",
       "intent timestamp": "0.000 sec - 24.000 sec",
       "products": [
         "Account"
       ],
       "issues": [
         {
-          "issue": "Incorrect email address on account",
-          "reason(s)": "Unknown",
-          "issue type": "Technical"
+          "issue": "Incorrect email address on file.",
+          "reason(s)": "Customer reported the email address was incorrectly updated.",
+          "issue type": "Service"
         }
       ],
-      "actions of agent": "Verified customer details, updated the email address, and informed about OTP verification.",
+      "actions of agent": "The agent verified the account number and updated the email address.",
       "resolution status": "Resolved",
-      "Process Request": "Email address update",
-      "resolution": "Agent updated the email address after OTP verification.",
+      "Process Request": "Email address update.",
+      "resolution": "The agent updated the email address and informed the customer about OTP verification.",
       "resolution timestamp": "23.000 sec - 26.000 sec",
       "dominant emotions (customer)": [
         "Neutral"
       ],
       "conversation sentiment": "Neutral",
-      "customer satisfaction": "80"
+      "customer satisfaction": "85"
     }
   ],
   "basic greeting and closing": "Yes",

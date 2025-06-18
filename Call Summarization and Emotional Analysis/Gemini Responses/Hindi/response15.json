@@ -7,8 +7,8 @@
         {
             "intent": "ATM Pin Reset",
             "confidence": "95",
-            "keywords": "हेलो मैं राहुल मेहता मेरा एटीएम पिन भूल ... पिन जनरेट करने का अनुरोध दर्ज किया।",
-            "intent timestamp": "0.000 sec - 19.000 sec",
+            "keywords": "हेलो मैं राहुल मेहता मेरा एटीएम पिन भूल ... बता दे",
+            "intent timestamp": "0.000 sec - 13.000 sec",
             "products": [
                 "ATM Card"
             ],
@@ -19,19 +19,19 @@
                     "issue type": "Service"
                 }
             ],
-            "actions of agent": "Verified customer details and initiated a request to generate a new ATM PIN.",
+            "actions of agent": "Agent collected account number and initiated a request to generate a new ATM pin.",
             "resolution status": "Resolved",
-            "Process Request": "New ATM PIN generation request.",
-            "resolution": "New ATM PIN will be sent via SMS in 48 hours.",
+            "Process Request": "New ATM pin generation request.",
+            "resolution": "New ATM pin will be sent via SMS in 48 hours.",
             "resolution timestamp": "13.000 sec - 19.000 sec",
             "dominant emotions (customer)": [
                 "Neutral"
             ],
             "conversation sentiment": "Neutral",
-            "customer satisfaction": "90"
+            "customer satisfaction": "85"
         },
         {
-            "intent": "Check for charges",
+            "intent": "Inquiry about charges",
             "confidence": "90",
             "keywords": "कोई चार्ज तो नहीं?",
             "intent timestamp": "18.000 sec - 21.000 sec",
@@ -39,16 +39,16 @@
                 "ATM Card"
             ],
             "issues": [],
-            "actions of agent": "Informed the customer that there are no charges for the service.",
+            "actions of agent": "Agent confirmed that there are no charges.",
             "resolution status": "Resolved",
             "Process Request": "N/A",
-            "resolution": "Confirmed that the service is free of charge.",
+            "resolution": "Confirmed no charges for pin reset.",
             "resolution timestamp": "21.000 sec - 23.000 sec",
             "dominant emotions (customer)": [
                 "Neutral"
             ],
             "conversation sentiment": "Neutral",
-            "customer satisfaction": "100"
+            "customer satisfaction": "90"
         }
     ],
     "basic greeting and closing": "Yes",

@@ -19,14 +19,14 @@
           "issue type": "Billing"
         }
       ],
-      "actions of agent": "Agent acknowledged the issue, asked for card number and transaction details, initiated card block and refund process.",
+      "actions of agent": "Agent acknowledged the issue, collected card details, initiated card block and refund process.",
       "resolution status": "Resolved",
-      "Process Request": "Card block and refund initiation.",
+      "Process Request": "Card block and refund process initiated.",
       "resolution": "Card will be blocked and refund will be processed in 7-10 working days.",
       "resolution timestamp": "20.000 sec - 28.000 sec",
       "dominant emotions (customer)": [
-        "Concern",
-        "Anxiety"
+        "Concerned",
+        "Anxious"
       ],
       "conversation sentiment": "Negative",
       "customer satisfaction": "80"
@@ -40,7 +40,7 @@
         "Debit Card"
       ],
       "issues": [],
-      "actions of agent": "Provided the estimated refund time frame.",
+      "actions of agent": "Agent provided the estimated refund timeframe.",
       "resolution status": "Resolved",
       "Process Request": "N/A",
       "resolution": "Refund will be processed in 7-10 working days.",

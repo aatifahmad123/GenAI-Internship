@@ -2,40 +2,41 @@
   "call id": "36",
   "agent id": "4",
   "call duration": "32.92",
-  "summary": "Customer is unhappy with the credit card reward program change.",
+  "summary": "The customer inquired about a change in credit card reward program.",
   "intents": [
     {
-      "intent": "Reward Program Change",
+      "intent": "Reward Program Inquiry",
       "confidence": "95",
-      "keywords": "हेलो मैं शुभम गुप्ता मेरे क्रेडिट कार्ड का रिवॉर्ड ... बदल गया है।",
+      "keywords": "हेलो मैं शुभम गुप्ता मेरे क्रेडिट कार्ड का रिवॉर्ड ... प्रोग्राम बदल गया है।",
       "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "Credit Card"
       ],
       "issues": [
         {
-          "issue": "Customer is unhappy with the new reward program.",
-          "reason(s)": "Customer preferred the old reward program.",
+          "issue": "Customer's credit card reward program changed.",
+          "reason(s)": "Bank policy change.",
           "issue type": "Service"
         }
       ],
-      "actions of agent": "Agent checked the details and informed the customer that the new program is as per bank policy. Agent offered to email the details and raise a request for the old program.",
+      "actions of agent": "Agent checked the details and informed the customer about the policy change. Agent offered to register a request for the old program.",
       "resolution status": "Pending with Callback",
       "Process Request": "Request to revert to the old reward program.",
-      "resolution": "Agent will email the details of the new program and raise a request to revert to the old program and provide an update.",
+      "resolution": "Agent will register a request to revert to the old reward program and provide an update.",
       "resolution timestamp": "26.000 sec - 31.000 sec",
       "dominant emotions (customer)": [
-        "Dissatisfaction"
+        "Concern",
+        "Disappointment"
       ],
-      "conversation sentiment": "Negative",
-      "customer satisfaction": "50"
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "60"
     }
   ],
   "basic greeting and closing": "Yes",
   "fatal behaviour": "No",
   "agent professionalism (out of 10)": "8",
   "agent performance (out of 10)": "7",
-  "customer satisfaction (out of 10)": "5",
+  "customer satisfaction (out of 10)": "6",
   "interruptions by customer": "0",
   "interruptions by agent": "0",
   "callback promise": "Yes",

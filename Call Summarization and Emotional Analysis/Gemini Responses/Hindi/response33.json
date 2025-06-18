@@ -2,21 +2,21 @@
   "call id": "33",
   "agent id": "4",
   "call duration": "27.20",
-  "summary": "The agent helped the customer check loan approval status.",
+  "summary": "Customer inquired about loan approval status and document submission.",
   "intents": [
     {
-      "intent": "Check Loan Approval Status",
+      "intent": "Check Loan Status",
       "confidence": "95",
-      "keywords": "नमस्ते मैं सौरभ मेहता, मेरा लोन अप्रूवल स्टेटस ... क्या है?",
+      "keywords": "नमस्ते मैं सौरभ मेहता, मेरा लोन अप्रूवल स्टेटस ... है?",
       "intent timestamp": "0.000 sec - 8.000 sec",
       "products": [
         "Loan"
       ],
       "issues": [],
-      "actions of agent": "The agent checked the loan approval status using the application number.",
+      "actions of agent": "Checked the loan status using the application number.",
       "resolution status": "Resolved",
       "Process Request": "N/A",
-      "resolution": "The agent confirmed that the loan was approved.",
+      "resolution": "Loan is approved.",
       "resolution timestamp": "13.000 sec - 17.000 sec",
       "dominant emotions (customer)": [
         "Neutral"
@@ -25,18 +25,18 @@
       "customer satisfaction": "90"
     },
     {
-      "intent": "Inquire about document submission",
+      "intent": "Document Submission Inquiry",
       "confidence": "90",
       "keywords": "क्या ऑनलाइन जमा हो सकता है?",
-      "intent timestamp": "18.000 sec - 22.000 sec",
+      "intent timestamp": "18.000 sec - 23.000 sec",
       "products": [
         "Loan"
       ],
       "issues": [],
-      "actions of agent": "The agent offered to send an online link for document submission.",
+      "actions of agent": "Informed about online submission and offered to send a link.",
       "resolution status": "Resolved",
       "Process Request": "Send online link",
-      "resolution": "The agent will send an online link for document submission.",
+      "resolution": "Online submission is possible, agent will send a link.",
       "resolution timestamp": "20.000 sec - 24.000 sec",
       "dominant emotions (customer)": [
         "Neutral"

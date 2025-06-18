@@ -19,12 +19,13 @@
           "issue type": "Technical"
         }
       ],
-      "actions of agent": "Checked the status, confirmed the issue, and initiated EMI conversion.",
+      "actions of agent": "Checked the status and initiated EMI conversion for 12 months.",
       "resolution status": "Resolved",
       "Process Request": "Manual EMI conversion request",
       "resolution": "Agent initiated EMI conversion for 12 months.",
       "resolution timestamp": "22.000 sec - 25.000 sec",
       "dominant emotions (customer)": [
+        "Concern",
         "Neutral"
       ],
       "conversation sentiment": "Neutral",

@@ -14,21 +14,21 @@
       ],
       "issues": [
         {
-          "issue": "PIN not generated",
-          "reason(s)": "PIN generation request failed",
+          "issue": "PIN not generated for new credit card",
+          "reason(s)": "Pin generation request failed",
           "issue type": "Technical"
         }
       ],
       "actions of agent": "Agent checked the status, identified the failed PIN generation request, and reinitiated the process.",
       "resolution status": "Resolved",
       "Process Request": "Reinitiated PIN generation process.",
-      "resolution": "PIN will be generated and sent via SMS within 48 hours.",
+      "resolution": "PIN will be sent via SMS within 48 hours.",
       "resolution timestamp": "25.000 sec - 29.000 sec",
       "dominant emotions (customer)": [
         "Neutral"
       ],
       "conversation sentiment": "Neutral",
-      "customer satisfaction": "80"
+      "customer satisfaction": "85"
     }
   ],
   "basic greeting and closing": "Yes",

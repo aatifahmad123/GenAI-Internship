@@ -19,25 +19,25 @@
           "issue type": "Billing"
         }
       ],
-      "actions of agent": "The agent verified the account details and initiated a request to correct the interest calculation.",
-      "resolution status": "Resolved",
-      "Process Request": "Request to correct interest calculation",
-      "resolution": "The agent informed the customer that the interest would be updated in 3-5 working days.",
-      "resolution timestamp": "26.000 sec - 30.000 sec",
+      "actions of agent": "The agent acknowledged the issue, asked for the account number, verified the issue, and raised a request to correct it.",
+      "resolution status": "Pending with Callback",
+      "Process Request": "Request to correct the interest calculation error.",
+      "resolution": "The interest will be updated in 3-5 working days, and the customer will be notified.",
+      "resolution timestamp": "26.000 sec - 31.000 sec",
       "dominant emotions (customer)": [
         "Neutral"
       ],
       "conversation sentiment": "Neutral",
-      "customer satisfaction": "80"
+      "customer satisfaction": "70"
     }
   ],
   "basic greeting and closing": "Yes",
   "fatal behaviour": "No",
   "agent professionalism (out of 10)": "9",
-  "agent performance (out of 10)": "9",
-  "customer satisfaction (out of 10)": "8",
+  "agent performance (out of 10)": "8",
+  "customer satisfaction (out of 10)": "7",
   "interruptions by customer": "0",
   "interruptions by agent": "0",
   "callback promise": "Yes",
-  "callback time": "3-5 working days"
+  "callback time": "In 3-5 working days"
 }

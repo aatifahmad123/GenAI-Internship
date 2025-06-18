@@ -2,12 +2,12 @@
   "call id": "31",
   "agent id": "4",
   "call duration": "32",
-  "summary": "Agent assisted customer with balance update issue.",
+  "summary": "The customer inquired about a missing deposit update.",
   "intents": [
     {
-      "intent": "Balance Inquiry/Update",
+      "intent": "Balance Update Inquiry",
       "confidence": "95",
-      "keywords": "नमस्ते मैं विशाल ... बैलेंस अपडेट नहीं हो रहा।",
+      "keywords": "मेरे खाते का बैलेंस अपडेट ... नहीं हो रहा",
       "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "Bank Account"
@@ -19,13 +19,14 @@
           "issue type": "Technical"
         }
       ],
-      "actions of agent": "Checked the deposit status and informed the customer about the processing time.",
+      "actions of agent": "Checked the status of the deposit and informed the customer.",
       "resolution status": "Resolved",
       "Process Request": "N/A",
-      "resolution": "Informed customer that the deposit is processing and will be updated within 24 hours.",
+      "resolution": "The agent informed the customer that the deposit is processing and will reflect within 24 hours.",
       "resolution timestamp": "18.000 sec - 23.000 sec",
       "dominant emotions (customer)": [
-        "Concerned"
+        "Concern",
+        "Inquiry"
       ],
       "conversation sentiment": "Neutral",
       "customer satisfaction": "85"
@@ -33,21 +34,21 @@
     {
       "intent": "Confirmation Request",
       "confidence": "90",
-      "keywords": "ठीक है क्या मुझे कोई कंफर्मेशन मिलेगा?",
-      "intent timestamp": "23.000 sec - 26.000 sec",
+      "keywords": "क्या मुझे कोई कंफर्मेशन मिलेगा?",
+      "intent timestamp": "23.000 sec - 28.000 sec",
       "products": [
         "Bank Account"
       ],
       "issues": [],
-      "actions of agent": "Confirmed that the customer will receive an SMS and email confirmation.",
+      "actions of agent": "Confirmed that the customer will receive an SMS and email.",
       "resolution status": "Resolved",
       "Process Request": "N/A",
-      "resolution": "Agent confirmed that customer will receive confirmation via SMS and email.",
+      "resolution": "The agent confirmed that a confirmation SMS and email will be sent.",
       "resolution timestamp": "25.000 sec - 28.000 sec",
       "dominant emotions (customer)": [
-        "Inquisitive"
+        "Inquiry"
       ],
-      "conversation sentiment": "Positive",
+      "conversation sentiment": "Neutral",
       "customer satisfaction": "90"
     }
   ],
@@ -55,7 +56,7 @@
   "fatal behaviour": "No",
   "agent professionalism (out of 10)": "9",
   "agent performance (out of 10)": "9",
-  "customer satisfaction (out of 10)": "8",
+  "customer satisfaction (out of 10)": "9",
   "interruptions by customer": "0",
   "interruptions by agent": "0",
   "callback promise": "No",

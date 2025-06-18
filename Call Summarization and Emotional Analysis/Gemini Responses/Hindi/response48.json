@@ -28,13 +28,13 @@
         "Neutral"
       ],
       "conversation sentiment": "Neutral",
-      "customer satisfaction": "85"
+      "customer satisfaction": "80"
     },
     {
       "intent": "Request for Physical Copy",
       "confidence": "90",
       "keywords": "क्या इस फिजिकल कॉपी में मिल सकता है?",
-      "intent timestamp": "18.000 sec - 21.000 sec",
+      "intent timestamp": "17.000 sec - 22.000 sec",
       "products": [
         "Loan"
       ],
@@ -42,7 +42,7 @@
       "actions of agent": "Agent informed the customer that they can obtain a physical copy from the branch.",
       "resolution status": "Resolved",
       "Process Request": "N/A",
-      "resolution": "Customer can get the physical copy from the branch.",
+      "resolution": "Customer was informed about the availability of physical copy at the branch.",
       "resolution timestamp": "20.000 sec - 23.000 sec",
       "dominant emotions (customer)": [
         "Neutral"
@@ -55,7 +55,7 @@
   "fatal behaviour": "No",
   "agent professionalism (out of 10)": "9",
   "agent performance (out of 10)": "9",
-  "customer satisfaction (out of 10)": "9",
+  "customer satisfaction (out of 10)": "8",
   "interruptions by customer": "0",
   "interruptions by agent": "0",
   "callback promise": "No",

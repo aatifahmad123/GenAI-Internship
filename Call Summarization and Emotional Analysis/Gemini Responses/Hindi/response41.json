@@ -7,7 +7,7 @@
     {
       "intent": "Direct Debit Setup Issue",
       "confidence": "95",
-      "keywords": "मेरे खाते में डायरेक्ट डेबिट सेटअप नहीं ... रहा हूं।",
+      "keywords": "नमस्ते मैं प्रवीण...डायरेक्ट डेबिट सेटअप नहीं हो रहा।",
       "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "Direct Debit"
@@ -19,16 +19,36 @@
           "issue type": "Technical"
         }
       ],
-      "actions of agent": "Agent identified the issue, informed customer about incomplete form, and offered to send a new form link.",
+      "actions of agent": "Agent identified the issue, offered to send a new form link.",
       "resolution status": "Resolved",
-      "Process Request": "Send new mandate form link to customer.",
-      "resolution": "Agent sent a new mandate form link to the customer and informed that it will take 3 working days to setup.",
-      "resolution timestamp": "21.000 sec - 28.000 sec",
+      "Process Request": "Sending new mandate form link.",
+      "resolution": "Agent sent a new mandate form link to the customer.",
+      "resolution timestamp": "21.000 sec - 24.000 sec",
       "dominant emotions (customer)": [
         "Neutral"
       ],
       "conversation sentiment": "Neutral",
       "customer satisfaction": "80"
+    },
+    {
+      "intent": "Inquiry about Setup Time",
+      "confidence": "90",
+      "keywords": "कितने समय में सेट हो जाएगा?",
+      "intent timestamp": "22.000 sec - 26.000 sec",
+      "products": [
+        "Direct Debit"
+      ],
+      "issues": [],
+      "actions of agent": "Agent informed the customer about the setup time.",
+      "resolution status": "Resolved",
+      "Process Request": "N/A",
+      "resolution": "The agent informed the customer that it would take three working days after form submission.",
+      "resolution timestamp": "25.000 sec - 28.000 sec",
+      "dominant emotions (customer)": [
+        "Neutral"
+      ],
+      "conversation sentiment": "Neutral",
+      "customer satisfaction": "85"
     }
   ],
   "basic greeting and closing": "Yes",

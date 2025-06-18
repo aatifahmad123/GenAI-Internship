@@ -19,10 +19,10 @@
           "issue type": "Technical"
         }
       ],
-      "actions of agent": "Identified the issue and provided a solution.",
+      "actions of agent": "Identified the issue and provided solution for KYC update.",
       "resolution status": "Resolved",
       "Process Request": "Send online KYC link",
-      "resolution": "Agent offered to send an online KYC link.",
+      "resolution": "Agent provided online KYC link to resolve the issue.",
       "resolution timestamp": "21.000 sec - 24.000 sec",
       "dominant emotions (customer)": [
         "Concerned"
@@ -34,7 +34,7 @@
   "basic greeting and closing": "Yes",
   "fatal behaviour": "No",
   "agent professionalism (out of 10)": "9",
-  "agent performance (out of 10)": "8",
+  "agent performance (out of 10)": "9",
   "customer satisfaction (out of 10)": "8",
   "interruptions by customer": "0",
   "interruptions by agent": "0",

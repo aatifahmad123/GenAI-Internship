@@ -2,8 +2,8 @@ import json
 import os
 
 # Path to the folder containing the JSON files
-folder_path = 'Gemini Responses'
-output_file = 'output.json'
+folder_path = 'Gemini Responses/Hindi'
+output_file = 'Combined Responses/hindi.json'
 
 # Prepare a list to hold data from all files
 all_data = []

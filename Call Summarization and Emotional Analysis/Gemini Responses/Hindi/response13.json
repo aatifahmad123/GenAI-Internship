@@ -15,7 +15,7 @@
       "issues": [
         {
           "issue": "Customer's net banking password is not working.",
-          "reason(s)": "Customer entered the wrong password multiple times, leading to account lockout.",
+          "reason(s)": "The account was locked due to multiple incorrect password attempts.",
           "issue type": "Technical"
         }
       ],
@@ -23,19 +23,19 @@
       "resolution status": "Resolved",
       "Process Request": "Password reset link sent to customer's registered email.",
       "resolution": "Password reset link sent to the customer's registered email address.",
-      "resolution timestamp": "12.000 sec - 18.000 sec",
+      "resolution timestamp": "13.000 sec - 18.000 sec",
       "dominant emotions (customer)": [
         "Frustration"
       ],
       "conversation sentiment": "Neutral",
-      "customer satisfaction": "90"
+      "customer satisfaction": "85"
     }
   ],
   "basic greeting and closing": "Yes",
   "fatal behaviour": "No",
   "agent professionalism (out of 10)": "9",
   "agent performance (out of 10)": "9",
-  "customer satisfaction (out of 10)": "9",
+  "customer satisfaction (out of 10)": "8",
   "interruptions by customer": "0",
   "interruptions by agent": "0",
   "callback promise": "No",

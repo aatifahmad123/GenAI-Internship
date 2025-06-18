@@ -7,7 +7,7 @@
     {
       "intent": "Insurance Coverage Inquiry",
       "confidence": "95",
-      "keywords": "हेलो मैं दीपिका साहू मेरे लोन का इंश्योरेंस कवर ... क्यों नहीं मिला?",
+      "keywords": "हेलो मैं दीपिका साहू मेरे लोन का इंश्योरेंस कवर क्यों ... नहीं मिला?",
       "intent timestamp": "0.000 sec - 8.000 sec",
       "products": [
         "Loan",
@@ -20,24 +20,24 @@
           "issue type": "Billing"
         }
       ],
-      "actions of agent": "Agent checked the account and informed about the pending insurance premium payment and offered to send a payment link.",
-      "resolution status": "Resolved",
-      "Process Request": "Send payment link to customer.",
-      "resolution": "The agent informed the customer about the pending premium and the amount to be paid.",
-      "resolution timestamp": "14.000 sec - 19.000 sec",
+      "actions of agent": "Checked the account and informed about pending insurance premium payment.",
+      "resolution status": "Pending with Callback",
+      "Process Request": "Agent promised to send payment link.",
+      "resolution": "Agent will send a payment link for the insurance premium.",
+      "resolution timestamp": "17.000 sec - 19.000 sec",
       "dominant emotions (customer)": [
-        "Concern",
-        "Inquiry"
+        "Concerned",
+        "Inquisitive"
       ],
       "conversation sentiment": "Neutral",
-      "customer satisfaction": "80"
+      "customer satisfaction": "70"
     }
   ],
   "basic greeting and closing": "Yes",
   "fatal behaviour": "No",
-  "agent professionalism (out of 10)": "9",
-  "agent performance (out of 10)": "9",
-  "customer satisfaction (out of 10)": "8",
+  "agent professionalism (out of 10)": "8",
+  "agent performance (out of 10)": "8",
+  "customer satisfaction (out of 10)": "7",
   "interruptions by customer": "0",
   "interruptions by agent": "0",
   "callback promise": "No",

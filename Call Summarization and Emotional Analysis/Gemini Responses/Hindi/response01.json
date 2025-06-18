@@ -19,10 +19,10 @@
           "issue type": "Technical"
         }
       ],
-      "actions of agent": "Identified the technical block and informed the customer about unblocking it.",
+      "actions of agent": "The agent checked the card and identified a technical block.",
       "resolution status": "Resolved",
-      "Process Request": "N/A",
-      "resolution": "The agent unblocked the debit card and informed the customer it will work in 2 hours.",
+      "Process Request": "Unblocking the debit card.",
+      "resolution": "The agent unblocked the card and informed the customer it would work in 2 hours.",
       "resolution timestamp": "37.000 sec - 42.000 sec",
       "dominant emotions (customer)": [
         "Concern",

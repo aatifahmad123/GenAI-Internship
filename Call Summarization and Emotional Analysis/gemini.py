@@ -123,7 +123,7 @@ for i in range(1, agents + 1):
             response = response.rstrip("```").strip()
 
         
-        with open(responsesFile, 'w') as file:
+        with open(responsesFile, 'w',encoding='utf-8') as file:
             file.write(response)
         
         

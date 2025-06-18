@@ -2,7 +2,7 @@
   "call id": "35",
   "agent id": "4",
   "call duration": "32",
-  "summary": "Customer reports incorrect name linked to account, agent assists.",
+  "summary": "The customer reported an incorrect name linked to his account.",
   "intents": [
     {
       "intent": "Account Information Update",
@@ -15,15 +15,15 @@
       "issues": [
         {
           "issue": "Incorrect name on account",
-          "reason(s)": "Name mismatch in the account records.",
+          "reason(s)": "Name mismatch",
           "issue type": "Technical"
         }
       ],
-      "actions of agent": "Verified account details, initiated name update request.",
+      "actions of agent": "Verified account details and initiated name update request.",
       "resolution status": "Pending with Callback",
-      "Process Request": "Name update request initiated.",
-      "resolution": "Agent informed the customer that the name update request has been initiated and will take 3-5 working days.",
-      "resolution timestamp": "21.000 sec - 28.000 sec",
+      "Process Request": "Name update request initiated, requires KYC documents.",
+      "resolution": "Name update to be completed in 3-5 working days.",
+      "resolution timestamp": "25.000 sec - 28.000 sec",
       "dominant emotions (customer)": [
         "Neutral"
       ],
@@ -33,9 +33,9 @@
   ],
   "basic greeting and closing": "Yes",
   "fatal behaviour": "No",
-  "agent professionalism (out of 10)": "9",
+  "agent professionalism (out of 10)": "8",
   "agent performance (out of 10)": "8",
-  "customer satisfaction (out of 10)": "8",
+  "customer satisfaction (out of 10)": "7",
   "interruptions by customer": "0",
   "interruptions by agent": "0",
   "callback promise": "No",

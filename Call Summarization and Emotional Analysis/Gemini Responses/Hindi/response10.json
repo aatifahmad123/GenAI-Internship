@@ -7,22 +7,22 @@
     {
       "intent": "Reward Points Redemption",
       "confidence": "95",
-      "keywords": "हेलो मैं कविता मेहता ... रीवार्ड प्वाइंट्स रिडीम कैसे करें?",
+      "keywords": "हेलो मैं कविता मेहता...रीवार्ड प्वाइंट्स रिडीम कैसे करें?",
       "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "Credit Card"
       ],
       "issues": [
         {
-          "issue": "Customer needs assistance with reward points redemption process.",
-          "reason(s)": "Customer is unsure how to redeem reward points.",
-          "issue type": "Service"
+          "issue": "Customer wants to know how to redeem reward points.",
+          "reason(s)": "Customer is unaware of the redemption process.",
+          "issue type": "General Inquiry"
         }
       ],
-      "actions of agent": "The agent provided guidance on how to redeem points and offered to email the steps.",
+      "actions of agent": "The agent provided instructions on how to redeem points via app/website and offered to email the steps.",
       "resolution status": "Resolved",
       "Process Request": "Emailing detailed guide to the customer.",
-      "resolution": "Agent offered to send a detailed guide via email.",
+      "resolution": "Agent explained the process and will email the steps.",
       "resolution timestamp": "26.000 sec - 29.000 sec",
       "dominant emotions (customer)": [
         "Neutral"

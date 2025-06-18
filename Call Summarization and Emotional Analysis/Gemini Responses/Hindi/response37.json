@@ -19,23 +19,23 @@
           "issue type": "Technical"
         }
       ],
-      "actions of agent": "Agent checked the details and informed the customer about the reason for failure.",
+      "actions of agent": "Agent checked the details and identified the reason for failure.",
       "resolution status": "Unresolved",
       "Process Request": "N/A",
-      "resolution": "Customer was informed that the RTGS transfer failed due to incorrect beneficiary details and needs to try again with correct details.",
+      "resolution": "Customer was informed that the transfer failed due to incorrect beneficiary details and needs to retry with correct details.",
       "resolution timestamp": "16.000 sec - 21.000 sec",
       "dominant emotions (customer)": [
-        "Concern"
+        "Neutral"
       ],
       "conversation sentiment": "Neutral",
-      "customer satisfaction": "60"
+      "customer satisfaction": "70"
     }
   ],
   "basic greeting and closing": "Yes",
   "fatal behaviour": "No",
   "agent professionalism (out of 10)": "8",
   "agent performance (out of 10)": "7",
-  "customer satisfaction (out of 10)": "6",
+  "customer satisfaction (out of 10)": "7",
   "interruptions by customer": "0",
   "interruptions by agent": "0",
   "callback promise": "No",

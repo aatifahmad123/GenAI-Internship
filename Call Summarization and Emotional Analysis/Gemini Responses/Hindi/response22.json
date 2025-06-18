@@ -5,9 +5,9 @@
   "summary": "The agent resolved the customer's international transaction issue.",
   "intents": [
     {
-      "intent": "Credit Card Issue",
+      "intent": "Credit card issue",
       "confidence": "95",
-      "keywords": "हेलो मैं स्वाति मिश्रा मेरा क्रेडिट कार्ड विदेश में ... नहीं कर रहा।",
+      "keywords": "हेलो मैं स्वाति मिश्रा मेरा क्रेडिट कार्ड विदेश में काम ...रहा।",
       "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "Credit Card"
@@ -21,14 +21,15 @@
       ],
       "actions of agent": "The agent identified that international transactions were blocked and activated them.",
       "resolution status": "Resolved",
-      "Process Request": "The agent activated international transactions.",
-      "resolution": "International transactions will be activated within 24 hours.",
-      "resolution timestamp": "23.000 sec - 28.000 sec",
+      "Process Request": "Activation of international transactions.",
+      "resolution": "The agent activated international transactions on the customer's credit card.",
+      "resolution timestamp": "19.000 sec - 24.000 sec",
       "dominant emotions (customer)": [
-        "Concerned"
+        "Concern",
+        "Inquiry"
       ],
       "conversation sentiment": "Neutral",
-      "customer satisfaction": "80"
+      "customer satisfaction": "85"
     }
   ],
   "basic greeting and closing": "Yes",

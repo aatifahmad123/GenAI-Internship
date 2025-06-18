@@ -14,8 +14,8 @@
       ],
       "issues": [
         {
-          "issue": "Credit card statement not delivered",
-          "reason(s)": "Delivery error",
+          "issue": "Credit card statement not delivered.",
+          "reason(s)": "Delivery error.",
           "issue type": "Service"
         }
       ],
@@ -35,7 +35,7 @@
       "intent": "Inquiry about Future Statements",
       "confidence": "90",
       "keywords": "क्या भविष्य में फिजिकल स्टेटमेंट मिलेगा?",
-      "intent timestamp": "21.000 sec - 26.000 sec",
+      "intent timestamp": "22.000 sec - 26.000 sec",
       "products": [
         "Credit Card"
       ],
@@ -56,7 +56,7 @@
   "fatal behaviour": "No",
   "agent professionalism (out of 10)": "9",
   "agent performance (out of 10)": "9",
-  "customer satisfaction (out of 10)": "9",
+  "customer satisfaction (out of 10)": "8",
   "interruptions by customer": "0",
   "interruptions by agent": "0",
   "callback promise": "No",

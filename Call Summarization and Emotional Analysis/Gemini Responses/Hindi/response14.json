@@ -14,24 +14,24 @@
       ],
       "issues": [
         {
-          "issue": "Unexpected increase in loan interest rate.",
-          "reason(s)": "RBI's new policy caused the change in interest rate.",
+          "issue": "Sudden increase in loan interest rate",
+          "reason(s)": "RBI's new policy",
           "issue type": "Billing"
         },
         {
-          "issue": "Did not receive a notice about the interest rate change.",
+          "issue": "Did not receive a notice about the change",
           "reason(s)": "N/A",
           "issue type": "Billing"
         }
       ],
-      "actions of agent": "Agent checked the account, explained the reason for the increase, offered to send details via email, and submitted a review request.",
+      "actions of agent": "Checked the account, explained the reason for the increase, offered to send details via email, and submitted a review request.",
       "resolution status": "Pending with Callback",
-      "Process Request": "Review request for interest rate.",
-      "resolution": "Agent will send details via email and provide an update after the review.",
+      "Process Request": "Review request for interest rate",
+      "resolution": "Agent offered to submit a review request and provide updates.",
       "resolution timestamp": "21.000 sec - 26.000 sec",
       "dominant emotions (customer)": [
         "Concern",
-        "Surprise"
+        "Inquiry"
       ],
       "conversation sentiment": "Neutral",
       "customer satisfaction": "60"

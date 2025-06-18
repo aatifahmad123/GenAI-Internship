@@ -2,34 +2,34 @@
   "call id": "21",
   "agent id": "3",
   "call duration": "34",
-  "summary": "Customer reported an unknown charge, agent processed refund request.",
+  "summary": "The customer inquired about an unknown service fee charge.",
   "intents": [
     {
       "intent": "Billing Dispute",
       "confidence": "95",
-      "keywords": "नमस्ते मैं निखिल पांडे बोल रहा हूं। मेरे खाते ... चार्ज कर रहे हैं।",
+      "keywords": "नमस्ते मैं निखिल पांडे बोल रहा हूं। मेरे खाते से ... रहे हैं।",
       "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "Bank Account"
       ],
       "issues": [
         {
-          "issue": "Unknown charge of 250 rupees.",
+          "issue": "Customer was charged an unknown service fee.",
           "reason(s)": "Minimum balance not maintained.",
           "issue type": "Billing"
         }
       ],
-      "actions of agent": "Identified the charge as a minimum balance fee and initiated a refund request.",
+      "actions of agent": "The agent checked the account and identified the charge as a minimum balance fee and initiated a refund request.",
       "resolution status": "Resolved",
-      "Process Request": "Refund request for the service fee.",
-      "resolution": "The agent informed the customer that the refund would be processed in five working days.",
-      "resolution timestamp": "28.000 sec - 31.000 sec",
+      "Process Request": "Refund request initiated.",
+      "resolution": "The agent informed the customer that the refund would be processed in five business days.",
+      "resolution timestamp": "28.000 sec - 30.000 sec",
       "dominant emotions (customer)": [
-        "Concern",
-        "Inquiry"
+        "Confused",
+        "Inquisitive"
       ],
       "conversation sentiment": "Neutral",
-      "customer satisfaction": "85"
+      "customer satisfaction": "80"
     }
   ],
   "basic greeting and closing": "Yes",

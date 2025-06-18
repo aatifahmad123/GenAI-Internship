@@ -15,11 +15,11 @@
       "issues": [
         {
           "issue": "Delay in processing fee refund",
-          "reason(s)": "Refund process delayed",
+          "reason(s)": "Refund process delayed.",
           "issue type": "Billing"
         }
       ],
-      "actions of agent": "Agent checked the status and initiated the refund process.",
+      "actions of agent": "Agent checked the refund status and initiated the refund process.",
       "resolution status": "Resolved",
       "Process Request": "Yes",
       "resolution": "Refund will be processed in 5-7 working days.",
@@ -35,7 +35,7 @@
   "basic greeting and closing": "Yes",
   "fatal behaviour": "No",
   "agent professionalism (out of 10)": "9",
-  "agent performance (out of 10)": "8",
+  "agent performance (out of 10)": "9",
   "customer satisfaction (out of 10)": "8",
   "interruptions by customer": "0",
   "interruptions by agent": "0",

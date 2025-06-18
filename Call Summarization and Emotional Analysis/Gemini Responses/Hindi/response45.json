@@ -14,15 +14,15 @@
       ],
       "issues": [
         {
-          "issue": "Auto renewal failed",
+          "issue": "Auto renewal failure",
           "reason(s)": "Technical error in the system",
           "issue type": "Technical"
         }
       ],
       "actions of agent": "Identified the issue, manually renewed the customer's FB.",
       "resolution status": "Resolved",
-      "Process Request": "Manual renewal of FB",
-      "resolution": "Agent manually renewed the FB.",
+      "Process Request": "Manual Renewal",
+      "resolution": "Agent manually renewed the customer's FB.",
       "resolution timestamp": "17.000 sec - 19.000 sec",
       "dominant emotions (customer)": [
         "Concerned"
@@ -34,7 +34,7 @@
       "intent": "Rate Confirmation",
       "confidence": "90",
       "keywords": "क्या ब्याज दर वही रहेगी?",
-      "intent timestamp": "17.000 sec - 23.000 sec",
+      "intent timestamp": "15.000 sec - 21.000 sec",
       "products": [
         "FB"
       ],
@@ -42,7 +42,7 @@
       "actions of agent": "Confirmed that the interest rate would remain the same.",
       "resolution status": "Resolved",
       "Process Request": "N/A",
-      "resolution": "Confirmed the interest rate will remain same.",
+      "resolution": "Agent confirmed the interest rate will remain same.",
       "resolution timestamp": "20.000 sec - 23.000 sec",
       "dominant emotions (customer)": [
         "Inquiry"

@@ -7,8 +7,8 @@
     {
       "intent": "Fee Waiver Request",
       "confidence": "95",
-      "keywords": "हेलो मैं सुनील चौहान मेरे क्रेडिट कार्ड की वार्षिक फीस माफ ... क्यों नहीं हुई?",
-      "intent timestamp": "0.000 sec - 9.000 sec",
+      "keywords": "हेलो मैं सुनील चौहान मेरे क्रेडिट कार्ड की वार्षिक फीस माफ...",
+      "intent timestamp": "0.000 sec - 5.000 sec",
       "products": [
         "Credit Card"
       ],
@@ -19,14 +19,14 @@
           "issue type": "Billing"
         }
       ],
-      "actions of agent": "Agent checked the customer's account and confirmed the reason for the fee not being waived. Agent then submitted a request for a fee waiver.",
+      "actions of agent": "Agent checked the customer's account, confirmed the reason for the fee not being waived, and submitted a request for a fee waiver.",
       "resolution status": "Pending with Callback",
       "Process Request": "Request for fee waiver submitted.",
       "resolution": "Agent submitted a request to waive the annual fee, which will be updated in 5-7 days.",
       "resolution timestamp": "20.000 sec - 29.000 sec",
       "dominant emotions (customer)": [
-        "Concerned",
-        "Inquisitive"
+        "Neutral",
+        "Inquiry"
       ],
       "conversation sentiment": "Neutral",
       "customer satisfaction": "75"

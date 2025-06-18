@@ -5,9 +5,9 @@
   "summary": "Customer is facing issues with X registration, agent provides resolution.",
   "intents": [
     {
-      "intent": "Technical Issue",
+      "intent": "X Registration Issue",
       "confidence": "95",
-      "keywords": "हेलो मैं विक्रम राठौर मेरे खाते में एक्स रजिस्ट्रेशन नहीं ...रजिस्ट्रेशन नहीं हो रहा!",
+      "keywords": "हेलो मैं विक्रम राठौर मेरे खाते में एक्स रजिस्ट्रेशन ...रजिस्ट्रेशन नहीं हो रहा!",
       "intent timestamp": "0.000 sec - 9.000 sec",
       "products": [
         "Mutual Fund SIP",
@@ -16,32 +16,32 @@
       "issues": [
         {
           "issue": "X registration not working",
-          "reason(s)": "Incomplete form",
+          "reason(s)": "Incomplete X form",
           "issue type": "Technical"
         }
       ],
-      "actions of agent": "Identified the issue, provided a new form link.",
+      "actions of agent": "Agent identified the issue, offered to send a new form link.",
       "resolution status": "Resolved",
-      "Process Request": "Sending new form link to customer.",
+      "Process Request": "Send new form link to customer.",
       "resolution": "Agent sent a new form link to the customer to complete the X registration.",
-      "resolution timestamp": "21.000 sec - 24.000 sec",
+      "resolution timestamp": "22.000 sec - 23.000 sec",
       "dominant emotions (customer)": [
-        "Concerned"
+        "Frustration"
       ],
       "conversation sentiment": "Neutral",
       "customer satisfaction": "80"
     },
     {
-      "intent": "Inquiry about resolution time",
+      "intent": "Inquiry about processing time",
       "confidence": "90",
       "keywords": "कितने समय में सेट हो जाएगा?",
-      "intent timestamp": "22.000 sec - 26.000 sec",
+      "intent timestamp": "23.000 sec - 26.000 sec",
       "products": [
         "Mutual Fund SIP",
         "X Registration"
       ],
       "issues": [],
-      "actions of agent": "Provided the estimated time for the X registration to be set up.",
+      "actions of agent": "Agent informed the customer about the processing time.",
       "resolution status": "Resolved",
       "Process Request": "N/A",
       "resolution": "Agent informed that it will take 3 days after form submission.",

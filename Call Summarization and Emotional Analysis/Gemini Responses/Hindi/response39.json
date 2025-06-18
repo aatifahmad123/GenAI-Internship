@@ -2,7 +2,7 @@
   "call id": "39",
   "agent id": "4",
   "call duration": "32",
-  "summary": "The customer inquired about a decrease in their debit card limit.",
+  "summary": "The customer inquired about a debit card limit decrease.",
   "intents": [
     {
       "intent": "Debit Card Limit Inquiry",
@@ -25,8 +25,8 @@
       "resolution": "The agent informed the customer that the limit increase request would take 3-5 business days.",
       "resolution timestamp": "26.000 sec - 29.000 sec",
       "dominant emotions (customer)": [
-        "Concerned",
-        "Inquisitive"
+        "Concern",
+        "Inquiry"
       ],
       "conversation sentiment": "Neutral",
       "customer satisfaction": "70"
@@ -34,7 +34,7 @@
   ],
   "basic greeting and closing": "Yes",
   "fatal behaviour": "No",
-  "agent professionalism (out of 10)": "8",
+  "agent professionalism (out of 10)": "9",
   "agent performance (out of 10)": "8",
   "customer satisfaction (out of 10)": "7",
   "interruptions by customer": "0",
