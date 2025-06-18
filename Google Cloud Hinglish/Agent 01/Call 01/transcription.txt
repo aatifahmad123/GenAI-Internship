@@ -1,7 +1,0 @@
-Customer: Namaste mera naam Ravi Kumar hai mera debit card last week Se Kam Nahin kar raha hai.
-Agent: Namaste Ravi ji, main aapki help ke liye hun kya bata sakte hain ki kard kahan use karne ki koshish ki thi?
-Customer: Khan meaning online shopping ki tricky lekin Har Bar transaction decline ka message a raha hai
-Agent: Samjha kya aap apna card number bata sakte hain Taki main check kar Sakun
-Customer: Yah Lijiye 24681 3572 4911234 please jaldi dekho Mujhe yah jaldi fix karvana hai.
-Agent: Ji, Maine dekh liya aapke card Par Ek technical block hai. Main ise abhi unblock kar deta hun 2 ghante Mein yah work karne lagega.
-Customer: Thanks, please show karo ki jaldi ho jaaye.
