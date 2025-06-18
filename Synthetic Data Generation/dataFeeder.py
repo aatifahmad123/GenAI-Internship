@@ -6,7 +6,7 @@ working_dir = f'../Google Cloud Hinglish'
 with open(json_file_path, "r", encoding="utf-8") as jsonf:
     data = json.load(jsonf)
 
-for i in range(21,51):
+for i in range(1,51):
     call_id = f'{i:02d}'
     key = f'call_{call_id}'
     value = data.get(key, {})
