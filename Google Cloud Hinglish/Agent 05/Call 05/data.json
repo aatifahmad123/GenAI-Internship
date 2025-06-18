@@ -2,31 +2,31 @@
     "conversation": [
         {
             "speaker": "Customer",
-            "text": "नमस्ते, मैं राहुल पाटिल। मेरे FD का ऑटो-रिन्यूअल क्यों नहीं हुआ?"
+            "text": "Hello, main Rakesh Patel. Mera fixed deposit ka auto-renewal kaise band karoon?"
         },
         {
             "speaker": "RM",
-            "text": "नमस्ते राहुल जी, मैं चेक करता हूँ। कृपया FD नंबर बता दें।"
+            "text": "Namaste Rakesh ji, main aapki madad karoonga. Kya aap apna FD number bata sakte hain?"
         },
         {
             "speaker": "Customer",
-            "text": "FD नंबर FD456789123। मैंने ऑटो-रिन्यूअल सेट किया था।"
+            "text": "Haan, yeh hai F D 4 5 6 7 8 9 1 2 3."
         },
         {
             "speaker": "RM",
-            "text": "मैंने देखा। सिस्टम में तकनीकी त्रुटि थी। मैं इसे मैन्युअल रिन्यू करता हूँ।"
+            "text": "Maine dekha, aapka FD auto-renewal pe set hai. Main ise deactivate kar deta hoon. Maturity ke baad amount aapke account mein credit ho jayega."
         },
         {
             "speaker": "Customer",
-            "text": "क्या ब्याज दर वही रहेगी?"
+            "text": "Theek hai, kab tak ho jayega?"
         },
         {
             "speaker": "RM",
-            "text": "हाँ, वही दर लागू होगी। धन्यवाद, राहुल जी। और कुछ?"
+            "text": "Request aaj hi process ho jayegi. Koi aur sawal?"
         },
         {
             "speaker": "Customer",
-            "text": "नहीं, धन्यवाद।"
+            "text": "Nahi, thank you."
         }
     ]
 }

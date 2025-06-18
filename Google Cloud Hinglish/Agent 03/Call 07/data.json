@@ -2,31 +2,31 @@
     "conversation": [
         {
             "speaker": "Customer",
-            "text": "नमस्ते, मैं शालिनी वर्मा। मेरे क्रेडिट कार्ड का EMI कन्वर्जन नहीं हुआ।"
+            "text": "Namaste, main Aditya Singh. Mera car loan ka EMI schedule kahan se milega?"
         },
         {
             "speaker": "RM",
-            "text": "नमस्ते शालिनी जी, मैं चेक करता हूँ। कृपया कार्ड नंबर और ट्रांजैक्शन विवरण बता दें।"
+            "text": "Namaste Aditya ji, main aapki madad karoonga. Kya aap apna loan account number bata sakte hain?"
         },
         {
             "speaker": "Customer",
-            "text": "कार्ड नंबर 3456-7890-1234-5678। 20,000 रुपये की खरीद को EMI में करना था।"
+            "text": "Haan, yeh hai L N 1 2 3 7 8 9 4 5 6."
         },
         {
             "speaker": "RM",
-            "text": "मैंने देखा। अनुरोध प्रोसेस नहीं हुआ था। मैं इसे 12 महीने की EMI में कन्वर्ट करता हूँ।"
+            "text": "Maine check kiya. Aapka EMI schedule net banking se download ho sakta hai, ya main aapko email kar sakta hoon. Kaunsa option chahenge?"
         },
         {
             "speaker": "Customer",
-            "text": "कब तक अपडेट होगा?"
+            "text": "Email kar do, please."
         },
         {
             "speaker": "RM",
-            "text": "48 घंटे में अपडेट हो जाएगा। धन्यवाद, शालिनी जी। और कोई सहायता?"
+            "text": "Theek hai, main schedule aapke registered email pe bhej deta hoon. Koi aur sawal?"
         },
         {
             "speaker": "Customer",
-            "text": "नहीं, धन्यवाद।"
+            "text": "Nahi, shukriya."
         }
     ]
 }

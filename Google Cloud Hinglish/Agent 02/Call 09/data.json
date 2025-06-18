@@ -2,31 +2,31 @@
     "conversation": [
         {
             "speaker": "Customer",
-            "text": "हैलो, मैं विक्रम राठौर। मेरे खाते में ECS रजिस्ट्रेशन नहीं हो रहा।"
+            "text": "Namaste, main Anil Thakur. Mera personal loan ka interest rate kyun badh gaya?"
         },
         {
             "speaker": "RM",
-            "text": "नमस्ते विक्रम जी, मैं देखता हूँ। कृपया खाता नंबर और ECS विवरण बता दें।"
+            "text": "Namaste Anil ji, main aapke loan details check karta hoon. Kya aap apna loan account number bata sakte hain?"
         },
         {
             "speaker": "Customer",
-            "text": "खाता नंबर 6 7 8 9 0 1 2 3 4 5 6 7 । मैं म्यूचुअल फंड SIP के लिए ECS सेट करना चाहता हूँ।"
+            "text": "Haan, yeh hai L N 9 8 7 6 5 4 3 2 1. Pehle 9% tha, ab 10% dikh raha hai."
         },
         {
             "speaker": "RM",
-            "text": "समझा। आपका ECS फॉर्म अधूरा था। मैं आपको नया फॉर्म लिंक भेजता हूँ।"
+            "text": "Maine dekha, RBI ke new guidelines ke wajah se floating rate loans pe interest badha hai. Kya aap fixed rate pe switch karna chahte hain?"
         },
         {
             "speaker": "Customer",
-            "text": "कितने समय में सेट हो जाएगा?"
+            "text": "Haan, yeh better hai. Kaise karoon?"
         },
         {
             "speaker": "RM",
-            "text": "फॉर्म जमा करने के 3 दिन बाद। धन्यवाद, विक्रम जी। और कुछ?"
+            "text": "Main aapko process ke liye documents aur steps mail karta hoon. 3 din mein switch ho jayega. Theek hai?"
         },
         {
             "speaker": "Customer",
-            "text": "नहीं, धन्यवाद।"
+            "text": "Shukriya, bas jaldi karo."
         }
     ]
 }

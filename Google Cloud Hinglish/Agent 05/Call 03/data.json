@@ -2,31 +2,31 @@
     "conversation": [
         {
             "speaker": "Customer",
-            "text": "नमस्ते, मैं आदित्य राव। मेरे लोन की प्रोसेसिंग फीस वापस क्यों नहीं हुई?"
+            "text": "Namaste, main Vinod Kumar. Mera home loan ka interest certificate kahan se milega?"
         },
         {
             "speaker": "RM",
-            "text": "नमस्ते आदित्य जी, मैं चेक करता हूँ। कृपया लोन आवेदन नंबर बता दें।"
+            "text": "Namaste Vinod ji, main check karta hoon. Kya aap apna loan account number bata sakte hain?"
         },
         {
             "speaker": "Customer",
-            "text": "आवेदन नंबर APN123456789। मुझे बताया गया था कि फीस रिफंड होगी।"
+            "text": "Haan, yeh hai L N 3 4 5 6 7 8 9 0 1."
         },
         {
             "speaker": "RM",
-            "text": "मैंने देखा। रिफंड प्रक्रिया में देरी हुई है। मैं इसे तुरंत प्रोसेस करता हूँ।"
+            "text": "Aapka interest certificate net banking se download ho sakta hai, ya main aapko email kar sakta hoon. Kaunsa option chahenge?"
         },
         {
             "speaker": "Customer",
-            "text": "कब तक मिलेगा?"
+            "text": "Email kar do, please."
         },
         {
             "speaker": "RM",
-            "text": "5-7 कार्यदिवस में रिफंड हो जाएगा। धन्यवाद, आदित्य जी। और कुछ?"
+            "text": "Theek hai, main certificate aapke registered email pe bhej deta hoon. Koi aur sawal?"
         },
         {
             "speaker": "Customer",
-            "text": "बस इतना ही। धन्यवाद।"
+            "text": "Nahi, shukriya."
         }
     ]
 }

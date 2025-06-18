@@ -2,31 +2,31 @@
     "conversation": [
         {
             "speaker": "Customer",
-            "text": "नमस्ते, मैं प्रवीण सिंगला बोल रहा हूँ। मेरे खाते में डायरेक्ट डेबिट सेटअप नहीं हो रहा।"
+            "text": "Namaste, main Shweta Singh. Mera account ka nominee kaise add karoon?"
         },
         {
             "speaker": "RM",
-            "text": "नमस्ते प्रवीण जी, मैं आपकी मदद करूँगा। कृपया खाता नंबर और डेबिट का विवरण बता दें।"
+            "text": "Namaste Shweta ji, main aapko guide karta hoon. Kya aap apna account number bata sakti hain?"
         },
         {
             "speaker": "Customer",
-            "text": "खाता नंबर 345123789456। मैं बिजली बिल के लिए डायरेक्ट डेबिट सेट करना चाहता हूँ।"
+            "text": "Haan, yeh hai 2 3 4 5 6 7 8 9 0 1 2 3."
         },
         {
             "speaker": "RM",
-            "text": "मैंने चेक किया। आपका मैनडेट फॉर्म अधूरा था। मैं नया फॉर्म लिंक भेजता हूँ।"
+            "text": "Theek hai. Nominee add karne ke liye aapko branch mein form submit karna hoga ya online banking se request daal sakti hain. Main aapko process aur documents ke details mail karta hoon."
         },
         {
             "speaker": "Customer",
-            "text": "कितने समय में सेट हो जाएगा?"
+            "text": "Online ho sakta hai toh better hai. Kitna time lagega?"
         },
         {
             "speaker": "RM",
-            "text": "फॉर्म जमा करने के 3 कार्यदिवस बाद। धन्यवाद, प्रवीण जी। और कुछ?"
+            "text": "Online request 3-5 din mein process ho jayegi. Koi aur madad?"
         },
         {
             "speaker": "Customer",
-            "text": "नहीं, धन्यवाद।"
+            "text": "Nahi, shukriya."
         }
     ]
 }

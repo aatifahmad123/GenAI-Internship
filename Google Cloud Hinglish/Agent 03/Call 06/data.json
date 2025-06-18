@@ -2,31 +2,31 @@
     "conversation": [
         {
             "speaker": "Customer",
-            "text": "हैलो, मैं अनुज शर्मा। मेरे खाते का नाम गलत प्रिंट हुआ है।"
+            "text": "Namaste, main Meena Kumari. Mera credit card ka statement online kaise download karoon?"
         },
         {
             "speaker": "RM",
-            "text": "नमस्ते अनुज जी, मुझे खेद है। कृपया खाता नंबर और सही नाम बता दें।"
+            "text": "Namaste Meena ji, main aapko steps batata hoon. Kya aap apna card number confirm kar sakti hain?"
         },
         {
             "speaker": "Customer",
-            "text": "खाता नंबर 234123789456। सही नाम अनुज कुमार शर्मा है, लेकिन अनुज शर्मा लिखा है।"
+            "text": "Haan, yeh hai 1 2 3 4 - 5 6 7 8 - 9 0 1 2 - 3 4 5 6."
         },
         {
             "speaker": "RM",
-            "text": "मैंने नोट किया। कृपया KYC दस्तावेज जमा करें। मैं अपडेट प्रक्रिया शुरू करता हूँ।"
+            "text": "Aap hamare net banking ya mobile app se statement download kar sakti hain. Main aapko detailed steps email karta hoon. Theek hai?"
         },
         {
             "speaker": "Customer",
-            "text": "क्या ऑनलाइन जमा कर सकता हूँ?"
+            "text": "Haan, email kar do. Mujhe app use karna nahi aata."
         },
         {
             "speaker": "RM",
-            "text": "हाँ, मैं लिंक भेजता हूँ। धन्यवाद, अनुज जी। और कुछ?"
+            "text": "Koi baat nahi, steps simple hain aur screenshots bhi bhej doonga. Koi aur madad?"
         },
         {
             "speaker": "Customer",
-            "text": "बस इतना ही। धन्यवाद।"
+            "text": "Nahi, shukriya."
         }
     ]
 }

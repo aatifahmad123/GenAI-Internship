@@ -1,1 +1,28 @@
-{}
+{
+    "conversation": [
+        {
+            "speaker": "Customer",
+            "text": "Namaste, main Sanjay Mishra. Mera credit card limit kyun kam ho gaya?"
+        },
+        {
+            "speaker": "RM",
+            "text": "Namaste Sanjay ji, main aapki card details check karta hoon. Please card number bata do."
+        },
+        {
+            "speaker": "Customer",
+            "text": "4 5 6 7 - 9 0 1 2 - 6 8 3 1 - 5 6 7 8 .Pehle 2 lakh thi, ab 1.5 lakh dikh raha hai."
+        },
+        {
+            "speaker": "RM",
+            "text": "Ji, maine dekha. Aapki recent payment history ke basis pe limit adjust ki gayi hai. Kya aap ise badhwana chahte hain?"
+        },
+        {
+            "speaker": "Customer",
+            "text": "Haan, ise wapas 2 lakh karo."
+        },
+        {
+            "speaker": "RM",
+            "text": "Theek hai, main request register karta hoon. 3-5 din mein update ho jayega."
+        }
+    ]
+}

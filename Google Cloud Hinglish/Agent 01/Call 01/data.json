@@ -1,1 +1,32 @@
-{}
+{
+    "conversation": [
+        {
+            "speaker": "Customer",
+            "text": "Namaste, mera naam Ravi Kumar hai. Mera debit card last week se kaam nahi kar raha."
+        },
+        {
+            "speaker": "RM",
+            "text": "Namaste Ravi ji, main aapki help ke liye hoon. Kya aap bata sakte hain ki card kahaan use karne ki koshish ki thi?"
+        },
+        {
+            "speaker": "Customer",
+            "text": "Haan, maine ek online shopping ki try ki, lekin har baar 'transaction declined' ka message aa raha hai."
+        },
+        {
+            "speaker": "RM",
+            "text": "Samjha. Kya aap apna card number bata sakte hain taaki main check kar sakoon?"
+        },
+        {
+            "speaker": "Customer",
+            "text": "Yeh lijiye, 2 4 6 8 - 1 3 5 7 - 2 0 9 1 - 1 2 3 4. Please jaldi dekho, mujhe yeh jaldi fix karwana hai."
+        },
+        {
+            "speaker": "RM",
+            "text": "Ji, maine dekh liya. Aapke card pe ek technical block hai. Main ise abhi unblock kar deta hoon. 2 ghante mein yeh work karne lagega."
+        },
+        {
+            "speaker": "Customer",
+            "text": "Thanks, please sure karo ki yeh jaldi ho jaye."
+        }
+    ]
+}

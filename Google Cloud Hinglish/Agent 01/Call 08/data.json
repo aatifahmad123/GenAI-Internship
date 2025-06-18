@@ -1,1 +1,28 @@
-{}
+{
+    "conversation": [
+        {
+            "speaker": "Customer",
+            "text": "Hello, main Neha Joshi. Mera loan application reject kyun hua?"
+        },
+        {
+            "speaker": "RM",
+            "text": "Namaste Neha ji, main aapke application ka status check karta hoon. Please apna application number bata do."
+        },
+        {
+            "speaker": "Customer",
+            "text": "Yeh hai A P N 4 5 6 7 8 9. Mujhe koi reason nahi bataya gaya."
+        },
+        {
+            "speaker": "RM",
+            "text": "Maine check kiya. Aapka CIBIL score requirement se kam tha. Kya aap ise improve karne ke liye tips chahti hain?"
+        },
+        {
+            "speaker": "Customer",
+            "text": "Haan, please batao. Yeh bahut zaroori hai."
+        },
+        {
+            "speaker": "RM",
+            "text": "Ji, main aapko credit improvement ke tips mail karta hoon aur dobara application ke liye guide karoonga."
+        }
+    ]
+}

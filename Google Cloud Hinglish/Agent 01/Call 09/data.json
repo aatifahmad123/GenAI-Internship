@@ -1,1 +1,28 @@
-{}
+{
+    "conversation": [
+        {
+            "speaker": "Customer",
+            "text": "Namaste, main Ajay Verma. Mera savings account ka passbook update nahi hua hai."
+        },
+        {
+            "speaker": "RM",
+            "text": "Namaste Ajay ji, main aapki help karoonga. Please apna account number bata do."
+        },
+        {
+            "speaker": "Customer",
+            "text": "Haan, 4 5 6 7 8 9 1 2 3 4 5 6.Last 2 mahine ka record nahi dikh raha."
+        },
+        {
+            "speaker": "RM",
+            "text": "Maine check kiya. Aapka passbook update system mein pending hai. Kya aap branch mein aa sakte hain ya digital statement chahiye?"
+        },
+        {
+            "speaker": "Customer",
+            "text": "Digital statement bhej do."
+        },
+        {
+            "speaker": "RM",
+            "text": "Theek hai, main ise aapke registered email pe bhej deta hoon."
+        }
+    ]
+}

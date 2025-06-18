@@ -2,31 +2,31 @@
     "conversation": [
         {
             "speaker": "Customer",
-            "text": "नमस्ते, मैं विवेक गुप्ता। मेरे क्रेडिट कार्ड का बिलिंग साइकिल बदल गया है।"
+            "text": "Namaste, main Anil Verma. Mera credit card ka international transaction kyun nahi ho raha?"
         },
         {
             "speaker": "RM",
-            "text": "नमस्ते विवेक जी, मैं चेक करता हूँ। कृपया कार्ड नंबर बता दें।"
+            "text": "Namaste Anil ji, main check karta hoon. Kya aap apna card number aur country ka naam bata sakte hain?"
         },
         {
             "speaker": "Customer",
-            "text": "कार्ड नंबर 1234-5678-9012-3456। पहले 10 तारीख था, अब 20 दिख रहा है।"
+            "text": "Card number hai 1 2 3 4 - 5 6 7 8 - 9 0 1 2 - 3 4 5 6, aur main UK mein hoon."
         },
         {
             "speaker": "RM",
-            "text": "मैंने देखा। सिस्टम अपडेट के कारण साइकिल बदला गया। क्या आप पुराना साइकिल चाहेंगे?"
+            "text": "Aapke card pe international transactions disabled hain. Main ise abhi enable kar deta hoon. 15 minute mein try karen."
         },
         {
             "speaker": "Customer",
-            "text": "हाँ, 10 तारीख ही ठीक है।"
+            "text": "Achha, koi extra charge toh nahi?"
         },
         {
             "speaker": "RM",
-            "text": "मैं इसे वापस बदलने का अनुरोध दर्ज करता हूँ। धन्यवाद, विवेक जी। और कुछ?"
+            "text": "Nahi, koi extra charge nahi hai. Koi aur sawal?"
         },
         {
             "speaker": "Customer",
-            "text": "नहीं, धन्यवाद।"
+            "text": "Nahi, shukriya."
         }
     ]
 }

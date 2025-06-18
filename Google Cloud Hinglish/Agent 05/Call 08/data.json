@@ -2,31 +2,31 @@
     "conversation": [
         {
             "speaker": "Customer",
-            "text": "हैलो, मैं मेघा सिन्हा। मेरे लोन का पुनर्भुगतान शेड्यूल नहीं मिला।"
+            "text": "Hello, main Meera Joshi. Mera demat account ka annual maintenance charge kyun laga?"
         },
         {
             "speaker": "RM",
-            "text": "नमस्ते मेघा जी, मैं चेक करता हूँ। कृपया लोन अकाउंट नंबर बता दें।"
+            "text": "Namaste Meera ji, main check karta hoon. Kya aap apna demat account number bata sakti hain?"
         },
         {
             "speaker": "Customer",
-            "text": "लोन नंबर LN789123456। मुझे शेड्यूल चाहिए।"
+            "text": "Yeh hai D M 7 8 9 1 2 3 4 5 6."
         },
         {
             "speaker": "RM",
-            "text": "मैंने देखा। शेड्यूल आपके रजिस्टर्ड ईमेल पर भेजा गया था। मैं दोबारा भेजता हूँ।"
+            "text": "Maine dekha, aapke account pe standard annual maintenance charge ₹500 laga hai. Kya aap isey waive karne ke liye eligible hain, main check kar sakta hoon."
         },
         {
             "speaker": "Customer",
-            "text": "क्या इसे फिजिकल कॉपी में मिल सकता है?"
+            "text": "Haan, please check karo."
         },
         {
             "speaker": "RM",
-            "text": "हाँ, ब्रांच से ले सकते हैं। मैं ईमेल भी भेजता हूँ। धन्यवाद, मेघा जी। और कुछ?"
+            "text": "Theek hai, aapke trading volume ke basis pe main waive request daal deta hoon. 5 din mein update milega. Koi aur madad?"
         },
         {
             "speaker": "Customer",
-            "text": "नहीं, धन्यवाद।"
+            "text": "Nahi, thank you."
         }
     ]
 }

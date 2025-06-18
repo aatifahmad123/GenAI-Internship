@@ -2,31 +2,31 @@
     "conversation": [
         {
             "speaker": "Customer",
-            "text": "हैलो, मैं संदीप मल्होत्रा। मेरे क्रेडिट कार्ड का कैशबैक क्रेडिट नहीं हुआ।"
+            "text": "Namaste, main Geeta Verma. Mera UPI transaction stuck ho gaya hai."
         },
         {
             "speaker": "RM",
-            "text": "नमस्ते संदीप जी, मैं चेक करता हूँ। कृपया कार्ड नंबर और ऑफर विवरण बता दें।"
+            "text": "Namaste Geeta ji, sorry for the inconvenience. Kya aap transaction ID ya UPI reference number bata sakti hain?"
         },
         {
             "speaker": "Customer",
-            "text": "कार्ड नंबर 1234-5678-9012-3456। ऑनलाइन शॉपिंग पर 1000 रुपये कैशबैक मिलना था।"
+            "text": "Haan, yeh hai U P I 1 2 3 4 5 6 7 8 9 0 1 2."
         },
         {
             "speaker": "RM",
-            "text": "मैंने देखा। ऑफर की शर्तें पूरी हुई हैं। कैशबैक अगले बिलिंग साइकिल में क्रेडिट होगा।"
+            "text": "Main check karta hoon. Transaction pending hai bank ke end se. Main ise resolve kar deta hoon, 24 ghante mein paise reflect ho jayenge."
         },
         {
             "speaker": "Customer",
-            "text": "कब तक दिखेगा?"
+            "text": "Theek hai, mujhe update dena."
         },
         {
             "speaker": "RM",
-            "text": "15 तारीख तक अपडेट हो जाएगा। धन्यवाद, संदीप जी। और कुछ?"
+            "text": "Ji, main aapko confirm karta hoon jab resolve ho jaye. Koi aur madad?"
         },
         {
             "speaker": "Customer",
-            "text": "नहीं, धन्यवाद।"
+            "text": "Nahi, shukriya."
         }
     ]
 }

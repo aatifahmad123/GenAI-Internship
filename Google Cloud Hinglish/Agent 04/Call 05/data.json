@@ -2,31 +2,31 @@
     "conversation": [
         {
             "speaker": "Customer",
-            "text": "नमस्ते, मैं रोहित वर्मा। मेरे खाते में गलत खाता धारक का नाम लिंक है।"
+            "text": "Hello, main Amitabh Das. Mera demat account ka password reset kaise karoon?"
         },
         {
             "speaker": "RM",
-            "text": "नमस्ते रोहित जी, मैं चेक करता हूँ। कृपया खाता नंबर और सही नाम बता दें।"
+            "text": "Namaste Amitabh ji, main aapko guide karta hoon. Kya aap apna demat account number bata sakte hain?"
         },
         {
             "speaker": "Customer",
-            "text": "खाता नंबर 678123456789। सही नाम रोहित कुमार वर्मा है, लेकिन रोहित शर्मा दिख रहा है।"
+            "text": "Haan, yeh hai D M 4 5 6 7 8 9 1 2 3."
         },
         {
             "speaker": "RM",
-            "text": "मैंने नोट किया। KYC दस्तावेज जमा करें। मैं नाम अपडेट का अनुरोध भेजता हूँ।"
+            "text": "Aap hamare website ya app se password reset kar sakte hain. Main aapko OTP-based reset process ke steps email karta hoon."
         },
         {
             "speaker": "Customer",
-            "text": "कितने समय में ठीक होगा?"
+            "text": "Haan, email kar do. Kitna time lagega?"
         },
         {
             "speaker": "RM",
-            "text": "3-5 कार्यदिवस में अपडेट हो जाएगा। धन्यवाद, रोहित जी। और कुछ?"
+            "text": "OTP ke saath turant reset ho jayega. Koi aur sawal?"
         },
         {
             "speaker": "Customer",
-            "text": "नहीं, धन्यवाद।"
+            "text": "Nahi, thank you."
         }
     ]
 }

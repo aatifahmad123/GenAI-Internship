@@ -1,1 +1,28 @@
-{}
+{
+    "conversation": [
+        {
+            "speaker": "Customer",
+            "text": "Namaste, main Rajesh Gupta. Mere credit card ka bill ₹10,000 zyada dikh raha hai."
+        },
+        {
+            "speaker": "RM",
+            "text": "Namaste Rajesh ji, sorry for the trouble. Kya aap bill ki date aur transaction details bata sakte hain?"
+        },
+        {
+            "speaker": "Customer",
+            "text": "Haan, 15 May ka bill hai. Ek transaction ₹10,000 ka hai, jo maine kiya hi nahi!"
+        },
+        {
+            "speaker": "RM",
+            "text": "Samjha. Main check karta hoon. Lagta hai yeh ek fraud transaction ho sakta hai. Main ise block kar deta hoon aur refund process start karta hoon."
+        },
+        {
+            "speaker": "Customer",
+            "text": "Please jaldi karo, yeh bahut pareshan karne wala hai."
+        },
+        {
+            "speaker": "RM",
+            "text": "Ji, main samajhta hoon. 7-10 din mein refund aapke account mein hoga. Main aapko update doonga."
+        }
+    ]
+}

@@ -2,31 +2,31 @@
     "conversation": [
         {
             "speaker": "Customer",
-            "text": "हैलो, मैं शुभम गुप्ता। मेरे क्रेडिट कार्ड का रिवॉर्ड प्रोग्राम बदल गया है।"
+            "text": "Namaste, main Neeraj Kumar. Mera credit card ka reward points expire kyun ho rahe hain?"
         },
         {
             "speaker": "RM",
-            "text": "नमस्ते शुभम जी, मैं चेक करता हूँ। कृपया कार्ड नंबर बता दें।"
+            "text": "Namaste Neeraj ji, main check karta hoon. Kya aap apna card number bata sakte hain?"
         },
         {
             "speaker": "Customer",
-            "text": "कार्ड नंबर 8901-2345-6789-0123। पुराना प्रोग्राम बेहतर था।"
+            "text": "Yeh hai 2 3 4 5 - 6 7 8 9 - 0 1 2 3 - 4 5 6 7."
         },
         {
             "speaker": "RM",
-            "text": "मैंने देखा। नया प्रोग्राम बैंक की पॉलिसी के तहत लागू हुआ है। मैं डिटेल्स मेल करता हूँ।"
+            "text": "Maine dekha, aapke card ke points 2 saal baad expire hote hain as per terms. Aapke kuch points kal expire hone wale hain. Kya aap redeem karna chahte hain?"
         },
         {
             "speaker": "Customer",
-            "text": "क्या पुराना प्रोग्राम वापस मिल सकता है?"
+            "text": "Haan, kaise karoon?"
         },
         {
             "speaker": "RM",
-            "text": "मैं आपके लिए अनुरोध दर्ज कर सकता हूँ। आपको अपडेट दूँगा। धन्यवाद, शुभम जी।"
+            "text": "Main aapko redemption process ke steps app ya website pe mail karta hoon. Koi aur madad?"
         },
         {
             "speaker": "Customer",
-            "text": "ठीक है, धन्यवाद।"
+            "text": "Nahi, shukriya."
         }
     ]
 }

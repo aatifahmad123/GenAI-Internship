@@ -2,31 +2,31 @@
     "conversation": [
         {
             "speaker": "Customer",
-            "text": "नमस्ते, मैं अंकित जोशी। मेरे डेबिट कार्ड की लिमिट कम क्यों हो गई?"
+            "text": "Namaste, main Divya Bharti. Mera account ka email address update kaise karoon?"
         },
         {
             "speaker": "RM",
-            "text": "नमस्ते अंकित जी, मैं चेक करता हूँ। कृपया कार्ड नंबर बता दें।"
+            "text": "Namaste Divya ji, main aapko guide karta hoon. Kya aap apna account number aur naya email address bata sakti hain?"
         },
         {
             "speaker": "Customer",
-            "text": "कार्ड नंबर 5678-9012-3456-7890। पहले 50,000 थी, अब 20,000 दिख रही है।"
+            "text": "Account number hai 3 4 5 1 2 3 7 8 9 4 5 6, aur naya email hai divya.bharti@example.com."
         },
         {
             "speaker": "RM",
-            "text": "मैंने देखा। सिक्योरिटी कारणों से लिमिट समायोजित की गई। मैं इसे बढ़ाने का अनुरोध दर्ज करता हूँ।"
+            "text": "Theek hai, main ek OTP bhejta hoon verification ke liye. OTP aane ke baad bata dijiye."
         },
         {
             "speaker": "Customer",
-            "text": "कब तक ठीक होगा?"
+            "text": "OTP mila, yeh hai 789123."
         },
         {
             "speaker": "RM",
-            "text": "3-5 कार्यदिवस में अपडेट हो जाएगा। धन्यवाद, अंकित जी। और कोई सवाल?"
+            "text": "Verified. Aapka email update ho gaya hai. Koi aur madad?"
         },
         {
             "speaker": "Customer",
-            "text": "नहीं, धन्यवाद।"
+            "text": "Nahi, shukriya."
         }
     ]
 }

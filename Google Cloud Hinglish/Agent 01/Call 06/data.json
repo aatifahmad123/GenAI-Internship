@@ -1,1 +1,28 @@
-{}
+{
+    "conversation": [
+        {
+            "speaker": "Customer",
+            "text": "Hello, main Preeti Yadav. Mere account se ₹3,000 gayab hain, yeh kya mazaak hai?"
+        },
+        {
+            "speaker": "RM",
+            "text": "Namaste Preeti ji, yeh sunke sorry laga. Please apna account number bata do taaki main check kar sakoon."
+        },
+        {
+            "speaker": "Customer",
+            "text": "Haan, yeh hai 9 8 7 6 5 4 3 2 1 0 9 8.Jaldi dekho, main bahut pareshan hoon."
+        },
+        {
+            "speaker": "RM",
+            "text": "Maine dekha, ₹3,000 ka ek online transaction hua hai. Kya aapne koi payment kiya tha?"
+        },
+        {
+            "speaker": "Customer",
+            "text": "Nahi, maine kuch nahi kiya! Yeh fraud hai."
+        },
+        {
+            "speaker": "RM",
+            "text": "Chinta mat karo, main ise fraud case mein register karta hoon aur refund process start karta hoon."
+        }
+    ]
+}

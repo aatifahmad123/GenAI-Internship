@@ -2,31 +2,31 @@
     "conversation": [
         {
             "speaker": "Customer",
-            "text": "नमस्ते, मैं पूजा गुप्ता। मेरे लोन की ब्याज दर अचानक बढ़ गई है।"
+            "text": "Namaste, main Sunita Yadav. Mera account freeze kyun ho gaya hai?"
         },
         {
             "speaker": "RM",
-            "text": "नमस्ते पूजा जी, मैं चेक करता हूँ। कृपया अपना लोन अकाउंट नंबर बता दें।"
+            "text": "Namaste Sunita ji, sorry for the inconvenience. Kya aap apna account number bata sakti hain?"
         },
         {
             "speaker": "Customer",
-            "text": "हाँ, LN 9 8 7 6 5 4 3 2 ।  मुझे कोई नोटिस भी नहीं मिला।"
+            "text": "Haan, 5 6 7 8 9 0 1 2 3 4 5 6. Mujhe koi notice nahi mila."
         },
         {
             "speaker": "RM",
-            "text": "मैंने देखा। RBI की नई नीति के कारण ब्याज दर में बदलाव हुआ है। मैं आपको डिटेल्स मेल करता हूँ।"
+            "text": "Maine dekha, aapka KYC update pending hai. Kya aap branch mein ya online KYC submit kar sakti hain?"
         },
         {
             "speaker": "Customer",
-            "text": "क्या इसे कम कर सकते हैं?"
+            "text": "Oh, mujhe yaad nahi tha. Online kaise karoon?"
         },
         {
             "speaker": "RM",
-            "text": "मैं आपके लिए रिव्यू अनुरोध दर्ज कर सकता हूँ। आपको अपडेट दूँगा। धन्यवाद, पूजा जी।"
+            "text": "Main aapko online KYC ke steps email karta hoon. Ek baar submit karne ke 24 ghante baad account active ho jayega. Theek hai?"
         },
         {
             "speaker": "Customer",
-            "text": "ठीक है, धन्यवाद।"
+            "text": "Haan, shukriya."
         }
     ]
 }

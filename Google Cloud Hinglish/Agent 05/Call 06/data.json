@@ -2,31 +2,31 @@
     "conversation": [
         {
             "speaker": "Customer",
-            "text": "हैलो, मैं नीतू वर्मा। मेरे खाते का ईमेल पता गलत अपडेट हुआ है।"
+            "text": "Namaste, main Nisha Yadav. Mera account se ek double transaction ho gaya hai."
         },
         {
             "speaker": "RM",
-            "text": "नमस्ते नीतू जी, मैं चेक करता हूँ। कृपया खाता नंबर और सही ईमेल बता दें।"
+            "text": "Namaste Nisha ji, sorry for the trouble. Kya aap apna account number aur transaction details bata sakti hain?"
         },
         {
             "speaker": "Customer",
-            "text": "खाता नंबर 234567890123। सही ईमेल neetu.verma@gmail.com है।"
+            "text": "Account number hai 7 8 9 0 1 2 3 4 5 6 7 8, aur ₹2,000 ka transaction do baar hua kal."
         },
         {
             "speaker": "RM",
-            "text": "मैंने नोट किया। मैं सही ईमेल अपडेट करता हूँ। OTP वेरिफिकेशन की जरूरत होगी।"
+            "text": "Main check karta hoon. Haan, yeh duplicate transaction hai. Main refund process shuru karta hoon, 3-5 din mein ₹2,000 wapas aa jayega."
         },
         {
             "speaker": "Customer",
-            "text": "कब तक अपडेट हो जाएगा?"
+            "text": "Please jaldi karo."
         },
         {
             "speaker": "RM",
-            "text": "OTP वेरिफाई करने के बाद तुरंत। धन्यवाद, नीतू जी। और कोई सहायता?"
+            "text": "Ji, main priority pe handle karta hoon. Aapko update doonga. Koi aur madad?"
         },
         {
             "speaker": "Customer",
-            "text": "नहीं, धन्यवाद।"
+            "text": "Nahi, shukriya."
         }
     ]
 }

@@ -2,31 +2,31 @@
     "conversation": [
         {
             "speaker": "Customer",
-            "text": "हैलो, मैं रीना चौधरी। मेरा क्रेडिट कार्ड का पिन नहीं जनरेट हुआ।"
+            "text": "Hello, main Anjali Gupta. Mera credit card ka cash withdrawal limit kya hai?"
         },
         {
             "speaker": "RM",
-            "text": "नमस्ते रीना जी, मैं चेक करता हूँ। कृपया कार्ड नंबर बता दें।"
+            "text": "Namaste Anjali ji, main aapke card details check karta hoon. Kya aap apna card number bata sakti hain?"
         },
         {
             "speaker": "Customer",
-            "text": "कार्ड नंबर 2345-6789-0123-4567। मैंने नया कार्ड लिया था।"
+            "text": "Yeh hai 4 5 6 7 - 8 9 0 1 - 2 3 4 5 - 6 7 8 9."
         },
         {
             "speaker": "RM",
-            "text": "मैंने देखा। पिन जनरेशन रिक्वेस्ट फेल हुआ था। मैं दोबारा प्रोसेस करता हूँ।"
+            "text": "Aapke card ka cash withdrawal limit ₹50,000 per day hai. Kya aap isme koi change chahti hain?"
         },
         {
             "speaker": "Customer",
-            "text": "कब तक मिलेगा?"
+            "text": "Nahi, bas jankari chahiye thi. Koi charge toh nahi hai na?"
         },
         {
             "speaker": "RM",
-            "text": "48 घंटे में SMS से पिन मिलेगा। धन्यवाद, रीना जी। और कोई सहायता?"
+            "text": "Cash withdrawal pe 2.5% fee lagta hai, minimum ₹300. Main aapko details mail kar deta hoon. Theek hai?"
         },
         {
             "speaker": "Customer",
-            "text": "नहीं, धन्यवाद।"
+            "text": "Haan, thank you."
         }
     ]
 }

@@ -2,31 +2,31 @@
     "conversation": [
         {
             "speaker": "Customer",
-            "text": "हैलो, मैं अनन्या राय। मेरे खाते में म्यूचुअल फंड की राशि क्रेडिट नहीं हुई।"
+            "text": "Namaste, main Pooja Malhotra. Mera UPI ID kaise create karoon?"
         },
         {
             "speaker": "RM",
-            "text": "नमस्ते अनन्या जी, मैं चेक करता हूँ। कृपया खाता नंबर और फंड विवरण बता दें।"
+            "text": "Namaste Pooja ji, main aapko process batata hoon. Kya aap apna account number bata sakti hain?"
         },
         {
             "speaker": "Customer",
-            "text": "खाता नंबर 678901234567। 25,000 रुपये का रिडेम्पशन था।"
+            "text": "Yeh hai 4 5 6 7 8 9 1 2 3 4 5 6."
         },
         {
             "speaker": "RM",
-            "text": "मैंने देखा। राशि प्रोसेसिंग में है। 3 कार्यदिवस में क्रेडिट हो जाएगी।"
+            "text": "Aap hamare mobile app se UPI ID create kar sakti hain. Main aapko step-by-step guide SMS karta hoon. Aapko bank-linked mobile number chahiye hoga."
         },
         {
             "speaker": "Customer",
-            "text": "क्या मुझे कन्फर्मेशन मिलेगा?"
+            "text": "Haan, wohi number hai. Kitna time lagega?"
         },
         {
             "speaker": "RM",
-            "text": "हाँ, SMS और ईमेल से सूचना मिलेगी। धन्यवाद, अनन्या जी। और कुछ?"
+            "text": "Turant setup ho jayega jaise hi aap steps follow karengi. Koi aur madad?"
         },
         {
             "speaker": "Customer",
-            "text": "नहीं, धन्यवाद।"
+            "text": "Nahi, shukriya."
         }
     ]
 }

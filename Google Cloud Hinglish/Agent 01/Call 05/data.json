@@ -1,1 +1,28 @@
-{}
+{
+    "conversation": [
+        {
+            "speaker": "Customer",
+            "text": "Namaste, main Vikas Singh. Mera ATM card kho gaya hai, ise block karo."
+        },
+        {
+            "speaker": "RM",
+            "text": "Namaste Vikas ji, main turant card block karta hoon. Please apna card number ya account number bata do."
+        },
+        {
+            "speaker": "Customer",
+            "text": "Card number yaad nahi, lekin account number hai: 1 2 3 4 5 6 7 8 9 0 1 2."
+        },
+        {
+            "speaker": "RM",
+            "text": "Theek hai, maine card block kar diya. Naya card 5 din mein aapke address pe aa jayega."
+        },
+        {
+            "speaker": "Customer",
+            "text": "Shukriya, kitna charge hoga?"
+        },
+        {
+            "speaker": "RM",
+            "text": "Pehla replacement free hai. Aapko koi charge nahi dena hoga."
+        }
+    ]
+}

@@ -2,31 +2,31 @@
     "conversation": [
         {
             "speaker": "Customer",
-            "text": "नमस्ते, मैं ममता यादव। मेरे खाते का स्टेटमेंट गलत है।"
+            "text": "Hello, main Manisha Reddy. Mere demat account mein shares nahi dikh rahe."
         },
         {
             "speaker": "RM",
-            "text": "नमस्ते ममता जी, मैं इसे चेक करता हूँ। कृपया खाता नंबर और गलती का विवरण बता दें।"
+            "text": "Namaste Manisha ji, main aapki madad karoonga. Kya aap apna demat account number bata sakti hain?"
         },
         {
             "speaker": "Customer",
-            "text": "खाता नंबर 3 4 5 6 7 8 9 0 1 2 3 4 ।  मई का स्टेटमेंट में 3000 रुपये का लेनदेन गलत दिख रहा है।"
+            "text": "Haan, yeh hai D M 7 8 9 4 5 6 1 2 3. Maine kal hi kuch shares kharide the."
         },
         {
             "speaker": "RM",
-            "text": "मैंने देखा। ये एक तकनीकी त्रुटि है। मैं इसे ठीक करने के लिए अनुरोध भेजता हूँ।"
+            "text": "Main check karta hoon. Lagta hai shares T+2 settlement ke wajah se abhi reflect nahi hue. Kal tak dikh jayenge."
         },
         {
             "speaker": "Customer",
-            "text": "कब तक ठीक होगा?"
+            "text": "Achha, yeh T+2 kya hota hai?"
         },
         {
             "speaker": "RM",
-            "text": "3 कार्यदिवस में अपडेट हो जाएगा। धन्यवाद, ममता जी। और कुछ?"
+            "text": "Yeh stock market ka settlement period hai, jisme 2 din lagte hain. Main aapko iske baare mein details mail karta hoon. Theek hai?"
         },
         {
             "speaker": "Customer",
-            "text": "नहीं, धन्यवाद।"
+            "text": "Haan, thank you."
         }
     ]
 }

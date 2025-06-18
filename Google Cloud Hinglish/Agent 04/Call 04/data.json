@@ -2,31 +2,31 @@
     "conversation": [
         {
             "speaker": "Customer",
-            "text": "हैलो, मैं मनीषा शर्मा। मेरे डेबिट कार्ड का CVV नंबर काम नहीं कर रहा।"
+            "text": "Namaste, main Suman Rani. Mere account mein ek wrong credit hua hai ₹10,000 ka."
         },
         {
             "speaker": "RM",
-            "text": "नमस्ते मनीषा जी, मुझे खेद है। कृपया कार्ड नंबर और कहाँ उपयोग किया, बता दें।"
+            "text": "Namaste Suman ji, yeh sunke sorry laga. Kya aap apna account number aur transaction date bata sakti hain?"
         },
         {
             "speaker": "Customer",
-            "text": "कार्ड नंबर 4567-8901-2345-6789। ऑनलाइन शॉपिंग में CVV गलत बता रहा है।"
+            "text": "Account number hai 9 0 1 2 3 4 5 6 7 8 9 0, aur yeh kal hua."
         },
         {
             "speaker": "RM",
-            "text": "मैंने चेक किया। कार्ड डेटा में त्रुटि है। मैं नया कार्ड इश्यू करता हूँ।"
+            "text": "Main check karta hoon. Yeh ek bank error lagta hai. Main ise reverse karne ka process shuru karta hoon. 5 din mein resolve ho jayega."
         },
         {
             "speaker": "Customer",
-            "text": "कितने दिन में मिलेगा?"
+            "text": "Theek hai, mujhe update dena."
         },
         {
             "speaker": "RM",
-            "text": "5-7 दिन में डिलीवर हो जाएगा। धन्यवाद, मनीषा जी। और कोई सवाल?"
+            "text": "Ji, main aapko inform karta rahunga. Koi aur madad?"
         },
         {
             "speaker": "Customer",
-            "text": "नहीं, धन्यवाद।"
+            "text": "Nahi, shukriya."
         }
     ]
 }

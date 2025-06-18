@@ -2,31 +2,31 @@
     "conversation": [
         {
             "speaker": "Customer",
-            "text": "नमस्ते, मैं तरुण मेहता। मेरे डेबिट कार्ड का ऑनलाइन लिमिट सेट नहीं हो रहा।"
+            "text": "Namaste, main Sanjay Gupta. Mera loan ka EMI date change kaise karoon?"
         },
         {
             "speaker": "RM",
-            "text": "नमस्ते तरुण जी, मैं चेक करता हूँ। कृपया कार्ड नंबर और वांछित लिमिट बता दें।"
+            "text": "Namaste Sanjay ji, main aapko guide karta hoon. Kya aap apna loan account number bata sakte hain?"
         },
         {
             "speaker": "Customer",
-            "text": "कार्ड नंबर 4567-8901-2345-6789। मैं 1 लाख की लिमिट सेट करना चाहता हूँ।"
+            "text": "Haan, yeh hai L N 9 0 1 2 3 4 5 6 7."
         },
         {
             "speaker": "RM",
-            "text": "मैंने देखा। ऑनलाइन लिमिट के लिए KYC अपडेट चाहिए। मैं लिंक भेजता हूँ।"
+            "text": "EMI date change ke liye aapko request form submit karna hoga. Main aapko online ya branch ke options ke details mail karta hoon."
         },
         {
             "speaker": "Customer",
-            "text": "कितने समय में सेट होगा?"
+            "text": "Kitna time lagega aur koi charge hai?"
         },
         {
             "speaker": "RM",
-            "text": "KYC जमा करने के 2 कार्यदिवस बाद। धन्यवाद, तरुण जी। और कोई सवाल?"
+            "text": "Process 5-7 din lega, aur ₹200 ka nominal charge hai. Koi aur sawal?"
         },
         {
             "speaker": "Customer",
-            "text": "नहीं, धन्यवाद।"
+            "text": "Nahi, shukriya."
         }
     ]
 }

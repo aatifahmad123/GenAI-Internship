@@ -2,31 +2,31 @@
     "conversation": [
         {
             "speaker": "Customer",
-            "text": "हैलो, मैं सृष्टि शर्मा। मेरे डेबिट कार्ड पर अनजान लेनदेन हुआ है।"
+            "text": "Namaste, main Kavya Sharma. Mera debit card ka contactless feature kaise activate karoon?"
         },
         {
             "speaker": "RM",
-            "text": "नमस्ते सृष्टि जी, मुझे खेद है। कृपया कार्ड नंबर और लेनदेन विवरण बता दें।"
+            "text": "Namaste Kavya ji, main aapko guide karta hoon. Kya aap apna card number bata sakti hain?"
         },
         {
             "speaker": "Customer",
-            "text": "कार्ड नंबर 9012-3456-7890-1234। 5,000 रुपये का लेनदेन कल हुआ, जो मैंने नहीं किया।"
+            "text": "Yeh hai 9 0 1 2 - 3 4 5 6 - 7 8 9 0 - 1 2 3 4."
         },
         {
             "speaker": "RM",
-            "text": "मैंने नोट किया। ये संदिग्ध लेनदेन है। मैं कार्ड ब्लॉक और रिफंड प्रक्रिया शुरू करता हूँ।"
+            "text": "Maine check kiya, aapka card contactless feature support karta hai. Aap mobile app ya ATM se ise activate kar sakti hain. Main steps SMS karta hoon."
         },
         {
             "speaker": "Customer",
-            "text": "कितने दिन लगेंगे?"
+            "text": "Haan, SMS bhej do. Kitna time lagega?"
         },
         {
             "speaker": "RM",
-            "text": "7-10 कार्यदिवस में रिफंड हो जाएगा। धन्यवाद, सृष्टि जी। और कोई सवाल?"
+            "text": "Turant activate ho jayega jaise hi aap steps follow karengi. Koi aur madad?"
         },
         {
             "speaker": "Customer",
-            "text": "नहीं, धन्यवाद।"
+            "text": "Nahi, shukriya."
         }
     ]
 }

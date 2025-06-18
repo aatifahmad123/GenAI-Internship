@@ -2,31 +2,31 @@
     "conversation": [
         {
             "speaker": "Customer",
-            "text": "हैलो, मैं रितिका जैन। मेरा क्रेडिट कार्ड स्टेटमेंट डिलीवर नहीं हुआ।"
+            "text": "Hello, main Arnav Gupta. Mera credit card ka statement physical copy kaise milega?"
         },
         {
             "speaker": "RM",
-            "text": "नमस्ते रितिका जी, मैं चेक करता हूँ। कृपया कार्ड नंबर और रजिस्टर्ड पता बता दें।"
+            "text": "Namaste Arnav ji, main aapki madad karoonga. Kya aap apna card number bata sakte hain?"
         },
         {
             "speaker": "Customer",
-            "text": "कार्ड नंबर 6789-0123-4567-8901। पता वही है जो रजिस्टर्ड है।"
+            "text": "Yeh hai 5 6 7 8 - 9 0 1 2 - 3 4 5 6 -7 8 9 0."
         },
         {
             "speaker": "RM",
-            "text": "मैंने देखा। डिलीवरी में त्रुटि हुई थी। मैं डिजिटल स्टेटमेंट ईमेल करता हूँ।"
+            "text": "Aapke registered address pe physical statement bheja ja sakta hai. Kya aap annual subscription ke liye apply karna chahte hain? Ya ek baar ka statement chahiye?"
         },
         {
             "speaker": "Customer",
-            "text": "क्या भविष्य में फिजिकल स्टेटमेंट मिलेगा?"
+            "text": "Bas ek baar ka chahiye. Kitna charge hoga?"
         },
         {
             "speaker": "RM",
-            "text": "हाँ, मैं इसे सुनिश्चित करता हूँ। धन्यवाद, रितिका जी। और कोई सहायता?"
+            "text": "Ek baar ke liye ₹100 charge hai. Main request daal deta hoon, 7 din mein statement aapke address pe aa jayega. Theek hai?"
         },
         {
             "speaker": "Customer",
-            "text": "नहीं, धन्यवाद।"
+            "text": "Haan, thank you."
         }
     ]
 }

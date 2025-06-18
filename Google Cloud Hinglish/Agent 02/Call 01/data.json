@@ -2,31 +2,31 @@
     "conversation": [
         {
             "speaker": "Customer",
-            "text": "नमस्ते, मैं अमित शर्मा बोल रहा हूँ। मेरे खाते में गलत ब्याज क्रेडिट हुआ है।"
+            "text": "Namaste, main Priya Sharma. Mera net banking login nahi ho raha hai."
         },
         {
             "speaker": "RM",
-            "text": "नमस्ते अमित जी, मैं आपकी मदद करूँगा। कृपया अपना खाता नंबर बता दें ताकि मैं इसे चेक कर सकूँ।"
+            "text": "Namaste Priya ji, main aapki madad karoonga. Kya error message aa raha hai jab aap login karte hain?"
         },
         {
             "speaker": "Customer",
-            "text": "हाँ, मेरा खाता नंबर है 7 8 9 1 2 3 4 5 6 7 8 9 । मुझे 500 रुपये कम ब्याज मिला।"
+            "text": "Haan, 'incorrect password' bol raha hai, lekin maine wahi password daala jo hamesha use karti hoon."
         },
         {
             "speaker": "RM",
-            "text": "मैंने देखा। ऐसा लगता है कि ब्याज गणना में त्रुटि हुई है। मैं इसे सुधारने के लिए अनुरोध दर्ज करता हूँ।"
+            "text": "Theek hai, shayad password reset karna padega. Kya aap apna registered mobile number confirm kar sakti hain?"
         },
         {
             "speaker": "Customer",
-            "text": "कितने समय में ठीक होगा?"
+            "text": "Haan, yeh hai 9 8 7 6 5 4 3 2 1 0."
         },
         {
             "speaker": "RM",
-            "text": "3-5 कार्यदिवस में ब्याज अपडेट हो जाएगा। आपको सूचित कर दूँगा। धन्यवाद, अमित जी। और कुछ?"
+            "text": "Main aapko ek OTP bhejta hoon password reset ke liye. 5 minute mein aap dobara try kar sakti hain. Koi aur madad chahiye?"
         },
         {
             "speaker": "Customer",
-            "text": "नहीं, बस इतना ही। धन्यवाद।"
+            "text": "Nahi, bas yeh fix ho jaye. Shukriya."
         }
     ]
 }

@@ -2,31 +2,31 @@
     "conversation": [
         {
             "speaker": "Customer",
-            "text": "नमस्ते, मैं निखिल पांडे बोल रहा हूँ। मेरे खाते से अनजान चार्जेस कट रहे हैं।"
+            "text": "Namaste, main Shalini Tiwari. Mera credit card ka PIN kaise change karoon?"
         },
         {
             "speaker": "RM",
-            "text": "नमस्ते निखिल जी, मैं आपकी मदद करूँगा। कृपया अपना खाता नंबर और चार्जेस का विवरण बता दें।"
+            "text": "Namaste Shalini ji, main aapko guide karta hoon. Kya aap apna card number bata sakti hain?"
         },
         {
             "speaker": "Customer",
-            "text": "खाता नंबर 456123789012। पिछले महीने 250 रुपये का 'सर्विस फी' कटा, जो मुझे समझ नहीं आया।"
+            "text": "Haan, yeh hai 9 8 7 6 - 5 4 3 2 - 1 0 9 8 - 7 6 5 4."
         },
         {
             "speaker": "RM",
-            "text": "मैंने चेक किया। ये न्यूनतम बैलेंस न रखने का चार्ज था। मैं इसे माफ करने का अनुरोध दर्ज करता हूँ।"
+            "text": "Theek hai. Aap hamare mobile app ya ATM se PIN change kar sakti hain. Main aapko app ke steps SMS karta hoon. Kya yeh theek hai?"
         },
         {
             "speaker": "Customer",
-            "text": "कब तक रिफंड होगा?"
+            "text": "Haan, SMS bhej do. Kitna time lagega?"
         },
         {
             "speaker": "RM",
-            "text": "5 कार्यदिवस में रिफंड हो जाएगा। धन्यवाद, निखिल जी। और कुछ?"
+            "text": "Turant reflect ho jayega jaise hi aap new PIN set karengi. Koi aur madad?"
         },
         {
             "speaker": "Customer",
-            "text": "नहीं, धन्यवाद।"
+            "text": "Nahi, shukriya."
         }
     ]
 }

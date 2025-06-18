@@ -2,31 +2,31 @@
     "conversation": [
         {
             "speaker": "Customer",
-            "text": "हैलो, मैं स्वाति मिश्रा। मेरा क्रेडिट कार्ड विदेश में काम नहीं कर रहा।"
+            "text": "Hello, main Karan Mehra. Mere account mein ek unknown transaction hua hai ₹5,000 ka."
         },
         {
             "speaker": "RM",
-            "text": "नमस्ते स्वाति जी, मुझे खेद है। कृपया कार्ड नंबर और कहाँ उपयोग करने की कोशिश की, बता दें।"
+            "text": "Namaste Karan ji, yeh sunke sorry laga. Kya aap apna account number aur transaction date bata sakte hain?"
         },
         {
             "speaker": "Customer",
-            "text": "कार्ड नंबर 7890-1234-5678-9012। मैं यूरोप में ऑनलाइन पेमेंट कर रही थी।"
+            "text": "Account number hai 3 4 5 6 7 8 9 0 1 2 3 4, aur transaction kal ka hai."
         },
         {
             "speaker": "RM",
-            "text": "मैंने देखा। आपके कार्ड पर इंटरनेशनल ट्रांजैक्शन बंद है। मैं इसे सक्रिय करता हूँ।"
+            "text": "Main check karta hoon. Yeh ek unauthorized transaction lagta hai. Main ise block karta hoon aur refund process shuru karta hoon. 7 din mein update milega."
         },
         {
             "speaker": "Customer",
-            "text": "कितनी देर में काम करेगा?"
+            "text": "Please jaldi karo, yeh pareshan karne wala hai."
         },
         {
             "speaker": "RM",
-            "text": "24 घंटे में सक्रिय हो जाएगा। धन्यवाद, स्वाति जी। और कोई सहायता?"
+            "text": "Ji, main priority pe handle karta hoon. Aapko update deta rahunga. Koi aur sawal?"
         },
         {
             "speaker": "Customer",
-            "text": "बस इतना ही। धन्यवाद।"
+            "text": "Nahi, thank you."
         }
     ]
 }

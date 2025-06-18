@@ -2,31 +2,31 @@
     "conversation": [
         {
             "speaker": "Customer",
-            "text": "नमस्ते, मैं स्मिता पाटिल। मेरा क्रेडिट कार्ड स्टेटमेंट ईमेल पर नहीं आ रहा।"
+            "text": "Namaste, main Pooja Saxena. Mera account ka registered mobile number change karna hai."
         },
         {
             "speaker": "RM",
-            "text": "नमस्ते स्मिता जी, मैं चेक करता हूँ। कृपया कार्ड नंबर और रजिस्टर्ड ईमेल बता दें।"
+            "text": "Namaste Pooja ji, main aapki madad karoonga. Kya aap apna account number aur naya mobile number bata sakti hain?"
         },
         {
             "speaker": "Customer",
-            "text": "कार्ड नंबर 9 0 1 2 - 3 4 5 6 - 7 8 9 0 - 1 2 3 4, ईमेल smita.patil@gmail.com।"
+            "text": "Account number hai 6 7 8 9 0 1 2 3 4 5 6 7, aur naya number hai 8765432109."
         },
         {
             "speaker": "RM",
-            "text": "मैंने देखा। आपका ईमेल अपडेट नहीं था। मैंने ठीक कर दिया। नवीनतम स्टेटमेंट भेजता हूँ।"
+            "text": "Theek hai, main ek OTP bhejta hoon verification ke liye. OTP aane ke baad bata dijiye."
         },
         {
             "speaker": "Customer",
-            "text": "अच्छा, अब नियमित आएगा?"
+            "text": "OTP mila, yeh hai 4 5 6 7 8 9."
         },
         {
             "speaker": "RM",
-            "text": "हाँ, हर महीने आएगा। धन्यवाद, स्मिता जी। और कोई सवाल?"
+            "text": "Verified. Aapka naya number register ho gaya hai. Koi aur madad chahiye?"
         },
         {
             "speaker": "Customer",
-            "text": "नहीं, धन्यवाद।"
+            "text": "Nahi, thank you."
         }
     ]
 }

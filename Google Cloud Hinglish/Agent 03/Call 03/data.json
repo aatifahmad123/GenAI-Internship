@@ -2,31 +2,31 @@
     "conversation": [
         {
             "speaker": "Customer",
-            "text": "नमस्ते, मैं अरुण यादव। मेरे होम लोन का प्रीपेमेंट चार्ज कितना होगा?"
+            "text": "Namaste, main Vivek Sharma. Mera home loan ka foreclosure process kya hai?"
         },
         {
             "speaker": "RM",
-            "text": "नमस्ते अरुण जी, मैं चेक करता हूँ। कृपया अपना लोन अकाउंट नंबर बता दें।"
+            "text": "Namaste Vivek ji, main aapko process samjhaata hoon. Kya aap apna loan account number bata sakte hain?"
         },
         {
             "speaker": "Customer",
-            "text": "लोन नंबर LN45678901। मैं 5 लाख रुपये प्रीपे करना चाहता हूँ।"
+            "text": "Haan, yeh hai L N 4 5 6 7 8 9 0 1 2."
         },
         {
             "speaker": "RM",
-            "text": "मैंने देखा। आपकी लोन स्कीम में 2% प्रीपेमेंट चार्ज है, यानी 10,000 रुपये।"
+            "text": "Maine check kiya. Foreclosure ke liye aapko outstanding amount aur charges pay karne honge. Main aapko exact amount aur process email karta hoon."
         },
         {
             "speaker": "Customer",
-            "text": "क्या इसे माफ कर सकते हैं?"
+            "text": "Kitna charge lagega?"
         },
         {
             "speaker": "RM",
-            "text": "मैं छूट के लिए अनुरोध दर्ज कर सकता हूँ। आपको 3-5 दिन में अपडेट दूँगा। धन्यवाद, अरुण जी।"
+            "text": "Yeh loan terms pe depend karta hai, lekin details email mein honge. 2 din mein process start kar sakte hain. Theek hai?"
         },
         {
             "speaker": "Customer",
-            "text": "ठीक है, धन्यवाद।"
+            "text": "Haan, shukriya."
         }
     ]
 }

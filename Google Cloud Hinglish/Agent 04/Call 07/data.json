@@ -2,31 +2,31 @@
     "conversation": [
         {
             "speaker": "Customer",
-            "text": "नमस्ते, मैं काजल यादव। मेरे खाते में RTGS ट्रांसफर फेल हो गया।"
+            "text": "Namaste, main Priyanka Chopra. Mera locker ka access card kho gaya hai."
         },
         {
             "speaker": "RM",
-            "text": "नमस्ते काजल जी, मुझे खेद है। कृपया खाता नंबर और ट्रांसफर विवरण बता दें।"
+            "text": "Namaste Priyanka ji, main aapki madad karoonga. Kya aap apna account number ya locker number bata sakti hain?"
         },
         {
             "speaker": "Customer",
-            "text": "खाता नंबर 901234567890। 1 लाख रुपये का RTGS कल किया था।"
+            "text": "Account number hai 6 7 8 1 2 3 4 5 6 7 8 9."
         },
         {
             "speaker": "RM",
-            "text": "मैंने चेक किया। गलत बेनिफिशियरी डिटेल्स के कारण फेल हुआ। कृपया सही डिटेल्स दें।"
+            "text": "Main check karta hoon. Aapko branch visit karke new access card ke liye apply karna hoga. Main aapko required documents ke details mail karta hoon."
         },
         {
             "speaker": "Customer",
-            "text": "ठीक है, मैं आज दोबारा कोशिश करती हूँ।"
+            "text": "Kitna charge hoga?"
         },
         {
             "speaker": "RM",
-            "text": "बिल्कुल, मैं सहायता के लिए उपलब्ध हूँ। धन्यवाद, काजल जी। और कुछ?"
+            "text": "Replacement card ka charge ₹200 hai. Koi aur sawal?"
         },
         {
             "speaker": "Customer",
-            "text": "नहीं, धन्यवाद।"
+            "text": "Nahi, shukriya."
         }
     ]
 }

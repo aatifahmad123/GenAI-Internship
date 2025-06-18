@@ -2,31 +2,31 @@
     "conversation": [
         {
             "speaker": "Customer",
-            "text": "हैलो, मैं दीपिका साहू। मेरे लोन का इंश्योरेंस कवर क्यों नहीं मिला?"
+            "text": "Hello, main Sameer Khan. Mera mutual fund SIP kyun band ho gaya?"
         },
         {
             "speaker": "RM",
-            "text": "नमस्ते दीपिका जी, मैं चेक करता हूँ। कृपया लोन अकाउंट नंबर बता दें।"
+            "text": "Namaste Sameer ji, main check karta hoon. Kya aap apna folio number bata sakte hain?"
         },
         {
             "speaker": "Customer",
-            "text": "लोन नंबर LN234567890। मुझे इंश्योरेंस शामिल बताया गया था।"
+            "text": "Yeh hai M F 1 2 3 7 8 9 4 5 6."
         },
         {
             "speaker": "RM",
-            "text": "मैंने देखा। इंश्योरेंस प्रीमियम का पेमेंट पेंडिंग है। मैं आपको पेमेंट लिंक भेजता हूँ।"
+            "text": "Maine dekha, aapke account mein insufficient balance tha isliye SIP fail ho gaya. Kya aap balance daal ke SIP restart karna chahte hain?"
         },
         {
             "speaker": "Customer",
-            "text": "कितना पेमेंट करना होगा?"
+            "text": "Haan, kaise karoon?"
         },
         {
             "speaker": "RM",
-            "text": "2,500 रुपये। पेमेंट के बाद कवर सक्रिय हो जाएगा। धन्यवाद, दीपिका जी। और कुछ?"
+            "text": "Main aapko restart process aur payment details mail karta hoon. Aaj shaam tak restart ho jayega. Theek hai?"
         },
         {
             "speaker": "Customer",
-            "text": "नहीं, धन्यवाद।"
+            "text": "Haan, thank you."
         }
     ]
 }

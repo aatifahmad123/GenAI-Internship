@@ -2,31 +2,31 @@
     "conversation": [
         {
             "speaker": "Customer",
-            "text": "हैलो, मैं राहुल मेहता। मेरा ATM पिन भूल गया हूँ।"
+            "text": "Namaste, main Rohan Gupta. Mera debit card abroad kaam nahi kar raha."
         },
         {
             "speaker": "RM",
-            "text": "नमस्ते राहुल जी, चिंता न करें। कृपया अपना कार्ड नंबर या खाता नंबर बता दें।"
+            "text": "Namaste Rohan ji, main check karta hoon. Kya aap card number aur country ka naam bata sakte hain?"
         },
         {
             "speaker": "Customer",
-            "text": "खाता नंबर है 2 3 4 5 6 7 8 9 0 1 2 3 ।"
+            "text": "Card number hai 7 8 9 0 - 1 2 3 4 - 5 6 7 8 - 9 0 1 2, aur main USA mein hoon."
         },
         {
             "speaker": "RM",
-            "text": "मैंने नया पिन जनरेट करने का अनुरोध दर्ज किया। 48 घंटे में आपको SMS मिलेगा।"
+            "text": "Samjha. Aapke card pe international transactions disabled hain. Main ise abhi enable kar deta hoon. 10 minute mein try karen."
         },
         {
             "speaker": "Customer",
-            "text": "कोई चार्ज तो नहीं?"
+            "text": "Great, jaldi karo please."
         },
         {
             "speaker": "RM",
-            "text": "नहीं, ये मुफ्त है। धन्यवाद, राहुल जी। और कोई सवाल?"
+            "text": "Ho gaya, Rohan ji. Ab aapka card abroad kaam karega. Koi aur sawal?"
         },
         {
             "speaker": "Customer",
-            "text": "नहीं, धन्यवाद।"
+            "text": "Nahi, bas itna hi. Thanks."
         }
     ]
 }

@@ -1,1 +1,28 @@
-{}
+{
+    "conversation": [
+        {
+            "speaker": "Customer",
+            "text": "Hello, main Anita Verma. Maine ek FD kholi thi, lekin uska interest credit nahi hua."
+        },
+        {
+            "speaker": "RM",
+            "text": "Namaste Anita ji, main aapki FD details check karta hoon. Kya aap FD number bata sakti hain?"
+        },
+        {
+            "speaker": "Customer",
+            "text": "Haan, F D 1 2 3 4 5 6.Yeh 6 mahine pehle kholi thi."
+        },
+        {
+            "speaker": "RM",
+            "text": "Thanks. Maine check kiya, aapki FD ka interest quarterly credit hota hai. Next credit agle hafte hoga."
+        },
+        {
+            "speaker": "Customer",
+            "text": "Achha? Mujhe yeh bataya nahi gaya tha. Theek hai, thanks."
+        },
+        {
+            "speaker": "RM",
+            "text": "Sorry agar yeh clear nahi tha. Main aapko details mail kar deta hoon."
+        }
+    ]
+}

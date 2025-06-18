@@ -2,31 +2,31 @@
     "conversation": [
         {
             "speaker": "Customer",
-            "text": "हैलो, मैं नेहा पाटिल। मेरे खाते का मोबाइल नंबर अपडेट नहीं हुआ।"
+            "text": "Namaste, main Rajiv Mehra. Mera credit card ka bill payment online kyun nahi ho raha?"
         },
         {
             "speaker": "RM",
-            "text": "नमस्ते नेहा जी, मैं आपकी मदद करूँगा। कृपया खाता नंबर और नया नंबर बता दें।"
+            "text": "Namaste Rajiv ji, sorry for the trouble. Kya aap apna card number aur error message bata sakte hain?"
         },
         {
             "speaker": "Customer",
-            "text": "खाता नंबर 123456789012। नया नंबर 9876543210 है।"
+            "text": "Card number hai 7 8 9 0 - 1 2 3 4 - 5 6 7 8 - 9 0 1 2, aur error hai 'payment gateway timeout'."
         },
         {
             "speaker": "RM",
-            "text": "मैंने नोट किया। OTP वेरिफिकेशन के बाद नंबर अपडेट हो जाएगा। मैं OTP भेजता हूँ।"
+            "text": "Main check karta hoon. Yeh temporary gateway issue ho sakta hai. Kya aap UPI ya net banking se try kar sakte hain?"
         },
         {
             "speaker": "Customer",
-            "text": "कितनी देर में पूरा होगा?"
+            "text": "Theek hai, main net banking try karta hoon. Kitna time lagega?"
         },
         {
             "speaker": "RM",
-            "text": "OTP वेरिफाई करने के बाद तुरंत। धन्यवाद, नेहा जी। और कुछ?"
+            "text": "Payment turant reflect hona chahiye. Agar phir bhi issue ho, mujhe dobara call karen. Koi aur sawal?"
         },
         {
             "speaker": "Customer",
-            "text": "नहीं, धन्यवाद।"
+            "text": "Nahi, shukriya."
         }
     ]
 }

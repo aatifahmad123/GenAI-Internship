@@ -2,31 +2,31 @@
     "conversation": [
         {
             "speaker": "Customer",
-            "text": "नमस्ते, मैं विशाल तिवारी बोल रहा हूँ। मेरे खाते का बैलेंस अपडेट नहीं हो रहा।"
+            "text": "Namaste, main Rohit Sharma. Mera savings account ka minimum balance charge kyun laga?"
         },
         {
             "speaker": "RM",
-            "text": "नमस्ते विशाल जी, मैं आपकी मदद करूँगा। कृपया अपना खाता नंबर बता दें।"
+            "text": "Namaste Rohit ji, main check karta hoon. Kya aap apna account number bata sakte hain?"
         },
         {
             "speaker": "Customer",
-            "text": "खाता नंबर 789456123789। मैंने कल 10,000 रुपये जमा किए, लेकिन नहीं दिख रहा।"
+            "text": "Haan, yeh hai 1 2 3 7 8 9 4 5 6 0 1 2."
         },
         {
             "speaker": "RM",
-            "text": "मैंने चेक किया। जमा राशि प्रोसेसिंग में है। 24 घंटे में बैलेंस अपडेट हो जाएगा।"
+            "text": "Maine dekha, aapka account balance last month minimum requirement se kam tha. Isliye ₹500 ka charge laga. Kya main ise waive karne ki request daal doon?"
         },
         {
             "speaker": "Customer",
-            "text": "ठीक है, क्या मुझे कोई कन्फर्मेशन मिलेगा?"
+            "text": "Haan, please waive kar do."
         },
         {
             "speaker": "RM",
-            "text": "हाँ, SMS और ईमेल भेजा जाएगा। धन्यवाद, विशाल जी। और कुछ?"
+            "text": "Theek hai, main request daal deta hoon. 3-5 din mein charge reverse ho jayega. Koi aur madad?"
         },
         {
             "speaker": "Customer",
-            "text": "नहीं, धन्यवाद।"
+            "text": "Nahi, shukriya."
         }
     ]
 }

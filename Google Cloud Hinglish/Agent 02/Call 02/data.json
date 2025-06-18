@@ -2,31 +2,31 @@
     "conversation": [
         {
             "speaker": "Customer",
-            "text": "नमस्ते, मैं राधिका सिंह। मेरे डेबिट कार्ड से गलत डेबिट हुआ है।"
+            "text": "Namaste, main Vikram Patel. Mera mutual fund investment ka status kya hai?"
         },
         {
             "speaker": "RM",
-            "text": "नमस्ते राधिका जी, मुझे खेद है। कृपया कार्ड नंबर और लेनदेन की तारीख बता दें।"
+            "text": "Namaste Vikram ji, main check karta hoon. Kya aap apna folio number bata sakte hain?"
         },
         {
             "speaker": "Customer",
-            "text": "कार्ड नंबर है 1 2 3 4 - 5 6 7 8 - 9 0 1 2 - 3 4 5 6। 10 जून को 2000 रुपये का गलत डेबिट हुआ।"
+            "text": "Haan, yeh hai M F 7 8 9 1 2 3 4 5 6. Maine 3 mahine pehle invest kiya tha."
         },
         {
             "speaker": "RM",
-            "text": "मैंने चेक किया। ये एक डुप्लिकेट लेनदेन था। मैं रिफंड प्रक्रिया शुरू करता हूँ।"
+            "text": "Ek minute... Aapka investment active hai aur current NAV ke hisaab se 5% growth dikh raha hai. Kya aap detailed report chahte hain?"
         },
         {
             "speaker": "Customer",
-            "text": "कब तक पैसे वापस आएंगे?"
+            "text": "Haan, please email kar do."
         },
         {
             "speaker": "RM",
-            "text": "7 कार्यदिवस में रिफंड हो जाएगा। धन्यवाद, राधिका जी। और कोई सहायता?"
+            "text": "Theek hai, main report aapke registered email pe bhej deta hoon. Aur koi sawal?"
         },
         {
             "speaker": "Customer",
-            "text": "नहीं, धन्यवाद।"
+            "text": "Nahi, shukriya."
         }
     ]
 }

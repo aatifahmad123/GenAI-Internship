@@ -2,31 +2,31 @@
     "conversation": [
         {
             "speaker": "Customer",
-            "text": "हैलो, मैं कमलेश जोशी। मेरा लोन स्टेटमेंट गलत अवधि दिखा रहा है।"
+            "text": "Hello, main Ritu Malhotra. Mere savings account ka interest rate kya hai?"
         },
         {
             "speaker": "RM",
-            "text": "नमस्ते कमलेश जी, मैं चेक करता हूँ। कृपया लोन अकाउंट नंबर बता दें।"
+            "text": "Namaste Ritu ji, main check karta hoon. Kya aap apna account number bata sakti hain?"
         },
         {
             "speaker": "Customer",
-            "text": "लोन नंबर LN123789456। इसमें 5 साल की बजाय 7 साल दिख रहा है।"
+            "text": "Yeh hai 4 5 6 7 8 9 0 1 2 3 4 5."
         },
         {
             "speaker": "RM",
-            "text": "मैंने देखा। ये सिस्टम त्रुटि है। मैं सही अवधि अपडेट करने का अनुरोध भेजता हूँ।"
+            "text": "Aapke savings account ka current interest rate 3.5% per annum hai, quarterly credited. Kya aapko detailed terms chahiye?"
         },
         {
             "speaker": "Customer",
-            "text": "कितने समय में ठीक होगा?"
+            "text": "Haan, thodi aur jankari bhej do."
         },
         {
             "speaker": "RM",
-            "text": "3-5 कार्यदिवस में ठीक हो जाएगा। धन्यवाद, कमलेश जी। और कुछ?"
+            "text": "Main aapko interest calculation aur terms ke details email karta hoon. Koi aur madad?"
         },
         {
             "speaker": "Customer",
-            "text": "नहीं, धन्यवाद।"
+            "text": "Nahi, thank you."
         }
     ]
 }
