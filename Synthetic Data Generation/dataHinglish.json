@@ -1,294 +1,1574 @@
 {
-    "call_1": {
-      "conversation": [
-        {
-          "speaker": "Customer",
-          "text": "Namaste, mera naam Ravi Kumar hai. Mera debit card last week se kaam nahi kar raha."
-        },
-        {
-          "speaker": "RM",
-          "text": "Namaste Ravi ji, main aapki help ke liye hoon. Kya aap bata sakte hain ki card kahaan use karne ki koshish ki thi?"
-        },
-        {
-          "speaker": "Customer",
-          "text": "Haan, maine ek online shopping ki try ki, lekin har baar 'transaction declined' ka message aa raha hai."
-        },
-        {
-          "speaker": "RM",
-          "text": "Samjha. Kya aap apna card number bata sakte hain taaki main check kar sakoon?"
-        },
-        {
-          "speaker": "Customer",
-          "text": "Yeh lijiye, 2468-1357-2091-1234. Please jaldi dekho, mujhe yeh jaldi fix karwana hai."
-        },
-        {
-          "speaker": "RM",
-          "text": "Ji, maine dekh liya. Aapke card pe ek technical block hai. Main ise abhi unblock kar deta hoon. 2 ghante mein yeh work karne lagega."
-        },
-        {
-          "speaker": "Customer",
-          "text": "Thanks, please sure karo ki yeh jaldi ho jaye."
-        }
-      ]
-    },
-    "call_2": {
-      "conversation": [
-        {
-          "speaker": "Customer",
-          "text": "Hello, main Sheetal Sharma bol rahi hoon. Mere home loan ki EMI is mahine nahi kati, kya hua?"
-        },
-        {
-          "speaker": "RM",
-          "text": "Namaste Sheetal ji, main aapki help karoonga. Kya aap apna loan account number bata sakti hain?"
-        },
-        {
-          "speaker": "Customer",
-          "text": "Haan, yeh hai LN12345678. Maine auto-debit set kiya tha, phir bhi nahi hua."
-        },
-        {
-          "speaker": "RM",
-          "text": "Main check karta hoon. Ek minute... Lagta hai aapke account mein enough balance nahi tha. Kya aap confirm kar sakti hain?"
-        },
-        {
-          "speaker": "Customer",
-          "text": "Arre, yeh kaise? Maine toh paise rakhe the. Kitna kam tha?"
-        },
-        {
-          "speaker": "RM",
-          "text": "Almost ₹2,000 ki kami thi. Main suggest karta hoon ki balance daal ke dobara auto-debit try karo."
-        },
-        {
-          "speaker": "Customer",
-          "text": "Theek hai, main aaj hi daal deti hoon. Thanks."
-        }
-      ]
-    },
-    "call_3": {
-      "conversation": [
-        {
-          "speaker": "Customer",
-          "text": "Namaste, main Rajesh Gupta. Mere credit card ka bill ₹10,000 zyada dikh raha hai."
-        },
-        {
-          "speaker": "RM",
-          "text": "Namaste Rajesh ji, sorry for the trouble. Kya aap bill ki date aur transaction details bata sakte hain?"
-        },
-        {
-          "speaker": "Customer",
-          "text": "Haan, 15 May ka bill hai. Ek transaction ₹10,000 ka hai, jo maine kiya hi nahi!"
-        },
-        {
-          "speaker": "RM",
-          "text": "Samjha. Main check karta hoon. Lagta hai yeh ek fraud transaction ho sakta hai. Main ise block kar deta hoon aur refund process start karta hoon."
-        },
-        {
-          "speaker": "Customer",
-          "text": "Please jaldi karo, yeh bahut pareshan karne wala hai."
-        },
-        {
-          "speaker": "RM",
-          "text": "Ji, main samajhta hoon. 7-10 din mein refund aapke account mein hoga. Main aapko update doonga."
-        }
-      ]
-    },
-    "call_4": {
-      "conversation": [
-        {
-          "speaker": "Customer",
-          "text": "Hello, main Anita Verma. Maine ek FD kholi thi, lekin uska interest credit nahi hua."
-        },
-        {
-          "speaker": "RM",
-          "text": "Namaste Anita ji, main aapki FD details check karta hoon. Kya aap FD number bata sakti hain?"
-        },
-        {
-          "speaker": "Customer",
-          "text": "Haan, FD123456. Yeh 6 mahine pehle kholi thi."
-        },
-        {
-          "speaker": "RM",
-          "text": "Thanks. Maine check kiya, aapki FD ka interest quarterly credit hota hai. Next credit agle hafte hoga."
-        },
-        {
-          "speaker": "Customer",
-          "text": "Achha? Mujhe yeh bataya nahi gaya tha. Theek hai, thanks."
-        },
-        {
-          "speaker": "RM",
-          "text": "Sorry agar yeh clear nahi tha. Main aapko details mail kar deta hoon."
-        }
-      ]
-    },
-    "call_5": {
-      "conversation": [
-        {
-          "speaker": "Customer",
-          "text": "Namaste, main Vikas Singh. Mera ATM card kho gaya hai, ise block karo."
-        },
-        {
-          "speaker": "RM",
-          "text": "Namaste Vikas ji, main turant card block karta hoon. Please apna card number ya account number bata do."
-        },
-        {
-          "speaker": "Customer",
-          "text": "Card number yaad nahi, lekin account number hai: 123456789012."
-        },
-        {
-          "speaker": "RM",
-          "text": "Theek hai, maine card block kar diya. Naya card 5 din mein aapke address pe aa jayega."
-        },
-        {
-          "speaker": "Customer",
-          "text": "Shukriya, kitna charge hoga?"
-        },
-        {
-          "speaker": "RM",
-          "text": "Pehla replacement free hai. Aapko koi charge nahi dena hoga."
-        }
-      ]
-    },
-    "call_6": {
-      "conversation": [
-        {
-          "speaker": "Customer",
-          "text": "Hello, main Preeti Yadav. Mere account se ₹3,000 gayab hain, yeh kya mazaak hai?"
-        },
-        {
-          "speaker": "RM",
-          "text": "Namaste Preeti ji, yeh sunke sorry laga. Please apna account number bata do taaki main check kar sakoon."
-        },
-        {
-          "speaker": "Customer",
-          "text": "Haan, yeh hai 987654321098. Jaldi dekho, main bahut pareshan hoon."
-        },
-        {
-          "speaker": "RM",
-          "text": "Maine dekha, ₹3,000 ka ek online transaction hua hai. Kya aapne koi payment kiya tha?"
-        },
-        {
-          "speaker": "Customer",
-          "text": "Nahi, maine kuch nahi kiya! Yeh fraud hai."
-        },
-        {
-          "speaker": "RM",
-          "text": "Chinta mat karo, main ise fraud case mein register karta hoon aur refund process start karta hoon."
-        }
-      ]
-    },
-    "call_7": {
-      "conversation": [
-        {
-          "speaker": "Customer",
-          "text": "Namaste, main Sanjay Mishra. Mera credit card limit kyun kam ho gaya?"
-        },
-        {
-          "speaker": "RM",
-          "text": "Namaste Sanjay ji, main aapki card details check karta hoon. Please card number bata do."
-        },
-        {
-          "speaker": "Customer",
-          "text": "4567-9012-6831-5678. Pehle 2 lakh thi, ab 1.5 lakh dikh raha hai."
-        },
-        {
-          "speaker": "RM",
-          "text": "Ji, maine dekha. Aapki recent payment history ke basis pe limit adjust ki gayi hai. Kya aap ise badhwana chahte hain?"
-        },
-        {
-          "speaker": "Customer",
-          "text": "Haan, ise wapas 2 lakh karo."
-        },
-        {
-          "speaker": "RM",
-          "text": "Theek hai, main request register karta hoon. 3-5 din mein update ho jayega."
-        }
-      ]
-    },
-    "call_8": {
-      "conversation": [
-        {
-          "speaker": "Customer",
-          "text": "Hello, main Neha Joshi. Mera loan application reject kyun hua?"
-        },
-        {
-          "speaker": "RM",
-          "text": "Namaste Neha ji, main aapke application ka status check karta hoon. Please apna application number bata do."
-        },
-        {
-          "speaker": "Customer",
-          "text": "Yeh hai APN456789. Mujhe koi reason nahi bataya gaya."
-        },
-        {
-          "speaker": "RM",
-          "text": "Maine check kiya. Aapka CIBIL score requirement se kam tha. Kya aap ise improve karne ke liye tips chahti hain?"
-        },
-        {
-          "speaker": "Customer",
-          "text": "Haan, please batao. Yeh bahut zaroori hai."
-        },
-        {
-          "speaker": "RM",
-          "text": "Ji, main aapko credit improvement ke tips mail karta hoon aur dobara application ke liye guide karoonga."
-        }
-      ]
-    },
-    "call_9": {
-      "conversation": [
-        {
-          "speaker": "Customer",
-          "text": "Namaste, main Ajay Verma. Mera savings account ka passbook update nahi hua hai."
-        },
-        {
-          "speaker": "RM",
-          "text": "Namaste Ajay ji, main aapki help karoonga. Please apna account number bata do."
-        },
-        {
-          "speaker": "Customer",
-          "text": "Haan, 456789123456. Last 2 mahine ka record nahi dikh raha."
-        },
-        {
-          "speaker": "RM",
-          "text": "Maine check kiya. Aapka passbook update system mein pending hai. Kya aap branch mein aa sakte hain ya digital statement chahiye?"
-        },
-        {
-          "speaker": "Customer",
-          "text": "Digital statement bhej do."
-        },
-        {
-          "speaker": "RM",
-          "text": "Theek hai, main ise aapke registered email pe bhej deta hoon."
-        }
-      ]
-    },
-    "call_10": {
-      "conversation": [
-        {
-          "speaker": "Customer",
-          "text": "Hello, main Kavita Mehta. Mere credit card ke reward points redeem kaise karoon?"
-        },
-        {
-          "speaker": "RM",
-          "text": "Namaste Kavita ji, main aapko guide karta hoon. Kya aap apna card number bata sakti hain?"
-        },
-        {
-          "speaker": "Customer",
-          "text": "Haan, 1102-2034-5556-9012. Mere paas 5000 points hain."
-        },
-        {
-          "speaker": "RM",
-          "text": "Great! Aap hamare app ya website pe login karke reward section mein jaake points redeem kar sakti hain. Kya main steps mail karoon?"
-        },
-        {
-          "speaker": "Customer",
-          "text": "Haan, please mail karo."
-        },
-        {
-          "speaker": "RM",
-          "text": "Ji, main aapko detailed guide mail kar deta hoon. Aur koi question?"
-        },
-        {
-          "speaker": "Customer",
-          "text": "Nahi, bas itna hi. Thanks."
-        }
-      ]
-    }
+  "call_1": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Namaste, mera naam Ravi Kumar hai. Mera debit card last week se kaam nahi kar raha."
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Ravi ji, main aapki help ke liye hoon. Kya aap bata sakte hain ki card kahaan use karne ki koshish ki thi?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, maine ek online shopping ki try ki, lekin har baar 'transaction declined' ka message aa raha hai."
+      },
+      {
+        "speaker": "RM",
+        "text": "Samjha. Kya aap apna card number bata sakte hain taaki main check kar sakoon?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Yeh lijiye, 2 4 6 8 - 1 3 5 7 - 2 0 9 1 - 1 2 3 4. Please jaldi dekho, mujhe yeh jaldi fix karwana hai."
+      },
+      {
+        "speaker": "RM",
+        "text": "Ji, maine dekh liya. Aapke card pe ek technical block hai. Main ise abhi unblock kar deta hoon. 2 ghante mein yeh work karne lagega."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Thanks, please sure karo ki yeh jaldi ho jaye."
+      }
+    ]
+  },
+  "call_2": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Hello, main Sheetal Sharma bol rahi hoon. Mere home loan ki EMI is mahine nahi kati, kya hua?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Sheetal ji, main aapki help karoonga. Kya aap apna loan account number bata sakti hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, yeh hai L N 1 2 3 4 5 6 7 8.Maine auto-debit set kiya tha, phir bhi nahi hua."
+      },
+      {
+        "speaker": "RM",
+        "text": "Main check karta hoon. Ek minute... Lagta hai aapke account mein enough balance nahi tha. Kya aap confirm kar sakti hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Arre, yeh kaise? Maine toh paise rakhe the. Kitna kam tha?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Almost ₹2,000 ki kami thi. Main suggest karta hoon ki balance daal ke dobara auto-debit try karo."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Theek hai, main aaj hi daal deti hoon. Thanks."
+      }
+    ]
+  },
+  "call_3": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Namaste, main Rajesh Gupta. Mere credit card ka bill ₹10,000 zyada dikh raha hai."
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Rajesh ji, sorry for the trouble. Kya aap bill ki date aur transaction details bata sakte hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, 15 May ka bill hai. Ek transaction ₹10,000 ka hai, jo maine kiya hi nahi!"
+      },
+      {
+        "speaker": "RM",
+        "text": "Samjha. Main check karta hoon. Lagta hai yeh ek fraud transaction ho sakta hai. Main ise block kar deta hoon aur refund process start karta hoon."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Please jaldi karo, yeh bahut pareshan karne wala hai."
+      },
+      {
+        "speaker": "RM",
+        "text": "Ji, main samajhta hoon. 7-10 din mein refund aapke account mein hoga. Main aapko update doonga."
+      }
+    ]
+  },
+  "call_4": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Hello, main Anita Verma. Maine ek FD kholi thi, lekin uska interest credit nahi hua."
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Anita ji, main aapki FD details check karta hoon. Kya aap FD number bata sakti hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, F D 1 2 3 4 5 6.Yeh 6 mahine pehle kholi thi."
+      },
+      {
+        "speaker": "RM",
+        "text": "Thanks. Maine check kiya, aapki FD ka interest quarterly credit hota hai. Next credit agle hafte hoga."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Achha? Mujhe yeh bataya nahi gaya tha. Theek hai, thanks."
+      },
+      {
+        "speaker": "RM",
+        "text": "Sorry agar yeh clear nahi tha. Main aapko details mail kar deta hoon."
+      }
+    ]
+  },
+  "call_5": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Namaste, main Vikas Singh. Mera ATM card kho gaya hai, ise block karo."
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Vikas ji, main turant card block karta hoon. Please apna card number ya account number bata do."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Card number yaad nahi, lekin account number hai: 1 2 3 4 5 6 7 8 9 0 1 2."
+      },
+      {
+        "speaker": "RM",
+        "text": "Theek hai, maine card block kar diya. Naya card 5 din mein aapke address pe aa jayega."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Shukriya, kitna charge hoga?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Pehla replacement free hai. Aapko koi charge nahi dena hoga."
+      }
+    ]
+  },
+  "call_6": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Hello, main Preeti Yadav. Mere account se ₹3,000 gayab hain, yeh kya mazaak hai?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Preeti ji, yeh sunke sorry laga. Please apna account number bata do taaki main check kar sakoon."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, yeh hai 9 8 7 6 5 4 3 2 1 0 9 8.Jaldi dekho, main bahut pareshan hoon."
+      },
+      {
+        "speaker": "RM",
+        "text": "Maine dekha, ₹3,000 ka ek online transaction hua hai. Kya aapne koi payment kiya tha?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Nahi, maine kuch nahi kiya! Yeh fraud hai."
+      },
+      {
+        "speaker": "RM",
+        "text": "Chinta mat karo, main ise fraud case mein register karta hoon aur refund process start karta hoon."
+      }
+    ]
+  },
+  "call_7": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Namaste, main Sanjay Mishra. Mera credit card limit kyun kam ho gaya?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Sanjay ji, main aapki card details check karta hoon. Please card number bata do."
+      },
+      {
+        "speaker": "Customer",
+        "text": "4 5 6 7 - 9 0 1 2 - 6 8 3 1 - 5 6 7 8 .Pehle 2 lakh thi, ab 1.5 lakh dikh raha hai."
+      },
+      {
+        "speaker": "RM",
+        "text": "Ji, maine dekha. Aapki recent payment history ke basis pe limit adjust ki gayi hai. Kya aap ise badhwana chahte hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, ise wapas 2 lakh karo."
+      },
+      {
+        "speaker": "RM",
+        "text": "Theek hai, main request register karta hoon. 3-5 din mein update ho jayega."
+      }
+    ]
+  },
+  "call_8": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Hello, main Neha Joshi. Mera loan application reject kyun hua?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Neha ji, main aapke application ka status check karta hoon. Please apna application number bata do."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Yeh hai A P N 4 5 6 7 8 9. Mujhe koi reason nahi bataya gaya."
+      },
+      {
+        "speaker": "RM",
+        "text": "Maine check kiya. Aapka CIBIL score requirement se kam tha. Kya aap ise improve karne ke liye tips chahti hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, please batao. Yeh bahut zaroori hai."
+      },
+      {
+        "speaker": "RM",
+        "text": "Ji, main aapko credit improvement ke tips mail karta hoon aur dobara application ke liye guide karoonga."
+      }
+    ]
+  },
+  "call_9": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Namaste, main Ajay Verma. Mera savings account ka passbook update nahi hua hai."
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Ajay ji, main aapki help karoonga. Please apna account number bata do."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, 4 5 6 7 8 9 1 2 3 4 5 6.Last 2 mahine ka record nahi dikh raha."
+      },
+      {
+        "speaker": "RM",
+        "text": "Maine check kiya. Aapka passbook update system mein pending hai. Kya aap branch mein aa sakte hain ya digital statement chahiye?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Digital statement bhej do."
+      },
+      {
+        "speaker": "RM",
+        "text": "Theek hai, main ise aapke registered email pe bhej deta hoon."
+      }
+    ]
+  },
+  "call_10": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Hello, main Kavita Mehta. Mere credit card ke reward points redeem kaise karoon?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Kavita ji, main aapko guide karta hoon. Kya aap apna card number bata sakti hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, 1 1 0 2 - 2 0 3 4 - 5 5 5 6- 9 0 1 2.Mere paas 5000 points hain."
+      },
+      {
+        "speaker": "RM",
+        "text": "Great! Aap hamare app ya website pe login karke reward section mein jaake points redeem kar sakti hain. Kya main steps mail karoon?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, please mail karo."
+      },
+      {
+        "speaker": "RM",
+        "text": "Ji, main aapko detailed guide mail kar deta hoon. Aur koi question?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Nahi, bas itna hi. Thanks."
+      }
+    ]
+  },
+  "call_11": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Namaste, main Priya Sharma. Mera net banking login nahi ho raha hai."
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Priya ji, main aapki madad karoonga. Kya error message aa raha hai jab aap login karte hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, 'incorrect password' bol raha hai, lekin maine wahi password daala jo hamesha use karti hoon."
+      },
+      {
+        "speaker": "RM",
+        "text": "Theek hai, shayad password reset karna padega. Kya aap apna registered mobile number confirm kar sakti hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, yeh hai 9 8 7 6 5 4 3 2 1 0."
+      },
+      {
+        "speaker": "RM",
+        "text": "Main aapko ek OTP bhejta hoon password reset ke liye. 5 minute mein aap dobara try kar sakti hain. Koi aur madad chahiye?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Nahi, bas yeh fix ho jaye. Shukriya."
+      }
+    ]
+  },
+  "call_12": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Namaste, main Vikram Patel. Mera mutual fund investment ka status kya hai?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Vikram ji, main check karta hoon. Kya aap apna folio number bata sakte hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, yeh hai M F 7 8 9 1 2 3 4 5 6. Maine 3 mahine pehle invest kiya tha."
+      },
+      {
+        "speaker": "RM",
+        "text": "Ek minute... Aapka investment active hai aur current NAV ke hisaab se 5% growth dikh raha hai. Kya aap detailed report chahte hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, please email kar do."
+      },
+      {
+        "speaker": "RM",
+        "text": "Theek hai, main report aapke registered email pe bhej deta hoon. Aur koi sawal?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Nahi, shukriya."
+      }
+    ]
+  },
+  "call_13": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Hello, main Arjun Malhotra. Mera insurance premium ka payment fail ho raha hai."
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Arjun ji, main aapki madad karoonga. Kya aap policy number bata sakte hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Yeh hai I N S 4 5 6 7 8 9 1 2 3. Maine debit card se try kiya, lekin error aa raha hai."
+      },
+      {
+        "speaker": "RM",
+        "text": "Main check karta hoon. Lagta hai payment gateway mein temporary issue hai. Kya aap UPI ya net banking se try kar sakte hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Theek hai, main UPI try karta hoon. Kitna time lagega?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Payment turant reflect hona chahiye. Agar phir bhi issue ho, toh mujhe dobara call karen. Aur koi madad?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Nahi, thank you."
+      }
+    ]
+  },
+  "call_14": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Namaste, main Sunita Yadav. Mera account freeze kyun ho gaya hai?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Sunita ji, sorry for the inconvenience. Kya aap apna account number bata sakti hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, 5 6 7 8 9 0 1 2 3 4 5 6. Mujhe koi notice nahi mila."
+      },
+      {
+        "speaker": "RM",
+        "text": "Maine dekha, aapka KYC update pending hai. Kya aap branch mein ya online KYC submit kar sakti hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Oh, mujhe yaad nahi tha. Online kaise karoon?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Main aapko online KYC ke steps email karta hoon. Ek baar submit karne ke 24 ghante baad account active ho jayega. Theek hai?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, shukriya."
+      }
+    ]
+  },
+  "call_15": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Namaste, main Rohan Gupta. Mera debit card abroad kaam nahi kar raha."
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Rohan ji, main check karta hoon. Kya aap card number aur country ka naam bata sakte hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Card number hai 7 8 9 0 - 1 2 3 4 - 5 6 7 8 - 9 0 1 2, aur main USA mein hoon."
+      },
+      {
+        "speaker": "RM",
+        "text": "Samjha. Aapke card pe international transactions disabled hain. Main ise abhi enable kar deta hoon. 10 minute mein try karen."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Great, jaldi karo please."
+      },
+      {
+        "speaker": "RM",
+        "text": "Ho gaya, Rohan ji. Ab aapka card abroad kaam karega. Koi aur sawal?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Nahi, bas itna hi. Thanks."
+      }
+    ]
+  },
+  "call_16": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Hello, main Manisha Reddy. Mere demat account mein shares nahi dikh rahe."
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Manisha ji, main aapki madad karoonga. Kya aap apna demat account number bata sakti hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, yeh hai D M 7 8 9 4 5 6 1 2 3. Maine kal hi kuch shares kharide the."
+      },
+      {
+        "speaker": "RM",
+        "text": "Main check karta hoon. Lagta hai shares T+2 settlement ke wajah se abhi reflect nahi hue. Kal tak dikh jayenge."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Achha, yeh T+2 kya hota hai?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Yeh stock market ka settlement period hai, jisme 2 din lagte hain. Main aapko iske baare mein details mail karta hoon. Theek hai?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, thank you."
+      }
+    ]
+  },
+  "call_17": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Namaste, main Deepak Kumar. Mera locker ka renewal kaise karoon?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Deepak ji, main aapko guide karta hoon. Kya aap apna locker number ya account number bata sakte hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Account number hai 2 3 4 5 6 7 8 9 0 1 2 3. Locker number yaad nahi."
+      },
+      {
+        "speaker": "RM",
+        "text": "Koi baat nahi, maine check kar liya. Aapka locker renewal pending hai. Branch visit karke ya online payment se renew kar sakte hain."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Online kaise hoga?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Main aapko online renewal ke steps mail karta hoon. Payment ke baad locker renew ho jayega. Aur koi madad?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Nahi, shukriya."
+      }
+    ]
+  },
+  "call_18": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Hello, main Kiran Desai. Meri credit card statement mein late payment fee kyun laga?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Kiran ji, main check karta hoon. Kya aap apna card number bata sakti hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, 3 4 5 6 - 7 8 9 0 - 1 2 3 4 - 5 6 7 8. Maine toh time pe payment kiya tha."
+      },
+      {
+        "speaker": "RM",
+        "text": "Maine dekha, payment due date ke ek din baad receive hua. Isliye fee lag gaya. Main ek baar ke liye fee waive kar deta hoon."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Thank you, aage se kya dhyan rakhoon?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Due date se ek din pehle payment kar den. Main aapko payment reminder activate kar deta hoon. Theek hai?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, shukriya."
+      }
+    ]
+  },
+  "call_19": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Namaste, main Anil Thakur. Mera personal loan ka interest rate kyun badh gaya?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Anil ji, main aapke loan details check karta hoon. Kya aap apna loan account number bata sakte hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, yeh hai L N 9 8 7 6 5 4 3 2 1. Pehle 9% tha, ab 10% dikh raha hai."
+      },
+      {
+        "speaker": "RM",
+        "text": "Maine dekha, RBI ke new guidelines ke wajah se floating rate loans pe interest badha hai. Kya aap fixed rate pe switch karna chahte hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, yeh better hai. Kaise karoon?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Main aapko process ke liye documents aur steps mail karta hoon. 3 din mein switch ho jayega. Theek hai?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Shukriya, bas jaldi karo."
+      }
+    ]
+  },
+  "call_20": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Namaste, main Pooja Saxena. Mera account ka registered mobile number change karna hai."
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Pooja ji, main aapki madad karoonga. Kya aap apna account number aur naya mobile number bata sakti hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Account number hai 6 7 8 9 0 1 2 3 4 5 6 7, aur naya number hai 8765432109."
+      },
+      {
+        "speaker": "RM",
+        "text": "Theek hai, main ek OTP bhejta hoon verification ke liye. OTP aane ke baad bata dijiye."
+      },
+      {
+        "speaker": "Customer",
+        "text": "OTP mila, yeh hai 4 5 6 7 8 9."
+      },
+      {
+        "speaker": "RM",
+        "text": "Verified. Aapka naya number register ho gaya hai. Koi aur madad chahiye?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Nahi, thank you."
+      }
+    ]
+  },
+  "call_21": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Namaste, main Shalini Tiwari. Mera credit card ka PIN kaise change karoon?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Shalini ji, main aapko guide karta hoon. Kya aap apna card number bata sakti hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, yeh hai 9 8 7 6 - 5 4 3 2 - 1 0 9 8 - 7 6 5 4."
+      },
+      {
+        "speaker": "RM",
+        "text": "Theek hai. Aap hamare mobile app ya ATM se PIN change kar sakti hain. Main aapko app ke steps SMS karta hoon. Kya yeh theek hai?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, SMS bhej do. Kitna time lagega?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Turant reflect ho jayega jaise hi aap new PIN set karengi. Koi aur madad?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Nahi, shukriya."
+      }
+    ]
+  },
+  "call_22": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Hello, main Karan Mehra. Mere account mein ek unknown transaction hua hai ₹5,000 ka."
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Karan ji, yeh sunke sorry laga. Kya aap apna account number aur transaction date bata sakte hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Account number hai 3 4 5 6 7 8 9 0 1 2 3 4, aur transaction kal ka hai."
+      },
+      {
+        "speaker": "RM",
+        "text": "Main check karta hoon. Yeh ek unauthorized transaction lagta hai. Main ise block karta hoon aur refund process shuru karta hoon. 7 din mein update milega."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Please jaldi karo, yeh pareshan karne wala hai."
+      },
+      {
+        "speaker": "RM",
+        "text": "Ji, main priority pe handle karta hoon. Aapko update deta rahunga. Koi aur sawal?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Nahi, thank you."
+      }
+    ]
+  },
+  "call_23": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Namaste, main Vivek Sharma. Mera home loan ka foreclosure process kya hai?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Vivek ji, main aapko process samjhaata hoon. Kya aap apna loan account number bata sakte hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, yeh hai L N 4 5 6 7 8 9 0 1 2."
+      },
+      {
+        "speaker": "RM",
+        "text": "Maine check kiya. Foreclosure ke liye aapko outstanding amount aur charges pay karne honge. Main aapko exact amount aur process email karta hoon."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Kitna charge lagega?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Yeh loan terms pe depend karta hai, lekin details email mein honge. 2 din mein process start kar sakte hain. Theek hai?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, shukriya."
+      }
+    ]
+  },
+  "call_24": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Namaste, main Rekha Patel. Mera fixed deposit mature ho gaya, ab kya karoon?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Rekha ji, main aapki madad karoonga. Kya aap FD number bata sakti hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Yeh hai F D 7 8 9 4 5 6 1 2 3."
+      },
+      {
+        "speaker": "RM",
+        "text": "Maine dekha, aapki FD mature ho chuki hai. Kya aap amount withdraw karna chahti hain ya renew karna hai?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Main withdraw karna chahti hoon. Kitna time lagega?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Amount 24 ghante mein aapke account mein credit ho jayega. Main process start kar deta hoon. Koi aur madad?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Nahi, shukriya."
+      }
+    ]
+  },
+  "call_25": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Hello, main Nikhil Jain. Mere ATM se paise nahi nikal rahe, lekin balance kat gaya."
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Nikhil ji, sorry for the trouble. Kya aap apna account number aur transaction time bata sakte hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Account number hai 7 8 9 0 1 2 3 4 5 6 7 8, aur yeh aaj subah 10 baje hua."
+      },
+      {
+        "speaker": "RM",
+        "text": "Main check karta hoon. Yeh ATM glitch ke wajah se hua hai. Main refund request daal deta hoon, 3-5 din mein paise wapas aayenge."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Theek hai, please confirm karo jab ho jaye."
+      },
+      {
+        "speaker": "RM",
+        "text": "Ji, main aapko update karoonga. Koi aur sawal?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Nahi, thank you."
+      }
+    ]
+  },
+  "call_26": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Namaste, main Meena Kumari. Mera credit card ka statement online kaise download karoon?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Meena ji, main aapko steps batata hoon. Kya aap apna card number confirm kar sakti hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, yeh hai 1 2 3 4 - 5 6 7 8 - 9 0 1 2 - 3 4 5 6."
+      },
+      {
+        "speaker": "RM",
+        "text": "Aap hamare net banking ya mobile app se statement download kar sakti hain. Main aapko detailed steps email karta hoon. Theek hai?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, email kar do. Mujhe app use karna nahi aata."
+      },
+      {
+        "speaker": "RM",
+        "text": "Koi baat nahi, steps simple hain aur screenshots bhi bhej doonga. Koi aur madad?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Nahi, shukriya."
+      }
+    ]
+  },
+  "call_27": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Namaste, main Aditya Singh. Mera car loan ka EMI schedule kahan se milega?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Aditya ji, main aapki madad karoonga. Kya aap apna loan account number bata sakte hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, yeh hai L N 1 2 3 7 8 9 4 5 6."
+      },
+      {
+        "speaker": "RM",
+        "text": "Maine check kiya. Aapka EMI schedule net banking se download ho sakta hai, ya main aapko email kar sakta hoon. Kaunsa option chahenge?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Email kar do, please."
+      },
+      {
+        "speaker": "RM",
+        "text": "Theek hai, main schedule aapke registered email pe bhej deta hoon. Koi aur sawal?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Nahi, shukriya."
+      }
+    ]
+  },
+  "call_28": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Hello, main Ritu Malhotra. Mere savings account ka interest rate kya hai?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Ritu ji, main check karta hoon. Kya aap apna account number bata sakti hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Yeh hai 4 5 6 7 8 9 0 1 2 3 4 5."
+      },
+      {
+        "speaker": "RM",
+        "text": "Aapke savings account ka current interest rate 3.5% per annum hai, quarterly credited. Kya aapko detailed terms chahiye?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, thodi aur jankari bhej do."
+      },
+      {
+        "speaker": "RM",
+        "text": "Main aapko interest calculation aur terms ke details email karta hoon. Koi aur madad?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Nahi, thank you."
+      }
+    ]
+  },
+  "call_29": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Namaste, main Sanjay Rawat. Mera debit card ka annual fee kyun laga?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Sanjay ji, main aapke card details check karta hoon. Kya aap card number bata sakte hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, yeh hai 5 6 7 8 - 9 0 1 2 - 3 4 5 6 - 7 8 9 0."
+      },
+      {
+        "speaker": "RM",
+        "text": "Maine dekha, aapke card ka annual fee standard charges ka hissa hai. Lekin, agar aap minimum transactions karte hain, toh main fee waive karne ki request daal sakta hoon."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, please waive kar do."
+      },
+      {
+        "speaker": "RM",
+        "text": "Theek hai, main request daal deta hoon. 5 din mein fee reverse ho jayega. Koi aur sawal?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Nahi, shukriya."
+      }
+    ]
+  },
+  "call_30": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Namaste, main Geeta Verma. Mera UPI transaction stuck ho gaya hai."
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Geeta ji, sorry for the inconvenience. Kya aap transaction ID ya UPI reference number bata sakti hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, yeh hai U P I 1 2 3 4 5 6 7 8 9 0 1 2."
+      },
+      {
+        "speaker": "RM",
+        "text": "Main check karta hoon. Transaction pending hai bank ke end se. Main ise resolve kar deta hoon, 24 ghante mein paise reflect ho jayenge."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Theek hai, mujhe update dena."
+      },
+      {
+        "speaker": "RM",
+        "text": "Ji, main aapko confirm karta hoon jab resolve ho jaye. Koi aur madad?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Nahi, shukriya."
+      }
+    ]
+  },
+  "call_31": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Namaste, main Rohit Sharma. Mera savings account ka minimum balance charge kyun laga?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Rohit ji, main check karta hoon. Kya aap apna account number bata sakte hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, yeh hai 1 2 3 7 8 9 4 5 6 0 1 2."
+      },
+      {
+        "speaker": "RM",
+        "text": "Maine dekha, aapka account balance last month minimum requirement se kam tha. Isliye ₹500 ka charge laga. Kya main ise waive karne ki request daal doon?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, please waive kar do."
+      },
+      {
+        "speaker": "RM",
+        "text": "Theek hai, main request daal deta hoon. 3-5 din mein charge reverse ho jayega. Koi aur madad?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Nahi, shukriya."
+      }
+    ]
+  },
+  "call_32": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Hello, main Anjali Gupta. Mera credit card ka cash withdrawal limit kya hai?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Anjali ji, main aapke card details check karta hoon. Kya aap apna card number bata sakti hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Yeh hai 4 5 6 7 - 8 9 0 1 - 2 3 4 5 - 6 7 8 9."
+      },
+      {
+        "speaker": "RM",
+        "text": "Aapke card ka cash withdrawal limit ₹50,000 per day hai. Kya aap isme koi change chahti hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Nahi, bas jankari chahiye thi. Koi charge toh nahi hai na?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Cash withdrawal pe 2.5% fee lagta hai, minimum ₹300. Main aapko details mail kar deta hoon. Theek hai?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, thank you."
+      }
+    ]
+  },
+  "call_33": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Namaste, main Vikash Yadav. Mera personal loan ka prepayment kaise karoon?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Vikash ji, main aapko process samjhaata hoon. Kya aap apna loan account number bata sakte hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, yeh hai L N 7 8 9 1 2 3 4 5 6."
+      },
+      {
+        "speaker": "RM",
+        "text": "Maine check kiya. Prepayment ke liye aapko outstanding amount aur 2% prepayment charge pay karna hoga. Main exact amount email karta hoon."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Kitna time lagega process mein?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Payment ke baad 3 din mein loan account update ho jayega. Koi aur sawal?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Nahi, shukriya."
+      }
+    ]
+  },
+  "call_34": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Namaste, main Suman Rani. Mere account mein ek wrong credit hua hai ₹10,000 ka."
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Suman ji, yeh sunke sorry laga. Kya aap apna account number aur transaction date bata sakti hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Account number hai 9 0 1 2 3 4 5 6 7 8 9 0, aur yeh kal hua."
+      },
+      {
+        "speaker": "RM",
+        "text": "Main check karta hoon. Yeh ek bank error lagta hai. Main ise reverse karne ka process shuru karta hoon. 5 din mein resolve ho jayega."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Theek hai, mujhe update dena."
+      },
+      {
+        "speaker": "RM",
+        "text": "Ji, main aapko inform karta rahunga. Koi aur madad?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Nahi, shukriya."
+      }
+    ]
+  },
+  "call_35": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Hello, main Amitabh Das. Mera demat account ka password reset kaise karoon?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Amitabh ji, main aapko guide karta hoon. Kya aap apna demat account number bata sakte hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, yeh hai D M 4 5 6 7 8 9 1 2 3."
+      },
+      {
+        "speaker": "RM",
+        "text": "Aap hamare website ya app se password reset kar sakte hain. Main aapko OTP-based reset process ke steps email karta hoon."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, email kar do. Kitna time lagega?"
+      },
+      {
+        "speaker": "RM",
+        "text": "OTP ke saath turant reset ho jayega. Koi aur sawal?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Nahi, thank you."
+      }
+    ]
+  },
+  "call_36": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Namaste, main Neeraj Kumar. Mera credit card ka reward points expire kyun ho rahe hain?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Neeraj ji, main check karta hoon. Kya aap apna card number bata sakte hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Yeh hai 2 3 4 5 - 6 7 8 9 - 0 1 2 3 - 4 5 6 7."
+      },
+      {
+        "speaker": "RM",
+        "text": "Maine dekha, aapke card ke points 2 saal baad expire hote hain as per terms. Aapke kuch points kal expire hone wale hain. Kya aap redeem karna chahte hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, kaise karoon?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Main aapko redemption process ke steps app ya website pe mail karta hoon. Koi aur madad?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Nahi, shukriya."
+      }
+    ]
+  },
+  "call_37": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Namaste, main Priyanka Chopra. Mera locker ka access card kho gaya hai."
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Priyanka ji, main aapki madad karoonga. Kya aap apna account number ya locker number bata sakti hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Account number hai 6 7 8 1 2 3 4 5 6 7 8 9."
+      },
+      {
+        "speaker": "RM",
+        "text": "Main check karta hoon. Aapko branch visit karke new access card ke liye apply karna hoga. Main aapko required documents ke details mail karta hoon."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Kitna charge hoga?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Replacement card ka charge ₹200 hai. Koi aur sawal?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Nahi, shukriya."
+      }
+    ]
+  },
+  "call_38": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Hello, main Sameer Khan. Mera mutual fund SIP kyun band ho gaya?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Sameer ji, main check karta hoon. Kya aap apna folio number bata sakte hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Yeh hai M F 1 2 3 7 8 9 4 5 6."
+      },
+      {
+        "speaker": "RM",
+        "text": "Maine dekha, aapke account mein insufficient balance tha isliye SIP fail ho gaya. Kya aap balance daal ke SIP restart karna chahte hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, kaise karoon?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Main aapko restart process aur payment details mail karta hoon. Aaj shaam tak restart ho jayega. Theek hai?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, thank you."
+      }
+    ]
+  },
+  "call_39": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Namaste, main Divya Bharti. Mera account ka email address update kaise karoon?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Divya ji, main aapko guide karta hoon. Kya aap apna account number aur naya email address bata sakti hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Account number hai 3 4 5 1 2 3 7 8 9 4 5 6, aur naya email hai divya.bharti@example.com."
+      },
+      {
+        "speaker": "RM",
+        "text": "Theek hai, main ek OTP bhejta hoon verification ke liye. OTP aane ke baad bata dijiye."
+      },
+      {
+        "speaker": "Customer",
+        "text": "OTP mila, yeh hai 789123."
+      },
+      {
+        "speaker": "RM",
+        "text": "Verified. Aapka email update ho gaya hai. Koi aur madad?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Nahi, shukriya."
+      }
+    ]
+  },
+  "call_40": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Namaste, main Rajiv Mehra. Mera credit card ka bill payment online kyun nahi ho raha?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Rajiv ji, sorry for the trouble. Kya aap apna card number aur error message bata sakte hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Card number hai 7 8 9 0 - 1 2 3 4 - 5 6 7 8 - 9 0 1 2, aur error hai 'payment gateway timeout'."
+      },
+      {
+        "speaker": "RM",
+        "text": "Main check karta hoon. Yeh temporary gateway issue ho sakta hai. Kya aap UPI ya net banking se try kar sakte hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Theek hai, main net banking try karta hoon. Kitna time lagega?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Payment turant reflect hona chahiye. Agar phir bhi issue ho, mujhe dobara call karen. Koi aur sawal?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Nahi, shukriya."
+      }
+    ]
+  },
+  "call_41": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Namaste, main Shweta Singh. Mera account ka nominee kaise add karoon?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Shweta ji, main aapko guide karta hoon. Kya aap apna account number bata sakti hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, yeh hai 234567890123."
+      },
+      {
+        "speaker": "RM",
+        "text": "Theek hai. Nominee add karne ke liye aapko branch mein form submit karna hoga ya online banking se request daal sakti hain. Main aapko process aur documents ke details mail karta hoon."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Online ho sakta hai toh better hai. Kitna time lagega?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Online request 3-5 din mein process ho jayegi. Koi aur madad?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Nahi, shukriya."
+      }
+    ]
+  },
+  "call_42": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Hello, main Arnav Gupta. Mera credit card ka statement physical copy kaise milega?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Arnav ji, main aapki madad karoonga. Kya aap apna card number bata sakte hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Yeh hai 5678-9012-3456-7890."
+      },
+      {
+        "speaker": "RM",
+        "text": "Aapke registered address pe physical statement bheja ja sakta hai. Kya aap annual subscription ke liye apply karna chahte hain? Ya ek baar ka statement chahiye?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Bas ek baar ka chahiye. Kitna charge hoga?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Ek baar ke liye ₹100 charge hai. Main request daal deta hoon, 7 din mein statement aapke address pe aa jayega. Theek hai?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, thank you."
+      }
+    ]
+  },
+  "call_43": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Namaste, main Vinod Kumar. Mera home loan ka interest certificate kahan se milega?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Vinod ji, main check karta hoon. Kya aap apna loan account number bata sakte hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, yeh hai LN345678901."
+      },
+      {
+        "speaker": "RM",
+        "text": "Aapka interest certificate net banking se download ho sakta hai, ya main aapko email kar sakta hoon. Kaunsa option chahenge?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Email kar do, please."
+      },
+      {
+        "speaker": "RM",
+        "text": "Theek hai, main certificate aapke registered email pe bhej deta hoon. Koi aur sawal?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Nahi, shukriya."
+      }
+    ]
+  },
+  "call_44": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Namaste, main Kavya Sharma. Mera debit card ka contactless feature kaise activate karoon?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Kavya ji, main aapko guide karta hoon. Kya aap apna card number bata sakti hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Yeh hai 9012-3456-7890-1234."
+      },
+      {
+        "speaker": "RM",
+        "text": "Maine check kiya, aapka card contactless feature support karta hai. Aap mobile app ya ATM se ise activate kar sakti hain. Main steps SMS karta hoon."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, SMS bhej do. Kitna time lagega?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Turant activate ho jayega jaise hi aap steps follow karengi. Koi aur madad?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Nahi, shukriya."
+      }
+    ]
+  },
+  "call_45": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Hello, main Rakesh Patel. Mera fixed deposit ka auto-renewal kaise band karoon?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Rakesh ji, main aapki madad karoonga. Kya aap apna FD number bata sakte hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, yeh hai FD456789123."
+      },
+      {
+        "speaker": "RM",
+        "text": "Maine dekha, aapka FD auto-renewal pe set hai. Main ise deactivate kar deta hoon. Maturity ke baad amount aapke account mein credit ho jayega."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Theek hai, kab tak ho jayega?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Request aaj hi process ho jayegi. Koi aur sawal?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Nahi, thank you."
+      }
+    ]
+  },
+  "call_46": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Namaste, main Nisha Yadav. Mera account se ek double transaction ho gaya hai."
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Nisha ji, sorry for the trouble. Kya aap apna account number aur transaction details bata sakti hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Account number hai 789012345678, aur ₹2,000 ka transaction do baar hua kal."
+      },
+      {
+        "speaker": "RM",
+        "text": "Main check karta hoon. Haan, yeh duplicate transaction hai. Main refund process shuru karta hoon, 3-5 din mein ₹2,000 wapas aa jayega."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Please jaldi karo."
+      },
+      {
+        "speaker": "RM",
+        "text": "Ji, main priority pe handle karta hoon. Aapko update doonga. Koi aur madad?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Nahi, shukriya."
+      }
+    ]
+  },
+  "call_47": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Namaste, main Anil Verma. Mera credit card ka international transaction kyun nahi ho raha?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Anil ji, main check karta hoon. Kya aap apna card number aur country ka naam bata sakte hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Card number hai 1234-5678-9012-3456, aur main UK mein hoon."
+      },
+      {
+        "speaker": "RM",
+        "text": "Aapke card pe international transactions disabled hain. Main ise abhi enable kar deta hoon. 15 minute mein try karen."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Achha, koi extra charge toh nahi?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Nahi, koi extra charge nahi hai. Koi aur sawal?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Nahi, shukriya."
+      }
+    ]
+  },
+  "call_48": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Hello, main Meera Joshi. Mera demat account ka annual maintenance charge kyun laga?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Meera ji, main check karta hoon. Kya aap apna demat account number bata sakti hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Yeh hai DM789123456."
+      },
+      {
+        "speaker": "RM",
+        "text": "Maine dekha, aapke account pe standard annual maintenance charge ₹500 laga hai. Kya aap isey waive karne ke liye eligible hain, main check kar sakta hoon."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, please check karo."
+      },
+      {
+        "speaker": "RM",
+        "text": "Theek hai, aapke trading volume ke basis pe main waive request daal deta hoon. 5 din mein update milega. Koi aur madad?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Nahi, thank you."
+      }
+    ]
+  },
+  "call_49": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Namaste, main Sanjay Gupta. Mera loan ka EMI date change kaise karoon?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Sanjay ji, main aapko guide karta hoon. Kya aap apna loan account number bata sakte hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, yeh hai LN901234567."
+      },
+      {
+        "speaker": "RM",
+        "text": "EMI date change ke liye aapko request form submit karna hoga. Main aapko online ya branch ke options ke details mail karta hoon."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Kitna time lagega aur koi charge hai?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Process 5-7 din lega, aur ₹200 ka nominal charge hai. Koi aur sawal?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Nahi, shukriya."
+      }
+    ]
+  },
+  "call_50": {
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Namaste, main Pooja Malhotra. Mera UPI ID kaise create karoon?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Namaste Pooja ji, main aapko process batata hoon. Kya aap apna account number bata sakti hain?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Yeh hai 456789123456."
+      },
+      {
+        "speaker": "RM",
+        "text": "Aap hamare mobile app se UPI ID create kar sakti hain. Main aapko step-by-step guide SMS karta hoon. Aapko bank-linked mobile number chahiye hoga."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Haan, wohi number hai. Kitna time lagega?"
+      },
+      {
+        "speaker": "RM",
+        "text": "Turant setup ho jayega jaise hi aap steps follow karengi. Koi aur madad?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Nahi, shukriya."
+      }
+    ]
+  }
 }

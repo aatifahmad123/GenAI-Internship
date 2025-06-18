@@ -1,7 +1,7 @@
 import json
 
 json_file_path = "dataHindi.json"
-working_dir = f'../Google Cloud Hindi'
+working_dir = f'../Google Cloud Hinglish'
 
 with open(json_file_path, "r", encoding="utf-8") as jsonf:
     data = json.load(jsonf)
