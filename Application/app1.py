@@ -261,10 +261,51 @@ generated_on: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
 
 # Custom CSS for wide layout
 custom_css = """
+/* Import Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 .gradio-container {
     max-width: 100% !important;
     width: 100% !important;
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+    padding: 20px !important;
 }
+
+.header {
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.header img {
+    width: 50px;
+    height: auto;
+    margin-right: 15px;
+}
+.header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    color: #2D2D2D;
+    font-size: 0.9rem;
+}
+.footer a {
+    color: #F06321;
+    text-decoration: underline;
+}
+.footer a:hover {
+    color: #C2410C;
+}
+
+
 .download-btn {
     background: linear-gradient(45deg, #4CAF50, #45a049) !important;
     color: white !important;
@@ -274,7 +315,14 @@ custom_css = """
 
 # Gradio interface
 with gr.Blocks(css=custom_css, title="ICICI Bank Call Analysis") as demo:
-    gr.Markdown("# AI Powered Voice Call Summarization with Emotion and Sentiment Analysis")
+    gr.Markdown(
+        """
+        <div class="header">
+            <img src="https://cdn.brandfetch.io/idJHpX8apR/theme/dark/symbol.svg?c=1dxbfHSJFAPEGdCLU4o5B" alt="ICICI Bank Logo">
+            <h1>AI Powered Voice Call Summarization with Emotion and Sentiment Analysis</h1>
+        </div>
+        """
+    )
     
     # Input section
     with gr.Row():
@@ -348,6 +396,15 @@ with gr.Blocks(css=custom_css, title="ICICI Bank Call Analysis") as demo:
                         label="Detailed Analysis JSON",
                         value=None
                     )
+
+    # Footer with name and GitHub link
+    gr.Markdown(
+        """
+        <div class="footer"">
+        <p>Created by <a href="https://github.com/aatifahmad123" target="_blank">Aatif</a></p>
+        </div>
+        """
+    )
     
     # Event handlers
     def handle_duration(audio_path):
