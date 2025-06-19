@@ -18,8 +18,12 @@ if not GEMINI_API_KEY:
 # Initialize Google Cloud Speech client
 speech_client = speech.SpeechClient()
 
-# Function to get audio duration
 def get_audio_duration(audio_path):
+
+    '''
+    Function to calculate the duration of an audio file.
+    '''
+
     try:
         with wave.open(audio_path, 'rb') as wav_file:
             frames = wav_file.getnframes()
@@ -29,9 +33,12 @@ def get_audio_duration(audio_path):
     except Exception as e:
         return f"Error calculating duration: {str(e)}"
 
-# Function to transcribe audio
 def transcribe_audio(audio_path, language="en-IN"):
     
+    '''
+    Function to transcribe audio.
+    '''
+
     try:
         with io.open(audio_path, "rb") as audio:
             content = audio.read()
@@ -56,9 +63,12 @@ def transcribe_audio(audio_path, language="en-IN"):
     except Exception as e:
         return f"Error during transcription: {str(e)}"
 
-# Function to generate timestamps
 def generate_timestamps(audio_path, language="en-IN"):
     
+    '''
+    Function to generate timestamps.
+    '''
+
     try:
         with io.open(audio_path, "rb") as audio:
             content = audio.read()
@@ -91,8 +101,12 @@ def generate_timestamps(audio_path, language="en-IN"):
     except Exception as e:
         return {"error": f"Error generating timestamps: {str(e)}"}
 
-# Gemini response function (modified to remove call_id and agent_id)
 def get_gemini_response(transcription, timestamps, metadata):
+
+    '''
+    Function to get gemini response.
+    ''' 
+
     client = genai.Client(api_key=GEMINI_API_KEY)
     prompt = (
         f'''
@@ -169,8 +183,12 @@ def get_gemini_response(transcription, timestamps, metadata):
         response_text = response_text.rstrip("```").strip()
     return response_text
 
-# Function to format JSON response into readable format
 def format_analysis_results(json_data):
+
+    '''
+    Function to format JSON response into readable format
+    '''
+
     if not json_data:
         return "No analysis results available."
     
@@ -234,8 +252,12 @@ def format_analysis_results(json_data):
     
     return formatted
 
-# Function to create downloadable file
 def create_download_file(formatted_report):
+
+    '''
+    Function to create a markdown file for download.
+    '''
+
     if not formatted_report or formatted_report == "No analysis results available.":
         return None
     
@@ -259,16 +281,16 @@ generated_on: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
         print(f"Error creating download file: {e}")
         return None
 
-# Custom CSS for wide layout
+# Custom CSS
 custom_css = """
 /* Import Poppins font from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 .gradio-container {
-    max-width: 100% !important;
-    width: 100% !important;
-    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
-    padding: 20px !important;
+    max-width: 100%;
+    width: 100%;
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    padding: 20px;
 }
 
 .header {
@@ -307,9 +329,9 @@ custom_css = """
 
 
 .download-btn {
-    background: linear-gradient(45deg, #4CAF50, #45a049) !important;
-    color: white !important;
-    font-weight: bold !important;
+    background: linear-gradient(45deg, #4CAF50, #45a049);
+    color: white;
+    font-weight: bold;
 }
 """
 
@@ -367,8 +389,7 @@ with gr.Blocks(css=custom_css, title="ICICI Bank Call Analysis") as demo:
             
             # Transcription output
             with gr.Accordion("Transcription", open=False):
-                transcription_output = gr.Textbox(
-                    label="Transcript",
+                transcription_output = gr.Markdown(
                     value="Click 'Generate Transcript' to see results..."
                 )
             
@@ -427,7 +448,7 @@ with gr.Blocks(css=custom_css, title="ICICI Bank Call Analysis") as demo:
             }
         transcription = transcribe_audio(audio_path, language)
         return {
-            transcription_output: transcription,
+            transcription_output: transcription.replace("\n", "  \n"),
             status_output: gr.update(value="Transcription generated successfully.", visible=True)
         }
     
