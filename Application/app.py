@@ -1,8 +1,8 @@
 import os
 import json
 from dotenv import load_dotenv
-from google import genai
-from google.genai import types
+import google.generativeai as genai
+from google.generativeai import types
 from google.cloud import speech
 import gradio as gr
 from datetime import datetime
@@ -107,7 +107,7 @@ def get_gemini_response(transcription, timestamps, metadata):
     Function to get gemini response.
     ''' 
 
-    client = genai.Client(api_key=GEMINI_API_KEY)
+    genai.configure(api_key=GEMINI_API_KEY)
     prompt = (
         f'''
         Analyze the following call transcript and respond in the following JSON format.
@@ -165,15 +165,15 @@ def get_gemini_response(transcription, timestamps, metadata):
         
         Metadata: {metadata}
         
-        Please ensure the JSON is well-formed and valid.
+        Respond ONLY with raw, valid JSON (double quotes only, no markdown formatting or commentary).
         ''')
     
-    response = client.models.generate_content(
-        model="gemini-2.0-flash",
-        contents=prompt,
-        config=types.GenerateContentConfig(
+    model = genai.GenerativeModel("gemini-2.0-flash")
+    response = model.generate_content(
+        prompt,
+        generation_config=genai.types.GenerationConfig(
             max_output_tokens=1750,
-            temperature=0.2
+            temperature=0.2,
         )
     )
     response_text = response.text.strip()
