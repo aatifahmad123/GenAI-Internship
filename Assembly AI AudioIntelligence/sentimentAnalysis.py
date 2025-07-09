@@ -7,7 +7,7 @@ load_dotenv()
 
 aai.settings.api_key = os.getenv("ASSEMBLYAI_API_KEY")
 # audio_file = "./local_file.mp3"
-audio_file = "./audioFile.wav"
+audio_file = "./audioFile2.wav"
 
 config = aai.TranscriptionConfig(sentiment_analysis=True)
 
